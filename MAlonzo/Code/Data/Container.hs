@@ -22,7 +22,7 @@ import qualified MAlonzo.Code.Data.Container.Core
 
 -- Data.Container.μ
 d_μ_10 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Data.Container.Core.T_Container_10 -> ()
 d_μ_10 = erased

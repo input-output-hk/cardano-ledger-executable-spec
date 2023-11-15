@@ -26,10 +26,10 @@ import qualified MAlonzo.Code.Relation.Nullary.Decidable.Core
 
 -- Relation.Binary.Morphism.RelMonomorphism.refl
 d_refl_36 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   () ->
   (AgdaAny -> AgdaAny -> ()) ->
@@ -49,10 +49,10 @@ du_refl_36 v0 v1 v2 v3
       v3 v3 (coe v2 (coe v0 v3))
 -- Relation.Binary.Morphism.RelMonomorphism.sym
 d_sym_40 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   () ->
   (AgdaAny -> AgdaAny -> ()) ->
@@ -81,10 +81,10 @@ du_sym_40 v0 v1 v2 v3 v4 v5
             v3 v4 v5))
 -- Relation.Binary.Morphism.RelMonomorphism.trans
 d_trans_46 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   () ->
   (AgdaAny -> AgdaAny -> ()) ->
@@ -119,10 +119,10 @@ du_trans_46 v0 v1 v2 v3 v4 v5 v6 v7
             v4 v5 v7))
 -- Relation.Binary.Morphism.RelMonomorphism.total
 d_total_54 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   () ->
   (AgdaAny -> AgdaAny -> ()) ->
@@ -150,10 +150,10 @@ du_total_54 v0 v1 v2 v3 v4
       (coe v2 (coe v0 v3) (coe v0 v4))
 -- Relation.Binary.Morphism.RelMonomorphism.asym
 d_asym_62 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   () ->
   (AgdaAny -> AgdaAny -> ()) ->
@@ -170,10 +170,10 @@ d_asym_62 ::
 d_asym_62 = erased
 -- Relation.Binary.Morphism.RelMonomorphism.dec
 d_dec_70 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   () ->
   (AgdaAny -> AgdaAny -> ()) ->
@@ -197,17 +197,17 @@ du_dec_70 ::
   AgdaAny -> MAlonzo.Code.Relation.Nullary.Decidable.Core.T_Dec_20
 du_dec_70 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_154
+      MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_144
       (coe
          MAlonzo.Code.Relation.Binary.Morphism.Structures.d_injective_78 v1
          v3 v4)
       (coe v2 (coe v0 v3) (coe v0 v4))
 -- Relation.Binary.Morphism.RelMonomorphism.isEquivalence
 d_isEquivalence_78 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   () ->
   (AgdaAny -> AgdaAny -> ()) ->
@@ -237,10 +237,10 @@ du_isEquivalence_78 v0 v1 v2
          (coe MAlonzo.Code.Relation.Binary.Structures.d_trans_38 (coe v2)))
 -- Relation.Binary.Morphism.RelMonomorphism.isDecEquivalence
 d_isDecEquivalence_98 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   () ->
   (AgdaAny -> AgdaAny -> ()) ->
@@ -258,7 +258,7 @@ du_isDecEquivalence_98 ::
   MAlonzo.Code.Relation.Binary.Structures.T_IsDecEquivalence_44
 du_isDecEquivalence_98 v0 v1 v2
   = coe
-      MAlonzo.Code.Relation.Binary.Structures.C_IsDecEquivalence'46'constructor_2293
+      MAlonzo.Code.Relation.Binary.Structures.C_IsDecEquivalence'46'constructor_3075
       (coe
          du_isEquivalence_78 (coe v0) (coe v1)
          (coe

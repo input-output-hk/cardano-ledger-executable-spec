@@ -23,8 +23,8 @@ import qualified MAlonzo.Code.Class.Monoid.Core
 -- Class.Foldable.Core.Foldable
 d_Foldable_12 a0 = ()
 newtype T_Foldable_12
-  = C_Foldable'46'constructor_141 (MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-                                   MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  = C_Foldable'46'constructor_145 (MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+                                   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
                                    () ->
                                    () ->
                                    MAlonzo.Code.Class.Monoid.Core.T_Monoid_14 ->
@@ -32,21 +32,21 @@ newtype T_Foldable_12
 -- Class.Foldable.Core.Foldable.foldMap
 d_foldMap_26 ::
   T_Foldable_12 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   () ->
   MAlonzo.Code.Class.Monoid.Core.T_Monoid_14 ->
   (AgdaAny -> AgdaAny) -> AgdaAny -> AgdaAny
 d_foldMap_26 v0
   = case coe v0 of
-      C_Foldable'46'constructor_141 v1 -> coe v1
+      C_Foldable'46'constructor_145 v1 -> coe v1
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Class.Foldable.Core._.foldMap
 d_foldMap_30 ::
   T_Foldable_12 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   () ->
   MAlonzo.Code.Class.Monoid.Core.T_Monoid_14 ->

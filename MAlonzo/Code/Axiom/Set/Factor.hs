@@ -28,10 +28,9 @@ import qualified MAlonzo.Code.Data.List.Relation.Binary.Permutation.Propositiona
 import qualified MAlonzo.Code.Data.List.Relation.Unary.Unique.DecPropositional.Properties
 import qualified MAlonzo.Code.Data.List.Relation.Unary.Unique.Propositional.Properties.WithK
 import qualified MAlonzo.Code.Function.Bundles
-import qualified MAlonzo.Code.Function.Equivalence
-import qualified MAlonzo.Code.Function.Related
 import qualified MAlonzo.Code.Function.Related.Propositional
 import qualified MAlonzo.Code.Interface.DecEq
+import qualified MAlonzo.Code.Relation.Binary.Reasoning.Syntax
 
 -- Axiom.Set.Factor._._∪_
 d__'8746'__18 ::
@@ -101,7 +100,7 @@ d_factor_300 ::
   ([AgdaAny] -> AgdaAny) ->
   ([AgdaAny] ->
    [AgdaAny] ->
-   (AgdaAny -> MAlonzo.Code.Function.Equivalence.T_Equivalence_16) ->
+   (AgdaAny -> MAlonzo.Code.Function.Bundles.T_Equivalence_1714) ->
    AgdaAny) ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 -> AgdaAny
 d_factor_300 ~v0 ~v1 ~v2 ~v3 v4 ~v5 v6 = du_factor_300 v4 v6
@@ -124,7 +123,7 @@ d_factor'45'cong_304 ::
   ([AgdaAny] -> AgdaAny) ->
   ([AgdaAny] ->
    [AgdaAny] ->
-   (AgdaAny -> MAlonzo.Code.Function.Equivalence.T_Equivalence_16) ->
+   (AgdaAny -> MAlonzo.Code.Function.Bundles.T_Equivalence_1714) ->
    AgdaAny) ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
@@ -134,7 +133,7 @@ d_factor'45'cong_304 ~v0 ~v1 ~v2 ~v3 ~v4 v5 v6 v7 v8
 du_factor'45'cong_304 ::
   ([AgdaAny] ->
    [AgdaAny] ->
-   (AgdaAny -> MAlonzo.Code.Function.Equivalence.T_Equivalence_16) ->
+   (AgdaAny -> MAlonzo.Code.Function.Bundles.T_Equivalence_1714) ->
    AgdaAny) ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
@@ -152,36 +151,48 @@ du_factor'45'cong_304 v0 v1 v2 v3
                                   v0 v6 v10
                                   (\ v12 ->
                                      coe
-                                       MAlonzo.Code.Function.Related.du_toRelated_100
+                                       MAlonzo.Code.Relation.Binary.Reasoning.Syntax.du_step'45''8764'_300
+                                       (\ v13 v14 v15 ->
+                                          coe
+                                            MAlonzo.Code.Function.Related.Propositional.du_K'45'trans_164
+                                            (coe
+                                               MAlonzo.Code.Function.Related.Propositional.C_equivalence_12))
+                                       erased erased erased
                                        (coe
-                                          MAlonzo.Code.Function.Related.Propositional.C_equivalence_12)
+                                          MAlonzo.Code.Relation.Binary.Reasoning.Syntax.du_step'45''8764'_300
+                                          (\ v13 v14 v15 ->
+                                             coe
+                                               MAlonzo.Code.Function.Related.Propositional.du_K'45'trans_164
+                                               (coe
+                                                  MAlonzo.Code.Function.Related.Propositional.C_equivalence_12))
+                                          erased erased erased
+                                          (coe
+                                             MAlonzo.Code.Relation.Binary.Reasoning.Syntax.du_step'45''8764'_300
+                                             (\ v13 v14 v15 ->
+                                                coe
+                                                  MAlonzo.Code.Function.Related.Propositional.du_K'45'trans_164
+                                                  (coe
+                                                     MAlonzo.Code.Function.Related.Propositional.C_equivalence_12))
+                                             erased erased erased
+                                             (coe
+                                                MAlonzo.Code.Relation.Binary.Reasoning.Syntax.du__'8718'_492
+                                                (\ v13 ->
+                                                   coe
+                                                     MAlonzo.Code.Function.Related.Propositional.du_K'45'refl_160
+                                                     (coe
+                                                        MAlonzo.Code.Function.Related.Propositional.C_equivalence_12))
+                                                erased)
+                                             (coe v11 v12))
+                                          (coe
+                                             MAlonzo.Code.Function.Bundles.d_to_1724
+                                             (coe
+                                                MAlonzo.Code.Axiom.Set.Properties.du_'8801''7497''8660''8801''7497'''_244)
+                                             v3 v12))
                                        (coe
-                                          MAlonzo.Code.Function.Related.Propositional.du__'8764''10216'_'10217'__202
+                                          MAlonzo.Code.Function.Related.Propositional.du_SK'45'sym_168
                                           (coe
-                                             MAlonzo.Code.Function.Related.Propositional.C_equivalence_12)
-                                          (coe
-                                             MAlonzo.Code.Function.Related.Propositional.du_SK'45'sym_168
-                                             (coe
-                                                MAlonzo.Code.Function.Related.Propositional.C_equivalence_88)
-                                             (coe v7 v12))
-                                          (coe
-                                             MAlonzo.Code.Function.Related.Propositional.du__'8764''10216'_'10217'__202
-                                             (coe
-                                                MAlonzo.Code.Function.Related.Propositional.C_equivalence_12)
-                                             (coe
-                                                MAlonzo.Code.Function.Bundles.d_to_938
-                                                (coe
-                                                   MAlonzo.Code.Axiom.Set.Properties.du_'8801''7497''8660''8801''7497'''_244)
-                                                v3 v12)
-                                             (coe
-                                                MAlonzo.Code.Function.Related.Propositional.du__'8764''10216'_'10217'__202
-                                                (coe
-                                                   MAlonzo.Code.Function.Related.Propositional.C_equivalence_12)
-                                                (coe v11 v12)
-                                                (coe
-                                                   MAlonzo.Code.Function.Related.Propositional.du__'8718'_248
-                                                   (coe
-                                                      MAlonzo.Code.Function.Related.Propositional.C_equivalence_12))))))
+                                             MAlonzo.Code.Function.Related.Propositional.C_equivalence_88)
+                                          (coe v7 v12)))
                            _ -> MAlonzo.RTE.mazUnreachableError
                     _ -> MAlonzo.RTE.mazUnreachableError
              _ -> MAlonzo.RTE.mazUnreachableError
@@ -195,7 +206,7 @@ d_factor'45''8746'_340 ::
   ([AgdaAny] -> AgdaAny) ->
   ([AgdaAny] ->
    [AgdaAny] ->
-   (AgdaAny -> MAlonzo.Code.Function.Equivalence.T_Equivalence_16) ->
+   (AgdaAny -> MAlonzo.Code.Function.Bundles.T_Equivalence_1714) ->
    AgdaAny) ->
   (AgdaAny -> AgdaAny -> AgdaAny -> ()) ->
   AgdaAny ->
@@ -236,7 +247,7 @@ d_f'45'cong''_368 ::
    AgdaAny) ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
-  (AgdaAny -> MAlonzo.Code.Function.Bundles.T_Equivalence_928) ->
+  (AgdaAny -> MAlonzo.Code.Function.Bundles.T_Equivalence_1714) ->
   AgdaAny
 d_f'45'cong''_368 ~v0 ~v1 ~v2 ~v3 ~v4 ~v5 v6 v7 v8 v9
   = du_f'45'cong''_368 v6 v7 v8 v9
@@ -247,23 +258,18 @@ du_f'45'cong''_368 ::
    AgdaAny) ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
-  (AgdaAny -> MAlonzo.Code.Function.Bundles.T_Equivalence_928) ->
+  (AgdaAny -> MAlonzo.Code.Function.Bundles.T_Equivalence_1714) ->
   AgdaAny
 du_f'45'cong''_368 v0 v1 v2 v3
   = coe
       v0 v1 v2
       (coe
-         MAlonzo.Code.Data.List.Relation.Binary.BagAndSetEquality.du_'8764'bag'8658''8621'_1500
+         MAlonzo.Code.Data.List.Relation.Binary.BagAndSetEquality.du_'8764'bag'8658''8621'_1456
          (coe MAlonzo.Code.Agda.Builtin.Sigma.d_fst_28 (coe v1))
          (coe MAlonzo.Code.Agda.Builtin.Sigma.d_fst_28 (coe v2))
          (coe
             MAlonzo.Code.Data.List.Relation.Unary.Unique.Propositional.Properties.WithK.du_unique'8743'set'8658'bag_64
-            (coe
-               (\ v4 ->
-                  coe
-                    MAlonzo.Code.Function.Related.du_toRelated_100
-                    (coe MAlonzo.Code.Function.Related.Propositional.C_equivalence_12)
-                    (coe v3 v4)))))
+            (coe v3)))
 -- Axiom.Set.Factor.FactorUnique.deduplicate-Σ
 d_deduplicate'45'Σ_376 ::
   MAlonzo.Code.Axiom.Set.T_Theory_82 ->
@@ -286,7 +292,7 @@ du_deduplicate'45'Σ_376 v0 v1
   = coe
       MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32
       (coe
-         MAlonzo.Code.Data.List.Base.du_deduplicate_834
+         MAlonzo.Code.Data.List.Base.du_deduplicate_934
          (MAlonzo.Code.Interface.DecEq.d__'8799'__20 (coe v0)) v1)
       (coe
          MAlonzo.Code.Data.List.Relation.Unary.Unique.DecPropositional.Properties.du_deduplicate'45''33'_42
@@ -325,7 +331,7 @@ d_ext'45'cong_386 ::
    AgdaAny) ->
   [AgdaAny] ->
   [AgdaAny] ->
-  (AgdaAny -> MAlonzo.Code.Function.Equivalence.T_Equivalence_16) ->
+  (AgdaAny -> MAlonzo.Code.Function.Bundles.T_Equivalence_1714) ->
   AgdaAny
 d_ext'45'cong_386 ~v0 ~v1 ~v2 v3 ~v4 ~v5 v6 v7 v8 v9
   = du_ext'45'cong_386 v3 v6 v7 v8 v9
@@ -337,7 +343,7 @@ du_ext'45'cong_386 ::
    AgdaAny) ->
   [AgdaAny] ->
   [AgdaAny] ->
-  (AgdaAny -> MAlonzo.Code.Function.Equivalence.T_Equivalence_16) ->
+  (AgdaAny -> MAlonzo.Code.Function.Bundles.T_Equivalence_1714) ->
   AgdaAny
 du_ext'45'cong_386 v0 v1 v2 v3 v4
   = coe
@@ -345,7 +351,7 @@ du_ext'45'cong_386 v0 v1 v2 v3 v4
       (coe
          MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32
          (coe
-            MAlonzo.Code.Data.List.Base.du_deduplicate_834
+            MAlonzo.Code.Data.List.Base.du_deduplicate_934
             (MAlonzo.Code.Interface.DecEq.d__'8799'__20 (coe v0)) v2)
          (coe
             MAlonzo.Code.Data.List.Relation.Unary.Unique.DecPropositional.Properties.du_deduplicate'45''33'_42
@@ -353,7 +359,7 @@ du_ext'45'cong_386 v0 v1 v2 v3 v4
       (coe
          MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32
          (coe
-            MAlonzo.Code.Data.List.Base.du_deduplicate_834
+            MAlonzo.Code.Data.List.Base.du_deduplicate_934
             (MAlonzo.Code.Interface.DecEq.d__'8799'__20 (coe v0)) v3)
          (coe
             MAlonzo.Code.Data.List.Relation.Unary.Unique.DecPropositional.Properties.du_deduplicate'45''33'_42
@@ -361,31 +367,43 @@ du_ext'45'cong_386 v0 v1 v2 v3 v4
       (coe
          (\ v5 ->
             coe
-              MAlonzo.Code.Function.Related.Propositional.du__'8764''10216'_'10217'__202
-              (coe MAlonzo.Code.Function.Related.Propositional.C_equivalence_12)
+              MAlonzo.Code.Relation.Binary.Reasoning.Syntax.du_step'45''8764'_300
+              (\ v6 v7 v8 ->
+                 coe
+                   MAlonzo.Code.Function.Related.Propositional.du_K'45'trans_164
+                   (coe MAlonzo.Code.Function.Related.Propositional.C_equivalence_12))
+              erased erased erased
+              (coe
+                 MAlonzo.Code.Relation.Binary.Reasoning.Syntax.du_step'45''8764'_300
+                 (\ v6 v7 v8 ->
+                    coe
+                      MAlonzo.Code.Function.Related.Propositional.du_K'45'trans_164
+                      (coe MAlonzo.Code.Function.Related.Propositional.C_equivalence_12))
+                 erased erased erased
+                 (coe
+                    MAlonzo.Code.Relation.Binary.Reasoning.Syntax.du_step'45''8764'_300
+                    (\ v6 v7 v8 ->
+                       coe
+                         MAlonzo.Code.Function.Related.Propositional.du_K'45'trans_164
+                         (coe MAlonzo.Code.Function.Related.Propositional.C_equivalence_12))
+                    erased erased erased
+                    (coe
+                       MAlonzo.Code.Relation.Binary.Reasoning.Syntax.du__'8718'_492
+                       (\ v6 ->
+                          coe
+                            MAlonzo.Code.Function.Related.Propositional.du_K'45'refl_160
+                            (coe MAlonzo.Code.Function.Related.Propositional.C_equivalence_12))
+                       erased)
+                    (coe
+                       MAlonzo.Code.Data.List.Ext.Properties.du_'8712''45'dedup_146
+                       (coe v0) (coe v3) (coe v5)))
+                 (coe v4 v5))
               (coe
                  MAlonzo.Code.Function.Related.Propositional.du_SK'45'sym_168
                  (coe MAlonzo.Code.Function.Related.Propositional.C_equivalence_88)
                  (coe
                     MAlonzo.Code.Data.List.Ext.Properties.du_'8712''45'dedup_146
-                    (coe v0) (coe v2) (coe v5)))
-              (coe
-                 MAlonzo.Code.Function.Related.Propositional.du__'8764''10216'_'10217'__202
-                 (coe MAlonzo.Code.Function.Related.Propositional.C_equivalence_12)
-                 (coe
-                    MAlonzo.Code.Function.Related.du_fromRelated_138
-                    (coe MAlonzo.Code.Function.Related.Propositional.C_equivalence_12)
-                    (coe v4 v5))
-                 (coe
-                    MAlonzo.Code.Function.Related.Propositional.du__'8764''10216'_'10217'__202
-                    (coe MAlonzo.Code.Function.Related.Propositional.C_equivalence_12)
-                    (coe
-                       MAlonzo.Code.Data.List.Ext.Properties.du_'8712''45'dedup_146
-                       (coe v0) (coe v3) (coe v5))
-                    (coe
-                       MAlonzo.Code.Function.Related.Propositional.du__'8718'_248
-                       (coe
-                          MAlonzo.Code.Function.Related.Propositional.C_equivalence_12))))))
+                    (coe v0) (coe v2) (coe v5)))))
 -- Axiom.Set.Factor.FactorUnique._.factor
 d_factor_402 ::
   MAlonzo.Code.Axiom.Set.T_Theory_82 ->

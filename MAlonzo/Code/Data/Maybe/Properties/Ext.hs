@@ -22,7 +22,7 @@ import qualified MAlonzo.Code.Agda.Primitive
 
 -- Data.Maybe.Properties.Ext.maybe-∘
 d_maybe'45''8728'_24 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   () ->
   () ->

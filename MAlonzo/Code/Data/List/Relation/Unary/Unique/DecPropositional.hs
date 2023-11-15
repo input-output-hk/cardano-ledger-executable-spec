@@ -29,7 +29,7 @@ import qualified MAlonzo.Code.Relation.Nullary.Decidable.Core
 d_AllPairs_22 a0 a1 a2 a3 = ()
 -- Data.List.Relation.Unary.Unique.DecPropositional._.head
 d_head_26 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   (AgdaAny ->
    AgdaAny ->
@@ -48,7 +48,7 @@ du_head_26 v0 v1 v2
   = coe MAlonzo.Code.Data.List.Relation.Unary.AllPairs.du_head_22 v2
 -- Data.List.Relation.Unary.Unique.DecPropositional._.tail
 d_tail_28 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   (AgdaAny ->
    AgdaAny ->
@@ -67,7 +67,7 @@ du_tail_28 v0 v1 v2
   = coe MAlonzo.Code.Data.List.Relation.Unary.AllPairs.du_tail_32 v2
 -- Data.List.Relation.Unary.Unique.DecPropositional._.unique?
 d_unique'63'_30 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   (AgdaAny ->
    AgdaAny ->

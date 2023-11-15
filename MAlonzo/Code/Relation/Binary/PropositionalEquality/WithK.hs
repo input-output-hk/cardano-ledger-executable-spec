@@ -22,7 +22,7 @@ import qualified MAlonzo.Code.Agda.Primitive
 
 -- Relation.Binary.PropositionalEquality.WithK.≡-irrelevant
 d_'8801''45'irrelevant_12 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   AgdaAny ->
   AgdaAny ->

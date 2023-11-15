@@ -33,8 +33,8 @@ d__'60''124''62'__22 v0
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Effect.Choice.RawChoice._∣_
 d__'8739'__24 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (() -> ()) -> T_RawChoice_16 -> () -> AgdaAny -> AgdaAny -> AgdaAny
 d__'8739'__24 ~v0 ~v1 ~v2 v3 ~v4 = du__'8739'__24 v3
 du__'8739'__24 :: T_RawChoice_16 -> AgdaAny -> AgdaAny -> AgdaAny

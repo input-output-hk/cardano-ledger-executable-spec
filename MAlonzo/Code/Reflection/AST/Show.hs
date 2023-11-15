@@ -66,24 +66,23 @@ d_showVisibility_10 v0
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Reflection.AST.Show.showLiteral
 d_showLiteral_12 ::
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Literal_116 ->
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Literal_124 ->
   MAlonzo.Code.Agda.Builtin.String.T_String_6
 d_showLiteral_12 v0
   = case coe v0 of
-      MAlonzo.Code.Agda.Builtin.Reflection.C_nat_120 v1
-        -> coe MAlonzo.Code.Data.Nat.Show.d_show_56 (coe v1)
-      MAlonzo.Code.Agda.Builtin.Reflection.C_word64_124 v1
-        -> coe
-             MAlonzo.Code.Data.Nat.Show.d_show_56 (coe word64ToNat (coe v1))
-      MAlonzo.Code.Agda.Builtin.Reflection.C_float_128 v1
+      MAlonzo.Code.Agda.Builtin.Reflection.C_nat_128 v1
+        -> coe MAlonzo.Code.Data.Nat.Show.d_show_56 v1
+      MAlonzo.Code.Agda.Builtin.Reflection.C_word64_132 v1
+        -> coe MAlonzo.Code.Data.Nat.Show.d_show_56 (word64ToNat (coe v1))
+      MAlonzo.Code.Agda.Builtin.Reflection.C_float_136 v1
         -> coe MAlonzo.Code.Agda.Builtin.Float.d_primShowFloat_46 v1
-      MAlonzo.Code.Agda.Builtin.Reflection.C_char_132 v1
+      MAlonzo.Code.Agda.Builtin.Reflection.C_char_140 v1
         -> coe MAlonzo.Code.Agda.Builtin.String.d_primShowChar_20 v1
-      MAlonzo.Code.Agda.Builtin.Reflection.C_string_136 v1
+      MAlonzo.Code.Agda.Builtin.Reflection.C_string_144 v1
         -> coe MAlonzo.Code.Agda.Builtin.String.d_primShowString_22 v1
-      MAlonzo.Code.Agda.Builtin.Reflection.C_name_140 v1
+      MAlonzo.Code.Agda.Builtin.Reflection.C_name_148 v1
         -> coe MAlonzo.Code.Agda.Builtin.Reflection.d_primShowQName_12 v1
-      MAlonzo.Code.Agda.Builtin.Reflection.C_meta_144 v1
+      MAlonzo.Code.Agda.Builtin.Reflection.C_meta_152 v1
         -> coe MAlonzo.Code.Agda.Builtin.Reflection.d_primShowMeta_44 v1
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Reflection.AST.Show.visibilityParen
@@ -125,31 +124,31 @@ d_showTerms_36 v0
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Reflection.AST.Show.showTerm
 d_showTerm_38 ::
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 ->
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 ->
   MAlonzo.Code.Agda.Builtin.String.T_String_6
 d_showTerm_38 v0
   = case coe v0 of
-      MAlonzo.Code.Agda.Builtin.Reflection.C_var_164 v1 v2
+      MAlonzo.Code.Agda.Builtin.Reflection.C_var_172 v1 v2
         -> coe
              MAlonzo.Code.Data.String.Base.d__'60''43''62'__46
              (coe ("var" :: Data.Text.Text))
              (coe
                 MAlonzo.Code.Data.String.Base.d__'60''43''62'__46
-                (coe MAlonzo.Code.Data.Nat.Show.d_show_56 (coe v1))
+                (coe MAlonzo.Code.Data.Nat.Show.d_show_56 v1)
                 (coe d_showTerms_36 (coe v2)))
-      MAlonzo.Code.Agda.Builtin.Reflection.C_con_170 v1 v2
+      MAlonzo.Code.Agda.Builtin.Reflection.C_con_178 v1 v2
         -> coe
              MAlonzo.Code.Data.String.Base.d__'60''43''62'__46
              (coe MAlonzo.Code.Agda.Builtin.Reflection.d_primShowQName_12 v1)
              (coe d_showTerms_36 (coe v2))
-      MAlonzo.Code.Agda.Builtin.Reflection.C_def_176 v1 v2
+      MAlonzo.Code.Agda.Builtin.Reflection.C_def_184 v1 v2
         -> coe
              MAlonzo.Code.Data.String.Base.d__'60''43''62'__46
              (coe MAlonzo.Code.Agda.Builtin.Reflection.d_primShowQName_12 v1)
              (coe d_showTerms_36 (coe v2))
-      MAlonzo.Code.Agda.Builtin.Reflection.C_lam_182 v1 v2
+      MAlonzo.Code.Agda.Builtin.Reflection.C_lam_190 v1 v2
         -> case coe v2 of
-             MAlonzo.Code.Agda.Builtin.Reflection.C_abs_114 v3 v4
+             MAlonzo.Code.Agda.Builtin.Reflection.C_abs_122 v3 v4
                -> coe
                     MAlonzo.Code.Data.String.Base.d__'60''43''62'__46
                     (coe ("\955" :: Data.Text.Text))
@@ -160,7 +159,7 @@ d_showTerm_38 v0
                           MAlonzo.Code.Data.String.Base.d__'60''43''62'__46
                           (coe ("\8594" :: Data.Text.Text)) (coe d_showTerm_38 (coe v4))))
              _ -> MAlonzo.RTE.mazUnreachableError
-      MAlonzo.Code.Agda.Builtin.Reflection.C_pat'45'lam_188 v1 v2
+      MAlonzo.Code.Agda.Builtin.Reflection.C_pat'45'lam_196 v1 v2
         -> coe
              MAlonzo.Code.Data.String.Base.d__'60''43''62'__46
              (coe ("\955 {" :: Data.Text.Text))
@@ -170,11 +169,11 @@ d_showTerm_38 v0
                 (coe
                    MAlonzo.Code.Data.String.Base.d__'60''43''62'__46
                    (coe ("}" :: Data.Text.Text)) (coe d_showTerms_36 (coe v2))))
-      MAlonzo.Code.Agda.Builtin.Reflection.C_pi_194 v1 v2
+      MAlonzo.Code.Agda.Builtin.Reflection.C_pi_202 v1 v2
         -> case coe v1 of
              MAlonzo.Code.Agda.Builtin.Reflection.C_arg_98 v3 v4
                -> case coe v2 of
-                    MAlonzo.Code.Agda.Builtin.Reflection.C_abs_114 v5 v6
+                    MAlonzo.Code.Agda.Builtin.Reflection.C_abs_122 v5 v6
                       -> coe
                            MAlonzo.Code.Data.String.Base.d__'43''43'__20
                            ("\928 (" :: Data.Text.Text)
@@ -199,54 +198,54 @@ d_showTerm_38 v0
                                           (coe d_showTerm_38 (coe v6)))))))
                     _ -> MAlonzo.RTE.mazUnreachableError
              _ -> MAlonzo.RTE.mazUnreachableError
-      MAlonzo.Code.Agda.Builtin.Reflection.C_agda'45'sort_198 v1
+      MAlonzo.Code.Agda.Builtin.Reflection.C_agda'45'sort_206 v1
         -> coe d_showSort_40 (coe v1)
-      MAlonzo.Code.Agda.Builtin.Reflection.C_lit_202 v1
+      MAlonzo.Code.Agda.Builtin.Reflection.C_lit_210 v1
         -> coe d_showLiteral_12 (coe v1)
-      MAlonzo.Code.Agda.Builtin.Reflection.C_meta_206 v1 v2
+      MAlonzo.Code.Agda.Builtin.Reflection.C_meta_214 v1 v2
         -> coe
              MAlonzo.Code.Data.String.Base.d__'60''43''62'__46
              (coe MAlonzo.Code.Agda.Builtin.Reflection.d_primShowMeta_44 v1)
              (coe d_showTerms_36 (coe v2))
-      MAlonzo.Code.Agda.Builtin.Reflection.C_unknown_208
+      MAlonzo.Code.Agda.Builtin.Reflection.C_unknown_216
         -> coe ("unknown" :: Data.Text.Text)
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Reflection.AST.Show.showSort
 d_showSort_40 ::
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Sort_148 ->
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Sort_156 ->
   MAlonzo.Code.Agda.Builtin.String.T_String_6
 d_showSort_40 v0
   = case coe v0 of
-      MAlonzo.Code.Agda.Builtin.Reflection.C_set_212 v1
+      MAlonzo.Code.Agda.Builtin.Reflection.C_set_220 v1
         -> coe
              MAlonzo.Code.Data.String.Base.d__'60''43''62'__46
              (coe ("Set" :: Data.Text.Text))
              (coe
                 MAlonzo.Code.Data.String.d_parensIfSpace_130
                 (coe d_showTerm_38 (coe v1)))
-      MAlonzo.Code.Agda.Builtin.Reflection.C_lit_216 v1
+      MAlonzo.Code.Agda.Builtin.Reflection.C_lit_224 v1
         -> coe
              MAlonzo.Code.Data.String.Base.d__'43''43'__20
              ("Set" :: Data.Text.Text)
-             (MAlonzo.Code.Data.Nat.Show.d_show_56 (coe v1))
-      MAlonzo.Code.Agda.Builtin.Reflection.C_prop_220 v1
+             (coe MAlonzo.Code.Data.Nat.Show.d_show_56 v1)
+      MAlonzo.Code.Agda.Builtin.Reflection.C_prop_228 v1
         -> coe
              MAlonzo.Code.Data.String.Base.d__'60''43''62'__46
              (coe ("Prop" :: Data.Text.Text))
              (coe
                 MAlonzo.Code.Data.String.d_parensIfSpace_130
                 (coe d_showTerm_38 (coe v1)))
-      MAlonzo.Code.Agda.Builtin.Reflection.C_propLit_224 v1
+      MAlonzo.Code.Agda.Builtin.Reflection.C_propLit_232 v1
         -> coe
              MAlonzo.Code.Data.String.Base.d__'43''43'__20
              ("Prop" :: Data.Text.Text)
-             (MAlonzo.Code.Data.Nat.Show.d_show_56 (coe v1))
-      MAlonzo.Code.Agda.Builtin.Reflection.C_inf_228 v1
+             (coe MAlonzo.Code.Data.Nat.Show.d_show_56 v1)
+      MAlonzo.Code.Agda.Builtin.Reflection.C_inf_236 v1
         -> coe
              MAlonzo.Code.Data.String.Base.d__'43''43'__20
              ("Set\969" :: Data.Text.Text)
-             (MAlonzo.Code.Data.Nat.Show.d_show_56 (coe v1))
-      MAlonzo.Code.Agda.Builtin.Reflection.C_unknown_230
+             (coe MAlonzo.Code.Data.Nat.Show.d_show_56 v1)
+      MAlonzo.Code.Agda.Builtin.Reflection.C_unknown_238
         -> coe ("unknown" :: Data.Text.Text)
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Reflection.AST.Show.showPatterns
@@ -263,46 +262,47 @@ d_showPatterns_42 v0
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Reflection.AST.Show.showPattern
 d_showPattern_44 ::
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Pattern_150 ->
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Pattern_158 ->
   MAlonzo.Code.Agda.Builtin.String.T_String_6
 d_showPattern_44 v0
   = case coe v0 of
-      MAlonzo.Code.Agda.Builtin.Reflection.C_con_236 v1 v2
+      MAlonzo.Code.Agda.Builtin.Reflection.C_con_244 v1 v2
         -> let v3
                  = MAlonzo.Code.Data.String.Base.d_parens_38
                      (coe
                         MAlonzo.Code.Data.String.Base.d__'60''43''62'__46
                         (coe MAlonzo.Code.Agda.Builtin.Reflection.d_primShowQName_12 v1)
                         (coe d_showPatterns_42 (coe v2))) in
-           case coe v2 of
-             []
-               -> coe MAlonzo.Code.Agda.Builtin.Reflection.d_primShowQName_12 v1
-             _ -> coe v3
-      MAlonzo.Code.Agda.Builtin.Reflection.C_dot_240 v1
+           coe
+             (case coe v2 of
+                []
+                  -> coe MAlonzo.Code.Agda.Builtin.Reflection.d_primShowQName_12 v1
+                _ -> coe v3)
+      MAlonzo.Code.Agda.Builtin.Reflection.C_dot_248 v1
         -> coe
              MAlonzo.Code.Data.String.Base.d__'43''43'__20
              ("." :: Data.Text.Text)
              (MAlonzo.Code.Data.String.Base.d_parens_38
                 (coe d_showTerm_38 (coe v1)))
-      MAlonzo.Code.Agda.Builtin.Reflection.C_var_244 v1
+      MAlonzo.Code.Agda.Builtin.Reflection.C_var_252 v1
         -> coe
              MAlonzo.Code.Data.String.Base.d__'60''43''62'__46
              (coe ("pat-var" :: Data.Text.Text))
-             (coe MAlonzo.Code.Data.Nat.Show.d_show_56 (coe v1))
-      MAlonzo.Code.Agda.Builtin.Reflection.C_lit_248 v1
+             (coe MAlonzo.Code.Data.Nat.Show.d_show_56 v1)
+      MAlonzo.Code.Agda.Builtin.Reflection.C_lit_256 v1
         -> coe d_showLiteral_12 (coe v1)
-      MAlonzo.Code.Agda.Builtin.Reflection.C_proj_252 v1
+      MAlonzo.Code.Agda.Builtin.Reflection.C_proj_260 v1
         -> coe MAlonzo.Code.Agda.Builtin.Reflection.d_primShowQName_12 v1
-      MAlonzo.Code.Agda.Builtin.Reflection.C_absurd_256 v1
+      MAlonzo.Code.Agda.Builtin.Reflection.C_absurd_264 v1
         -> coe ("()" :: Data.Text.Text)
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Reflection.AST.Show.showClause
 d_showClause_46 ::
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Clause_152 ->
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Clause_160 ->
   MAlonzo.Code.Agda.Builtin.String.T_String_6
 d_showClause_46 v0
   = case coe v0 of
-      MAlonzo.Code.Agda.Builtin.Reflection.C_clause_264 v1 v2 v3
+      MAlonzo.Code.Agda.Builtin.Reflection.C_clause_272 v1 v2 v3
         -> coe
              MAlonzo.Code.Data.String.Base.d__'60''43''62'__46
              (coe ("[" :: Data.Text.Text))
@@ -318,7 +318,7 @@ d_showClause_46 v0
                       (coe
                          MAlonzo.Code.Data.String.Base.d__'60''43''62'__46
                          (coe ("\8594" :: Data.Text.Text)) (coe d_showTerm_38 (coe v3))))))
-      MAlonzo.Code.Agda.Builtin.Reflection.C_absurd'45'clause_270 v1 v2
+      MAlonzo.Code.Agda.Builtin.Reflection.C_absurd'45'clause_278 v1 v2
         -> coe
              MAlonzo.Code.Data.String.Base.d__'60''43''62'__46
              (coe ("[" :: Data.Text.Text))
@@ -331,7 +331,7 @@ d_showClause_46 v0
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Reflection.AST.Show.showClauses
 d_showClauses_48 ::
-  [MAlonzo.Code.Agda.Builtin.Reflection.T_Clause_152] ->
+  [MAlonzo.Code.Agda.Builtin.Reflection.T_Clause_160] ->
   MAlonzo.Code.Agda.Builtin.String.T_String_6
 d_showClauses_48 v0
   = case coe v0 of
@@ -403,7 +403,7 @@ d_braces'63'_126 ::
   MAlonzo.Code.Agda.Builtin.Reflection.T_Visibility_48 ->
   MAlonzo.Code.Agda.Builtin.Reflection.T_Relevance_56 ->
   MAlonzo.Code.Agda.Builtin.Reflection.T_Quantity_62 ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Pattern_150 ->
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Pattern_158 ->
   MAlonzo.Code.Agda.Builtin.String.T_String_6 ->
   MAlonzo.Code.Agda.Builtin.String.T_String_6
 d_braces'63'_126 ~v0 ~v1 v2 ~v3 ~v4 ~v5 = du_braces'63'_126 v2
@@ -425,24 +425,24 @@ du_braces'63'_126 v0
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Reflection.AST.Show.showDefinition
 d_showDefinition_166 ::
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Definition_272 ->
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Definition_280 ->
   MAlonzo.Code.Agda.Builtin.String.T_String_6
 d_showDefinition_166 v0
   = case coe v0 of
-      MAlonzo.Code.Agda.Builtin.Reflection.C_function_276 v1
+      MAlonzo.Code.Agda.Builtin.Reflection.C_function_284 v1
         -> coe
              MAlonzo.Code.Data.String.Base.d__'60''43''62'__46
              (coe ("function" :: Data.Text.Text))
              (coe
                 MAlonzo.Code.Data.String.Base.d_braces_42
                 (coe d_showClauses_48 (coe v1)))
-      MAlonzo.Code.Agda.Builtin.Reflection.C_data'45'type_282 v1 v2
+      MAlonzo.Code.Agda.Builtin.Reflection.C_data'45'type_290 v1 v2
         -> coe
              MAlonzo.Code.Data.String.Base.d__'60''43''62'__46
              (coe ("datatype" :: Data.Text.Text))
              (coe
                 MAlonzo.Code.Data.String.Base.d__'60''43''62'__46
-                (coe MAlonzo.Code.Data.Nat.Show.d_show_56 (coe v1))
+                (coe MAlonzo.Code.Data.Nat.Show.d_show_56 v1)
                 (coe
                    MAlonzo.Code.Data.String.Base.d_braces_42
                    (coe
@@ -452,7 +452,7 @@ d_showDefinition_166 v0
                          MAlonzo.Code.Data.List.Base.du_map_22
                          (coe MAlonzo.Code.Agda.Builtin.Reflection.d_primShowQName_12)
                          (coe v2)))))
-      MAlonzo.Code.Agda.Builtin.Reflection.C_record'45'type_288 v1 v2
+      MAlonzo.Code.Agda.Builtin.Reflection.C_record'45'type_296 v1 v2
         -> coe
              MAlonzo.Code.Data.String.Base.d__'60''43''62'__46
              (coe ("record" :: Data.Text.Text))
@@ -471,13 +471,13 @@ d_showDefinition_166 v0
                             (coe MAlonzo.Code.Agda.Builtin.Reflection.d_primShowQName_12)
                             (coe MAlonzo.Code.Reflection.AST.Argument.du_unArg_74))
                          (coe v2)))))
-      MAlonzo.Code.Agda.Builtin.Reflection.C_data'45'cons_292 v1
+      MAlonzo.Code.Agda.Builtin.Reflection.C_data'45'cons_300 v1
         -> coe
              MAlonzo.Code.Data.String.Base.d__'60''43''62'__46
              (coe ("constructor" :: Data.Text.Text))
              (coe MAlonzo.Code.Agda.Builtin.Reflection.d_primShowQName_12 v1)
-      MAlonzo.Code.Agda.Builtin.Reflection.C_axiom_294
+      MAlonzo.Code.Agda.Builtin.Reflection.C_axiom_302
         -> coe ("axiom" :: Data.Text.Text)
-      MAlonzo.Code.Agda.Builtin.Reflection.C_prim'45'fun_296
+      MAlonzo.Code.Agda.Builtin.Reflection.C_prim'45'fun_304
         -> coe ("primitive" :: Data.Text.Text)
       _ -> MAlonzo.RTE.mazUnreachableError

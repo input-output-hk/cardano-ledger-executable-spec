@@ -36,16 +36,16 @@ d_equality_24 = erased
 d__'8740'__28 :: Integer -> Integer -> ()
 d__'8740'__28 = erased
 -- Data.Nat.Divisibility.Core.*-pres-∣
-d_'42''45'pres'45''8739'_42 ::
+d_'42''45'pres'45''8739'_46 ::
   Integer ->
   Integer ->
   Integer ->
   Integer -> T__'8739'__12 -> T__'8739'__12 -> T__'8739'__12
-d_'42''45'pres'45''8739'_42 ~v0 ~v1 ~v2 ~v3 v4 v5
-  = du_'42''45'pres'45''8739'_42 v4 v5
-du_'42''45'pres'45''8739'_42 ::
+d_'42''45'pres'45''8739'_46 ~v0 ~v1 ~v2 ~v3 v4 v5
+  = du_'42''45'pres'45''8739'_46 v4 v5
+du_'42''45'pres'45''8739'_46 ::
   T__'8739'__12 -> T__'8739'__12 -> T__'8739'__12
-du_'42''45'pres'45''8739'_42 v0 v1
+du_'42''45'pres'45''8739'_46 v0 v1
   = case coe v0 of
       C_divides_26 v2
         -> case coe v1 of

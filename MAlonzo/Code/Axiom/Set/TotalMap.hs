@@ -46,12 +46,12 @@ d_total_44 = erased
 -- Axiom.Set.TotalMap.TotalMap
 d_TotalMap_54 a0 a1 a2 = ()
 data T_TotalMap_54
-  = C_TotalMap'46'constructor_577 AgdaAny (AgdaAny -> AgdaAny)
+  = C_TotalMap'46'constructor_581 AgdaAny (AgdaAny -> AgdaAny)
 -- Axiom.Set.TotalMap.TotalMap.rel
 d_rel_66 :: T_TotalMap_54 -> AgdaAny
 d_rel_66 v0
   = case coe v0 of
-      C_TotalMap'46'constructor_577 v1 v3 -> coe v1
+      C_TotalMap'46'constructor_581 v1 v3 -> coe v1
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Axiom.Set.TotalMap.TotalMap.left-unique-rel
 d_left'45'unique'45'rel_68 ::
@@ -66,7 +66,7 @@ d_left'45'unique'45'rel_68 = erased
 d_total'45'rel_70 :: T_TotalMap_54 -> AgdaAny -> AgdaAny
 d_total'45'rel_70 v0
   = case coe v0 of
-      C_TotalMap'46'constructor_577 v1 v3 -> coe v3
+      C_TotalMap'46'constructor_581 v1 v3 -> coe v3
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Axiom.Set.TotalMap.TotalMap.toMap
 d_toMap_72 ::
@@ -91,7 +91,7 @@ du_lookup_74 v0 v1 v2
   = coe
       MAlonzo.Code.Agda.Builtin.Sigma.d_fst_28
       (coe
-         MAlonzo.Code.Function.Bundles.d_to_938
+         MAlonzo.Code.Function.Bundles.d_to_1724
          (coe
             MAlonzo.Code.Axiom.Set.Rel.du_dom'8712'_378 (coe v0)
             (coe d_rel_66 (coe v1)) (coe v2))
@@ -109,7 +109,7 @@ du_lookup'8712'rel_78 v0 v1 v2
   = coe
       MAlonzo.Code.Agda.Builtin.Sigma.d_snd_30
       (coe
-         MAlonzo.Code.Function.Bundles.d_to_938
+         MAlonzo.Code.Function.Bundles.d_to_1724
          (coe
             MAlonzo.Code.Axiom.Set.Rel.du_dom'8712'_378 (coe v0)
             (coe d_rel_66 (coe v1)) (coe v2))
@@ -142,12 +142,13 @@ du_updateFn_96 v0 v1 v2 v3
       MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 v4 v5
         -> let v6
                  = coe MAlonzo.Code.Interface.DecEq.d__'8799'__20 v0 v2 v4 in
-           case coe v6 of
-             MAlonzo.Code.Relation.Nullary.Decidable.Core.C__because__34 v7 v8
-               -> if coe v7
-                    then coe seq (coe v8) (coe v5)
-                    else coe seq (coe v8) (coe v3)
-             _ -> MAlonzo.RTE.mazUnreachableError
+           coe
+             (case coe v6 of
+                MAlonzo.Code.Relation.Nullary.Decidable.Core.C__because__32 v7 v8
+                  -> if coe v7
+                       then coe seq (coe v8) (coe v5)
+                       else coe seq (coe v8) (coe v3)
+                _ -> MAlonzo.RTE.mazUnreachableError)
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Axiom.Set.TotalMap.Update.updateFn-id
 d_updateFn'45'id_132 ::
@@ -174,7 +175,7 @@ du_mapWithKey_148 ::
   (AgdaAny -> AgdaAny -> AgdaAny) -> T_TotalMap_54 -> T_TotalMap_54
 du_mapWithKey_148 v0 v1 v2
   = coe
-      C_TotalMap'46'constructor_577
+      C_TotalMap'46'constructor_581
       (coe
          MAlonzo.Code.Axiom.Set.du_map_380 v0
          (\ v3 ->
@@ -200,14 +201,15 @@ du_mapWithKey_148 v0 v1 v2
            (let v4
                   = MAlonzo.Code.Agda.Builtin.Sigma.d_fst_28
                       (coe
-                         MAlonzo.Code.Function.Bundles.d_to_938
+                         MAlonzo.Code.Function.Bundles.d_to_1724
                          (coe
                             MAlonzo.Code.Axiom.Set.Rel.du_dom'8712'_378 (coe v0)
                             (coe d_rel_66 (coe v2)) (coe v3))
                          (coe d_total'45'rel_70 v2 v3)) in
             coe
-              MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 (coe v3)
-              (coe v1 v3 v4))
+              (coe
+                 MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 (coe v3)
+                 (coe v1 v3 v4)))
            (coe
               MAlonzo.Code.Axiom.Set.du_'8712''45'map'8242'_394 (coe v0)
               (coe d_rel_66 (coe v2))
@@ -223,7 +225,7 @@ du_mapWithKey_148 v0 v1 v2
                  (coe
                     MAlonzo.Code.Agda.Builtin.Sigma.d_fst_28
                     (coe
-                       MAlonzo.Code.Function.Bundles.d_to_938
+                       MAlonzo.Code.Function.Bundles.d_to_1724
                        (coe
                           MAlonzo.Code.Axiom.Set.Rel.du_dom'8712'_378 (coe v0)
                           (coe d_rel_66 (coe v2)) (coe v3))
@@ -231,7 +233,7 @@ du_mapWithKey_148 v0 v1 v2
               (coe
                  MAlonzo.Code.Agda.Builtin.Sigma.d_snd_30
                  (coe
-                    MAlonzo.Code.Function.Bundles.d_to_938
+                    MAlonzo.Code.Function.Bundles.d_to_1724
                     (coe
                        MAlonzo.Code.Axiom.Set.Rel.du_dom'8712'_378 (coe v0)
                        (coe d_rel_66 (coe v2)) (coe v3))
@@ -274,7 +276,7 @@ du_'8712''45'rel'45'update_188 ::
   MAlonzo.Code.Interface.DecEq.T_DecEq_14 -> T_TotalMap_54 -> AgdaAny
 du_'8712''45'rel'45'update_188 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Function.Bundles.d_to_938
+      MAlonzo.Code.Function.Bundles.d_to_1724
       (coe
          MAlonzo.Code.Axiom.Set.du_'8712''45'map_388 (coe v0)
          (coe d_rel_66 (coe v4))
@@ -350,7 +352,7 @@ du_Fun'8658'TotalMap_224 ::
   (AgdaAny -> AgdaAny) -> (AgdaAny -> AgdaAny) -> T_TotalMap_54
 du_Fun'8658'TotalMap_224 v0 v1 v2 v3
   = coe
-      C_TotalMap'46'constructor_577
+      C_TotalMap'46'constructor_581
       (coe
          MAlonzo.Code.Axiom.Set.du_map_380 v0
          (\ v4 ->

@@ -22,11 +22,11 @@ import qualified MAlonzo.Code.Agda.Primitive
 import qualified MAlonzo.Code.Level
 
 -- Data.Unit.Polymorphic.Base.⊤
-d_'8868'_10 :: MAlonzo.Code.Agda.Primitive.T_Level_14 -> ()
+d_'8868'_10 :: MAlonzo.Code.Agda.Primitive.T_Level_18 -> ()
 d_'8868'_10 = erased
 -- Data.Unit.Polymorphic.Base.tt
 d_tt_16 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Level.T_Lift_8
 d_tt_16 ~v0 = du_tt_16
 du_tt_16 :: MAlonzo.Code.Level.T_Lift_8

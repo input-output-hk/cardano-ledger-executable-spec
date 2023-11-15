@@ -24,10 +24,10 @@ import qualified MAlonzo.Code.Data.Container.Relation.Binary.Pointwise
 
 -- Data.Container.Relation.Binary.Pointwise.Properties._.refl
 d_refl_30 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   MAlonzo.Code.Data.Container.Core.T_Container_10 ->
   (AgdaAny -> AgdaAny -> ()) ->
@@ -46,10 +46,10 @@ du_refl_30 v0 v1
          coe v0 (coe MAlonzo.Code.Agda.Builtin.Sigma.d_snd_30 v1 v2))
 -- Data.Container.Relation.Binary.Pointwise.Properties._.sym
 d_sym_36 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   MAlonzo.Code.Data.Container.Core.T_Container_10 ->
   (AgdaAny -> AgdaAny -> ()) ->
@@ -81,10 +81,10 @@ du_sym_36 v0 v1 v2 v3
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Data.Container.Relation.Binary.Pointwise.Properties._.trans
 d_trans_44 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   MAlonzo.Code.Data.Container.Core.T_Container_10 ->
   (AgdaAny -> AgdaAny -> ()) ->

@@ -41,19 +41,19 @@ d_'42''45'rawMagma_20 ::
   MAlonzo.Code.Algebra.Bundles.Raw.T_RawMagma_10
 d_'42''45'rawMagma_20
   = coe
-      MAlonzo.Code.Algebra.Bundles.Raw.C_RawMagma'46'constructor_77
+      MAlonzo.Code.Algebra.Bundles.Raw.C_RawMagma'46'constructor_79
       d__'42'__14
 -- Data.Sign.Base.*-1-rawMonoid
 d_'42''45'1'45'rawMonoid_22 ::
   MAlonzo.Code.Algebra.Bundles.Raw.T_RawMonoid_38
 d_'42''45'1'45'rawMonoid_22
   = coe
-      MAlonzo.Code.Algebra.Bundles.Raw.C_RawMonoid'46'constructor_473
+      MAlonzo.Code.Algebra.Bundles.Raw.C_RawMonoid'46'constructor_477
       d__'42'__14 (coe C_'43'_10)
 -- Data.Sign.Base.*-1-rawGroup
 d_'42''45'1'45'rawGroup_24 ::
   MAlonzo.Code.Algebra.Bundles.Raw.T_RawGroup_70
 d_'42''45'1'45'rawGroup_24
   = coe
-      MAlonzo.Code.Algebra.Bundles.Raw.C_RawGroup'46'constructor_921
+      MAlonzo.Code.Algebra.Bundles.Raw.C_RawGroup'46'constructor_927
       d__'42'__14 (coe C_'43'_10) d_opposite_12

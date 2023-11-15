@@ -106,101 +106,109 @@ du_unionThese_314 v0 v1 v2 v3 v4 v5
                  MAlonzo.Code.Axiom.Set.Rel.du_dom_294
                  (MAlonzo.Code.Axiom.Set.d_th_1414 (coe v0))
                  (coe MAlonzo.Code.Axiom.Set.Map.du__'738'_462 (coe v2))) in
-    let v7
-          = coe
-              MAlonzo.Code.Axiom.Set.d__'8712''63'__1542 v0 erased v1 v4
-              (coe
-                 MAlonzo.Code.Axiom.Set.Rel.du_dom_294
-                 (MAlonzo.Code.Axiom.Set.d_th_1414 (coe v0))
-                 (coe MAlonzo.Code.Axiom.Set.Map.du__'738'_462 (coe v3))) in
-    case coe v6 of
-      MAlonzo.Code.Relation.Nullary.Decidable.Core.C__because__34 v8 v9
-        -> if coe v8
-             then case coe v9 of
-                    MAlonzo.Code.Relation.Nullary.Reflects.C_of'696'_26 v10
-                      -> case coe v7 of
-                           MAlonzo.Code.Relation.Nullary.Decidable.Core.C__because__34 v11 v12
-                             -> if coe v11
-                                  then case coe v12 of
-                                         MAlonzo.Code.Relation.Nullary.Reflects.C_of'696'_26 v13
-                                           -> coe
-                                                MAlonzo.Code.Data.These.Base.C_these_52
-                                                (coe
-                                                   MAlonzo.Code.Axiom.Set.Map.du_lookup'7504'_1314
-                                                   (coe MAlonzo.Code.Axiom.Set.d_th_1414 (coe v0))
-                                                   (coe v2) (coe v4) (coe v10))
-                                                (coe
-                                                   MAlonzo.Code.Axiom.Set.Map.du_lookup'7504'_1314
-                                                   (coe MAlonzo.Code.Axiom.Set.d_th_1414 (coe v0))
-                                                   (coe v3) (coe v4) (coe v13))
-                                         _ -> MAlonzo.RTE.mazUnreachableError
-                                  else coe
-                                         seq (coe v12)
-                                         (coe
-                                            MAlonzo.Code.Data.These.Base.C_this_48
-                                            (coe
-                                               MAlonzo.Code.Axiom.Set.Map.du_lookup'7504'_1314
-                                               (coe MAlonzo.Code.Axiom.Set.d_th_1414 (coe v0))
-                                               (coe v2) (coe v4) (coe v10)))
-                           _ -> MAlonzo.RTE.mazUnreachableError
-                    _ -> MAlonzo.RTE.mazUnreachableError
-             else coe
-                    seq (coe v9)
-                    (case coe v7 of
-                       MAlonzo.Code.Relation.Nullary.Decidable.Core.C__because__34 v10 v11
-                         -> if coe v10
-                              then case coe v11 of
-                                     MAlonzo.Code.Relation.Nullary.Reflects.C_of'696'_26 v12
-                                       -> coe
-                                            MAlonzo.Code.Data.These.Base.C_that_50
-                                            (coe
-                                               MAlonzo.Code.Axiom.Set.Map.du_lookup'7504'_1314
-                                               (coe MAlonzo.Code.Axiom.Set.d_th_1414 (coe v0))
-                                               (coe v3) (coe v4) (coe v12))
-                                     _ -> MAlonzo.RTE.mazUnreachableError
-                              else coe
-                                     seq (coe v11)
-                                     (coe
-                                        MAlonzo.Code.Data.Sum.Base.du_'91'_'44'_'93'_52
-                                        (coe
-                                           (\ v12 ->
-                                              coe
-                                                MAlonzo.Code.Relation.Nullary.Negation.Core.du_contradiction_38))
-                                        (coe
-                                           (\ v12 ->
-                                              coe
-                                                MAlonzo.Code.Relation.Nullary.Negation.Core.du_contradiction_38))
-                                        (coe
-                                           MAlonzo.Code.Function.Bundles.d_from_940
+    coe
+      (let v7
+             = coe
+                 MAlonzo.Code.Axiom.Set.d__'8712''63'__1542 v0 erased v1 v4
+                 (coe
+                    MAlonzo.Code.Axiom.Set.Rel.du_dom_294
+                    (MAlonzo.Code.Axiom.Set.d_th_1414 (coe v0))
+                    (coe MAlonzo.Code.Axiom.Set.Map.du__'738'_462 (coe v3))) in
+       coe
+         (case coe v6 of
+            MAlonzo.Code.Relation.Nullary.Decidable.Core.C__because__32 v8 v9
+              -> if coe v8
+                   then case coe v9 of
+                          MAlonzo.Code.Relation.Nullary.Reflects.C_of'696'_22 v10
+                            -> case coe v7 of
+                                 MAlonzo.Code.Relation.Nullary.Decidable.Core.C__because__32 v11 v12
+                                   -> if coe v11
+                                        then case coe v12 of
+                                               MAlonzo.Code.Relation.Nullary.Reflects.C_of'696'_22 v13
+                                                 -> coe
+                                                      MAlonzo.Code.Data.These.Base.C_these_52
+                                                      (coe
+                                                         MAlonzo.Code.Axiom.Set.Map.du_lookup'7504'_1314
+                                                         (coe
+                                                            MAlonzo.Code.Axiom.Set.d_th_1414
+                                                            (coe v0))
+                                                         (coe v2) (coe v4) (coe v10))
+                                                      (coe
+                                                         MAlonzo.Code.Axiom.Set.Map.du_lookup'7504'_1314
+                                                         (coe
+                                                            MAlonzo.Code.Axiom.Set.d_th_1414
+                                                            (coe v0))
+                                                         (coe v3) (coe v4) (coe v13))
+                                               _ -> MAlonzo.RTE.mazUnreachableError
+                                        else coe
+                                               seq (coe v12)
+                                               (coe
+                                                  MAlonzo.Code.Data.These.Base.C_this_48
+                                                  (coe
+                                                     MAlonzo.Code.Axiom.Set.Map.du_lookup'7504'_1314
+                                                     (coe MAlonzo.Code.Axiom.Set.d_th_1414 (coe v0))
+                                                     (coe v2) (coe v4) (coe v10)))
+                                 _ -> MAlonzo.RTE.mazUnreachableError
+                          _ -> MAlonzo.RTE.mazUnreachableError
+                   else coe
+                          seq (coe v9)
+                          (case coe v7 of
+                             MAlonzo.Code.Relation.Nullary.Decidable.Core.C__because__32 v10 v11
+                               -> if coe v10
+                                    then case coe v11 of
+                                           MAlonzo.Code.Relation.Nullary.Reflects.C_of'696'_22 v12
+                                             -> coe
+                                                  MAlonzo.Code.Data.These.Base.C_that_50
+                                                  (coe
+                                                     MAlonzo.Code.Axiom.Set.Map.du_lookup'7504'_1314
+                                                     (coe MAlonzo.Code.Axiom.Set.d_th_1414 (coe v0))
+                                                     (coe v3) (coe v4) (coe v12))
+                                           _ -> MAlonzo.RTE.mazUnreachableError
+                                    else coe
+                                           seq (coe v11)
                                            (coe
-                                              MAlonzo.Code.Axiom.Set.du_'8712''45''8746'_670
-                                              (coe MAlonzo.Code.Axiom.Set.d_th_1414 (coe v0))
+                                              MAlonzo.Code.Data.Sum.Base.du_'91'_'44'_'93'_52
                                               (coe
-                                                 MAlonzo.Code.Agda.Builtin.Sigma.d_fst_28
-                                                 (coe
-                                                    MAlonzo.Code.Axiom.Set.d_replacement_196
-                                                    (MAlonzo.Code.Axiom.Set.d_th_1414 (coe v0))
-                                                    erased erased
-                                                    (\ v12 ->
-                                                       MAlonzo.Code.Agda.Builtin.Sigma.d_fst_28
-                                                         (coe v12))
-                                                    (MAlonzo.Code.Agda.Builtin.Sigma.d_fst_28
-                                                       (coe v2))))
+                                                 (\ v12 ->
+                                                    coe
+                                                      MAlonzo.Code.Relation.Nullary.Negation.Core.du_contradiction_38))
                                               (coe
-                                                 MAlonzo.Code.Agda.Builtin.Sigma.d_fst_28
+                                                 (\ v12 ->
+                                                    coe
+                                                      MAlonzo.Code.Relation.Nullary.Negation.Core.du_contradiction_38))
+                                              (coe
+                                                 MAlonzo.Code.Function.Bundles.d_from_1726
                                                  (coe
-                                                    MAlonzo.Code.Axiom.Set.d_replacement_196
-                                                    (MAlonzo.Code.Axiom.Set.d_th_1414 (coe v0))
-                                                    erased erased
-                                                    (\ v12 ->
+                                                    MAlonzo.Code.Axiom.Set.du_'8712''45''8746'_670
+                                                    (coe MAlonzo.Code.Axiom.Set.d_th_1414 (coe v0))
+                                                    (coe
                                                        MAlonzo.Code.Agda.Builtin.Sigma.d_fst_28
-                                                         (coe v12))
-                                                    (MAlonzo.Code.Agda.Builtin.Sigma.d_fst_28
-                                                       (coe v3))))
-                                              (coe v4))
-                                           v5))
-                       _ -> MAlonzo.RTE.mazUnreachableError)
-      _ -> MAlonzo.RTE.mazUnreachableError
+                                                       (coe
+                                                          MAlonzo.Code.Axiom.Set.d_replacement_196
+                                                          (MAlonzo.Code.Axiom.Set.d_th_1414
+                                                             (coe v0))
+                                                          erased erased
+                                                          (\ v12 ->
+                                                             MAlonzo.Code.Agda.Builtin.Sigma.d_fst_28
+                                                               (coe v12))
+                                                          (MAlonzo.Code.Agda.Builtin.Sigma.d_fst_28
+                                                             (coe v2))))
+                                                    (coe
+                                                       MAlonzo.Code.Agda.Builtin.Sigma.d_fst_28
+                                                       (coe
+                                                          MAlonzo.Code.Axiom.Set.d_replacement_196
+                                                          (MAlonzo.Code.Axiom.Set.d_th_1414
+                                                             (coe v0))
+                                                          erased erased
+                                                          (\ v12 ->
+                                                             MAlonzo.Code.Agda.Builtin.Sigma.d_fst_28
+                                                               (coe v12))
+                                                          (MAlonzo.Code.Agda.Builtin.Sigma.d_fst_28
+                                                             (coe v3))))
+                                                    (coe v4))
+                                                 v5))
+                             _ -> MAlonzo.RTE.mazUnreachableError)
+            _ -> MAlonzo.RTE.mazUnreachableError))
 -- Axiom.Set.Map.Dec.Lookupᵐᵈ.unionWith
 d_unionWith_376 ::
   MAlonzo.Code.Axiom.Set.T_Theory'7496'_1266 ->

@@ -25,7 +25,7 @@ d_defaultDebugOptionsI_2 ::
   MAlonzo.Code.Reflection.Debug.T_DebugOptions_234
 d_defaultDebugOptionsI_2
   = coe
-      MAlonzo.Code.Reflection.Debug.C_DebugOptions'46'constructor_1975
+      MAlonzo.Code.Reflection.Debug.C_DebugOptions'46'constructor_2017
       (coe
          MAlonzo.Code.Reflection.Debug.d_path_244
          (coe MAlonzo.Code.Reflection.Debug.d_defaultDebugOptions_252))

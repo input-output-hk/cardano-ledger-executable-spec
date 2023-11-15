@@ -35,18 +35,18 @@ d_proof_40 ::
 d_proof_40 = erased
 -- Data.Refinement.Refinement-syntax
 d_Refinement'45'syntax_44 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () -> (AgdaAny -> ()) -> ()
 d_Refinement'45'syntax_44 = erased
 -- Data.Refinement._.map
 d_map_68 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (AgdaAny -> ()) ->
   (AgdaAny -> ()) ->
   (AgdaAny -> AgdaAny) ->
@@ -62,10 +62,10 @@ du_map_68 v0 v1
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Data.Refinement._.refine
 d_refine_96 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (AgdaAny -> ()) ->
   (AgdaAny -> ()) ->
   (AgdaAny -> AgdaAny -> AgdaAny) ->

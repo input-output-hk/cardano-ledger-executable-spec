@@ -21,21 +21,21 @@ import qualified MAlonzo.Code.Agda.Primitive
 
 -- Data.List.Relation.Binary.Subset.Propositional._._⊆_
 d__'8838'__18 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () -> [AgdaAny] -> [AgdaAny] -> ()
 d__'8838'__18 = erased
 -- Data.List.Relation.Binary.Subset.Propositional._._⊇_
 d__'8839'__20 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () -> [AgdaAny] -> [AgdaAny] -> ()
 d__'8839'__20 = erased
 -- Data.List.Relation.Binary.Subset.Propositional._._⊈_
 d__'8840'__22 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () -> [AgdaAny] -> [AgdaAny] -> ()
 d__'8840'__22 = erased
 -- Data.List.Relation.Binary.Subset.Propositional._._⊉_
 d__'8841'__24 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () -> [AgdaAny] -> [AgdaAny] -> ()
 d__'8841'__24 = erased

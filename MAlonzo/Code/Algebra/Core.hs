@@ -20,8 +20,8 @@ import qualified Data.Text
 import qualified MAlonzo.Code.Agda.Primitive
 
 -- Algebra.Core.Op₁
-d_Op'8321'_6 :: MAlonzo.Code.Agda.Primitive.T_Level_14 -> () -> ()
+d_Op'8321'_6 :: MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()
 d_Op'8321'_6 = erased
 -- Algebra.Core.Op₂
-d_Op'8322'_12 :: MAlonzo.Code.Agda.Primitive.T_Level_14 -> () -> ()
+d_Op'8322'_12 :: MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()
 d_Op'8322'_12 = erased

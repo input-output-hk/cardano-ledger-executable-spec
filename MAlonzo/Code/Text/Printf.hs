@@ -32,7 +32,7 @@ import qualified MAlonzo.Code.Text.Printf.Generic
 d_printfSpec_4 :: MAlonzo.Code.Text.Printf.Generic.T_PrintfSpec_18
 d_printfSpec_4
   = coe
-      MAlonzo.Code.Text.Printf.Generic.C_PrintfSpec'46'constructor_111
+      MAlonzo.Code.Text.Printf.Generic.C_PrintfSpec'46'constructor_113
       (coe
          (\ v0 ->
             case coe v0 of
@@ -51,14 +51,14 @@ d_printfSpec_4
 d_Error_8 a0 a1 = ()
 -- Text.Printf.Printf.Printf
 d_Printf_10 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Data.Sum.Base.T__'8846'__30 -> () -> ()
 d_Printf_10 = erased
 -- Text.Printf.Printf.map
 d_map_12 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   MAlonzo.Code.Data.Sum.Base.T__'8846'__30 ->
   (AgdaAny -> AgdaAny) -> AgdaAny -> AgdaAny

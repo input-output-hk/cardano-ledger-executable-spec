@@ -137,7 +137,7 @@ d_left'45'unique_390 ::
 d_left'45'unique_390 = erased
 -- Axiom.Set.Map.IsLeftUnique
 d_IsLeftUnique_406 a0 a1 a2 a3 = ()
-data T_IsLeftUnique_406 = C_IsLeftUnique'46'constructor_2851
+data T_IsLeftUnique_406 = C_IsLeftUnique'46'constructor_2857
 -- Axiom.Set.Map.IsLeftUnique.isLeftUnique
 d_isLeftUnique_412 ::
   T_IsLeftUnique_406 ->
@@ -280,7 +280,7 @@ du_fromList'7504'_496 v0 v1 v2
       (coe
          MAlonzo.Code.Axiom.Set.du_fromList_410 (coe v0)
          (coe
-            MAlonzo.Code.Data.List.Base.du_deduplicate_834
+            MAlonzo.Code.Data.List.Base.du_deduplicate_934
             (\ v3 v4 ->
                coe
                  MAlonzo.Code.Interface.DecEq.d__'8799'__20 v1
@@ -297,7 +297,7 @@ du_fromList'7504'_496 v0 v1 v2
                     MAlonzo.Code.Axiom.Set.Properties.du_'8712''45'fromList'8315'_222
                     (coe v0)
                     (coe
-                       MAlonzo.Code.Data.List.Base.du_deduplicate_834
+                       MAlonzo.Code.Data.List.Base.du_deduplicate_934
                        (coe
                           MAlonzo.Code.Relation.Binary.Construct.On.du_decidable_102
                           (coe (\ v6 -> MAlonzo.Code.Agda.Builtin.Sigma.d_fst_28 (coe v6)))
@@ -308,7 +308,7 @@ du_fromList'7504'_496 v0 v1 v2
                  (coe
                     MAlonzo.Code.Data.List.Ext.Properties.du_AllPairs'8658''8801''8744'R'8744'R'7506''7510'_192
                     (coe
-                       MAlonzo.Code.Data.List.Base.du_deduplicate_834
+                       MAlonzo.Code.Data.List.Base.du_deduplicate_934
                        (coe
                           MAlonzo.Code.Relation.Binary.Construct.On.du_decidable_102
                           (coe (\ v6 -> MAlonzo.Code.Agda.Builtin.Sigma.d_fst_28 (coe v6)))
@@ -317,7 +317,7 @@ du_fromList'7504'_496 v0 v1 v2
                     (coe
                        MAlonzo.Code.Data.List.Relation.Unary.Unique.DecSetoid.Properties.du_deduplicate'45''33'_78
                        (coe
-                          MAlonzo.Code.Relation.Binary.Construct.On.du_decSetoid_568
+                          MAlonzo.Code.Relation.Binary.Construct.On.du_decSetoid_598
                           (coe
                              MAlonzo.Code.Relation.Binary.PropositionalEquality.Properties.du_decSetoid_406
                              (coe MAlonzo.Code.Interface.DecEq.d__'8799'__20 (coe v1)))
@@ -327,7 +327,7 @@ du_fromList'7504'_496 v0 v1 v2
                     MAlonzo.Code.Axiom.Set.Properties.du_'8712''45'fromList'8315'_222
                     (coe v0)
                     (coe
-                       MAlonzo.Code.Data.List.Base.du_deduplicate_834
+                       MAlonzo.Code.Data.List.Base.du_deduplicate_934
                        (coe
                           MAlonzo.Code.Relation.Binary.Construct.On.du_decidable_102
                           (coe (\ v6 -> MAlonzo.Code.Agda.Builtin.Sigma.d_fst_28 (coe v6)))
@@ -532,7 +532,7 @@ du_singleton'7504'_650 v0 v1 v2
             coe
               MAlonzo.Code.Function.Base.du__'45''10216'_'10217''45'__320
               (coe
-                 MAlonzo.Code.Function.Bundles.d_from_940
+                 MAlonzo.Code.Function.Bundles.d_from_1726
                  (coe
                     MAlonzo.Code.Axiom.Set.du_'8712''45'singleton_440 (coe v0)
                     (coe MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 (coe v3) (coe v4))
@@ -540,7 +540,7 @@ du_singleton'7504'_650 v0 v1 v2
                        MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 (coe v1) (coe v2))))
               erased
               (coe
-                 MAlonzo.Code.Function.Bundles.d_from_940
+                 MAlonzo.Code.Function.Bundles.d_from_1726
                  (coe
                     MAlonzo.Code.Axiom.Set.du_'8712''45'singleton_440 (coe v0)
                     (coe MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 (coe v3) (coe v5))
@@ -648,12 +648,12 @@ du_disjoint'45''8746''737''45''8746'_690 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 du_disjoint'45''8746''737''45''8746'_690 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Function.Bundles.d_from_940
+      MAlonzo.Code.Function.Bundles.d_from_1726
       (coe
          MAlonzo.Code.Axiom.Set.Properties.du_'8801''7497''8660''8801''7497'''_244)
       (\ v5 ->
          coe
-           MAlonzo.Code.Function.Bundles.du_mk'8660'_1322
+           MAlonzo.Code.Function.Bundles.du_mk'8660'_2296
            (coe
               MAlonzo.Code.Function.Base.du__'8728''8242'__216
               (coe
@@ -717,7 +717,7 @@ du_disjoint'45''8746''737''45''8746'_690 v0 v1 v2 v3 v4
                       (coe
                          MAlonzo.Code.Function.Base.du__'8728''8242'__216
                          (coe
-                            MAlonzo.Code.Function.Bundles.d_to_938
+                            MAlonzo.Code.Function.Bundles.d_to_1724
                             (coe
                                MAlonzo.Code.Axiom.Set.du_'8712''45'filter_408 (coe v0) (coe v3)
                                (coe
@@ -849,7 +849,7 @@ du_'8712'm'7522''8658''8712'm_758 v0 v1 v2 v3 v4 v5
   = coe
       MAlonzo.Code.Agda.Builtin.Sigma.d_snd_30 v3 v4
       (coe
-         MAlonzo.Code.Function.Bundles.d_to_938
+         MAlonzo.Code.Function.Bundles.d_to_1724
          (coe
             MAlonzo.Code.Axiom.Set.du_'8712''45''8746'_670 (coe v0)
             (coe MAlonzo.Code.Agda.Builtin.Sigma.d_fst_28 (coe v2))
@@ -1447,54 +1447,55 @@ du_res'45'singleton_1134 v0 v1 v2 v3 v4
                      MAlonzo.Code.Axiom.Set.Properties.du_'8712''45'map'8315'''_162 v0
                      (\ v7 -> MAlonzo.Code.Agda.Builtin.Sigma.d_fst_28 (coe v7))
                      (coe du__'738'_462 (coe v2)) v3 v4 in
-           case coe v7 of
-             MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 v8 v9
-               -> case coe v8 of
-                    MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 v10 v11
-                      -> case coe v9 of
-                           MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 v12 v13
-                             -> coe
-                                  MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 (coe v11)
-                                  (coe
-                                     MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32
+           coe
+             (case coe v7 of
+                MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 v8 v9
+                  -> case coe v8 of
+                       MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 v10 v11
+                         -> case coe v9 of
+                              MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 v12 v13
+                                -> coe
+                                     MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 (coe v11)
                                      (coe
-                                        (\ v14 v15 ->
-                                           coe
-                                             MAlonzo.Code.Function.Bundles.d_to_938
-                                             (coe
-                                                MAlonzo.Code.Axiom.Set.du_'8712''45'singleton_440
-                                                (coe v0) (coe v14) (coe v8))
-                                             erased))
-                                     (coe
-                                        (\ v14 v15 ->
-                                           coe
-                                             MAlonzo.Code.Axiom.Set.Properties.du_'8712''45'filter'8314'''_194
-                                             v0 v5
-                                             (coe
-                                                MAlonzo.Code.Axiom.Set.d_sp'45''8728'_68
-                                                (MAlonzo.Code.Axiom.Set.d_sp_150 (coe v0)) erased
-                                                erased erased
+                                        MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32
+                                        (coe
+                                           (\ v14 v15 ->
+                                              coe
+                                                MAlonzo.Code.Function.Bundles.d_to_1724
                                                 (coe
-                                                   v1
-                                                   (coe
-                                                      MAlonzo.Code.Axiom.Set.du_'10100'_'10101'_434
-                                                      v0 erased v10))
-                                                (\ v16 ->
-                                                   MAlonzo.Code.Agda.Builtin.Sigma.d_fst_28
-                                                     (coe v16)))
-                                             v8
-                                             (coe
-                                                MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32
+                                                   MAlonzo.Code.Axiom.Set.du_'8712''45'singleton_440
+                                                   (coe v0) (coe v14) (coe v8))
+                                                erased))
+                                        (coe
+                                           (\ v14 v15 ->
+                                              coe
+                                                MAlonzo.Code.Axiom.Set.Properties.du_'8712''45'filter'8314'''_194
+                                                v0 v5
                                                 (coe
-                                                   MAlonzo.Code.Function.Bundles.d_to_938
+                                                   MAlonzo.Code.Axiom.Set.d_sp'45''8728'_68
+                                                   (MAlonzo.Code.Axiom.Set.d_sp_150 (coe v0)) erased
+                                                   erased erased
                                                    (coe
-                                                      MAlonzo.Code.Axiom.Set.du_'8712''45'singleton_440
-                                                      (coe v0) (coe v10) (coe v10))
-                                                   erased)
-                                                (coe v13)))))
-                           _ -> MAlonzo.RTE.mazUnreachableError
-                    _ -> MAlonzo.RTE.mazUnreachableError
-             _ -> MAlonzo.RTE.mazUnreachableError
+                                                      v1
+                                                      (coe
+                                                         MAlonzo.Code.Axiom.Set.du_'10100'_'10101'_434
+                                                         v0 erased v10))
+                                                   (\ v16 ->
+                                                      MAlonzo.Code.Agda.Builtin.Sigma.d_fst_28
+                                                        (coe v16)))
+                                                v8
+                                                (coe
+                                                   MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32
+                                                   (coe
+                                                      MAlonzo.Code.Function.Bundles.d_to_1724
+                                                      (coe
+                                                         MAlonzo.Code.Axiom.Set.du_'8712''45'singleton_440
+                                                         (coe v0) (coe v10) (coe v10))
+                                                      erased)
+                                                   (coe v13)))))
+                              _ -> MAlonzo.RTE.mazUnreachableError
+                       _ -> MAlonzo.RTE.mazUnreachableError
+                _ -> MAlonzo.RTE.mazUnreachableError)
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Axiom.Set.Map.Restrictionᵐ.res-singleton'
 d_res'45'singleton''_1170 ::
@@ -1522,13 +1523,14 @@ du_res'45'singleton''_1170 v0 v1 v2 v3 v4 v5
                  (\ v6 -> MAlonzo.Code.Agda.Builtin.Sigma.d_fst_28 (coe v6))
                  (coe du__'738'_462 (coe v2)) v3
                  (coe
-                    MAlonzo.Code.Data.Product.Base.du_'45''44'__68
+                    MAlonzo.Code.Data.Product.Base.du_'45''44'__92
                     (coe MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 (coe v3) (coe v4))
                     (coe
                        MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 erased (coe v5)))) in
-    case coe v6 of
-      MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 v7 v8 -> coe v8
-      _ -> MAlonzo.RTE.mazUnreachableError
+    coe
+      (case coe v6 of
+         MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 v7 v8 -> coe v8
+         _ -> MAlonzo.RTE.mazUnreachableError)
 -- Axiom.Set.Map.Restrictionᵐ._⦅_,-⦆
 d__'10629'_'44''45''10630'_1182 ::
   MAlonzo.Code.Axiom.Set.T_Theory_82 ->
@@ -1691,7 +1693,7 @@ du_lookup'7504'_1314 v0 v1 v2 v3
   = coe
       MAlonzo.Code.Agda.Builtin.Sigma.d_fst_28
       (coe
-         MAlonzo.Code.Function.Bundles.d_to_938
+         MAlonzo.Code.Function.Bundles.d_to_1724
          (coe
             MAlonzo.Code.Axiom.Set.Rel.du_dom'8712'_378 (coe v0)
             (coe du__'738'_462 (coe v1)) (coe v2))
@@ -1716,10 +1718,10 @@ du_lookup'7504''63'_1318 ::
   Maybe AgdaAny
 du_lookup'7504''63'_1318 v0 v1 v2 v3
   = case coe v3 of
-      MAlonzo.Code.Relation.Nullary.Decidable.Core.C__because__34 v4 v5
+      MAlonzo.Code.Relation.Nullary.Decidable.Core.C__because__32 v4 v5
         -> if coe v4
              then case coe v5 of
-                    MAlonzo.Code.Relation.Nullary.Reflects.C_of'696'_26 v6
+                    MAlonzo.Code.Relation.Nullary.Reflects.C_of'696'_22 v6
                       -> coe
                            MAlonzo.Code.Agda.Builtin.Maybe.C_just_16
                            (coe du_lookup'7504'_1314 (coe v0) (coe v1) (coe v2) (coe v6))
@@ -1747,7 +1749,7 @@ du__'8638'__1340 v0 v1 v2 v3
       (coe
          (\ v4 ->
             coe
-              MAlonzo.Code.Axiom.Set.Rel.du__'8638'__870 (coe v0) (coe v1)
+              MAlonzo.Code.Axiom.Set.Rel.du__'8638'__886 (coe v0) (coe v1)
               (coe v4) (coe v3)))
       (coe v2)
 -- Axiom.Set.Map.Corestrictionᵐ._↾_ᶜ
@@ -1771,7 +1773,7 @@ du__'8638'_'7580'_1348 v0 v1 v2 v3
       (coe
          (\ v4 ->
             coe
-              MAlonzo.Code.Axiom.Set.Rel.du__'8638'_'7580'_876 (coe v0) (coe v1)
+              MAlonzo.Code.Axiom.Set.Rel.du__'8638'_'7580'_892 (coe v0) (coe v1)
               (coe v4) (coe v3)))
       (coe v2)
 -- Axiom.Set.Map.Corestrictionᵐ._⁻¹_
@@ -1795,20 +1797,20 @@ du__'8315''185'__1356 v0 v1 v2 v3
             du__'8638'__1340 (coe v0) (coe v1) (coe v2)
             (coe MAlonzo.Code.Axiom.Set.du_'10100'_'10101'_434 v0 erased v3)))
 -- Axiom.Set.Map..generalizedField-A
-d_'46'generalizedField'45'A_120741 :: T_GeneralizeTel_120749 -> ()
-d_'46'generalizedField'45'A_120741 = erased
+d_'46'generalizedField'45'A_122623 :: T_GeneralizeTel_122631 -> ()
+d_'46'generalizedField'45'A_122623 = erased
 -- Axiom.Set.Map..generalizedField-B
-d_'46'generalizedField'45'B_120743 :: T_GeneralizeTel_120749 -> ()
-d_'46'generalizedField'45'B_120743 = erased
+d_'46'generalizedField'45'B_122625 :: T_GeneralizeTel_122631 -> ()
+d_'46'generalizedField'45'B_122625 = erased
 -- Axiom.Set.Map..generalizedField-B'
-d_'46'generalizedField'45'B''_120745 ::
-  T_GeneralizeTel_120749 -> ()
-d_'46'generalizedField'45'B''_120745 = erased
+d_'46'generalizedField'45'B''_122627 ::
+  T_GeneralizeTel_122631 -> ()
+d_'46'generalizedField'45'B''_122627 = erased
 -- Axiom.Set.Map..generalizedField-R
-d_'46'generalizedField'45'R_120747 ::
-  T_GeneralizeTel_120749 -> AgdaAny
-d_'46'generalizedField'45'R_120747
+d_'46'generalizedField'45'R_122629 ::
+  T_GeneralizeTel_122631 -> AgdaAny
+d_'46'generalizedField'45'R_122629
   = MAlonzo.RTE.mazUnreachableError
 -- Axiom.Set.Map.GeneralizeTel
-d_GeneralizeTel_120749 a0 = ()
-newtype T_GeneralizeTel_120749 = C_mkGeneralizeTel_120751 AgdaAny
+d_GeneralizeTel_122631 a0 = ()
+newtype T_GeneralizeTel_122631 = C_mkGeneralizeTel_122633 AgdaAny

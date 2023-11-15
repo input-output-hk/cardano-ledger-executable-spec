@@ -63,7 +63,7 @@ du_'8799''8658'α_26 v0
       (coe
          (\ v1 v2 ->
             coe
-              MAlonzo.Code.Relation.Nullary.Decidable.Core.d_'8970'_'8971'_104 ()
+              MAlonzo.Code.Relation.Nullary.Decidable.Core.d_'8970'_'8971'_106 ()
               erased (coe v0 v1 v2)))
 -- Reflection.AST.AlphaEquality.α-Visibility
 d_α'45'Visibility_34 :: T_AlphaEquality_12
@@ -104,13 +104,13 @@ d_α'45'Name_44
       (coe MAlonzo.Code.Reflection.AST.Name.d__'8799'__12)
 -- Reflection.AST.AlphaEquality._=α=-AbsTerm_
 d__'61'α'61''45'AbsTerm__46 ::
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Abs_104 ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Abs_104 -> Bool
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Abs_112 ->
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Abs_112 -> Bool
 d__'61'α'61''45'AbsTerm__46 v0 v1
   = case coe v0 of
-      MAlonzo.Code.Agda.Builtin.Reflection.C_abs_114 v2 v3
+      MAlonzo.Code.Agda.Builtin.Reflection.C_abs_122 v2 v3
         -> case coe v1 of
-             MAlonzo.Code.Agda.Builtin.Reflection.C_abs_114 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_abs_122 v4 v5
                -> coe d__'61'α'61''45'Term__54 (coe v3) (coe v5)
              _ -> MAlonzo.RTE.mazUnreachableError
       _ -> MAlonzo.RTE.mazUnreachableError
@@ -167,385 +167,385 @@ d__'61'α'61''45'ArgPattern__52 v0 v1
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Reflection.AST.AlphaEquality._=α=-Term_
 d__'61'α'61''45'Term__54 ::
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 -> Bool
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 ->
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 -> Bool
 d__'61'α'61''45'Term__54 v0 v1
   = case coe v0 of
-      MAlonzo.Code.Agda.Builtin.Reflection.C_var_164 v2 v3
+      MAlonzo.Code.Agda.Builtin.Reflection.C_var_172 v2 v3
         -> case coe v1 of
-             MAlonzo.Code.Agda.Builtin.Reflection.C_var_164 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_var_172 v4 v5
                -> coe
                     MAlonzo.Code.Data.Bool.Base.d__'8743'__24
                     (coe eqInt (coe v2) (coe v4))
                     (coe d__'61'α'61''45'ArgsTerm__62 (coe v3) (coe v5))
-             MAlonzo.Code.Agda.Builtin.Reflection.C_con_170 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_con_178 v4 v5
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_def_176 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_def_184 v4 v5
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_lam_182 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_lam_190 v4 v5
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_pat'45'lam_188 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_pat'45'lam_196 v4 v5
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_pi_194 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_pi_202 v4 v5
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_agda'45'sort_198 v4
+             MAlonzo.Code.Agda.Builtin.Reflection.C_agda'45'sort_206 v4
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_lit_202 v4
+             MAlonzo.Code.Agda.Builtin.Reflection.C_lit_210 v4
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_meta_206 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_meta_214 v4 v5
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_unknown_208
+             MAlonzo.Code.Agda.Builtin.Reflection.C_unknown_216
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
              _ -> MAlonzo.RTE.mazUnreachableError
-      MAlonzo.Code.Agda.Builtin.Reflection.C_con_170 v2 v3
+      MAlonzo.Code.Agda.Builtin.Reflection.C_con_178 v2 v3
         -> case coe v1 of
-             MAlonzo.Code.Agda.Builtin.Reflection.C_var_164 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_var_172 v4 v5
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_con_170 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_con_178 v4 v5
                -> coe
                     MAlonzo.Code.Data.Bool.Base.d__'8743'__24
                     (coe
-                       MAlonzo.Code.Relation.Nullary.Decidable.Core.d_'8970'_'8971'_104 ()
+                       MAlonzo.Code.Relation.Nullary.Decidable.Core.d_'8970'_'8971'_106 ()
                        erased
                        (MAlonzo.Code.Reflection.AST.Name.d__'8799'__12 (coe v2) (coe v4)))
                     (coe d__'61'α'61''45'ArgsTerm__62 (coe v3) (coe v5))
-             MAlonzo.Code.Agda.Builtin.Reflection.C_def_176 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_def_184 v4 v5
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_lam_182 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_lam_190 v4 v5
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_pat'45'lam_188 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_pat'45'lam_196 v4 v5
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_pi_194 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_pi_202 v4 v5
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_agda'45'sort_198 v4
+             MAlonzo.Code.Agda.Builtin.Reflection.C_agda'45'sort_206 v4
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_lit_202 v4
+             MAlonzo.Code.Agda.Builtin.Reflection.C_lit_210 v4
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_meta_206 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_meta_214 v4 v5
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_unknown_208
+             MAlonzo.Code.Agda.Builtin.Reflection.C_unknown_216
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
              _ -> MAlonzo.RTE.mazUnreachableError
-      MAlonzo.Code.Agda.Builtin.Reflection.C_def_176 v2 v3
+      MAlonzo.Code.Agda.Builtin.Reflection.C_def_184 v2 v3
         -> case coe v1 of
-             MAlonzo.Code.Agda.Builtin.Reflection.C_var_164 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_var_172 v4 v5
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_con_170 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_con_178 v4 v5
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_def_176 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_def_184 v4 v5
                -> coe
                     MAlonzo.Code.Data.Bool.Base.d__'8743'__24
                     (coe
-                       MAlonzo.Code.Relation.Nullary.Decidable.Core.d_'8970'_'8971'_104 ()
+                       MAlonzo.Code.Relation.Nullary.Decidable.Core.d_'8970'_'8971'_106 ()
                        erased
                        (MAlonzo.Code.Reflection.AST.Name.d__'8799'__12 (coe v2) (coe v4)))
                     (coe d__'61'α'61''45'ArgsTerm__62 (coe v3) (coe v5))
-             MAlonzo.Code.Agda.Builtin.Reflection.C_lam_182 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_lam_190 v4 v5
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_pat'45'lam_188 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_pat'45'lam_196 v4 v5
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_pi_194 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_pi_202 v4 v5
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_agda'45'sort_198 v4
+             MAlonzo.Code.Agda.Builtin.Reflection.C_agda'45'sort_206 v4
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_lit_202 v4
+             MAlonzo.Code.Agda.Builtin.Reflection.C_lit_210 v4
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_meta_206 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_meta_214 v4 v5
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_unknown_208
+             MAlonzo.Code.Agda.Builtin.Reflection.C_unknown_216
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
              _ -> MAlonzo.RTE.mazUnreachableError
-      MAlonzo.Code.Agda.Builtin.Reflection.C_lam_182 v2 v3
+      MAlonzo.Code.Agda.Builtin.Reflection.C_lam_190 v2 v3
         -> case coe v1 of
-             MAlonzo.Code.Agda.Builtin.Reflection.C_var_164 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_var_172 v4 v5
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_con_170 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_con_178 v4 v5
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_def_176 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_def_184 v4 v5
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_lam_182 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_lam_190 v4 v5
                -> coe
                     MAlonzo.Code.Data.Bool.Base.d__'8743'__24
                     (coe
-                       MAlonzo.Code.Relation.Nullary.Decidable.Core.d_'8970'_'8971'_104 ()
+                       MAlonzo.Code.Relation.Nullary.Decidable.Core.d_'8970'_'8971'_106 ()
                        erased
                        (MAlonzo.Code.Reflection.AST.Argument.Visibility.d__'8799'__8
                           (coe v2) (coe v4)))
                     (coe d__'61'α'61''45'AbsTerm__46 (coe v3) (coe v5))
-             MAlonzo.Code.Agda.Builtin.Reflection.C_pat'45'lam_188 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_pat'45'lam_196 v4 v5
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_pi_194 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_pi_202 v4 v5
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_agda'45'sort_198 v4
+             MAlonzo.Code.Agda.Builtin.Reflection.C_agda'45'sort_206 v4
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_lit_202 v4
+             MAlonzo.Code.Agda.Builtin.Reflection.C_lit_210 v4
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_meta_206 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_meta_214 v4 v5
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_unknown_208
+             MAlonzo.Code.Agda.Builtin.Reflection.C_unknown_216
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
              _ -> MAlonzo.RTE.mazUnreachableError
-      MAlonzo.Code.Agda.Builtin.Reflection.C_pat'45'lam_188 v2 v3
+      MAlonzo.Code.Agda.Builtin.Reflection.C_pat'45'lam_196 v2 v3
         -> case coe v1 of
-             MAlonzo.Code.Agda.Builtin.Reflection.C_var_164 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_var_172 v4 v5
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_con_170 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_con_178 v4 v5
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_def_176 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_def_184 v4 v5
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_lam_182 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_lam_190 v4 v5
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_pat'45'lam_188 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_pat'45'lam_196 v4 v5
                -> coe
                     MAlonzo.Code.Data.Bool.Base.d__'8743'__24
                     (coe d__'61'α'61''45'Clauses__60 (coe v2) (coe v4))
                     (coe d__'61'α'61''45'ArgsTerm__62 (coe v3) (coe v5))
-             MAlonzo.Code.Agda.Builtin.Reflection.C_pi_194 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_pi_202 v4 v5
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_agda'45'sort_198 v4
+             MAlonzo.Code.Agda.Builtin.Reflection.C_agda'45'sort_206 v4
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_lit_202 v4
+             MAlonzo.Code.Agda.Builtin.Reflection.C_lit_210 v4
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_meta_206 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_meta_214 v4 v5
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_unknown_208
+             MAlonzo.Code.Agda.Builtin.Reflection.C_unknown_216
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
              _ -> MAlonzo.RTE.mazUnreachableError
-      MAlonzo.Code.Agda.Builtin.Reflection.C_pi_194 v2 v3
+      MAlonzo.Code.Agda.Builtin.Reflection.C_pi_202 v2 v3
         -> case coe v1 of
-             MAlonzo.Code.Agda.Builtin.Reflection.C_var_164 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_var_172 v4 v5
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_con_170 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_con_178 v4 v5
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_def_176 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_def_184 v4 v5
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_lam_182 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_lam_190 v4 v5
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_pat'45'lam_188 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_pat'45'lam_196 v4 v5
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_pi_194 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_pi_202 v4 v5
                -> coe
                     MAlonzo.Code.Data.Bool.Base.d__'8743'__24
                     (coe d__'61'α'61''45'ArgTerm__50 (coe v2) (coe v4))
                     (coe d__'61'α'61''45'AbsTerm__46 (coe v3) (coe v5))
-             MAlonzo.Code.Agda.Builtin.Reflection.C_agda'45'sort_198 v4
+             MAlonzo.Code.Agda.Builtin.Reflection.C_agda'45'sort_206 v4
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_lit_202 v4
+             MAlonzo.Code.Agda.Builtin.Reflection.C_lit_210 v4
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_meta_206 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_meta_214 v4 v5
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_unknown_208
+             MAlonzo.Code.Agda.Builtin.Reflection.C_unknown_216
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
              _ -> MAlonzo.RTE.mazUnreachableError
-      MAlonzo.Code.Agda.Builtin.Reflection.C_agda'45'sort_198 v2
+      MAlonzo.Code.Agda.Builtin.Reflection.C_agda'45'sort_206 v2
         -> case coe v1 of
-             MAlonzo.Code.Agda.Builtin.Reflection.C_var_164 v3 v4
+             MAlonzo.Code.Agda.Builtin.Reflection.C_var_172 v3 v4
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_con_170 v3 v4
+             MAlonzo.Code.Agda.Builtin.Reflection.C_con_178 v3 v4
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_def_176 v3 v4
+             MAlonzo.Code.Agda.Builtin.Reflection.C_def_184 v3 v4
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_lam_182 v3 v4
+             MAlonzo.Code.Agda.Builtin.Reflection.C_lam_190 v3 v4
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_pat'45'lam_188 v3 v4
+             MAlonzo.Code.Agda.Builtin.Reflection.C_pat'45'lam_196 v3 v4
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_pi_194 v3 v4
+             MAlonzo.Code.Agda.Builtin.Reflection.C_pi_202 v3 v4
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_agda'45'sort_198 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_agda'45'sort_206 v3
                -> coe d__'61'α'61''45'Sort__56 (coe v2) (coe v3)
-             MAlonzo.Code.Agda.Builtin.Reflection.C_lit_202 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_lit_210 v3
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_meta_206 v3 v4
+             MAlonzo.Code.Agda.Builtin.Reflection.C_meta_214 v3 v4
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_unknown_208
+             MAlonzo.Code.Agda.Builtin.Reflection.C_unknown_216
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
              _ -> MAlonzo.RTE.mazUnreachableError
-      MAlonzo.Code.Agda.Builtin.Reflection.C_lit_202 v2
+      MAlonzo.Code.Agda.Builtin.Reflection.C_lit_210 v2
         -> case coe v1 of
-             MAlonzo.Code.Agda.Builtin.Reflection.C_var_164 v3 v4
+             MAlonzo.Code.Agda.Builtin.Reflection.C_var_172 v3 v4
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_con_170 v3 v4
+             MAlonzo.Code.Agda.Builtin.Reflection.C_con_178 v3 v4
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_def_176 v3 v4
+             MAlonzo.Code.Agda.Builtin.Reflection.C_def_184 v3 v4
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_lam_182 v3 v4
+             MAlonzo.Code.Agda.Builtin.Reflection.C_lam_190 v3 v4
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_pat'45'lam_188 v3 v4
+             MAlonzo.Code.Agda.Builtin.Reflection.C_pat'45'lam_196 v3 v4
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_pi_194 v3 v4
+             MAlonzo.Code.Agda.Builtin.Reflection.C_pi_202 v3 v4
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_agda'45'sort_198 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_agda'45'sort_206 v3
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_lit_202 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_lit_210 v3
                -> coe
-                    MAlonzo.Code.Relation.Nullary.Decidable.Core.d_'8970'_'8971'_104 ()
+                    MAlonzo.Code.Relation.Nullary.Decidable.Core.d_'8970'_'8971'_106 ()
                     erased
                     (MAlonzo.Code.Reflection.AST.Literal.d__'8799'__48
                        (coe v2) (coe v3))
-             MAlonzo.Code.Agda.Builtin.Reflection.C_meta_206 v3 v4
+             MAlonzo.Code.Agda.Builtin.Reflection.C_meta_214 v3 v4
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_unknown_208
+             MAlonzo.Code.Agda.Builtin.Reflection.C_unknown_216
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
              _ -> MAlonzo.RTE.mazUnreachableError
-      MAlonzo.Code.Agda.Builtin.Reflection.C_meta_206 v2 v3
+      MAlonzo.Code.Agda.Builtin.Reflection.C_meta_214 v2 v3
         -> case coe v1 of
-             MAlonzo.Code.Agda.Builtin.Reflection.C_var_164 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_var_172 v4 v5
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_con_170 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_con_178 v4 v5
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_def_176 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_def_184 v4 v5
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_lam_182 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_lam_190 v4 v5
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_pat'45'lam_188 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_pat'45'lam_196 v4 v5
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_pi_194 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_pi_202 v4 v5
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_agda'45'sort_198 v4
+             MAlonzo.Code.Agda.Builtin.Reflection.C_agda'45'sort_206 v4
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_lit_202 v4
+             MAlonzo.Code.Agda.Builtin.Reflection.C_lit_210 v4
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_meta_206 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_meta_214 v4 v5
                -> coe
                     MAlonzo.Code.Data.Bool.Base.d__'8743'__24
                     (coe
-                       MAlonzo.Code.Relation.Nullary.Decidable.Core.d_'8970'_'8971'_104 ()
+                       MAlonzo.Code.Relation.Nullary.Decidable.Core.d_'8970'_'8971'_106 ()
                        erased
                        (MAlonzo.Code.Reflection.AST.Meta.d__'8799'__10 (coe v2) (coe v4)))
                     (coe d__'61'α'61''45'ArgsTerm__62 (coe v3) (coe v5))
-             MAlonzo.Code.Agda.Builtin.Reflection.C_unknown_208
+             MAlonzo.Code.Agda.Builtin.Reflection.C_unknown_216
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
              _ -> MAlonzo.RTE.mazUnreachableError
-      MAlonzo.Code.Agda.Builtin.Reflection.C_unknown_208
+      MAlonzo.Code.Agda.Builtin.Reflection.C_unknown_216
         -> case coe v1 of
-             MAlonzo.Code.Agda.Builtin.Reflection.C_var_164 v2 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_var_172 v2 v3
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_con_170 v2 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_con_178 v2 v3
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_def_176 v2 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_def_184 v2 v3
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_lam_182 v2 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_lam_190 v2 v3
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_pat'45'lam_188 v2 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_pat'45'lam_196 v2 v3
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_pi_194 v2 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_pi_202 v2 v3
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_agda'45'sort_198 v2
+             MAlonzo.Code.Agda.Builtin.Reflection.C_agda'45'sort_206 v2
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_lit_202 v2
+             MAlonzo.Code.Agda.Builtin.Reflection.C_lit_210 v2
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_meta_206 v2 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_meta_214 v2 v3
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_unknown_208
+             MAlonzo.Code.Agda.Builtin.Reflection.C_unknown_216
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_true_10
              _ -> MAlonzo.RTE.mazUnreachableError
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Reflection.AST.AlphaEquality._=α=-Sort_
 d__'61'α'61''45'Sort__56 ::
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Sort_148 ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Sort_148 -> Bool
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Sort_156 ->
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Sort_156 -> Bool
 d__'61'α'61''45'Sort__56 v0 v1
   = case coe v0 of
-      MAlonzo.Code.Agda.Builtin.Reflection.C_set_212 v2
+      MAlonzo.Code.Agda.Builtin.Reflection.C_set_220 v2
         -> case coe v1 of
-             MAlonzo.Code.Agda.Builtin.Reflection.C_set_212 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_set_220 v3
                -> coe d__'61'α'61''45'Term__54 (coe v2) (coe v3)
-             MAlonzo.Code.Agda.Builtin.Reflection.C_lit_216 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_lit_224 v3
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_prop_220 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_prop_228 v3
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_propLit_224 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_propLit_232 v3
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_inf_228 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_inf_236 v3
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_unknown_230
+             MAlonzo.Code.Agda.Builtin.Reflection.C_unknown_238
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
              _ -> MAlonzo.RTE.mazUnreachableError
-      MAlonzo.Code.Agda.Builtin.Reflection.C_lit_216 v2
+      MAlonzo.Code.Agda.Builtin.Reflection.C_lit_224 v2
         -> case coe v1 of
-             MAlonzo.Code.Agda.Builtin.Reflection.C_set_212 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_set_220 v3
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_lit_216 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_lit_224 v3
                -> coe eqInt (coe v2) (coe v3)
-             MAlonzo.Code.Agda.Builtin.Reflection.C_prop_220 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_prop_228 v3
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_propLit_224 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_propLit_232 v3
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_inf_228 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_inf_236 v3
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_unknown_230
+             MAlonzo.Code.Agda.Builtin.Reflection.C_unknown_238
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
              _ -> MAlonzo.RTE.mazUnreachableError
-      MAlonzo.Code.Agda.Builtin.Reflection.C_prop_220 v2
+      MAlonzo.Code.Agda.Builtin.Reflection.C_prop_228 v2
         -> case coe v1 of
-             MAlonzo.Code.Agda.Builtin.Reflection.C_set_212 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_set_220 v3
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_lit_216 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_lit_224 v3
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_prop_220 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_prop_228 v3
                -> coe d__'61'α'61''45'Term__54 (coe v2) (coe v3)
-             MAlonzo.Code.Agda.Builtin.Reflection.C_propLit_224 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_propLit_232 v3
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_inf_228 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_inf_236 v3
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_unknown_230
+             MAlonzo.Code.Agda.Builtin.Reflection.C_unknown_238
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
              _ -> MAlonzo.RTE.mazUnreachableError
-      MAlonzo.Code.Agda.Builtin.Reflection.C_propLit_224 v2
+      MAlonzo.Code.Agda.Builtin.Reflection.C_propLit_232 v2
         -> case coe v1 of
-             MAlonzo.Code.Agda.Builtin.Reflection.C_set_212 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_set_220 v3
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_lit_216 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_lit_224 v3
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_prop_220 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_prop_228 v3
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_propLit_224 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_propLit_232 v3
                -> coe eqInt (coe v2) (coe v3)
-             MAlonzo.Code.Agda.Builtin.Reflection.C_inf_228 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_inf_236 v3
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_unknown_230
+             MAlonzo.Code.Agda.Builtin.Reflection.C_unknown_238
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
              _ -> MAlonzo.RTE.mazUnreachableError
-      MAlonzo.Code.Agda.Builtin.Reflection.C_inf_228 v2
+      MAlonzo.Code.Agda.Builtin.Reflection.C_inf_236 v2
         -> case coe v1 of
-             MAlonzo.Code.Agda.Builtin.Reflection.C_set_212 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_set_220 v3
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_lit_216 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_lit_224 v3
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_prop_220 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_prop_228 v3
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_propLit_224 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_propLit_232 v3
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_inf_228 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_inf_236 v3
                -> coe eqInt (coe v2) (coe v3)
-             MAlonzo.Code.Agda.Builtin.Reflection.C_unknown_230
+             MAlonzo.Code.Agda.Builtin.Reflection.C_unknown_238
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
              _ -> MAlonzo.RTE.mazUnreachableError
-      MAlonzo.Code.Agda.Builtin.Reflection.C_unknown_230
+      MAlonzo.Code.Agda.Builtin.Reflection.C_unknown_238
         -> case coe v1 of
-             MAlonzo.Code.Agda.Builtin.Reflection.C_set_212 v2
+             MAlonzo.Code.Agda.Builtin.Reflection.C_set_220 v2
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_lit_216 v2
+             MAlonzo.Code.Agda.Builtin.Reflection.C_lit_224 v2
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_prop_220 v2
+             MAlonzo.Code.Agda.Builtin.Reflection.C_prop_228 v2
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_propLit_224 v2
+             MAlonzo.Code.Agda.Builtin.Reflection.C_propLit_232 v2
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_inf_228 v2
+             MAlonzo.Code.Agda.Builtin.Reflection.C_inf_236 v2
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_unknown_230
+             MAlonzo.Code.Agda.Builtin.Reflection.C_unknown_238
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_true_10
              _ -> MAlonzo.RTE.mazUnreachableError
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Reflection.AST.AlphaEquality._=α=-Clause_
 d__'61'α'61''45'Clause__58 ::
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Clause_152 ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Clause_152 -> Bool
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Clause_160 ->
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Clause_160 -> Bool
 d__'61'α'61''45'Clause__58 v0 v1
   = case coe v0 of
-      MAlonzo.Code.Agda.Builtin.Reflection.C_clause_264 v2 v3 v4
+      MAlonzo.Code.Agda.Builtin.Reflection.C_clause_272 v2 v3 v4
         -> case coe v1 of
-             MAlonzo.Code.Agda.Builtin.Reflection.C_clause_264 v5 v6 v7
+             MAlonzo.Code.Agda.Builtin.Reflection.C_clause_272 v5 v6 v7
                -> coe
                     MAlonzo.Code.Data.Bool.Base.d__'8743'__24
                     (coe d__'61'α'61''45'Telescope__48 (coe v2) (coe v5))
@@ -553,14 +553,14 @@ d__'61'α'61''45'Clause__58 v0 v1
                        MAlonzo.Code.Data.Bool.Base.d__'8743'__24
                        (coe d__'61'α'61''45'ArgsPattern__66 (coe v3) (coe v6))
                        (coe d__'61'α'61''45'Term__54 (coe v4) (coe v7)))
-             MAlonzo.Code.Agda.Builtin.Reflection.C_absurd'45'clause_270 v5 v6
+             MAlonzo.Code.Agda.Builtin.Reflection.C_absurd'45'clause_278 v5 v6
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
              _ -> MAlonzo.RTE.mazUnreachableError
-      MAlonzo.Code.Agda.Builtin.Reflection.C_absurd'45'clause_270 v2 v3
+      MAlonzo.Code.Agda.Builtin.Reflection.C_absurd'45'clause_278 v2 v3
         -> case coe v1 of
-             MAlonzo.Code.Agda.Builtin.Reflection.C_clause_264 v4 v5 v6
+             MAlonzo.Code.Agda.Builtin.Reflection.C_clause_272 v4 v5 v6
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_absurd'45'clause_270 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_absurd'45'clause_278 v4 v5
                -> coe
                     MAlonzo.Code.Data.Bool.Base.d__'8743'__24
                     (coe d__'61'α'61''45'Telescope__48 (coe v2) (coe v4))
@@ -569,8 +569,8 @@ d__'61'α'61''45'Clause__58 v0 v1
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Reflection.AST.AlphaEquality._=α=-Clauses_
 d__'61'α'61''45'Clauses__60 ::
-  [MAlonzo.Code.Agda.Builtin.Reflection.T_Clause_152] ->
-  [MAlonzo.Code.Agda.Builtin.Reflection.T_Clause_152] -> Bool
+  [MAlonzo.Code.Agda.Builtin.Reflection.T_Clause_160] ->
+  [MAlonzo.Code.Agda.Builtin.Reflection.T_Clause_160] -> Bool
 d__'61'α'61''45'Clauses__60 v0 v1
   = case coe v0 of
       []
@@ -611,111 +611,111 @@ d__'61'α'61''45'ArgsTerm__62 v0 v1
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Reflection.AST.AlphaEquality._=α=-Pattern_
 d__'61'α'61''45'Pattern__64 ::
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Pattern_150 ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Pattern_150 -> Bool
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Pattern_158 ->
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Pattern_158 -> Bool
 d__'61'α'61''45'Pattern__64 v0 v1
   = case coe v0 of
-      MAlonzo.Code.Agda.Builtin.Reflection.C_con_236 v2 v3
+      MAlonzo.Code.Agda.Builtin.Reflection.C_con_244 v2 v3
         -> case coe v1 of
-             MAlonzo.Code.Agda.Builtin.Reflection.C_con_236 v4 v5
+             MAlonzo.Code.Agda.Builtin.Reflection.C_con_244 v4 v5
                -> coe
                     MAlonzo.Code.Data.Bool.Base.d__'8743'__24
                     (coe
-                       MAlonzo.Code.Relation.Nullary.Decidable.Core.d_'8970'_'8971'_104 ()
+                       MAlonzo.Code.Relation.Nullary.Decidable.Core.d_'8970'_'8971'_106 ()
                        erased
                        (MAlonzo.Code.Reflection.AST.Name.d__'8799'__12 (coe v2) (coe v4)))
                     (coe d__'61'α'61''45'ArgsPattern__66 (coe v3) (coe v5))
-             MAlonzo.Code.Agda.Builtin.Reflection.C_dot_240 v4
+             MAlonzo.Code.Agda.Builtin.Reflection.C_dot_248 v4
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_var_244 v4
+             MAlonzo.Code.Agda.Builtin.Reflection.C_var_252 v4
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_lit_248 v4
+             MAlonzo.Code.Agda.Builtin.Reflection.C_lit_256 v4
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_proj_252 v4
+             MAlonzo.Code.Agda.Builtin.Reflection.C_proj_260 v4
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_absurd_256 v4
+             MAlonzo.Code.Agda.Builtin.Reflection.C_absurd_264 v4
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
              _ -> MAlonzo.RTE.mazUnreachableError
-      MAlonzo.Code.Agda.Builtin.Reflection.C_dot_240 v2
+      MAlonzo.Code.Agda.Builtin.Reflection.C_dot_248 v2
         -> case coe v1 of
-             MAlonzo.Code.Agda.Builtin.Reflection.C_con_236 v3 v4
+             MAlonzo.Code.Agda.Builtin.Reflection.C_con_244 v3 v4
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_dot_240 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_dot_248 v3
                -> coe d__'61'α'61''45'Term__54 (coe v2) (coe v3)
-             MAlonzo.Code.Agda.Builtin.Reflection.C_var_244 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_var_252 v3
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_lit_248 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_lit_256 v3
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_proj_252 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_proj_260 v3
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_absurd_256 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_absurd_264 v3
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
              _ -> MAlonzo.RTE.mazUnreachableError
-      MAlonzo.Code.Agda.Builtin.Reflection.C_var_244 v2
+      MAlonzo.Code.Agda.Builtin.Reflection.C_var_252 v2
         -> case coe v1 of
-             MAlonzo.Code.Agda.Builtin.Reflection.C_con_236 v3 v4
+             MAlonzo.Code.Agda.Builtin.Reflection.C_con_244 v3 v4
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_dot_240 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_dot_248 v3
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_var_244 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_var_252 v3
                -> coe eqInt (coe v2) (coe v3)
-             MAlonzo.Code.Agda.Builtin.Reflection.C_lit_248 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_lit_256 v3
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_proj_252 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_proj_260 v3
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_absurd_256 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_absurd_264 v3
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
              _ -> MAlonzo.RTE.mazUnreachableError
-      MAlonzo.Code.Agda.Builtin.Reflection.C_lit_248 v2
+      MAlonzo.Code.Agda.Builtin.Reflection.C_lit_256 v2
         -> case coe v1 of
-             MAlonzo.Code.Agda.Builtin.Reflection.C_con_236 v3 v4
+             MAlonzo.Code.Agda.Builtin.Reflection.C_con_244 v3 v4
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_dot_240 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_dot_248 v3
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_var_244 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_var_252 v3
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_lit_248 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_lit_256 v3
                -> coe
-                    MAlonzo.Code.Relation.Nullary.Decidable.Core.d_'8970'_'8971'_104 ()
+                    MAlonzo.Code.Relation.Nullary.Decidable.Core.d_'8970'_'8971'_106 ()
                     erased
                     (MAlonzo.Code.Reflection.AST.Literal.d__'8799'__48
                        (coe v2) (coe v3))
-             MAlonzo.Code.Agda.Builtin.Reflection.C_proj_252 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_proj_260 v3
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_absurd_256 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_absurd_264 v3
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
              _ -> MAlonzo.RTE.mazUnreachableError
-      MAlonzo.Code.Agda.Builtin.Reflection.C_proj_252 v2
+      MAlonzo.Code.Agda.Builtin.Reflection.C_proj_260 v2
         -> case coe v1 of
-             MAlonzo.Code.Agda.Builtin.Reflection.C_con_236 v3 v4
+             MAlonzo.Code.Agda.Builtin.Reflection.C_con_244 v3 v4
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_dot_240 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_dot_248 v3
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_var_244 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_var_252 v3
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_lit_248 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_lit_256 v3
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_proj_252 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_proj_260 v3
                -> coe
-                    MAlonzo.Code.Relation.Nullary.Decidable.Core.d_'8970'_'8971'_104 ()
+                    MAlonzo.Code.Relation.Nullary.Decidable.Core.d_'8970'_'8971'_106 ()
                     erased
                     (MAlonzo.Code.Reflection.AST.Name.d__'8799'__12 (coe v2) (coe v3))
-             MAlonzo.Code.Agda.Builtin.Reflection.C_absurd_256 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_absurd_264 v3
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
              _ -> MAlonzo.RTE.mazUnreachableError
-      MAlonzo.Code.Agda.Builtin.Reflection.C_absurd_256 v2
+      MAlonzo.Code.Agda.Builtin.Reflection.C_absurd_264 v2
         -> case coe v1 of
-             MAlonzo.Code.Agda.Builtin.Reflection.C_con_236 v3 v4
+             MAlonzo.Code.Agda.Builtin.Reflection.C_con_244 v3 v4
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_dot_240 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_dot_248 v3
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_var_244 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_var_252 v3
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_lit_248 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_lit_256 v3
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_proj_252 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_proj_260 v3
                -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
-             MAlonzo.Code.Agda.Builtin.Reflection.C_absurd_256 v3
+             MAlonzo.Code.Agda.Builtin.Reflection.C_absurd_264 v3
                -> coe eqInt (coe v2) (coe v3)
              _ -> MAlonzo.RTE.mazUnreachableError
       _ -> MAlonzo.RTE.mazUnreachableError

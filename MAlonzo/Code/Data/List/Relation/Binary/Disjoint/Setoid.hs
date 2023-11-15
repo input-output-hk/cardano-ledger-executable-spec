@@ -24,15 +24,15 @@ import qualified MAlonzo.Code.Relation.Binary.Bundles
 
 -- Data.List.Relation.Binary.Disjoint.Setoid.Disjoint
 d_Disjoint_46 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
   [AgdaAny] -> [AgdaAny] -> ()
 d_Disjoint_46 = erased
 -- Data.List.Relation.Binary.Disjoint.Setoid.contractₗ
 d_contract'8343'_60 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
   AgdaAny ->
   [AgdaAny] ->
@@ -46,8 +46,8 @@ d_contract'8343'_60 ::
 d_contract'8343'_60 = erased
 -- Data.List.Relation.Binary.Disjoint.Setoid.contractᵣ
 d_contract'7523'_74 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
   [AgdaAny] ->
   AgdaAny ->

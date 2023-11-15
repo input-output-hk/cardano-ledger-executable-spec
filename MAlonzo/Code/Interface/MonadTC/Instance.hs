@@ -28,14 +28,14 @@ import qualified MAlonzo.Code.Interface.MonadTC
 -- Interface.MonadTC.Instance._.blockOnMeta
 d_blockOnMeta_8 ::
   MAlonzo.Code.Interface.MonadTC.T_MonadTC_104 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 -> () -> AgdaAny -> AgdaAny
+  MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> AgdaAny -> AgdaAny
 d_blockOnMeta_8 v0
   = coe MAlonzo.Code.Interface.MonadTC.d_blockOnMeta_190 (coe v0)
 -- Interface.MonadTC.Instance._.checkType
 d_checkType_10 ::
   MAlonzo.Code.Interface.MonadTC.T_MonadTC_104 ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 -> AgdaAny
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 ->
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 -> AgdaAny
 d_checkType_10 v0
   = coe MAlonzo.Code.Interface.MonadTC.d_checkType_164 (coe v0)
 -- Interface.MonadTC.Instance._.commitTC
@@ -48,33 +48,33 @@ d_debugPrint_14 ::
   MAlonzo.Code.Interface.MonadTC.T_MonadTC_104 ->
   MAlonzo.Code.Agda.Builtin.String.T_String_6 ->
   Integer ->
-  [MAlonzo.Code.Agda.Builtin.Reflection.T_ErrorPart_298] -> AgdaAny
+  [MAlonzo.Code.Agda.Builtin.Reflection.T_ErrorPart_306] -> AgdaAny
 d_debugPrint_14 v0
   = coe MAlonzo.Code.Interface.MonadTC.d_debugPrint_196 (coe v0)
 -- Interface.MonadTC.Instance._.declareAndDefineFun
 d_declareAndDefineFun_16 ::
-  (MAlonzo.Code.Agda.Primitive.T_Level_14 -> () -> ()) ->
+  (MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()) ->
   MAlonzo.Code.Interface.Monad.T_Monad_20 ->
   MAlonzo.Code.Interface.MonadError.T_MonadError_46 ->
   MAlonzo.Code.Interface.MonadTC.T_MonadTC_104 ->
   MAlonzo.Code.Agda.Builtin.Reflection.T_Arg_88 ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 ->
-  [MAlonzo.Code.Agda.Builtin.Reflection.T_Clause_152] -> AgdaAny
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 ->
+  [MAlonzo.Code.Agda.Builtin.Reflection.T_Clause_160] -> AgdaAny
 d_declareAndDefineFun_16 ~v0 v1 ~v2 v3
   = du_declareAndDefineFun_16 v1 v3
 du_declareAndDefineFun_16 ::
   MAlonzo.Code.Interface.Monad.T_Monad_20 ->
   MAlonzo.Code.Interface.MonadTC.T_MonadTC_104 ->
   MAlonzo.Code.Agda.Builtin.Reflection.T_Arg_88 ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 ->
-  [MAlonzo.Code.Agda.Builtin.Reflection.T_Clause_152] -> AgdaAny
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 ->
+  [MAlonzo.Code.Agda.Builtin.Reflection.T_Clause_160] -> AgdaAny
 du_declareAndDefineFun_16 v0 v1
   = coe
       MAlonzo.Code.Interface.MonadTC.du_declareAndDefineFun_300 (coe v0)
       (coe v1)
 -- Interface.MonadTC.Instance._.declareAndDefineFuns
 d_declareAndDefineFuns_18 ::
-  (MAlonzo.Code.Agda.Primitive.T_Level_14 -> () -> ()) ->
+  (MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()) ->
   MAlonzo.Code.Interface.Monad.T_Monad_20 ->
   MAlonzo.Code.Interface.MonadError.T_MonadError_46 ->
   MAlonzo.Code.Interface.MonadTC.T_MonadTC_104 ->
@@ -93,14 +93,14 @@ du_declareAndDefineFuns_18 v0 v1
 d_declareDef_20 ::
   MAlonzo.Code.Interface.MonadTC.T_MonadTC_104 ->
   MAlonzo.Code.Agda.Builtin.Reflection.T_Arg_88 ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 -> AgdaAny
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 -> AgdaAny
 d_declareDef_20 v0
   = coe MAlonzo.Code.Interface.MonadTC.d_declareDef_180 (coe v0)
 -- Interface.MonadTC.Instance._.declarePostulate
 d_declarePostulate_22 ::
   MAlonzo.Code.Interface.MonadTC.T_MonadTC_104 ->
   MAlonzo.Code.Agda.Builtin.Reflection.T_Arg_88 ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 -> AgdaAny
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 -> AgdaAny
 d_declarePostulate_22 v0
   = coe
       MAlonzo.Code.Interface.MonadTC.d_declarePostulate_182 (coe v0)
@@ -108,7 +108,7 @@ d_declarePostulate_22 v0
 d_defineFun_24 ::
   MAlonzo.Code.Interface.MonadTC.T_MonadTC_104 ->
   AgdaAny ->
-  [MAlonzo.Code.Agda.Builtin.Reflection.T_Clause_152] -> AgdaAny
+  [MAlonzo.Code.Agda.Builtin.Reflection.T_Clause_160] -> AgdaAny
 d_defineFun_24 v0
   = coe MAlonzo.Code.Interface.MonadTC.d_defineFun_184 (coe v0)
 -- Interface.MonadTC.Instance._.freshName
@@ -130,12 +130,12 @@ d_getType_30 v0
 -- Interface.MonadTC.Instance._.inferType
 d_inferType_32 ::
   MAlonzo.Code.Interface.MonadTC.T_MonadTC_104 ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 -> AgdaAny
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 -> AgdaAny
 d_inferType_32 v0
   = coe MAlonzo.Code.Interface.MonadTC.d_inferType_162 (coe v0)
 -- Interface.MonadTC.Instance._.isCon
 d_isCon_34 ::
-  (MAlonzo.Code.Agda.Primitive.T_Level_14 -> () -> ()) ->
+  (MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()) ->
   MAlonzo.Code.Interface.Monad.T_Monad_20 ->
   MAlonzo.Code.Interface.MonadError.T_MonadError_46 ->
   MAlonzo.Code.Interface.MonadTC.T_MonadTC_104 -> AgdaAny -> AgdaAny
@@ -147,7 +147,7 @@ du_isCon_34 v0 v1
   = coe MAlonzo.Code.Interface.MonadTC.du_isCon_252 (coe v0) (coe v1)
 -- Interface.MonadTC.Instance._.isDef
 d_isDef_36 ::
-  (MAlonzo.Code.Agda.Primitive.T_Level_14 -> () -> ()) ->
+  (MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()) ->
   MAlonzo.Code.Interface.Monad.T_Monad_20 ->
   MAlonzo.Code.Interface.MonadError.T_MonadError_46 ->
   MAlonzo.Code.Interface.MonadTC.T_MonadTC_104 -> AgdaAny -> AgdaAny
@@ -164,24 +164,24 @@ d_isMacro_38 v0
   = coe MAlonzo.Code.Interface.MonadTC.d_isMacro_194 (coe v0)
 -- Interface.MonadTC.Instance._.isSuccessful
 d_isSuccessful_40 ::
-  (MAlonzo.Code.Agda.Primitive.T_Level_14 -> () -> ()) ->
+  (MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()) ->
   MAlonzo.Code.Interface.Monad.T_Monad_20 ->
   MAlonzo.Code.Interface.MonadError.T_MonadError_46 ->
   MAlonzo.Code.Interface.MonadTC.T_MonadTC_104 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 -> () -> AgdaAny -> AgdaAny
+  MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> AgdaAny -> AgdaAny
 d_isSuccessful_40 ~v0 v1 v2 v3 = du_isSuccessful_40 v1 v2 v3
 du_isSuccessful_40 ::
   MAlonzo.Code.Interface.Monad.T_Monad_20 ->
   MAlonzo.Code.Interface.MonadError.T_MonadError_46 ->
   MAlonzo.Code.Interface.MonadTC.T_MonadTC_104 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 -> () -> AgdaAny -> AgdaAny
+  MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> AgdaAny -> AgdaAny
 du_isSuccessful_40 v0 v1 v2 v3 v4 v5
   = coe
       MAlonzo.Code.Interface.MonadTC.du_isSuccessful_240 (coe v0)
       (coe v1) (coe v2) v3 v5
 -- Interface.MonadTC.Instance._.mkRecord
 d_mkRecord_42 ::
-  (MAlonzo.Code.Agda.Primitive.T_Level_14 -> () -> ()) ->
+  (MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()) ->
   MAlonzo.Code.Interface.Monad.T_Monad_20 ->
   MAlonzo.Code.Interface.MonadError.T_MonadError_46 ->
   MAlonzo.Code.Interface.MonadTC.T_MonadTC_104 ->
@@ -200,7 +200,7 @@ du_mkRecord_42 v0 v1 v2
       (coe v2)
 -- Interface.MonadTC.Instance._.nameConstr
 d_nameConstr_44 ::
-  (MAlonzo.Code.Agda.Primitive.T_Level_14 -> () -> ()) ->
+  (MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()) ->
   MAlonzo.Code.Interface.Monad.T_Monad_20 ->
   MAlonzo.Code.Interface.MonadError.T_MonadError_46 ->
   MAlonzo.Code.Interface.MonadTC.T_MonadTC_104 ->
@@ -219,27 +219,27 @@ du_nameConstr_44 v0 v1 v2
       (coe v2)
 -- Interface.MonadTC.Instance._.newMeta
 d_newMeta_46 ::
-  (MAlonzo.Code.Agda.Primitive.T_Level_14 -> () -> ()) ->
+  (MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()) ->
   MAlonzo.Code.Interface.Monad.T_Monad_20 ->
   MAlonzo.Code.Interface.MonadError.T_MonadError_46 ->
   MAlonzo.Code.Interface.MonadTC.T_MonadTC_104 ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 -> AgdaAny
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 -> AgdaAny
 d_newMeta_46 ~v0 ~v1 ~v2 v3 = du_newMeta_46 v3
 du_newMeta_46 ::
   MAlonzo.Code.Interface.MonadTC.T_MonadTC_104 ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 -> AgdaAny
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 -> AgdaAny
 du_newMeta_46 v0
   = coe MAlonzo.Code.Interface.MonadTC.du_newMeta_308 (coe v0)
 -- Interface.MonadTC.Instance._.normalise
 d_normalise_48 ::
   MAlonzo.Code.Interface.MonadTC.T_MonadTC_104 ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 -> AgdaAny
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 -> AgdaAny
 d_normalise_48 v0
   = coe MAlonzo.Code.Interface.MonadTC.d_normalise_166 (coe v0)
 -- Interface.MonadTC.Instance._.quoteTC
 d_quoteTC_50 ::
   MAlonzo.Code.Interface.MonadTC.T_MonadTC_104 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 -> () -> AgdaAny -> AgdaAny
+  MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> AgdaAny -> AgdaAny
 d_quoteTC_50 v0
   = coe MAlonzo.Code.Interface.MonadTC.d_quoteTC_170 (coe v0)
 -- Interface.MonadTC.Instance._.quoteωTC
@@ -251,21 +251,21 @@ d_quoteωTC_52 v0
 -- Interface.MonadTC.Instance._.reduce
 d_reduce_54 ::
   MAlonzo.Code.Interface.MonadTC.T_MonadTC_104 ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 -> AgdaAny
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 -> AgdaAny
 d_reduce_54 v0
   = coe MAlonzo.Code.Interface.MonadTC.d_reduce_168 (coe v0)
 -- Interface.MonadTC.Instance._.runAndReset
 d_runAndReset_56 ::
-  (MAlonzo.Code.Agda.Primitive.T_Level_14 -> () -> ()) ->
+  (MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()) ->
   MAlonzo.Code.Interface.Monad.T_Monad_20 ->
   MAlonzo.Code.Interface.MonadError.T_MonadError_46 ->
   MAlonzo.Code.Interface.MonadTC.T_MonadTC_104 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 -> () -> AgdaAny -> AgdaAny
+  MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> AgdaAny -> AgdaAny
 d_runAndReset_56 ~v0 v1 ~v2 v3 = du_runAndReset_56 v1 v3
 du_runAndReset_56 ::
   MAlonzo.Code.Interface.Monad.T_Monad_20 ->
   MAlonzo.Code.Interface.MonadTC.T_MonadTC_104 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 -> () -> AgdaAny -> AgdaAny
+  MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> AgdaAny -> AgdaAny
 du_runAndReset_56 v0 v1 v2 v3 v4
   = coe
       MAlonzo.Code.Interface.MonadTC.du_runAndReset_234 (coe v0) (coe v1)
@@ -273,12 +273,12 @@ du_runAndReset_56 v0 v1 v2 v3 v4
 -- Interface.MonadTC.Instance._.runSpeculative
 d_runSpeculative_58 ::
   MAlonzo.Code.Interface.MonadTC.T_MonadTC_104 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 -> () -> AgdaAny -> AgdaAny
+  MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> AgdaAny -> AgdaAny
 d_runSpeculative_58 v0
   = coe MAlonzo.Code.Interface.MonadTC.d_runSpeculative_198 (coe v0)
 -- Interface.MonadTC.Instance._.termFromName
 d_termFromName_60 ::
-  (MAlonzo.Code.Agda.Primitive.T_Level_14 -> () -> ()) ->
+  (MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()) ->
   MAlonzo.Code.Interface.Monad.T_Monad_20 ->
   MAlonzo.Code.Interface.MonadError.T_MonadError_46 ->
   MAlonzo.Code.Interface.MonadTC.T_MonadTC_104 -> AgdaAny -> AgdaAny
@@ -294,22 +294,22 @@ du_termFromName_60 v0 v1 v2
 -- Interface.MonadTC.Instance._.typeError
 d_typeError_62 ::
   MAlonzo.Code.Interface.MonadTC.T_MonadTC_104 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  [MAlonzo.Code.Agda.Builtin.Reflection.T_ErrorPart_298] -> AgdaAny
+  [MAlonzo.Code.Agda.Builtin.Reflection.T_ErrorPart_306] -> AgdaAny
 d_typeError_62 v0
   = coe MAlonzo.Code.Interface.MonadTC.d_typeError_160 (coe v0)
 -- Interface.MonadTC.Instance._.unify
 d_unify_64 ::
   MAlonzo.Code.Interface.MonadTC.T_MonadTC_104 ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 -> AgdaAny
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 ->
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 -> AgdaAny
 d_unify_64 v0
   = coe MAlonzo.Code.Interface.MonadTC.d_unify_156 (coe v0)
 -- Interface.MonadTC.Instance._.unquoteTC
 d_unquoteTC_66 ::
   MAlonzo.Code.Interface.MonadTC.T_MonadTC_104 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  () -> MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 -> AgdaAny
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  () -> MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 -> AgdaAny
 d_unquoteTC_66 v0
   = coe MAlonzo.Code.Interface.MonadTC.d_unquoteTC_172 (coe v0)

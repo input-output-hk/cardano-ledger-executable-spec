@@ -32,9 +32,9 @@ data T_Permutation_28
     C_trans_76 [AgdaAny] T_Permutation_28 T_Permutation_28
 -- Data.List.Relation.Binary.Permutation.Homogeneous._.sym
 d_sym_88 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (AgdaAny -> AgdaAny -> ()) ->
   (AgdaAny -> AgdaAny -> AgdaAny -> AgdaAny) ->
   [AgdaAny] -> [AgdaAny] -> T_Permutation_28 -> T_Permutation_28
@@ -83,9 +83,9 @@ du_sym_88 v0 v1 v2 v3
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Data.List.Relation.Binary.Permutation.Homogeneous._.isEquivalence
 d_isEquivalence_114 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (AgdaAny -> AgdaAny -> ()) ->
   (AgdaAny -> AgdaAny) ->
   (AgdaAny -> AgdaAny -> AgdaAny -> AgdaAny) ->
@@ -110,9 +110,9 @@ du_isEquivalence_114 v0 v1
       (\ v2 v3 v4 v5 v6 -> coe C_trans_76 v3 v5 v6)
 -- Data.List.Relation.Binary.Permutation.Homogeneous._.setoid
 d_setoid_120 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (AgdaAny -> AgdaAny -> ()) ->
   (AgdaAny -> AgdaAny) ->
   (AgdaAny -> AgdaAny -> AgdaAny -> AgdaAny) ->
@@ -124,14 +124,14 @@ du_setoid_120 ::
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44
 du_setoid_120 v0 v1
   = coe
-      MAlonzo.Code.Relation.Binary.Bundles.C_Setoid'46'constructor_719
+      MAlonzo.Code.Relation.Binary.Bundles.C_Setoid'46'constructor_727
       (coe du_isEquivalence_114 (coe v0) (coe v1))
 -- Data.List.Relation.Binary.Permutation.Homogeneous.map
 d_map_130 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (AgdaAny -> AgdaAny -> ()) ->
   (AgdaAny -> AgdaAny -> ()) ->
   (AgdaAny -> AgdaAny -> AgdaAny -> AgdaAny) ->

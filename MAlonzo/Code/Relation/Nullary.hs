@@ -21,5 +21,5 @@ import qualified MAlonzo.Code.Agda.Primitive
 
 -- Relation.Nullary.Irrelevant
 d_Irrelevant_6 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 -> () -> ()
+  MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()
 d_Irrelevant_6 = erased

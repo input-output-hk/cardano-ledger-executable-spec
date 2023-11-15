@@ -43,9 +43,9 @@ cover_Either_22 x
       Right _ -> ()
 -- Foreign.Haskell.Either.toForeign
 d_toForeign_32 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   MAlonzo.Code.Data.Sum.Base.T__'8846'__30 ->
   T_Either_22 AgdaAny AgdaAny AgdaAny AgdaAny
@@ -62,9 +62,9 @@ du_toForeign_32 v0
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Foreign.Haskell.Either.fromForeign
 d_fromForeign_38 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   T_Either_22 AgdaAny AgdaAny AgdaAny AgdaAny ->
   MAlonzo.Code.Data.Sum.Base.T__'8846'__30

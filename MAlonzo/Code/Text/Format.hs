@@ -36,24 +36,25 @@ d_lexArg_20 ::
   MAlonzo.Code.Agda.Builtin.Char.T_Char_6 -> Maybe T_ArgChunk_4
 d_lexArg_20 v0
   = let v1 = coe MAlonzo.Code.Agda.Builtin.Maybe.C_nothing_18 in
-    case coe v0 of
-      'c'
-        -> coe MAlonzo.Code.Agda.Builtin.Maybe.C_just_16 (coe C_CharArg_12)
-      'd' -> coe MAlonzo.Code.Agda.Builtin.Maybe.C_just_16 (coe C_ℤArg_8)
-      'f'
-        -> coe
-             MAlonzo.Code.Agda.Builtin.Maybe.C_just_16 (coe C_FloatArg_10)
-      'i' -> coe MAlonzo.Code.Agda.Builtin.Maybe.C_just_16 (coe C_ℤArg_8)
-      's'
-        -> coe
-             MAlonzo.Code.Agda.Builtin.Maybe.C_just_16 (coe C_StringArg_14)
-      'u' -> coe MAlonzo.Code.Agda.Builtin.Maybe.C_just_16 (coe C_ℕArg_6)
-      _ -> coe v1
+    coe
+      (case coe v0 of
+         'c'
+           -> coe MAlonzo.Code.Agda.Builtin.Maybe.C_just_16 (coe C_CharArg_12)
+         'd' -> coe MAlonzo.Code.Agda.Builtin.Maybe.C_just_16 (coe C_ℤArg_8)
+         'f'
+           -> coe
+                MAlonzo.Code.Agda.Builtin.Maybe.C_just_16 (coe C_FloatArg_10)
+         'i' -> coe MAlonzo.Code.Agda.Builtin.Maybe.C_just_16 (coe C_ℤArg_8)
+         's'
+           -> coe
+                MAlonzo.Code.Agda.Builtin.Maybe.C_just_16 (coe C_StringArg_14)
+         'u' -> coe MAlonzo.Code.Agda.Builtin.Maybe.C_just_16 (coe C_ℕArg_6)
+         _ -> coe v1)
 -- Text.Format.formatSpec
 d_formatSpec_22 :: MAlonzo.Code.Text.Format.Generic.T_FormatSpec_6
 d_formatSpec_22
   = coe
-      MAlonzo.Code.Text.Format.Generic.C_FormatSpec'46'constructor_25
+      MAlonzo.Code.Text.Format.Generic.C_FormatSpec'46'constructor_27
       d_lexArg_20
 -- Text.Format._.Chunk
 d_Chunk_28 = ()

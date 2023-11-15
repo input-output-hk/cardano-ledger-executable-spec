@@ -25,8 +25,8 @@ import qualified MAlonzo.Code.Relation.Binary.Bundles
 
 -- Data.List.Relation.Unary.Unique.Setoid.Distinct
 d_Distinct_40 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
   AgdaAny -> AgdaAny -> ()
 d_Distinct_40 = erased
@@ -34,8 +34,8 @@ d_Distinct_40 = erased
 d_AllPairs_50 a0 a1 a2 a3 = ()
 -- Data.List.Relation.Unary.Unique.Setoid._.head
 d_head_62 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
   AgdaAny ->
   [AgdaAny] ->
@@ -51,8 +51,8 @@ du_head_62 v0 v1 v2
   = coe MAlonzo.Code.Data.List.Relation.Unary.AllPairs.du_head_22 v2
 -- Data.List.Relation.Unary.Unique.Setoid._.tail
 d_tail_64 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
   AgdaAny ->
   [AgdaAny] ->

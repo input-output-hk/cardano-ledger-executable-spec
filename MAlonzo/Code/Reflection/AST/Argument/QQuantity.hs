@@ -33,26 +33,26 @@ d__'8799'__8 v0 v1
         -> case coe v1 of
              MAlonzo.Code.Agda.Builtin.Reflection.C_quantity'45'0_64
                -> coe
-                    MAlonzo.Code.Relation.Nullary.Decidable.Core.C__because__34
+                    MAlonzo.Code.Relation.Nullary.Decidable.Core.C__because__32
                     (coe MAlonzo.Code.Agda.Builtin.Bool.C_true_10)
-                    (coe MAlonzo.Code.Relation.Nullary.Reflects.C_of'696'_26 erased)
+                    (coe MAlonzo.Code.Relation.Nullary.Reflects.C_of'696'_22 erased)
              MAlonzo.Code.Agda.Builtin.Reflection.C_quantity'45'ω_66
                -> coe
-                    MAlonzo.Code.Relation.Nullary.Decidable.Core.C__because__34
+                    MAlonzo.Code.Relation.Nullary.Decidable.Core.C__because__32
                     (coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8)
-                    (coe MAlonzo.Code.Relation.Nullary.Reflects.C_of'8319'_30)
+                    (coe MAlonzo.Code.Relation.Nullary.Reflects.C_of'8319'_26)
              _ -> MAlonzo.RTE.mazUnreachableError
       MAlonzo.Code.Agda.Builtin.Reflection.C_quantity'45'ω_66
         -> case coe v1 of
              MAlonzo.Code.Agda.Builtin.Reflection.C_quantity'45'0_64
                -> coe
-                    MAlonzo.Code.Relation.Nullary.Decidable.Core.C__because__34
+                    MAlonzo.Code.Relation.Nullary.Decidable.Core.C__because__32
                     (coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8)
-                    (coe MAlonzo.Code.Relation.Nullary.Reflects.C_of'8319'_30)
+                    (coe MAlonzo.Code.Relation.Nullary.Reflects.C_of'8319'_26)
              MAlonzo.Code.Agda.Builtin.Reflection.C_quantity'45'ω_66
                -> coe
-                    MAlonzo.Code.Relation.Nullary.Decidable.Core.C__because__34
+                    MAlonzo.Code.Relation.Nullary.Decidable.Core.C__because__32
                     (coe MAlonzo.Code.Agda.Builtin.Bool.C_true_10)
-                    (coe MAlonzo.Code.Relation.Nullary.Reflects.C_of'696'_26 erased)
+                    (coe MAlonzo.Code.Relation.Nullary.Reflects.C_of'696'_22 erased)
              _ -> MAlonzo.RTE.mazUnreachableError
       _ -> MAlonzo.RTE.mazUnreachableError

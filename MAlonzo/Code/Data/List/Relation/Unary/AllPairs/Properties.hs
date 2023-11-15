@@ -30,10 +30,10 @@ import qualified MAlonzo.Code.Relation.Nullary.Decidable.Core
 
 -- Data.List.Relation.Unary.AllPairs.Properties._.map⁺
 d_map'8314'_48 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   (AgdaAny -> AgdaAny -> ()) ->
   (AgdaAny -> AgdaAny) ->
@@ -56,16 +56,16 @@ du_map'8314'_48 v0 v1
                -> coe
                     MAlonzo.Code.Data.List.Relation.Unary.AllPairs.Core.C__'8759'__28
                     (coe
-                       MAlonzo.Code.Data.List.Relation.Unary.All.Properties.du_map'8314'_672
+                       MAlonzo.Code.Data.List.Relation.Unary.All.Properties.du_map'8314'_674
                        (coe v7) (coe v4))
                     (coe du_map'8314'_48 (coe v7) (coe v5))
              _ -> MAlonzo.RTE.mazUnreachableError
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Data.List.Relation.Unary.AllPairs.Properties._.++⁺
 d_'43''43''8314'_70 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (AgdaAny -> AgdaAny -> ()) ->
   [AgdaAny] ->
   [AgdaAny] ->
@@ -93,7 +93,7 @@ du_'43''43''8314'_70 v0 v1 v2 v3
                       -> coe
                            MAlonzo.Code.Data.List.Relation.Unary.AllPairs.Core.C__'8759'__28
                            (coe
-                              MAlonzo.Code.Data.List.Relation.Unary.All.Properties.du_'43''43''8314'_752
+                              MAlonzo.Code.Data.List.Relation.Unary.All.Properties.du_'43''43''8314'_760
                               (coe v9) (coe v6) (coe v12))
                            (coe du_'43''43''8314'_70 (coe v9) (coe v7) (coe v2) (coe v13))
                     _ -> MAlonzo.RTE.mazUnreachableError
@@ -101,9 +101,9 @@ du_'43''43''8314'_70 v0 v1 v2 v3
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Data.List.Relation.Unary.AllPairs.Properties._.concat⁺
 d_concat'8314'_102 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (AgdaAny -> AgdaAny -> ()) ->
   [[AgdaAny]] ->
   MAlonzo.Code.Data.List.Relation.Unary.All.T_All_44 ->
@@ -136,20 +136,20 @@ du_concat'8314'_102 v0 v1 v2
                               (coe
                                  (\ v13 ->
                                     coe
-                                      MAlonzo.Code.Data.List.Relation.Unary.All.Properties.du_concat'8314'_854
+                                      MAlonzo.Code.Data.List.Relation.Unary.All.Properties.du_concat'8314'_862
                                       (coe v8)))
                               (coe v7)
                               (coe
-                                 MAlonzo.Code.Data.List.Relation.Unary.All.Properties.du_All'45'swap_226
+                                 MAlonzo.Code.Data.List.Relation.Unary.All.Properties.du_All'45'swap_228
                                  (coe v8) (coe v7) (coe v11)))
                     _ -> MAlonzo.RTE.mazUnreachableError
              _ -> MAlonzo.RTE.mazUnreachableError
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Data.List.Relation.Unary.AllPairs.Properties._.take⁺
 d_take'8314'_126 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (AgdaAny -> AgdaAny -> ()) ->
   [AgdaAny] ->
   Integer ->
@@ -167,25 +167,26 @@ du_take'8314'_126 v0 v1 v2
       0 -> coe
              MAlonzo.Code.Data.List.Relation.Unary.AllPairs.Core.C_'91''93'_22
       _ -> let v3 = subInt (coe v1) (coe (1 :: Integer)) in
-           case coe v2 of
-             MAlonzo.Code.Data.List.Relation.Unary.AllPairs.Core.C_'91''93'_22
-               -> coe v2
-             MAlonzo.Code.Data.List.Relation.Unary.AllPairs.Core.C__'8759'__28 v6 v7
-               -> case coe v0 of
-                    (:) v8 v9
-                      -> coe
-                           MAlonzo.Code.Data.List.Relation.Unary.AllPairs.Core.C__'8759'__28
-                           (coe
-                              MAlonzo.Code.Data.List.Relation.Unary.All.Properties.du_take'8314'_1108
-                              (coe v9) (coe v3) (coe v6))
-                           (coe du_take'8314'_126 (coe v9) (coe v3) (coe v7))
-                    _ -> MAlonzo.RTE.mazUnreachableError
-             _ -> MAlonzo.RTE.mazUnreachableError
+           coe
+             (case coe v2 of
+                MAlonzo.Code.Data.List.Relation.Unary.AllPairs.Core.C_'91''93'_22
+                  -> coe v2
+                MAlonzo.Code.Data.List.Relation.Unary.AllPairs.Core.C__'8759'__28 v6 v7
+                  -> case coe v0 of
+                       (:) v8 v9
+                         -> coe
+                              MAlonzo.Code.Data.List.Relation.Unary.AllPairs.Core.C__'8759'__28
+                              (coe
+                                 MAlonzo.Code.Data.List.Relation.Unary.All.Properties.du_take'8314'_1116
+                                 (coe v9) (coe v3) (coe v6))
+                              (coe du_take'8314'_126 (coe v9) (coe v3) (coe v7))
+                       _ -> MAlonzo.RTE.mazUnreachableError
+                _ -> MAlonzo.RTE.mazUnreachableError)
 -- Data.List.Relation.Unary.AllPairs.Properties._.drop⁺
 d_drop'8314'_142 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (AgdaAny -> AgdaAny -> ()) ->
   [AgdaAny] ->
   Integer ->
@@ -202,19 +203,20 @@ du_drop'8314'_142 v0 v1 v2
   = case coe v1 of
       0 -> coe v2
       _ -> let v3 = subInt (coe v1) (coe (1 :: Integer)) in
-           case coe v2 of
-             MAlonzo.Code.Data.List.Relation.Unary.AllPairs.Core.C_'91''93'_22
-               -> coe v2
-             MAlonzo.Code.Data.List.Relation.Unary.AllPairs.Core.C__'8759'__28 v6 v7
-               -> case coe v0 of
-                    (:) v8 v9 -> coe du_drop'8314'_142 (coe v9) (coe v3) (coe v7)
-                    _ -> MAlonzo.RTE.mazUnreachableError
-             _ -> MAlonzo.RTE.mazUnreachableError
+           coe
+             (case coe v2 of
+                MAlonzo.Code.Data.List.Relation.Unary.AllPairs.Core.C_'91''93'_22
+                  -> coe v2
+                MAlonzo.Code.Data.List.Relation.Unary.AllPairs.Core.C__'8759'__28 v6 v7
+                  -> case coe v0 of
+                       (:) v8 v9 -> coe du_drop'8314'_142 (coe v9) (coe v3) (coe v7)
+                       _ -> MAlonzo.RTE.mazUnreachableError
+                _ -> MAlonzo.RTE.mazUnreachableError)
 -- Data.List.Relation.Unary.AllPairs.Properties._.applyUpTo⁺₁
 d_applyUpTo'8314''8321'_170 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (AgdaAny -> AgdaAny -> ()) ->
   (Integer -> AgdaAny) ->
   Integer ->
@@ -238,32 +240,33 @@ du_applyUpTo'8314''8321'_170 v0 v1
              MAlonzo.Code.Data.List.Relation.Unary.AllPairs.Core.C_'91''93'_22
       _ -> let v2 = subInt (coe v0) (coe (1 :: Integer)) in
            coe
-             MAlonzo.Code.Data.List.Relation.Unary.AllPairs.Core.C__'8759'__28
              (coe
-                MAlonzo.Code.Data.List.Relation.Unary.All.Properties.du_applyUpTo'8314''8321'_1240
-                (coe v2)
+                MAlonzo.Code.Data.List.Relation.Unary.AllPairs.Core.C__'8759'__28
                 (coe
-                   (\ v3 v4 ->
-                      coe
-                        v1 (0 :: Integer) (addInt (coe (1 :: Integer)) (coe v3))
-                        (coe
-                           MAlonzo.Code.Data.Nat.Base.C_s'8804's_30
-                           (coe MAlonzo.Code.Data.Nat.Base.C_z'8804'n_22))
-                        (coe MAlonzo.Code.Data.Nat.Base.C_s'8804's_30 v4))))
-             (coe
-                du_applyUpTo'8314''8321'_170 (coe v2)
+                   MAlonzo.Code.Data.List.Relation.Unary.All.Properties.du_applyUpTo'8314''8321'_1248
+                   (coe v2)
+                   (coe
+                      (\ v3 v4 ->
+                         coe
+                           v1 (0 :: Integer) (addInt (coe (1 :: Integer)) (coe v3))
+                           (coe
+                              MAlonzo.Code.Data.Nat.Base.C_s'8804's_30
+                              (coe MAlonzo.Code.Data.Nat.Base.C_z'8804'n_22))
+                           (coe MAlonzo.Code.Data.Nat.Base.C_s'8804's_30 v4))))
                 (coe
-                   (\ v3 v4 v5 v6 ->
-                      coe
-                        v1 (addInt (coe (1 :: Integer)) (coe v3))
-                        (addInt (coe (1 :: Integer)) (coe v4))
-                        (coe MAlonzo.Code.Data.Nat.Base.C_s'8804's_30 v5)
-                        (coe MAlonzo.Code.Data.Nat.Base.C_s'8804's_30 v6))))
+                   du_applyUpTo'8314''8321'_170 (coe v2)
+                   (coe
+                      (\ v3 v4 v5 v6 ->
+                         coe
+                           v1 (addInt (coe (1 :: Integer)) (coe v3))
+                           (addInt (coe (1 :: Integer)) (coe v4))
+                           (coe MAlonzo.Code.Data.Nat.Base.C_s'8804's_30 v5)
+                           (coe MAlonzo.Code.Data.Nat.Base.C_s'8804's_30 v6)))))
 -- Data.List.Relation.Unary.AllPairs.Properties._.applyUpTo⁺₂
 d_applyUpTo'8314''8322'_194 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (AgdaAny -> AgdaAny -> ()) ->
   (Integer -> AgdaAny) ->
   Integer ->
@@ -281,9 +284,9 @@ du_applyUpTo'8314''8322'_194 v0 v1
       (coe (\ v2 v3 v4 v5 -> coe v1 v2 v3))
 -- Data.List.Relation.Unary.AllPairs.Properties._.applyDownFrom⁺₁
 d_applyDownFrom'8314''8321'_224 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (AgdaAny -> AgdaAny -> ()) ->
   (Integer -> AgdaAny) ->
   Integer ->
@@ -307,30 +310,31 @@ du_applyDownFrom'8314''8321'_224 v0 v1
              MAlonzo.Code.Data.List.Relation.Unary.AllPairs.Core.C_'91''93'_22
       _ -> let v2 = subInt (coe v0) (coe (1 :: Integer)) in
            coe
-             MAlonzo.Code.Data.List.Relation.Unary.AllPairs.Core.C__'8759'__28
              (coe
-                MAlonzo.Code.Data.List.Relation.Unary.All.Properties.du_applyDownFrom'8314''8321'_1304
-                (coe v2)
+                MAlonzo.Code.Data.List.Relation.Unary.AllPairs.Core.C__'8759'__28
                 (coe
-                   (\ v3 v4 ->
-                      coe
-                        v1 v2 v3 v4
-                        (MAlonzo.Code.Data.Nat.Properties.d_'8804''45'refl_2570
-                           (coe v0)))))
-             (coe
-                du_applyDownFrom'8314''8321'_224 (coe v2)
+                   MAlonzo.Code.Data.List.Relation.Unary.All.Properties.du_applyDownFrom'8314''8321'_1312
+                   (coe v2)
+                   (coe
+                      (\ v3 v4 ->
+                         coe
+                           v1 v2 v3 v4
+                           (MAlonzo.Code.Data.Nat.Properties.d_'8804''45'refl_2638
+                              (coe v0)))))
                 (coe
-                   (\ v3 v4 v5 v6 ->
-                      coe
-                        v1 v3 v4 v5
-                        (coe
-                           MAlonzo.Code.Data.Nat.Properties.du_m'60'n'8658'm'60'1'43'n_2906
-                           (coe v6)))))
+                   du_applyDownFrom'8314''8321'_224 (coe v2)
+                   (coe
+                      (\ v3 v4 v5 v6 ->
+                         coe
+                           v1 v3 v4 v5
+                           (coe
+                              MAlonzo.Code.Data.Nat.Properties.du_m'60'n'8658'm'60'1'43'n_2924
+                              (coe v6))))))
 -- Data.List.Relation.Unary.AllPairs.Properties._.applyDownFrom⁺₂
 d_applyDownFrom'8314''8322'_248 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (AgdaAny -> AgdaAny -> ()) ->
   (Integer -> AgdaAny) ->
   Integer ->
@@ -348,9 +352,9 @@ du_applyDownFrom'8314''8322'_248 v0 v1
       (coe (\ v2 v3 v4 v5 -> coe v1 v2 v3))
 -- Data.List.Relation.Unary.AllPairs.Properties._.tabulate⁺
 d_tabulate'8314'_278 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (AgdaAny -> AgdaAny -> ()) ->
   Integer ->
   (MAlonzo.Code.Data.Fin.Base.T_Fin_10 -> AgdaAny) ->
@@ -376,29 +380,30 @@ du_tabulate'8314'_278 v0 v1
              MAlonzo.Code.Data.List.Relation.Unary.AllPairs.Core.C_'91''93'_22
       _ -> let v2 = subInt (coe v0) (coe (1 :: Integer)) in
            coe
-             MAlonzo.Code.Data.List.Relation.Unary.AllPairs.Core.C__'8759'__28
              (coe
-                MAlonzo.Code.Data.List.Relation.Unary.All.Properties.du_tabulate'8314'_1338
-                (coe v2)
+                MAlonzo.Code.Data.List.Relation.Unary.AllPairs.Core.C__'8759'__28
                 (coe
-                   (\ v3 ->
-                      coe
-                        v1 (coe MAlonzo.Code.Data.Fin.Base.C_zero_12)
-                        (coe MAlonzo.Code.Data.Fin.Base.C_suc_16 v3) erased)))
-             (coe
-                du_tabulate'8314'_278 (coe v2)
+                   MAlonzo.Code.Data.List.Relation.Unary.All.Properties.du_tabulate'8314'_1346
+                   (coe v2)
+                   (coe
+                      (\ v3 ->
+                         coe
+                           v1 (coe MAlonzo.Code.Data.Fin.Base.C_zero_12)
+                           (coe MAlonzo.Code.Data.Fin.Base.C_suc_16 v3) erased)))
                 (coe
-                   (\ v3 v4 v5 ->
-                      coe
-                        v1 (coe MAlonzo.Code.Data.Fin.Base.C_suc_16 v3)
-                        (coe MAlonzo.Code.Data.Fin.Base.C_suc_16 v4)
-                        (\ v6 -> coe v5 erased))))
+                   du_tabulate'8314'_278 (coe v2)
+                   (coe
+                      (\ v3 v4 v5 ->
+                         coe
+                           v1 (coe MAlonzo.Code.Data.Fin.Base.C_suc_16 v3)
+                           (coe MAlonzo.Code.Data.Fin.Base.C_suc_16 v4)
+                           (\ v6 -> coe v5 erased)))))
 -- Data.List.Relation.Unary.AllPairs.Properties._.filter⁺
 d_filter'8314'_308 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (AgdaAny -> AgdaAny -> ()) ->
   (AgdaAny -> ()) ->
   (AgdaAny ->
@@ -422,15 +427,16 @@ du_filter'8314'_308 v0 v1 v2
         -> case coe v1 of
              (:) v7 v8
                -> let v9
-                        = MAlonzo.Code.Relation.Nullary.Decidable.Core.d_does_30
+                        = MAlonzo.Code.Relation.Nullary.Decidable.Core.d_does_28
                             (coe v0 v7) in
-                  if coe v9
-                    then coe
-                           MAlonzo.Code.Data.List.Relation.Unary.AllPairs.Core.C__'8759'__28
-                           (coe
-                              MAlonzo.Code.Data.List.Relation.Unary.All.Properties.du_filter'8314'_1420
-                              (coe v0) (coe v8) (coe v5))
-                           (coe du_filter'8314'_308 (coe v0) (coe v8) (coe v6))
-                    else coe du_filter'8314'_308 (coe v0) (coe v8) (coe v6)
+                  coe
+                    (if coe v9
+                       then coe
+                              MAlonzo.Code.Data.List.Relation.Unary.AllPairs.Core.C__'8759'__28
+                              (coe
+                                 MAlonzo.Code.Data.List.Relation.Unary.All.Properties.du_filter'8314'_1428
+                                 (coe v0) (coe v8) (coe v5))
+                              (coe du_filter'8314'_308 (coe v0) (coe v8) (coe v6))
+                       else coe du_filter'8314'_308 (coe v0) (coe v8) (coe v6))
              _ -> MAlonzo.RTE.mazUnreachableError
       _ -> MAlonzo.RTE.mazUnreachableError

@@ -28,7 +28,7 @@ d_'8869'_6 :: ()
 d_'8869'_6 = erased
 -- Data.Empty.⊥-elim
 d_'8869''45'elim_14 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () -> MAlonzo.Code.Data.Irrelevant.T_Irrelevant_20 -> AgdaAny
 d_'8869''45'elim_14 ~v0 ~v1 ~v2 = du_'8869''45'elim_14
 du_'8869''45'elim_14 :: AgdaAny

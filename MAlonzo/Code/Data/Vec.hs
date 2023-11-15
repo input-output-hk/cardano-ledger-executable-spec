@@ -24,9 +24,9 @@ import qualified MAlonzo.Code.Relation.Nullary.Decidable.Core
 
 -- Data.Vec._.filter
 d_filter_24 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (AgdaAny -> ()) ->
   (AgdaAny ->
    MAlonzo.Code.Relation.Nullary.Decidable.Core.T_Dec_20) ->
@@ -45,19 +45,20 @@ du_filter_24 v0 v1
         -> coe MAlonzo.Code.Data.Vec.Bounded.Base.du_'91''93'_308
       MAlonzo.Code.Data.Vec.Base.C__'8759'__38 v3 v4
         -> let v5
-                 = MAlonzo.Code.Relation.Nullary.Decidable.Core.d_does_30
+                 = MAlonzo.Code.Relation.Nullary.Decidable.Core.d_does_28
                      (coe v0 v3) in
-           if coe v5
-             then coe
-                    MAlonzo.Code.Data.Vec.Bounded.Base.du__'8759'__312 (coe v3)
-                    (coe du_filter_24 (coe v0) (coe v4))
-             else coe du_filter_24 (coe v0) (coe v4)
+           coe
+             (if coe v5
+                then coe
+                       MAlonzo.Code.Data.Vec.Bounded.Base.du__'8759'__312 (coe v3)
+                       (coe du_filter_24 (coe v0) (coe v4))
+                else coe du_filter_24 (coe v0) (coe v4))
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Data.Vec._.takeWhile
 d_takeWhile_44 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (AgdaAny -> ()) ->
   (AgdaAny ->
    MAlonzo.Code.Relation.Nullary.Decidable.Core.T_Dec_20) ->
@@ -76,19 +77,20 @@ du_takeWhile_44 v0 v1
         -> coe MAlonzo.Code.Data.Vec.Bounded.Base.du_'91''93'_308
       MAlonzo.Code.Data.Vec.Base.C__'8759'__38 v3 v4
         -> let v5
-                 = MAlonzo.Code.Relation.Nullary.Decidable.Core.d_does_30
+                 = MAlonzo.Code.Relation.Nullary.Decidable.Core.d_does_28
                      (coe v0 v3) in
-           if coe v5
-             then coe
-                    MAlonzo.Code.Data.Vec.Bounded.Base.du__'8759'__312 (coe v3)
-                    (coe du_takeWhile_44 (coe v0) (coe v4))
-             else coe MAlonzo.Code.Data.Vec.Bounded.Base.du_'91''93'_308
+           coe
+             (if coe v5
+                then coe
+                       MAlonzo.Code.Data.Vec.Bounded.Base.du__'8759'__312 (coe v3)
+                       (coe du_takeWhile_44 (coe v0) (coe v4))
+                else coe MAlonzo.Code.Data.Vec.Bounded.Base.du_'91''93'_308)
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Data.Vec._.dropWhile
 d_dropWhile_64 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (AgdaAny -> ()) ->
   (AgdaAny ->
    MAlonzo.Code.Relation.Nullary.Decidable.Core.T_Dec_20) ->
@@ -108,12 +110,14 @@ du_dropWhile_64 v0 v1 v2
         -> coe MAlonzo.Code.Data.Vec.Bounded.Base.du_'91''93'_308
       MAlonzo.Code.Data.Vec.Base.C__'8759'__38 v4 v5
         -> let v6 = subInt (coe v1) (coe (1 :: Integer)) in
-           let v7
-                 = MAlonzo.Code.Relation.Nullary.Decidable.Core.d_does_30
-                     (coe v0 v4) in
-           if coe v7
-             then coe du_dropWhile_64 (coe v0) (coe v6) (coe v5)
-             else coe
-                    MAlonzo.Code.Data.Vec.Bounded.Base.du_fromVec_144 (coe v1)
-                    (coe MAlonzo.Code.Data.Vec.Base.C__'8759'__38 v4 v5)
+           coe
+             (let v7
+                    = MAlonzo.Code.Relation.Nullary.Decidable.Core.d_does_28
+                        (coe v0 v4) in
+              coe
+                (if coe v7
+                   then coe du_dropWhile_64 (coe v0) (coe v6) (coe v5)
+                   else coe
+                          MAlonzo.Code.Data.Vec.Bounded.Base.du_fromVec_144 (coe v1)
+                          (coe MAlonzo.Code.Data.Vec.Base.C__'8759'__38 v4 v5)))
       _ -> MAlonzo.RTE.mazUnreachableError

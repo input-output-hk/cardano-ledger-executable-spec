@@ -76,7 +76,7 @@ du_arg'45'info'45'injective_28 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 du_arg'45'info'45'injective_28
   = coe
-      MAlonzo.Code.Data.Product.Base.du_'60'_'44'_'62'_88 erased erased
+      MAlonzo.Code.Data.Product.Base.du_'60'_'44'_'62'_112 erased erased
 -- Reflection.AST.Argument.Information._≟_
 d__'8799'__30 ::
   MAlonzo.Code.Agda.Builtin.Reflection.T_ArgInfo_76 ->
@@ -88,10 +88,10 @@ d__'8799'__30 v0 v1
         -> case coe v1 of
              MAlonzo.Code.Agda.Builtin.Reflection.C_arg'45'info_82 v4 v5
                -> coe
-                    MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_154
-                    (coe MAlonzo.Code.Data.Product.Base.du_uncurry_220 erased)
+                    MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_144
+                    (coe MAlonzo.Code.Data.Product.Base.du_uncurry_244 erased)
                     (coe
-                       MAlonzo.Code.Relation.Nullary.Decidable.Core.du__'215''45'dec__62
+                       MAlonzo.Code.Relation.Nullary.Decidable.Core.du__'215''45'dec__68
                        (coe
                           MAlonzo.Code.Reflection.AST.Argument.Visibility.d__'8799'__8
                           (coe v2) (coe v4))

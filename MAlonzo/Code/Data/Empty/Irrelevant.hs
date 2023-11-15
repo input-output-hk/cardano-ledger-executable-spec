@@ -22,7 +22,7 @@ import qualified MAlonzo.Code.Data.Irrelevant
 
 -- Data.Empty.Irrelevant.⊥-elim
 d_'8869''45'elim_10 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () -> MAlonzo.Code.Data.Irrelevant.T_Irrelevant_20 -> AgdaAny
 d_'8869''45'elim_10 ~v0 ~v1 ~v2 = du_'8869''45'elim_10
 du_'8869''45'elim_10 :: AgdaAny

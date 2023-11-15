@@ -30,8 +30,8 @@ d_W_30 a0 a1 a2 = ()
 newtype T_W_30 = C_sup_34 MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 -- Data.W.sup-injective₁
 d_sup'45'injective'8321'_44 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Data.Container.Core.T_Container_10 ->
   AgdaAny ->
   AgdaAny ->
@@ -42,8 +42,8 @@ d_sup'45'injective'8321'_44 ::
 d_sup'45'injective'8321'_44 = erased
 -- Data.W.head
 d_head_46 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Data.Container.Core.T_Container_10 ->
   T_W_30 -> AgdaAny
 d_head_46 ~v0 ~v1 ~v2 v3 = du_head_46 v3
@@ -57,8 +57,8 @@ du_head_46 v0
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Data.W.tail
 d_tail_54 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Data.Container.Core.T_Container_10 ->
   T_W_30 -> AgdaAny -> T_W_30
 d_tail_54 ~v0 ~v1 ~v2 v3 = du_tail_54 v3
@@ -72,11 +72,11 @@ du_tail_54 v0
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Data.W.map
 d_map_62 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Data.Container.Core.T_Container_10 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Data.Container.Core.T_Container_10 ->
   MAlonzo.Code.Data.Container.Core.T__'8658'__74 -> T_W_30 -> T_W_30
 d_map_62 ~v0 ~v1 ~v2 ~v3 ~v4 ~v5 v6 v7 = du_map_62 v6 v7
@@ -98,10 +98,10 @@ du_map_62 v0 v1
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Data.W._.induction
 d_induction_88 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Data.Container.Core.T_Container_10 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (T_W_30 -> ()) ->
   (MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
    MAlonzo.Code.Data.Container.Relation.Unary.All.T_'9633'_26 ->
@@ -127,9 +127,9 @@ du_induction_88 v0 v1
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Data.W._.foldr
 d_foldr_106 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Data.Container.Core.T_Container_10 ->
   () ->
   (MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 -> AgdaAny) ->
@@ -146,15 +146,15 @@ du_foldr_106 v0
             coe
               v0
               (coe
-                 MAlonzo.Code.Data.Product.Base.du_'45''44'__68
+                 MAlonzo.Code.Data.Product.Base.du_'45''44'__92
                  (coe MAlonzo.Code.Agda.Builtin.Sigma.d_fst_28 (coe v1))
                  (coe
                     MAlonzo.Code.Data.Container.Relation.Unary.All.d_proof_50
                     (coe v2)))))
 -- Data.W.inhabited⇒empty
 d_inhabited'8658'empty_110 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Data.Container.Core.T_Container_10 ->
   (AgdaAny -> AgdaAny) ->
   T_W_30 -> MAlonzo.Code.Data.Irrelevant.T_Irrelevant_20

@@ -22,7 +22,7 @@ import qualified MAlonzo.Code.Agda.Primitive
 
 -- Data.Product.Ext.×-dup
 d_'215''45'dup_10 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () -> AgdaAny -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_'215''45'dup_10 ~v0 ~v1 v2 = du_'215''45'dup_10 v2
 du_'215''45'dup_10 ::

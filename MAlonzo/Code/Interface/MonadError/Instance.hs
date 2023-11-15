@@ -23,13 +23,13 @@ import qualified MAlonzo.Code.Interface.MonadError
 -- Interface.MonadError.Instance._.catch
 d_catch_8 ::
   MAlonzo.Code.Interface.MonadError.T_MonadError_46 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () -> AgdaAny -> (AgdaAny -> AgdaAny) -> AgdaAny
 d_catch_8 v0
   = coe MAlonzo.Code.Interface.MonadError.d_catch_58 (coe v0)
 -- Interface.MonadError.Instance._.error
 d_error_10 ::
   MAlonzo.Code.Interface.MonadError.T_MonadError_46 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 -> () -> AgdaAny -> AgdaAny
+  MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> AgdaAny -> AgdaAny
 d_error_10 v0
   = coe MAlonzo.Code.Interface.MonadError.d_error_56 (coe v0)

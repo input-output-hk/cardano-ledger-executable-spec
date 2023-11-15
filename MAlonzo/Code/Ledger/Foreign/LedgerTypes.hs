@@ -26,16 +26,54 @@ import qualified MAlonzo.Code.Foreign.Haskell.Pair
 
 import GHC.Generics (Generic)
 import Data.TreeDiff
-data UTxOState = MkUTxOState
-  { utxo :: UTxO
-  , fees :: Coin
+data AgdaEmpty deriving (Show, Generic)
+instance ToExpr AgdaEmpty
+type Coin  = Integer
+type Addr  = Integer
+
+type TxId  = Integer
+type Ix    = Integer
+type Epoch = Integer
+
+type AuxiliaryData = ()
+type DataHash      = ()
+type Datum         = ()
+type Redeemer      = ()
+
+type TxIn  = (TxId, Ix)
+type TxOut = (Addr, (Coin, Maybe DataHash))
+type UTxO  = [(TxIn, TxOut)]
+type Hash  = Integer
+
+data Tag     = Spend | Mint | Cert | Rewrd | Vote | Propose deriving (Show, Generic, Enum, Eq, Ord)
+instance ToExpr Tag
+type RdmrPtr = (Tag, Ix)
+type ExUnits = (Integer, Integer)
+data TxBody = MkTxBody
+  { txins  :: [TxIn]
+  , txouts :: [(Ix, TxOut)]
+  , txfee  :: Coin
+  , txvldt :: (Maybe Integer, Maybe Integer)
+  , txsize :: Integer
+  , txid   :: TxId
+  , collateral    :: [TxIn]
+  , reqSigHash    :: [Hash]
+  , scriptIntHash :: Maybe Hash
   } deriving (Show, Generic)
-instance ToExpr UTxOState
-data UTxOEnv = MkUTxOEnv
-  { slot    :: Integer
-  , pparams :: PParams
+instance ToExpr TxBody
+data TxWitnesses = MkTxWitnesses
+  { vkSigs  :: [(Integer, Integer)]
+  , scripts :: [AgdaEmpty]
+  , txdats  :: [(DataHash, Datum)]
+  , txrdmrs :: [(RdmrPtr, (Redeemer, ExUnits))]
   } deriving (Show, Generic)
-instance ToExpr UTxOEnv
+instance ToExpr TxWitnesses
+data Tx = MkTx
+  { body :: TxBody
+  , wits :: TxWitnesses
+  , txAD :: Maybe AuxiliaryData
+  } deriving (Show, Generic)
+instance ToExpr Tx
 data PParams = MkPParams
   { a                   :: Integer
   , b                   :: Integer
@@ -63,54 +101,16 @@ data PParams = MkPParams
   , maxCollateralInputs :: Integer
   } deriving (Show, Generic)
 instance ToExpr PParams
-data Tx = MkTx
-  { body :: TxBody
-  , wits :: TxWitnesses
-  , txAD :: Maybe AuxiliaryData
+data UTxOEnv = MkUTxOEnv
+  { slot    :: Integer
+  , pparams :: PParams
   } deriving (Show, Generic)
-instance ToExpr Tx
-data TxWitnesses = MkTxWitnesses
-  { vkSigs  :: [(Integer, Integer)]
-  , scripts :: [AgdaEmpty]
-  , txdats  :: [(DataHash, Datum)]
-  , txrdmrs :: [(RdmrPtr, (Redeemer, ExUnits))]
+instance ToExpr UTxOEnv
+data UTxOState = MkUTxOState
+  { utxo :: UTxO
+  , fees :: Coin
   } deriving (Show, Generic)
-instance ToExpr TxWitnesses
-data TxBody = MkTxBody
-  { txins  :: [TxIn]
-  , txouts :: [(Ix, TxOut)]
-  , txfee  :: Coin
-  , txvldt :: (Maybe Integer, Maybe Integer)
-  , txsize :: Integer
-  , txid   :: TxId
-  , collateral    :: [TxIn]
-  , reqSigHash    :: [Hash]
-  , scriptIntHash :: Maybe Hash
-  } deriving (Show, Generic)
-instance ToExpr TxBody
-type Coin  = Integer
-type Addr  = Integer
-
-type TxId  = Integer
-type Ix    = Integer
-type Epoch = Integer
-
-type AuxiliaryData = ()
-type DataHash      = ()
-type Datum         = ()
-type Redeemer      = ()
-
-type TxIn  = (TxId, Ix)
-type TxOut = (Addr, (Coin, Maybe DataHash))
-type UTxO  = [(TxIn, TxOut)]
-type Hash  = Integer
-
-data Tag     = Spend | Mint | Cert | Rewrd | Vote | Propose deriving (Show, Generic)
-instance ToExpr Tag
-type RdmrPtr = (Tag, Ix)
-type ExUnits = (Integer, Integer)
-data AgdaEmpty deriving (Show, Generic)
-instance ToExpr AgdaEmpty
+instance ToExpr UTxOState
 -- Ledger.Foreign.LedgerTypes.Empty
 d_Empty_6 = ()
 type T_Empty_6 = AgdaEmpty

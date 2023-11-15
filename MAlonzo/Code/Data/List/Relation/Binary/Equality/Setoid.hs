@@ -18,7 +18,6 @@ import MAlonzo.RTE (coe, erased, AgdaAny, addInt, subInt, mulInt,
 import qualified MAlonzo.RTE
 import qualified Data.Text
 import qualified MAlonzo.Code.Agda.Builtin.Equality
-import qualified MAlonzo.Code.Agda.Builtin.Sigma
 import qualified MAlonzo.Code.Agda.Primitive
 import qualified MAlonzo.Code.Data.Fin.Base
 import qualified MAlonzo.Code.Data.List.Relation.Binary.Pointwise
@@ -27,6 +26,7 @@ import qualified MAlonzo.Code.Data.List.Relation.Binary.Pointwise.Properties
 import qualified MAlonzo.Code.Data.List.Relation.Unary.All
 import qualified MAlonzo.Code.Data.List.Relation.Unary.AllPairs.Core
 import qualified MAlonzo.Code.Relation.Binary.Bundles
+import qualified MAlonzo.Code.Relation.Binary.Properties.Setoid
 import qualified MAlonzo.Code.Relation.Binary.Structures
 import qualified MAlonzo.Code.Relation.Nullary.Decidable.Core
 
@@ -34,15 +34,15 @@ import qualified MAlonzo.Code.Relation.Nullary.Decidable.Core
 d_AllPairs_20 a0 a1 a2 a3 = ()
 -- Data.List.Relation.Binary.Equality.Setoid._≋_
 d__'8779'__58 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
   [AgdaAny] -> [AgdaAny] -> ()
 d__'8779'__58 = erased
 -- Data.List.Relation.Binary.Equality.Setoid.≋-refl
 d_'8779''45'refl_60 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
   [AgdaAny] ->
   MAlonzo.Code.Data.List.Relation.Binary.Pointwise.Base.T_Pointwise_48
@@ -61,8 +61,8 @@ du_'8779''45'refl_60 v0 v1
       (coe v1)
 -- Data.List.Relation.Binary.Equality.Setoid.≋-reflexive
 d_'8779''45'reflexive_62 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
   [AgdaAny] ->
   [AgdaAny] ->
@@ -78,8 +78,8 @@ du_'8779''45'reflexive_62 v0 v1
   = coe du_'8779''45'refl_60 (coe v0) (coe v1)
 -- Data.List.Relation.Binary.Equality.Setoid.≋-sym
 d_'8779''45'sym_64 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
   [AgdaAny] ->
   [AgdaAny] ->
@@ -102,8 +102,8 @@ du_'8779''45'sym_64 v0 v1 v2
       (coe v1) (coe v2)
 -- Data.List.Relation.Binary.Equality.Setoid.≋-trans
 d_'8779''45'trans_66 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
   [AgdaAny] ->
   [AgdaAny] ->
@@ -131,8 +131,8 @@ du_'8779''45'trans_66 v0 v1 v2 v3
       (coe v1) (coe v2) (coe v3)
 -- Data.List.Relation.Binary.Equality.Setoid.≋-isEquivalence
 d_'8779''45'isEquivalence_68 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
   MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
 d_'8779''45'isEquivalence_68 ~v0 ~v1 v2
@@ -147,8 +147,8 @@ du_'8779''45'isEquivalence_68 v0
          MAlonzo.Code.Relation.Binary.Bundles.d_isEquivalence_60 (coe v0))
 -- Data.List.Relation.Binary.Equality.Setoid.≋-setoid
 d_'8779''45'setoid_70 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44
 d_'8779''45'setoid_70 ~v0 ~v1 v2 = du_'8779''45'setoid_70 v2
@@ -157,57 +157,36 @@ du_'8779''45'setoid_70 ::
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44
 du_'8779''45'setoid_70 v0
   = coe
-      MAlonzo.Code.Data.List.Relation.Binary.Pointwise.du_setoid_176
+      MAlonzo.Code.Data.List.Relation.Binary.Pointwise.du_setoid_188
       (coe v0)
 -- Data.List.Relation.Binary.Equality.Setoid.Unique-resp-≋
 d_Unique'45'resp'45''8779'_72 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
   [AgdaAny] ->
   [AgdaAny] ->
   MAlonzo.Code.Data.List.Relation.Binary.Pointwise.Base.T_Pointwise_48 ->
   MAlonzo.Code.Data.List.Relation.Unary.AllPairs.Core.T_AllPairs_20 ->
   MAlonzo.Code.Data.List.Relation.Unary.AllPairs.Core.T_AllPairs_20
-d_Unique'45'resp'45''8779'_72 ~v0 ~v1 v2 v3 v4
-  = du_Unique'45'resp'45''8779'_72 v2 v3 v4
+d_Unique'45'resp'45''8779'_72 ~v0 ~v1 ~v2 v3 v4
+  = du_Unique'45'resp'45''8779'_72 v3 v4
 du_Unique'45'resp'45''8779'_72 ::
-  MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
   [AgdaAny] ->
   [AgdaAny] ->
   MAlonzo.Code.Data.List.Relation.Binary.Pointwise.Base.T_Pointwise_48 ->
   MAlonzo.Code.Data.List.Relation.Unary.AllPairs.Core.T_AllPairs_20 ->
   MAlonzo.Code.Data.List.Relation.Unary.AllPairs.Core.T_AllPairs_20
-du_Unique'45'resp'45''8779'_72 v0 v1 v2
+du_Unique'45'resp'45''8779'_72 v0 v1
   = coe
-      MAlonzo.Code.Data.List.Relation.Binary.Pointwise.du_AllPairs'45'resp'45'Pointwise_228
+      MAlonzo.Code.Data.List.Relation.Binary.Pointwise.du_AllPairs'45'resp'45'Pointwise_240
       (coe
-         MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32
-         (coe
-            (\ v3 v4 v5 v6 v7 v8 ->
-               coe
-                 v7
-                 (coe
-                    MAlonzo.Code.Relation.Binary.Structures.d_trans_38
-                    (MAlonzo.Code.Relation.Binary.Bundles.d_isEquivalence_60 (coe v0))
-                    v3 v5 v4 v8
-                    (coe
-                       MAlonzo.Code.Relation.Binary.Structures.d_sym_36
-                       (MAlonzo.Code.Relation.Binary.Bundles.d_isEquivalence_60 (coe v0))
-                       v4 v5 v6))))
-         (coe
-            (\ v3 v4 v5 v6 v7 v8 ->
-               coe
-                 v7
-                 (coe
-                    MAlonzo.Code.Relation.Binary.Structures.d_trans_38
-                    (MAlonzo.Code.Relation.Binary.Bundles.d_isEquivalence_60 (coe v0))
-                    v4 v5 v3 v6 v8))))
-      (coe v1) (coe v2)
+         MAlonzo.Code.Relation.Binary.Properties.Setoid.du_'8777''45'resp'8322'_70)
+      (coe v0) (coe v1)
 -- Data.List.Relation.Binary.Equality.Setoid.≋-length
 d_'8779''45'length_78 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
   [AgdaAny] ->
   [AgdaAny] ->
@@ -217,18 +196,18 @@ d_'8779''45'length_78 = erased
 -- Data.List.Relation.Binary.Equality.Setoid._._≋′_
 d__'8779''8242'__94 ::
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
   [AgdaAny] -> [AgdaAny] -> ()
 d__'8779''8242'__94 = erased
 -- Data.List.Relation.Binary.Equality.Setoid._.map⁺
 d_map'8314'_102 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
   (AgdaAny -> AgdaAny) ->
   (AgdaAny -> AgdaAny -> AgdaAny -> AgdaAny) ->
@@ -246,15 +225,15 @@ du_map'8314'_102 ::
   MAlonzo.Code.Data.List.Relation.Binary.Pointwise.Base.T_Pointwise_48
 du_map'8314'_102 v0 v1 v2 v3
   = coe
-      MAlonzo.Code.Data.List.Relation.Binary.Pointwise.du_map'8314'_382
+      MAlonzo.Code.Data.List.Relation.Binary.Pointwise.du_map'8314'_394
       (coe v1) (coe v2)
       (coe
          MAlonzo.Code.Data.List.Relation.Binary.Pointwise.Base.du_map_120
          (coe v0) (coe v1) (coe v2) (coe v3))
 -- Data.List.Relation.Binary.Equality.Setoid.foldr⁺
 d_foldr'8314'_130 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
   (AgdaAny -> AgdaAny -> AgdaAny) ->
   (AgdaAny -> AgdaAny -> AgdaAny) ->
@@ -283,13 +262,13 @@ du_foldr'8314'_130 ::
   AgdaAny
 du_foldr'8314'_130 v0 v1 v2 v3 v4 v5 v6 v7 v8
   = coe
-      MAlonzo.Code.Data.List.Relation.Binary.Pointwise.du_foldr'8314'_434
+      MAlonzo.Code.Data.List.Relation.Binary.Pointwise.du_foldr'8314'_446
       (coe v3) (coe v4) (coe v0) (coe v1) (coe v2) (coe v5) (coe v6)
       (coe v7) (coe v8)
 -- Data.List.Relation.Binary.Equality.Setoid.++⁺
 d_'43''43''8314'_146 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
   [AgdaAny] ->
   [AgdaAny] ->
@@ -308,12 +287,12 @@ du_'43''43''8314'_146 ::
   MAlonzo.Code.Data.List.Relation.Binary.Pointwise.Base.T_Pointwise_48
 du_'43''43''8314'_146 v0 v1
   = coe
-      MAlonzo.Code.Data.List.Relation.Binary.Pointwise.du_'43''43''8314'_290
+      MAlonzo.Code.Data.List.Relation.Binary.Pointwise.du_'43''43''8314'_302
       (coe v0) (coe v1)
 -- Data.List.Relation.Binary.Equality.Setoid.++-cancelˡ
 d_'43''43''45'cancel'737'_154 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
   [AgdaAny] ->
   [AgdaAny] ->
@@ -328,12 +307,12 @@ du_'43''43''45'cancel'737'_154 ::
   MAlonzo.Code.Data.List.Relation.Binary.Pointwise.Base.T_Pointwise_48
 du_'43''43''45'cancel'737'_154 v0
   = coe
-      MAlonzo.Code.Data.List.Relation.Binary.Pointwise.du_'43''43''45'cancel'737'_302
+      MAlonzo.Code.Data.List.Relation.Binary.Pointwise.du_'43''43''45'cancel'737'_314
       (coe v0)
 -- Data.List.Relation.Binary.Equality.Setoid.++-cancelʳ
 d_'43''43''45'cancel'691'_164 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
   [AgdaAny] ->
   [AgdaAny] ->
@@ -349,11 +328,11 @@ du_'43''43''45'cancel'691'_164 ::
   MAlonzo.Code.Data.List.Relation.Binary.Pointwise.Base.T_Pointwise_48
 du_'43''43''45'cancel'691'_164
   = coe
-      MAlonzo.Code.Data.List.Relation.Binary.Pointwise.du_'43''43''45'cancel'691'_316
+      MAlonzo.Code.Data.List.Relation.Binary.Pointwise.du_'43''43''45'cancel'691'_328
 -- Data.List.Relation.Binary.Equality.Setoid.concat⁺
 d_concat'8314'_170 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
   [[AgdaAny]] ->
   [[AgdaAny]] ->
@@ -367,12 +346,12 @@ du_concat'8314'_170 ::
   MAlonzo.Code.Data.List.Relation.Binary.Pointwise.Base.T_Pointwise_48
 du_concat'8314'_170 v0 v1
   = coe
-      MAlonzo.Code.Data.List.Relation.Binary.Pointwise.du_concat'8314'_350
+      MAlonzo.Code.Data.List.Relation.Binary.Pointwise.du_concat'8314'_362
       (coe v0) (coe v1)
 -- Data.List.Relation.Binary.Equality.Setoid._.tabulate⁺
 d_tabulate'8314'_184 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
   Integer ->
   (MAlonzo.Code.Data.Fin.Base.T_Fin_10 -> AgdaAny) ->
@@ -387,12 +366,12 @@ du_tabulate'8314'_184 ::
   MAlonzo.Code.Data.List.Relation.Binary.Pointwise.Base.T_Pointwise_48
 du_tabulate'8314'_184 v0
   = coe
-      MAlonzo.Code.Data.List.Relation.Binary.Pointwise.du_tabulate'8314'_258
+      MAlonzo.Code.Data.List.Relation.Binary.Pointwise.du_tabulate'8314'_270
       (coe v0)
 -- Data.List.Relation.Binary.Equality.Setoid._.tabulate⁻
 d_tabulate'8315'_188 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
   Integer ->
   (MAlonzo.Code.Data.Fin.Base.T_Fin_10 -> AgdaAny) ->
@@ -406,13 +385,13 @@ du_tabulate'8315'_188 ::
   MAlonzo.Code.Data.Fin.Base.T_Fin_10 -> AgdaAny
 du_tabulate'8315'_188
   = coe
-      MAlonzo.Code.Data.List.Relation.Binary.Pointwise.du_tabulate'8315'_274
+      MAlonzo.Code.Data.List.Relation.Binary.Pointwise.du_tabulate'8315'_286
 -- Data.List.Relation.Binary.Equality.Setoid._.filter⁺
 d_filter'8314'_206 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (AgdaAny -> ()) ->
   (AgdaAny ->
    MAlonzo.Code.Relation.Nullary.Decidable.Core.T_Dec_20) ->
@@ -432,12 +411,12 @@ du_filter'8314'_206 ::
   MAlonzo.Code.Data.List.Relation.Binary.Pointwise.Base.T_Pointwise_48
 du_filter'8314'_206 v0 v1 v2 v3
   = coe
-      MAlonzo.Code.Data.List.Relation.Binary.Pointwise.du_filter'8314'_480
+      MAlonzo.Code.Data.List.Relation.Binary.Pointwise.du_filter'8314'_492
       (coe v0) (coe v0) (coe v1) (coe v2) (coe v3)
 -- Data.List.Relation.Binary.Equality.Setoid.ʳ++⁺
 d_'691''43''43''8314'_218 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
   [AgdaAny] ->
   [AgdaAny] ->
@@ -456,12 +435,12 @@ du_'691''43''43''8314'_218 ::
   MAlonzo.Code.Data.List.Relation.Binary.Pointwise.Base.T_Pointwise_48
 du_'691''43''43''8314'_218 v0 v1
   = coe
-      MAlonzo.Code.Data.List.Relation.Binary.Pointwise.du_'691''43''43''8314'_366
+      MAlonzo.Code.Data.List.Relation.Binary.Pointwise.du_'691''43''43''8314'_378
       (coe v0) (coe v1)
 -- Data.List.Relation.Binary.Equality.Setoid.reverse⁺
 d_reverse'8314'_224 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
   [AgdaAny] ->
   [AgdaAny] ->
@@ -475,5 +454,5 @@ du_reverse'8314'_224 ::
   MAlonzo.Code.Data.List.Relation.Binary.Pointwise.Base.T_Pointwise_48
 du_reverse'8314'_224 v0 v1
   = coe
-      MAlonzo.Code.Data.List.Relation.Binary.Pointwise.du_reverse'8314'_372
+      MAlonzo.Code.Data.List.Relation.Binary.Pointwise.du_reverse'8314'_384
       (coe v0) (coe v1)

@@ -27,15 +27,15 @@ import qualified MAlonzo.Code.Data.Sum.Base
 
 -- Algebra.Definitions.RawSemiring._._≉_
 d__'8777'__20 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Algebra.Bundles.Raw.T_RawSemiring_148 ->
   AgdaAny -> AgdaAny -> ()
 d__'8777'__20 = erased
 -- Algebra.Definitions.RawSemiring._._×_
 d__'215'__40 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Algebra.Bundles.Raw.T_RawSemiring_148 ->
   Integer -> AgdaAny -> AgdaAny
 d__'215'__40 ~v0 ~v1 v2 = du__'215'__40 v2
@@ -51,8 +51,8 @@ du__'215'__40 v0
             MAlonzo.Code.Algebra.Bundles.Raw.du_rawNearSemiring_178 (coe v0)))
 -- Algebra.Definitions.RawSemiring._._×′_
 d__'215''8242'__42 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Algebra.Bundles.Raw.T_RawSemiring_148 ->
   Integer -> AgdaAny -> AgdaAny
 d__'215''8242'__42 ~v0 ~v1 v2 = du__'215''8242'__42 v2
@@ -67,23 +67,26 @@ du__'215''8242'__42 v0
                  MAlonzo.Code.Algebra.Bundles.Raw.du_rawNearSemiring_178
                  (coe v0)) in
     coe
-      (\ v2 v3 ->
-         let v4 = subInt (coe v2) (coe (1 :: Integer)) in
-         let v5
-               = coe
-                   MAlonzo.Code.Algebra.Bundles.Raw.d__'8729'__56 v1
-                   (coe
-                      MAlonzo.Code.Algebra.Definitions.RawMonoid.du__'215''8242'__52
-                      (coe v1) (coe v4) (coe v3))
-                   v3 in
-         case coe v2 of
-           0 -> coe MAlonzo.Code.Algebra.Bundles.Raw.d_ε_58 (coe v1)
-           1 -> coe v3
-           _ -> coe v5)
+      (coe
+         (\ v2 v3 ->
+            let v4 = subInt (coe v2) (coe (1 :: Integer)) in
+            coe
+              (let v5
+                     = coe
+                         MAlonzo.Code.Algebra.Bundles.Raw.d__'8729'__56 v1
+                         (coe
+                            MAlonzo.Code.Algebra.Definitions.RawMonoid.du__'215''8242'__52
+                            (coe v1) (coe v4) (coe v3))
+                         v3 in
+               coe
+                 (case coe v2 of
+                    0 -> coe MAlonzo.Code.Algebra.Bundles.Raw.d_ε_58 (coe v1)
+                    1 -> coe v3
+                    _ -> coe v5))))
 -- Algebra.Definitions.RawSemiring._.sum
 d_sum_44 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Algebra.Bundles.Raw.T_RawSemiring_148 ->
   Integer ->
   (MAlonzo.Code.Data.Fin.Base.T_Fin_10 -> AgdaAny) -> AgdaAny
@@ -101,22 +104,22 @@ du_sum_44 v0
             MAlonzo.Code.Algebra.Bundles.Raw.du_rawNearSemiring_178 (coe v0)))
 -- Algebra.Definitions.RawSemiring.Mult._∣_
 d__'8739'__52 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Algebra.Bundles.Raw.T_RawSemiring_148 ->
   AgdaAny -> AgdaAny -> ()
 d__'8739'__52 = erased
 -- Algebra.Definitions.RawSemiring.Mult._∤_
 d__'8740'__60 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Algebra.Bundles.Raw.T_RawSemiring_148 ->
   AgdaAny -> AgdaAny -> ()
 d__'8740'__60 = erased
 -- Algebra.Definitions.RawSemiring.Mult.sum
 d_sum_68 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Algebra.Bundles.Raw.T_RawSemiring_148 ->
   Integer ->
   (MAlonzo.Code.Data.Fin.Base.T_Fin_10 -> AgdaAny) -> AgdaAny
@@ -132,8 +135,8 @@ du_sum_68 v0
          MAlonzo.Code.Algebra.Bundles.Raw.du_'42''45'rawMonoid_190 (coe v0))
 -- Algebra.Definitions.RawSemiring._^_
 d__'94'__70 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Algebra.Bundles.Raw.T_RawSemiring_148 ->
   AgdaAny -> Integer -> AgdaAny
 d__'94'__70 ~v0 ~v1 v2 v3 v4 = du__'94'__70 v2 v3 v4
@@ -148,8 +151,8 @@ du__'94'__70 v0 v1 v2
       (coe v2) (coe v1)
 -- Algebra.Definitions.RawSemiring._^′_
 d__'94''8242'__76 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Algebra.Bundles.Raw.T_RawSemiring_148 ->
   AgdaAny -> Integer -> AgdaAny
 d__'94''8242'__76 ~v0 ~v1 v2 v3 v4 = du__'94''8242'__76 v2 v3 v4
@@ -161,22 +164,25 @@ du__'94''8242'__76 v0 v1 v2
           = coe
               MAlonzo.Code.Algebra.Bundles.Raw.du_'42''45'rawMonoid_190
               (coe v0) in
-    let v4 = subInt (coe v2) (coe (1 :: Integer)) in
-    let v5
-          = coe
-              MAlonzo.Code.Algebra.Bundles.Raw.d__'8729'__56 v3
-              (coe
-                 MAlonzo.Code.Algebra.Definitions.RawMonoid.du__'215''8242'__52
-                 (coe v3) (coe v4) (coe v1))
-              v1 in
-    case coe v2 of
-      0 -> coe MAlonzo.Code.Algebra.Bundles.Raw.d_ε_58 (coe v3)
-      1 -> coe v1
-      _ -> coe v5
+    coe
+      (let v4 = subInt (coe v2) (coe (1 :: Integer)) in
+       coe
+         (let v5
+                = coe
+                    MAlonzo.Code.Algebra.Bundles.Raw.d__'8729'__56 v3
+                    (coe
+                       MAlonzo.Code.Algebra.Definitions.RawMonoid.du__'215''8242'__52
+                       (coe v3) (coe v4) (coe v1))
+                    v1 in
+          coe
+            (case coe v2 of
+               0 -> coe MAlonzo.Code.Algebra.Bundles.Raw.d_ε_58 (coe v3)
+               1 -> coe v1
+               _ -> coe v5)))
 -- Algebra.Definitions.RawSemiring._^[_]*_
 d__'94''91'_'93''42'__82 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Algebra.Bundles.Raw.T_RawSemiring_148 ->
   AgdaAny -> Integer -> AgdaAny -> AgdaAny
 d__'94''91'_'93''42'__82 ~v0 ~v1 v2 v3 v4 v5
@@ -189,12 +195,13 @@ du__'94''91'_'93''42'__82 v0 v1 v2 v3
       0 -> coe v3
       _ -> let v4 = subInt (coe v2) (coe (1 :: Integer)) in
            coe
-             du__'94''91'_'93''42'__82 (coe v0) (coe v1) (coe v4)
-             (coe MAlonzo.Code.Algebra.Bundles.Raw.d__'42'__172 v0 v1 v3)
+             (coe
+                du__'94''91'_'93''42'__82 (coe v0) (coe v1) (coe v4)
+                (coe MAlonzo.Code.Algebra.Bundles.Raw.d__'42'__172 v0 v1 v3))
 -- Algebra.Definitions.RawSemiring._^ᵗ_
 d__'94''7511'__94 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Algebra.Bundles.Raw.T_RawSemiring_148 ->
   AgdaAny -> Integer -> AgdaAny
 d__'94''7511'__94 ~v0 ~v1 v2 v3 v4 = du__'94''7511'__94 v2 v3 v4
@@ -207,8 +214,8 @@ du__'94''7511'__94 v0 v1 v2
       (coe MAlonzo.Code.Algebra.Bundles.Raw.d_1'35'_176 (coe v0))
 -- Algebra.Definitions.RawSemiring.Coprime
 d_Coprime_100 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Algebra.Bundles.Raw.T_RawSemiring_148 ->
   AgdaAny -> AgdaAny -> ()
 d_Coprime_100 = erased

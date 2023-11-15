@@ -27,12 +27,12 @@ import qualified MAlonzo.Code.Level
 
 -- Data.Nat.Induction.Rec
 d_Rec_10 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (Integer -> ()) -> Integer -> ()
 d_Rec_10 = erased
 -- Data.Nat.Induction.recBuilder
 d_recBuilder_22 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (Integer -> ()) ->
   (Integer -> AgdaAny -> AgdaAny) -> Integer -> AgdaAny
 d_recBuilder_22 ~v0 ~v1 v2 v3 = du_recBuilder_22 v2 v3
@@ -44,10 +44,10 @@ du_recBuilder_22 v0 v1
              MAlonzo.Code.Level.C_lift_20
              (coe MAlonzo.Code.Agda.Builtin.Unit.C_tt_8)
       _ -> let v2 = subInt (coe v1) (coe (1 :: Integer)) in
-           coe v0 v2 (coe du_recBuilder_22 (coe v0) (coe v2))
+           coe (coe v0 v2 (coe du_recBuilder_22 (coe v0) (coe v2)))
 -- Data.Nat.Induction.rec
 d_rec_34 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (Integer -> ()) ->
   (Integer -> AgdaAny -> AgdaAny) -> Integer -> AgdaAny
 d_rec_34 ~v0 = du_rec_34
@@ -60,17 +60,17 @@ du_rec_34
       (\ v0 v1 v2 -> coe du_recBuilder_22 v1 v2)
 -- Data.Nat.Induction.CRec
 d_CRec_38 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (Integer -> ()) -> Integer -> ()
 d_CRec_38 = erased
 -- Data.Nat.Induction.cRecBuilder
 d_cRecBuilder_50 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (Integer -> ()) ->
   (Integer -> AgdaAny -> AgdaAny) -> Integer -> AgdaAny
 d_cRecBuilder_50 v0 ~v1 v2 v3 = du_cRecBuilder_50 v0 v2 v3
 du_cRecBuilder_50 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (Integer -> AgdaAny -> AgdaAny) -> Integer -> AgdaAny
 du_cRecBuilder_50 v0 v1 v2
   = case coe v2 of
@@ -79,23 +79,24 @@ du_cRecBuilder_50 v0 v1 v2
              (coe MAlonzo.Code.Agda.Builtin.Unit.C_tt_8)
       _ -> let v3 = subInt (coe v2) (coe (1 :: Integer)) in
            coe
-             MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32
-             (coe v1 v3 (coe du_ih_66 (coe v0) (coe v1) (coe v3)))
-             (coe du_ih_66 (coe v0) (coe v1) (coe v3))
+             (coe
+                MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32
+                (coe v1 v3 (coe du_ih_66 (coe v0) (coe v1) (coe v3)))
+                (coe du_ih_66 (coe v0) (coe v1) (coe v3)))
 -- Data.Nat.Induction._.ih
 d_ih_66 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (Integer -> ()) ->
   (Integer -> AgdaAny -> AgdaAny) -> Integer -> AgdaAny
 d_ih_66 v0 ~v1 v2 v3 = du_ih_66 v0 v2 v3
 du_ih_66 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (Integer -> AgdaAny -> AgdaAny) -> Integer -> AgdaAny
 du_ih_66 v0 v1 v2
   = coe du_cRecBuilder_50 (coe v0) (coe v1) (coe v2)
 -- Data.Nat.Induction.cRec
 d_cRec_68 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (Integer -> ()) ->
   (Integer -> AgdaAny -> AgdaAny) -> Integer -> AgdaAny
 d_cRec_68 v0
@@ -104,7 +105,7 @@ d_cRec_68 v0
       (\ v1 v2 v3 -> coe du_cRecBuilder_50 (coe v0) v2 v3)
 -- Data.Nat.Induction.<′-Rec
 d_'60''8242''45'Rec_70 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (Integer -> ()) -> Integer -> ()
 d_'60''8242''45'Rec_70 = erased
 -- Data.Nat.Induction.<′-wellFounded
@@ -115,99 +116,99 @@ d_'60''8242''45'wellFounded_72 = erased
 d_'60''8242''45'wellFounded'8242'_76 ::
   Integer ->
   Integer ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804''8242'__272 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804''8242'__300 ->
   MAlonzo.Code.Induction.WellFounded.T_Acc_42
 d_'60''8242''45'wellFounded'8242'_76 = erased
 -- Data.Nat.Induction._._.wfRec
-d_wfRec_96 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+d_wfRec_94 ::
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (Integer -> ()) ->
   (Integer ->
    (Integer ->
-    MAlonzo.Code.Data.Nat.Base.T__'8804''8242'__272 -> AgdaAny) ->
+    MAlonzo.Code.Data.Nat.Base.T__'8804''8242'__300 -> AgdaAny) ->
    AgdaAny) ->
   Integer -> AgdaAny
-d_wfRec_96 ~v0 = du_wfRec_96
-du_wfRec_96 ::
+d_wfRec_94 ~v0 = du_wfRec_94
+du_wfRec_94 ::
   (Integer -> ()) ->
   (Integer ->
    (Integer ->
-    MAlonzo.Code.Data.Nat.Base.T__'8804''8242'__272 -> AgdaAny) ->
+    MAlonzo.Code.Data.Nat.Base.T__'8804''8242'__300 -> AgdaAny) ->
    AgdaAny) ->
   Integer -> AgdaAny
-du_wfRec_96 = coe MAlonzo.Code.Induction.WellFounded.du_wfRec_160
+du_wfRec_94 = coe MAlonzo.Code.Induction.WellFounded.du_wfRec_168
 -- Data.Nat.Induction._._.wfRecBuilder
-d_wfRecBuilder_98 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+d_wfRecBuilder_96 ::
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (Integer -> ()) ->
   (Integer ->
    (Integer ->
-    MAlonzo.Code.Data.Nat.Base.T__'8804''8242'__272 -> AgdaAny) ->
+    MAlonzo.Code.Data.Nat.Base.T__'8804''8242'__300 -> AgdaAny) ->
    AgdaAny) ->
   Integer ->
   Integer ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804''8242'__272 -> AgdaAny
-d_wfRecBuilder_98 ~v0 = du_wfRecBuilder_98
-du_wfRecBuilder_98 ::
+  MAlonzo.Code.Data.Nat.Base.T__'8804''8242'__300 -> AgdaAny
+d_wfRecBuilder_96 ~v0 = du_wfRecBuilder_96
+du_wfRecBuilder_96 ::
   (Integer -> ()) ->
   (Integer ->
    (Integer ->
-    MAlonzo.Code.Data.Nat.Base.T__'8804''8242'__272 -> AgdaAny) ->
+    MAlonzo.Code.Data.Nat.Base.T__'8804''8242'__300 -> AgdaAny) ->
    AgdaAny) ->
   Integer ->
   Integer ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804''8242'__272 -> AgdaAny
-du_wfRecBuilder_98 v0 v1 v2
-  = coe MAlonzo.Code.Induction.WellFounded.du_wfRecBuilder_152 v1
+  MAlonzo.Code.Data.Nat.Base.T__'8804''8242'__300 -> AgdaAny
+du_wfRecBuilder_96 v0 v1 v2 v3
+  = coe MAlonzo.Code.Induction.WellFounded.du_wfRecBuilder_160 v1 v3
 -- Data.Nat.Induction.<-Rec
-d_'60''45'Rec_100 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+d_'60''45'Rec_98 ::
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (Integer -> ()) -> Integer -> ()
-d_'60''45'Rec_100 = erased
+d_'60''45'Rec_98 = erased
 -- Data.Nat.Induction.<-wellFounded
-d_'60''45'wellFounded_102 ::
+d_'60''45'wellFounded_100 ::
   Integer -> MAlonzo.Code.Induction.WellFounded.T_Acc_42
-d_'60''45'wellFounded_102 = erased
+d_'60''45'wellFounded_100 = erased
 -- Data.Nat.Induction.<-wellFounded-fast
-d_'60''45'wellFounded'45'fast_104 ::
+d_'60''45'wellFounded'45'fast_102 ::
   Integer -> MAlonzo.Code.Induction.WellFounded.T_Acc_42
-d_'60''45'wellFounded'45'fast_104 = erased
+d_'60''45'wellFounded'45'fast_102 = erased
 -- Data.Nat.Induction._.<-wellFounded-skip
-d_'60''45'wellFounded'45'skip_112 ::
+d_'60''45'wellFounded'45'skip_110 ::
   Integer -> Integer -> MAlonzo.Code.Induction.WellFounded.T_Acc_42
-d_'60''45'wellFounded'45'skip_112 = erased
+d_'60''45'wellFounded'45'skip_110 = erased
 -- Data.Nat.Induction._._.wfRec
-d_wfRec_134 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+d_wfRec_132 ::
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (Integer -> ()) ->
   (Integer ->
    (Integer -> MAlonzo.Code.Data.Nat.Base.T__'8804'__18 -> AgdaAny) ->
    AgdaAny) ->
   Integer -> AgdaAny
-d_wfRec_134 ~v0 = du_wfRec_134
-du_wfRec_134 ::
+d_wfRec_132 ~v0 = du_wfRec_132
+du_wfRec_132 ::
   (Integer -> ()) ->
   (Integer ->
    (Integer -> MAlonzo.Code.Data.Nat.Base.T__'8804'__18 -> AgdaAny) ->
    AgdaAny) ->
   Integer -> AgdaAny
-du_wfRec_134 = coe MAlonzo.Code.Induction.WellFounded.du_wfRec_160
+du_wfRec_132 = coe MAlonzo.Code.Induction.WellFounded.du_wfRec_168
 -- Data.Nat.Induction._._.wfRecBuilder
-d_wfRecBuilder_136 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+d_wfRecBuilder_134 ::
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (Integer -> ()) ->
   (Integer ->
    (Integer -> MAlonzo.Code.Data.Nat.Base.T__'8804'__18 -> AgdaAny) ->
    AgdaAny) ->
   Integer ->
   Integer -> MAlonzo.Code.Data.Nat.Base.T__'8804'__18 -> AgdaAny
-d_wfRecBuilder_136 ~v0 = du_wfRecBuilder_136
-du_wfRecBuilder_136 ::
+d_wfRecBuilder_134 ~v0 = du_wfRecBuilder_134
+du_wfRecBuilder_134 ::
   (Integer -> ()) ->
   (Integer ->
    (Integer -> MAlonzo.Code.Data.Nat.Base.T__'8804'__18 -> AgdaAny) ->
    AgdaAny) ->
   Integer ->
   Integer -> MAlonzo.Code.Data.Nat.Base.T__'8804'__18 -> AgdaAny
-du_wfRecBuilder_136 v0 v1 v2
-  = coe MAlonzo.Code.Induction.WellFounded.du_wfRecBuilder_152 v1
+du_wfRecBuilder_134 v0 v1 v2 v3
+  = coe MAlonzo.Code.Induction.WellFounded.du_wfRecBuilder_160 v1 v3

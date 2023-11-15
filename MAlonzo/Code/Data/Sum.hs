@@ -28,8 +28,8 @@ import qualified MAlonzo.Code.Relation.Nullary.Reflects
 
 -- Data.Sum._.isInj₁
 d_isInj'8321'_24 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   () -> MAlonzo.Code.Data.Sum.Base.T__'8846'__30 -> Maybe AgdaAny
 d_isInj'8321'_24 ~v0 ~v1 ~v2 ~v3 v4 = du_isInj'8321'_24 v4
@@ -44,8 +44,8 @@ du_isInj'8321'_24 v0
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Data.Sum._.isInj₂
 d_isInj'8322'_30 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   () -> MAlonzo.Code.Data.Sum.Base.T__'8846'__30 -> Maybe AgdaAny
 d_isInj'8322'_30 ~v0 ~v1 ~v2 ~v3 v4 = du_isInj'8322'_30 v4
@@ -60,8 +60,8 @@ du_isInj'8322'_30 v0
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Data.Sum._.From-inj₁
 d_From'45'inj'8321'_36 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () -> () -> MAlonzo.Code.Data.Sum.Base.T__'8846'__30 -> ()
 d_From'45'inj'8321'_36 = erased
 -- Data.Sum._.from-inj₁
@@ -77,8 +77,8 @@ d_from'45'inj'8321'_40 v0
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Data.Sum._.From-inj₂
 d_From'45'inj'8322'_44 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () -> () -> MAlonzo.Code.Data.Sum.Base.T__'8846'__30 -> ()
 d_From'45'inj'8322'_44 = erased
 -- Data.Sum._.from-inj₂
@@ -94,7 +94,7 @@ d_from'45'inj'8322'_48 v0
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Data.Sum.fromDec
 d_fromDec_52 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   MAlonzo.Code.Relation.Nullary.Decidable.Core.T_Dec_20 ->
   MAlonzo.Code.Data.Sum.Base.T__'8846'__30
@@ -104,18 +104,18 @@ du_fromDec_52 ::
   MAlonzo.Code.Data.Sum.Base.T__'8846'__30
 du_fromDec_52 v0
   = case coe v0 of
-      MAlonzo.Code.Relation.Nullary.Decidable.Core.C__because__34 v1 v2
+      MAlonzo.Code.Relation.Nullary.Decidable.Core.C__because__32 v1 v2
         -> if coe v1
              then coe
                     MAlonzo.Code.Data.Sum.Base.C_inj'8321'_38
-                    (coe MAlonzo.Code.Relation.Nullary.Reflects.du_invert_42 (coe v2))
+                    (coe MAlonzo.Code.Relation.Nullary.Reflects.du_invert_38 (coe v2))
              else coe
                     MAlonzo.Code.Data.Sum.Base.C_inj'8322'_42
-                    (coe MAlonzo.Code.Relation.Nullary.Reflects.du_invert_42 (coe v2))
+                    (coe MAlonzo.Code.Relation.Nullary.Reflects.du_invert_38 (coe v2))
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Data.Sum.toDec
 d_toDec_58 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   MAlonzo.Code.Data.Sum.Base.T__'8846'__30 ->
   MAlonzo.Code.Relation.Nullary.Decidable.Core.T_Dec_20
@@ -127,12 +127,12 @@ du_toDec_58 v0
   = case coe v0 of
       MAlonzo.Code.Data.Sum.Base.C_inj'8321'_38 v1
         -> coe
-             MAlonzo.Code.Relation.Nullary.Decidable.Core.C__because__34
+             MAlonzo.Code.Relation.Nullary.Decidable.Core.C__because__32
              (coe MAlonzo.Code.Agda.Builtin.Bool.C_true_10)
-             (coe MAlonzo.Code.Relation.Nullary.Reflects.C_of'696'_26 (coe v1))
+             (coe MAlonzo.Code.Relation.Nullary.Reflects.C_of'696'_22 (coe v1))
       MAlonzo.Code.Data.Sum.Base.C_inj'8322'_42 v1
         -> coe
-             MAlonzo.Code.Relation.Nullary.Decidable.Core.C__because__34
+             MAlonzo.Code.Relation.Nullary.Decidable.Core.C__because__32
              (coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8)
-             (coe MAlonzo.Code.Relation.Nullary.Reflects.C_of'8319'_30)
+             (coe MAlonzo.Code.Relation.Nullary.Reflects.C_of'8319'_26)
       _ -> MAlonzo.RTE.mazUnreachableError

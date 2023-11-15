@@ -26,131 +26,131 @@ import qualified MAlonzo.Code.Data.Irrelevant
 import qualified MAlonzo.Code.Data.Sum.Base
 
 -- Relation.Nullary.Reflects.Reflects
-d_Reflects_18 a0 a1 a2 = ()
-data T_Reflects_18 = C_of'696'_26 AgdaAny | C_of'8319'_30
+d_Reflects_16 a0 a1 a2 = ()
+data T_Reflects_16 = C_of'696'_22 AgdaAny | C_of'8319'_26
 -- Relation.Nullary.Reflects.of
-d_of_34 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  () -> Bool -> AgdaAny -> T_Reflects_18
-d_of_34 ~v0 ~v1 v2 v3 = du_of_34 v2 v3
-du_of_34 :: Bool -> AgdaAny -> T_Reflects_18
-du_of_34 v0 v1
-  = if coe v0 then coe C_of'696'_26 (coe v1) else coe C_of'8319'_30
+d_of_30 ::
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  () -> Bool -> AgdaAny -> T_Reflects_16
+d_of_30 ~v0 ~v1 v2 v3 = du_of_30 v2 v3
+du_of_30 :: Bool -> AgdaAny -> T_Reflects_16
+du_of_30 v0 v1
+  = if coe v0 then coe C_of'696'_22 (coe v1) else coe C_of'8319'_26
 -- Relation.Nullary.Reflects.invert
-d_invert_42 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  () -> Bool -> T_Reflects_18 -> AgdaAny
-d_invert_42 ~v0 ~v1 ~v2 v3 = du_invert_42 v3
-du_invert_42 :: T_Reflects_18 -> AgdaAny
-du_invert_42 v0
+d_invert_38 ::
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  () -> Bool -> T_Reflects_16 -> AgdaAny
+d_invert_38 ~v0 ~v1 ~v2 v3 = du_invert_38 v3
+du_invert_38 :: T_Reflects_16 -> AgdaAny
+du_invert_38 v0
   = case coe v0 of
-      C_of'696'_26 v1 -> coe v1
-      C_of'8319'_30 -> erased
+      C_of'696'_22 v1 -> coe v1
+      C_of'8319'_26 -> erased
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Relation.Nullary.Reflects.¬-reflects
-d_'172''45'reflects_50 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  () -> Bool -> T_Reflects_18 -> T_Reflects_18
-d_'172''45'reflects_50 ~v0 ~v1 ~v2 v3 = du_'172''45'reflects_50 v3
-du_'172''45'reflects_50 :: T_Reflects_18 -> T_Reflects_18
-du_'172''45'reflects_50 v0
+d_'172''45'reflects_46 ::
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  () -> Bool -> T_Reflects_16 -> T_Reflects_16
+d_'172''45'reflects_46 ~v0 ~v1 ~v2 v3 = du_'172''45'reflects_46 v3
+du_'172''45'reflects_46 :: T_Reflects_16 -> T_Reflects_16
+du_'172''45'reflects_46 v0
   = case coe v0 of
-      C_of'696'_26 v1 -> coe C_of'8319'_30
-      C_of'8319'_30 -> coe C_of'696'_26 erased
+      C_of'696'_22 v1 -> coe C_of'8319'_26
+      C_of'8319'_26 -> coe C_of'696'_22 erased
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Relation.Nullary.Reflects._×-reflects_
-d__'215''45'reflects__62 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+d__'215''45'reflects__58 ::
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  Bool -> Bool -> T_Reflects_18 -> T_Reflects_18 -> T_Reflects_18
-d__'215''45'reflects__62 ~v0 ~v1 ~v2 ~v3 ~v4 ~v5 v6 v7
-  = du__'215''45'reflects__62 v6 v7
-du__'215''45'reflects__62 ::
-  T_Reflects_18 -> T_Reflects_18 -> T_Reflects_18
-du__'215''45'reflects__62 v0 v1
+  Bool -> Bool -> T_Reflects_16 -> T_Reflects_16 -> T_Reflects_16
+d__'215''45'reflects__58 ~v0 ~v1 ~v2 ~v3 ~v4 ~v5 v6 v7
+  = du__'215''45'reflects__58 v6 v7
+du__'215''45'reflects__58 ::
+  T_Reflects_16 -> T_Reflects_16 -> T_Reflects_16
+du__'215''45'reflects__58 v0 v1
   = case coe v0 of
-      C_of'696'_26 v2
+      C_of'696'_22 v2
         -> case coe v1 of
-             C_of'696'_26 v3
+             C_of'696'_22 v3
                -> coe
-                    C_of'696'_26
+                    C_of'696'_22
                     (coe MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 (coe v2) (coe v3))
-             C_of'8319'_30 -> coe C_of'8319'_30
+             C_of'8319'_26 -> coe C_of'8319'_26
              _ -> MAlonzo.RTE.mazUnreachableError
-      C_of'8319'_30 -> coe C_of'8319'_30
+      C_of'8319'_26 -> coe C_of'8319'_26
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Relation.Nullary.Reflects._⊎-reflects_
-d__'8846''45'reflects__78 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+d__'8846''45'reflects__74 ::
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  Bool -> Bool -> T_Reflects_18 -> T_Reflects_18 -> T_Reflects_18
-d__'8846''45'reflects__78 ~v0 ~v1 ~v2 ~v3 ~v4 ~v5 v6 v7
-  = du__'8846''45'reflects__78 v6 v7
-du__'8846''45'reflects__78 ::
-  T_Reflects_18 -> T_Reflects_18 -> T_Reflects_18
-du__'8846''45'reflects__78 v0 v1
+  Bool -> Bool -> T_Reflects_16 -> T_Reflects_16 -> T_Reflects_16
+d__'8846''45'reflects__74 ~v0 ~v1 ~v2 ~v3 ~v4 ~v5 v6 v7
+  = du__'8846''45'reflects__74 v6 v7
+du__'8846''45'reflects__74 ::
+  T_Reflects_16 -> T_Reflects_16 -> T_Reflects_16
+du__'8846''45'reflects__74 v0 v1
   = case coe v0 of
-      C_of'696'_26 v2
+      C_of'696'_22 v2
         -> coe
-             C_of'696'_26
+             C_of'696'_22
              (coe MAlonzo.Code.Data.Sum.Base.C_inj'8321'_38 (coe v2))
-      C_of'8319'_30
+      C_of'8319'_26
         -> case coe v1 of
-             C_of'696'_26 v3
+             C_of'696'_22 v3
                -> coe
-                    C_of'696'_26
+                    C_of'696'_22
                     (coe MAlonzo.Code.Data.Sum.Base.C_inj'8322'_42 (coe v3))
-             C_of'8319'_30 -> coe C_of'8319'_30
+             C_of'8319'_26 -> coe C_of'8319'_26
              _ -> MAlonzo.RTE.mazUnreachableError
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Relation.Nullary.Reflects._→-reflects_
-d__'8594''45'reflects__94 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+d__'8594''45'reflects__90 ::
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  Bool -> Bool -> T_Reflects_18 -> T_Reflects_18 -> T_Reflects_18
-d__'8594''45'reflects__94 ~v0 ~v1 ~v2 ~v3 ~v4 ~v5 v6 v7
-  = du__'8594''45'reflects__94 v6 v7
-du__'8594''45'reflects__94 ::
-  T_Reflects_18 -> T_Reflects_18 -> T_Reflects_18
-du__'8594''45'reflects__94 v0 v1
+  Bool -> Bool -> T_Reflects_16 -> T_Reflects_16 -> T_Reflects_16
+d__'8594''45'reflects__90 ~v0 ~v1 ~v2 ~v3 ~v4 ~v5 v6 v7
+  = du__'8594''45'reflects__90 v6 v7
+du__'8594''45'reflects__90 ::
+  T_Reflects_16 -> T_Reflects_16 -> T_Reflects_16
+du__'8594''45'reflects__90 v0 v1
   = case coe v0 of
-      C_of'696'_26 v2
+      C_of'696'_22 v2
         -> case coe v1 of
-             C_of'696'_26 v3 -> coe C_of'696'_26 (coe (\ v4 -> v3))
-             C_of'8319'_30 -> coe C_of'8319'_30
+             C_of'696'_22 v3 -> coe C_of'696'_22 (coe (\ v4 -> v3))
+             C_of'8319'_26 -> coe C_of'8319'_26
              _ -> MAlonzo.RTE.mazUnreachableError
-      C_of'8319'_30
+      C_of'8319'_26
         -> coe
-             C_of'696'_26
+             C_of'696'_22
              (coe (\ v3 -> coe MAlonzo.Code.Data.Empty.du_'8869''45'elim_14))
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Relation.Nullary.Reflects.fromEquivalence
-d_fromEquivalence_110 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+d_fromEquivalence_106 ::
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   Bool ->
-  (AgdaAny -> AgdaAny) -> (AgdaAny -> AgdaAny) -> T_Reflects_18
-d_fromEquivalence_110 ~v0 ~v1 v2 v3 ~v4
-  = du_fromEquivalence_110 v2 v3
-du_fromEquivalence_110 ::
-  Bool -> (AgdaAny -> AgdaAny) -> T_Reflects_18
-du_fromEquivalence_110 v0 v1
+  (AgdaAny -> AgdaAny) -> (AgdaAny -> AgdaAny) -> T_Reflects_16
+d_fromEquivalence_106 ~v0 ~v1 v2 v3 ~v4
+  = du_fromEquivalence_106 v2 v3
+du_fromEquivalence_106 ::
+  Bool -> (AgdaAny -> AgdaAny) -> T_Reflects_16
+du_fromEquivalence_106 v0 v1
   = if coe v0
       then coe
-             C_of'696'_26 (coe v1 (coe MAlonzo.Code.Agda.Builtin.Unit.C_tt_8))
-      else coe C_of'8319'_30
+             C_of'696'_22 (coe v1 (coe MAlonzo.Code.Agda.Builtin.Unit.C_tt_8))
+      else coe C_of'8319'_26
 -- Relation.Nullary.Reflects.det
-d_det_124 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+d_det_120 ::
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   Bool ->
   Bool ->
-  T_Reflects_18 ->
-  T_Reflects_18 -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_det_124 = erased
+  T_Reflects_16 ->
+  T_Reflects_16 -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
+d_det_120 = erased

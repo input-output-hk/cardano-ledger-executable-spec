@@ -61,16 +61,16 @@ d_DecEq'45'ℕ_30 :: T_DecEq_14
 d_DecEq'45'ℕ_30
   = coe
       C_DecEq'46'constructor_63
-      (coe MAlonzo.Code.Data.Nat.Properties.d__'8799'__2464)
+      (coe MAlonzo.Code.Data.Nat.Properties.d__'8799'__2550)
 -- Interface.DecEq.DecEq-ℤ
 d_DecEq'45'ℤ_32 :: T_DecEq_14
 d_DecEq'45'ℤ_32
   = coe
       C_DecEq'46'constructor_63
-      (coe MAlonzo.Code.Data.Integer.Properties.d__'8799'__2476)
+      (coe MAlonzo.Code.Data.Integer.Properties.d__'8799'__2558)
 -- Interface.DecEq.DecEq-Maybe
 d_DecEq'45'Maybe_34 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () -> T_DecEq_14 -> T_DecEq_14
 d_DecEq'45'Maybe_34 ~v0 ~v1 v2 = du_DecEq'45'Maybe_34 v2
 du_DecEq'45'Maybe_34 :: T_DecEq_14 -> T_DecEq_14
@@ -82,7 +82,7 @@ du_DecEq'45'Maybe_34 v0
          (coe d__'8799'__20 (coe v0)))
 -- Interface.DecEq.DecEq-List
 d_DecEq'45'List_36 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () -> T_DecEq_14 -> T_DecEq_14
 d_DecEq'45'List_36 ~v0 ~v1 v2 = du_DecEq'45'List_36 v2
 du_DecEq'45'List_36 :: T_DecEq_14 -> T_DecEq_14
@@ -94,9 +94,9 @@ du_DecEq'45'List_36 v0
          (coe d__'8799'__20 (coe v0)))
 -- Interface.DecEq.DecEq-Product
 d_DecEq'45'Product_38 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () -> T_DecEq_14 -> T_DecEq_14 -> T_DecEq_14
 d_DecEq'45'Product_38 ~v0 ~v1 ~v2 ~v3 v4 v5
   = du_DecEq'45'Product_38 v4 v5
@@ -110,9 +110,9 @@ du_DecEq'45'Product_38 v0 v1
          (coe (\ v2 -> d__'8799'__20 (coe v1))))
 -- Interface.DecEq.DecEq-Sum
 d_DecEq'45'Sum_40 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () -> T_DecEq_14 -> T_DecEq_14 -> T_DecEq_14
 d_DecEq'45'Sum_40 ~v0 ~v1 ~v2 ~v3 v4 v5 = du_DecEq'45'Sum_40 v4 v5
 du_DecEq'45'Sum_40 :: T_DecEq_14 -> T_DecEq_14 -> T_DecEq_14

@@ -29,23 +29,23 @@ d_lower_18 v0
       C_lift_20 v1 -> coe v1
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Level.0ℓ
-d_0ℓ_22 :: MAlonzo.Code.Agda.Primitive.T_Level_14
-d_0ℓ_22 = coe MAlonzo.Code.Agda.Primitive.d_lzero_16
+d_0ℓ_22 :: MAlonzo.Code.Agda.Primitive.T_Level_18
+d_0ℓ_22 = coe MAlonzo.Code.Agda.Primitive.d_lzero_20
 -- Level.levelOfType
 d_levelOfType_26 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  () -> MAlonzo.Code.Agda.Primitive.T_Level_14
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  () -> MAlonzo.Code.Agda.Primitive.T_Level_18
 d_levelOfType_26 v0 ~v1 = du_levelOfType_26 v0
 du_levelOfType_26 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18
 du_levelOfType_26 v0 = coe v0
 -- Level.levelOfTerm
 d_levelOfTerm_34 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  () -> AgdaAny -> MAlonzo.Code.Agda.Primitive.T_Level_14
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  () -> AgdaAny -> MAlonzo.Code.Agda.Primitive.T_Level_18
 d_levelOfTerm_34 v0 ~v1 ~v2 = du_levelOfTerm_34 v0
 du_levelOfTerm_34 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18
 du_levelOfTerm_34 v0 = coe v0

@@ -49,7 +49,7 @@ d_DERIVE_22 v0 = coe d_DERIVE''_14 (coe v0)
 -- Generics.Deriving.Derivable¹
 d_Derivable'185'_28 a0 = ()
 newtype T_Derivable'185'_28
-  = C_Derivable'185''46'constructor_199 ([MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] ->
+  = C_Derivable'185''46'constructor_201 ([MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] ->
                                          AgdaAny)
 -- Generics.Deriving.Derivable¹.DERIVE¹'
 d_DERIVE'185'''_34 ::
@@ -57,7 +57,7 @@ d_DERIVE'185'''_34 ::
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] -> AgdaAny
 d_DERIVE'185'''_34 v0
   = case coe v0 of
-      C_Derivable'185''46'constructor_199 v1 -> coe v1
+      C_Derivable'185''46'constructor_201 v1 -> coe v1
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Generics.Deriving._.DERIVE¹'
 d_DERIVE'185'''_38 ::
@@ -72,7 +72,7 @@ d_DERIVE'185'_42 v0 = coe d_DERIVE'185'''_34 (coe v0)
 -- Generics.Deriving.Derivableω
 d_Derivableω_48 a0 = ()
 newtype T_Derivableω_48
-  = C_Derivableω'46'constructor_323 ([MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] ->
+  = C_Derivableω'46'constructor_327 ([MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] ->
                                      AgdaAny)
 -- Generics.Deriving.Derivableω.DERIVEω'
 d_DERIVEω''_54 ::
@@ -80,7 +80,7 @@ d_DERIVEω''_54 ::
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] -> AgdaAny
 d_DERIVEω''_54 v0
   = case coe v0 of
-      C_Derivableω'46'constructor_323 v1 -> coe v1
+      C_Derivableω'46'constructor_327 v1 -> coe v1
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Generics.Deriving._.DERIVEω'
 d_DERIVEω''_58 ::

@@ -32,35 +32,34 @@ import qualified MAlonzo.Code.Class.Traversable.Core
 import qualified MAlonzo.Code.Class.Traversable.Instances
 import qualified MAlonzo.Code.Data.Fin.Base
 import qualified MAlonzo.Code.Data.List.Base
-import qualified MAlonzo.Code.Data.Nat.Show
 import qualified MAlonzo.Code.Data.String.Base
 import qualified MAlonzo.Code.Reflection.AST.Show
 
 -- Generics.Debug.error
 d_error_8 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () -> MAlonzo.Code.Agda.Builtin.String.T_String_6 -> AgdaAny
 d_error_8 v0 ~v1 v2 = du_error_8 v0 v2
 du_error_8 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Agda.Builtin.String.T_String_6 -> AgdaAny
 du_error_8 v0 v1
   = coe
-      MAlonzo.Code.Agda.Builtin.Reflection.d_typeError_334 v0 erased
+      MAlonzo.Code.Agda.Builtin.Reflection.d_typeError_342 v0 erased
       (coe
          MAlonzo.Code.Data.List.Base.du_'91'_'93'_306
-         (coe MAlonzo.Code.Agda.Builtin.Reflection.C_strErr_300 (coe v1)))
+         (coe MAlonzo.Code.Agda.Builtin.Reflection.C_strErr_308 (coe v1)))
 -- Generics.Debug._IMPOSSIBLE_
 d__IMPOSSIBLE__12 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 -> () -> AgdaAny
+  MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> AgdaAny
 d__IMPOSSIBLE__12 v0 ~v1 = du__IMPOSSIBLE__12 v0
 du__IMPOSSIBLE__12 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 -> AgdaAny
+  MAlonzo.Code.Agda.Primitive.T_Level_18 -> AgdaAny
 du__IMPOSSIBLE__12 v0
   = coe du_error_8 (coe v0) (coe ("IMPOSSIBLE" :: Data.Text.Text))
 -- Generics.Debug.enumerate
 d_enumerate_16 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () -> [AgdaAny] -> [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14]
 d_enumerate_16 ~v0 ~v1 v2 = du_enumerate_16 v2
 du_enumerate_16 ::
@@ -68,7 +67,7 @@ du_enumerate_16 ::
 du_enumerate_16 v0
   = coe
       MAlonzo.Code.Data.List.Base.du_zip_212
-      (MAlonzo.Code.Data.List.Base.d_allFin_436
+      (MAlonzo.Code.Data.List.Base.d_allFin_482
          (coe MAlonzo.Code.Data.List.Base.du_length_304 v0))
       v0
 -- Generics.Debug.Debug.print
@@ -77,12 +76,12 @@ d_print_24 ::
   MAlonzo.Code.Agda.Builtin.String.T_String_6 -> AgdaAny
 d_print_24 v0 v1
   = coe
-      MAlonzo.Code.Agda.Builtin.Reflection.d_debugPrint_422
+      MAlonzo.Code.Agda.Builtin.Reflection.d_debugPrint_458
       (MAlonzo.Code.Agda.Builtin.Sigma.d_fst_28 (coe v0))
       (MAlonzo.Code.Agda.Builtin.Sigma.d_snd_30 (coe v0))
       (coe
          MAlonzo.Code.Data.List.Base.du_'91'_'93'_306
-         (coe MAlonzo.Code.Agda.Builtin.Reflection.C_strErr_300 (coe v1)))
+         (coe MAlonzo.Code.Agda.Builtin.Reflection.C_strErr_308 (coe v1)))
 -- Generics.Debug.Debug.printLn
 d_printLn_26 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
@@ -104,7 +103,7 @@ d_printLns_32 v0 v1
 -- Generics.Debug.Debug.printS
 d_printS_36 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () -> MAlonzo.Code.Class.Show.Core.T_Show_10 -> AgdaAny -> AgdaAny
 d_printS_36 v0 ~v1 ~v2 v3 v4 = du_printS_36 v0 v3 v4
 du_printS_36 ::
@@ -117,12 +116,12 @@ du_printS_36 v0 v1 v2
 -- Generics.Debug.Debug.errorP
 d_errorP_38 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () -> MAlonzo.Code.Agda.Builtin.String.T_String_6 -> AgdaAny
 d_errorP_38 v0 v1 ~v2 v3 = du_errorP_38 v0 v1 v3
 du_errorP_38 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Agda.Builtin.String.T_String_6 -> AgdaAny
 du_errorP_38 v0 v1 v2
   = coe
@@ -134,13 +133,13 @@ du_errorP_38 v0 v1 v2
 d_printTerm_42 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.String.T_String_6 ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 -> AgdaAny
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 -> AgdaAny
 d_printTerm_42 v0 v1 v2
   = coe
       MAlonzo.Code.Class.Monad.Core.d__'62''62''61'__36
       MAlonzo.Code.Class.Monad.Instances.d_Monad'45'TC_34 () erased ()
       erased
-      (coe MAlonzo.Code.Agda.Builtin.Reflection.d_inferType_336 v2)
+      (coe MAlonzo.Code.Agda.Builtin.Reflection.d_inferType_344 v2)
       (\ v3 ->
          d_printLns_32
            (coe v0)
@@ -205,7 +204,9 @@ du_go_58 v0 v1
                    (coe
                       MAlonzo.Code.Data.String.Base.d__'43''43'__20
                       ("# " :: Data.Text.Text)
-                      (MAlonzo.Code.Data.Nat.Show.d_show_56
+                      (coe
+                         MAlonzo.Code.Class.Show.Core.d_show_18
+                         MAlonzo.Code.Class.Show.Instances.d_Show'45'ℕ_38
                          (coe MAlonzo.Code.Data.Fin.Base.du_toℕ_18 (coe v2))))
                    (coe
                       MAlonzo.Code.Data.String.Base.d__'43''43'__20
@@ -235,13 +236,13 @@ d_printCurrentContext_64 v0
                  MAlonzo.Code.Data.List.Base.du_map_22
                  (coe (\ v2 -> MAlonzo.Code.Agda.Builtin.Sigma.d_snd_30 (coe v2)))
                  (coe v1))))
-      (coe MAlonzo.Code.Agda.Builtin.Reflection.d_getContext_366)
+      (coe MAlonzo.Code.Agda.Builtin.Reflection.d_getContext_374)
 -- Generics.Debug.Debug.genSimpleDef
 d_genSimpleDef_68 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   AgdaAny ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 -> AgdaAny
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 ->
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 -> AgdaAny
 d_genSimpleDef_68 v0 v1 v2 v3
   = coe
       MAlonzo.Code.Class.Monad.Core.du__'62''62'__38
@@ -253,7 +254,7 @@ d_genSimpleDef_68 v0 v1 v2 v3
          (coe MAlonzo.Code.Class.Monad.Instances.d_Monad'45'TC_34) (coe ())
          (coe ())
          (coe
-            MAlonzo.Code.Agda.Builtin.Reflection.d_declareDef_382
+            MAlonzo.Code.Agda.Builtin.Reflection.d_declareDef_390
             (coe
                MAlonzo.Code.Agda.Builtin.Reflection.C_arg_98
                (coe
@@ -289,11 +290,11 @@ d_genSimpleDef_68 v0 v1 v2 v3
                (coe MAlonzo.Code.Class.Monad.Instances.d_Monad'45'TC_34) (coe ())
                (coe ())
                (coe
-                  MAlonzo.Code.Agda.Builtin.Reflection.d_defineFun_392 v1
+                  MAlonzo.Code.Agda.Builtin.Reflection.d_defineFun_400 v1
                   (coe
                      MAlonzo.Code.Data.List.Base.du_'91'_'93'_306
                      (coe
-                        MAlonzo.Code.Agda.Builtin.Reflection.C_clause_264
+                        MAlonzo.Code.Agda.Builtin.Reflection.C_clause_272
                         (coe MAlonzo.Code.Agda.Builtin.List.C_'91''93'_16)
                         (coe MAlonzo.Code.Agda.Builtin.List.C_'91''93'_16) (coe v3))))
                (coe
@@ -314,7 +315,7 @@ d_genSimpleDef_68 v0 v1 v2 v3
 -- Generics.Debug.DebugI._.errorP
 d_errorP_82 ::
   MAlonzo.Code.Agda.Builtin.String.T_String_6 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () -> MAlonzo.Code.Agda.Builtin.String.T_String_6 -> AgdaAny
 d_errorP_82 v0 v1 v2 v3
   = coe
@@ -327,8 +328,8 @@ d_errorP_82 v0 v1 v2 v3
 d_genSimpleDef_84 ::
   MAlonzo.Code.Agda.Builtin.String.T_String_6 ->
   AgdaAny ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 -> AgdaAny
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 ->
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 -> AgdaAny
 d_genSimpleDef_84 v0
   = coe
       d_genSimpleDef_68
@@ -387,7 +388,7 @@ d_printLns_94 v0
 -- Generics.Debug.DebugI._.printS
 d_printS_96 ::
   MAlonzo.Code.Agda.Builtin.String.T_String_6 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () -> MAlonzo.Code.Class.Show.Core.T_Show_10 -> AgdaAny -> AgdaAny
 d_printS_96 v0 v1 v2 v3 v4
   = coe
@@ -400,7 +401,7 @@ d_printS_96 v0 v1 v2 v3 v4
 d_printTerm_98 ::
   MAlonzo.Code.Agda.Builtin.String.T_String_6 ->
   MAlonzo.Code.Agda.Builtin.String.T_String_6 ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 -> AgdaAny
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 -> AgdaAny
 d_printTerm_98 v0
   = coe
       d_printTerm_42
@@ -412,14 +413,14 @@ d_trace_104 ::
   () ->
   MAlonzo.Code.Class.Show.Core.T_Show_10 ->
   AgdaAny ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 -> AgdaAny
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 ->
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 -> AgdaAny
 d_trace_104 ~v0 v1 v2 v3 v4 = du_trace_104 v1 v2 v3 v4
 du_trace_104 ::
   MAlonzo.Code.Class.Show.Core.T_Show_10 ->
   AgdaAny ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 -> AgdaAny
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 ->
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 -> AgdaAny
 du_trace_104 v0 v1 v2 v3
   = coe
       MAlonzo.Code.Class.Monad.Core.du__'62''62'__38
@@ -434,19 +435,19 @@ du_trace_104 v0 v1 v2 v3
             MAlonzo.Code.Data.String.Base.d__'43''43'__20
             ("trace: " :: Data.Text.Text)
             (coe MAlonzo.Code.Class.Show.Core.d_show_18 v0 v1)))
-      (coe MAlonzo.Code.Agda.Builtin.Reflection.d_unify_328 v3 v2)
+      (coe MAlonzo.Code.Agda.Builtin.Reflection.d_unify_336 v3 v2)
 -- Generics.Debug._._.errorP
 d_errorP_118 ::
   () ->
   MAlonzo.Code.Class.Show.Core.T_Show_10 ->
   AgdaAny ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 ->
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () -> MAlonzo.Code.Agda.Builtin.String.T_String_6 -> AgdaAny
 d_errorP_118 ~v0 ~v1 ~v2 ~v3 ~v4 = du_errorP_118
 du_errorP_118 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () -> MAlonzo.Code.Agda.Builtin.String.T_String_6 -> AgdaAny
 du_errorP_118 v0 v1 v2
   = coe
@@ -460,16 +461,16 @@ d_genSimpleDef_120 ::
   () ->
   MAlonzo.Code.Class.Show.Core.T_Show_10 ->
   AgdaAny ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 ->
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 ->
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 ->
   AgdaAny ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 -> AgdaAny
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 ->
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 -> AgdaAny
 d_genSimpleDef_120 ~v0 ~v1 ~v2 ~v3 ~v4 = du_genSimpleDef_120
 du_genSimpleDef_120 ::
   AgdaAny ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 -> AgdaAny
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 ->
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 -> AgdaAny
 du_genSimpleDef_120
   = coe
       d_genSimpleDef_68
@@ -481,8 +482,8 @@ d_print_122 ::
   () ->
   MAlonzo.Code.Class.Show.Core.T_Show_10 ->
   AgdaAny ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 ->
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 ->
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 ->
   MAlonzo.Code.Agda.Builtin.String.T_String_6 -> AgdaAny
 d_print_122 ~v0 ~v1 ~v2 ~v3 ~v4 = du_print_122
 du_print_122 ::
@@ -498,8 +499,8 @@ d_printContext_124 ::
   () ->
   MAlonzo.Code.Class.Show.Core.T_Show_10 ->
   AgdaAny ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 ->
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 ->
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 ->
   [MAlonzo.Code.Agda.Builtin.Reflection.T_Arg_88] -> AgdaAny
 d_printContext_124 ~v0 ~v1 ~v2 ~v3 ~v4 = du_printContext_124
 du_printContext_124 ::
@@ -515,8 +516,8 @@ d_printCurrentContext_126 ::
   () ->
   MAlonzo.Code.Class.Show.Core.T_Show_10 ->
   AgdaAny ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 -> AgdaAny
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 ->
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 -> AgdaAny
 d_printCurrentContext_126 ~v0 ~v1 ~v2 ~v3 ~v4
   = du_printCurrentContext_126
 du_printCurrentContext_126 :: AgdaAny
@@ -531,8 +532,8 @@ d_printLn_128 ::
   () ->
   MAlonzo.Code.Class.Show.Core.T_Show_10 ->
   AgdaAny ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 ->
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 ->
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 ->
   MAlonzo.Code.Agda.Builtin.String.T_String_6 -> AgdaAny
 d_printLn_128 ~v0 ~v1 ~v2 ~v3 ~v4 = du_printLn_128
 du_printLn_128 ::
@@ -548,8 +549,8 @@ d_printLns_130 ::
   () ->
   MAlonzo.Code.Class.Show.Core.T_Show_10 ->
   AgdaAny ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 ->
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 ->
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 ->
   [MAlonzo.Code.Agda.Builtin.String.T_String_6] -> AgdaAny
 d_printLns_130 ~v0 ~v1 ~v2 ~v3 ~v4 = du_printLns_130
 du_printLns_130 ::
@@ -565,13 +566,13 @@ d_printS_132 ::
   () ->
   MAlonzo.Code.Class.Show.Core.T_Show_10 ->
   AgdaAny ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 ->
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () -> MAlonzo.Code.Class.Show.Core.T_Show_10 -> AgdaAny -> AgdaAny
 d_printS_132 ~v0 ~v1 ~v2 ~v3 ~v4 = du_printS_132
 du_printS_132 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () -> MAlonzo.Code.Class.Show.Core.T_Show_10 -> AgdaAny -> AgdaAny
 du_printS_132 v0 v1 v2 v3
   = coe
@@ -585,14 +586,14 @@ d_printTerm_134 ::
   () ->
   MAlonzo.Code.Class.Show.Core.T_Show_10 ->
   AgdaAny ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 ->
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 ->
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 ->
   MAlonzo.Code.Agda.Builtin.String.T_String_6 ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 -> AgdaAny
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 -> AgdaAny
 d_printTerm_134 ~v0 ~v1 ~v2 ~v3 ~v4 = du_printTerm_134
 du_printTerm_134 ::
   MAlonzo.Code.Agda.Builtin.String.T_String_6 ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 -> AgdaAny
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 -> AgdaAny
 du_printTerm_134
   = coe
       d_printTerm_42

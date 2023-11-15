@@ -32,19 +32,21 @@ d_ℤtoSignedℕ_6 v0
 d_posPart_10 :: Integer -> Integer
 d_posPart_10 v0
   = let v1 = d_ℤtoSignedℕ_6 (coe v0) in
-    case coe v1 of
-      MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 v2 v3
-        -> case coe v2 of
-             MAlonzo.Code.Data.Sign.Base.C_'43'_10 -> coe v3
-             _ -> coe (0 :: Integer)
-      _ -> MAlonzo.RTE.mazUnreachableError
+    coe
+      (case coe v1 of
+         MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 v2 v3
+           -> case coe v2 of
+                MAlonzo.Code.Data.Sign.Base.C_'43'_10 -> coe v3
+                _ -> coe (0 :: Integer)
+         _ -> MAlonzo.RTE.mazUnreachableError)
 -- Data.Integer.Ext.negPart
 d_negPart_24 :: Integer -> Integer
 d_negPart_24 v0
   = let v1 = d_ℤtoSignedℕ_6 (coe v0) in
-    case coe v1 of
-      MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 v2 v3
-        -> case coe v2 of
-             MAlonzo.Code.Data.Sign.Base.C_'45'_8 -> coe v3
-             _ -> coe (0 :: Integer)
-      _ -> MAlonzo.RTE.mazUnreachableError
+    coe
+      (case coe v1 of
+         MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 v2 v3
+           -> case coe v2 of
+                MAlonzo.Code.Data.Sign.Base.C_'45'_8 -> coe v3
+                _ -> coe (0 :: Integer)
+         _ -> MAlonzo.RTE.mazUnreachableError)

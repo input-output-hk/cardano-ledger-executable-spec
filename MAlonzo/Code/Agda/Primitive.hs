@@ -19,13 +19,13 @@ import qualified MAlonzo.RTE
 import qualified Data.Text
 
 -- Agda.Primitive.Level
-type T_Level_14 = ()
-d_Level_14
+type T_Level_18 = ()
+d_Level_18
   = error
       "MAlonzo Runtime Error: postulate evaluated: Agda.Primitive.Level"
 -- Agda.Primitive.lzero
-d_lzero_16 = ()
+d_lzero_20 = ()
 -- Agda.Primitive.lsuc
-d_lsuc_20 = (\ _ -> ())
+d_lsuc_24 = (\ _ -> ())
 -- Agda.Primitive._⊔_
-d__'8852'__26 = (\ _ _ -> ())
+d__'8852'__30 = (\ _ _ -> ())

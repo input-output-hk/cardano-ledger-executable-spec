@@ -32,9 +32,9 @@ import qualified MAlonzo.Code.Reflection.AST.Show
 
 -- Class.Show.Instances.mkShow-×
 d_mkShow'45''215'_14 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   MAlonzo.Code.Class.Show.Core.T_Show_10 ->
   MAlonzo.Code.Class.Show.Core.T_Show_10 ->
@@ -64,7 +64,7 @@ du_mkShow'45''215'_14 v0 v1
               _ -> MAlonzo.RTE.mazUnreachableError))
 -- Class.Show.Instances.Show-List
 d_Show'45'List_20 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   MAlonzo.Code.Class.Show.Core.T_Show_10 ->
   MAlonzo.Code.Class.Show.Core.T_Show_10
@@ -125,7 +125,8 @@ du_Show'45'Fin_46
             coe
               MAlonzo.Code.Data.String.Base.d__'43''43'__20
               ("# " :: Data.Text.Text)
-              (MAlonzo.Code.Data.Nat.Show.d_show_56
+              (coe
+                 MAlonzo.Code.Class.Show.Core.d_show_18 d_Show'45'ℕ_38
                  (coe MAlonzo.Code.Data.Fin.Base.du_toℕ_18 (coe v0)))))
 -- Class.Show.Instances.Show-Float
 d_Show'45'Float_50 :: MAlonzo.Code.Class.Show.Core.T_Show_10
@@ -165,7 +166,7 @@ d_Show'45'Literal_64
       (coe MAlonzo.Code.Reflection.AST.Show.d_showLiteral_12)
 -- Class.Show.Instances.Show-Arg
 d_Show'45'Arg_66 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   MAlonzo.Code.Class.Show.Core.T_Show_10 ->
   MAlonzo.Code.Class.Show.Core.T_Show_10
@@ -190,7 +191,7 @@ du_Show'45'Arg_66 v0
               _ -> MAlonzo.RTE.mazUnreachableError))
 -- Class.Show.Instances.Show-Abs
 d_Show'45'Abs_72 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   MAlonzo.Code.Class.Show.Core.T_Show_10 ->
   MAlonzo.Code.Class.Show.Core.T_Show_10
@@ -204,7 +205,7 @@ du_Show'45'Abs_72 v0
       (coe
          (\ v1 ->
             case coe v1 of
-              MAlonzo.Code.Agda.Builtin.Reflection.C_abs_114 v2 v3
+              MAlonzo.Code.Agda.Builtin.Reflection.C_abs_122 v2 v3
                 -> coe
                      MAlonzo.Code.Data.String.Base.d__'43''43'__20
                      ("abs " :: Data.Text.Text)

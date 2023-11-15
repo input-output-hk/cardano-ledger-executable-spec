@@ -31,8 +31,8 @@ d_empty_22 v0
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Effect.Empty.RawEmpty.∅
 d_'8709'_24 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (() -> ()) -> T_RawEmpty_16 -> () -> AgdaAny
 d_'8709'_24 ~v0 ~v1 ~v2 v3 ~v4 = du_'8709'_24 v3
 du_'8709'_24 :: T_RawEmpty_16 -> AgdaAny

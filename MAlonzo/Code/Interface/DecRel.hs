@@ -36,9 +36,9 @@ d__'8764''63'__20 v0
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Interface.DecRel.DecRel._∼ᵇ_
 d__'8764''7495'__22 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   () ->
   (AgdaAny -> AgdaAny -> ()) ->
@@ -46,9 +46,9 @@ d__'8764''7495'__22 ::
 d__'8764''7495'__22 ~v0 ~v1 v2 ~v3 ~v4 ~v5 v6 v7 v8
   = du__'8764''7495'__22 v2 v6 v7 v8
 du__'8764''7495'__22 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   T_DecRel_16 -> AgdaAny -> AgdaAny -> Bool
 du__'8764''7495'__22 v0 v1 v2 v3
   = coe
-      MAlonzo.Code.Relation.Nullary.Decidable.Core.d_'8970'_'8971'_104 v0
+      MAlonzo.Code.Relation.Nullary.Decidable.Core.d_'8970'_'8971'_106 v0
       erased (coe d__'8764''63'__20 v1 v2 v3)

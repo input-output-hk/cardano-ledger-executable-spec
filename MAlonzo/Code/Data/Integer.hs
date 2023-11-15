@@ -31,8 +31,9 @@ d_show_4 v0
       (coe
          du_showSign_12
          (coe MAlonzo.Code.Data.Integer.Base.d_sign_24 (coe v0)))
-      (MAlonzo.Code.Data.Nat.Show.d_show_56
-         (coe MAlonzo.Code.Data.Integer.Base.d_'8739'_'8739'_18 (coe v0)))
+      (coe
+         MAlonzo.Code.Data.Nat.Show.d_show_56
+         (MAlonzo.Code.Data.Integer.Base.d_'8739'_'8739'_18 (coe v0)))
 -- Data.Integer._.showSign
 d_showSign_12 ::
   Integer ->

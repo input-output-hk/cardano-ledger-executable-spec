@@ -24,70 +24,64 @@ import qualified MAlonzo.Code.Function.Construct.Composition
 import qualified MAlonzo.Code.Function.Construct.Identity
 import qualified MAlonzo.Code.Function.Construct.Symmetry
 import qualified MAlonzo.Code.Function.Properties.Inverse
+import qualified MAlonzo.Code.Function.Properties.Surjection
+import qualified MAlonzo.Code.Function.Structures
 import qualified MAlonzo.Code.Relation.Binary.Bundles
 import qualified MAlonzo.Code.Relation.Binary.PropositionalEquality.Properties
-import qualified MAlonzo.Code.Relation.Binary.Reasoning.Base.Single
-import qualified MAlonzo.Code.Relation.Binary.Reasoning.Setoid
 import qualified MAlonzo.Code.Relation.Binary.Structures
 
 -- Function.Properties.Bijection.refl
 d_refl_28 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
-  MAlonzo.Code.Function.Bundles.T_Bijection_844
-d_refl_28 ~v0 ~v1 v2 = du_refl_28 v2
-du_refl_28 ::
-  MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
-  MAlonzo.Code.Function.Bundles.T_Bijection_844
-du_refl_28 v0
-  = coe
-      MAlonzo.Code.Function.Construct.Identity.du_bijection_730 (coe v0)
+  MAlonzo.Code.Function.Bundles.T_Bijection_926
+d_refl_28 ~v0 ~v1 ~v2 = du_refl_28
+du_refl_28 :: MAlonzo.Code.Function.Bundles.T_Bijection_926
+du_refl_28
+  = coe MAlonzo.Code.Function.Construct.Identity.du_bijection_788
 -- Function.Properties.Bijection.sym-≡
 d_sym'45''8801'_30 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  MAlonzo.Code.Function.Bundles.T_Bijection_844 ->
-  MAlonzo.Code.Function.Bundles.T_Bijection_844
+  MAlonzo.Code.Function.Bundles.T_Bijection_926 ->
+  MAlonzo.Code.Function.Bundles.T_Bijection_926
 d_sym'45''8801'_30 ~v0 ~v1 v2 ~v3 ~v4 = du_sym'45''8801'_30 v2
 du_sym'45''8801'_30 ::
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
-  MAlonzo.Code.Function.Bundles.T_Bijection_844 ->
-  MAlonzo.Code.Function.Bundles.T_Bijection_844
+  MAlonzo.Code.Function.Bundles.T_Bijection_926 ->
+  MAlonzo.Code.Function.Bundles.T_Bijection_926
 du_sym'45''8801'_30 v0
   = coe
-      MAlonzo.Code.Function.Construct.Symmetry.du_bijection'45''8801'_696
+      MAlonzo.Code.Function.Construct.Symmetry.du_bijection'45''8801'_722
       (coe v0)
 -- Function.Properties.Bijection.trans
 d_trans_32 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
-  MAlonzo.Code.Function.Bundles.T_Bijection_844 ->
-  MAlonzo.Code.Function.Bundles.T_Bijection_844 ->
-  MAlonzo.Code.Function.Bundles.T_Bijection_844
-d_trans_32 ~v0 ~v1 ~v2 ~v3 ~v4 ~v5 ~v6 ~v7 v8 = du_trans_32 v8
+  MAlonzo.Code.Function.Bundles.T_Bijection_926 ->
+  MAlonzo.Code.Function.Bundles.T_Bijection_926 ->
+  MAlonzo.Code.Function.Bundles.T_Bijection_926
+d_trans_32 ~v0 ~v1 ~v2 ~v3 ~v4 ~v5 ~v6 ~v7 ~v8 = du_trans_32
 du_trans_32 ::
-  MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
-  MAlonzo.Code.Function.Bundles.T_Bijection_844 ->
-  MAlonzo.Code.Function.Bundles.T_Bijection_844 ->
-  MAlonzo.Code.Function.Bundles.T_Bijection_844
-du_trans_32 v0
-  = coe
-      MAlonzo.Code.Function.Construct.Composition.du_bijection_1614
-      (coe v0)
+  MAlonzo.Code.Function.Bundles.T_Bijection_926 ->
+  MAlonzo.Code.Function.Bundles.T_Bijection_926 ->
+  MAlonzo.Code.Function.Bundles.T_Bijection_926
+du_trans_32
+  = coe MAlonzo.Code.Function.Construct.Composition.du_bijection_1606
 -- Function.Properties.Bijection.⤖-isEquivalence
 d_'10518''45'isEquivalence_34 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
 d_'10518''45'isEquivalence_34 ~v0 = du_'10518''45'isEquivalence_34
 du_'10518''45'isEquivalence_34 ::
@@ -95,202 +89,216 @@ du_'10518''45'isEquivalence_34 ::
 du_'10518''45'isEquivalence_34
   = coe
       MAlonzo.Code.Relation.Binary.Structures.C_IsEquivalence'46'constructor_743
-      (coe
-         (\ v0 ->
-            coe
-              du_refl_28
-              (coe
-                 MAlonzo.Code.Relation.Binary.PropositionalEquality.Properties.du_setoid_402)))
+      (coe (\ v0 -> coe du_refl_28))
       (coe
          (\ v0 v1 ->
             coe
               du_sym'45''8801'_30
               (coe
                  MAlonzo.Code.Relation.Binary.PropositionalEquality.Properties.du_setoid_402)))
-      (coe
-         (\ v0 v1 v2 ->
-            coe
-              du_trans_32
-              (coe
-                 MAlonzo.Code.Relation.Binary.PropositionalEquality.Properties.du_setoid_402)))
+      (coe (\ v0 v1 v2 -> coe du_trans_32))
 -- Function.Properties.Bijection.Bijection⇒Inverse
 d_Bijection'8658'Inverse_36 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
-  MAlonzo.Code.Function.Bundles.T_Bijection_844 ->
-  MAlonzo.Code.Function.Bundles.T_Inverse_1052
-d_Bijection'8658'Inverse_36 ~v0 ~v1 ~v2 ~v3 ~v4 v5 v6
-  = du_Bijection'8658'Inverse_36 v5 v6
+  MAlonzo.Code.Function.Bundles.T_Bijection_926 ->
+  MAlonzo.Code.Function.Bundles.T_Inverse_1960
+d_Bijection'8658'Inverse_36 ~v0 ~v1 v2 ~v3 ~v4 v5 v6
+  = du_Bijection'8658'Inverse_36 v2 v5 v6
 du_Bijection'8658'Inverse_36 ::
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
-  MAlonzo.Code.Function.Bundles.T_Bijection_844 ->
-  MAlonzo.Code.Function.Bundles.T_Inverse_1052
-du_Bijection'8658'Inverse_36 v0 v1
+  MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
+  MAlonzo.Code.Function.Bundles.T_Bijection_926 ->
+  MAlonzo.Code.Function.Bundles.T_Inverse_1960
+du_Bijection'8658'Inverse_36 v0 v1 v2
   = coe
-      MAlonzo.Code.Function.Bundles.C_Inverse'46'constructor_24077
-      (coe MAlonzo.Code.Function.Bundles.d_to_852 (coe v1))
+      MAlonzo.Code.Function.Bundles.C_Inverse'46'constructor_38549
+      (coe MAlonzo.Code.Function.Bundles.d_to_934 (coe v2))
       (coe
-         MAlonzo.Code.Function.Bundles.du_to'8315'_788
-         (coe MAlonzo.Code.Function.Bundles.du_surjection_864 (coe v1)))
-      (coe MAlonzo.Code.Function.Bundles.d_cong_854 (coe v1))
+         MAlonzo.Code.Function.Bundles.du_to'8315'_920
+         (coe MAlonzo.Code.Function.Bundles.du_surjection_946 (coe v2)))
+      (coe MAlonzo.Code.Function.Bundles.d_cong_936 (coe v2))
       (coe
-         (\ v2 v3 v4 ->
-            coe
-              MAlonzo.Code.Function.Bundles.du_injective_858 v1
-              (coe
-                 MAlonzo.Code.Function.Bundles.du_to'8315'_788
-                 (coe MAlonzo.Code.Function.Bundles.du_surjection_864 (coe v1))
-                 (coe v2))
-              (coe
-                 MAlonzo.Code.Function.Bundles.du_to'8315'_788
-                 (coe MAlonzo.Code.Function.Bundles.du_surjection_864 (coe v1))
-                 (coe v3))
-              (MAlonzo.Code.Relation.Binary.Reasoning.Base.Single.d_begin__40
-                 (coe
-                    MAlonzo.Code.Relation.Binary.Reasoning.Setoid.du_step'45''8776'_58
-                    v0
-                    (coe
-                       MAlonzo.Code.Function.Bundles.d_to_852 v1
-                       (coe
-                          MAlonzo.Code.Function.Bundles.du_to'8315'_788
-                          (coe MAlonzo.Code.Function.Bundles.du_surjection_864 (coe v1))
-                          (coe v2)))
-                    v2
-                    (coe
-                       MAlonzo.Code.Function.Bundles.d_to_852 v1
-                       (coe
-                          MAlonzo.Code.Function.Bundles.du_to'8315'_788
-                          (coe MAlonzo.Code.Function.Bundles.du_surjection_864 (coe v1))
-                          (coe v3)))
-                    (coe
-                       MAlonzo.Code.Relation.Binary.Reasoning.Setoid.du_step'45''8776'_58
-                       v0 v2 v3
-                       (coe
-                          MAlonzo.Code.Function.Bundles.d_to_852 v1
-                          (coe
-                             MAlonzo.Code.Function.Bundles.du_to'8315'_788
-                             (coe MAlonzo.Code.Function.Bundles.du_surjection_864 (coe v1))
-                             (coe v3)))
-                       (coe
-                          MAlonzo.Code.Relation.Binary.Reasoning.Setoid.du_step'45''8776''728'_66
-                          (coe v0) (coe v3)
-                          (coe
-                             MAlonzo.Code.Function.Bundles.d_to_852 v1
-                             (coe
-                                MAlonzo.Code.Function.Bundles.du_to'8315'_788
-                                (coe MAlonzo.Code.Function.Bundles.du_surjection_864 (coe v1))
-                                (coe v3)))
-                          (coe
-                             MAlonzo.Code.Function.Bundles.d_to_852 v1
-                             (coe
-                                MAlonzo.Code.Function.Bundles.du_to'8315'_788
-                                (coe MAlonzo.Code.Function.Bundles.du_surjection_864 (coe v1))
-                                (coe v3)))
-                          (coe
-                             MAlonzo.Code.Relation.Binary.Reasoning.Base.Single.du__'8718'_86
-                             (coe
-                                MAlonzo.Code.Relation.Binary.Structures.d_refl_34
-                                (coe
-                                   MAlonzo.Code.Relation.Binary.Bundles.d_isEquivalence_60
-                                   (coe v0)))
-                             (coe
-                                MAlonzo.Code.Function.Bundles.d_to_852 v1
-                                (coe
-                                   MAlonzo.Code.Function.Bundles.du_to'8315'_788
-                                   (coe MAlonzo.Code.Function.Bundles.du_surjection_864 (coe v1))
-                                   (coe v3))))
-                          (coe du_to'8728'to'8315'_144 (coe v1) (coe v3)))
-                       v4)
-                    (coe du_to'8728'to'8315'_144 (coe v1) (coe v2))))))
+         MAlonzo.Code.Function.Properties.Surjection.du_injective'8658'to'8315''45'cong_382
+         (coe v0) (coe v1)
+         (coe MAlonzo.Code.Function.Bundles.du_surjection_946 (coe v2))
+         (coe MAlonzo.Code.Function.Bundles.du_injective_940 (coe v2)))
       (coe
          MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32
-         (coe du_to'8728'to'8315'_144 (coe v1))
          (coe
-            (\ v2 ->
+            (\ v3 v4 v5 ->
+               let v6
+                     = coe
+                         MAlonzo.Code.Function.Bundles.du_isBijection_960 (coe v0) (coe v1)
+                         (coe v2) in
                coe
-                 MAlonzo.Code.Function.Bundles.du_injective_858 v1
+                 (let v7
+                        = MAlonzo.Code.Function.Structures.d_isInjection_246 (coe v6) in
+                  coe
+                    (let v8
+                           = MAlonzo.Code.Function.Structures.d_isCongruent_100 (coe v7) in
+                     coe
+                       (let v9
+                              = coe MAlonzo.Code.Function.Structures.du_setoid_66 (coe v8) in
+                        coe
+                          (coe
+                             MAlonzo.Code.Relation.Binary.Structures.d_trans_38
+                             (MAlonzo.Code.Relation.Binary.Bundles.d_isEquivalence_60 (coe v9))
+                             (coe MAlonzo.Code.Function.Bundles.d_to_934 v2 v4)
+                             (coe
+                                MAlonzo.Code.Function.Bundles.d_to_934 v2
+                                (coe
+                                   MAlonzo.Code.Function.Bundles.du_to'8315'_920
+                                   (coe MAlonzo.Code.Function.Bundles.du_surjection_946 (coe v2))
+                                   (coe v3)))
+                             v3
+                             (coe
+                                MAlonzo.Code.Function.Bundles.d_cong_936 v2 v4
+                                (coe
+                                   MAlonzo.Code.Function.Bundles.du_to'8315'_920
+                                   (coe MAlonzo.Code.Function.Bundles.du_surjection_946 (coe v2))
+                                   (coe v3))
+                                v5)
+                             (coe
+                                du_to'8728'to'8315'_118 (coe v0) (coe v1) (coe v2) (coe v3))))))))
+         (coe
+            (\ v3 v4 v5 ->
+               coe
+                 MAlonzo.Code.Function.Bundles.du_injective_940 v2
                  (MAlonzo.Code.Agda.Builtin.Sigma.d_fst_28
-                    (coe
-                       MAlonzo.Code.Function.Bundles.du_surjective_860 v1
-                       (coe MAlonzo.Code.Function.Bundles.d_to_852 v1 v2)))
-                 v2
-                 (coe
-                    du_to'8728'to'8315'_144 (coe v1)
-                    (coe MAlonzo.Code.Function.Bundles.d_to_852 v1 v2)))))
+                    (let v6
+                           = coe MAlonzo.Code.Function.Bundles.du_surjection_946 (coe v2) in
+                     coe
+                       (coe
+                          MAlonzo.Code.Function.Structures.du_strictlySurjective_230
+                          (coe
+                             MAlonzo.Code.Function.Bundles.du_isSurjection_914 (coe v0) (coe v1)
+                             (coe v6))
+                          (coe v4))))
+                 v3
+                 (let v6
+                        = coe
+                            MAlonzo.Code.Function.Bundles.du_isBijection_960 (coe v0) (coe v1)
+                            (coe v2) in
+                  coe
+                    (let v7
+                           = MAlonzo.Code.Function.Structures.d_isInjection_246 (coe v6) in
+                     coe
+                       (let v8
+                              = MAlonzo.Code.Function.Structures.d_isCongruent_100 (coe v7) in
+                        coe
+                          (let v9
+                                 = coe MAlonzo.Code.Function.Structures.du_setoid_66 (coe v8) in
+                           coe
+                             (coe
+                                MAlonzo.Code.Relation.Binary.Structures.d_trans_38
+                                (MAlonzo.Code.Relation.Binary.Bundles.d_isEquivalence_60 (coe v9))
+                                (coe
+                                   MAlonzo.Code.Function.Bundles.d_to_934 v2
+                                   (MAlonzo.Code.Agda.Builtin.Sigma.d_fst_28
+                                      (let v10
+                                             = coe
+                                                 MAlonzo.Code.Function.Bundles.du_surjection_946
+                                                 (coe v2) in
+                                       coe
+                                         (coe
+                                            MAlonzo.Code.Function.Structures.du_strictlySurjective_230
+                                            (coe
+                                               MAlonzo.Code.Function.Bundles.du_isSurjection_914
+                                               (coe v0) (coe v1) (coe v10))
+                                            (coe v4)))))
+                                v4 (coe MAlonzo.Code.Function.Bundles.d_to_934 v2 v3)
+                                (coe du_to'8728'to'8315'_118 (coe v0) (coe v1) (coe v2) (coe v4))
+                                v5))))))))
 -- Function.Properties.Bijection._.to∘to⁻
-d_to'8728'to'8315'_144 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+d_to'8728'to'8315'_118 ::
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
-  MAlonzo.Code.Function.Bundles.T_Bijection_844 -> AgdaAny -> AgdaAny
-d_to'8728'to'8315'_144 ~v0 ~v1 ~v2 ~v3 ~v4 ~v5 v6 v7
-  = du_to'8728'to'8315'_144 v6 v7
-du_to'8728'to'8315'_144 ::
-  MAlonzo.Code.Function.Bundles.T_Bijection_844 -> AgdaAny -> AgdaAny
-du_to'8728'to'8315'_144 v0 v1
+  MAlonzo.Code.Function.Bundles.T_Bijection_926 -> AgdaAny -> AgdaAny
+d_to'8728'to'8315'_118 ~v0 ~v1 v2 ~v3 ~v4 v5 v6 v7
+  = du_to'8728'to'8315'_118 v2 v5 v6 v7
+du_to'8728'to'8315'_118 ::
+  MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
+  MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
+  MAlonzo.Code.Function.Bundles.T_Bijection_926 -> AgdaAny -> AgdaAny
+du_to'8728'to'8315'_118 v0 v1 v2 v3
   = coe
       MAlonzo.Code.Agda.Builtin.Sigma.d_snd_30
-      (coe MAlonzo.Code.Function.Bundles.du_surjective_860 v0 v1)
+      (let v4
+             = coe MAlonzo.Code.Function.Bundles.du_surjection_946 (coe v2) in
+       coe
+         (coe
+            MAlonzo.Code.Function.Structures.du_strictlySurjective_230
+            (coe
+               MAlonzo.Code.Function.Bundles.du_isSurjection_914 (coe v0) (coe v1)
+               (coe v4))
+            (coe v3)))
 -- Function.Properties.Bijection.Bijection⇒Equivalence
-d_Bijection'8658'Equivalence_152 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+d_Bijection'8658'Equivalence_124 ::
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
-  MAlonzo.Code.Function.Bundles.T_Bijection_844 ->
-  MAlonzo.Code.Function.Bundles.T_Equivalence_928
-d_Bijection'8658'Equivalence_152 ~v0 ~v1 ~v2 ~v3 ~v4 v5 v6
-  = du_Bijection'8658'Equivalence_152 v5 v6
-du_Bijection'8658'Equivalence_152 ::
+  MAlonzo.Code.Function.Bundles.T_Bijection_926 ->
+  MAlonzo.Code.Function.Bundles.T_Equivalence_1714
+d_Bijection'8658'Equivalence_124 ~v0 ~v1 v2 ~v3 ~v4 v5 v6
+  = du_Bijection'8658'Equivalence_124 v2 v5 v6
+du_Bijection'8658'Equivalence_124 ::
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
-  MAlonzo.Code.Function.Bundles.T_Bijection_844 ->
-  MAlonzo.Code.Function.Bundles.T_Equivalence_928
-du_Bijection'8658'Equivalence_152 v0 v1
+  MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
+  MAlonzo.Code.Function.Bundles.T_Bijection_926 ->
+  MAlonzo.Code.Function.Bundles.T_Equivalence_1714
+du_Bijection'8658'Equivalence_124 v0 v1 v2
   = coe
-      MAlonzo.Code.Function.Properties.Inverse.du_Inverse'8658'Equivalence_218
-      (coe du_Bijection'8658'Inverse_36 (coe v0) (coe v1))
+      MAlonzo.Code.Function.Properties.Inverse.du_Inverse'8658'Equivalence_478
+      (coe du_Bijection'8658'Inverse_36 (coe v0) (coe v1) (coe v2))
 -- Function.Properties.Bijection.⤖⇒↔
-d_'10518''8658''8596'_154 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+d_'10518''8658''8596'_126 ::
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  MAlonzo.Code.Function.Bundles.T_Bijection_844 ->
-  MAlonzo.Code.Function.Bundles.T_Inverse_1052
-d_'10518''8658''8596'_154 ~v0 ~v1 ~v2 ~v3
-  = du_'10518''8658''8596'_154
-du_'10518''8658''8596'_154 ::
-  MAlonzo.Code.Function.Bundles.T_Bijection_844 ->
-  MAlonzo.Code.Function.Bundles.T_Inverse_1052
-du_'10518''8658''8596'_154
+  MAlonzo.Code.Function.Bundles.T_Bijection_926 ->
+  MAlonzo.Code.Function.Bundles.T_Inverse_1960
+d_'10518''8658''8596'_126 ~v0 ~v1 ~v2 ~v3
+  = du_'10518''8658''8596'_126
+du_'10518''8658''8596'_126 ::
+  MAlonzo.Code.Function.Bundles.T_Bijection_926 ->
+  MAlonzo.Code.Function.Bundles.T_Inverse_1960
+du_'10518''8658''8596'_126
   = coe
       du_Bijection'8658'Inverse_36
       (coe
          MAlonzo.Code.Relation.Binary.PropositionalEquality.Properties.du_setoid_402)
+      (coe
+         MAlonzo.Code.Relation.Binary.PropositionalEquality.Properties.du_setoid_402)
 -- Function.Properties.Bijection.⤖⇒⇔
-d_'10518''8658''8660'_156 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+d_'10518''8658''8660'_128 ::
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  MAlonzo.Code.Function.Bundles.T_Bijection_844 ->
-  MAlonzo.Code.Function.Bundles.T_Equivalence_928
-d_'10518''8658''8660'_156 ~v0 ~v1 ~v2 ~v3
-  = du_'10518''8658''8660'_156
-du_'10518''8658''8660'_156 ::
-  MAlonzo.Code.Function.Bundles.T_Bijection_844 ->
-  MAlonzo.Code.Function.Bundles.T_Equivalence_928
-du_'10518''8658''8660'_156
+  MAlonzo.Code.Function.Bundles.T_Bijection_926 ->
+  MAlonzo.Code.Function.Bundles.T_Equivalence_1714
+d_'10518''8658''8660'_128 ~v0 ~v1 ~v2 ~v3
+  = du_'10518''8658''8660'_128
+du_'10518''8658''8660'_128 ::
+  MAlonzo.Code.Function.Bundles.T_Bijection_926 ->
+  MAlonzo.Code.Function.Bundles.T_Equivalence_1714
+du_'10518''8658''8660'_128
   = coe
-      du_Bijection'8658'Equivalence_152
+      du_Bijection'8658'Equivalence_124
+      (coe
+         MAlonzo.Code.Relation.Binary.PropositionalEquality.Properties.du_setoid_402)
       (coe
          MAlonzo.Code.Relation.Binary.PropositionalEquality.Properties.du_setoid_402)

@@ -23,8 +23,8 @@ import qualified MAlonzo.Code.Function.Base
 
 -- Data.Container.Morphism._.id
 d_id_16 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Data.Container.Core.T_Container_10 ->
   MAlonzo.Code.Data.Container.Core.T__'8658'__74
 d_id_16 ~v0 ~v1 ~v2 = du_id_16
@@ -35,12 +35,12 @@ du_id_16
       (coe (\ v0 v1 -> v1))
 -- Data.Container.Morphism._._∘_
 d__'8728'__40 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Data.Container.Core.T_Container_10 ->
   MAlonzo.Code.Data.Container.Core.T_Container_10 ->
   MAlonzo.Code.Data.Container.Core.T_Container_10 ->

@@ -41,14 +41,14 @@ d_extend_32 v0
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Effect.Comonad.RawComonad.duplicate
 d_duplicate_34 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (() -> ()) -> T_RawComonad_22 -> () -> AgdaAny -> AgdaAny
 d_duplicate_34 ~v0 ~v1 v2 ~v3 = du_duplicate_34 v2
 du_duplicate_34 :: T_RawComonad_22 -> AgdaAny -> AgdaAny
 du_duplicate_34 v0 = coe d_extend_32 v0 erased erased (\ v1 -> v1)
 -- Effect.Comonad.RawComonad.liftW
 d_liftW_36 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (() -> ()) ->
   T_RawComonad_22 ->
   () -> () -> (AgdaAny -> AgdaAny) -> AgdaAny -> AgdaAny
@@ -63,7 +63,7 @@ du_liftW_36 v0 v1
          (coe d_extract_30 v0 erased))
 -- Effect.Comonad.RawComonad._=>>_
 d__'61''62''62'__40 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (() -> ()) ->
   T_RawComonad_22 ->
   () -> () -> AgdaAny -> (AgdaAny -> AgdaAny) -> AgdaAny
@@ -75,12 +75,12 @@ du__'61''62''62'__40 v0 v1 v2
   = coe d_extend_32 v0 erased erased v2 v1
 -- Effect.Comonad.RawComonad._=>=_
 d__'61''62''61'__42 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (() -> ()) ->
   T_RawComonad_22 ->
   () ->
   () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   (AgdaAny -> AgdaAny) -> (AgdaAny -> AgdaAny) -> AgdaAny -> AgdaAny
 d__'61''62''61'__42 ~v0 ~v1 v2 ~v3 ~v4 ~v5 ~v6 v7 v8
@@ -94,7 +94,7 @@ du__'61''62''61'__42 v0 v1 v2
       (coe d_extend_32 v0 erased erased v1)
 -- Effect.Comonad.RawComonad._<<=_
 d__'60''60''61'__48 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (() -> ()) ->
   T_RawComonad_22 ->
   () -> () -> (AgdaAny -> AgdaAny) -> AgdaAny -> AgdaAny
@@ -104,11 +104,11 @@ du__'60''60''61'__48 ::
 du__'60''60''61'__48 v0 = coe d_extend_32 v0 erased erased
 -- Effect.Comonad.RawComonad._=<=_
 d__'61''60''61'__50 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (() -> ()) ->
   T_RawComonad_22 ->
   () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   () ->
   (AgdaAny -> AgdaAny) -> (AgdaAny -> AgdaAny) -> AgdaAny -> AgdaAny

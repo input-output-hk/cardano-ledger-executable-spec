@@ -26,9 +26,10 @@ d_show_6 :: Integer -> MAlonzo.Code.Agda.Builtin.String.T_String_6
 d_show_6 v0
   = case coe v0 of
       _ | coe geqInt (coe v0) (coe (0 :: Integer)) ->
-          coe MAlonzo.Code.Data.Nat.Show.d_show_56 (coe v0)
+          coe MAlonzo.Code.Data.Nat.Show.d_show_56 v0
       _ -> coe
              MAlonzo.Code.Data.String.Base.d__'43''43'__20
              ("-" :: Data.Text.Text)
-             (MAlonzo.Code.Data.Nat.Show.d_show_56
-                (coe subInt (coe (0 :: Integer)) (coe v0)))
+             (coe
+                MAlonzo.Code.Data.Nat.Show.d_show_56
+                (subInt (coe (0 :: Integer)) (coe v0)))

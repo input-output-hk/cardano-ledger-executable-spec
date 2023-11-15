@@ -21,5 +21,5 @@ import qualified MAlonzo.Code.Agda.Primitive
 
 -- Function.Metric.Nat.Core.DistanceFunction
 d_DistanceFunction_10 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 -> () -> ()
+  MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()
 d_DistanceFunction_10 = erased

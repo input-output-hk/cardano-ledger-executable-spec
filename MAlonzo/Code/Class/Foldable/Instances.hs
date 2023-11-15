@@ -29,7 +29,7 @@ d_Foldable'45'Maybe_10 ::
   MAlonzo.Code.Class.Foldable.Core.T_Foldable_12
 d_Foldable'45'Maybe_10
   = coe
-      MAlonzo.Code.Class.Foldable.Core.C_Foldable'46'constructor_141
+      MAlonzo.Code.Class.Foldable.Core.C_Foldable'46'constructor_145
       (coe
          (\ v0 v1 v2 v3 v4 v5 v6 ->
             case coe v6 of
@@ -42,30 +42,30 @@ d_Foldable'45'List_18 ::
   MAlonzo.Code.Class.Foldable.Core.T_Foldable_12
 d_Foldable'45'List_18
   = coe
-      MAlonzo.Code.Class.Foldable.Core.C_Foldable'46'constructor_141
+      MAlonzo.Code.Class.Foldable.Core.C_Foldable'46'constructor_145
       (coe
          (\ v0 v1 v2 v3 v4 v5 ->
             coe du_go_30 (coe v0) (coe v1) (coe v4) (coe v5)))
 -- Class.Foldable.Instances._.go
 d_go_30 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   () ->
   MAlonzo.Code.Class.Monoid.Core.T_Monoid_14 ->
   (AgdaAny -> AgdaAny) -> [AgdaAny] -> AgdaAny
 d_go_30 v0 v1 ~v2 ~v3 v4 v5 = du_go_30 v0 v1 v4 v5
 du_go_30 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Class.Monoid.Core.T_Monoid_14 ->
   (AgdaAny -> AgdaAny) -> [AgdaAny] -> AgdaAny
 du_go_30 v0 v1 v2 v3
   = coe du_'46'extendedlambda0_32 (coe v0) (coe v1) (coe v2) (coe v3)
 -- Class.Foldable.Instances._..extendedlambda0
 d_'46'extendedlambda0_32 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   () ->
   MAlonzo.Code.Class.Monoid.Core.T_Monoid_14 ->
@@ -73,8 +73,8 @@ d_'46'extendedlambda0_32 ::
 d_'46'extendedlambda0_32 v0 v1 ~v2 ~v3 v4 v5 v6
   = du_'46'extendedlambda0_32 v0 v1 v4 v5 v6
 du_'46'extendedlambda0_32 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Class.Monoid.Core.T_Monoid_14 ->
   (AgdaAny -> AgdaAny) -> [AgdaAny] -> AgdaAny
 du_'46'extendedlambda0_32 v0 v1 v2 v3 v4
@@ -91,7 +91,7 @@ d_Foldable'45'List'8314'_38 ::
   MAlonzo.Code.Class.Foldable.Core.T_Foldable_12
 d_Foldable'45'List'8314'_38
   = coe
-      MAlonzo.Code.Class.Foldable.Core.C_Foldable'46'constructor_141
+      MAlonzo.Code.Class.Foldable.Core.C_Foldable'46'constructor_145
       (coe
          (\ v0 v1 v2 v3 v4 v5 v6 ->
             case coe v6 of

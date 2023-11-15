@@ -22,20 +22,20 @@ import qualified MAlonzo.Code.Agda.Primitive
 
 -- Axiom.Extensionality.Propositional.Extensionality
 d_Extensionality_10 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 -> ()
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 -> ()
 d_Extensionality_10 = erased
 -- Axiom.Extensionality.Propositional.ExtensionalityImplicit
 d_ExtensionalityImplicit_32 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 -> ()
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 -> ()
 d_ExtensionalityImplicit_32 = erased
 -- Axiom.Extensionality.Propositional.lower-extensionality
 d_lower'45'extensionality_62 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (() ->
    (AgdaAny -> ()) ->
    (AgdaAny -> AgdaAny) ->
@@ -51,8 +51,8 @@ d_lower'45'extensionality_62 ::
 d_lower'45'extensionality_62 = erased
 -- Axiom.Extensionality.Propositional.∀-extensionality
 d_'8704''45'extensionality_90 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (() ->
    (AgdaAny -> ()) ->
    (AgdaAny -> AgdaAny) ->
@@ -67,8 +67,8 @@ d_'8704''45'extensionality_90 ::
 d_'8704''45'extensionality_90 = erased
 -- Axiom.Extensionality.Propositional.implicit-extensionality
 d_implicit'45'extensionality_116 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (() ->
    (AgdaAny -> ()) ->
    (AgdaAny -> AgdaAny) ->

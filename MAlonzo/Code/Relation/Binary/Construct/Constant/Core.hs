@@ -21,9 +21,9 @@ import qualified MAlonzo.Code.Agda.Primitive
 
 -- Relation.Binary.Construct.Constant.Core.Const
 d_Const_20 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () -> () -> AgdaAny -> AgdaAny -> ()
 d_Const_20 = erased

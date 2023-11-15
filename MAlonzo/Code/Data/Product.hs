@@ -19,41 +19,22 @@ import qualified MAlonzo.RTE
 import qualified Data.Text
 import qualified MAlonzo.Code.Agda.Primitive
 
--- Data.Product.∃
-d_'8707'_18 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  () -> (AgdaAny -> ()) -> ()
-d_'8707'_18 = erased
 -- Data.Product.∄
-d_'8708'_22 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+d_'8708'_18 ::
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () -> (AgdaAny -> ()) -> ()
-d_'8708'_22 = erased
--- Data.Product.∃₂
-d_'8707''8322'_34 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  () -> (AgdaAny -> ()) -> (AgdaAny -> AgdaAny -> ()) -> ()
-d_'8707''8322'_34 = erased
+d_'8708'_18 = erased
 -- Data.Product.∃!
-d_'8707''33'_44 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+d_'8707''33'_24 ::
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () -> (AgdaAny -> AgdaAny -> ()) -> (AgdaAny -> ()) -> ()
-d_'8707''33'_44 = erased
--- Data.Product.∃-syntax
-d_'8707''45'syntax_56 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  () -> (AgdaAny -> ()) -> ()
-d_'8707''45'syntax_56 = erased
+d_'8707''33'_24 = erased
 -- Data.Product.∄-syntax
-d_'8708''45'syntax_60 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+d_'8708''45'syntax_36 ::
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () -> (AgdaAny -> ()) -> ()
-d_'8708''45'syntax_60 = erased
+d_'8708''45'syntax_36 = erased

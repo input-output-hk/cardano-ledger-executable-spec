@@ -22,7 +22,7 @@ import qualified MAlonzo.Code.Agda.Primitive
 
 -- Axiom.UniquenessOfIdentityProofs.WithK.uip
 d_uip_10 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   AgdaAny ->
   AgdaAny ->

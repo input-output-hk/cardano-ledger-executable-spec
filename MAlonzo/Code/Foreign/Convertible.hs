@@ -69,7 +69,7 @@ d_Convertible'8322'_44 ::
 d_Convertible'8322'_44 = erased
 -- Foreign.Convertible.Functor⇒Convertible
 d_Functor'8658'Convertible_56 ::
-  (MAlonzo.Code.Agda.Primitive.T_Level_14 -> () -> ()) ->
+  (MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()) ->
   MAlonzo.Code.Interface.Functor.T_Functor_22 ->
   () -> () -> T_Convertible_8 -> T_Convertible_8
 d_Functor'8658'Convertible_56 ~v0 v1 ~v2 ~v3 v4
@@ -148,14 +148,14 @@ du_Convertible'45'Pair_70 v0 v1
          (\ v2 ->
             coe
               MAlonzo.Code.Foreign.Haskell.Coerce.d_coerce_44 () erased () erased
-              (coe MAlonzo.Code.Foreign.Haskell.Coerce.C_TrustMe_40)
+              (coe MAlonzo.Code.Foreign.Haskell.Coerce.du_pair'45'toFFI_92)
               (coe
-                 MAlonzo.Code.Data.Product.Base.du_map_104 (coe d_to_18 (coe v0))
+                 MAlonzo.Code.Data.Product.Base.du_map_128 (coe d_to_18 (coe v0))
                  (coe (\ v3 -> d_to_18 (coe v1))) (coe v2))))
       (coe
          (\ v2 ->
             coe
-              MAlonzo.Code.Data.Product.Base.du_map_104 (coe d_from_20 (coe v0))
+              MAlonzo.Code.Data.Product.Base.du_map_128 (coe d_from_20 (coe v0))
               (coe (\ v3 -> d_from_20 (coe v1)))
               (coe
                  MAlonzo.Code.Foreign.Haskell.Coerce.d_coerce_44 () erased () erased
@@ -190,7 +190,7 @@ du_Convertible'45'Either_76 v0 v1
          (\ v2 ->
             coe
               MAlonzo.Code.Foreign.Haskell.Coerce.d_coerce_44 () erased () erased
-              (coe MAlonzo.Code.Foreign.Haskell.Coerce.C_TrustMe_40)
+              (coe MAlonzo.Code.Foreign.Haskell.Coerce.du_either'45'toFFI_96)
               (coe
                  MAlonzo.Code.Data.Sum.Base.du_map_84 (d_to_18 (coe v0))
                  (d_to_18 (coe v1)) v2)))
@@ -247,16 +247,27 @@ du_Convertible'45'Map_92 v0 v1 v2
       (coe
          (\ v3 ->
             coe
-              MAlonzo.Code.Interface.Functor.du_map_30
-              MAlonzo.Code.Interface.Functor.d_Functor'45'List_100 () erased ()
-              erased
-              (\ v4 ->
-                 coe
-                   MAlonzo.Code.Foreign.Haskell.Coerce.d_coerce_44 () erased () erased
-                   (coe MAlonzo.Code.Foreign.Haskell.Coerce.C_TrustMe_40)
-                   (coe
-                      MAlonzo.Code.Data.Product.Base.du_map_104 (coe d_to_18 (coe v1))
-                      (coe (\ v5 -> d_to_18 (coe v2))) (coe v4)))
+              d_to_18
+              (coe
+                 du_Convertible'45'FinSet_80
+                 (coe
+                    C_Convertible'46'constructor_21
+                    (coe
+                       (\ v4 ->
+                          coe
+                            MAlonzo.Code.Foreign.Haskell.Coerce.d_coerce_44 () erased () erased
+                            (coe MAlonzo.Code.Foreign.Haskell.Coerce.du_pair'45'toFFI_92)
+                            (coe
+                               MAlonzo.Code.Data.Product.Base.du_map_128 (coe d_to_18 (coe v1))
+                               (coe (\ v5 -> d_to_18 (coe v2))) (coe v4))))
+                    (coe
+                       (\ v4 ->
+                          coe
+                            MAlonzo.Code.Data.Product.Base.du_map_128 (coe d_from_20 (coe v1))
+                            (coe (\ v5 -> d_from_20 (coe v2)))
+                            (coe
+                               MAlonzo.Code.Foreign.Haskell.Coerce.d_coerce_44 () erased () erased
+                               (coe MAlonzo.Code.Foreign.Haskell.Coerce.C_TrustMe_40) v4)))))
               (MAlonzo.Code.Agda.Builtin.Sigma.d_fst_28 (coe v3))))
       (coe
          (\ v3 ->
@@ -272,7 +283,7 @@ du_Convertible'45'Map_92 v0 v1 v2
                  erased
                  (\ v4 ->
                     coe
-                      MAlonzo.Code.Data.Product.Base.du_map_104 (coe d_from_20 (coe v1))
+                      MAlonzo.Code.Data.Product.Base.du_map_128 (coe d_from_20 (coe v1))
                       (coe (\ v5 -> d_from_20 (coe v2)))
                       (coe
                          MAlonzo.Code.Foreign.Haskell.Coerce.d_coerce_44 () erased () erased

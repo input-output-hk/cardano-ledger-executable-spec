@@ -23,12 +23,12 @@ import qualified MAlonzo.Code.Data.Irrelevant
 
 -- Data.List.Relation.Binary.Disjoint.Propositional._.Disjoint
 d_Disjoint_18 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () -> [AgdaAny] -> [AgdaAny] -> ()
 d_Disjoint_18 = erased
 -- Data.List.Relation.Binary.Disjoint.Propositional._.contractᵣ
 d_contract'7523'_20 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   [AgdaAny] ->
   AgdaAny ->
@@ -42,7 +42,7 @@ d_contract'7523'_20 ::
 d_contract'7523'_20 = erased
 -- Data.List.Relation.Binary.Disjoint.Propositional._.contractₗ
 d_contract'8343'_22 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   AgdaAny ->
   [AgdaAny] ->

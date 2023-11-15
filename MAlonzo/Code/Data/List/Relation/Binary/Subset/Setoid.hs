@@ -22,29 +22,29 @@ import qualified MAlonzo.Code.Relation.Binary.Bundles
 
 -- Data.List.Relation.Binary.Subset.Setoid._⊆_
 d__'8838'__44 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
   [AgdaAny] -> [AgdaAny] -> ()
 d__'8838'__44 = erased
 -- Data.List.Relation.Binary.Subset.Setoid._⊇_
 d__'8839'__52 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
   [AgdaAny] -> [AgdaAny] -> ()
 d__'8839'__52 = erased
 -- Data.List.Relation.Binary.Subset.Setoid._⊈_
 d__'8840'__54 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
   [AgdaAny] -> [AgdaAny] -> ()
 d__'8840'__54 = erased
 -- Data.List.Relation.Binary.Subset.Setoid._⊉_
 d__'8841'__60 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44 ->
   [AgdaAny] -> [AgdaAny] -> ()
 d__'8841'__60 = erased

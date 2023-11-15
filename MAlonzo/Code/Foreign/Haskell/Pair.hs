@@ -49,9 +49,9 @@ d_snd_34 v0
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Foreign.Haskell.Pair.toForeign
 d_toForeign_38 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   T_Pair_22 AgdaAny AgdaAny AgdaAny AgdaAny
@@ -66,9 +66,9 @@ du_toForeign_38 v0
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Foreign.Haskell.Pair.fromForeign
 d_fromForeign_44 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   T_Pair_22 AgdaAny AgdaAny AgdaAny AgdaAny ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14

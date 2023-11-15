@@ -17,7 +17,9 @@ import MAlonzo.RTE (coe, erased, AgdaAny, addInt, subInt, mulInt,
                     rem64, lt64, eq64, word64FromNat, word64ToNat)
 import qualified MAlonzo.RTE
 import qualified Data.Text
+import qualified MAlonzo.Code.Agda.Builtin.Bool
 import qualified MAlonzo.Code.Agda.Builtin.Reflection
+import qualified MAlonzo.Code.Agda.Builtin.Sigma
 import qualified MAlonzo.Code.Agda.Builtin.String
 import qualified MAlonzo.Code.Agda.Primitive
 import qualified MAlonzo.Code.Data.List.Base
@@ -29,7 +31,7 @@ import qualified MAlonzo.Code.Interface.MonadTC
 import qualified MAlonzo.Code.Reflection.AST.Abstraction
 
 -- Reflection.TCI.TC
-d_TC_16 :: MAlonzo.Code.Agda.Primitive.T_Level_14 -> () -> ()
+d_TC_16 :: MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()
 d_TC_16 = erased
 -- Reflection.TCI.Monad-TC
 d_Monad'45'TC_18 :: MAlonzo.Code.Interface.Monad.T_Monad_20
@@ -53,101 +55,107 @@ d_MonadError'45'TC_22
       (coe MAlonzo.Code.Interface.MonadError.d_MonadError'45'TC_60)
 -- Reflection.TCI.applyReductionOptions
 d_applyReductionOptions_24 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   (MAlonzo.Code.Interface.MonadTC.T_TCEnv_22 -> AgdaAny) ->
   MAlonzo.Code.Interface.MonadTC.T_TCEnv_22 -> AgdaAny
 d_applyReductionOptions_24 v0 ~v1 v2 v3
   = du_applyReductionOptions_24 v0 v2 v3
 du_applyReductionOptions_24 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (MAlonzo.Code.Interface.MonadTC.T_TCEnv_22 -> AgdaAny) ->
   MAlonzo.Code.Interface.MonadTC.T_TCEnv_22 -> AgdaAny
 du_applyReductionOptions_24 v0 v1 v2
   = case coe v2 of
-      MAlonzo.Code.Interface.MonadTC.C_TCEnv'46'constructor_949 v3 v4 v5 v6 v7 v8 v9 v10
+      MAlonzo.Code.Interface.MonadTC.C_TCEnv'46'constructor_953 v3 v4 v5 v6 v7 v8 v9 v10
         -> case coe v6 of
              MAlonzo.Code.Interface.MonadTC.C_onlyReduce_16 v11
                -> coe
-                    MAlonzo.Code.Agda.Builtin.Reflection.d_onlyReduceDefs_428 v0 erased
-                    v11 (coe v1 v2)
+                    MAlonzo.Code.Agda.Builtin.Reflection.d_withReduceDefs_450 v0 erased
+                    (coe
+                       MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32
+                       (coe MAlonzo.Code.Agda.Builtin.Bool.C_true_10) (coe v11))
+                    (coe v1 v2)
              MAlonzo.Code.Interface.MonadTC.C_dontReduce_18 v11
                -> coe
-                    MAlonzo.Code.Agda.Builtin.Reflection.d_dontReduceDefs_434 v0 erased
-                    v11 (coe v1 v2)
+                    MAlonzo.Code.Agda.Builtin.Reflection.d_withReduceDefs_450 v0 erased
+                    (coe
+                       MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32
+                       (coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8) (coe v11))
+                    (coe v1 v2)
              _ -> MAlonzo.RTE.mazUnreachableError
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Reflection.TCI.applyNormalisation
 d_applyNormalisation_38 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   (MAlonzo.Code.Interface.MonadTC.T_TCEnv_22 -> AgdaAny) ->
   MAlonzo.Code.Interface.MonadTC.T_TCEnv_22 -> AgdaAny
 d_applyNormalisation_38 v0 ~v1 v2 v3
   = du_applyNormalisation_38 v0 v2 v3
 du_applyNormalisation_38 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (MAlonzo.Code.Interface.MonadTC.T_TCEnv_22 -> AgdaAny) ->
   MAlonzo.Code.Interface.MonadTC.T_TCEnv_22 -> AgdaAny
 du_applyNormalisation_38 v0 v1 v2
   = case coe v2 of
-      MAlonzo.Code.Interface.MonadTC.C_TCEnv'46'constructor_949 v3 v4 v5 v6 v7 v8 v9 v10
+      MAlonzo.Code.Interface.MonadTC.C_TCEnv'46'constructor_953 v3 v4 v5 v6 v7 v8 v9 v10
         -> coe
-             MAlonzo.Code.Agda.Builtin.Reflection.d_withNormalisation_412 v0
+             MAlonzo.Code.Agda.Builtin.Reflection.d_withNormalisation_424 v0
              erased v3
              (coe du_applyReductionOptions_24 (coe v0) (coe v1) (coe v2))
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Reflection.TCI.applyReconstruction
 d_applyReconstruction_46 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   (MAlonzo.Code.Interface.MonadTC.T_TCEnv_22 -> AgdaAny) ->
   MAlonzo.Code.Interface.MonadTC.T_TCEnv_22 -> AgdaAny
 d_applyReconstruction_46 v0 ~v1 v2 v3
   = du_applyReconstruction_46 v0 v2 v3
 du_applyReconstruction_46 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (MAlonzo.Code.Interface.MonadTC.T_TCEnv_22 -> AgdaAny) ->
   MAlonzo.Code.Interface.MonadTC.T_TCEnv_22 -> AgdaAny
 du_applyReconstruction_46 v0 v1 v2
   = case coe v2 of
-      MAlonzo.Code.Interface.MonadTC.C_TCEnv'46'constructor_949 v3 v4 v5 v6 v7 v8 v9 v10
+      MAlonzo.Code.Interface.MonadTC.C_TCEnv'46'constructor_953 v3 v4 v5 v6 v7 v8 v9 v10
         -> if coe v4
              then coe
-                    MAlonzo.Code.Agda.Builtin.Reflection.d_withReconstructed_418 v0
-                    erased (coe v1 v2)
+                    MAlonzo.Code.Agda.Builtin.Reflection.d_withReconstructed_432 v0
+                    erased v4 (coe v1 v2)
              else coe v1 v2
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Reflection.TCI.applyNoConstraints
 d_applyNoConstraints_56 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   (MAlonzo.Code.Interface.MonadTC.T_TCEnv_22 -> AgdaAny) ->
   MAlonzo.Code.Interface.MonadTC.T_TCEnv_22 -> AgdaAny
 d_applyNoConstraints_56 v0 ~v1 v2 v3
   = du_applyNoConstraints_56 v0 v2 v3
 du_applyNoConstraints_56 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (MAlonzo.Code.Interface.MonadTC.T_TCEnv_22 -> AgdaAny) ->
   MAlonzo.Code.Interface.MonadTC.T_TCEnv_22 -> AgdaAny
 du_applyNoConstraints_56 v0 v1 v2
   = case coe v2 of
-      MAlonzo.Code.Interface.MonadTC.C_TCEnv'46'constructor_949 v3 v4 v5 v6 v7 v8 v9 v10
+      MAlonzo.Code.Interface.MonadTC.C_TCEnv'46'constructor_953 v3 v4 v5 v6 v7 v8 v9 v10
         -> if coe v5
              then coe
-                    MAlonzo.Code.Agda.Builtin.Reflection.d_noConstraints_440 v0 erased
+                    MAlonzo.Code.Agda.Builtin.Reflection.d_noConstraints_464 v0 erased
                     (coe v1 v2)
              else coe v1 v2
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Reflection.TCI.applyExtContext
 d_applyExtContext_66 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   [MAlonzo.Code.Agda.Builtin.Reflection.T_Arg_88] ->
   AgdaAny -> AgdaAny
 d_applyExtContext_66 v0 ~v1 v2 v3 = du_applyExtContext_66 v0 v2 v3
 du_applyExtContext_66 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   [MAlonzo.Code.Agda.Builtin.Reflection.T_Arg_88] ->
   AgdaAny -> AgdaAny
 du_applyExtContext_66 v0 v1 v2
@@ -157,17 +165,17 @@ du_applyExtContext_66 v0 v1 v2
         -> coe
              du_applyExtContext_66 (coe v0) (coe v4)
              (coe
-                MAlonzo.Code.Agda.Builtin.Reflection.d_extendContext_372 v0 erased
+                MAlonzo.Code.Agda.Builtin.Reflection.d_extendContext_380 v0 erased
                 ("_" :: Data.Text.Text) v3 v2)
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Reflection.TCI.liftTC
 d_liftTC_76 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   AgdaAny -> MAlonzo.Code.Interface.MonadTC.T_TCEnv_22 -> AgdaAny
 d_liftTC_76 v0 ~v1 v2 v3 = du_liftTC_76 v0 v2 v3
 du_liftTC_76 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   AgdaAny -> MAlonzo.Code.Interface.MonadTC.T_TCEnv_22 -> AgdaAny
 du_liftTC_76 v0 v1 v2
   = coe
@@ -179,25 +187,25 @@ du_liftTC_76 v0 v1 v2
       (coe v1)
 -- Reflection.TCI.liftTC1
 d_liftTC1_82 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   (AgdaAny -> AgdaAny) ->
   AgdaAny -> MAlonzo.Code.Interface.MonadTC.T_TCEnv_22 -> AgdaAny
 d_liftTC1_82 ~v0 ~v1 v2 ~v3 v4 v5 = du_liftTC1_82 v2 v4 v5
 du_liftTC1_82 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (AgdaAny -> AgdaAny) ->
   AgdaAny -> MAlonzo.Code.Interface.MonadTC.T_TCEnv_22 -> AgdaAny
 du_liftTC1_82 v0 v1 v2 = coe du_liftTC_76 (coe v0) (coe v1 v2)
 -- Reflection.TCI.liftTC2
 d_liftTC2_88 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   (AgdaAny -> AgdaAny -> AgdaAny) ->
   AgdaAny ->
@@ -205,7 +213,7 @@ d_liftTC2_88 ::
 d_liftTC2_88 ~v0 ~v1 ~v2 ~v3 v4 ~v5 v6 v7 v8
   = du_liftTC2_88 v4 v6 v7 v8
 du_liftTC2_88 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (AgdaAny -> AgdaAny -> AgdaAny) ->
   AgdaAny ->
   AgdaAny -> MAlonzo.Code.Interface.MonadTC.T_TCEnv_22 -> AgdaAny
@@ -213,13 +221,13 @@ du_liftTC2_88 v0 v1 v2 v3
   = coe du_liftTC_76 (coe v0) (coe v1 v2 v3)
 -- Reflection.TCI.liftTC3
 d_liftTC3_96 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   (AgdaAny -> AgdaAny -> AgdaAny -> AgdaAny) ->
   AgdaAny ->
@@ -228,7 +236,7 @@ d_liftTC3_96 ::
 d_liftTC3_96 ~v0 ~v1 ~v2 ~v3 ~v4 ~v5 v6 ~v7 v8 v9 v10 v11
   = du_liftTC3_96 v6 v8 v9 v10 v11
 du_liftTC3_96 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (AgdaAny -> AgdaAny -> AgdaAny -> AgdaAny) ->
   AgdaAny ->
   AgdaAny ->
@@ -237,8 +245,8 @@ du_liftTC3_96 v0 v1 v2 v3 v4
   = coe du_liftTC_76 (coe v0) (coe v1 v2 v3 v4)
 -- Reflection.TCI.MonadTCI.unify
 d_unify_108 ::
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 ->
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 ->
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 ->
   MAlonzo.Code.Interface.MonadTC.T_TCEnv_22 -> AgdaAny
 d_unify_108
   = coe
@@ -246,26 +254,26 @@ d_unify_108
       (coe (\ v0 v1 -> coe du_applyNoConstraints_56 (coe ())))
       (coe
          du_liftTC2_88 (coe ())
-         (coe MAlonzo.Code.Agda.Builtin.Reflection.d_unify_328))
+         (coe MAlonzo.Code.Agda.Builtin.Reflection.d_unify_336))
 -- Reflection.TCI.MonadTCI.typeError
 d_typeError_110 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  [MAlonzo.Code.Agda.Builtin.Reflection.T_ErrorPart_298] ->
+  [MAlonzo.Code.Agda.Builtin.Reflection.T_ErrorPart_306] ->
   MAlonzo.Code.Interface.MonadTC.T_TCEnv_22 -> AgdaAny
 d_typeError_110 v0 ~v1 = du_typeError_110 v0
 du_typeError_110 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  [MAlonzo.Code.Agda.Builtin.Reflection.T_ErrorPart_298] ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  [MAlonzo.Code.Agda.Builtin.Reflection.T_ErrorPart_306] ->
   MAlonzo.Code.Interface.MonadTC.T_TCEnv_22 -> AgdaAny
 du_typeError_110 v0
   = coe
       du_liftTC1_82 (coe v0)
       (coe
-         MAlonzo.Code.Agda.Builtin.Reflection.d_typeError_334 v0 erased)
+         MAlonzo.Code.Agda.Builtin.Reflection.d_typeError_342 v0 erased)
 -- Reflection.TCI.MonadTCI.inferType
 d_inferType_112 ::
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 ->
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 ->
   MAlonzo.Code.Interface.MonadTC.T_TCEnv_22 -> AgdaAny
 d_inferType_112 v0
   = coe
@@ -274,12 +282,12 @@ d_inferType_112 v0
          du_applyNormalisation_38 (coe ())
          (coe
             du_liftTC1_82 (coe ())
-            (coe MAlonzo.Code.Agda.Builtin.Reflection.d_inferType_336)
+            (coe MAlonzo.Code.Agda.Builtin.Reflection.d_inferType_344)
             (coe v0)))
 -- Reflection.TCI.MonadTCI.checkType
 d_checkType_114 ::
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 ->
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 ->
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 ->
   MAlonzo.Code.Interface.MonadTC.T_TCEnv_22 -> AgdaAny
 d_checkType_114
   = coe
@@ -291,10 +299,10 @@ d_checkType_114
               (coe du_applyNormalisation_38 (coe ()) (coe v2))))
       (coe
          du_liftTC2_88 (coe ())
-         (coe MAlonzo.Code.Agda.Builtin.Reflection.d_checkType_338))
+         (coe MAlonzo.Code.Agda.Builtin.Reflection.d_checkType_346))
 -- Reflection.TCI.MonadTCI.normalise
 d_normalise_116 ::
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 ->
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 ->
   MAlonzo.Code.Interface.MonadTC.T_TCEnv_22 -> AgdaAny
 d_normalise_116 v0
   = coe
@@ -303,11 +311,11 @@ d_normalise_116 v0
          du_applyReconstruction_46 (coe ())
          (coe
             du_liftTC1_82 (coe ())
-            (coe MAlonzo.Code.Agda.Builtin.Reflection.d_normalise_340)
+            (coe MAlonzo.Code.Agda.Builtin.Reflection.d_normalise_348)
             (coe v0)))
 -- Reflection.TCI.MonadTCI.reduce
 d_reduce_118 ::
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 ->
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 ->
   MAlonzo.Code.Interface.MonadTC.T_TCEnv_22 -> AgdaAny
 d_reduce_118 v0
   = coe
@@ -316,39 +324,39 @@ d_reduce_118 v0
          du_applyReconstruction_46 (coe ())
          (coe
             du_liftTC1_82 (coe ())
-            (coe MAlonzo.Code.Agda.Builtin.Reflection.d_reduce_342) (coe v0)))
+            (coe MAlonzo.Code.Agda.Builtin.Reflection.d_reduce_350) (coe v0)))
 -- Reflection.TCI.MonadTCI.quoteTC
 d_quoteTC_120 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   AgdaAny -> MAlonzo.Code.Interface.MonadTC.T_TCEnv_22 -> AgdaAny
 d_quoteTC_120 v0 ~v1 v2 = du_quoteTC_120 v0 v2
 du_quoteTC_120 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   AgdaAny -> MAlonzo.Code.Interface.MonadTC.T_TCEnv_22 -> AgdaAny
 du_quoteTC_120 v0 v1
   = coe
       du_applyNormalisation_38 (coe ())
       (coe
          du_liftTC1_82 (coe ())
-         (coe MAlonzo.Code.Agda.Builtin.Reflection.d_quoteTC_354 v0 erased)
+         (coe MAlonzo.Code.Agda.Builtin.Reflection.d_quoteTC_362 v0 erased)
          (coe v1))
 -- Reflection.TCI.MonadTCI.unquoteTC
 d_unquoteTC_122 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 ->
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 ->
   MAlonzo.Code.Interface.MonadTC.T_TCEnv_22 -> AgdaAny
 d_unquoteTC_122 v0 ~v1 = du_unquoteTC_122 v0
 du_unquoteTC_122 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 ->
   MAlonzo.Code.Interface.MonadTC.T_TCEnv_22 -> AgdaAny
 du_unquoteTC_122 v0
   = coe
       du_liftTC1_82 (coe v0)
       (coe
-         MAlonzo.Code.Agda.Builtin.Reflection.d_unquoteTC_360 v0 erased)
+         MAlonzo.Code.Agda.Builtin.Reflection.d_unquoteTC_368 v0 erased)
 -- Reflection.TCI.MonadTCI.quoteωTC
 d_quoteωTC_126 ::
   () ->
@@ -359,7 +367,7 @@ du_quoteωTC_126 ::
 du_quoteωTC_126 v0
   = coe
       du_liftTC_76 (coe ())
-      (coe MAlonzo.Code.Agda.Builtin.Reflection.d_quoteωTC_364 erased v0)
+      (coe MAlonzo.Code.Agda.Builtin.Reflection.d_quoteωTC_372 erased v0)
 -- Reflection.TCI.MonadTCI.freshName
 d_freshName_130 ::
   MAlonzo.Code.Agda.Builtin.String.T_String_6 ->
@@ -367,34 +375,34 @@ d_freshName_130 ::
 d_freshName_130
   = coe
       du_liftTC1_82 (coe ())
-      (coe MAlonzo.Code.Agda.Builtin.Reflection.d_freshName_380)
+      (coe MAlonzo.Code.Agda.Builtin.Reflection.d_freshName_388)
 -- Reflection.TCI.MonadTCI.declareDef
 d_declareDef_132 ::
   MAlonzo.Code.Agda.Builtin.Reflection.T_Arg_88 ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 ->
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 ->
   MAlonzo.Code.Interface.MonadTC.T_TCEnv_22 -> AgdaAny
 d_declareDef_132
   = coe
       du_liftTC2_88 (coe ())
-      (coe MAlonzo.Code.Agda.Builtin.Reflection.d_declareDef_382)
+      (coe MAlonzo.Code.Agda.Builtin.Reflection.d_declareDef_390)
 -- Reflection.TCI.MonadTCI.declarePostulate
 d_declarePostulate_134 ::
   MAlonzo.Code.Agda.Builtin.Reflection.T_Arg_88 ->
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 ->
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 ->
   MAlonzo.Code.Interface.MonadTC.T_TCEnv_22 -> AgdaAny
 d_declarePostulate_134
   = coe
       du_liftTC2_88 (coe ())
-      (coe MAlonzo.Code.Agda.Builtin.Reflection.d_declarePostulate_384)
+      (coe MAlonzo.Code.Agda.Builtin.Reflection.d_declarePostulate_392)
 -- Reflection.TCI.MonadTCI.defineFun
 d_defineFun_136 ::
   AgdaAny ->
-  [MAlonzo.Code.Agda.Builtin.Reflection.T_Clause_152] ->
+  [MAlonzo.Code.Agda.Builtin.Reflection.T_Clause_160] ->
   MAlonzo.Code.Interface.MonadTC.T_TCEnv_22 -> AgdaAny
 d_defineFun_136
   = coe
       du_liftTC2_88 (coe ())
-      (coe MAlonzo.Code.Agda.Builtin.Reflection.d_defineFun_392)
+      (coe MAlonzo.Code.Agda.Builtin.Reflection.d_defineFun_400)
 -- Reflection.TCI.MonadTCI.getType
 d_getType_138 ::
   AgdaAny -> MAlonzo.Code.Interface.MonadTC.T_TCEnv_22 -> AgdaAny
@@ -403,7 +411,7 @@ d_getType_138 v0
       du_applyReconstruction_46 (coe ())
       (coe
          du_liftTC1_82 (coe ())
-         (coe MAlonzo.Code.Agda.Builtin.Reflection.d_getType_394) (coe v0))
+         (coe MAlonzo.Code.Agda.Builtin.Reflection.d_getType_402) (coe v0))
 -- Reflection.TCI.MonadTCI.getDefinition
 d_getDefinition_140 ::
   AgdaAny -> MAlonzo.Code.Interface.MonadTC.T_TCEnv_22 -> AgdaAny
@@ -412,67 +420,67 @@ d_getDefinition_140 v0
       du_applyReconstruction_46 (coe ())
       (coe
          du_liftTC1_82 (coe ())
-         (coe MAlonzo.Code.Agda.Builtin.Reflection.d_getDefinition_396)
+         (coe MAlonzo.Code.Agda.Builtin.Reflection.d_getDefinition_404)
          (coe v0))
 -- Reflection.TCI.MonadTCI.blockOnMeta
 d_blockOnMeta_142 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   AgdaAny -> MAlonzo.Code.Interface.MonadTC.T_TCEnv_22 -> AgdaAny
 d_blockOnMeta_142 v0 ~v1 = du_blockOnMeta_142 v0
 du_blockOnMeta_142 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   AgdaAny -> MAlonzo.Code.Interface.MonadTC.T_TCEnv_22 -> AgdaAny
 du_blockOnMeta_142 v0
   = coe
       du_liftTC1_82 (coe v0)
       (coe
-         MAlonzo.Code.Agda.Builtin.Reflection.d_blockOnMeta_402 v0 erased)
+         MAlonzo.Code.Agda.Builtin.Reflection.du_blockOnMeta_614 (coe v0))
 -- Reflection.TCI.MonadTCI.commitTC
 d_commitTC_144 ::
   MAlonzo.Code.Interface.MonadTC.T_TCEnv_22 -> AgdaAny
 d_commitTC_144
   = coe
       du_liftTC_76 (coe ())
-      (coe MAlonzo.Code.Agda.Builtin.Reflection.d_commitTC_404)
+      (coe MAlonzo.Code.Agda.Builtin.Reflection.d_commitTC_412)
 -- Reflection.TCI.MonadTCI.isMacro
 d_isMacro_146 ::
   AgdaAny -> MAlonzo.Code.Interface.MonadTC.T_TCEnv_22 -> AgdaAny
 d_isMacro_146
   = coe
       du_liftTC1_82 (coe ())
-      (coe MAlonzo.Code.Agda.Builtin.Reflection.d_isMacro_406)
+      (coe MAlonzo.Code.Agda.Builtin.Reflection.d_isMacro_414)
 -- Reflection.TCI.MonadTCI.debugPrint
 d_debugPrint_148 ::
   MAlonzo.Code.Agda.Builtin.String.T_String_6 ->
   Integer ->
-  [MAlonzo.Code.Agda.Builtin.Reflection.T_ErrorPart_298] ->
+  [MAlonzo.Code.Agda.Builtin.Reflection.T_ErrorPart_306] ->
   MAlonzo.Code.Interface.MonadTC.T_TCEnv_22 -> AgdaAny
 d_debugPrint_148
   = coe
       du_liftTC3_96 (coe ())
-      (coe MAlonzo.Code.Agda.Builtin.Reflection.d_debugPrint_422)
+      (coe MAlonzo.Code.Agda.Builtin.Reflection.d_debugPrint_458)
 -- Reflection.TCI.MonadTCI.runSpeculative
 d_runSpeculative_150 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   (MAlonzo.Code.Interface.MonadTC.T_TCEnv_22 -> AgdaAny) ->
   MAlonzo.Code.Interface.MonadTC.T_TCEnv_22 -> AgdaAny
 d_runSpeculative_150 v0 ~v1 v2 v3 = du_runSpeculative_150 v0 v2 v3
 du_runSpeculative_150 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_14 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (MAlonzo.Code.Interface.MonadTC.T_TCEnv_22 -> AgdaAny) ->
   MAlonzo.Code.Interface.MonadTC.T_TCEnv_22 -> AgdaAny
 du_runSpeculative_150 v0 v1 v2
   = coe
-      MAlonzo.Code.Agda.Builtin.Reflection.d_runSpeculative_448 v0 erased
+      MAlonzo.Code.Agda.Builtin.Reflection.d_runSpeculative_472 v0 erased
       (coe v1 v2)
 -- Reflection.TCI.MonadTC-TCI
 d_MonadTC'45'TCI_154 ::
   MAlonzo.Code.Interface.MonadTC.T_MonadTC_104
 d_MonadTC'45'TCI_154
   = coe
-      MAlonzo.Code.Interface.MonadTC.C_MonadTC'46'constructor_6643
+      MAlonzo.Code.Interface.MonadTC.C_MonadTC'46'constructor_6653
       (coe d_unify_108) (\ v0 v1 -> coe du_typeError_110 v0)
       (coe d_inferType_112) (coe d_checkType_114) (coe d_normalise_116)
       (coe d_reduce_118) (\ v0 v1 v2 -> coe du_quoteTC_120 v0 v2)

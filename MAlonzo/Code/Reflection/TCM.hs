@@ -21,8 +21,8 @@ import qualified MAlonzo.Code.Agda.Builtin.Reflection
 
 -- Reflection.TCM.newMeta
 d_newMeta_4 ::
-  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_146 -> AgdaAny
+  MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 -> AgdaAny
 d_newMeta_4
   = coe
-      MAlonzo.Code.Agda.Builtin.Reflection.d_checkType_338
-      (coe MAlonzo.Code.Agda.Builtin.Reflection.C_unknown_208)
+      MAlonzo.Code.Agda.Builtin.Reflection.d_checkType_346
+      (coe MAlonzo.Code.Agda.Builtin.Reflection.C_unknown_216)

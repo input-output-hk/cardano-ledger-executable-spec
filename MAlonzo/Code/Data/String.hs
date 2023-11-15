@@ -19,6 +19,7 @@ import qualified MAlonzo.RTE
 import qualified Data.Text
 import qualified MAlonzo.Code.Agda.Builtin.Char
 import qualified MAlonzo.Code.Agda.Builtin.String
+import qualified MAlonzo.Code.Data.Bool.Base
 import qualified MAlonzo.Code.Data.Char.Properties
 import qualified MAlonzo.Code.Data.List.Base
 import qualified MAlonzo.Code.Data.List.Extrema
@@ -33,8 +34,8 @@ import qualified MAlonzo.Code.Relation.Nullary.Decidable.Core
 d_max_46 :: Integer -> [Integer] -> Integer
 d_max_46
   = coe
-      MAlonzo.Code.Data.List.Extrema.du_max_128
-      (coe MAlonzo.Code.Data.Nat.Properties.d_'8804''45'totalOrder_2636)
+      MAlonzo.Code.Data.List.Extrema.du_max_142
+      (coe MAlonzo.Code.Data.Nat.Properties.d_'8804''45'totalOrder_2688)
 -- Data.String._._∈?_
 d__'8712''63'__102 ::
   MAlonzo.Code.Agda.Builtin.Char.T_Char_6 ->
@@ -43,17 +44,18 @@ d__'8712''63'__102 ::
 d__'8712''63'__102
   = let v0 = MAlonzo.Code.Data.Char.Properties.d__'8799'__14 in
     coe
-      MAlonzo.Code.Data.List.Membership.DecSetoid.du__'8712''63'__60
       (coe
-         MAlonzo.Code.Relation.Binary.PropositionalEquality.Properties.du_decSetoid_406
-         (coe v0))
+         MAlonzo.Code.Data.List.Membership.DecSetoid.du__'8712''63'__58
+         (coe
+            MAlonzo.Code.Relation.Binary.PropositionalEquality.Properties.du_decSetoid_406
+            (coe v0)))
 -- Data.String.toVec
 d_toVec_122 ::
   MAlonzo.Code.Agda.Builtin.String.T_String_6 ->
   MAlonzo.Code.Data.Vec.Base.T_Vec_28
 d_toVec_122 v0
   = coe
-      MAlonzo.Code.Data.Vec.Base.du_fromList_638
+      MAlonzo.Code.Data.Vec.Base.du_fromList_600
       (coe MAlonzo.Code.Agda.Builtin.String.d_primStringToList_12 v0)
 -- Data.String.fromVec
 d_fromVec_128 ::
@@ -67,99 +69,99 @@ du_fromVec_128 ::
 du_fromVec_128 v0
   = coe
       MAlonzo.Code.Agda.Builtin.String.d_primStringFromList_14
-      (coe MAlonzo.Code.Data.Vec.Base.du_toList_630 (coe v0))
+      (coe MAlonzo.Code.Data.Vec.Base.du_toList_592 (coe v0))
 -- Data.String.parensIfSpace
 d_parensIfSpace_130 ::
   MAlonzo.Code.Agda.Builtin.String.T_String_6 ->
   MAlonzo.Code.Agda.Builtin.String.T_String_6
 d_parensIfSpace_130 v0
-  = let v1
-          = MAlonzo.Code.Relation.Nullary.Decidable.Core.d_does_30
-              (coe
-                 MAlonzo.Code.Data.List.Membership.DecSetoid.du__'8712''63'__60
-                 (coe
-                    MAlonzo.Code.Relation.Binary.PropositionalEquality.Properties.du_decSetoid_406
-                    (coe MAlonzo.Code.Data.Char.Properties.d__'8799'__14))
-                 (coe ' ')
-                 (coe MAlonzo.Code.Agda.Builtin.String.d_primStringToList_12 v0)) in
-    if coe v1
-      then coe MAlonzo.Code.Data.String.Base.d_parens_38 (coe v0)
-      else coe v0
+  = coe
+      MAlonzo.Code.Data.Bool.Base.du_if_then_else__42
+      (coe
+         MAlonzo.Code.Relation.Nullary.Decidable.Core.d_does_28
+         (coe
+            MAlonzo.Code.Data.List.Membership.DecSetoid.du__'8712''63'__58
+            (coe
+               MAlonzo.Code.Relation.Binary.PropositionalEquality.Properties.du_decSetoid_406
+               (coe MAlonzo.Code.Data.Char.Properties.d__'8799'__14))
+            (coe ' ')
+            (coe MAlonzo.Code.Agda.Builtin.String.d_primStringToList_12 v0)))
+      (coe MAlonzo.Code.Data.String.Base.d_parens_38 (coe v0)) (coe v0)
 -- Data.String.rectangle
-d_rectangle_144 ::
+d_rectangle_136 ::
   Integer ->
   MAlonzo.Code.Data.Vec.Base.T_Vec_28 ->
   MAlonzo.Code.Data.Vec.Base.T_Vec_28 ->
   MAlonzo.Code.Data.Vec.Base.T_Vec_28
-d_rectangle_144 ~v0 v1 v2 = du_rectangle_144 v1 v2
-du_rectangle_144 ::
+d_rectangle_136 ~v0 v1 v2 = du_rectangle_136 v1 v2
+du_rectangle_136 ::
   MAlonzo.Code.Data.Vec.Base.T_Vec_28 ->
   MAlonzo.Code.Data.Vec.Base.T_Vec_28 ->
   MAlonzo.Code.Data.Vec.Base.T_Vec_28
-du_rectangle_144 v0 v1
+du_rectangle_136 v0 v1
   = coe
       MAlonzo.Code.Data.Vec.Base.du_zipWith_242
-      (coe (\ v2 -> coe v2 (coe du_width_156 (coe v1)))) (coe v0)
+      (coe (\ v2 -> coe v2 (coe du_width_148 (coe v1)))) (coe v0)
       (coe v1)
 -- Data.String._.sizes
-d_sizes_154 ::
+d_sizes_146 ::
   Integer ->
   MAlonzo.Code.Data.Vec.Base.T_Vec_28 ->
   MAlonzo.Code.Data.Vec.Base.T_Vec_28 -> [Integer]
-d_sizes_154 ~v0 ~v1 v2 = du_sizes_154 v2
-du_sizes_154 :: MAlonzo.Code.Data.Vec.Base.T_Vec_28 -> [Integer]
-du_sizes_154 v0
+d_sizes_146 ~v0 ~v1 v2 = du_sizes_146 v2
+du_sizes_146 :: MAlonzo.Code.Data.Vec.Base.T_Vec_28 -> [Integer]
+du_sizes_146 v0
   = coe
       MAlonzo.Code.Data.List.Base.du_map_22
       (coe MAlonzo.Code.Data.String.Base.d_length_22)
-      (coe MAlonzo.Code.Data.Vec.Base.du_toList_630 (coe v0))
+      (coe MAlonzo.Code.Data.Vec.Base.du_toList_592 (coe v0))
 -- Data.String._.width
-d_width_156 ::
+d_width_148 ::
   Integer ->
   MAlonzo.Code.Data.Vec.Base.T_Vec_28 ->
   MAlonzo.Code.Data.Vec.Base.T_Vec_28 -> Integer
-d_width_156 ~v0 ~v1 v2 = du_width_156 v2
-du_width_156 :: MAlonzo.Code.Data.Vec.Base.T_Vec_28 -> Integer
-du_width_156 v0
+d_width_148 ~v0 ~v1 v2 = du_width_148 v2
+du_width_148 :: MAlonzo.Code.Data.Vec.Base.T_Vec_28 -> Integer
+du_width_148 v0
   = coe
-      MAlonzo.Code.Data.List.Extrema.du_max_128
-      MAlonzo.Code.Data.Nat.Properties.d_'8804''45'totalOrder_2636
-      (0 :: Integer) (coe du_sizes_154 (coe v0))
+      MAlonzo.Code.Data.List.Extrema.du_max_142
+      MAlonzo.Code.Data.Nat.Properties.d_'8804''45'totalOrder_2688
+      (0 :: Integer) (coe du_sizes_146 (coe v0))
 -- Data.String.rectangleˡ
-d_rectangle'737'_164 ::
+d_rectangle'737'_156 ::
   Integer ->
   MAlonzo.Code.Agda.Builtin.Char.T_Char_6 ->
   MAlonzo.Code.Data.Vec.Base.T_Vec_28 ->
   MAlonzo.Code.Data.Vec.Base.T_Vec_28
-d_rectangle'737'_164 v0 v1
+d_rectangle'737'_156 v0 v1
   = coe
-      du_rectangle_144
+      du_rectangle_136
       (coe
-         MAlonzo.Code.Data.Vec.Base.du_replicate_446 (coe v0)
+         MAlonzo.Code.Data.Vec.Base.du_replicate_444 (coe v0)
          (coe MAlonzo.Code.Data.String.Base.d_padLeft_56 (coe v1)))
 -- Data.String.rectangleʳ
-d_rectangle'691'_170 ::
+d_rectangle'691'_162 ::
   Integer ->
   MAlonzo.Code.Agda.Builtin.Char.T_Char_6 ->
   MAlonzo.Code.Data.Vec.Base.T_Vec_28 ->
   MAlonzo.Code.Data.Vec.Base.T_Vec_28
-d_rectangle'691'_170 v0 v1
+d_rectangle'691'_162 v0 v1
   = coe
-      du_rectangle_144
+      du_rectangle_136
       (coe
-         MAlonzo.Code.Data.Vec.Base.du_replicate_446 (coe v0)
+         MAlonzo.Code.Data.Vec.Base.du_replicate_444 (coe v0)
          (coe MAlonzo.Code.Data.String.Base.d_padRight_82 (coe v1)))
 -- Data.String.rectangleᶜ
-d_rectangle'7580'_176 ::
+d_rectangle'7580'_168 ::
   Integer ->
   MAlonzo.Code.Agda.Builtin.Char.T_Char_6 ->
   MAlonzo.Code.Agda.Builtin.Char.T_Char_6 ->
   MAlonzo.Code.Data.Vec.Base.T_Vec_28 ->
   MAlonzo.Code.Data.Vec.Base.T_Vec_28
-d_rectangle'7580'_176 v0 v1 v2
+d_rectangle'7580'_168 v0 v1 v2
   = coe
-      du_rectangle_144
+      du_rectangle_136
       (coe
-         MAlonzo.Code.Data.Vec.Base.du_replicate_446 (coe v0)
+         MAlonzo.Code.Data.Vec.Base.du_replicate_444 (coe v0)
          (coe
             MAlonzo.Code.Data.String.Base.d_padBoth_108 (coe v1) (coe v2)))
