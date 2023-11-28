@@ -600,7 +600,7 @@ du_dep_1862 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 -> Integer
 du_dep_1862 v0 v1
   = coe
-      MAlonzo.Code.Axiom.Set.Sum.du_indexedSum'7504''7515'_886
+      MAlonzo.Code.Axiom.Set.Sum.du_indexedSum'7515'_886
       MAlonzo.Code.Data.Nat.Properties.d_'43''45'0'45'commutativeMonoid_3196
       (coe
          MAlonzo.Code.Ledger.Utxo.du_DecEq'45'DepositPurpose_1748 (coe v0))
@@ -633,7 +633,7 @@ du_uDep_1864 ::
   MAlonzo.Code.Ledger.Utxo.T_UTxOEnv_1754 -> Integer
 du_uDep_1864 v0 v1 v2 v3
   = coe
-      MAlonzo.Code.Axiom.Set.Sum.du_indexedSum'7504''7515'_886
+      MAlonzo.Code.Axiom.Set.Sum.du_indexedSum'7515'_886
       MAlonzo.Code.Data.Nat.Properties.d_'43''45'0'45'commutativeMonoid_3196
       (coe
          MAlonzo.Code.Ledger.Utxo.du_DecEq'45'DepositPurpose_1748 (coe v0))
@@ -908,7 +908,7 @@ du_remDepTot_1892 v0 v1 v2 v3 v4 v5 v6
   = coe
       MAlonzo.Code.Agda.Builtin.Nat.d__'45'__22
       (coe
-         MAlonzo.Code.Axiom.Set.Sum.du_indexedSum'7504''7515'_886
+         MAlonzo.Code.Axiom.Set.Sum.du_indexedSum'7515'_886
          MAlonzo.Code.Data.Nat.Properties.d_'43''45'0'45'commutativeMonoid_3196
          (coe
             MAlonzo.Code.Ledger.Utxo.du_DecEq'45'DepositPurpose_1748 (coe v0))

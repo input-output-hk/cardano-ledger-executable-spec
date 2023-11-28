@@ -1549,8 +1549,8 @@ du_indexedSum'7504'_878 v0 v1 v2 v3 v4
                     (coe MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 (coe v5) (coe v8))
              _ -> MAlonzo.RTE.mazUnreachableError
       _ -> MAlonzo.RTE.mazUnreachableError
--- Axiom.Set.Sum._.indexedSumᵐᵛ
-d_indexedSum'7504''7515'_886 ::
+-- Axiom.Set.Sum._.indexedSumᵛ
+d_indexedSum'7515'_886 ::
   MAlonzo.Code.Axiom.Set.T_Theory_82 ->
   MAlonzo.Code.Algebra.Bundles.T_CommutativeMonoid_820 ->
   () ->
@@ -1559,15 +1559,15 @@ d_indexedSum'7504''7515'_886 ::
   MAlonzo.Code.Interface.DecEq.T_DecEq_14 ->
   (AgdaAny -> AgdaAny) ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 -> AgdaAny
-d_indexedSum'7504''7515'_886 ~v0 v1 ~v2 ~v3 v4 v5 v6
-  = du_indexedSum'7504''7515'_886 v1 v4 v5 v6
-du_indexedSum'7504''7515'_886 ::
+d_indexedSum'7515'_886 ~v0 v1 ~v2 ~v3 v4 v5 v6
+  = du_indexedSum'7515'_886 v1 v4 v5 v6
+du_indexedSum'7515'_886 ::
   MAlonzo.Code.Algebra.Bundles.T_CommutativeMonoid_820 ->
   MAlonzo.Code.Interface.DecEq.T_DecEq_14 ->
   MAlonzo.Code.Interface.DecEq.T_DecEq_14 ->
   (AgdaAny -> AgdaAny) ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 -> AgdaAny
-du_indexedSum'7504''7515'_886 v0 v1 v2 v3
+du_indexedSum'7515'_886 v0 v1 v2 v3
   = coe
       du_indexedSum'7504'_878 (coe v0) (coe v1) (coe v2)
       (coe

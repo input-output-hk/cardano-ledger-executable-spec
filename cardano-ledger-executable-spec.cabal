@@ -512,6 +512,7 @@ library
         MAlonzo.Code.Interface.Hashable
         MAlonzo.Code.Interface.Bifunctor
         MAlonzo.Code.Interface.DecEq.Ext
+        MAlonzo.Code.Interface.HasEmptySet
         MAlonzo.Code.Interface.HasSubtract.Instance
         MAlonzo.Code.Interface.MonadReader
         MAlonzo.Code.Interface.Decidable.Instance

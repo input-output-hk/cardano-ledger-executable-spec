@@ -289,3 +289,19 @@ du_Convertible'45'Map_92 v0 v1 v2
                          MAlonzo.Code.Foreign.Haskell.Coerce.d_coerce_44 () erased () erased
                          (coe MAlonzo.Code.Foreign.Haskell.Coerce.C_TrustMe_40) v4))
                  v3)))
+-- Foreign.Convertible.Convertible-List
+d_Convertible'45'List_96 ::
+  () -> () -> T_Convertible_8 -> T_Convertible_8
+d_Convertible'45'List_96 ~v0 ~v1 v2 = du_Convertible'45'List_96 v2
+du_Convertible'45'List_96 :: T_Convertible_8 -> T_Convertible_8
+du_Convertible'45'List_96 v0
+  = coe
+      C_Convertible'46'constructor_21
+      (coe
+         MAlonzo.Code.Interface.Functor.du_map_30
+         MAlonzo.Code.Interface.Functor.d_Functor'45'List_100 () erased ()
+         erased (d_to_18 (coe v0)))
+      (coe
+         MAlonzo.Code.Interface.Functor.du_map_30
+         MAlonzo.Code.Interface.Functor.d_Functor'45'List_100 () erased ()
+         erased (d_from_20 (coe v0)))

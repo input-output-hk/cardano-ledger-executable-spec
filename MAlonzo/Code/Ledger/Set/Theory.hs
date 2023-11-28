@@ -2776,8 +2776,8 @@ d_indexedSum'7504''45'cong_588 v0 v1 v2 v3 v4 v5 v6 v7
   = coe
       MAlonzo.Code.Axiom.Set.Sum.du_indexedSum'7504''45'cong_892 (coe v0)
       v3 v4 v5 v6 v7
--- Ledger.Set.Theory._.indexedSumᵐᵛ
-d_indexedSum'7504''7515'_590 ::
+-- Ledger.Set.Theory._.indexedSumᵛ
+d_indexedSum'7515'_590 ::
   MAlonzo.Code.Algebra.Bundles.T_CommutativeMonoid_820 ->
   () ->
   () ->
@@ -2785,10 +2785,10 @@ d_indexedSum'7504''7515'_590 ::
   MAlonzo.Code.Interface.DecEq.T_DecEq_14 ->
   (AgdaAny -> AgdaAny) ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 -> AgdaAny
-d_indexedSum'7504''7515'_590 v0 v1 v2 v3 v4 v5
+d_indexedSum'7515'_590 v0 v1 v2 v3 v4 v5
   = coe
-      MAlonzo.Code.Axiom.Set.Sum.du_indexedSum'7504''7515'_886 (coe v0)
-      v3 v4 v5
+      MAlonzo.Code.Axiom.Set.Sum.du_indexedSum'7515'_886 (coe v0) v3 v4
+      v5
 -- Ledger.Set.Theory._.IndexedSumUnionᵐ._∪ˡᶠ_
 d__'8746''737''7584'__594 ::
   MAlonzo.Code.Algebra.Bundles.T_CommutativeMonoid_820 ->

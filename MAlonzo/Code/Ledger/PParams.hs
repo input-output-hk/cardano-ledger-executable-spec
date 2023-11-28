@@ -1190,7 +1190,7 @@ du_DecEq'45'PParams_382 v0 v1
 -- Ledger.PParams.PParamsDiff
 d_PParamsDiff_384 a0 a1 a2 = ()
 data T_PParamsDiff_384
-  = C_PParamsDiff'46'constructor_431377 (AgdaAny ->
+  = C_PParamsDiff'46'constructor_431521 (AgdaAny ->
                                          [T_PParamGroup_140])
                                         (T_PParams_210 -> AgdaAny -> T_PParams_210)
                                         (AgdaAny -> Bool)
@@ -1207,20 +1207,20 @@ d_updateGroups_406 ::
   T_PParamsDiff_384 -> AgdaAny -> [T_PParamGroup_140]
 d_updateGroups_406 v0
   = case coe v0 of
-      C_PParamsDiff'46'constructor_431377 v2 v3 v4 v6 -> coe v2
+      C_PParamsDiff'46'constructor_431521 v2 v3 v4 v6 -> coe v2
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Ledger.PParams.PParamsDiff.applyUpdate
 d_applyUpdate_408 ::
   T_PParamsDiff_384 -> T_PParams_210 -> AgdaAny -> T_PParams_210
 d_applyUpdate_408 v0
   = case coe v0 of
-      C_PParamsDiff'46'constructor_431377 v2 v3 v4 v6 -> coe v3
+      C_PParamsDiff'46'constructor_431521 v2 v3 v4 v6 -> coe v3
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Ledger.PParams.PParamsDiff.ppdWellFormed
 d_ppdWellFormed_410 :: T_PParamsDiff_384 -> AgdaAny -> Bool
 d_ppdWellFormed_410 v0
   = case coe v0 of
-      C_PParamsDiff'46'constructor_431377 v2 v3 v4 v6 -> coe v4
+      C_PParamsDiff'46'constructor_431521 v2 v3 v4 v6 -> coe v4
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Ledger.PParams.PParamsDiff.ppdWellFormed⇒hasGroup
 d_ppdWellFormed'8658'hasGroup_414 ::
@@ -1240,12 +1240,12 @@ d_ppdWellFormed'8658'WF_420 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_ppdWellFormed'8658'WF_420 v0
   = case coe v0 of
-      C_PParamsDiff'46'constructor_431377 v2 v3 v4 v6 -> coe v6
+      C_PParamsDiff'46'constructor_431521 v2 v3 v4 v6 -> coe v6
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Ledger.PParams.GovParams
 d_GovParams_422 a0 a1 a2 = ()
 data T_GovParams_422
-  = C_GovParams'46'constructor_431839 T_PParamsDiff_384
+  = C_GovParams'46'constructor_431983 T_PParamsDiff_384
                                       MAlonzo.Code.Ledger.Crypto.T_isHashableSet_6
                                       MAlonzo.Code.Interface.DecEq.T_DecEq_14
 -- Ledger.PParams._.UpdateT
@@ -1284,7 +1284,7 @@ d_updateGroups_438 v0 = coe d_updateGroups_406 (coe v0)
 d_ppUpd_454 :: T_GovParams_422 -> T_PParamsDiff_384
 d_ppUpd_454 v0
   = case coe v0 of
-      C_GovParams'46'constructor_431839 v1 v2 v3 -> coe v1
+      C_GovParams'46'constructor_431983 v1 v2 v3 -> coe v1
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Ledger.PParams.GovParams._.UpdateT
 d_UpdateT_458 :: T_GovParams_422 -> ()
@@ -1326,7 +1326,7 @@ d_ppHashingScheme_470 ::
   T_GovParams_422 -> MAlonzo.Code.Ledger.Crypto.T_isHashableSet_6
 d_ppHashingScheme_470 v0
   = case coe v0 of
-      C_GovParams'46'constructor_431839 v1 v2 v3 -> coe v2
+      C_GovParams'46'constructor_431983 v1 v2 v3 -> coe v2
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Ledger.PParams.GovParams._.DecEq-T
 d_DecEq'45'T_474 ::
@@ -1357,5 +1357,5 @@ d_DecEq'45'UpdT_482 ::
   T_GovParams_422 -> MAlonzo.Code.Interface.DecEq.T_DecEq_14
 d_DecEq'45'UpdT_482 v0
   = case coe v0 of
-      C_GovParams'46'constructor_431839 v1 v2 v3 -> coe v3
+      C_GovParams'46'constructor_431983 v1 v2 v3 -> coe v3
       _ -> MAlonzo.RTE.mazUnreachableError
