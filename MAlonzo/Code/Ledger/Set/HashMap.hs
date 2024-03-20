@@ -37,7 +37,7 @@ du_setToHashRel_14 ::
   [AgdaAny] -> [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14]
 du_setToHashRel_14 v0 v1
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_map'737'_362
+      MAlonzo.Code.Axiom.Set.Rel.du_map'737'_368
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1414
          (coe MAlonzo.Code.Ledger.Set.Theory.d_List'45'Model'7496'_10))
@@ -59,5 +59,5 @@ du_setToHashMap_16 ::
   [AgdaAny] -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 du_setToHashMap_16 v0 v1
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du__'7504'_466
+      MAlonzo.Code.Axiom.Set.Map.du__'7504'_472
       (coe du_setToHashRel_14 (coe v0) (coe v1))

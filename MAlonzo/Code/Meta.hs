@@ -17,26 +17,26 @@ import MAlonzo.RTE (coe, erased, AgdaAny, addInt, subInt, mulInt,
                     rem64, lt64, eq64, word64FromNat, word64ToNat)
 import qualified MAlonzo.RTE
 import qualified Data.Text
-import qualified MAlonzo.Code.Interface.Monad
-import qualified MAlonzo.Code.Interface.MonadError
-import qualified MAlonzo.Code.Interface.MonadReader
-import qualified MAlonzo.Code.Interface.MonadTC
+import qualified MAlonzo.Code.Class.Monad.Core
+import qualified MAlonzo.Code.Class.MonadError
+import qualified MAlonzo.Code.Class.MonadReader
+import qualified MAlonzo.Code.Class.MonadTC
 import qualified MAlonzo.Code.Reflection.TCI
 
 -- Meta.iMonad-TC
-d_iMonad'45'TC_2 :: MAlonzo.Code.Interface.Monad.T_Monad_20
+d_iMonad'45'TC_2 :: MAlonzo.Code.Class.Monad.Core.T_Monad_8
 d_iMonad'45'TC_2 = coe MAlonzo.Code.Reflection.TCI.d_Monad'45'TC_18
 -- Meta.iMonadTC-TCI
-d_iMonadTC'45'TCI_4 :: MAlonzo.Code.Interface.MonadTC.T_MonadTC_104
+d_iMonadTC'45'TCI_4 :: MAlonzo.Code.Class.MonadTC.T_MonadTC_88
 d_iMonadTC'45'TCI_4
-  = coe MAlonzo.Code.Reflection.TCI.d_MonadTC'45'TCI_154
+  = coe MAlonzo.Code.Reflection.TCI.d_MonadTC'45'TCI_156
 -- Meta.iMonadReader-TC
 d_iMonadReader'45'TC_6 ::
-  MAlonzo.Code.Interface.MonadReader.T_MonadReader_50
+  MAlonzo.Code.Class.MonadReader.T_MonadReader_22
 d_iMonadReader'45'TC_6
   = coe MAlonzo.Code.Reflection.TCI.d_MonadReader'45'TC_20
 -- Meta.iMonadError-TC
 d_iMonadError'45'TC_8 ::
-  MAlonzo.Code.Interface.MonadError.T_MonadError_46
+  MAlonzo.Code.Class.MonadError.T_MonadError_18
 d_iMonadError'45'TC_8
   = coe MAlonzo.Code.Reflection.TCI.d_MonadError'45'TC_22

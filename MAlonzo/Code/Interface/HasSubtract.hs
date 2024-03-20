@@ -19,15 +19,15 @@ import qualified MAlonzo.RTE
 import qualified Data.Text
 
 -- Interface.HasSubtract.HasSubtract
-d_HasSubtract_6 a0 = ()
-newtype T_HasSubtract_6
-  = C_HasSubtract'46'constructor_7 (AgdaAny -> AgdaAny -> AgdaAny)
+d_HasSubtract_8 a0 a1 = ()
+newtype T_HasSubtract_8
+  = C_HasSubtract'46'constructor_13 (AgdaAny -> AgdaAny -> AgdaAny)
 -- Interface.HasSubtract.HasSubtract._-_
-d__'45'__12 :: T_HasSubtract_6 -> AgdaAny -> AgdaAny -> AgdaAny
-d__'45'__12 v0
+d__'45'__16 :: T_HasSubtract_8 -> AgdaAny -> AgdaAny -> AgdaAny
+d__'45'__16 v0
   = case coe v0 of
-      C_HasSubtract'46'constructor_7 v1 -> coe v1
+      C_HasSubtract'46'constructor_13 v1 -> coe v1
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Interface.HasSubtract._._-_
-d__'45'__16 :: T_HasSubtract_6 -> AgdaAny -> AgdaAny -> AgdaAny
-d__'45'__16 v0 = coe d__'45'__12 (coe v0)
+d__'45'__20 :: T_HasSubtract_8 -> AgdaAny -> AgdaAny -> AgdaAny
+d__'45'__20 v0 = coe d__'45'__16 (coe v0)

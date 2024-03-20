@@ -18,6 +18,7 @@ import MAlonzo.RTE (coe, erased, AgdaAny, addInt, subInt, mulInt,
 import qualified MAlonzo.RTE
 import qualified Data.Text
 import qualified MAlonzo.Code.Agda.Builtin.Bool
+import qualified MAlonzo.Code.Agda.Builtin.Char
 import qualified MAlonzo.Code.Agda.Builtin.Equality
 import qualified MAlonzo.Code.Agda.Builtin.List
 import qualified MAlonzo.Code.Agda.Builtin.Maybe
@@ -699,95 +700,120 @@ d_beginsWith_214 v0 v1
 -- Reflection.Debug.DebugOptions
 d_DebugOptions_234 = ()
 data T_DebugOptions_234
-  = C_DebugOptions'46'constructor_2017 [MAlonzo.Code.Agda.Builtin.String.T_String_6]
+  = C_DebugOptions'46'constructor_2025 [MAlonzo.Code.Agda.Builtin.String.T_String_6]
                                        T_DebugSelection_56
                                        ([MAlonzo.Code.Agda.Builtin.String.T_String_6] -> Bool)
-                                       Integer
+                                       Integer MAlonzo.Code.Agda.Builtin.Char.T_Char_6
 -- Reflection.Debug.DebugOptions.path
-d_path_244 ::
+d_path_246 ::
   T_DebugOptions_234 -> [MAlonzo.Code.Agda.Builtin.String.T_String_6]
-d_path_244 v0
+d_path_246 v0
   = case coe v0 of
-      C_DebugOptions'46'constructor_2017 v1 v2 v3 v4 -> coe v1
+      C_DebugOptions'46'constructor_2025 v1 v2 v3 v4 v5 -> coe v1
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Reflection.Debug.DebugOptions.selection
-d_selection_246 :: T_DebugOptions_234 -> T_DebugSelection_56
-d_selection_246 v0
+d_selection_248 :: T_DebugOptions_234 -> T_DebugSelection_56
+d_selection_248 v0
   = case coe v0 of
-      C_DebugOptions'46'constructor_2017 v1 v2 v3 v4 -> coe v2
+      C_DebugOptions'46'constructor_2025 v1 v2 v3 v4 v5 -> coe v2
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Reflection.Debug.DebugOptions.filter
-d_filter_248 ::
+d_filter_250 ::
   T_DebugOptions_234 ->
   [MAlonzo.Code.Agda.Builtin.String.T_String_6] -> Bool
-d_filter_248 v0
+d_filter_250 v0
   = case coe v0 of
-      C_DebugOptions'46'constructor_2017 v1 v2 v3 v4 -> coe v3
+      C_DebugOptions'46'constructor_2025 v1 v2 v3 v4 v5 -> coe v3
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Reflection.Debug.DebugOptions.level
-d_level_250 :: T_DebugOptions_234 -> Integer
-d_level_250 v0
+d_level_252 :: T_DebugOptions_234 -> Integer
+d_level_252 v0
   = case coe v0 of
-      C_DebugOptions'46'constructor_2017 v1 v2 v3 v4 -> coe v4
+      C_DebugOptions'46'constructor_2025 v1 v2 v3 v4 v5 -> coe v4
+      _ -> MAlonzo.RTE.mazUnreachableError
+-- Reflection.Debug.DebugOptions.prefix
+d_prefix_254 ::
+  T_DebugOptions_234 -> MAlonzo.Code.Agda.Builtin.Char.T_Char_6
+d_prefix_254 v0
+  = case coe v0 of
+      C_DebugOptions'46'constructor_2025 v1 v2 v3 v4 v5 -> coe v5
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Reflection.Debug.defaultDebugOptions
-d_defaultDebugOptions_252 :: T_DebugOptions_234
-d_defaultDebugOptions_252
+d_defaultDebugOptions_256 :: T_DebugOptions_234
+d_defaultDebugOptions_256
   = coe
-      C_DebugOptions'46'constructor_2017
+      C_DebugOptions'46'constructor_2025
       (coe MAlonzo.Code.Agda.Builtin.List.C_'91''93'_16) (coe C_All_62)
       (coe
          MAlonzo.Code.Algebra.Lattice.Bundles.d_'8868'_712
          (coe d_Filter'45'Alg_70))
-      (coe (100 :: Integer))
+      (coe (100 :: Integer)) (coe '|')
 -- Reflection.Debug.specializeDebugOptions
-d_specializeDebugOptions_254 ::
+d_specializeDebugOptions_258 ::
   T_DebugOptions_234 -> T_DebugOptions_234 -> T_DebugOptions_234
-d_specializeDebugOptions_254 v0 v1
+d_specializeDebugOptions_258 v0 v1
   = case coe v0 of
-      C_DebugOptions'46'constructor_2017 v2 v3 v4 v5
+      C_DebugOptions'46'constructor_2025 v2 v3 v4 v5 v6
         -> case coe v1 of
-             C_DebugOptions'46'constructor_2017 v6 v7 v8 v9
+             C_DebugOptions'46'constructor_2025 v7 v8 v9 v10 v11
                -> coe
-                    C_DebugOptions'46'constructor_2017
+                    C_DebugOptions'46'constructor_2025
                     (coe
-                       MAlonzo.Code.Data.List.Base.du__'43''43'__62 (coe v2) (coe v6))
-                    (coe v7) (coe v8) (coe v9)
+                       MAlonzo.Code.Data.List.Base.du__'43''43'__62 (coe v2) (coe v7))
+                    (coe v8) (coe v9) (coe v10) (coe v11)
              _ -> MAlonzo.RTE.mazUnreachableError
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Reflection.Debug.debugOptionsPath
-d_debugOptionsPath_262 ::
+d_debugOptionsPath_266 ::
   T_DebugOptions_234 -> MAlonzo.Code.Agda.Builtin.String.T_String_6
-d_debugOptionsPath_262 v0
+d_debugOptionsPath_266 v0
   = case coe v0 of
-      C_DebugOptions'46'constructor_2017 v1 v2 v3 v4
+      C_DebugOptions'46'constructor_2025 v1 v2 v3 v4 v5
         -> case coe v2 of
              C_FullPath_58
                -> coe
                     MAlonzo.Code.Data.String.Base.d_intersperse_30
                     ("/" :: Data.Text.Text) v1
              C_Last_60
-               -> let v5 = coe MAlonzo.Code.Data.List.Base.du_last_616 (coe v1) in
+               -> let v6 = coe MAlonzo.Code.Data.List.Base.du_last_616 (coe v1) in
                   coe
-                    (case coe v5 of
-                       MAlonzo.Code.Agda.Builtin.Maybe.C_just_16 v6 -> coe v6
+                    (case coe v6 of
+                       MAlonzo.Code.Agda.Builtin.Maybe.C_just_16 v7 -> coe v7
                        MAlonzo.Code.Agda.Builtin.Maybe.C_nothing_18
                          -> coe ("" :: Data.Text.Text)
                        _ -> MAlonzo.RTE.mazUnreachableError)
              C_All_62 -> coe ("allTactics" :: Data.Text.Text)
-             C_Custom_64 v5 -> coe v5 v1
+             C_Custom_64 v6 -> coe v6 v1
              _ -> MAlonzo.RTE.mazUnreachableError
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Reflection.Debug.debugPrintPrefix
-d_debugPrintPrefix_284 ::
+d_debugPrintPrefix_288 ::
   T_DebugOptions_234 ->
   MAlonzo.Code.Agda.Builtin.Reflection.T_ErrorPart_306
-d_debugPrintPrefix_284 v0
-  = case coe v0 of
-      C_DebugOptions'46'constructor_2017 v1 v2 v3 v4
-        -> coe
-             MAlonzo.Code.Agda.Builtin.Reflection.C_strErr_308
-             (coe
-                MAlonzo.Code.Data.String.Base.d_replicate_24
-                (coe MAlonzo.Code.Data.List.Base.du_length_304 v1) (coe '\9144'))
-      _ -> MAlonzo.RTE.mazUnreachableError
+d_debugPrintPrefix_288 v0
+  = coe
+      MAlonzo.Code.Agda.Builtin.Reflection.C_strErr_308
+      (coe
+         MAlonzo.Code.Data.String.Base.d_replicate_24
+         (coe
+            MAlonzo.Code.Data.List.Base.du_length_304 (d_path_246 (coe v0)))
+         (coe d_prefix_254 (coe v0)))
+-- Reflection.Debug._.filter
+d_filter_294 ::
+  T_DebugOptions_234 ->
+  [MAlonzo.Code.Agda.Builtin.String.T_String_6] -> Bool
+d_filter_294 v0 = coe d_filter_250 (coe v0)
+-- Reflection.Debug._.level
+d_level_296 :: T_DebugOptions_234 -> Integer
+d_level_296 v0 = coe d_level_252 (coe v0)
+-- Reflection.Debug._.path
+d_path_298 ::
+  T_DebugOptions_234 -> [MAlonzo.Code.Agda.Builtin.String.T_String_6]
+d_path_298 v0 = coe d_path_246 (coe v0)
+-- Reflection.Debug._.prefix
+d_prefix_300 ::
+  T_DebugOptions_234 -> MAlonzo.Code.Agda.Builtin.Char.T_Char_6
+d_prefix_300 v0 = coe d_prefix_254 (coe v0)
+-- Reflection.Debug._.selection
+d_selection_302 :: T_DebugOptions_234 -> T_DebugSelection_56
+d_selection_302 v0 = coe d_selection_248 (coe v0)

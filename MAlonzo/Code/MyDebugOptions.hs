@@ -25,14 +25,17 @@ d_defaultDebugOptionsI_2 ::
   MAlonzo.Code.Reflection.Debug.T_DebugOptions_234
 d_defaultDebugOptionsI_2
   = coe
-      MAlonzo.Code.Reflection.Debug.C_DebugOptions'46'constructor_2017
+      MAlonzo.Code.Reflection.Debug.C_DebugOptions'46'constructor_2025
       (coe
-         MAlonzo.Code.Reflection.Debug.d_path_244
-         (coe MAlonzo.Code.Reflection.Debug.d_defaultDebugOptions_252))
+         MAlonzo.Code.Reflection.Debug.d_path_246
+         (coe MAlonzo.Code.Reflection.Debug.d_defaultDebugOptions_256))
       (coe MAlonzo.Code.Reflection.Debug.C_All_62)
       (coe
          MAlonzo.Code.Algebra.Lattice.Bundles.d_'8869'_714
          (coe MAlonzo.Code.Reflection.Debug.d_Filter'45'Alg_70))
       (coe
-         MAlonzo.Code.Reflection.Debug.d_level_250
-         (coe MAlonzo.Code.Reflection.Debug.d_defaultDebugOptions_252))
+         MAlonzo.Code.Reflection.Debug.d_level_252
+         (coe MAlonzo.Code.Reflection.Debug.d_defaultDebugOptions_256))
+      (coe
+         MAlonzo.Code.Reflection.Debug.d_prefix_254
+         (coe MAlonzo.Code.Reflection.Debug.d_defaultDebugOptions_256))

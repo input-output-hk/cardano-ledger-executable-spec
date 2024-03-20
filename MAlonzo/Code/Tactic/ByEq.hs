@@ -24,28 +24,28 @@ import qualified MAlonzo.Code.Class.Functor.Core
 import qualified MAlonzo.Code.Class.Functor.Instances
 import qualified MAlonzo.Code.Class.Monad.Core
 import qualified MAlonzo.Code.Class.Monad.Instances
+import qualified MAlonzo.Code.Class.MonadTC
 import qualified MAlonzo.Code.Data.List.Base
-import qualified MAlonzo.Code.Generics.Utils
-import qualified MAlonzo.Code.Interface.MonadTC
+import qualified MAlonzo.Code.Reflection.Utils
 
 -- Tactic.ByEq.by-eq
 d_by'45'eq_4 ::
   MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154 -> AgdaAny
 d_by'45'eq_4 v0
   = coe
-      MAlonzo.Code.Class.Monad.Core.d__'62''62''61'__36
-      MAlonzo.Code.Class.Monad.Instances.d_Monad'45'TC_34 () erased ()
+      MAlonzo.Code.Class.Monad.Core.d__'62''62''61'__18
+      MAlonzo.Code.Class.Monad.Instances.d_Monad'45'TC_6 () erased ()
       erased
       (coe
          MAlonzo.Code.Agda.Builtin.Reflection.d_withNormalisation_424 ()
          erased (coe MAlonzo.Code.Agda.Builtin.Bool.C_true_10)
          (coe
-            MAlonzo.Code.Interface.MonadTC.d_inferType_162
-            MAlonzo.Code.Interface.MonadTC.d_MonadTC'45'TC_790 v0))
+            MAlonzo.Code.Class.MonadTC.d_inferType_148
+            MAlonzo.Code.Class.MonadTC.d_MonadTC'45'TC_742 v0))
       (\ v1 ->
          coe
-           MAlonzo.Code.Interface.MonadTC.d_unify_156
-           MAlonzo.Code.Interface.MonadTC.d_MonadTC'45'TC_790 v0
+           MAlonzo.Code.Class.MonadTC.d_unify_142
+           MAlonzo.Code.Class.MonadTC.d_MonadTC'45'TC_742 v0
            (coe
               MAlonzo.Code.Agda.Builtin.Reflection.C_pat'45'lam_196
               (coe
@@ -54,13 +54,13 @@ d_by'45'eq_4 v0
                     MAlonzo.Code.Agda.Builtin.Reflection.C_clause_272
                     (coe MAlonzo.Code.Agda.Builtin.List.C_'91''93'_16)
                     (coe
-                       MAlonzo.Code.Class.Functor.Core.du__'60''38''62'__50
-                       (coe MAlonzo.Code.Class.Functor.Instances.d_Functor'45'List_22)
+                       MAlonzo.Code.Class.Functor.Core.du__'60''38''62'__30
+                       (coe MAlonzo.Code.Class.Functor.Instances.d_Functor'45'List_20)
                        (coe ()) (coe ())
-                       (coe MAlonzo.Code.Generics.Utils.d_argTys_160 (coe v1))
+                       (coe MAlonzo.Code.Reflection.Utils.d_argTys_192 (coe v1))
                        (coe
-                          MAlonzo.Code.Class.Functor.Core.du_fmap_42
-                          MAlonzo.Code.Class.Functor.Instances.d_Functor'45'Arg_88 () erased
+                          MAlonzo.Code.Class.Functor.Core.du_fmap_22
+                          MAlonzo.Code.Class.Functor.Instances.d_Functor'45'Arg_94 () erased
                           () erased
                           (\ v2 ->
                              let v3

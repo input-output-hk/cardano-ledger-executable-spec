@@ -17,134 +17,80 @@ import MAlonzo.RTE (coe, erased, AgdaAny, addInt, subInt, mulInt,
                     rem64, lt64, eq64, word64FromNat, word64ToNat)
 import qualified MAlonzo.RTE
 import qualified Data.Text
-import qualified MAlonzo.Code.Agda.Builtin.Equality
+import qualified MAlonzo.Code.Agda.Builtin.List
+import qualified MAlonzo.Code.Agda.Builtin.Unit
 import qualified MAlonzo.Code.Agda.Primitive
 import qualified MAlonzo.Code.Class.Applicative.Core
+import qualified MAlonzo.Code.Class.Functor.Core
+import qualified MAlonzo.Code.Data.Bool.Base
+import qualified MAlonzo.Code.Data.List.Base
 
 -- Class.Monad.Core.Monad
-d_Monad_22 a0 = ()
-data T_Monad_22
-  = C_Monad'46'constructor_377 MAlonzo.Code.Class.Applicative.Core.T_Applicative_20
-                               (MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+d_Monad_8 a0 = ()
+data T_Monad_8
+  = C_Monad'46'constructor_213 (MAlonzo.Code.Agda.Primitive.T_Level_18 ->
                                 () -> AgdaAny -> AgdaAny)
                                (MAlonzo.Code.Agda.Primitive.T_Level_18 ->
                                 () ->
                                 MAlonzo.Code.Agda.Primitive.T_Level_18 ->
                                 () -> AgdaAny -> (AgdaAny -> AgdaAny) -> AgdaAny)
--- Class.Monad.Core.Monad.super
-d_super_32 ::
-  T_Monad_22 -> MAlonzo.Code.Class.Applicative.Core.T_Applicative_20
-d_super_32 v0
-  = case coe v0 of
-      C_Monad'46'constructor_377 v1 v2 v3 -> coe v1
-      _ -> MAlonzo.RTE.mazUnreachableError
 -- Class.Monad.Core.Monad.return
-d_return_34 ::
-  T_Monad_22 ->
+d_return_16 ::
+  T_Monad_8 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> AgdaAny -> AgdaAny
-d_return_34 v0
+d_return_16 v0
   = case coe v0 of
-      C_Monad'46'constructor_377 v1 v2 v3 -> coe v2
+      C_Monad'46'constructor_213 v1 v2 -> coe v1
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Class.Monad.Core.Monad._>>=_
-d__'62''62''61'__36 ::
-  T_Monad_22 ->
+d__'62''62''61'__18 ::
+  T_Monad_8 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () -> AgdaAny -> (AgdaAny -> AgdaAny) -> AgdaAny
-d__'62''62''61'__36 v0
+d__'62''62''61'__18 v0
   = case coe v0 of
-      C_Monad'46'constructor_377 v1 v2 v3 -> coe v3
+      C_Monad'46'constructor_213 v1 v2 -> coe v2
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Class.Monad.Core.Monad._>>_
-d__'62''62'__38 ::
+d__'62''62'__20 ::
   (MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()) ->
-  T_Monad_22 ->
+  T_Monad_8 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () -> AgdaAny -> AgdaAny -> AgdaAny
-d__'62''62'__38 ~v0 v1 v2 ~v3 v4 ~v5 v6 v7
-  = du__'62''62'__38 v1 v2 v4 v6 v7
-du__'62''62'__38 ::
-  T_Monad_22 ->
+d__'62''62'__20 ~v0 v1 v2 ~v3 v4 ~v5 v6 v7
+  = du__'62''62'__20 v1 v2 v4 v6 v7
+du__'62''62'__20 ::
+  T_Monad_8 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   AgdaAny -> AgdaAny -> AgdaAny
-du__'62''62'__38 v0 v1 v2 v3 v4
-  = coe d__'62''62''61'__36 v0 v1 erased v2 erased v3 (\ v5 -> v4)
+du__'62''62'__20 v0 v1 v2 v3 v4
+  = coe d__'62''62''61'__18 v0 v1 erased v2 erased v3 (\ v5 -> v4)
 -- Class.Monad.Core.Monad._=<<_
-d__'61''60''60'__46 ::
+d__'61''60''60'__28 ::
   (MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()) ->
-  T_Monad_22 ->
+  T_Monad_8 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () -> (AgdaAny -> AgdaAny) -> AgdaAny -> AgdaAny
-d__'61''60''60'__46 ~v0 v1 v2 ~v3 v4 ~v5 v6 v7
-  = du__'61''60''60'__46 v1 v2 v4 v6 v7
-du__'61''60''60'__46 ::
-  T_Monad_22 ->
+d__'61''60''60'__28 ~v0 v1 v2 ~v3 v4 ~v5 v6 v7
+  = du__'61''60''60'__28 v1 v2 v4 v6 v7
+du__'61''60''60'__28 ::
+  T_Monad_8 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (AgdaAny -> AgdaAny) -> AgdaAny -> AgdaAny
-du__'61''60''60'__46 v0 v1 v2 v3 v4
-  = coe d__'62''62''61'__36 v0 v1 erased v2 erased v4 v3
--- Class.Monad.Core.Monad._≫=_
-d__'8811''61'__52 ::
-  (MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()) ->
-  T_Monad_22 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  () -> AgdaAny -> (AgdaAny -> AgdaAny) -> AgdaAny
-d__'8811''61'__52 ~v0 v1 = du__'8811''61'__52 v1
-du__'8811''61'__52 ::
-  T_Monad_22 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  () -> AgdaAny -> (AgdaAny -> AgdaAny) -> AgdaAny
-du__'8811''61'__52 v0 = coe d__'62''62''61'__36 (coe v0)
--- Class.Monad.Core.Monad._≫_
-d__'8811'__54 ::
-  (MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()) ->
-  T_Monad_22 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  () -> AgdaAny -> AgdaAny -> AgdaAny
-d__'8811'__54 ~v0 v1 = du__'8811'__54 v1
-du__'8811'__54 ::
-  T_Monad_22 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  () -> AgdaAny -> AgdaAny -> AgdaAny
-du__'8811'__54 v0 v1 v2 v3 v4 v5 v6
-  = coe du__'62''62'__38 (coe v0) v1 v3 v5 v6
--- Class.Monad.Core.Monad._=≪_
-d__'61''8810'__56 ::
-  (MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()) ->
-  T_Monad_22 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  () -> (AgdaAny -> AgdaAny) -> AgdaAny -> AgdaAny
-d__'61''8810'__56 ~v0 v1 = du__'61''8810'__56 v1
-du__'61''8810'__56 ::
-  T_Monad_22 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  () -> (AgdaAny -> AgdaAny) -> AgdaAny -> AgdaAny
-du__'61''8810'__56 v0 v1 v2 v3 v4 v5 v6
-  = coe du__'61''60''60'__46 (coe v0) v1 v3 v5 v6
+du__'61''60''60'__28 v0 v1 v2 v3 v4
+  = coe d__'62''62''61'__18 v0 v1 erased v2 erased v4 v3
 -- Class.Monad.Core.Monad._>=>_
-d__'62''61''62'__58 ::
+d__'62''61''62'__34 ::
   (MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()) ->
-  T_Monad_22 ->
+  T_Monad_8 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
@@ -152,21 +98,21 @@ d__'62''61''62'__58 ::
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   (AgdaAny -> AgdaAny) -> (AgdaAny -> AgdaAny) -> AgdaAny -> AgdaAny
-d__'62''61''62'__58 ~v0 v1 ~v2 ~v3 v4 ~v5 v6 ~v7 v8 v9 v10
-  = du__'62''61''62'__58 v1 v4 v6 v8 v9 v10
-du__'62''61''62'__58 ::
-  T_Monad_22 ->
+d__'62''61''62'__34 ~v0 v1 ~v2 ~v3 v4 ~v5 v6 ~v7 v8 v9 v10
+  = du__'62''61''62'__34 v1 v4 v6 v8 v9 v10
+du__'62''61''62'__34 ::
+  T_Monad_8 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (AgdaAny -> AgdaAny) -> (AgdaAny -> AgdaAny) -> AgdaAny -> AgdaAny
-du__'62''61''62'__58 v0 v1 v2 v3 v4 v5
+du__'62''61''62'__34 v0 v1 v2 v3 v4 v5
   = coe
-      du__'61''60''60'__46 (coe v0) (coe v1) (coe v2) (coe v4)
+      du__'61''60''60'__28 (coe v0) (coe v1) (coe v2) (coe v4)
       (coe v3 v5)
 -- Class.Monad.Core.Monad._<=<_
-d__'60''61''60'__64 ::
+d__'60''61''60'__40 ::
   (MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()) ->
-  T_Monad_22 ->
+  T_Monad_8 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
@@ -174,31 +120,286 @@ d__'60''61''60'__64 ::
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   (AgdaAny -> AgdaAny) -> (AgdaAny -> AgdaAny) -> AgdaAny -> AgdaAny
-d__'60''61''60'__64 ~v0 v1 v2 ~v3 v4 ~v5 ~v6 ~v7 v8 v9
-  = du__'60''61''60'__64 v1 v2 v4 v8 v9
-du__'60''61''60'__64 ::
-  T_Monad_22 ->
+d__'60''61''60'__40 ~v0 v1 v2 ~v3 v4 ~v5 ~v6 ~v7 v8 v9
+  = du__'60''61''60'__40 v1 v2 v4 v8 v9
+du__'60''61''60'__40 ::
+  T_Monad_8 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   (AgdaAny -> AgdaAny) -> (AgdaAny -> AgdaAny) -> AgdaAny -> AgdaAny
-du__'60''61''60'__64 v0 v1 v2 v3 v4
+du__'60''61''60'__40 v0 v1 v2 v3 v4
   = coe
-      du__'62''61''62'__58 (coe v0) (coe v1) (coe v2) (coe v4) (coe v3)
+      du__'62''61''62'__34 (coe v0) (coe v1) (coe v2) (coe v4) (coe v3)
 -- Class.Monad.Core.Monad.join
-d_join_70 ::
+d_join_46 ::
   (MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()) ->
-  T_Monad_22 ->
+  T_Monad_8 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> AgdaAny -> AgdaAny
-d_join_70 ~v0 v1 v2 ~v3 v4 = du_join_70 v1 v2 v4
-du_join_70 ::
-  T_Monad_22 ->
+d_join_46 ~v0 v1 v2 ~v3 v4 = du_join_46 v1 v2 v4
+du_join_46 ::
+  T_Monad_8 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 -> AgdaAny -> AgdaAny
-du_join_70 v0 v1 v2
-  = coe d__'62''62''61'__36 v0 v1 erased v1 erased v2 (\ v3 -> v3)
+du_join_46 v0 v1 v2
+  = coe d__'62''62''61'__18 v0 v1 erased v1 erased v2 (\ v3 -> v3)
+-- Class.Monad.Core.Monad.Functor-M
+d_Functor'45'M_50 ::
+  (MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()) ->
+  T_Monad_8 -> MAlonzo.Code.Class.Functor.Core.T_Functor_14
+d_Functor'45'M_50 ~v0 v1 = du_Functor'45'M_50 v1
+du_Functor'45'M_50 ::
+  T_Monad_8 -> MAlonzo.Code.Class.Functor.Core.T_Functor_14
+du_Functor'45'M_50 v0
+  = coe
+      MAlonzo.Code.Class.Functor.Core.C_Functor'46'constructor_121
+      (coe
+         (\ v1 v2 v3 v4 v5 v6 ->
+            coe
+              du__'61''60''60'__28 (coe v0) (coe v1) (coe v3)
+              (coe (\ v7 -> coe d_return_16 v0 v3 erased (coe v5 v7))) (coe v6)))
+-- Class.Monad.Core.Monad.mapM
+d_mapM_60 ::
+  (MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()) ->
+  T_Monad_8 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  () ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  () -> (AgdaAny -> AgdaAny) -> [AgdaAny] -> AgdaAny
+d_mapM_60 ~v0 v1 ~v2 ~v3 v4 ~v5 v6 v7 = du_mapM_60 v1 v4 v6 v7
+du_mapM_60 ::
+  T_Monad_8 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  (AgdaAny -> AgdaAny) -> [AgdaAny] -> AgdaAny
+du_mapM_60 v0 v1 v2 v3
+  = case coe v3 of
+      [] -> coe d_return_16 v0 v1 erased v3
+      (:) v4 v5
+        -> coe
+             d__'62''62''61'__18 v0 v1 erased v1 erased (coe v2 v4)
+             (\ v6 ->
+                coe
+                  MAlonzo.Code.Class.Functor.Core.d__'60''36''62'__20
+                  (coe
+                     MAlonzo.Code.Class.Functor.Core.C_Functor'46'constructor_121
+                     (coe
+                        (\ v7 v8 v9 v10 v11 v12 ->
+                           coe
+                             du__'61''60''60'__28 (coe v0) (coe v7) (coe v9)
+                             (coe (\ v13 -> coe d_return_16 v0 v9 erased (coe v11 v13)))
+                             (coe v12))))
+                  v1 erased v1 erased
+                  (coe MAlonzo.Code.Agda.Builtin.List.C__'8759'__22 (coe v6))
+                  (coe du_mapM_60 (coe v0) (coe v1) (coe v2) (coe v5)))
+      _ -> MAlonzo.RTE.mazUnreachableError
+-- Class.Monad.Core.Monad.concatMapM
+d_concatMapM_74 ::
+  (MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()) ->
+  T_Monad_8 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  () ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  () -> (AgdaAny -> AgdaAny) -> [AgdaAny] -> AgdaAny
+d_concatMapM_74 ~v0 v1 ~v2 ~v3 v4 ~v5 v6 v7
+  = du_concatMapM_74 v1 v4 v6 v7
+du_concatMapM_74 ::
+  T_Monad_8 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  (AgdaAny -> AgdaAny) -> [AgdaAny] -> AgdaAny
+du_concatMapM_74 v0 v1 v2 v3
+  = coe
+      MAlonzo.Code.Class.Functor.Core.d__'60''36''62'__20
+      (coe
+         MAlonzo.Code.Class.Functor.Core.C_Functor'46'constructor_121
+         (coe
+            (\ v4 v5 v6 v7 v8 v9 ->
+               coe
+                 du__'61''60''60'__28 (coe v0) (coe v4) (coe v6)
+                 (coe (\ v10 -> coe d_return_16 v0 v6 erased (coe v8 v10)))
+                 (coe v9))))
+      v1 erased v1 erased (coe MAlonzo.Code.Data.List.Base.du_concat_270)
+      (coe du_mapM_60 (coe v0) (coe v1) (coe v2) (coe v3))
+-- Class.Monad.Core.Monad.forM
+d_forM_80 ::
+  (MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()) ->
+  T_Monad_8 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  () ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  () -> [AgdaAny] -> (AgdaAny -> AgdaAny) -> AgdaAny
+d_forM_80 ~v0 v1 ~v2 ~v3 v4 ~v5 v6 v7 = du_forM_80 v1 v4 v6 v7
+du_forM_80 ::
+  T_Monad_8 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  [AgdaAny] -> (AgdaAny -> AgdaAny) -> AgdaAny
+du_forM_80 v0 v1 v2 v3
+  = case coe v2 of
+      [] -> coe d_return_16 v0 v1 erased v2
+      (:) v4 v5
+        -> coe
+             d__'62''62''61'__18 v0 v1 erased v1 erased (coe v3 v4)
+             (\ v6 ->
+                coe
+                  MAlonzo.Code.Class.Functor.Core.d__'60''36''62'__20
+                  (coe
+                     MAlonzo.Code.Class.Functor.Core.C_Functor'46'constructor_121
+                     (coe
+                        (\ v7 v8 v9 v10 v11 v12 ->
+                           coe
+                             du__'61''60''60'__28 (coe v0) (coe v7) (coe v9)
+                             (coe (\ v13 -> coe d_return_16 v0 v9 erased (coe v11 v13)))
+                             (coe v12))))
+                  v1 erased v1 erased
+                  (coe MAlonzo.Code.Agda.Builtin.List.C__'8759'__22 (coe v6))
+                  (coe du_forM_80 (coe v0) (coe v1) (coe v5) (coe v3)))
+      _ -> MAlonzo.RTE.mazUnreachableError
+-- Class.Monad.Core.Monad.concatForM
+d_concatForM_92 ::
+  (MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()) ->
+  T_Monad_8 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  () ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  () -> [AgdaAny] -> (AgdaAny -> AgdaAny) -> AgdaAny
+d_concatForM_92 ~v0 v1 ~v2 ~v3 v4 ~v5 v6 v7
+  = du_concatForM_92 v1 v4 v6 v7
+du_concatForM_92 ::
+  T_Monad_8 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  [AgdaAny] -> (AgdaAny -> AgdaAny) -> AgdaAny
+du_concatForM_92 v0 v1 v2 v3
+  = coe
+      MAlonzo.Code.Class.Functor.Core.d__'60''36''62'__20
+      (coe
+         MAlonzo.Code.Class.Functor.Core.C_Functor'46'constructor_121
+         (coe
+            (\ v4 v5 v6 v7 v8 v9 ->
+               coe
+                 du__'61''60''60'__28 (coe v0) (coe v4) (coe v6)
+                 (coe (\ v10 -> coe d_return_16 v0 v6 erased (coe v8 v10)))
+                 (coe v9))))
+      v1 erased v1 erased (coe MAlonzo.Code.Data.List.Base.du_concat_270)
+      (coe du_forM_80 (coe v0) (coe v1) (coe v2) (coe v3))
+-- Class.Monad.Core.Monad.return⊤
+d_return'8868'_98 ::
+  (MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()) ->
+  T_Monad_8 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> AgdaAny -> AgdaAny
+d_return'8868'_98 ~v0 v1 v2 ~v3 v4 = du_return'8868'_98 v1 v2 v4
+du_return'8868'_98 ::
+  T_Monad_8 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 -> AgdaAny -> AgdaAny
+du_return'8868'_98 v0 v1 v2
+  = coe
+      du__'62''62'__20 (coe v0) (coe v1) (coe ()) (coe v2)
+      (coe
+         d_return_16 v0 () erased
+         (coe MAlonzo.Code.Agda.Builtin.Unit.C_tt_8))
+-- Class.Monad.Core.Monad.void
+d_void_100 ::
+  (MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()) ->
+  T_Monad_8 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> AgdaAny -> AgdaAny
+d_void_100 ~v0 v1 v2 ~v3 = du_void_100 v1 v2
+du_void_100 ::
+  T_Monad_8 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 -> AgdaAny -> AgdaAny
+du_void_100 v0 v1 = coe du_return'8868'_98 (coe v0) (coe v1)
+-- Class.Monad.Core.Monad.filterM
+d_filterM_104 ::
+  (MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()) ->
+  T_Monad_8 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  () -> (AgdaAny -> AgdaAny) -> [AgdaAny] -> AgdaAny
+d_filterM_104 ~v0 v1 v2 ~v3 v4 v5 = du_filterM_104 v1 v2 v4 v5
+du_filterM_104 ::
+  T_Monad_8 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  (AgdaAny -> AgdaAny) -> [AgdaAny] -> AgdaAny
+du_filterM_104 v0 v1 v2 v3
+  = case coe v3 of
+      [] -> coe d_return_16 v0 v1 erased v3
+      (:) v4 v5
+        -> coe
+             d__'62''62''61'__18 v0 () erased v1 erased (coe v2 v4)
+             (\ v6 ->
+                coe
+                  MAlonzo.Code.Class.Functor.Core.d__'60''36''62'__20
+                  (coe
+                     MAlonzo.Code.Class.Functor.Core.C_Functor'46'constructor_121
+                     (coe
+                        (\ v7 v8 v9 v10 v11 v12 ->
+                           coe
+                             du__'61''60''60'__28 (coe v0) (coe v7) (coe v9)
+                             (coe (\ v13 -> coe d_return_16 v0 v9 erased (coe v11 v13)))
+                             (coe v12))))
+                  v1 erased v1 erased
+                  (coe
+                     MAlonzo.Code.Data.List.Base.du__'43''43'__62
+                     (coe
+                        MAlonzo.Code.Data.Bool.Base.du_if_then_else__42 (coe v6)
+                        (coe MAlonzo.Code.Data.List.Base.du_'91'_'93'_306 (coe v4))
+                        (coe MAlonzo.Code.Agda.Builtin.List.C_'91''93'_16)))
+                  (coe du_filterM_104 (coe v0) (coe v1) (coe v2) (coe v5)))
+      _ -> MAlonzo.RTE.mazUnreachableError
+-- Class.Monad.Core.Monad.traverseM
+d_traverseM_116 ::
+  (MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()) ->
+  T_Monad_8 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  () ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  () ->
+  MAlonzo.Code.Class.Applicative.Core.T_Applicative_8 ->
+  T_Monad_8 -> (AgdaAny -> AgdaAny) -> [AgdaAny] -> AgdaAny
+d_traverseM_116 ~v0 v1 v2 ~v3 v4 ~v5 v6 v7 v8
+  = du_traverseM_116 v1 v2 v4 v6 v7 v8
+du_traverseM_116 ::
+  T_Monad_8 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Class.Applicative.Core.T_Applicative_8 ->
+  T_Monad_8 -> (AgdaAny -> AgdaAny) -> [AgdaAny] -> AgdaAny
+du_traverseM_116 v0 v1 v2 v3 v4 v5
+  = coe
+      du_'46'extendedlambda1_120 (coe v0) (coe v1) (coe v2) (coe v3)
+      (coe v4) (coe v5)
+-- Class.Monad.Core.Monad..extendedlambda1
+d_'46'extendedlambda1_120 ::
+  (MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()) ->
+  T_Monad_8 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  () ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  () ->
+  MAlonzo.Code.Class.Applicative.Core.T_Applicative_8 ->
+  T_Monad_8 -> (AgdaAny -> AgdaAny) -> [AgdaAny] -> AgdaAny
+d_'46'extendedlambda1_120 ~v0 v1 v2 ~v3 v4 ~v5 v6 v7 v8 v9
+  = du_'46'extendedlambda1_120 v1 v2 v4 v6 v7 v8 v9
+du_'46'extendedlambda1_120 ::
+  T_Monad_8 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  MAlonzo.Code.Class.Applicative.Core.T_Applicative_8 ->
+  T_Monad_8 -> (AgdaAny -> AgdaAny) -> [AgdaAny] -> AgdaAny
+du_'46'extendedlambda1_120 v0 v1 v2 v3 v4 v5 v6
+  = case coe v6 of
+      [] -> coe d_return_16 v0 v2 erased v6
+      (:) v7 v8
+        -> coe
+             MAlonzo.Code.Class.Applicative.Core.d__'60''42''62'__22 v3 v2
+             erased v2 erased
+             (coe
+                MAlonzo.Code.Class.Applicative.Core.d__'60''42''62'__22 v3 v2
+                erased v2 erased
+                (coe
+                   MAlonzo.Code.Class.Applicative.Core.d_pure_20 v3 v2 erased
+                   (coe MAlonzo.Code.Agda.Builtin.List.C__'8759'__22))
+                (coe v5 v7))
+             (coe du_traverseM_116 v0 v1 v2 v3 v4 v5 v8)
+      _ -> MAlonzo.RTE.mazUnreachableError
 -- Class.Monad.Core._._<=<_
-d__'60''61''60'__76 ::
+d__'60''61''60'__128 ::
   (MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()) ->
-  T_Monad_22 ->
+  T_Monad_8 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
@@ -206,9 +407,9 @@ d__'60''61''60'__76 ::
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   (AgdaAny -> AgdaAny) -> (AgdaAny -> AgdaAny) -> AgdaAny -> AgdaAny
-d__'60''61''60'__76 ~v0 v1 = du__'60''61''60'__76 v1
-du__'60''61''60'__76 ::
-  T_Monad_22 ->
+d__'60''61''60'__128 ~v0 v1 = du__'60''61''60'__128 v1
+du__'60''61''60'__128 ::
+  T_Monad_8 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
@@ -216,45 +417,29 @@ du__'60''61''60'__76 ::
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   (AgdaAny -> AgdaAny) -> (AgdaAny -> AgdaAny) -> AgdaAny -> AgdaAny
-du__'60''61''60'__76 v0 v1 v2 v3 v4 v5 v6 v7 v8
-  = coe du__'60''61''60'__64 (coe v0) v1 v3 v7 v8
+du__'60''61''60'__128 v0 v1 v2 v3 v4 v5 v6 v7 v8
+  = coe du__'60''61''60'__40 (coe v0) v1 v3 v7 v8
 -- Class.Monad.Core._._=<<_
-d__'61''60''60'__78 ::
+d__'61''60''60'__130 ::
   (MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()) ->
-  T_Monad_22 ->
+  T_Monad_8 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () -> (AgdaAny -> AgdaAny) -> AgdaAny -> AgdaAny
-d__'61''60''60'__78 ~v0 v1 = du__'61''60''60'__78 v1
-du__'61''60''60'__78 ::
-  T_Monad_22 ->
+d__'61''60''60'__130 ~v0 v1 = du__'61''60''60'__130 v1
+du__'61''60''60'__130 ::
+  T_Monad_8 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () -> (AgdaAny -> AgdaAny) -> AgdaAny -> AgdaAny
-du__'61''60''60'__78 v0 v1 v2 v3 v4 v5 v6
-  = coe du__'61''60''60'__46 (coe v0) v1 v3 v5 v6
--- Class.Monad.Core._._=≪_
-d__'61''8810'__80 ::
-  (MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()) ->
-  T_Monad_22 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  () -> (AgdaAny -> AgdaAny) -> AgdaAny -> AgdaAny
-d__'61''8810'__80 ~v0 v1 = du__'61''8810'__80 v1
-du__'61''8810'__80 ::
-  T_Monad_22 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  () -> (AgdaAny -> AgdaAny) -> AgdaAny -> AgdaAny
-du__'61''8810'__80 v0 = coe du__'61''8810'__56 (coe v0)
+du__'61''60''60'__130 v0 v1 v2 v3 v4 v5 v6
+  = coe du__'61''60''60'__28 (coe v0) v1 v3 v5 v6
 -- Class.Monad.Core._._>=>_
-d__'62''61''62'__82 ::
+d__'62''61''62'__132 ::
   (MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()) ->
-  T_Monad_22 ->
+  T_Monad_8 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
@@ -262,9 +447,9 @@ d__'62''61''62'__82 ::
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   (AgdaAny -> AgdaAny) -> (AgdaAny -> AgdaAny) -> AgdaAny -> AgdaAny
-d__'62''61''62'__82 ~v0 v1 = du__'62''61''62'__82 v1
-du__'62''61''62'__82 ::
-  T_Monad_22 ->
+d__'62''61''62'__132 ~v0 v1 = du__'62''61''62'__132 v1
+du__'62''61''62'__132 ::
+  T_Monad_8 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
@@ -272,466 +457,174 @@ du__'62''61''62'__82 ::
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   (AgdaAny -> AgdaAny) -> (AgdaAny -> AgdaAny) -> AgdaAny -> AgdaAny
-du__'62''61''62'__82 v0 v1 v2 v3 v4 v5 v6 v7 v8 v9
-  = coe du__'62''61''62'__58 (coe v0) v3 v5 v7 v8 v9
+du__'62''61''62'__132 v0 v1 v2 v3 v4 v5 v6 v7 v8 v9
+  = coe du__'62''61''62'__34 (coe v0) v3 v5 v7 v8 v9
 -- Class.Monad.Core._._>>_
-d__'62''62'__84 ::
+d__'62''62'__134 ::
   (MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()) ->
-  T_Monad_22 ->
+  T_Monad_8 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () -> AgdaAny -> AgdaAny -> AgdaAny
-d__'62''62'__84 ~v0 v1 = du__'62''62'__84 v1
-du__'62''62'__84 ::
-  T_Monad_22 ->
+d__'62''62'__134 ~v0 v1 = du__'62''62'__134 v1
+du__'62''62'__134 ::
+  T_Monad_8 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () -> AgdaAny -> AgdaAny -> AgdaAny
-du__'62''62'__84 v0 v1 v2 v3 v4 v5 v6
-  = coe du__'62''62'__38 (coe v0) v1 v3 v5 v6
+du__'62''62'__134 v0 v1 v2 v3 v4 v5 v6
+  = coe du__'62''62'__20 (coe v0) v1 v3 v5 v6
 -- Class.Monad.Core._._>>=_
-d__'62''62''61'__86 ::
-  T_Monad_22 ->
+d__'62''62''61'__136 ::
+  T_Monad_8 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () -> AgdaAny -> (AgdaAny -> AgdaAny) -> AgdaAny
-d__'62''62''61'__86 v0 = coe d__'62''62''61'__36 (coe v0)
--- Class.Monad.Core._._≫_
-d__'8811'__88 ::
+d__'62''62''61'__136 v0 = coe d__'62''62''61'__18 (coe v0)
+-- Class.Monad.Core._.Functor-M
+d_Functor'45'M_138 ::
   (MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()) ->
-  T_Monad_22 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  () -> AgdaAny -> AgdaAny -> AgdaAny
-d__'8811'__88 ~v0 v1 = du__'8811'__88 v1
-du__'8811'__88 ::
-  T_Monad_22 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  () -> AgdaAny -> AgdaAny -> AgdaAny
-du__'8811'__88 v0 = coe du__'8811'__54 (coe v0)
--- Class.Monad.Core._._≫=_
-d__'8811''61'__90 ::
+  T_Monad_8 -> MAlonzo.Code.Class.Functor.Core.T_Functor_14
+d_Functor'45'M_138 ~v0 v1 = du_Functor'45'M_138 v1
+du_Functor'45'M_138 ::
+  T_Monad_8 -> MAlonzo.Code.Class.Functor.Core.T_Functor_14
+du_Functor'45'M_138 v0 = coe du_Functor'45'M_50 (coe v0)
+-- Class.Monad.Core._.concatForM
+d_concatForM_140 ::
   (MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()) ->
-  T_Monad_22 ->
+  T_Monad_8 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  () -> AgdaAny -> (AgdaAny -> AgdaAny) -> AgdaAny
-d__'8811''61'__90 ~v0 v1 = du__'8811''61'__90 v1
-du__'8811''61'__90 ::
-  T_Monad_22 ->
+  () -> [AgdaAny] -> (AgdaAny -> AgdaAny) -> AgdaAny
+d_concatForM_140 ~v0 v1 = du_concatForM_140 v1
+du_concatForM_140 ::
+  T_Monad_8 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  () -> AgdaAny -> (AgdaAny -> AgdaAny) -> AgdaAny
-du__'8811''61'__90 v0 = coe du__'8811''61'__52 (coe v0)
+  () -> [AgdaAny] -> (AgdaAny -> AgdaAny) -> AgdaAny
+du_concatForM_140 v0 v1 v2 v3 v4 v5 v6
+  = coe du_concatForM_92 (coe v0) v3 v5 v6
+-- Class.Monad.Core._.concatMapM
+d_concatMapM_142 ::
+  (MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()) ->
+  T_Monad_8 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  () ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  () -> (AgdaAny -> AgdaAny) -> [AgdaAny] -> AgdaAny
+d_concatMapM_142 ~v0 v1 = du_concatMapM_142 v1
+du_concatMapM_142 ::
+  T_Monad_8 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  () ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  () -> (AgdaAny -> AgdaAny) -> [AgdaAny] -> AgdaAny
+du_concatMapM_142 v0 v1 v2 v3 v4 v5 v6
+  = coe du_concatMapM_74 (coe v0) v3 v5 v6
+-- Class.Monad.Core._.filterM
+d_filterM_144 ::
+  (MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()) ->
+  T_Monad_8 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  () -> (AgdaAny -> AgdaAny) -> [AgdaAny] -> AgdaAny
+d_filterM_144 ~v0 v1 = du_filterM_144 v1
+du_filterM_144 ::
+  T_Monad_8 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  () -> (AgdaAny -> AgdaAny) -> [AgdaAny] -> AgdaAny
+du_filterM_144 v0 v1 v2 v3 v4
+  = coe du_filterM_104 (coe v0) v1 v3 v4
+-- Class.Monad.Core._.forM
+d_forM_146 ::
+  (MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()) ->
+  T_Monad_8 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  () ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  () -> [AgdaAny] -> (AgdaAny -> AgdaAny) -> AgdaAny
+d_forM_146 ~v0 v1 = du_forM_146 v1
+du_forM_146 ::
+  T_Monad_8 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  () ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  () -> [AgdaAny] -> (AgdaAny -> AgdaAny) -> AgdaAny
+du_forM_146 v0 v1 v2 v3 v4 v5 v6 = coe du_forM_80 (coe v0) v3 v5 v6
 -- Class.Monad.Core._.join
-d_join_92 ::
+d_join_148 ::
   (MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()) ->
-  T_Monad_22 ->
+  T_Monad_8 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> AgdaAny -> AgdaAny
-d_join_92 ~v0 v1 = du_join_92 v1
-du_join_92 ::
-  T_Monad_22 ->
+d_join_148 ~v0 v1 = du_join_148 v1
+du_join_148 ::
+  T_Monad_8 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> AgdaAny -> AgdaAny
-du_join_92 v0 v1 v2 v3 = coe du_join_70 (coe v0) v1 v3
+du_join_148 v0 v1 v2 v3 = coe du_join_46 (coe v0) v1 v3
+-- Class.Monad.Core._.mapM
+d_mapM_150 ::
+  (MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()) ->
+  T_Monad_8 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  () ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  () -> (AgdaAny -> AgdaAny) -> [AgdaAny] -> AgdaAny
+d_mapM_150 ~v0 v1 = du_mapM_150 v1
+du_mapM_150 ::
+  T_Monad_8 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  () ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  () -> (AgdaAny -> AgdaAny) -> [AgdaAny] -> AgdaAny
+du_mapM_150 v0 v1 v2 v3 v4 v5 v6 = coe du_mapM_60 (coe v0) v3 v5 v6
 -- Class.Monad.Core._.return
-d_return_94 ::
-  T_Monad_22 ->
+d_return_152 ::
+  T_Monad_8 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> AgdaAny -> AgdaAny
-d_return_94 v0 = coe d_return_34 (coe v0)
--- Class.Monad.Core._.super
-d_super_96 ::
-  T_Monad_22 -> MAlonzo.Code.Class.Applicative.Core.T_Applicative_20
-d_super_96 v0 = coe d_super_32 (coe v0)
--- Class.Monad.Core.Monad-Laws
-d_Monad'45'Laws_102 a0 a1 = ()
-data T_Monad'45'Laws_102 = C_Monad'45'Laws'46'constructor_18199
--- Class.Monad.Core.Monad-Laws.>>=-identityˡ
-d_'62''62''61''45'identity'737'_148 ::
-  T_Monad'45'Laws_102 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  () ->
-  () ->
-  AgdaAny ->
-  (AgdaAny -> AgdaAny) ->
-  MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'62''62''61''45'identity'737'_148 = erased
--- Class.Monad.Core.Monad-Laws.>>=-identityʳ
-d_'62''62''61''45'identity'691'_154 ::
-  T_Monad'45'Laws_102 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  () -> AgdaAny -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'62''62''61''45'identity'691'_154 = erased
--- Class.Monad.Core.Monad-Laws.>>=-assoc
-d_'62''62''61''45'assoc_170 ::
-  T_Monad'45'Laws_102 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  () ->
-  () ->
-  () ->
-  AgdaAny ->
-  (AgdaAny -> AgdaAny) ->
-  (AgdaAny -> AgdaAny) ->
-  MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'62''62''61''45'assoc_170 = erased
--- Class.Monad.Core._.>>=-assoc
-d_'62''62''61''45'assoc_174 ::
-  T_Monad'45'Laws_102 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  () ->
-  () ->
-  () ->
-  AgdaAny ->
-  (AgdaAny -> AgdaAny) ->
-  (AgdaAny -> AgdaAny) ->
-  MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'62''62''61''45'assoc_174 = erased
--- Class.Monad.Core._.>>=-identityʳ
-d_'62''62''61''45'identity'691'_176 ::
-  T_Monad'45'Laws_102 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  () -> AgdaAny -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'62''62''61''45'identity'691'_176 = erased
--- Class.Monad.Core._.>>=-identityˡ
-d_'62''62''61''45'identity'737'_178 ::
-  T_Monad'45'Laws_102 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  () ->
-  () ->
-  AgdaAny ->
-  (AgdaAny -> AgdaAny) ->
-  MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'62''62''61''45'identity'737'_178 = erased
--- Class.Monad.Core.Lawful-Monad
-d_Lawful'45'Monad_182 a0 = ()
-newtype T_Lawful'45'Monad_182
-  = C_Lawful'45'Monad'46'constructor_18657 T_Monad_22
--- Class.Monad.Core.Lawful-Monad.isMonad
-d_isMonad_190 :: T_Lawful'45'Monad_182 -> T_Monad_22
-d_isMonad_190 v0
-  = case coe v0 of
-      C_Lawful'45'Monad'46'constructor_18657 v1 -> coe v1
-      _ -> MAlonzo.RTE.mazUnreachableError
--- Class.Monad.Core.Lawful-Monad.hasMonadLaws
-d_hasMonadLaws_192 :: T_Lawful'45'Monad_182 -> T_Monad'45'Laws_102
-d_hasMonadLaws_192 = erased
--- Class.Monad.Core.mkLawful-Monad
-d_mkLawful'45'Monad_198 ::
+d_return_152 v0 = coe d_return_16 (coe v0)
+-- Class.Monad.Core._.return⊤
+d_return'8868'_154 ::
   (MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()) ->
-  T_Monad_22 -> T_Monad'45'Laws_102 -> T_Lawful'45'Monad_182
-d_mkLawful'45'Monad_198 ~v0 v1 ~v2 = du_mkLawful'45'Monad_198 v1
-du_mkLawful'45'Monad_198 :: T_Monad_22 -> T_Lawful'45'Monad_182
-du_mkLawful'45'Monad_198 v0
-  = coe C_Lawful'45'Monad'46'constructor_18657 v0
--- Class.Monad.Core.Monad′
-d_Monad'8242'_206 a0 a1 a2 = ()
-data T_Monad'8242'_206
-  = C_Monad'8242''46'constructor_19379 (() -> AgdaAny -> AgdaAny)
-                                       (() -> () -> AgdaAny -> (AgdaAny -> AgdaAny) -> AgdaAny)
--- Class.Monad.Core.Monad′.return′
-d_return'8242'_214 :: T_Monad'8242'_206 -> () -> AgdaAny -> AgdaAny
-d_return'8242'_214 v0
-  = case coe v0 of
-      C_Monad'8242''46'constructor_19379 v1 v2 -> coe v1
-      _ -> MAlonzo.RTE.mazUnreachableError
--- Class.Monad.Core.Monad′._>>=′_
-d__'62''62''61''8242'__216 ::
-  T_Monad'8242'_206 ->
-  () -> () -> AgdaAny -> (AgdaAny -> AgdaAny) -> AgdaAny
-d__'62''62''61''8242'__216 v0
-  = case coe v0 of
-      C_Monad'8242''46'constructor_19379 v1 v2 -> coe v2
-      _ -> MAlonzo.RTE.mazUnreachableError
--- Class.Monad.Core.Monad′._>>′_
-d__'62''62''8242'__218 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  (() -> ()) ->
-  T_Monad'8242'_206 -> () -> () -> AgdaAny -> AgdaAny -> AgdaAny
-d__'62''62''8242'__218 ~v0 ~v1 ~v2 v3 ~v4 ~v5 v6 v7
-  = du__'62''62''8242'__218 v3 v6 v7
-du__'62''62''8242'__218 ::
-  T_Monad'8242'_206 -> AgdaAny -> AgdaAny -> AgdaAny
-du__'62''62''8242'__218 v0 v1 v2
-  = coe d__'62''62''61''8242'__216 v0 erased erased v1 (\ v3 -> v2)
--- Class.Monad.Core.Monad′._=<<′_
-d__'61''60''60''8242'__226 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  (() -> ()) ->
-  T_Monad'8242'_206 ->
-  () -> () -> (AgdaAny -> AgdaAny) -> AgdaAny -> AgdaAny
-d__'61''60''60''8242'__226 ~v0 ~v1 ~v2 v3 ~v4 ~v5 v6 v7
-  = du__'61''60''60''8242'__226 v3 v6 v7
-du__'61''60''60''8242'__226 ::
-  T_Monad'8242'_206 -> (AgdaAny -> AgdaAny) -> AgdaAny -> AgdaAny
-du__'61''60''60''8242'__226 v0 v1 v2
-  = coe d__'62''62''61''8242'__216 v0 erased erased v2 v1
--- Class.Monad.Core.Monad′._>=>′_
-d__'62''61''62''8242'__232 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  (() -> ()) ->
-  T_Monad'8242'_206 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  () ->
-  () ->
-  () ->
-  (AgdaAny -> AgdaAny) -> (AgdaAny -> AgdaAny) -> AgdaAny -> AgdaAny
-d__'62''61''62''8242'__232 ~v0 ~v1 ~v2 v3 ~v4 ~v5 ~v6 ~v7 v8 v9 v10
-  = du__'62''61''62''8242'__232 v3 v8 v9 v10
-du__'62''61''62''8242'__232 ::
-  T_Monad'8242'_206 ->
-  (AgdaAny -> AgdaAny) -> (AgdaAny -> AgdaAny) -> AgdaAny -> AgdaAny
-du__'62''61''62''8242'__232 v0 v1 v2 v3
-  = coe du__'61''60''60''8242'__226 (coe v0) (coe v2) (coe v1 v3)
--- Class.Monad.Core.Monad′._<=<′_
-d__'60''61''60''8242'__238 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  (() -> ()) ->
-  T_Monad'8242'_206 ->
-  () ->
-  () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  () ->
-  (AgdaAny -> AgdaAny) -> (AgdaAny -> AgdaAny) -> AgdaAny -> AgdaAny
-d__'60''61''60''8242'__238 ~v0 ~v1 ~v2 v3 ~v4 ~v5 ~v6 ~v7 v8 v9
-  = du__'60''61''60''8242'__238 v3 v8 v9
-du__'60''61''60''8242'__238 ::
-  T_Monad'8242'_206 ->
-  (AgdaAny -> AgdaAny) -> (AgdaAny -> AgdaAny) -> AgdaAny -> AgdaAny
-du__'60''61''60''8242'__238 v0 v1 v2
-  = coe du__'62''61''62''8242'__232 (coe v0) (coe v2) (coe v1)
--- Class.Monad.Core.Monad′._≫=′_
-d__'8811''61''8242'__244 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  (() -> ()) ->
-  T_Monad'8242'_206 ->
-  () -> () -> AgdaAny -> (AgdaAny -> AgdaAny) -> AgdaAny
-d__'8811''61''8242'__244 ~v0 ~v1 ~v2 v3
-  = du__'8811''61''8242'__244 v3
-du__'8811''61''8242'__244 ::
-  T_Monad'8242'_206 ->
-  () -> () -> AgdaAny -> (AgdaAny -> AgdaAny) -> AgdaAny
-du__'8811''61''8242'__244 v0
-  = coe d__'62''62''61''8242'__216 (coe v0)
--- Class.Monad.Core.Monad′._≫′_
-d__'8811''8242'__246 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  (() -> ()) ->
-  T_Monad'8242'_206 -> () -> () -> AgdaAny -> AgdaAny -> AgdaAny
-d__'8811''8242'__246 ~v0 ~v1 ~v2 v3 = du__'8811''8242'__246 v3
-du__'8811''8242'__246 ::
-  T_Monad'8242'_206 -> () -> () -> AgdaAny -> AgdaAny -> AgdaAny
-du__'8811''8242'__246 v0 v1 v2 v3 v4
-  = coe du__'62''62''8242'__218 (coe v0) v3 v4
--- Class.Monad.Core.Monad′._=≪′_
-d__'61''8810''8242'__248 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  (() -> ()) ->
-  T_Monad'8242'_206 ->
-  () -> () -> (AgdaAny -> AgdaAny) -> AgdaAny -> AgdaAny
-d__'61''8810''8242'__248 ~v0 ~v1 ~v2 v3
-  = du__'61''8810''8242'__248 v3
-du__'61''8810''8242'__248 ::
-  T_Monad'8242'_206 ->
-  () -> () -> (AgdaAny -> AgdaAny) -> AgdaAny -> AgdaAny
-du__'61''8810''8242'__248 v0 v1 v2 v3 v4
-  = coe du__'61''60''60''8242'__226 (coe v0) v3 v4
--- Class.Monad.Core._._<=<′_
-d__'60''61''60''8242'__252 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  (() -> ()) ->
-  T_Monad'8242'_206 ->
-  () ->
-  () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  () ->
-  (AgdaAny -> AgdaAny) -> (AgdaAny -> AgdaAny) -> AgdaAny -> AgdaAny
-d__'60''61''60''8242'__252 ~v0 ~v1 ~v2 v3
-  = du__'60''61''60''8242'__252 v3
-du__'60''61''60''8242'__252 ::
-  T_Monad'8242'_206 ->
-  () ->
-  () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  () ->
-  (AgdaAny -> AgdaAny) -> (AgdaAny -> AgdaAny) -> AgdaAny -> AgdaAny
-du__'60''61''60''8242'__252 v0 v1 v2 v3 v4 v5 v6
-  = coe du__'60''61''60''8242'__238 (coe v0) v5 v6
--- Class.Monad.Core._._=<<′_
-d__'61''60''60''8242'__254 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  (() -> ()) ->
-  T_Monad'8242'_206 ->
-  () -> () -> (AgdaAny -> AgdaAny) -> AgdaAny -> AgdaAny
-d__'61''60''60''8242'__254 ~v0 ~v1 ~v2 v3
-  = du__'61''60''60''8242'__254 v3
-du__'61''60''60''8242'__254 ::
-  T_Monad'8242'_206 ->
-  () -> () -> (AgdaAny -> AgdaAny) -> AgdaAny -> AgdaAny
-du__'61''60''60''8242'__254 v0 v1 v2 v3 v4
-  = coe du__'61''60''60''8242'__226 (coe v0) v3 v4
--- Class.Monad.Core._._=≪′_
-d__'61''8810''8242'__256 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  (() -> ()) ->
-  T_Monad'8242'_206 ->
-  () -> () -> (AgdaAny -> AgdaAny) -> AgdaAny -> AgdaAny
-d__'61''8810''8242'__256 ~v0 ~v1 ~v2 v3
-  = du__'61''8810''8242'__256 v3
-du__'61''8810''8242'__256 ::
-  T_Monad'8242'_206 ->
-  () -> () -> (AgdaAny -> AgdaAny) -> AgdaAny -> AgdaAny
-du__'61''8810''8242'__256 v0
-  = coe du__'61''8810''8242'__248 (coe v0)
--- Class.Monad.Core._._>=>′_
-d__'62''61''62''8242'__258 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  (() -> ()) ->
-  T_Monad'8242'_206 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  () ->
-  () ->
-  () ->
-  (AgdaAny -> AgdaAny) -> (AgdaAny -> AgdaAny) -> AgdaAny -> AgdaAny
-d__'62''61''62''8242'__258 ~v0 ~v1 ~v2 v3
-  = du__'62''61''62''8242'__258 v3
-du__'62''61''62''8242'__258 ::
-  T_Monad'8242'_206 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  () ->
-  () ->
-  () ->
-  (AgdaAny -> AgdaAny) -> (AgdaAny -> AgdaAny) -> AgdaAny -> AgdaAny
-du__'62''61''62''8242'__258 v0 v1 v2 v3 v4 v5 v6 v7
-  = coe du__'62''61''62''8242'__232 (coe v0) v5 v6 v7
--- Class.Monad.Core._._>>=′_
-d__'62''62''61''8242'__260 ::
-  T_Monad'8242'_206 ->
-  () -> () -> AgdaAny -> (AgdaAny -> AgdaAny) -> AgdaAny
-d__'62''62''61''8242'__260 v0
-  = coe d__'62''62''61''8242'__216 (coe v0)
--- Class.Monad.Core._._>>′_
-d__'62''62''8242'__262 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  (() -> ()) ->
-  T_Monad'8242'_206 -> () -> () -> AgdaAny -> AgdaAny -> AgdaAny
-d__'62''62''8242'__262 ~v0 ~v1 ~v2 v3 = du__'62''62''8242'__262 v3
-du__'62''62''8242'__262 ::
-  T_Monad'8242'_206 -> () -> () -> AgdaAny -> AgdaAny -> AgdaAny
-du__'62''62''8242'__262 v0 v1 v2 v3 v4
-  = coe du__'62''62''8242'__218 (coe v0) v3 v4
--- Class.Monad.Core._._≫=′_
-d__'8811''61''8242'__264 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  (() -> ()) ->
-  T_Monad'8242'_206 ->
-  () -> () -> AgdaAny -> (AgdaAny -> AgdaAny) -> AgdaAny
-d__'8811''61''8242'__264 ~v0 ~v1 ~v2 v3
-  = du__'8811''61''8242'__264 v3
-du__'8811''61''8242'__264 ::
-  T_Monad'8242'_206 ->
-  () -> () -> AgdaAny -> (AgdaAny -> AgdaAny) -> AgdaAny
-du__'8811''61''8242'__264 v0
-  = coe du__'8811''61''8242'__244 (coe v0)
--- Class.Monad.Core._._≫′_
-d__'8811''8242'__266 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  (() -> ()) ->
-  T_Monad'8242'_206 -> () -> () -> AgdaAny -> AgdaAny -> AgdaAny
-d__'8811''8242'__266 ~v0 ~v1 ~v2 v3 = du__'8811''8242'__266 v3
-du__'8811''8242'__266 ::
-  T_Monad'8242'_206 -> () -> () -> AgdaAny -> AgdaAny -> AgdaAny
-du__'8811''8242'__266 v0 = coe du__'8811''8242'__246 (coe v0)
--- Class.Monad.Core._.return′
-d_return'8242'_268 :: T_Monad'8242'_206 -> () -> AgdaAny -> AgdaAny
-d_return'8242'_268 v0 = coe d_return'8242'_214 (coe v0)
--- Class.Monad.Core.Monad₀
-d_Monad'8320'_272 a0 = ()
-data T_Monad'8320'_272
-  = C_Monad'8320''46'constructor_22937 T_Monad_22
-                                       MAlonzo.Code.Class.Applicative.Core.T_Applicative'8320'_96
--- Class.Monad.Core.Monad₀.isMonad
-d_isMonad_280 :: T_Monad'8320'_272 -> T_Monad_22
-d_isMonad_280 v0
-  = case coe v0 of
-      C_Monad'8320''46'constructor_22937 v1 v2 -> coe v1
-      _ -> MAlonzo.RTE.mazUnreachableError
--- Class.Monad.Core.Monad₀.isApplicative₀
-d_isApplicative'8320'_282 ::
-  T_Monad'8320'_272 ->
-  MAlonzo.Code.Class.Applicative.Core.T_Applicative'8320'_96
-d_isApplicative'8320'_282 v0
-  = case coe v0 of
-      C_Monad'8320''46'constructor_22937 v1 v2 -> coe v2
-      _ -> MAlonzo.RTE.mazUnreachableError
--- Class.Monad.Core.mkMonad₀
-d_mkMonad'8320'_286 ::
+  T_Monad_8 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> AgdaAny -> AgdaAny
+d_return'8868'_154 ~v0 v1 = du_return'8868'_154 v1
+du_return'8868'_154 ::
+  T_Monad_8 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> AgdaAny -> AgdaAny
+du_return'8868'_154 v0 v1 v2 v3
+  = coe du_return'8868'_98 (coe v0) v1 v3
+-- Class.Monad.Core._.traverseM
+d_traverseM_156 ::
   (MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()) ->
-  T_Monad_22 ->
-  MAlonzo.Code.Class.Applicative.Core.T_Applicative'8320'_96 ->
-  T_Monad'8320'_272
-d_mkMonad'8320'_286 ~v0 v1 v2 = du_mkMonad'8320'_286 v1 v2
-du_mkMonad'8320'_286 ::
-  T_Monad_22 ->
-  MAlonzo.Code.Class.Applicative.Core.T_Applicative'8320'_96 ->
-  T_Monad'8320'_272
-du_mkMonad'8320'_286 v0 v1
-  = coe C_Monad'8320''46'constructor_22937 (coe v0) (coe v1)
--- Class.Monad.Core.Monad⁺
-d_Monad'8314'_290 a0 = ()
-data T_Monad'8314'_290
-  = C_Monad'8314''46'constructor_23295 T_Monad_22
-                                       MAlonzo.Code.Class.Applicative.Core.T_Alternative_116
--- Class.Monad.Core.Monad⁺.isMonad
-d_isMonad_298 :: T_Monad'8314'_290 -> T_Monad_22
-d_isMonad_298 v0
-  = case coe v0 of
-      C_Monad'8314''46'constructor_23295 v1 v2 -> coe v1
-      _ -> MAlonzo.RTE.mazUnreachableError
--- Class.Monad.Core.Monad⁺.isAlternative
-d_isAlternative_300 ::
-  T_Monad'8314'_290 ->
-  MAlonzo.Code.Class.Applicative.Core.T_Alternative_116
-d_isAlternative_300 v0
-  = case coe v0 of
-      C_Monad'8314''46'constructor_23295 v1 v2 -> coe v2
-      _ -> MAlonzo.RTE.mazUnreachableError
--- Class.Monad.Core.mkMonad⁺
-d_mkMonad'8314'_304 ::
+  T_Monad_8 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  () ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  () ->
+  MAlonzo.Code.Class.Applicative.Core.T_Applicative_8 ->
+  T_Monad_8 -> (AgdaAny -> AgdaAny) -> [AgdaAny] -> AgdaAny
+d_traverseM_156 ~v0 v1 = du_traverseM_156 v1
+du_traverseM_156 ::
+  T_Monad_8 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  () ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  () ->
+  MAlonzo.Code.Class.Applicative.Core.T_Applicative_8 ->
+  T_Monad_8 -> (AgdaAny -> AgdaAny) -> [AgdaAny] -> AgdaAny
+du_traverseM_156 v0 v1 v2 v3 v4 v5 v6 v7
+  = coe du_traverseM_116 (coe v0) v1 v3 v5 v6 v7
+-- Class.Monad.Core._.void
+d_void_158 ::
   (MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()) ->
-  T_Monad_22 ->
-  MAlonzo.Code.Class.Applicative.Core.T_Alternative_116 ->
-  T_Monad'8314'_290
-d_mkMonad'8314'_304 ~v0 v1 v2 = du_mkMonad'8314'_304 v1 v2
-du_mkMonad'8314'_304 ::
-  T_Monad_22 ->
-  MAlonzo.Code.Class.Applicative.Core.T_Alternative_116 ->
-  T_Monad'8314'_290
-du_mkMonad'8314'_304 v0 v1
-  = coe C_Monad'8314''46'constructor_23295 (coe v0) (coe v1)
+  T_Monad_8 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> AgdaAny -> AgdaAny
+d_void_158 ~v0 v1 = du_void_158 v1
+du_void_158 ::
+  T_Monad_8 ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> AgdaAny -> AgdaAny
+du_void_158 v0 v1 v2 = coe du_void_100 (coe v0) v1

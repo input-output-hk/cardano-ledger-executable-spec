@@ -19,6 +19,8 @@ import qualified MAlonzo.RTE
 import qualified Data.Text
 import qualified MAlonzo.Code.Agda.Builtin.Sigma
 import qualified MAlonzo.Code.Axiom.Set
+import qualified MAlonzo.Code.Class.DecEq.Core
+import qualified MAlonzo.Code.Class.DecEq.Instances
 import qualified MAlonzo.Code.Data.List.Base
 import qualified MAlonzo.Code.Data.List.Membership.Propositional
 import qualified MAlonzo.Code.Data.List.Membership.Propositional.Properties
@@ -33,7 +35,6 @@ import qualified MAlonzo.Code.Function.Bundles
 import qualified MAlonzo.Code.Function.Properties.Bijection
 import qualified MAlonzo.Code.Function.Properties.Inverse
 import qualified MAlonzo.Code.Function.Related.Propositional
-import qualified MAlonzo.Code.Interface.DecEq
 import qualified MAlonzo.Code.Relation.Binary.PropositionalEquality.Properties
 import qualified MAlonzo.Code.Relation.Binary.Reasoning.Syntax
 import qualified MAlonzo.Code.Relation.Nullary.Decidable
@@ -183,34 +184,35 @@ d_List'45'Model'7584'_58
                       (coe (\ v3 -> v3))))))
 -- Axiom.Set.List.Decˡ._.Set
 d_Set_100 ::
-  () -> MAlonzo.Code.Interface.DecEq.T_DecEq_14 -> () -> ()
+  () -> MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 -> () -> ()
 d_Set_100 = erased
 -- Axiom.Set.List.Decˡ._∈?_
 d__'8712''63'__198 ::
   () ->
-  MAlonzo.Code.Interface.DecEq.T_DecEq_14 ->
+  MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   AgdaAny ->
   [AgdaAny] -> MAlonzo.Code.Relation.Nullary.Decidable.Core.T_Dec_20
 d__'8712''63'__198 ~v0 v1 v2 = du__'8712''63'__198 v1 v2
 du__'8712''63'__198 ::
-  MAlonzo.Code.Interface.DecEq.T_DecEq_14 ->
+  MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   AgdaAny ->
   [AgdaAny] -> MAlonzo.Code.Relation.Nullary.Decidable.Core.T_Dec_20
 du__'8712''63'__198 v0 v1
   = coe
       MAlonzo.Code.Data.List.Relation.Unary.Any.du_any'63'_138
-      (coe MAlonzo.Code.Interface.DecEq.d__'8799'__20 v0 v1)
+      (coe MAlonzo.Code.Class.DecEq.Core.d__'8799'__16 v0 v1)
 -- Axiom.Set.List.Decˡ.DecEq-Set
 d_DecEq'45'Set_204 ::
   () ->
-  MAlonzo.Code.Interface.DecEq.T_DecEq_14 ->
-  MAlonzo.Code.Interface.DecEq.T_DecEq_14
+  MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
+  MAlonzo.Code.Class.DecEq.Core.T_DecEq_10
 d_DecEq'45'Set_204 ~v0 v1 = du_DecEq'45'Set_204 v1
 du_DecEq'45'Set_204 ::
-  MAlonzo.Code.Interface.DecEq.T_DecEq_14 ->
-  MAlonzo.Code.Interface.DecEq.T_DecEq_14
+  MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
+  MAlonzo.Code.Class.DecEq.Core.T_DecEq_10
 du_DecEq'45'Set_204 v0
-  = coe MAlonzo.Code.Interface.DecEq.du_DecEq'45'List_36 (coe v0)
+  = coe
+      MAlonzo.Code.Class.DecEq.Instances.du_DecEq'45'List_58 (coe v0)
 -- Axiom.Set.List.List-Modelᵈ
 d_List'45'Model'7496'_206 ::
   MAlonzo.Code.Axiom.Set.T_Theory'7496'_1266

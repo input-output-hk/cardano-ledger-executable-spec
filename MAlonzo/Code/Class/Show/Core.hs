@@ -23,16 +23,42 @@ import qualified MAlonzo.Code.Agda.Primitive
 -- Class.Show.Core.Show
 d_Show_10 a0 a1 = ()
 newtype T_Show_10
-  = C_mkShow_20 (AgdaAny ->
+  = C_mkShow_18 (AgdaAny ->
                  MAlonzo.Code.Agda.Builtin.String.T_String_6)
 -- Class.Show.Core.Show.show
-d_show_18 ::
+d_show_16 ::
   T_Show_10 -> AgdaAny -> MAlonzo.Code.Agda.Builtin.String.T_String_6
-d_show_18 v0
+d_show_16 v0
   = case coe v0 of
-      C_mkShow_20 v1 -> coe v1
+      C_mkShow_18 v1 -> coe v1
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Class.Show.Core._.show
-d_show_24 ::
+d_show_22 ::
   T_Show_10 -> AgdaAny -> MAlonzo.Code.Agda.Builtin.String.T_String_6
-d_show_24 v0 = coe d_show_18 (coe v0)
+d_show_22 v0 = coe d_show_16 (coe v0)
+-- Class.Show.Core.Show¹
+d_Show'185'_24 ::
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  () ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 -> (AgdaAny -> ()) -> ()
+d_Show'185'_24 = erased
+-- Class.Show.Core.Show²
+d_Show'178'_26 ::
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  () ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  () ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  (AgdaAny -> AgdaAny -> ()) -> ()
+d_Show'178'_26 = erased
+-- Class.Show.Core.Show³
+d_Show'179'_28 ::
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  () ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  () ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  () ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  (AgdaAny -> AgdaAny -> AgdaAny -> ()) -> ()
+d_Show'179'_28 = erased
