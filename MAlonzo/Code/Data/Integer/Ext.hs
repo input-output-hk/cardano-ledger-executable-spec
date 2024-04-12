@@ -17,6 +17,7 @@ import MAlonzo.RTE (coe, erased, AgdaAny, addInt, subInt, mulInt,
                     rem64, lt64, eq64, word64FromNat, word64ToNat)
 import qualified MAlonzo.RTE
 import qualified Data.Text
+import qualified MAlonzo.Code.Agda.Builtin.Equality
 import qualified MAlonzo.Code.Agda.Builtin.Sigma
 import qualified MAlonzo.Code.Data.Integer.Base
 import qualified MAlonzo.Code.Data.Sign.Base
@@ -50,3 +51,8 @@ d_negPart_24 v0
                 MAlonzo.Code.Data.Sign.Base.C_'45'_8 -> coe v3
                 _ -> coe (0 :: Integer)
          _ -> MAlonzo.RTE.mazUnreachableError)
+-- Data.Integer.Ext.∸≡posPart⊖
+d_'8760''8801'posPart'8854'_42 ::
+  Integer ->
+  Integer -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
+d_'8760''8801'posPart'8854'_42 = erased

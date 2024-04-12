@@ -507,16 +507,23 @@ du_addValue_228 v0
       (coe
          MAlonzo.Code.Algebra.Bundles.d__'8729'__840
          (coe du_Value'45'CommutativeMonoid_124 (coe v0)))
+-- Ledger.TokenAlgebra.TokenAlgebra.coin-inject-lemma
+d_coin'45'inject'45'lemma_234 ::
+  () ->
+  T_TokenAlgebra_6 ->
+  AgdaAny ->
+  Integer -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
+d_coin'45'inject'45'lemma_234 = erased
 -- Ledger.TokenAlgebra.TokenAlgebra.sumᵛ
-d_sum'7515'_230 :: () -> T_TokenAlgebra_6 -> [AgdaAny] -> AgdaAny
-d_sum'7515'_230 ~v0 v1 v2 = du_sum'7515'_230 v1 v2
-du_sum'7515'_230 :: T_TokenAlgebra_6 -> [AgdaAny] -> AgdaAny
-du_sum'7515'_230 v0 v1
+d_sum'7515'_246 :: () -> T_TokenAlgebra_6 -> [AgdaAny] -> AgdaAny
+d_sum'7515'_246 ~v0 v1 v2 = du_sum'7515'_246 v1 v2
+du_sum'7515'_246 :: T_TokenAlgebra_6 -> [AgdaAny] -> AgdaAny
+du_sum'7515'_246 v0 v1
   = case coe v1 of
       [] -> coe d_inject_208 v0 (0 :: Integer)
       (:) v2 v3
         -> coe
              MAlonzo.Code.Algebra.Bundles.d__'8729'__840
              (coe du_Value'45'CommutativeMonoid_124 (coe v0)) v2
-             (coe du_sum'7515'_230 (coe v0) (coe v3))
+             (coe du_sum'7515'_246 (coe v0) (coe v3))
       _ -> MAlonzo.RTE.mazUnreachableError

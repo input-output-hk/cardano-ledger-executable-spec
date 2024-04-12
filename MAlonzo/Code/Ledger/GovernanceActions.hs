@@ -77,7 +77,7 @@ du_maximum_478 v0
       (coe MAlonzo.Code.Data.Rational.Base.d_0ℚ_178)
       (coe
          MAlonzo.Code.Agda.Builtin.Sigma.d_fst_28
-         (coe MAlonzo.Code.Ledger.Set.Theory.du_finiteness_212 v0))
+         (coe MAlonzo.Code.Ledger.Set.Theory.du_finiteness_214 v0))
 -- Ledger.GovernanceActions.GovRole
 d_GovRole_482 a0 = ()
 data T_GovRole_482 = C_CC_484 | C_DRep_486 | C_SPO_488
