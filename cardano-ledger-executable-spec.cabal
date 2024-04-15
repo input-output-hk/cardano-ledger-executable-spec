@@ -579,6 +579,7 @@ library
         MAlonzo.Code.Tactic.EquationalReasoning
         MAlonzo.Code.Tactic.Derive.DecEq
         MAlonzo.Code.Tactic.Derive.TestTypes
+        MAlonzo.Code.Tactic.GenError
         MAlonzo.Code.Tactic.ClauseBuilder
         MAlonzo.Code.Tactic.Cong
         MAlonzo.Code.Tactic.Defaults
