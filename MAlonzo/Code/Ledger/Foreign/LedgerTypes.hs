@@ -1202,8 +1202,7 @@ check_TriggerHF_384 ::
     () () Integer Integer ->
   T_GovAction_376
 check_TriggerHF_384 = TriggerHF
-check_ChangePParams_386 ::
-  MAlonzo.Code.Agda.Builtin.Unit.T_'8868'_6 -> T_GovAction_376
+check_ChangePParams_386 :: Integer -> T_GovAction_376
 check_ChangePParams_386 = ChangePParams
 check_TreasuryWdrl_388 ::
   MAlonzo.Code.Agda.Builtin.List.T_List_10
