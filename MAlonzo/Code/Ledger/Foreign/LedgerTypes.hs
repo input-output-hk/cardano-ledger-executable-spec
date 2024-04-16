@@ -53,6 +53,7 @@ type TxId    = Integer
 type Ix      = Integer
 type Epoch   = Integer
 type ScriptHash    = Integer
+type PParamsUpdate = Integer
 
 type AuxiliaryData = ()
 type DataHash      = ()
@@ -149,7 +150,7 @@ data PParams = MkPParams
   , drepActivity        :: Epoch
   , ccMinSize           :: Integer
   , ccMaxTermLength     :: Integer
-  , costmdls            :: AgdaEmpty
+  , costmdls            :: ()
   , prices              :: ()
   , maxTxExUnits        :: ExUnits
   , maxBlockExUnits     :: ExUnits
@@ -189,7 +190,7 @@ data GovAction
   | NewCommittee [(Credential, Epoch)] [Credential] Rational
   | NewConstitution DataHash (Maybe ScriptHash)
   | TriggerHF ProtVer
-  | ChangePParams ()
+  | ChangePParams PParamsUpdate
   | TreasuryWdrl [(RwdAddr, Coin)]
   | Info
 
@@ -734,7 +735,7 @@ check_PParams'46'constructor_2589 ::
   Integer ->
   Integer ->
   Integer ->
-  T_Empty_6 ->
+  MAlonzo.Code.Agda.Builtin.Unit.T_'8868'_6 ->
   MAlonzo.Code.Agda.Builtin.Unit.T_'8868'_6 ->
   MAlonzo.Code.Foreign.Haskell.Pair.T_Pair_22
     () () Integer Integer ->
@@ -877,7 +878,8 @@ d_ccMaxTermLength_296 v0
         -> coe v18
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Ledger.Foreign.LedgerTypes.PParams.costmdls
-d_costmdls_298 :: T_PParams_212 -> T_Empty_6
+d_costmdls_298 ::
+  T_PParams_212 -> MAlonzo.Code.Agda.Builtin.Unit.T_'8868'_6
 d_costmdls_298 v0
   = case coe v0 of
       C_PParams'46'constructor_2589 v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11 v12 v13 v14 v15 v16 v17 v18 v19 v20 v21 v22 v23 v24
