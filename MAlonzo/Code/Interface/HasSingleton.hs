@@ -24,39 +24,39 @@ import qualified MAlonzo.Code.Axiom.Set.Map
 d_Map_152 :: MAlonzo.Code.Axiom.Set.T_Theory_82 -> () -> () -> ()
 d_Map_152 = erased
 -- Interface.HasSingleton.HasSingleton
-d_HasSingleton_284 a0 a1 a2 = ()
-newtype T_HasSingleton_284
-  = C_HasSingleton'46'constructor_995 (AgdaAny -> AgdaAny)
+d_HasSingleton_286 a0 a1 a2 = ()
+newtype T_HasSingleton_286
+  = C_HasSingleton'46'constructor_1011 (AgdaAny -> AgdaAny)
 -- Interface.HasSingleton.HasSingleton.❴_❵
-d_'10100'_'10101'_292 :: T_HasSingleton_284 -> AgdaAny -> AgdaAny
-d_'10100'_'10101'_292 v0
+d_'10100'_'10101'_294 :: T_HasSingleton_286 -> AgdaAny -> AgdaAny
+d_'10100'_'10101'_294 v0
   = case coe v0 of
-      C_HasSingleton'46'constructor_995 v1 -> coe v1
+      C_HasSingleton'46'constructor_1011 v1 -> coe v1
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Interface.HasSingleton.HasSingletonSet-Set
-d_HasSingletonSet'45'Set_296 ::
-  MAlonzo.Code.Axiom.Set.T_Theory_82 -> () -> T_HasSingleton_284
-d_HasSingletonSet'45'Set_296 v0 ~v1
-  = du_HasSingletonSet'45'Set_296 v0
-du_HasSingletonSet'45'Set_296 ::
-  MAlonzo.Code.Axiom.Set.T_Theory_82 -> T_HasSingleton_284
-du_HasSingletonSet'45'Set_296 v0
+d_HasSingletonSet'45'Set_298 ::
+  MAlonzo.Code.Axiom.Set.T_Theory_82 -> () -> T_HasSingleton_286
+d_HasSingletonSet'45'Set_298 v0 ~v1
+  = du_HasSingletonSet'45'Set_298 v0
+du_HasSingletonSet'45'Set_298 ::
+  MAlonzo.Code.Axiom.Set.T_Theory_82 -> T_HasSingleton_286
+du_HasSingletonSet'45'Set_298 v0
   = coe
-      C_HasSingleton'46'constructor_995
+      C_HasSingleton'46'constructor_1011
       (coe MAlonzo.Code.Axiom.Set.du_'10100'_'10101'_434 v0 erased)
 -- Interface.HasSingleton.HasSingletonSet-Map
-d_HasSingletonSet'45'Map_302 ::
+d_HasSingletonSet'45'Map_304 ::
   MAlonzo.Code.Axiom.Set.T_Theory_82 ->
-  () -> () -> T_HasSingleton_284
-d_HasSingletonSet'45'Map_302 v0 ~v1 ~v2
-  = du_HasSingletonSet'45'Map_302 v0
-du_HasSingletonSet'45'Map_302 ::
-  MAlonzo.Code.Axiom.Set.T_Theory_82 -> T_HasSingleton_284
-du_HasSingletonSet'45'Map_302 v0
+  () -> () -> T_HasSingleton_286
+d_HasSingletonSet'45'Map_304 v0 ~v1 ~v2
+  = du_HasSingletonSet'45'Map_304 v0
+du_HasSingletonSet'45'Map_304 ::
+  MAlonzo.Code.Axiom.Set.T_Theory_82 -> T_HasSingleton_286
+du_HasSingletonSet'45'Map_304 v0
   = coe
-      C_HasSingleton'46'constructor_995
+      C_HasSingleton'46'constructor_1011
       (coe
-         MAlonzo.Code.Axiom.Set.Map.du_'10100'_'10101''7504'_678 (coe v0))
+         MAlonzo.Code.Axiom.Set.Map.du_'10100'_'10101''7504'_680 (coe v0))
 -- Interface.HasSingleton._.❴_❵
-d_'10100'_'10101'_306 :: T_HasSingleton_284 -> AgdaAny -> AgdaAny
-d_'10100'_'10101'_306 v0 = coe d_'10100'_'10101'_292 (coe v0)
+d_'10100'_'10101'_308 :: T_HasSingleton_286 -> AgdaAny -> AgdaAny
+d_'10100'_'10101'_308 v0 = coe d_'10100'_'10101'_294 (coe v0)

@@ -799,7 +799,7 @@ du_'8712''45'concatMap'738'_502 v0 v1 v2 v3
                      du_'8712''45'unions_422 (coe v0) (coe v2)
                      (coe du_map_380 v0 v3 v1)))
                (coe
-                  MAlonzo.Code.Data.Product.Properties.Ext.du_'8707''45'cong'8242'_46
+                  MAlonzo.Code.Data.Product.Properties.Ext.du_'8707''45'cong'8242'_54
                   (coe MAlonzo.Code.Function.Related.Propositional.C_equivalence_12)
                   (coe
                      (\ v4 ->
@@ -812,7 +812,7 @@ du_'8712''45'concatMap'738'_502 v0 v1 v2 v3
                              (coe
                                 MAlonzo.Code.Function.Related.Propositional.C_equivalence_12))))))
             (coe
-               MAlonzo.Code.Data.Product.Properties.Ext.du_'8707''45'cong'8242'_46
+               MAlonzo.Code.Data.Product.Properties.Ext.du_'8707''45'cong'8242'_54
                (coe MAlonzo.Code.Function.Related.Propositional.C_equivalence_12)
                (coe
                   (\ v4 ->
@@ -861,12 +861,12 @@ du_'8712''45'concatMap'738'_502 v0 v1 v2 v3
          (coe
             MAlonzo.Code.Data.Product.Properties.du_'8707''8707''8596''8707''8707'_250))
       (coe
-         MAlonzo.Code.Data.Product.Properties.Ext.du_'8707''45'cong'8242'_46
+         MAlonzo.Code.Data.Product.Properties.Ext.du_'8707''45'cong'8242'_54
          (coe MAlonzo.Code.Function.Related.Propositional.C_equivalence_12)
          (coe
             (\ v4 ->
                coe
-                 MAlonzo.Code.Data.Product.Properties.Ext.du_'8707''45''8801'_58
+                 MAlonzo.Code.Data.Product.Properties.Ext.du_'8707''45''8801'_66
                  (coe v3 v4))))
 -- Axiom.Set.Theory.mapPartial
 d_mapPartial_558 ::
@@ -924,7 +924,7 @@ du_'8712''45'mapPartial_568 v0 v1 v2 v3
             du_'8712''45'concatMap'738'_502 (coe v0) (coe v1) (coe v2)
             (coe du_partialToSet_454 (coe v0) (coe v3))))
       (coe
-         MAlonzo.Code.Data.Product.Properties.Ext.du_'8707''45'cong'8242'_46
+         MAlonzo.Code.Data.Product.Properties.Ext.du_'8707''45'cong'8242'_54
          (coe MAlonzo.Code.Function.Related.Propositional.C_equivalence_12)
          (coe
             (\ v4 ->

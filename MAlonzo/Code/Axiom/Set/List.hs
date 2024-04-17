@@ -151,7 +151,7 @@ d_'46'extendedlambda0_12
                             MAlonzo.Code.Data.List.Membership.Propositional.Properties.du_map'45''8712''8596'_176
                             (coe v3))))
                    (coe
-                      MAlonzo.Code.Data.Product.Properties.Ext.du_'8707''45'cong'8242'_46
+                      MAlonzo.Code.Data.Product.Properties.Ext.du_'8707''45'cong'8242'_54
                       (coe MAlonzo.Code.Function.Related.Propositional.C_equivalence_12)
                       (coe
                          (\ v5 ->

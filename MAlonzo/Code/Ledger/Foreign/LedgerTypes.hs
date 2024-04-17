@@ -30,7 +30,6 @@ import GHC.Generics (Generic)
 import Data.TreeDiff
 import Prelude hiding (Rational)
 data AgdaEmpty deriving (Show, Generic)
-instance ToExpr AgdaEmpty
 data ComputationResult e a = Success a | Failure e
   deriving (Functor, Eq, Show, Generic)
 
@@ -43,8 +42,6 @@ instance Monad (ComputationResult e) where
   return = pure
   (Success a) >>= m = m a
   (Failure e) >>= _ = Failure e
-
-instance (ToExpr e, ToExpr a) => ToExpr (ComputationResult e a)
 type Rational = (Integer, Integer)
 type Coin  = Integer
 type Addr  = Integer
@@ -69,7 +66,6 @@ type UTxO  = [(TxIn, TxOut)]
 type Hash  = Integer
 
 data Tag     = Spend | Mint | Cert | Rewrd | Vote | Propose deriving (Show, Generic)
-instance ToExpr Tag
 type RdmrPtr = (Tag, Ix)
 type ExUnits = (Integer, Integer)
 type ProtVer = (Integer, Integer)
@@ -78,7 +74,6 @@ data Credential
   = ScriptObj Integer
   | KeyHashObj Integer
   deriving (Show, Eq, Generic)
-instance ToExpr Credential
 type PoolParams = Credential
 type RwdAddr = (Network, Credential)
 
@@ -87,13 +82,11 @@ data GovRole
   | DRep
   | SPO
   deriving (Show, Eq, Generic)
-instance ToExpr GovRole
 data VDeleg
   = CredVoter GovRole Credential
   | AbstainRep
   | NoConfidenceRep
   deriving (Show, Eq, Generic)
-instance ToExpr VDeleg
 data TxCert
   = Delegate Credential (Maybe VDeleg) (Maybe Credential) Coin
   | Dereg Credential
@@ -103,7 +96,6 @@ data TxCert
   | DeRegDRep Credential
   | CCRegHot Credential (Maybe Credential)
   deriving (Show, Eq, Generic)
-instance ToExpr TxCert
 data TxBody = MkTxBody
   { txins  :: [TxIn]
   , refInputs :: [TxIn]
@@ -117,20 +109,17 @@ data TxBody = MkTxBody
   , scriptIntHash :: Maybe Hash
   , txcerts :: [TxCert]
   } deriving (Show, Generic)
-instance ToExpr TxBody
 data TxWitnesses = MkTxWitnesses
   { vkSigs  :: [(Integer, Integer)]
   , scripts :: [AgdaEmpty]
   , txdats  :: [(DataHash, Datum)]
   , txrdmrs :: [(RdmrPtr, (Redeemer, ExUnits))]
   } deriving (Show, Generic)
-instance ToExpr TxWitnesses
 data Tx = MkTx
   { body :: TxBody
   , wits :: TxWitnesses
   , txAD :: Maybe AuxiliaryData
   } deriving (Show, Generic)
-instance ToExpr Tx
 data PParams = MkPParams
   { a                   :: Integer
   , b                   :: Integer
@@ -157,17 +146,14 @@ data PParams = MkPParams
   , coinsPerUTxOWord    :: Coin
   , maxCollateralInputs :: Integer
   } deriving (Show, Generic)
-instance ToExpr PParams
 data UTxOEnv = MkUTxOEnv
   { slot    :: Integer
   , pparams :: PParams
   } deriving (Show, Generic)
-instance ToExpr UTxOEnv
 data UTxOState = MkUTxOState
   { utxo :: UTxO
   , fees :: Coin
   } deriving (Show, Generic)
-instance ToExpr UTxOState
 data EnactState = MkEnactState
   { esCC           :: (Maybe ([(Credential, Epoch)], Rational), GovActionID)
   , esConstitution :: ((DataHash, Maybe ScriptHash), GovActionID)

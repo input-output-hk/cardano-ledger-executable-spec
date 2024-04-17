@@ -785,49 +785,49 @@ d_'8712''45''8745'_170
 d__'8712'__174 ::
   () ->
   () ->
-  MAlonzo.Code.Interface.IsSet.T_IsSet_436 ->
+  MAlonzo.Code.Interface.IsSet.T_IsSet_438 ->
   AgdaAny -> AgdaAny -> ()
 d__'8712'__174 = erased
 -- Ledger.Set.Theory._._∉_
 d__'8713'__176 ::
   () ->
   () ->
-  MAlonzo.Code.Interface.IsSet.T_IsSet_436 ->
+  MAlonzo.Code.Interface.IsSet.T_IsSet_438 ->
   AgdaAny -> AgdaAny -> ()
 d__'8713'__176 = erased
 -- Ledger.Set.Theory._.All-syntax
 d_All'45'syntax_178 ::
   () ->
   () ->
-  MAlonzo.Code.Interface.IsSet.T_IsSet_436 ->
+  MAlonzo.Code.Interface.IsSet.T_IsSet_438 ->
   (AgdaAny -> ()) -> AgdaAny -> ()
 d_All'45'syntax_178 = erased
 -- Ledger.Set.Theory._.IsSet
 d_IsSet_180 a0 a1 = ()
 -- Ledger.Set.Theory._.IsSet-Map
 d_IsSet'45'Map_182 ::
-  () -> () -> MAlonzo.Code.Interface.IsSet.T_IsSet_436
+  () -> () -> MAlonzo.Code.Interface.IsSet.T_IsSet_438
 d_IsSet'45'Map_182 v0 v1
-  = coe MAlonzo.Code.Interface.IsSet.du_IsSet'45'Map_498
+  = coe MAlonzo.Code.Interface.IsSet.du_IsSet'45'Map_500
 -- Ledger.Set.Theory._.IsSet-Set
 d_IsSet'45'Set_184 ::
-  () -> MAlonzo.Code.Interface.IsSet.T_IsSet_436
+  () -> MAlonzo.Code.Interface.IsSet.T_IsSet_438
 d_IsSet'45'Set_184 v0
-  = coe MAlonzo.Code.Interface.IsSet.du_IsSet'45'Set_494
+  = coe MAlonzo.Code.Interface.IsSet.du_IsSet'45'Set_496
 -- Ledger.Set.Theory._.IsSet-TotalMap
 d_IsSet'45'TotalMap_186 ::
-  () -> () -> MAlonzo.Code.Interface.IsSet.T_IsSet_436
+  () -> () -> MAlonzo.Code.Interface.IsSet.T_IsSet_438
 d_IsSet'45'TotalMap_186 v0 v1
-  = coe MAlonzo.Code.Interface.IsSet.du_IsSet'45'TotalMap_500
+  = coe MAlonzo.Code.Interface.IsSet.du_IsSet'45'TotalMap_502
 -- Ledger.Set.Theory._.dom
 d_dom_188 ::
   () ->
   () ->
   () ->
-  MAlonzo.Code.Interface.IsSet.T_IsSet_436 -> AgdaAny -> [AgdaAny]
+  MAlonzo.Code.Interface.IsSet.T_IsSet_438 -> AgdaAny -> [AgdaAny]
 d_dom_188 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Interface.IsSet.du_dom_490
+      MAlonzo.Code.Interface.IsSet.du_dom_492
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v3 v4
@@ -836,37 +836,37 @@ d_range_190 ::
   () ->
   () ->
   () ->
-  MAlonzo.Code.Interface.IsSet.T_IsSet_436 -> AgdaAny -> [AgdaAny]
+  MAlonzo.Code.Interface.IsSet.T_IsSet_438 -> AgdaAny -> [AgdaAny]
 d_range_190 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Interface.IsSet.du_range_492
+      MAlonzo.Code.Interface.IsSet.du_range_494
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v3 v4
 -- Ledger.Set.Theory._.toSet
 d_toSet_192 ::
-  MAlonzo.Code.Interface.IsSet.T_IsSet_436 -> AgdaAny -> [AgdaAny]
+  MAlonzo.Code.Interface.IsSet.T_IsSet_438 -> AgdaAny -> [AgdaAny]
 d_toSet_192 v0
-  = coe MAlonzo.Code.Interface.IsSet.d_toSet_444 (coe v0)
+  = coe MAlonzo.Code.Interface.IsSet.d_toSet_446 (coe v0)
 -- Ledger.Set.Theory._.IsSet._∈_
 d__'8712'__196 ::
   () ->
   () ->
-  MAlonzo.Code.Interface.IsSet.T_IsSet_436 ->
+  MAlonzo.Code.Interface.IsSet.T_IsSet_438 ->
   AgdaAny -> AgdaAny -> ()
 d__'8712'__196 = erased
 -- Ledger.Set.Theory._.IsSet._∉_
 d__'8713'__198 ::
   () ->
   () ->
-  MAlonzo.Code.Interface.IsSet.T_IsSet_436 ->
+  MAlonzo.Code.Interface.IsSet.T_IsSet_438 ->
   AgdaAny -> AgdaAny -> ()
 d__'8713'__198 = erased
 -- Ledger.Set.Theory._.IsSet.toSet
 d_toSet_200 ::
-  MAlonzo.Code.Interface.IsSet.T_IsSet_436 -> AgdaAny -> [AgdaAny]
+  MAlonzo.Code.Interface.IsSet.T_IsSet_438 -> AgdaAny -> [AgdaAny]
 d_toSet_200 v0
-  = coe MAlonzo.Code.Interface.IsSet.d_toSet_444 (coe v0)
+  = coe MAlonzo.Code.Interface.IsSet.d_toSet_446 (coe v0)
 -- Ledger.Set.Theory._.card-≡ᵉ
 d_card'45''8801''7497'_204 ::
   () ->
@@ -902,22 +902,22 @@ d_length'738'_222 ::
   () ->
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
-  MAlonzo.Code.Interface.IsSet.T_IsSet_436 -> AgdaAny -> Integer
+  MAlonzo.Code.Interface.IsSet.T_IsSet_438 -> AgdaAny -> Integer
 d_length'738'_222 ~v0 ~v1 v2 v3 v4 = du_length'738'_222 v2 v3 v4
 du_length'738'_222 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
-  MAlonzo.Code.Interface.IsSet.T_IsSet_436 -> AgdaAny -> Integer
+  MAlonzo.Code.Interface.IsSet.T_IsSet_438 -> AgdaAny -> Integer
 du_length'738'_222 v0 v1 v2
   = coe
       MAlonzo.Code.Axiom.Set.du_length'738'_1006
       (coe d_List'45'Model'7584'_8) (coe v0)
-      (coe MAlonzo.Code.Interface.IsSet.d_toSet_444 v1 v2)
+      (coe MAlonzo.Code.Interface.IsSet.d_toSet_446 v1 v2)
 -- Ledger.Set.Theory.lengthˢ-≡ᵉ
 d_length'738''45''8801''7497'_236 ::
   () ->
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
-  MAlonzo.Code.Interface.IsSet.T_IsSet_436 ->
+  MAlonzo.Code.Interface.IsSet.T_IsSet_438 ->
   AgdaAny ->
   AgdaAny ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
@@ -975,7 +975,7 @@ d_dom'45'map'691''8838'_260 ::
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
 d_dom'45'map'691''8838'_260 v0 v1 v2 v3 v4 v5 v6
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_dom'45'map'691''8838'_446
+      MAlonzo.Code.Axiom.Set.Rel.du_dom'45'map'691''8838'_448
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v3 v4 v5 v6
@@ -989,7 +989,7 @@ d_dom'45''8709'_262 ::
    MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34) ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_dom'45''8709'_262 v0 v1 v2 v3
-  = coe MAlonzo.Code.Axiom.Set.Rel.du_dom'45''8709'_474
+  = coe MAlonzo.Code.Axiom.Set.Rel.du_dom'45''8709'_476
 -- Ledger.Set.Theory._.dom-⊆mapʳ
 d_dom'45''8838'map'691'_264 ::
   () ->
@@ -1002,7 +1002,7 @@ d_dom'45''8838'map'691'_264 ::
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
 d_dom'45''8838'map'691'_264 v0 v1 v2 v3 v4 v5 v6
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_dom'45''8838'map'691'_422
+      MAlonzo.Code.Axiom.Set.Rel.du_dom'45''8838'map'691'_424
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v3 v4 v5 v6
@@ -1014,7 +1014,7 @@ d_dom'8712'_266 ::
   AgdaAny -> MAlonzo.Code.Function.Bundles.T_Equivalence_1714
 d_dom'8712'_266 v0 v1 v2 v3
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_dom'8712'_394
+      MAlonzo.Code.Axiom.Set.Rel.du_dom'8712'_396
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v2 v3
@@ -1035,7 +1035,7 @@ d_impl'8658'cores'8838'_268 ::
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
 d_impl'8658'cores'8838'_268 v0 v1 v2 v3 v4 v5 v6 v7 v8 v9
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_impl'8658'cores'8838'_368
+      MAlonzo.Code.Axiom.Set.Rel.du_impl'8658'cores'8838'_370
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v2 v5 v6 v7 v8 v9
@@ -1056,7 +1056,7 @@ d_impl'8658'res'8838'_270 ::
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
 d_impl'8658'res'8838'_270 v0 v1 v2 v3 v4 v5 v6 v7 v8 v9
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_impl'8658'res'8838'_346
+      MAlonzo.Code.Axiom.Set.Rel.du_impl'8658'res'8838'_348
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v2 v5 v6 v7 v8 v9
@@ -1070,7 +1070,7 @@ d_mapMaybeWithKey_272 ::
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14]
 d_mapMaybeWithKey_272 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_mapMaybeWithKey_542
+      MAlonzo.Code.Axiom.Set.Rel.du_mapMaybeWithKey_544
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v3 v4
@@ -1083,7 +1083,7 @@ d_mapPartialLiftKey_274 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   Maybe MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_mapPartialLiftKey_274 v0 v1 v2 v3 v4
-  = coe MAlonzo.Code.Axiom.Set.Rel.du_mapPartialLiftKey_482 v3 v4
+  = coe MAlonzo.Code.Axiom.Set.Rel.du_mapPartialLiftKey_484 v3 v4
 -- Ledger.Set.Theory._.mapPartialLiftKey-map
 d_mapPartialLiftKey'45'map_276 ::
   () ->
@@ -1097,7 +1097,7 @@ d_mapPartialLiftKey'45'map_276 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_mapPartialLiftKey'45'map_276 v0 v1 v2 v3 v4 v5 v6 v7
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_mapPartialLiftKey'45'map_502
+      MAlonzo.Code.Axiom.Set.Rel.du_mapPartialLiftKey'45'map_504
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v3 v4 v5 v6 v7
@@ -1111,7 +1111,7 @@ d_map'691'_278 ::
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14]
 d_map'691'_278 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_map'691'_384
+      MAlonzo.Code.Axiom.Set.Rel.du_map'691'_386
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v3 v4
@@ -1124,7 +1124,7 @@ d_map'691''45'dom_280 ::
   (AgdaAny -> AgdaAny) -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_map'691''45'dom_280 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_map'691''45'dom_472
+      MAlonzo.Code.Axiom.Set.Rel.du_map'691''45'dom_474
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v3 v4
@@ -1138,7 +1138,7 @@ d_map'737'_282 ::
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14]
 d_map'737'_282 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_map'737'_378
+      MAlonzo.Code.Axiom.Set.Rel.du_map'737'_380
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v3 v4
@@ -1147,7 +1147,7 @@ d_related'737'_284 ::
   () -> () -> [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] -> [AgdaAny]
 d_related'737'_284 v0 v1
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_related'737'_306
+      MAlonzo.Code.Axiom.Set.Rel.du_related'737'_308
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
 -- Ledger.Set.Theory._.∅ʳ
@@ -1155,7 +1155,7 @@ d_'8709''691'_286 ::
   () -> () -> [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14]
 d_'8709''691'_286 v0 v1
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_'8709''691'_308
+      MAlonzo.Code.Axiom.Set.Rel.du_'8709''691'_310
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
 -- Ledger.Set.Theory._.∈-mapMaybeWithKey
@@ -1171,7 +1171,7 @@ d_'8712''45'mapMaybeWithKey_288 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_'8712''45'mapMaybeWithKey_288 v0 v1 v2 v3 v4 v5 v6 v7
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_'8712''45'mapMaybeWithKey_558
+      MAlonzo.Code.Axiom.Set.Rel.du_'8712''45'mapMaybeWithKey_560
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v3 v4 v5 v6 v7
@@ -1186,7 +1186,7 @@ d__'8638'__292 ::
   [AgdaAny] -> [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14]
 d__'8638'__292 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du__'8638'__908
+      MAlonzo.Code.Axiom.Set.Rel.du__'8638'__910
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v3 v4
@@ -1201,7 +1201,7 @@ d__'8638'_'7580'_294 ::
   [AgdaAny] -> [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14]
 d__'8638'_'7580'_294 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du__'8638'_'7580'_914
+      MAlonzo.Code.Axiom.Set.Rel.du__'8638'_'7580'_916
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v3 v4
@@ -1219,7 +1219,7 @@ d_coex'45''8838'_296 ::
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
 d_coex'45''8838'_296 v0 v1 v2 v3 v4 v5
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_coex'45''8838'_922
+      MAlonzo.Code.Axiom.Set.Rel.du_coex'45''8838'_924
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v3 v4 v5
@@ -1237,7 +1237,7 @@ d_cores'45''8838'_298 ::
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
 d_cores'45''8838'_298 v0 v1 v2 v3 v4 v5
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_cores'45''8838'_920
+      MAlonzo.Code.Axiom.Set.Rel.du_cores'45''8838'_922
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v3 v4 v5
@@ -1252,7 +1252,7 @@ d__'8739'__302 ::
   [AgdaAny] -> [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14]
 d__'8739'__302 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du__'8739'__574
+      MAlonzo.Code.Axiom.Set.Rel.du__'8739'__576
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v3 v4
@@ -1267,7 +1267,7 @@ d__'8739'_'7580'_304 ::
   [AgdaAny] -> [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14]
 d__'8739'_'7580'_304 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du__'8739'_'7580'_580
+      MAlonzo.Code.Axiom.Set.Rel.du__'8739'_'7580'_582
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v3 v4
@@ -1281,7 +1281,7 @@ d__'10218''36''10219'__306 ::
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] -> [AgdaAny] -> [AgdaAny]
 d__'10218''36''10219'__306 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du__'10218''36''10219'__586
+      MAlonzo.Code.Axiom.Set.Rel.du__'10218''36''10219'__588
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v3 v4
@@ -1297,7 +1297,7 @@ d_curry'691'_308 ::
   AgdaAny -> [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14]
 d_curry'691'_308 v0 v1 v2 v3 v4 v5
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_curry'691'_712
+      MAlonzo.Code.Axiom.Set.Rel.du_curry'691'_714
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v4 v5
@@ -1315,7 +1315,7 @@ d_ex'45''8838'_310 ::
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
 d_ex'45''8838'_310 v0 v1 v2 v3 v4 v5
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_ex'45''8838'_672
+      MAlonzo.Code.Axiom.Set.Rel.du_ex'45''8838'_674
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v3 v4 v5
@@ -1333,7 +1333,7 @@ d_res'45'comp'45'cong_312 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_res'45'comp'45'cong_312 v0 v1 v2 v3 v4 v5 v6
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_res'45'comp'45'cong_630
+      MAlonzo.Code.Axiom.Set.Rel.du_res'45'comp'45'cong_632
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v3 v4 v5 v6
@@ -1365,7 +1365,7 @@ d_res'45'comp'45'dom'7504'_316 ::
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
 d_res'45'comp'45'dom'7504'_316 v0 v1 v2 v3 v4 v5 v6
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_res'45'comp'45'dom'7504'_658
+      MAlonzo.Code.Axiom.Set.Rel.du_res'45'comp'45'dom'7504'_660
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v3 v4 v5 v6
@@ -1383,7 +1383,7 @@ d_res'45'cong_318 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_res'45'cong_318 v0 v1 v2 v3 v4 v5 v6
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_res'45'cong_594
+      MAlonzo.Code.Axiom.Set.Rel.du_res'45'cong_596
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v3 v4 v5 v6
@@ -1401,7 +1401,7 @@ d_res'45'dom_320 ::
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
 d_res'45'dom_320 v0 v1 v2 v3 v4 v5 v6
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_res'45'dom_604
+      MAlonzo.Code.Axiom.Set.Rel.du_res'45'dom_606
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v3 v4 v5 v6
@@ -1418,7 +1418,7 @@ d_res'45'dom'45'comm_322 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_res'45'dom'45'comm_322 v0 v1 v2 v3 v4 v5
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_res'45'dom'45'comm_852
+      MAlonzo.Code.Axiom.Set.Rel.du_res'45'dom'45'comm_854
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v4 v5
@@ -1435,7 +1435,7 @@ d_res'45'dom'45'comm''_324 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_res'45'dom'45'comm''_324 v0 v1 v2 v3 v4 v5
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_res'45'dom'45'comm''_846
+      MAlonzo.Code.Axiom.Set.Rel.du_res'45'dom'45'comm''_848
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v4 v5
@@ -1454,7 +1454,7 @@ d_res'45'dom'45'comm'8745''8838'_326 ::
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
 d_res'45'dom'45'comm'8745''8838'_326 v0 v1 v2 v3 v4 v5 v6 v7
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_res'45'dom'45'comm'8745''8838'_798
+      MAlonzo.Code.Axiom.Set.Rel.du_res'45'dom'45'comm'8745''8838'_800
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v4 v5 v6 v7
@@ -1473,7 +1473,7 @@ d_res'45'dom'45'comm'8838''8745'_328 ::
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
 d_res'45'dom'45'comm'8838''8745'_328 v0 v1 v2 v3 v4 v5 v6 v7
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_res'45'dom'45'comm'8838''8745'_790
+      MAlonzo.Code.Axiom.Set.Rel.du_res'45'dom'45'comm'8838''8745'_792
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v4 v5 v6 v7
@@ -1491,7 +1491,7 @@ d_res'45'dom'7504'_330 ::
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
 d_res'45'dom'7504'_330 v0 v1 v2 v3 v4 v5 v6
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_res'45'dom'7504'_616
+      MAlonzo.Code.Axiom.Set.Rel.du_res'45'dom'7504'_618
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v3 v4 v5 v6
@@ -1509,7 +1509,7 @@ d_res'45'ex'45'disj'45''8746'_332 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_res'45'ex'45'disj'45''8746'_332 v0 v1 v2 v3 v4 v5
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_res'45'ex'45'disj'45''8746'_704
+      MAlonzo.Code.Axiom.Set.Rel.du_res'45'ex'45'disj'45''8746'_706
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v2 v4 v5
@@ -1541,7 +1541,7 @@ d_res'45'ex'45''8746'_336 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_res'45'ex'45''8746'_336 v0 v1 v2 v3 v4 v5
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_res'45'ex'45''8746'_682
+      MAlonzo.Code.Axiom.Set.Rel.du_res'45'ex'45''8746'_684
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v2 v4 v5
@@ -1555,7 +1555,7 @@ d_res'45''8709'_338 ::
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_res'45''8709'_338 v0 v1 v2 v3
-  = coe MAlonzo.Code.Axiom.Set.Rel.du_res'45''8709'_674
+  = coe MAlonzo.Code.Axiom.Set.Rel.du_res'45''8709'_676
 -- Ledger.Set.Theory._.Restriction.res-∅ᶜ
 d_res'45''8709''7580'_340 ::
   () ->
@@ -1567,7 +1567,7 @@ d_res'45''8709''7580'_340 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_res'45''8709''7580'_340 v0 v1 v2 v3
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_res'45''8709''7580'_676
+      MAlonzo.Code.Axiom.Set.Rel.du_res'45''8709''7580'_678
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v3
@@ -1585,7 +1585,7 @@ d_res'45''8838'_342 ::
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
 d_res'45''8838'_342 v0 v1 v2 v3 v4 v5
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_res'45''8838'_670
+      MAlonzo.Code.Axiom.Set.Rel.du_res'45''8838'_672
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v3 v4 v5
@@ -1605,7 +1605,7 @@ d_'8712''45'curry'691'_344 ::
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
 d_'8712''45'curry'691'_344 v0 v1 v2 v3 v4 v5 v6 v7 v8
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_'8712''45'curry'691'_724
+      MAlonzo.Code.Axiom.Set.Rel.du_'8712''45'curry'691'_726
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v4 v5 v6 v7 v8
@@ -1616,16 +1616,16 @@ d__'738'_348 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14]
 d__'738'_348 v0 v1 v2
-  = coe MAlonzo.Code.Axiom.Set.Map.du__'738'_480 v2
+  = coe MAlonzo.Code.Axiom.Set.Map.du__'738'_482 v2
 -- Ledger.Set.Theory._._ᵐ
 d__'7504'_350 ::
   () ->
   () ->
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] ->
-  MAlonzo.Code.Axiom.Set.Map.T_IsLeftUnique_424 ->
+  MAlonzo.Code.Axiom.Set.Map.T_IsLeftUnique_426 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d__'7504'_350 v0 v1 v2 v3
-  = coe MAlonzo.Code.Axiom.Set.Map.du__'7504'_484 v2
+  = coe MAlonzo.Code.Axiom.Set.Map.du__'7504'_486 v2
 -- Ledger.Set.Theory._._↾'_
 d__'8638'''__352 ::
   () ->
@@ -1637,7 +1637,7 @@ d__'8638'''__352 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d__'8638'''__352 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du__'8638'''__986
+      MAlonzo.Code.Axiom.Set.Map.du__'8638'''__1054
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v3 v4
@@ -1655,7 +1655,7 @@ d__'8739'''__356 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d__'8739'''__356 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du__'8739'''__978
+      MAlonzo.Code.Axiom.Set.Map.du__'8739'''__1046
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v3 v4
@@ -1689,7 +1689,7 @@ d_constMap_368 ::
   [AgdaAny] -> AgdaAny -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_constMap_368 v0 v1 v2 v3
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du_constMap_992
+      MAlonzo.Code.Axiom.Set.Map.du_constMap_1060
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v2 v3
@@ -1719,7 +1719,7 @@ d_disj'45''8746'_372 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_disj'45''8746'_372 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du_disj'45''8746'_620
+      MAlonzo.Code.Axiom.Set.Map.du_disj'45''8746'_622
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v2 v3
@@ -1734,7 +1734,7 @@ d_filterKeys_374 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_filterKeys_374 v0 v1 v2 v3
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du_filterKeys_666
+      MAlonzo.Code.Axiom.Set.Map.du_filterKeys_668
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v3
@@ -1752,7 +1752,7 @@ d_filter'7504''45'finite_376 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_filter'7504''45'finite_376 v0 v1 v2 v3
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du_filter'7504''45'finite_662
+      MAlonzo.Code.Axiom.Set.Map.du_filter'7504''45'finite_664
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v2
@@ -1767,7 +1767,7 @@ d_filter'7504'_378 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_filter'7504'_378 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du_filter'7504'_652
+      MAlonzo.Code.Axiom.Set.Map.du_filter'7504'_654
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v3 v4
@@ -1780,7 +1780,7 @@ d_fromList'7504'_380 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_fromList'7504'_380 v0 v1 v2 v3
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du_fromList'7504'_514
+      MAlonzo.Code.Axiom.Set.Map.du_fromList'7504'_516
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v2 v3
@@ -1789,7 +1789,7 @@ d_idMap_382 ::
   () -> [AgdaAny] -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_idMap_382 v0 v1
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du_idMap_896
+      MAlonzo.Code.Axiom.Set.Map.du_idMap_972
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1
@@ -1818,7 +1818,7 @@ d_mapFromFun_388 ::
   [AgdaAny] -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_mapFromFun_388 v0 v1 v2 v3
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du_mapFromFun_908
+      MAlonzo.Code.Axiom.Set.Map.du_mapFromFun_976
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v2 v3
@@ -1838,7 +1838,7 @@ d_mapKeys_390 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_mapKeys_390 v0 v1 v2 v3 v4 v5
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du_mapKeys_854
+      MAlonzo.Code.Axiom.Set.Map.du_mapKeys_802
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v3 v4
@@ -1852,7 +1852,7 @@ d_mapMaybeWithKey'7504'_392 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_mapMaybeWithKey'7504'_392 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du_mapMaybeWithKey'7504'_1048
+      MAlonzo.Code.Axiom.Set.Map.du_mapMaybeWithKey'7504'_1116
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v3 v4
@@ -1906,7 +1906,7 @@ d_mapValues_398 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_mapValues_398 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du_mapValues_900
+      MAlonzo.Code.Axiom.Set.Map.du_mapValues_812
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v3 v4
@@ -1919,7 +1919,7 @@ d_mapValues'45'dom_400 ::
   (AgdaAny -> AgdaAny) -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_mapValues'45'dom_400 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du_mapValues'45'dom_974
+      MAlonzo.Code.Axiom.Set.Map.du_mapValues'45'dom_1042
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v3 v4
@@ -1933,7 +1933,7 @@ d_mapWithKey_402 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_mapWithKey_402 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du_mapWithKey_956
+      MAlonzo.Code.Axiom.Set.Map.du_mapWithKey_1024
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v3 v4
@@ -2037,7 +2037,7 @@ d_singleton'7504'_414 ::
   () -> AgdaAny -> AgdaAny -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_singleton'7504'_414 v0 v1 v2 v3
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du_singleton'7504'_670
+      MAlonzo.Code.Axiom.Set.Map.du_singleton'7504'_672
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v2 v3
@@ -2049,7 +2049,7 @@ d_toFinMap_416 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_toFinMap_416 v0 v1 v2 v3
-  = coe MAlonzo.Code.Axiom.Set.Map.du_toFinMap_542 v2 v3
+  = coe MAlonzo.Code.Axiom.Set.Map.du_toFinMap_544 v2 v3
 -- Ledger.Set.Theory._.toMap
 d_toMap_418 ::
   () ->
@@ -2057,7 +2057,7 @@ d_toMap_418 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_toMap_418 v0 v1 v2
-  = coe MAlonzo.Code.Axiom.Set.Map.du_toMap_550 v2
+  = coe MAlonzo.Code.Axiom.Set.Map.du_toMap_552 v2
 -- Ledger.Set.Theory._.toRel
 d_toRel_420 ::
   () ->
@@ -2065,7 +2065,7 @@ d_toRel_420 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14]
 d_toRel_420 v0 v1 v2
-  = coe MAlonzo.Code.Axiom.Set.Map.du_toRel_556 v2
+  = coe MAlonzo.Code.Axiom.Set.Map.du_toRel_558 v2
 -- Ledger.Set.Theory._.weaken-Injective
 d_weaken'45'Injective_422 ::
   () ->
@@ -2088,18 +2088,18 @@ d_'738''45'left'45'unique_424 ::
   () ->
   () ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
-  MAlonzo.Code.Axiom.Set.Map.T_IsLeftUnique_424
+  MAlonzo.Code.Axiom.Set.Map.T_IsLeftUnique_426
 d_'738''45'left'45'unique_424 = erased
 -- Ledger.Set.Theory._.∅-left-unique
 d_'8709''45'left'45'unique_426 ::
-  () -> () -> MAlonzo.Code.Axiom.Set.Map.T_IsLeftUnique_424
+  () -> () -> MAlonzo.Code.Axiom.Set.Map.T_IsLeftUnique_426
 d_'8709''45'left'45'unique_426 = erased
 -- Ledger.Set.Theory._.∅ᵐ
 d_'8709''7504'_428 ::
   () -> () -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_'8709''7504'_428 v0 v1
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du_'8709''7504'_510
+      MAlonzo.Code.Axiom.Set.Map.du_'8709''7504'_512
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
 -- Ledger.Set.Theory._.⊆-left-unique
@@ -2137,7 +2137,7 @@ d_'8838''45'map_432 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_'8838''45'map_432 v0 v1 v2 v3 v4
-  = coe MAlonzo.Code.Axiom.Set.Map.du_'8838''45'map_496 v2 v4
+  = coe MAlonzo.Code.Axiom.Set.Map.du_'8838''45'map_498 v2 v4
 -- Ledger.Set.Theory._.❴_❵ᵐ
 d_'10100'_'10101''7504'_434 ::
   () ->
@@ -2146,7 +2146,7 @@ d_'10100'_'10101''7504'_434 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_'10100'_'10101''7504'_434 v0 v1 v2
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du_'10100'_'10101''7504'_678
+      MAlonzo.Code.Axiom.Set.Map.du_'10100'_'10101''7504'_680
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v2
@@ -2160,7 +2160,7 @@ d__'8315''185'__438 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 -> AgdaAny -> [AgdaAny]
 d__'8315''185'__438 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du__'8315''185'__1408
+      MAlonzo.Code.Axiom.Set.Map.du__'8315''185'__1480
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v3 v4
@@ -2175,7 +2175,7 @@ d__'8638'__440 ::
   [AgdaAny] -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d__'8638'__440 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du__'8638'__1392
+      MAlonzo.Code.Axiom.Set.Map.du__'8638'__1464
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v3 v4
@@ -2190,7 +2190,7 @@ d__'8638'_'7580'_442 ::
   [AgdaAny] -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d__'8638'_'7580'_442 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du__'8638'_'7580'_1400
+      MAlonzo.Code.Axiom.Set.Map.du__'8638'_'7580'_1472
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v3 v4
@@ -2206,13 +2206,13 @@ d__'8745''7504'__446 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d__'8745''7504'__446 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du__'8745''7504'__610
+      MAlonzo.Code.Axiom.Set.Map.du__'8745''7504'__612
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v2 v3 v4
 -- Ledger.Set.Theory._.IsLeftUnique.isLeftUnique
 d_isLeftUnique_450 ::
-  MAlonzo.Code.Axiom.Set.Map.T_IsLeftUnique_424 ->
+  MAlonzo.Code.Axiom.Set.Map.T_IsLeftUnique_426 ->
   AgdaAny ->
   AgdaAny ->
   AgdaAny ->
@@ -2232,7 +2232,7 @@ d_lookup'7504'_454 ::
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 -> AgdaAny
 d_lookup'7504'_454 v0 v1 v2 v3 v4 v5
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du_lookup'7504'_1354
+      MAlonzo.Code.Axiom.Set.Map.du_lookup'7504'_1426
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v3 v4 v5
@@ -2248,7 +2248,7 @@ d_lookup'7504''63'_456 ::
   MAlonzo.Code.Class.Decidable.Core.T__'8263'_10 -> Maybe AgdaAny
 d_lookup'7504''63'_456 v0 v1 v2 v3 v4 v5
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du_lookup'7504''63'_1358
+      MAlonzo.Code.Axiom.Set.Map.du_lookup'7504''63'_1430
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v3 v4 v5
@@ -2266,7 +2266,7 @@ d_pullbackMap_458 ::
   [AgdaAny] -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_pullbackMap_458 v0 v1 v2 v3 v4 v5 v6 v7
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du_pullbackMap_1364
+      MAlonzo.Code.Axiom.Set.Map.du_pullbackMap_1436
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v4 v5 v6 v7
@@ -2281,7 +2281,7 @@ d__'8739'__462 ::
   [AgdaAny] -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d__'8739'__462 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du__'8739'__1120
+      MAlonzo.Code.Axiom.Set.Map.du__'8739'__1190
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v3 v4
@@ -2296,7 +2296,7 @@ d__'8739'_'7580'_464 ::
   [AgdaAny] -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d__'8739'_'7580'_464 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du__'8739'_'7580'_1128
+      MAlonzo.Code.Axiom.Set.Map.du__'8739'_'7580'_1198
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v3 v4
@@ -2312,7 +2312,7 @@ d__'10629'_'44''45''10630'_466 ::
   AgdaAny -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d__'10629'_'44''45''10630'_466 v0 v1
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du__'10629'_'44''45''10630'_1218
+      MAlonzo.Code.Axiom.Set.Map.du__'10629'_'44''45''10630'_1288
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1
@@ -2328,7 +2328,7 @@ d_curry'7504'_468 ::
   AgdaAny -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_curry'7504'_468 v0 v1 v2 v3 v4 v5
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du_curry'7504'_1156
+      MAlonzo.Code.Axiom.Set.Map.du_curry'7504'_1226
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v4 v5
@@ -2344,7 +2344,7 @@ d_mapSingleValue_470 ::
   AgdaAny -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_mapSingleValue_470 v0 v1 v2 v3 v4 v5
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du_mapSingleValue_1148
+      MAlonzo.Code.Axiom.Set.Map.du_mapSingleValue_1218
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v3 v4 v5
@@ -2360,7 +2360,7 @@ d_mapValueRestricted_472 ::
   [AgdaAny] -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_mapValueRestricted_472 v0 v1 v2 v3 v4 v5
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du_mapValueRestricted_1140
+      MAlonzo.Code.Axiom.Set.Map.du_mapValueRestricted_1210
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v3 v4 v5
@@ -2377,7 +2377,7 @@ d_res'45'singleton_474 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_res'45'singleton_474 v0 v1 v2 v3 v4 v5
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du_res'45'singleton_1170
+      MAlonzo.Code.Axiom.Set.Map.du_res'45'singleton_1240
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v3 v4 v5
@@ -2395,7 +2395,7 @@ d_res'45'singleton''_476 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_res'45'singleton''_476 v0 v1 v2 v3 v4 v5 v6
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du_res'45'singleton''_1206
+      MAlonzo.Code.Axiom.Set.Map.du_res'45'singleton''_1276
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v3 v4 v5 v6
@@ -2410,7 +2410,7 @@ d_res'7504''45''8709''7580'_478 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_res'7504''45''8709''7580'_478 v0 v1 v2 v3
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du_res'7504''45''8709''7580'_1138
+      MAlonzo.Code.Axiom.Set.Map.du_res'7504''45''8709''7580'_1208
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v3
@@ -2427,7 +2427,7 @@ d_update_480 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_update_480 v0 v1 v2 v3 v4 v5
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du_update_1220
+      MAlonzo.Code.Axiom.Set.Map.du_update_1290
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v3 v4 v5
@@ -2443,7 +2443,7 @@ d__'8746''737'__484 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d__'8746''737'__484 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du__'8746''737'__696
+      MAlonzo.Code.Axiom.Set.Map.du__'8746''737'__832
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v3 v4
@@ -2459,12 +2459,34 @@ d__'8746''737'''__486 ::
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14]
 d__'8746''737'''__486 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du__'8746''737'''__690
+      MAlonzo.Code.Axiom.Set.Map.du__'8746''737'''__826
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v3 v4
+-- Ledger.Set.Theory._.Unionᵐ.disjoint-∪ˡ-mapValues
+d_disjoint'45''8746''737''45'mapValues_488 ::
+  () ->
+  ([AgdaAny] ->
+   AgdaAny ->
+   MAlonzo.Code.Relation.Nullary.Decidable.Core.T_Dec_20) ->
+  () ->
+  () ->
+  MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
+  MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
+  (AgdaAny -> AgdaAny) ->
+  (AgdaAny ->
+   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
+   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
+   MAlonzo.Code.Data.Irrelevant.T_Irrelevant_20) ->
+  MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
+d_disjoint'45''8746''737''45'mapValues_488 v0 v1 v2 v3 v4 v5 v6 v7
+  = coe
+      MAlonzo.Code.Axiom.Set.Map.du_disjoint'45''8746''737''45'mapValues_882
+      (coe
+         MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
+      v1 v4 v5 v6
 -- Ledger.Set.Theory._.Unionᵐ.disjoint-∪ˡ-∪
-d_disjoint'45''8746''737''45''8746'_488 ::
+d_disjoint'45''8746''737''45''8746'_490 ::
   () ->
   ([AgdaAny] ->
    AgdaAny ->
@@ -2477,14 +2499,14 @@ d_disjoint'45''8746''737''45''8746'_488 ::
    MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
    MAlonzo.Code.Data.Irrelevant.T_Irrelevant_20) ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_disjoint'45''8746''737''45''8746'_488 v0 v1 v2 v3 v4 v5
+d_disjoint'45''8746''737''45''8746'_490 v0 v1 v2 v3 v4 v5
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du_disjoint'45''8746''737''45''8746'_710
+      MAlonzo.Code.Axiom.Set.Map.du_disjoint'45''8746''737''45''8746'_846
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v3 v4 v5
 -- Ledger.Set.Theory._.Unionᵐ.insert
-d_insert_490 ::
+d_insert_492 ::
   () ->
   ([AgdaAny] ->
    AgdaAny ->
@@ -2492,14 +2514,14 @@ d_insert_490 ::
   () ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   AgdaAny -> AgdaAny -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_insert_490 v0 v1 v2 v3 v4 v5
+d_insert_492 v0 v1 v2 v3 v4 v5
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du_insert_718
+      MAlonzo.Code.Axiom.Set.Map.du_insert_854
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v3 v4 v5
 -- Ledger.Set.Theory._.Unionᵐ.insertIfJust
-d_insertIfJust_492 ::
+d_insertIfJust_494 ::
   () ->
   ([AgdaAny] ->
    AgdaAny ->
@@ -2510,20 +2532,20 @@ d_insertIfJust_492 ::
   Maybe AgdaAny ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_insertIfJust_492 v0 v1 v2 v3 v4 v5 v6
+d_insertIfJust_494 v0 v1 v2 v3 v4 v5 v6
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du_insertIfJust_726
+      MAlonzo.Code.Axiom.Set.Map.du_insertIfJust_862
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v4 v5 v6
 -- Ledger.Set.Theory._.TotalMap
-d_TotalMap_496 a0 a1 = ()
+d_TotalMap_498 a0 a1 = ()
 -- Ledger.Set.Theory._.total
-d_total_498 ::
+d_total_500 ::
   () -> () -> [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] -> ()
-d_total_498 = erased
+d_total_500 = erased
 -- Ledger.Set.Theory._.FunTot.Fun⇒Map
-d_Fun'8658'Map_502 ::
+d_Fun'8658'Map_504 ::
   () ->
   [AgdaAny] ->
   (AgdaAny -> MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34) ->
@@ -2531,28 +2553,28 @@ d_Fun'8658'Map_502 ::
   () ->
   (AgdaAny -> AgdaAny) ->
   [AgdaAny] -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_Fun'8658'Map_502 v0 v1 v2 v3 v4 v5 v6
+d_Fun'8658'Map_504 v0 v1 v2 v3 v4 v5 v6
   = coe
       MAlonzo.Code.Axiom.Set.TotalMap.du_Fun'8658'Map_214
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v5 v6
 -- Ledger.Set.Theory._.FunTot.Fun⇒TotalMap
-d_Fun'8658'TotalMap_504 ::
+d_Fun'8658'TotalMap_506 ::
   () ->
   [AgdaAny] ->
   (AgdaAny -> MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34) ->
   () ->
   (AgdaAny -> AgdaAny) ->
   MAlonzo.Code.Axiom.Set.TotalMap.T_TotalMap_54
-d_Fun'8658'TotalMap_504 v0 v1 v2 v3 v4
+d_Fun'8658'TotalMap_506 v0 v1 v2 v3 v4
   = coe
       MAlonzo.Code.Axiom.Set.TotalMap.du_Fun'8658'TotalMap_224
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v2 v4
 -- Ledger.Set.Theory._.FunTot.Fun∈TotalMap
-d_Fun'8712'TotalMap_506 ::
+d_Fun'8712'TotalMap_508 ::
   () ->
   [AgdaAny] ->
   (AgdaAny -> MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34) ->
@@ -2561,23 +2583,23 @@ d_Fun'8712'TotalMap_506 ::
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-d_Fun'8712'TotalMap_506 v0 v1 v2 v3 v4 v5 v6
+d_Fun'8712'TotalMap_508 v0 v1 v2 v3 v4 v5 v6
   = coe
       MAlonzo.Code.Axiom.Set.TotalMap.du_Fun'8712'TotalMap_234
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v4 v5 v6
 -- Ledger.Set.Theory._.FunTot.lookup∘Fun⇒TotalMap-id
-d_lookup'8728'Fun'8658'TotalMap'45'id_508 ::
+d_lookup'8728'Fun'8658'TotalMap'45'id_510 ::
   () ->
   [AgdaAny] ->
   (AgdaAny -> MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34) ->
   () ->
   (AgdaAny -> AgdaAny) ->
   AgdaAny -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_lookup'8728'Fun'8658'TotalMap'45'id_508 = erased
+d_lookup'8728'Fun'8658'TotalMap'45'id_510 = erased
 -- Ledger.Set.Theory._.LookupUpdate.lookup-update-id
-d_lookup'45'update'45'id_512 ::
+d_lookup'45'update'45'id_514 ::
   () ->
   () ->
   [AgdaAny] ->
@@ -2587,9 +2609,9 @@ d_lookup'45'update'45'id_512 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   MAlonzo.Code.Axiom.Set.TotalMap.T_TotalMap_54 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_lookup'45'update'45'id_512 = erased
+d_lookup'45'update'45'id_514 = erased
 -- Ledger.Set.Theory._.LookupUpdate.∈-rel-update
-d_'8712''45'rel'45'update_514 ::
+d_'8712''45'rel'45'update_516 ::
   () ->
   () ->
   [AgdaAny] ->
@@ -2599,14 +2621,14 @@ d_'8712''45'rel'45'update_514 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   MAlonzo.Code.Axiom.Set.TotalMap.T_TotalMap_54 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-d_'8712''45'rel'45'update_514 v0 v1 v2 v3 v4 v5 v6 v7
+d_'8712''45'rel'45'update_516 v0 v1 v2 v3 v4 v5 v6 v7
   = coe
       MAlonzo.Code.Axiom.Set.TotalMap.du_'8712''45'rel'45'update_188
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v3 v5 v6 v7
 -- Ledger.Set.Theory._.TotalMap.left-unique-rel
-d_left'45'unique'45'rel_518 ::
+d_left'45'unique'45'rel_520 ::
   MAlonzo.Code.Axiom.Set.TotalMap.T_TotalMap_54 ->
   AgdaAny ->
   AgdaAny ->
@@ -2614,52 +2636,52 @@ d_left'45'unique'45'rel_518 ::
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_left'45'unique'45'rel_518 = erased
+d_left'45'unique'45'rel_520 = erased
 -- Ledger.Set.Theory._.TotalMap.lookup
-d_lookup_520 ::
+d_lookup_522 ::
   () ->
   () ->
   MAlonzo.Code.Axiom.Set.TotalMap.T_TotalMap_54 -> AgdaAny -> AgdaAny
-d_lookup_520 v0 v1 v2 v3
+d_lookup_522 v0 v1 v2 v3
   = coe
       MAlonzo.Code.Axiom.Set.TotalMap.du_lookup_74
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v2 v3
 -- Ledger.Set.Theory._.TotalMap.lookup∈rel
-d_lookup'8712'rel_522 ::
+d_lookup'8712'rel_524 ::
   () ->
   () ->
   MAlonzo.Code.Axiom.Set.TotalMap.T_TotalMap_54 ->
   AgdaAny -> MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-d_lookup'8712'rel_522 v0 v1 v2 v3
+d_lookup'8712'rel_524 v0 v1 v2 v3
   = coe
       MAlonzo.Code.Axiom.Set.TotalMap.du_lookup'8712'rel_78
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v2 v3
 -- Ledger.Set.Theory._.TotalMap.rel
-d_rel_524 ::
+d_rel_526 ::
   MAlonzo.Code.Axiom.Set.TotalMap.T_TotalMap_54 ->
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14]
-d_rel_524 v0
+d_rel_526 v0
   = coe MAlonzo.Code.Axiom.Set.TotalMap.d_rel_66 (coe v0)
 -- Ledger.Set.Theory._.TotalMap.toMap
-d_toMap_526 ::
+d_toMap_528 ::
   () ->
   () ->
   MAlonzo.Code.Axiom.Set.TotalMap.T_TotalMap_54 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_toMap_526 v0 v1 v2
+d_toMap_528 v0 v1 v2
   = coe MAlonzo.Code.Axiom.Set.TotalMap.du_toMap_72 v2
 -- Ledger.Set.Theory._.TotalMap.total-rel
-d_total'45'rel_528 ::
+d_total'45'rel_530 ::
   MAlonzo.Code.Axiom.Set.TotalMap.T_TotalMap_54 ->
   AgdaAny -> MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-d_total'45'rel_528 v0
+d_total'45'rel_530 v0
   = coe MAlonzo.Code.Axiom.Set.TotalMap.d_total'45'rel_70 (coe v0)
 -- Ledger.Set.Theory._.TotalMap.∈-rel⇒lookup-≡
-d_'8712''45'rel'8658'lookup'45''8801'_530 ::
+d_'8712''45'rel'8658'lookup'45''8801'_532 ::
   () ->
   () ->
   MAlonzo.Code.Axiom.Set.TotalMap.T_TotalMap_54 ->
@@ -2667,9 +2689,9 @@ d_'8712''45'rel'8658'lookup'45''8801'_530 ::
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8712''45'rel'8658'lookup'45''8801'_530 = erased
+d_'8712''45'rel'8658'lookup'45''8801'_532 = erased
 -- Ledger.Set.Theory._.Update.mapWithKey
-d_mapWithKey_534 ::
+d_mapWithKey_536 ::
   () ->
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
@@ -2677,14 +2699,14 @@ d_mapWithKey_534 ::
   (AgdaAny -> AgdaAny -> AgdaAny) ->
   MAlonzo.Code.Axiom.Set.TotalMap.T_TotalMap_54 ->
   MAlonzo.Code.Axiom.Set.TotalMap.T_TotalMap_54
-d_mapWithKey_534 v0 v1 v2 v3 v4 v5
+d_mapWithKey_536 v0 v1 v2 v3 v4 v5
   = coe
       MAlonzo.Code.Axiom.Set.TotalMap.du_mapWithKey_148
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v4 v5
 -- Ledger.Set.Theory._.Update.update
-d_update_536 ::
+d_update_538 ::
   () ->
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
@@ -2692,23 +2714,23 @@ d_update_536 ::
   AgdaAny ->
   MAlonzo.Code.Axiom.Set.TotalMap.T_TotalMap_54 ->
   MAlonzo.Code.Axiom.Set.TotalMap.T_TotalMap_54
-d_update_536 v0 v1 v2 v3 v4
+d_update_538 v0 v1 v2 v3 v4
   = coe
       MAlonzo.Code.Axiom.Set.TotalMap.du_update_164
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v2 v3 v4
 -- Ledger.Set.Theory._.Update.updateFn-id
-d_updateFn'45'id_538 ::
+d_updateFn'45'id_540 ::
   () ->
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   AgdaAny ->
   AgdaAny ->
   AgdaAny -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_updateFn'45'id_538 = erased
+d_updateFn'45'id_540 = erased
 -- Ledger.Set.Theory._.fold-cong↭
-d_fold'45'cong'8621'_570 ::
+d_fold'45'cong'8621'_572 ::
   MAlonzo.Code.Algebra.Bundles.T_CommutativeMonoid_820 ->
   () ->
   (AgdaAny -> AgdaAny) ->
@@ -2716,21 +2738,21 @@ d_fold'45'cong'8621'_570 ::
   [AgdaAny] ->
   MAlonzo.Code.Data.List.Relation.Binary.Permutation.Propositional.T__'8621'__16 ->
   AgdaAny
-d_fold'45'cong'8621'_570 v0 v1 v2 v3 v4 v5
+d_fold'45'cong'8621'_572 v0 v1 v2 v3 v4 v5
   = coe
-      MAlonzo.Code.Axiom.Set.Sum.du_fold'45'cong'8621'_712 (coe v0) v2 v3
+      MAlonzo.Code.Axiom.Set.Sum.du_fold'45'cong'8621'_716 (coe v0) v2 v3
       v4 v5
 -- Ledger.Set.Theory._.indexedSum
-d_indexedSum_572 ::
+d_indexedSum_574 ::
   MAlonzo.Code.Algebra.Bundles.T_CommutativeMonoid_820 ->
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   (AgdaAny -> AgdaAny) ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 -> AgdaAny
-d_indexedSum_572 v0 v1 v2 v3
-  = coe MAlonzo.Code.Axiom.Set.Sum.du_indexedSum_734 (coe v0) v2 v3
+d_indexedSum_574 v0 v1 v2 v3
+  = coe MAlonzo.Code.Axiom.Set.Sum.du_indexedSum_738 (coe v0) v2 v3
 -- Ledger.Set.Theory._.indexedSum-cong
-d_indexedSum'45'cong_574 ::
+d_indexedSum'45'cong_576 ::
   MAlonzo.Code.Algebra.Bundles.T_CommutativeMonoid_820 ->
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
@@ -2738,47 +2760,47 @@ d_indexedSum'45'cong_574 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 -> AgdaAny
-d_indexedSum'45'cong_574 v0 v1 v2 v3 v4 v5
+d_indexedSum'45'cong_576 v0 v1 v2 v3 v4 v5
   = coe
-      MAlonzo.Code.Axiom.Set.Sum.du_indexedSum'45'cong_836 (coe v0) v2 v3
+      MAlonzo.Code.Axiom.Set.Sum.du_indexedSum'45'cong_840 (coe v0) v2 v3
       v4 v5
 -- Ledger.Set.Theory._.indexedSum-singleton
-d_indexedSum'45'singleton_576 ::
+d_indexedSum'45'singleton_578 ::
   MAlonzo.Code.Algebra.Bundles.T_CommutativeMonoid_820 ->
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   (AgdaAny -> AgdaAny) -> AgdaAny -> AgdaAny
-d_indexedSum'45'singleton_576 v0 v1 v2 v3 v4
+d_indexedSum'45'singleton_578 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Sum.du_indexedSum'45'singleton_864 (coe v0)
+      MAlonzo.Code.Axiom.Set.Sum.du_indexedSum'45'singleton_868 (coe v0)
       v3 v4
 -- Ledger.Set.Theory._.indexedSum-singleton'
-d_indexedSum'45'singleton''_578 ::
+d_indexedSum'45'singleton''_580 ::
   MAlonzo.Code.Algebra.Bundles.T_CommutativeMonoid_820 ->
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   (AgdaAny -> AgdaAny) ->
   AgdaAny -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 -> AgdaAny
-d_indexedSum'45'singleton''_578 v0 v1 v2 v3 v4 v5
+d_indexedSum'45'singleton''_580 v0 v1 v2 v3 v4 v5
   = coe
-      MAlonzo.Code.Axiom.Set.Sum.du_indexedSum'45'singleton''_870
+      MAlonzo.Code.Axiom.Set.Sum.du_indexedSum'45'singleton''_874
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe v0) v2 v3 v4 v5
 -- Ledger.Set.Theory._.indexedSum-∅
-d_indexedSum'45''8709'_580 ::
+d_indexedSum'45''8709'_582 ::
   MAlonzo.Code.Algebra.Bundles.T_CommutativeMonoid_820 ->
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   (AgdaAny -> AgdaAny) -> AgdaAny
-d_indexedSum'45''8709'_580 v0 v1 v2 v3
+d_indexedSum'45''8709'_582 v0 v1 v2 v3
   = coe
-      MAlonzo.Code.Axiom.Set.Sum.du_indexedSum'45''8709'_842
+      MAlonzo.Code.Axiom.Set.Sum.du_indexedSum'45''8709'_846
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe v0) v2 v3
 -- Ledger.Set.Theory._.indexedSum-∪
-d_indexedSum'45''8746'_582 ::
+d_indexedSum'45''8746'_584 ::
   MAlonzo.Code.Algebra.Bundles.T_CommutativeMonoid_820 ->
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
@@ -2792,35 +2814,35 @@ d_indexedSum'45''8746'_582 ::
    MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
    MAlonzo.Code.Data.Irrelevant.T_Irrelevant_20) ->
   AgdaAny
-d_indexedSum'45''8746'_582 v0 v1 v2 v3 v4 v5 v6 v7 v8
+d_indexedSum'45''8746'_584 v0 v1 v2 v3 v4 v5 v6 v7 v8
   = coe
-      MAlonzo.Code.Axiom.Set.Sum.du_indexedSum'45''8746'_848 (coe v0) v2
+      MAlonzo.Code.Axiom.Set.Sum.du_indexedSum'45''8746'_852 (coe v0) v2
       v3 v6 v7
 -- Ledger.Set.Theory._.indexedSumL
-d_indexedSumL_584 ::
+d_indexedSumL_586 ::
   MAlonzo.Code.Algebra.Bundles.T_CommutativeMonoid_820 ->
   () -> (AgdaAny -> AgdaAny) -> [AgdaAny] -> AgdaAny
-d_indexedSumL_584 v0 v1 v2
-  = coe MAlonzo.Code.Axiom.Set.Sum.du_indexedSumL_688 (coe v0) v2
+d_indexedSumL_586 v0 v1 v2
+  = coe MAlonzo.Code.Axiom.Set.Sum.du_indexedSumL_692 (coe v0) v2
 -- Ledger.Set.Theory._.indexedSumL'
-d_indexedSumL''_586 ::
+d_indexedSumL''_588 ::
   MAlonzo.Code.Algebra.Bundles.T_CommutativeMonoid_820 ->
   () ->
   (AgdaAny -> AgdaAny) ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 -> AgdaAny
-d_indexedSumL''_586 v0 v1 v2 v3
+d_indexedSumL''_588 v0 v1 v2 v3
   = coe
-      MAlonzo.Code.Axiom.Set.Sum.du_indexedSumL''_696 (coe v0) v2 v3
+      MAlonzo.Code.Axiom.Set.Sum.du_indexedSumL''_700 (coe v0) v2 v3
 -- Ledger.Set.Theory._.indexedSumL-++
-d_indexedSumL'45''43''43'_588 ::
+d_indexedSumL'45''43''43'_590 ::
   MAlonzo.Code.Algebra.Bundles.T_CommutativeMonoid_820 ->
   () -> (AgdaAny -> AgdaAny) -> [AgdaAny] -> [AgdaAny] -> AgdaAny
-d_indexedSumL'45''43''43'_588 v0 v1 v2 v3 v4
+d_indexedSumL'45''43''43'_590 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Sum.du_indexedSumL'45''43''43'_760 (coe v0)
+      MAlonzo.Code.Axiom.Set.Sum.du_indexedSumL'45''43''43'_764 (coe v0)
       v2 v3 v4
 -- Ledger.Set.Theory._.indexedSumᵐ
-d_indexedSum'7504'_590 ::
+d_indexedSum'7504'_592 ::
   MAlonzo.Code.Algebra.Bundles.T_CommutativeMonoid_820 ->
   () ->
   () ->
@@ -2828,12 +2850,12 @@ d_indexedSum'7504'_590 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   (MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 -> AgdaAny) ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 -> AgdaAny
-d_indexedSum'7504'_590 v0 v1 v2 v3 v4 v5 v6
+d_indexedSum'7504'_592 v0 v1 v2 v3 v4 v5 v6
   = coe
-      MAlonzo.Code.Axiom.Set.Sum.du_indexedSum'7504'_904 (coe v0) v3 v4
+      MAlonzo.Code.Axiom.Set.Sum.du_indexedSum'7504'_908 (coe v0) v3 v4
       v5 v6
 -- Ledger.Set.Theory._.indexedSumᵐ-cong
-d_indexedSum'7504''45'cong_592 ::
+d_indexedSum'7504''45'cong_594 ::
   MAlonzo.Code.Algebra.Bundles.T_CommutativeMonoid_820 ->
   () ->
   () ->
@@ -2843,12 +2865,12 @@ d_indexedSum'7504''45'cong_592 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 -> AgdaAny
-d_indexedSum'7504''45'cong_592 v0 v1 v2 v3 v4 v5 v6 v7
+d_indexedSum'7504''45'cong_594 v0 v1 v2 v3 v4 v5 v6 v7
   = coe
-      MAlonzo.Code.Axiom.Set.Sum.du_indexedSum'7504''45'cong_918 (coe v0)
+      MAlonzo.Code.Axiom.Set.Sum.du_indexedSum'7504''45'cong_922 (coe v0)
       v3 v4 v5 v6 v7
 -- Ledger.Set.Theory._.indexedSumᵛ
-d_indexedSum'7515'_594 ::
+d_indexedSum'7515'_596 ::
   MAlonzo.Code.Algebra.Bundles.T_CommutativeMonoid_820 ->
   () ->
   () ->
@@ -2856,12 +2878,12 @@ d_indexedSum'7515'_594 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   (AgdaAny -> AgdaAny) ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 -> AgdaAny
-d_indexedSum'7515'_594 v0 v1 v2 v3 v4 v5
+d_indexedSum'7515'_596 v0 v1 v2 v3 v4 v5
   = coe
-      MAlonzo.Code.Axiom.Set.Sum.du_indexedSum'7515'_912 (coe v0) v3 v4
+      MAlonzo.Code.Axiom.Set.Sum.du_indexedSum'7515'_916 (coe v0) v3 v4
       v5
 -- Ledger.Set.Theory._.IndexedSumUnionᵐ._∪ˡᶠ_
-d__'8746''737''7584'__598 ::
+d__'8746''737''7584'__600 ::
   MAlonzo.Code.Algebra.Bundles.T_CommutativeMonoid_820 ->
   () ->
   () ->
@@ -2876,8 +2898,8 @@ d__'8746''737''7584'__598 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d__'8746''737''7584'__598 ~v0 = du__'8746''737''7584'__598
-du__'8746''737''7584'__598 ::
+d__'8746''737''7584'__600 ~v0 = du__'8746''737''7584'__600
+du__'8746''737''7584'__600 ::
   () ->
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
@@ -2891,14 +2913,14 @@ du__'8746''737''7584'__598 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-du__'8746''737''7584'__598 v0 v1 v2 v3 v4 v5 v6 v7
+du__'8746''737''7584'__600 v0 v1 v2 v3 v4 v5 v6 v7
   = coe
-      MAlonzo.Code.Axiom.Set.Sum.du__'8746''737''7584'__960
+      MAlonzo.Code.Axiom.Set.Sum.du__'8746''737''7584'__966
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v4 v5 v6 v7
 -- Ledger.Set.Theory._.IndexedSumUnionᵐ.indexedSumᵐ-partition
-d_indexedSum'7504''45'partition_600 ::
+d_indexedSum'7504''45'partition_602 ::
   MAlonzo.Code.Algebra.Bundles.T_CommutativeMonoid_820 ->
   () ->
   () ->
@@ -2915,15 +2937,15 @@ d_indexedSum'7504''45'partition_600 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   (MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 -> AgdaAny) ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 -> AgdaAny
-d_indexedSum'7504''45'partition_600 v0 v1 v2 v3 v4 v5 v6 v7 v8 v9
+d_indexedSum'7504''45'partition_602 v0 v1 v2 v3 v4 v5 v6 v7 v8 v9
                                     v10 v11
   = coe
-      MAlonzo.Code.Axiom.Set.Sum.du_indexedSum'7504''45'partition_1010
+      MAlonzo.Code.Axiom.Set.Sum.du_indexedSum'7504''45'partition_1016
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe v0) v3 v4 v5 v6 v7 v8 v9 v10 v11
 -- Ledger.Set.Theory._.IndexedSumUnionᵐ.indexedSumᵐ-∪
-d_indexedSum'7504''45''8746'_602 ::
+d_indexedSum'7504''45''8746'_604 ::
   MAlonzo.Code.Algebra.Bundles.T_CommutativeMonoid_820 ->
   () ->
   () ->
@@ -2943,14 +2965,14 @@ d_indexedSum'7504''45''8746'_602 ::
    MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
    MAlonzo.Code.Data.Irrelevant.T_Irrelevant_20) ->
   AgdaAny
-d_indexedSum'7504''45''8746'_602 v0 v1 v2 v3 v4 v5 v6 v7 v8 v9 v10
+d_indexedSum'7504''45''8746'_604 v0 v1 v2 v3 v4 v5 v6 v7 v8 v9 v10
   = coe
-      MAlonzo.Code.Axiom.Set.Sum.du_indexedSum'7504''45''8746'_976
+      MAlonzo.Code.Axiom.Set.Sum.du_indexedSum'7504''45''8746'_982
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe v0) v3 v4 v5 v6 v7 v8 v9
 -- Ledger.Set.Theory._.IndexedSumUnionᵐ.∪ˡ-finite
-d_'8746''737''45'finite_604 ::
+d_'8746''737''45'finite_606 ::
   MAlonzo.Code.Algebra.Bundles.T_CommutativeMonoid_820 ->
   () ->
   () ->
@@ -2967,8 +2989,8 @@ d_'8746''737''45'finite_604 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'8746''737''45'finite_604 ~v0 = du_'8746''737''45'finite_604
-du_'8746''737''45'finite_604 ::
+d_'8746''737''45'finite_606 ~v0 = du_'8746''737''45'finite_606
+du_'8746''737''45'finite_606 ::
   () ->
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
@@ -2984,14 +3006,14 @@ du_'8746''737''45'finite_604 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-du_'8746''737''45'finite_604 v0 v1 v2 v3 v4 v5 v6 v7 v8 v9
+du_'8746''737''45'finite_606 v0 v1 v2 v3 v4 v5 v6 v7 v8 v9
   = coe
-      MAlonzo.Code.Axiom.Set.Sum.du_'8746''737''45'finite_954
+      MAlonzo.Code.Axiom.Set.Sum.du_'8746''737''45'finite_960
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v4 v5 v6 v7 v8 v9
 -- Ledger.Set.Theory._.Lookupᵐᵈ._∪⁺_
-d__'8746''8314'__610 ::
+d__'8746''8314'__612 ::
   () ->
   ([AgdaAny] ->
    AgdaAny ->
@@ -3001,12 +3023,12 @@ d__'8746''8314'__610 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d__'8746''8314'__610 v0 v1 v2 v3
+d__'8746''8314'__612 v0 v1 v2 v3
   = coe
-      MAlonzo.Code.Axiom.Set.Map.Dec.du__'8746''8314'__526
+      MAlonzo.Code.Axiom.Set.Map.Dec.du__'8746''8314'__528
       (coe d_List'45'Model'7496'_10) v2 v3
 -- Ledger.Set.Theory._.Lookupᵐᵈ.aggregate₊
-d_aggregate'8330'_612 ::
+d_aggregate'8330'_614 ::
   () ->
   ([AgdaAny] ->
    AgdaAny ->
@@ -3015,12 +3037,12 @@ d_aggregate'8330'_612 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_aggregate'8330'_612 v0 v1 v2 v3 v4
+d_aggregate'8330'_614 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Map.Dec.du_aggregate'8330'_528
+      MAlonzo.Code.Axiom.Set.Map.Dec.du_aggregate'8330'_530
       (coe d_List'45'Model'7496'_10) v2 v3 v4
 -- Ledger.Set.Theory._.Lookupᵐᵈ.unionThese
-d_unionThese_614 ::
+d_unionThese_616 ::
   () ->
   ([AgdaAny] ->
    AgdaAny ->
@@ -3033,12 +3055,12 @@ d_unionThese_614 ::
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.These.Base.T_These_38
-d_unionThese_614 v0 v1 v2 v3 v4 v5 v6 v7 v8
+d_unionThese_616 v0 v1 v2 v3 v4 v5 v6 v7 v8
   = coe
-      MAlonzo.Code.Axiom.Set.Map.Dec.du_unionThese_326
+      MAlonzo.Code.Axiom.Set.Map.Dec.du_unionThese_328
       (coe d_List'45'Model'7496'_10) v4 v5 v6 v7 v8
 -- Ledger.Set.Theory._.Lookupᵐᵈ.unionWith
-d_unionWith_616 ::
+d_unionWith_618 ::
   () ->
   ([AgdaAny] ->
    AgdaAny ->
@@ -3051,32 +3073,32 @@ d_unionWith_616 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_unionWith_616 v0 v1 v2 v3 v4 v5 v6 v7 v8
+d_unionWith_618 v0 v1 v2 v3 v4 v5 v6 v7 v8
   = coe
-      MAlonzo.Code.Axiom.Set.Map.Dec.du_unionWith_388
+      MAlonzo.Code.Axiom.Set.Map.Dec.du_unionWith_390
       (coe d_List'45'Model'7496'_10) v5 v6 v7 v8
 -- Ledger.Set.Theory._._ᶠ
-d__'7584'_620 ::
+d__'7584'_622 ::
   () ->
   [AgdaAny] ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d__'7584'_620 v0 v1 v2
-  = coe MAlonzo.Code.Axiom.Set.Factor.du__'7584'_284 v1 v2
+d__'7584'_622 v0 v1 v2
+  = coe MAlonzo.Code.Axiom.Set.Factor.du__'7584'_286 v1 v2
 -- Ledger.Set.Theory._.∪-preserves-finite'
-d_'8746''45'preserves'45'finite''_622 ::
+d_'8746''45'preserves'45'finite''_624 ::
   () ->
   [AgdaAny] ->
   [AgdaAny] ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'8746''45'preserves'45'finite''_622 v0 v1 v2 v3 v4
+d_'8746''45'preserves'45'finite''_624 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Factor.du_'8746''45'preserves'45'finite''_294
+      MAlonzo.Code.Axiom.Set.Factor.du_'8746''45'preserves'45'finite''_296
       (coe d_List'45'Model_6) v1 v2 v3 v4
 -- Ledger.Set.Theory._.Factor.factor
-d_factor_626 ::
+d_factor_628 ::
   () ->
   () ->
   (AgdaAny -> AgdaAny -> ()) ->
@@ -3086,10 +3108,10 @@ d_factor_626 ::
    (AgdaAny -> MAlonzo.Code.Function.Bundles.T_Equivalence_1714) ->
    AgdaAny) ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 -> AgdaAny
-d_factor_626 v0 v1 v2 v3 v4 v5
-  = coe MAlonzo.Code.Axiom.Set.Factor.du_factor_316 v3 v5
+d_factor_628 v0 v1 v2 v3 v4 v5
+  = coe MAlonzo.Code.Axiom.Set.Factor.du_factor_318 v3 v5
 -- Ledger.Set.Theory._.Factor.factor-cong
-d_factor'45'cong_628 ::
+d_factor'45'cong_630 ::
   () ->
   () ->
   (AgdaAny -> AgdaAny -> ()) ->
@@ -3101,11 +3123,11 @@ d_factor'45'cong_628 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 -> AgdaAny
-d_factor'45'cong_628 v0 v1 v2 v3 v4 v5 v6 v7
+d_factor'45'cong_630 v0 v1 v2 v3 v4 v5 v6 v7
   = coe
-      MAlonzo.Code.Axiom.Set.Factor.du_factor'45'cong_320 v4 v5 v6 v7
+      MAlonzo.Code.Axiom.Set.Factor.du_factor'45'cong_322 v4 v5 v6 v7
 -- Ledger.Set.Theory._.Factor.factor-∪
-d_factor'45''8746'_630 ::
+d_factor'45''8746'_632 ::
   () ->
   () ->
   (AgdaAny -> AgdaAny -> ()) ->
@@ -3120,12 +3142,12 @@ d_factor'45''8746'_630 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   ([AgdaAny] -> [AgdaAny] -> AgdaAny) -> AgdaAny
-d_factor'45''8746'_630 v0 v1 v2 v3 v4 v5 v6 v7 v8 v9 v10
+d_factor'45''8746'_632 v0 v1 v2 v3 v4 v5 v6 v7 v8 v9 v10
   = coe
-      MAlonzo.Code.Axiom.Set.Factor.du_factor'45''8746'_356 v6 v7 v8 v9
+      MAlonzo.Code.Axiom.Set.Factor.du_factor'45''8746'_358 v6 v7 v8 v9
       v10
 -- Ledger.Set.Theory._.FactorUnique.deduplicate-Σ
-d_deduplicate'45'Σ_634 ::
+d_deduplicate'45'Σ_636 ::
   () ->
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
@@ -3136,10 +3158,10 @@ d_deduplicate'45'Σ_634 ::
    MAlonzo.Code.Data.List.Relation.Binary.Permutation.Propositional.T__'8621'__16 ->
    AgdaAny) ->
   [AgdaAny] -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_deduplicate'45'Σ_634 v0 v1 v2 v3 v4 v5 v6
-  = coe MAlonzo.Code.Axiom.Set.Factor.du_deduplicate'45'Σ_392 v2 v6
+d_deduplicate'45'Σ_636 v0 v1 v2 v3 v4 v5 v6
+  = coe MAlonzo.Code.Axiom.Set.Factor.du_deduplicate'45'Σ_394 v2 v6
 -- Ledger.Set.Theory._.FactorUnique.ext
-d_ext_636 ::
+d_ext_638 ::
   () ->
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
@@ -3150,10 +3172,10 @@ d_ext_636 ::
    MAlonzo.Code.Data.List.Relation.Binary.Permutation.Propositional.T__'8621'__16 ->
    AgdaAny) ->
   [AgdaAny] -> AgdaAny
-d_ext_636 v0 v1 v2 v3 v4 v5 v6
-  = coe MAlonzo.Code.Axiom.Set.Factor.du_ext_396 v2 v4 v6
+d_ext_638 v0 v1 v2 v3 v4 v5 v6
+  = coe MAlonzo.Code.Axiom.Set.Factor.du_ext_398 v2 v4 v6
 -- Ledger.Set.Theory._.FactorUnique.ext-cong
-d_ext'45'cong_638 ::
+d_ext'45'cong_640 ::
   () ->
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
@@ -3167,11 +3189,11 @@ d_ext'45'cong_638 ::
   [AgdaAny] ->
   (AgdaAny -> MAlonzo.Code.Function.Bundles.T_Equivalence_1714) ->
   AgdaAny
-d_ext'45'cong_638 v0 v1 v2 v3 v4 v5 v6 v7 v8
+d_ext'45'cong_640 v0 v1 v2 v3 v4 v5 v6 v7 v8
   = coe
-      MAlonzo.Code.Axiom.Set.Factor.du_ext'45'cong_402 v2 v5 v6 v7 v8
+      MAlonzo.Code.Axiom.Set.Factor.du_ext'45'cong_404 v2 v5 v6 v7 v8
 -- Ledger.Set.Theory._.FactorUnique.f-cong'
-d_f'45'cong''_640 ::
+d_f'45'cong''_642 ::
   () ->
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
@@ -3185,10 +3207,10 @@ d_f'45'cong''_640 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   (AgdaAny -> MAlonzo.Code.Function.Bundles.T_Equivalence_1714) ->
   AgdaAny
-d_f'45'cong''_640 v0 v1 v2 v3 v4 v5 v6 v7 v8
-  = coe MAlonzo.Code.Axiom.Set.Factor.du_f'45'cong''_384 v5 v6 v7 v8
+d_f'45'cong''_642 v0 v1 v2 v3 v4 v5 v6 v7 v8
+  = coe MAlonzo.Code.Axiom.Set.Factor.du_f'45'cong''_386 v5 v6 v7 v8
 -- Ledger.Set.Theory._.FactorUnique.factor
-d_factor_642 ::
+d_factor_644 ::
   () ->
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
@@ -3199,17 +3221,17 @@ d_factor_642 ::
    MAlonzo.Code.Data.List.Relation.Binary.Permutation.Propositional.T__'8621'__16 ->
    AgdaAny) ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 -> AgdaAny
-d_factor_642 ~v0 ~v1 v2 ~v3 v4 ~v5 = du_factor_642 v2 v4
-du_factor_642 ::
+d_factor_644 ~v0 ~v1 v2 ~v3 v4 ~v5 = du_factor_644 v2 v4
+du_factor_644 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   (MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 -> AgdaAny) ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 -> AgdaAny
-du_factor_642 v0 v1
+du_factor_644 v0 v1
   = coe
-      MAlonzo.Code.Axiom.Set.Factor.du_factor_316
-      (coe MAlonzo.Code.Axiom.Set.Factor.du_ext_396 (coe v0) (coe v1))
+      MAlonzo.Code.Axiom.Set.Factor.du_factor_318
+      (coe MAlonzo.Code.Axiom.Set.Factor.du_ext_398 (coe v0) (coe v1))
 -- Ledger.Set.Theory._.FactorUnique.factor-cong
-d_factor'45'cong_644 ::
+d_factor'45'cong_646 ::
   () ->
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
@@ -3222,9 +3244,9 @@ d_factor'45'cong_644 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 -> AgdaAny
-d_factor'45'cong_644 ~v0 ~v1 v2 ~v3 ~v4 v5
-  = du_factor'45'cong_644 v2 v5
-du_factor'45'cong_644 ::
+d_factor'45'cong_646 ~v0 ~v1 v2 ~v3 ~v4 v5
+  = du_factor'45'cong_646 v2 v5
+du_factor'45'cong_646 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   (MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
    MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
@@ -3233,13 +3255,13 @@ du_factor'45'cong_644 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 -> AgdaAny
-du_factor'45'cong_644 v0 v1
+du_factor'45'cong_646 v0 v1
   = coe
-      MAlonzo.Code.Axiom.Set.Factor.du_factor'45'cong_320
+      MAlonzo.Code.Axiom.Set.Factor.du_factor'45'cong_322
       (coe
-         MAlonzo.Code.Axiom.Set.Factor.du_ext'45'cong_402 (coe v0) (coe v1))
+         MAlonzo.Code.Axiom.Set.Factor.du_ext'45'cong_404 (coe v0) (coe v1))
 -- Ledger.Set.Theory._.FactorUnique.factor-∪
-d_factor'45''8746'_646 ::
+d_factor'45''8746'_648 ::
   () ->
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
@@ -3255,21 +3277,21 @@ d_factor'45''8746'_646 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   ([AgdaAny] -> [AgdaAny] -> AgdaAny) -> AgdaAny
-d_factor'45''8746'_646 ~v0 ~v1 ~v2 ~v3 ~v4 ~v5
-  = du_factor'45''8746'_646
-du_factor'45''8746'_646 ::
+d_factor'45''8746'_648 ~v0 ~v1 ~v2 ~v3 ~v4 ~v5
+  = du_factor'45''8746'_648
+du_factor'45''8746'_648 ::
   (AgdaAny -> AgdaAny -> AgdaAny -> ()) ->
   [AgdaAny] ->
   [AgdaAny] ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   ([AgdaAny] -> [AgdaAny] -> AgdaAny) -> AgdaAny
-du_factor'45''8746'_646 v0 v1 v2 v3 v4 v5
+du_factor'45''8746'_648 v0 v1 v2 v3 v4 v5
   = coe
-      MAlonzo.Code.Axiom.Set.Factor.du_factor'45''8746'_356 v1 v2 v3 v4
+      MAlonzo.Code.Axiom.Set.Factor.du_factor'45''8746'_358 v1 v2 v3 v4
       v5
 -- Ledger.Set.Theory._.FactorUnique.factor-∪'
-d_factor'45''8746'''_648 ::
+d_factor'45''8746'''_650 ::
   () ->
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
@@ -3295,25 +3317,25 @@ d_factor'45''8746'''_648 ::
     MAlonzo.Code.Data.Irrelevant.T_Irrelevant_20) ->
    AgdaAny) ->
   AgdaAny
-d_factor'45''8746'''_648 v0 v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11 v12
+d_factor'45''8746'''_650 v0 v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11 v12
   = coe
-      MAlonzo.Code.Axiom.Set.Factor.du_factor'45''8746'''_438 v9 v10 v12
+      MAlonzo.Code.Axiom.Set.Factor.du_factor'45''8746'''_440 v9 v10 v12
 -- Ledger.Set.Theory._._._∣_
-d__'8739'__660 ::
+d__'8739'__662 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] ->
   [AgdaAny] -> [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14]
-d__'8739'__660 ~v0 v1 = du__'8739'__660 v1
-du__'8739'__660 ::
+d__'8739'__662 ~v0 v1 = du__'8739'__662 v1
+du__'8739'__662 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] ->
   [AgdaAny] -> [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14]
-du__'8739'__660 v0 v1 v2 v3
+du__'8739'__662 v0 v1 v2 v3
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du__'8739'__574
+      MAlonzo.Code.Axiom.Set.Rel.du__'8739'__576
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
@@ -3321,21 +3343,21 @@ du__'8739'__660 v0 v1 v2 v3
          erased v0)
       v2 v3
 -- Ledger.Set.Theory._._._∣_ᶜ
-d__'8739'_'7580'_662 ::
+d__'8739'_'7580'_664 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] ->
   [AgdaAny] -> [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14]
-d__'8739'_'7580'_662 ~v0 v1 = du__'8739'_'7580'_662 v1
-du__'8739'_'7580'_662 ::
+d__'8739'_'7580'_664 ~v0 v1 = du__'8739'_'7580'_664 v1
+du__'8739'_'7580'_664 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] ->
   [AgdaAny] -> [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14]
-du__'8739'_'7580'_662 v0 v1 v2 v3
+du__'8739'_'7580'_664 v0 v1 v2 v3
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du__'8739'_'7580'_580
+      MAlonzo.Code.Axiom.Set.Rel.du__'8739'_'7580'_582
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
@@ -3343,19 +3365,19 @@ du__'8739'_'7580'_662 v0 v1 v2 v3
          erased v0)
       v2 v3
 -- Ledger.Set.Theory._._._⟪$⟫_
-d__'10218''36''10219'__664 ::
+d__'10218''36''10219'__666 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] -> [AgdaAny] -> [AgdaAny]
-d__'10218''36''10219'__664 ~v0 v1 = du__'10218''36''10219'__664 v1
-du__'10218''36''10219'__664 ::
+d__'10218''36''10219'__666 ~v0 v1 = du__'10218''36''10219'__666 v1
+du__'10218''36''10219'__666 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] -> [AgdaAny] -> [AgdaAny]
-du__'10218''36''10219'__664 v0 v1 v2 v3
+du__'10218''36''10219'__666 v0 v1 v2 v3
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du__'10218''36''10219'__586
+      MAlonzo.Code.Axiom.Set.Rel.du__'10218''36''10219'__588
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
@@ -3363,23 +3385,23 @@ du__'10218''36''10219'__664 v0 v1 v2 v3
          erased v0)
       v2 v3
 -- Ledger.Set.Theory._._.curryʳ
-d_curry'691'_666 ::
+d_curry'691'_668 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   () ->
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] ->
   AgdaAny -> [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14]
-d_curry'691'_666 ~v0 v1 = du_curry'691'_666 v1
-du_curry'691'_666 ::
+d_curry'691'_668 ~v0 v1 = du_curry'691'_668 v1
+du_curry'691'_668 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   () ->
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] ->
   AgdaAny -> [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14]
-du_curry'691'_666 v0 v1 v2 v3 v4
+du_curry'691'_668 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_curry'691'_712
+      MAlonzo.Code.Axiom.Set.Rel.du_curry'691'_714
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
@@ -3387,7 +3409,7 @@ du_curry'691'_666 v0 v1 v2 v3 v4
          erased v0)
       v3 v4
 -- Ledger.Set.Theory._._.ex-⊆
-d_ex'45''8838'_668 ::
+d_ex'45''8838'_670 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
@@ -3396,8 +3418,8 @@ d_ex'45''8838'_668 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-d_ex'45''8838'_668 ~v0 v1 = du_ex'45''8838'_668 v1
-du_ex'45''8838'_668 ::
+d_ex'45''8838'_670 ~v0 v1 = du_ex'45''8838'_670 v1
+du_ex'45''8838'_670 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] ->
@@ -3405,9 +3427,9 @@ du_ex'45''8838'_668 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-du_ex'45''8838'_668 v0 v1 v2 v3 v4
+du_ex'45''8838'_670 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_ex'45''8838'_672
+      MAlonzo.Code.Axiom.Set.Rel.du_ex'45''8838'_674
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
@@ -3415,7 +3437,7 @@ du_ex'45''8838'_668 v0 v1 v2 v3 v4
          erased v0)
       v2 v3 v4
 -- Ledger.Set.Theory._._.res-comp-cong
-d_res'45'comp'45'cong_670 ::
+d_res'45'comp'45'cong_672 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
@@ -3424,8 +3446,8 @@ d_res'45'comp'45'cong_670 ::
   [AgdaAny] ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_res'45'comp'45'cong_670 ~v0 v1 = du_res'45'comp'45'cong_670 v1
-du_res'45'comp'45'cong_670 ::
+d_res'45'comp'45'cong_672 ~v0 v1 = du_res'45'comp'45'cong_672 v1
+du_res'45'comp'45'cong_672 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] ->
@@ -3433,9 +3455,9 @@ du_res'45'comp'45'cong_670 ::
   [AgdaAny] ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-du_res'45'comp'45'cong_670 v0 v1 v2 v3 v4 v5
+du_res'45'comp'45'cong_672 v0 v1 v2 v3 v4 v5
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_res'45'comp'45'cong_630
+      MAlonzo.Code.Axiom.Set.Rel.du_res'45'comp'45'cong_632
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
@@ -3443,7 +3465,7 @@ du_res'45'comp'45'cong_670 v0 v1 v2 v3 v4 v5
          erased v0)
       v2 v3 v4 v5
 -- Ledger.Set.Theory._._.res-comp-dom
-d_res'45'comp'45'dom_672 ::
+d_res'45'comp'45'dom_674 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
@@ -3453,9 +3475,9 @@ d_res'45'comp'45'dom_672 ::
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.Irrelevant.T_Irrelevant_20
-d_res'45'comp'45'dom_672 = erased
+d_res'45'comp'45'dom_674 = erased
 -- Ledger.Set.Theory._._.res-comp-domᵐ
-d_res'45'comp'45'dom'7504'_674 ::
+d_res'45'comp'45'dom'7504'_676 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
@@ -3464,9 +3486,9 @@ d_res'45'comp'45'dom'7504'_674 ::
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-d_res'45'comp'45'dom'7504'_674 ~v0 v1
-  = du_res'45'comp'45'dom'7504'_674 v1
-du_res'45'comp'45'dom'7504'_674 ::
+d_res'45'comp'45'dom'7504'_676 ~v0 v1
+  = du_res'45'comp'45'dom'7504'_676 v1
+du_res'45'comp'45'dom'7504'_676 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] ->
@@ -3474,9 +3496,9 @@ du_res'45'comp'45'dom'7504'_674 ::
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-du_res'45'comp'45'dom'7504'_674 v0 v1 v2 v3 v4 v5
+du_res'45'comp'45'dom'7504'_676 v0 v1 v2 v3 v4 v5
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_res'45'comp'45'dom'7504'_658
+      MAlonzo.Code.Axiom.Set.Rel.du_res'45'comp'45'dom'7504'_660
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
@@ -3484,7 +3506,7 @@ du_res'45'comp'45'dom'7504'_674 v0 v1 v2 v3 v4 v5
          erased v0)
       v2 v3 v4 v5
 -- Ledger.Set.Theory._._.res-cong
-d_res'45'cong_676 ::
+d_res'45'cong_678 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
@@ -3493,8 +3515,8 @@ d_res'45'cong_676 ::
   [AgdaAny] ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_res'45'cong_676 ~v0 v1 = du_res'45'cong_676 v1
-du_res'45'cong_676 ::
+d_res'45'cong_678 ~v0 v1 = du_res'45'cong_678 v1
+du_res'45'cong_678 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] ->
@@ -3502,9 +3524,9 @@ du_res'45'cong_676 ::
   [AgdaAny] ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-du_res'45'cong_676 v0 v1 v2 v3 v4 v5
+du_res'45'cong_678 v0 v1 v2 v3 v4 v5
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_res'45'cong_594
+      MAlonzo.Code.Axiom.Set.Rel.du_res'45'cong_596
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
@@ -3512,7 +3534,7 @@ du_res'45'cong_676 v0 v1 v2 v3 v4 v5
          erased v0)
       v2 v3 v4 v5
 -- Ledger.Set.Theory._._.res-dom
-d_res'45'dom_678 ::
+d_res'45'dom_680 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
@@ -3521,8 +3543,8 @@ d_res'45'dom_678 ::
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-d_res'45'dom_678 ~v0 v1 = du_res'45'dom_678 v1
-du_res'45'dom_678 ::
+d_res'45'dom_680 ~v0 v1 = du_res'45'dom_680 v1
+du_res'45'dom_680 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] ->
@@ -3530,9 +3552,9 @@ du_res'45'dom_678 ::
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-du_res'45'dom_678 v0 v1 v2 v3 v4 v5
+du_res'45'dom_680 v0 v1 v2 v3 v4 v5
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_res'45'dom_604
+      MAlonzo.Code.Axiom.Set.Rel.du_res'45'dom_606
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
@@ -3540,7 +3562,7 @@ du_res'45'dom_678 v0 v1 v2 v3 v4 v5
          erased v0)
       v2 v3 v4 v5
 -- Ledger.Set.Theory._._.res-dom-comm
-d_res'45'dom'45'comm_680 ::
+d_res'45'dom'45'comm_682 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
@@ -3548,17 +3570,17 @@ d_res'45'dom'45'comm_680 ::
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] ->
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_res'45'dom'45'comm_680 ~v0 v1 = du_res'45'dom'45'comm_680 v1
-du_res'45'dom'45'comm_680 ::
+d_res'45'dom'45'comm_682 ~v0 v1 = du_res'45'dom'45'comm_682 v1
+du_res'45'dom'45'comm_682 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   () ->
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] ->
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-du_res'45'dom'45'comm_680 v0 v1 v2 v3 v4
+du_res'45'dom'45'comm_682 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_res'45'dom'45'comm_852
+      MAlonzo.Code.Axiom.Set.Rel.du_res'45'dom'45'comm_854
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
@@ -3566,7 +3588,7 @@ du_res'45'dom'45'comm_680 v0 v1 v2 v3 v4
          erased v0)
       v3 v4
 -- Ledger.Set.Theory._._.res-dom-comm'
-d_res'45'dom'45'comm''_682 ::
+d_res'45'dom'45'comm''_684 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
@@ -3574,17 +3596,17 @@ d_res'45'dom'45'comm''_682 ::
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] ->
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_res'45'dom'45'comm''_682 ~v0 v1 = du_res'45'dom'45'comm''_682 v1
-du_res'45'dom'45'comm''_682 ::
+d_res'45'dom'45'comm''_684 ~v0 v1 = du_res'45'dom'45'comm''_684 v1
+du_res'45'dom'45'comm''_684 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   () ->
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] ->
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-du_res'45'dom'45'comm''_682 v0 v1 v2 v3 v4
+du_res'45'dom'45'comm''_684 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_res'45'dom'45'comm''_846
+      MAlonzo.Code.Axiom.Set.Rel.du_res'45'dom'45'comm''_848
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
@@ -3592,7 +3614,7 @@ du_res'45'dom'45'comm''_682 v0 v1 v2 v3 v4
          erased v0)
       v3 v4
 -- Ledger.Set.Theory._._.res-dom-comm∩⊆
-d_res'45'dom'45'comm'8745''8838'_684 ::
+d_res'45'dom'45'comm'8745''8838'_686 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
@@ -3602,9 +3624,9 @@ d_res'45'dom'45'comm'8745''8838'_684 ::
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-d_res'45'dom'45'comm'8745''8838'_684 ~v0 v1
-  = du_res'45'dom'45'comm'8745''8838'_684 v1
-du_res'45'dom'45'comm'8745''8838'_684 ::
+d_res'45'dom'45'comm'8745''8838'_686 ~v0 v1
+  = du_res'45'dom'45'comm'8745''8838'_686 v1
+du_res'45'dom'45'comm'8745''8838'_686 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   () ->
@@ -3613,9 +3635,9 @@ du_res'45'dom'45'comm'8745''8838'_684 ::
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-du_res'45'dom'45'comm'8745''8838'_684 v0 v1 v2 v3 v4 v5 v6
+du_res'45'dom'45'comm'8745''8838'_686 v0 v1 v2 v3 v4 v5 v6
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_res'45'dom'45'comm'8745''8838'_798
+      MAlonzo.Code.Axiom.Set.Rel.du_res'45'dom'45'comm'8745''8838'_800
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
@@ -3623,7 +3645,7 @@ du_res'45'dom'45'comm'8745''8838'_684 v0 v1 v2 v3 v4 v5 v6
          erased v0)
       v3 v4 v5 v6
 -- Ledger.Set.Theory._._.res-dom-comm⊆∩
-d_res'45'dom'45'comm'8838''8745'_686 ::
+d_res'45'dom'45'comm'8838''8745'_688 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
@@ -3633,9 +3655,9 @@ d_res'45'dom'45'comm'8838''8745'_686 ::
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-d_res'45'dom'45'comm'8838''8745'_686 ~v0 v1
-  = du_res'45'dom'45'comm'8838''8745'_686 v1
-du_res'45'dom'45'comm'8838''8745'_686 ::
+d_res'45'dom'45'comm'8838''8745'_688 ~v0 v1
+  = du_res'45'dom'45'comm'8838''8745'_688 v1
+du_res'45'dom'45'comm'8838''8745'_688 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   () ->
@@ -3644,9 +3666,9 @@ du_res'45'dom'45'comm'8838''8745'_686 ::
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-du_res'45'dom'45'comm'8838''8745'_686 v0 v1 v2 v3 v4 v5 v6
+du_res'45'dom'45'comm'8838''8745'_688 v0 v1 v2 v3 v4 v5 v6
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_res'45'dom'45'comm'8838''8745'_790
+      MAlonzo.Code.Axiom.Set.Rel.du_res'45'dom'45'comm'8838''8745'_792
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
@@ -3654,7 +3676,7 @@ du_res'45'dom'45'comm'8838''8745'_686 v0 v1 v2 v3 v4 v5 v6
          erased v0)
       v3 v4 v5 v6
 -- Ledger.Set.Theory._._.res-domᵐ
-d_res'45'dom'7504'_688 ::
+d_res'45'dom'7504'_690 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
@@ -3663,8 +3685,8 @@ d_res'45'dom'7504'_688 ::
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-d_res'45'dom'7504'_688 ~v0 v1 = du_res'45'dom'7504'_688 v1
-du_res'45'dom'7504'_688 ::
+d_res'45'dom'7504'_690 ~v0 v1 = du_res'45'dom'7504'_690 v1
+du_res'45'dom'7504'_690 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] ->
@@ -3672,9 +3694,9 @@ du_res'45'dom'7504'_688 ::
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-du_res'45'dom'7504'_688 v0 v1 v2 v3 v4 v5
+du_res'45'dom'7504'_690 v0 v1 v2 v3 v4 v5
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_res'45'dom'7504'_616
+      MAlonzo.Code.Axiom.Set.Rel.du_res'45'dom'7504'_618
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
@@ -3682,7 +3704,7 @@ du_res'45'dom'7504'_688 v0 v1 v2 v3 v4 v5
          erased v0)
       v2 v3 v4 v5
 -- Ledger.Set.Theory._._.res-ex-disj-∪
-d_res'45'ex'45'disj'45''8746'_690 ::
+d_res'45'ex'45'disj'45''8746'_692 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   [AgdaAny] ->
@@ -3691,9 +3713,9 @@ d_res'45'ex'45'disj'45''8746'_690 ::
   (AgdaAny ->
    MAlonzo.Code.Relation.Nullary.Decidable.Core.T_Dec_20) ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_res'45'ex'45'disj'45''8746'_690 ~v0 v1
-  = du_res'45'ex'45'disj'45''8746'_690 v1
-du_res'45'ex'45'disj'45''8746'_690 ::
+d_res'45'ex'45'disj'45''8746'_692 ~v0 v1
+  = du_res'45'ex'45'disj'45''8746'_692 v1
+du_res'45'ex'45'disj'45''8746'_692 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   [AgdaAny] ->
   () ->
@@ -3701,9 +3723,9 @@ du_res'45'ex'45'disj'45''8746'_690 ::
   (AgdaAny ->
    MAlonzo.Code.Relation.Nullary.Decidable.Core.T_Dec_20) ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-du_res'45'ex'45'disj'45''8746'_690 v0 v1 v2 v3 v4
+du_res'45'ex'45'disj'45''8746'_692 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_res'45'ex'45'disj'45''8746'_704
+      MAlonzo.Code.Axiom.Set.Rel.du_res'45'ex'45'disj'45''8746'_706
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
@@ -3711,7 +3733,7 @@ du_res'45'ex'45'disj'45''8746'_690 v0 v1 v2 v3 v4
          erased v0)
       v1 v3 v4
 -- Ledger.Set.Theory._._.res-ex-disjoint
-d_res'45'ex'45'disjoint_692 ::
+d_res'45'ex'45'disjoint_694 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
@@ -3721,9 +3743,9 @@ d_res'45'ex'45'disjoint_692 ::
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.Irrelevant.T_Irrelevant_20
-d_res'45'ex'45'disjoint_692 = erased
+d_res'45'ex'45'disjoint_694 = erased
 -- Ledger.Set.Theory._._.res-ex-∪
-d_res'45'ex'45''8746'_694 ::
+d_res'45'ex'45''8746'_696 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   [AgdaAny] ->
@@ -3732,8 +3754,8 @@ d_res'45'ex'45''8746'_694 ::
   (AgdaAny ->
    MAlonzo.Code.Relation.Nullary.Decidable.Core.T_Dec_20) ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_res'45'ex'45''8746'_694 ~v0 v1 = du_res'45'ex'45''8746'_694 v1
-du_res'45'ex'45''8746'_694 ::
+d_res'45'ex'45''8746'_696 ~v0 v1 = du_res'45'ex'45''8746'_696 v1
+du_res'45'ex'45''8746'_696 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   [AgdaAny] ->
   () ->
@@ -3741,9 +3763,9 @@ du_res'45'ex'45''8746'_694 ::
   (AgdaAny ->
    MAlonzo.Code.Relation.Nullary.Decidable.Core.T_Dec_20) ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-du_res'45'ex'45''8746'_694 v0 v1 v2 v3 v4
+du_res'45'ex'45''8746'_696 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_res'45'ex'45''8746'_682
+      MAlonzo.Code.Axiom.Set.Rel.du_res'45'ex'45''8746'_684
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
@@ -3751,35 +3773,35 @@ du_res'45'ex'45''8746'_694 v0 v1 v2 v3 v4
          erased v0)
       v1 v3 v4
 -- Ledger.Set.Theory._._.res-∅
-d_res'45''8709'_696 ::
+d_res'45''8709'_698 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_res'45''8709'_696 ~v0 ~v1 = du_res'45''8709'_696
-du_res'45''8709'_696 ::
+d_res'45''8709'_698 ~v0 ~v1 = du_res'45''8709'_698
+du_res'45''8709'_698 ::
   () ->
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-du_res'45''8709'_696 v0 v1
-  = coe MAlonzo.Code.Axiom.Set.Rel.du_res'45''8709'_674
+du_res'45''8709'_698 v0 v1
+  = coe MAlonzo.Code.Axiom.Set.Rel.du_res'45''8709'_676
 -- Ledger.Set.Theory._._.res-∅ᶜ
-d_res'45''8709''7580'_698 ::
+d_res'45''8709''7580'_700 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_res'45''8709''7580'_698 ~v0 v1 = du_res'45''8709''7580'_698 v1
-du_res'45''8709''7580'_698 ::
+d_res'45''8709''7580'_700 ~v0 v1 = du_res'45''8709''7580'_700 v1
+du_res'45''8709''7580'_700 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-du_res'45''8709''7580'_698 v0 v1 v2
+du_res'45''8709''7580'_700 v0 v1 v2
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_res'45''8709''7580'_676
+      MAlonzo.Code.Axiom.Set.Rel.du_res'45''8709''7580'_678
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
@@ -3787,7 +3809,7 @@ du_res'45''8709''7580'_698 v0 v1 v2
          erased v0)
       v2
 -- Ledger.Set.Theory._._.res-⊆
-d_res'45''8838'_700 ::
+d_res'45''8838'_702 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
@@ -3796,8 +3818,8 @@ d_res'45''8838'_700 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-d_res'45''8838'_700 ~v0 v1 = du_res'45''8838'_700 v1
-du_res'45''8838'_700 ::
+d_res'45''8838'_702 ~v0 v1 = du_res'45''8838'_702 v1
+du_res'45''8838'_702 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] ->
@@ -3805,9 +3827,9 @@ du_res'45''8838'_700 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-du_res'45''8838'_700 v0 v1 v2 v3 v4
+du_res'45''8838'_702 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_res'45''8838'_670
+      MAlonzo.Code.Axiom.Set.Rel.du_res'45''8838'_672
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
@@ -3815,7 +3837,7 @@ du_res'45''8838'_700 v0 v1 v2 v3 v4
          erased v0)
       v2 v3 v4
 -- Ledger.Set.Theory._._.∈-curryʳ
-d_'8712''45'curry'691'_702 ::
+d_'8712''45'curry'691'_704 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
@@ -3826,8 +3848,8 @@ d_'8712''45'curry'691'_702 ::
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-d_'8712''45'curry'691'_702 ~v0 v1 = du_'8712''45'curry'691'_702 v1
-du_'8712''45'curry'691'_702 ::
+d_'8712''45'curry'691'_704 ~v0 v1 = du_'8712''45'curry'691'_704 v1
+du_'8712''45'curry'691'_704 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   () ->
@@ -3837,9 +3859,9 @@ du_'8712''45'curry'691'_702 ::
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-du_'8712''45'curry'691'_702 v0 v1 v2 v3 v4 v5 v6 v7
+du_'8712''45'curry'691'_704 v0 v1 v2 v3 v4 v5 v6 v7
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_'8712''45'curry'691'_724
+      MAlonzo.Code.Axiom.Set.Rel.du_'8712''45'curry'691'_726
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
@@ -3847,7 +3869,7 @@ du_'8712''45'curry'691'_702 v0 v1 v2 v3 v4 v5 v6 v7
          erased v0)
       v3 v4 v5 v6 v7
 -- Ledger.Set.Theory._._.coex-⊆
-d_coex'45''8838'_706 ::
+d_coex'45''8838'_708 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
@@ -3856,8 +3878,8 @@ d_coex'45''8838'_706 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-d_coex'45''8838'_706 ~v0 v1 = du_coex'45''8838'_706 v1
-du_coex'45''8838'_706 ::
+d_coex'45''8838'_708 ~v0 v1 = du_coex'45''8838'_708 v1
+du_coex'45''8838'_708 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] ->
@@ -3865,9 +3887,9 @@ du_coex'45''8838'_706 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-du_coex'45''8838'_706 v0 v1 v2 v3 v4
+du_coex'45''8838'_708 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_coex'45''8838'_922
+      MAlonzo.Code.Axiom.Set.Rel.du_coex'45''8838'_924
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
@@ -3875,7 +3897,7 @@ du_coex'45''8838'_706 v0 v1 v2 v3 v4
          erased v0)
       v2 v3 v4
 -- Ledger.Set.Theory._._.cores-⊆
-d_cores'45''8838'_708 ::
+d_cores'45''8838'_710 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
@@ -3884,8 +3906,8 @@ d_cores'45''8838'_708 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-d_cores'45''8838'_708 ~v0 v1 = du_cores'45''8838'_708 v1
-du_cores'45''8838'_708 ::
+d_cores'45''8838'_710 ~v0 v1 = du_cores'45''8838'_710 v1
+du_cores'45''8838'_710 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] ->
@@ -3893,9 +3915,9 @@ du_cores'45''8838'_708 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-du_cores'45''8838'_708 v0 v1 v2 v3 v4
+du_cores'45''8838'_710 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_cores'45''8838'_920
+      MAlonzo.Code.Axiom.Set.Rel.du_cores'45''8838'_922
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
@@ -3903,21 +3925,21 @@ du_cores'45''8838'_708 v0 v1 v2 v3 v4
          erased v0)
       v2 v3 v4
 -- Ledger.Set.Theory._._._∣_
-d__'8739'__712 ::
+d__'8739'__714 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   [AgdaAny] -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d__'8739'__712 ~v0 v1 = du__'8739'__712 v1
-du__'8739'__712 ::
+d__'8739'__714 ~v0 v1 = du__'8739'__714 v1
+du__'8739'__714 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   [AgdaAny] -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-du__'8739'__712 v0 v1 v2 v3
+du__'8739'__714 v0 v1 v2 v3
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du__'8739'__1120
+      MAlonzo.Code.Axiom.Set.Map.du__'8739'__1190
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
@@ -3925,21 +3947,21 @@ du__'8739'__712 v0 v1 v2 v3
          erased v0)
       v2 v3
 -- Ledger.Set.Theory._._._∣_ᶜ
-d__'8739'_'7580'_714 ::
+d__'8739'_'7580'_716 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   [AgdaAny] -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d__'8739'_'7580'_714 ~v0 v1 = du__'8739'_'7580'_714 v1
-du__'8739'_'7580'_714 ::
+d__'8739'_'7580'_716 ~v0 v1 = du__'8739'_'7580'_716 v1
+du__'8739'_'7580'_716 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   [AgdaAny] -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-du__'8739'_'7580'_714 v0 v1 v2 v3
+du__'8739'_'7580'_716 v0 v1 v2 v3
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du__'8739'_'7580'_1128
+      MAlonzo.Code.Axiom.Set.Map.du__'8739'_'7580'_1198
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
@@ -3947,47 +3969,47 @@ du__'8739'_'7580'_714 v0 v1 v2 v3
          erased v0)
       v2 v3
 -- Ledger.Set.Theory._._._⦅_,-⦆
-d__'10629'_'44''45''10630'_716 ::
+d__'10629'_'44''45''10630'_718 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   () ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   AgdaAny -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d__'10629'_'44''45''10630'_716 ~v0 v1
-  = du__'10629'_'44''45''10630'_716 v1
-du__'10629'_'44''45''10630'_716 ::
+d__'10629'_'44''45''10630'_718 ~v0 v1
+  = du__'10629'_'44''45''10630'_718 v1
+du__'10629'_'44''45''10630'_718 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   () ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   AgdaAny -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-du__'10629'_'44''45''10630'_716 v0
+du__'10629'_'44''45''10630'_718 v0
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du__'10629'_'44''45''10630'_1218
+      MAlonzo.Code.Axiom.Set.Map.du__'10629'_'44''45''10630'_1288
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
          MAlonzo.Code.Axiom.Set.d_'8712''45'sp_1558 d_List'45'Model'7496'_10
          erased v0)
 -- Ledger.Set.Theory._._.curryᵐ
-d_curry'7504'_718 ::
+d_curry'7504'_720 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   () ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   AgdaAny -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_curry'7504'_718 ~v0 v1 = du_curry'7504'_718 v1
-du_curry'7504'_718 ::
+d_curry'7504'_720 ~v0 v1 = du_curry'7504'_720 v1
+du_curry'7504'_720 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   () ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   AgdaAny -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-du_curry'7504'_718 v0 v1 v2 v3 v4
+du_curry'7504'_720 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du_curry'7504'_1156
+      MAlonzo.Code.Axiom.Set.Map.du_curry'7504'_1226
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
@@ -3995,23 +4017,23 @@ du_curry'7504'_718 v0 v1 v2 v3 v4
          erased v0)
       v3 v4
 -- Ledger.Set.Theory._._.mapSingleValue
-d_mapSingleValue_720 ::
+d_mapSingleValue_722 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   (AgdaAny -> AgdaAny) ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   AgdaAny -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_mapSingleValue_720 ~v0 v1 = du_mapSingleValue_720 v1
-du_mapSingleValue_720 ::
+d_mapSingleValue_722 ~v0 v1 = du_mapSingleValue_722 v1
+du_mapSingleValue_722 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   (AgdaAny -> AgdaAny) ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   AgdaAny -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-du_mapSingleValue_720 v0 v1 v2 v3 v4
+du_mapSingleValue_722 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du_mapSingleValue_1148
+      MAlonzo.Code.Axiom.Set.Map.du_mapSingleValue_1218
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
@@ -4019,23 +4041,23 @@ du_mapSingleValue_720 v0 v1 v2 v3 v4
          erased v0)
       v2 v3 v4
 -- Ledger.Set.Theory._._.mapValueRestricted
-d_mapValueRestricted_722 ::
+d_mapValueRestricted_724 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   (AgdaAny -> AgdaAny) ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   [AgdaAny] -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_mapValueRestricted_722 ~v0 v1 = du_mapValueRestricted_722 v1
-du_mapValueRestricted_722 ::
+d_mapValueRestricted_724 ~v0 v1 = du_mapValueRestricted_724 v1
+du_mapValueRestricted_724 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   (AgdaAny -> AgdaAny) ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   [AgdaAny] -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-du_mapValueRestricted_722 v0 v1 v2 v3 v4
+du_mapValueRestricted_724 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du_mapValueRestricted_1140
+      MAlonzo.Code.Axiom.Set.Map.du_mapValueRestricted_1210
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
@@ -4043,7 +4065,7 @@ du_mapValueRestricted_722 v0 v1 v2 v3 v4
          erased v0)
       v2 v3 v4
 -- Ledger.Set.Theory._._.res-singleton
-d_res'45'singleton_724 ::
+d_res'45'singleton_726 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
@@ -4051,17 +4073,17 @@ d_res'45'singleton_724 ::
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_res'45'singleton_724 ~v0 v1 = du_res'45'singleton_724 v1
-du_res'45'singleton_724 ::
+d_res'45'singleton_726 ~v0 v1 = du_res'45'singleton_726 v1
+du_res'45'singleton_726 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-du_res'45'singleton_724 v0 v1 v2 v3 v4
+du_res'45'singleton_726 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du_res'45'singleton_1170
+      MAlonzo.Code.Axiom.Set.Map.du_res'45'singleton_1240
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
@@ -4069,7 +4091,7 @@ du_res'45'singleton_724 v0 v1 v2 v3 v4
          erased v0)
       v2 v3 v4
 -- Ledger.Set.Theory._._.res-singleton'
-d_res'45'singleton''_726 ::
+d_res'45'singleton''_728 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
@@ -4078,8 +4100,8 @@ d_res'45'singleton''_726 ::
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_res'45'singleton''_726 ~v0 v1 = du_res'45'singleton''_726 v1
-du_res'45'singleton''_726 ::
+d_res'45'singleton''_728 ~v0 v1 = du_res'45'singleton''_728 v1
+du_res'45'singleton''_728 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
@@ -4087,9 +4109,9 @@ du_res'45'singleton''_726 ::
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-du_res'45'singleton''_726 v0 v1 v2 v3 v4 v5
+du_res'45'singleton''_728 v0 v1 v2 v3 v4 v5
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du_res'45'singleton''_1206
+      MAlonzo.Code.Axiom.Set.Map.du_res'45'singleton''_1276
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
@@ -4097,22 +4119,22 @@ du_res'45'singleton''_726 v0 v1 v2 v3 v4 v5
          erased v0)
       v2 v3 v4 v5
 -- Ledger.Set.Theory._._.resᵐ-∅ᶜ
-d_res'7504''45''8709''7580'_728 ::
+d_res'7504''45''8709''7580'_730 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_res'7504''45''8709''7580'_728 ~v0 v1
-  = du_res'7504''45''8709''7580'_728 v1
-du_res'7504''45''8709''7580'_728 ::
+d_res'7504''45''8709''7580'_730 ~v0 v1
+  = du_res'7504''45''8709''7580'_730 v1
+du_res'7504''45''8709''7580'_730 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-du_res'7504''45''8709''7580'_728 v0 v1 v2
+du_res'7504''45''8709''7580'_730 v0 v1 v2
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du_res'7504''45''8709''7580'_1138
+      MAlonzo.Code.Axiom.Set.Map.du_res'7504''45''8709''7580'_1208
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
@@ -4120,7 +4142,7 @@ du_res'7504''45''8709''7580'_728 v0 v1 v2
          erased v0)
       v2
 -- Ledger.Set.Theory._._.update
-d_update_730 ::
+d_update_732 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
@@ -4128,17 +4150,17 @@ d_update_730 ::
   Maybe AgdaAny ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_update_730 ~v0 v1 = du_update_730 v1
-du_update_730 ::
+d_update_732 ~v0 v1 = du_update_732 v1
+du_update_732 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   AgdaAny ->
   Maybe AgdaAny ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-du_update_730 v0 v1 v2 v3 v4
+du_update_732 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du_update_1220
+      MAlonzo.Code.Axiom.Set.Map.du_update_1290
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
@@ -4146,19 +4168,19 @@ du_update_730 v0 v1 v2 v3 v4
          erased v0)
       v2 v3 v4
 -- Ledger.Set.Theory._._._⁻¹_
-d__'8315''185'__734 ::
+d__'8315''185'__736 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 -> AgdaAny -> [AgdaAny]
-d__'8315''185'__734 ~v0 v1 = du__'8315''185'__734 v1
-du__'8315''185'__734 ::
+d__'8315''185'__736 ~v0 v1 = du__'8315''185'__736 v1
+du__'8315''185'__736 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 -> AgdaAny -> [AgdaAny]
-du__'8315''185'__734 v0 v1 v2 v3
+du__'8315''185'__736 v0 v1 v2 v3
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du__'8315''185'__1408
+      MAlonzo.Code.Axiom.Set.Map.du__'8315''185'__1480
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
@@ -4166,21 +4188,21 @@ du__'8315''185'__734 v0 v1 v2 v3
          erased v0)
       v2 v3
 -- Ledger.Set.Theory._._._↾_
-d__'8638'__736 ::
+d__'8638'__738 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   [AgdaAny] -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d__'8638'__736 ~v0 v1 = du__'8638'__736 v1
-du__'8638'__736 ::
+d__'8638'__738 ~v0 v1 = du__'8638'__738 v1
+du__'8638'__738 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   [AgdaAny] -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-du__'8638'__736 v0 v1 v2 v3
+du__'8638'__738 v0 v1 v2 v3
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du__'8638'__1392
+      MAlonzo.Code.Axiom.Set.Map.du__'8638'__1464
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
@@ -4188,21 +4210,21 @@ du__'8638'__736 v0 v1 v2 v3
          erased v0)
       v2 v3
 -- Ledger.Set.Theory._._._↾_ᶜ
-d__'8638'_'7580'_738 ::
+d__'8638'_'7580'_740 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   [AgdaAny] -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d__'8638'_'7580'_738 ~v0 v1 = du__'8638'_'7580'_738 v1
-du__'8638'_'7580'_738 ::
+d__'8638'_'7580'_740 ~v0 v1 = du__'8638'_'7580'_740 v1
+du__'8638'_'7580'_740 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   [AgdaAny] -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-du__'8638'_'7580'_738 v0 v1 v2 v3
+du__'8638'_'7580'_740 v0 v1 v2 v3
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du__'8638'_'7580'_1400
+      MAlonzo.Code.Axiom.Set.Map.du__'8638'_'7580'_1472
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
@@ -4210,23 +4232,23 @@ du__'8638'_'7580'_738 v0 v1 v2 v3
          erased v0)
       v2 v3
 -- Ledger.Set.Theory._._._∪ˡ_
-d__'8746''737'__742 ::
+d__'8746''737'__744 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d__'8746''737'__742 ~v0 v1 = du__'8746''737'__742 v1
-du__'8746''737'__742 ::
+d__'8746''737'__744 ~v0 v1 = du__'8746''737'__744 v1
+du__'8746''737'__744 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-du__'8746''737'__742 v0 v1 v2 v3
+du__'8746''737'__744 v0 v1 v2 v3
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du__'8746''737'__696
+      MAlonzo.Code.Axiom.Set.Map.du__'8746''737'__832
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
@@ -4234,56 +4256,93 @@ du__'8746''737'__742 v0 v1 v2 v3
          erased v0)
       v2 v3
 -- Ledger.Set.Theory._._._∪ˡ'_
-d__'8746''737'''__744 ::
+d__'8746''737'''__746 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] ->
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] ->
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14]
-d__'8746''737'''__744 ~v0 v1 = du__'8746''737'''__744 v1
-du__'8746''737'''__744 ::
+d__'8746''737'''__746 ~v0 v1 = du__'8746''737'''__746 v1
+du__'8746''737'''__746 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] ->
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] ->
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14]
-du__'8746''737'''__744 v0 v1 v2 v3
+du__'8746''737'''__746 v0 v1 v2 v3
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du__'8746''737'''__690
+      MAlonzo.Code.Axiom.Set.Map.du__'8746''737'''__826
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
          MAlonzo.Code.Axiom.Set.d_'8712''45'sp_1558 d_List'45'Model'7496'_10
          erased v0)
       v2 v3
--- Ledger.Set.Theory._._.disjoint-∪ˡ-∪
-d_disjoint'45''8746''737''45''8746'_746 ::
+-- Ledger.Set.Theory._._.disjoint-∪ˡ-mapValues
+d_disjoint'45''8746''737''45'mapValues_748 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
-  [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] ->
-  [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] ->
+  () ->
+  MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
+  MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
+  (AgdaAny -> AgdaAny) ->
   (AgdaAny ->
    MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
    MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
    MAlonzo.Code.Data.Irrelevant.T_Irrelevant_20) ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_disjoint'45''8746''737''45''8746'_746 ~v0 v1
-  = du_disjoint'45''8746''737''45''8746'_746 v1
-du_disjoint'45''8746''737''45''8746'_746 ::
+d_disjoint'45''8746''737''45'mapValues_748 ~v0 v1
+  = du_disjoint'45''8746''737''45'mapValues_748 v1
+du_disjoint'45''8746''737''45'mapValues_748 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
-  [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] ->
-  [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] ->
+  () ->
+  MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
+  MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
+  (AgdaAny -> AgdaAny) ->
   (AgdaAny ->
    MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
    MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
    MAlonzo.Code.Data.Irrelevant.T_Irrelevant_20) ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-du_disjoint'45''8746''737''45''8746'_746 v0 v1 v2 v3 v4
+du_disjoint'45''8746''737''45'mapValues_748 v0 v1 v2 v3 v4 v5 v6
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du_disjoint'45''8746''737''45''8746'_710
+      MAlonzo.Code.Axiom.Set.Map.du_disjoint'45''8746''737''45'mapValues_882
+      (coe
+         MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
+      (coe
+         MAlonzo.Code.Axiom.Set.d_'8712''45'sp_1558 d_List'45'Model'7496'_10
+         erased v0)
+      v3 v4 v5
+-- Ledger.Set.Theory._._.disjoint-∪ˡ-∪
+d_disjoint'45''8746''737''45''8746'_750 ::
+  () ->
+  MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
+  () ->
+  [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] ->
+  [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] ->
+  (AgdaAny ->
+   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
+   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
+   MAlonzo.Code.Data.Irrelevant.T_Irrelevant_20) ->
+  MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
+d_disjoint'45''8746''737''45''8746'_750 ~v0 v1
+  = du_disjoint'45''8746''737''45''8746'_750 v1
+du_disjoint'45''8746''737''45''8746'_750 ::
+  MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
+  () ->
+  [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] ->
+  [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] ->
+  (AgdaAny ->
+   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
+   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
+   MAlonzo.Code.Data.Irrelevant.T_Irrelevant_20) ->
+  MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
+du_disjoint'45''8746''737''45''8746'_750 v0 v1 v2 v3 v4
+  = coe
+      MAlonzo.Code.Axiom.Set.Map.du_disjoint'45''8746''737''45''8746'_846
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
@@ -4291,21 +4350,21 @@ du_disjoint'45''8746''737''45''8746'_746 v0 v1 v2 v3 v4
          erased v0)
       v2 v3 v4
 -- Ledger.Set.Theory._._.insert
-d_insert_748 ::
+d_insert_752 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   AgdaAny -> AgdaAny -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_insert_748 ~v0 v1 = du_insert_748 v1
-du_insert_748 ::
+d_insert_752 ~v0 v1 = du_insert_752 v1
+du_insert_752 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   AgdaAny -> AgdaAny -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-du_insert_748 v0 v1 v2 v3 v4
+du_insert_752 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du_insert_718
+      MAlonzo.Code.Axiom.Set.Map.du_insert_854
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
@@ -4313,7 +4372,7 @@ du_insert_748 v0 v1 v2 v3 v4
          erased v0)
       v2 v3 v4
 -- Ledger.Set.Theory._._.insertIfJust
-d_insertIfJust_750 ::
+d_insertIfJust_754 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
@@ -4322,8 +4381,8 @@ d_insertIfJust_750 ::
   Maybe AgdaAny ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_insertIfJust_750 ~v0 v1 = du_insertIfJust_750 v1
-du_insertIfJust_750 ::
+d_insertIfJust_754 ~v0 v1 = du_insertIfJust_754 v1
+du_insertIfJust_754 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
@@ -4331,9 +4390,9 @@ du_insertIfJust_750 ::
   Maybe AgdaAny ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-du_insertIfJust_750 v0 v1 v2 v3 v4 v5
+du_insertIfJust_754 v0 v1 v2 v3 v4 v5
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du_insertIfJust_726
+      MAlonzo.Code.Axiom.Set.Map.du_insertIfJust_862
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
@@ -4341,15 +4400,15 @@ du_insertIfJust_750 v0 v1 v2 v3 v4 v5
          erased v0)
       v3 v4 v5
 -- Ledger.Set.Theory._._._∩_
-d__'8745'__754 ::
+d__'8745'__758 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   [AgdaAny] -> [AgdaAny] -> [AgdaAny]
-d__'8745'__754 ~v0 v1 = du__'8745'__754 v1
-du__'8745'__754 ::
+d__'8745'__758 ~v0 v1 = du__'8745'__758 v1
+du__'8745'__758 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   [AgdaAny] -> [AgdaAny] -> [AgdaAny]
-du__'8745'__754 v0
+du__'8745'__758 v0
   = let v1 = d_List'45'Model'7496'_10 in
     coe
       (coe
@@ -4359,15 +4418,15 @@ du__'8745'__754 v0
             MAlonzo.Code.Axiom.Set.d_'8712''45'sp_1558 d_List'45'Model'7496'_10
             erased v0))
 -- Ledger.Set.Theory._._._＼_
-d__'65340'__756 ::
+d__'65340'__760 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   [AgdaAny] -> [AgdaAny] -> [AgdaAny]
-d__'65340'__756 ~v0 v1 = du__'65340'__756 v1
-du__'65340'__756 ::
+d__'65340'__760 ~v0 v1 = du__'65340'__760 v1
+du__'65340'__760 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   [AgdaAny] -> [AgdaAny] -> [AgdaAny]
-du__'65340'__756 v0
+du__'65340'__760 v0
   = let v1 = d_List'45'Model'7496'_10 in
     coe
       (coe
@@ -4377,25 +4436,25 @@ du__'65340'__756 v0
             MAlonzo.Code.Axiom.Set.d_'8712''45'sp_1558 d_List'45'Model'7496'_10
             erased v0))
 -- Ledger.Set.Theory._._.disjoint'
-d_disjoint''_758 ::
+d_disjoint''_762 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   [AgdaAny] -> [AgdaAny] -> ()
-d_disjoint''_758 = erased
+d_disjoint''_762 = erased
 -- Ledger.Set.Theory._._.∈-∩
-d_'8712''45''8745'_760 ::
+d_'8712''45''8745'_764 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   [AgdaAny] ->
   [AgdaAny] ->
   AgdaAny -> MAlonzo.Code.Function.Bundles.T_Equivalence_1714
-d_'8712''45''8745'_760 ~v0 v1 = du_'8712''45''8745'_760 v1
-du_'8712''45''8745'_760 ::
+d_'8712''45''8745'_764 ~v0 v1 = du_'8712''45''8745'_764 v1
+du_'8712''45''8745'_764 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   [AgdaAny] ->
   [AgdaAny] ->
   AgdaAny -> MAlonzo.Code.Function.Bundles.T_Equivalence_1714
-du_'8712''45''8745'_760 v0
+du_'8712''45''8745'_764 v0
   = let v1 = d_List'45'Model'7496'_10 in
     coe
       (coe
@@ -4405,47 +4464,47 @@ du_'8712''45''8745'_760 v0
             MAlonzo.Code.Axiom.Set.d_'8712''45'sp_1558 d_List'45'Model'7496'_10
             erased v0))
 -- Ledger.Set.Theory._._.lookupᵐ
-d_lookup'7504'_764 ::
+d_lookup'7504'_768 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 -> AgdaAny
-d_lookup'7504'_764 ~v0 ~v1 = du_lookup'7504'_764
-du_lookup'7504'_764 ::
+d_lookup'7504'_768 ~v0 ~v1 = du_lookup'7504'_768
+du_lookup'7504'_768 ::
   () ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 -> AgdaAny
-du_lookup'7504'_764 v0 v1 v2 v3
+du_lookup'7504'_768 v0 v1 v2 v3
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du_lookup'7504'_1354
+      MAlonzo.Code.Axiom.Set.Map.du_lookup'7504'_1426
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v2 v3
 -- Ledger.Set.Theory._._.lookupᵐ?
-d_lookup'7504''63'_766 ::
+d_lookup'7504''63'_770 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   AgdaAny ->
   MAlonzo.Code.Class.Decidable.Core.T__'8263'_10 -> Maybe AgdaAny
-d_lookup'7504''63'_766 ~v0 ~v1 = du_lookup'7504''63'_766
-du_lookup'7504''63'_766 ::
+d_lookup'7504''63'_770 ~v0 ~v1 = du_lookup'7504''63'_770
+du_lookup'7504''63'_770 ::
   () ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   AgdaAny ->
   MAlonzo.Code.Class.Decidable.Core.T__'8263'_10 -> Maybe AgdaAny
-du_lookup'7504''63'_766 v0 v1 v2 v3
+du_lookup'7504''63'_770 v0 v1 v2 v3
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du_lookup'7504''63'_1358
+      MAlonzo.Code.Axiom.Set.Map.du_lookup'7504''63'_1430
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v2 v3
 -- Ledger.Set.Theory._._.pullbackMap
-d_pullbackMap_768 ::
+d_pullbackMap_772 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
@@ -4454,22 +4513,22 @@ d_pullbackMap_768 ::
   (AgdaAny -> MAlonzo.Code.Class.Decidable.Core.T__'8263'_10) ->
   (AgdaAny -> AgdaAny) ->
   [AgdaAny] -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_pullbackMap_768 ~v0 ~v1 = du_pullbackMap_768
-du_pullbackMap_768 ::
+d_pullbackMap_772 ~v0 ~v1 = du_pullbackMap_772
+du_pullbackMap_772 ::
   () ->
   () ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   (AgdaAny -> MAlonzo.Code.Class.Decidable.Core.T__'8263'_10) ->
   (AgdaAny -> AgdaAny) ->
   [AgdaAny] -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-du_pullbackMap_768 v0 v1 v2 v3 v4 v5
+du_pullbackMap_772 v0 v1 v2 v3 v4 v5
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du_pullbackMap_1364
+      MAlonzo.Code.Axiom.Set.Map.du_pullbackMap_1436
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v2 v3 v4 v5
 -- Ledger.Set.Theory._._._∪⁺_
-d__'8746''8314'__772 ::
+d__'8746''8314'__776 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   MAlonzo.Code.Algebra.Bundles.T_Monoid_740 ->
@@ -4477,37 +4536,37 @@ d__'8746''8314'__772 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d__'8746''8314'__772 ~v0 ~v1 = du__'8746''8314'__772
-du__'8746''8314'__772 ::
+d__'8746''8314'__776 ~v0 ~v1 = du__'8746''8314'__776
+du__'8746''8314'__776 ::
   MAlonzo.Code.Algebra.Bundles.T_Monoid_740 ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-du__'8746''8314'__772
+du__'8746''8314'__776
   = coe
-      MAlonzo.Code.Axiom.Set.Map.Dec.du__'8746''8314'__526
+      MAlonzo.Code.Axiom.Set.Map.Dec.du__'8746''8314'__528
       (coe d_List'45'Model'7496'_10)
 -- Ledger.Set.Theory._._.aggregate₊
-d_aggregate'8330'_774 ::
+d_aggregate'8330'_778 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   MAlonzo.Code.Algebra.Bundles.T_Monoid_740 ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_aggregate'8330'_774 ~v0 ~v1 = du_aggregate'8330'_774
-du_aggregate'8330'_774 ::
+d_aggregate'8330'_778 ~v0 ~v1 = du_aggregate'8330'_778
+du_aggregate'8330'_778 ::
   MAlonzo.Code.Algebra.Bundles.T_Monoid_740 ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-du_aggregate'8330'_774
+du_aggregate'8330'_778
   = coe
-      MAlonzo.Code.Axiom.Set.Map.Dec.du_aggregate'8330'_528
+      MAlonzo.Code.Axiom.Set.Map.Dec.du_aggregate'8330'_530
       (coe d_List'45'Model'7496'_10)
 -- Ledger.Set.Theory._._.unionThese
-d_unionThese_776 ::
+d_unionThese_780 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
@@ -4518,8 +4577,8 @@ d_unionThese_776 ::
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.These.Base.T_These_38
-d_unionThese_776 ~v0 ~v1 = du_unionThese_776
-du_unionThese_776 ::
+d_unionThese_780 ~v0 ~v1 = du_unionThese_780
+du_unionThese_780 ::
   () ->
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
@@ -4528,12 +4587,12 @@ du_unionThese_776 ::
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.These.Base.T_These_38
-du_unionThese_776 v0 v1 v2 v3 v4 v5 v6
+du_unionThese_780 v0 v1 v2 v3 v4 v5 v6
   = coe
-      MAlonzo.Code.Axiom.Set.Map.Dec.du_unionThese_326
+      MAlonzo.Code.Axiom.Set.Map.Dec.du_unionThese_328
       (coe d_List'45'Model'7496'_10) v2 v3 v4 v5 v6
 -- Ledger.Set.Theory._._.unionWith
-d_unionWith_778 ::
+d_unionWith_782 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   () ->
@@ -4544,8 +4603,8 @@ d_unionWith_778 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_unionWith_778 ~v0 ~v1 = du_unionWith_778
-du_unionWith_778 ::
+d_unionWith_782 ~v0 ~v1 = du_unionWith_782
+du_unionWith_782 ::
   () ->
   () ->
   () ->
@@ -4554,12 +4613,12 @@ du_unionWith_778 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-du_unionWith_778 v0 v1 v2 v3 v4 v5 v6
+du_unionWith_782 v0 v1 v2 v3 v4 v5 v6
   = coe
-      MAlonzo.Code.Axiom.Set.Map.Dec.du_unionWith_388
+      MAlonzo.Code.Axiom.Set.Map.Dec.du_unionWith_390
       (coe d_List'45'Model'7496'_10) v3 v4 v5 v6
 -- Ledger.Set.Theory._._._∩ᵐ_
-d__'8745''7504'__794 ::
+d__'8745''7504'__798 ::
   () ->
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
@@ -4567,16 +4626,16 @@ d__'8745''7504'__794 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d__'8745''7504'__794 ~v0 ~v1 v2 v3 = du__'8745''7504'__794 v2 v3
-du__'8745''7504'__794 ::
+d__'8745''7504'__798 ~v0 ~v1 v2 v3 = du__'8745''7504'__798 v2 v3
+du__'8745''7504'__798 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-du__'8745''7504'__794 v0 v1
+du__'8745''7504'__798 v0 v1
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du__'8745''7504'__610
+      MAlonzo.Code.Axiom.Set.Map.du__'8745''7504'__612
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
@@ -4586,7 +4645,7 @@ du__'8745''7504'__794 v0 v1
             MAlonzo.Code.Prelude.d_DecEq'45''215''8242'_4 () erased () erased
             v0 v1))
 -- Ledger.Set.Theory._._._._∪ˡᶠ_
-d__'8746''737''7584'__806 ::
+d__'8746''737''7584'__810 ::
   () ->
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
@@ -4595,16 +4654,16 @@ d__'8746''737''7584'__806 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d__'8746''737''7584'__806 ~v0 ~v1 v2 ~v3 ~v4
-  = du__'8746''737''7584'__806 v2
-du__'8746''737''7584'__806 ::
+d__'8746''737''7584'__810 ~v0 ~v1 v2 ~v3 ~v4
+  = du__'8746''737''7584'__810 v2
+du__'8746''737''7584'__810 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-du__'8746''737''7584'__806 v0
+du__'8746''737''7584'__810 v0
   = coe
-      MAlonzo.Code.Axiom.Set.Sum.du__'8746''737''7584'__960
+      MAlonzo.Code.Axiom.Set.Sum.du__'8746''737''7584'__966
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
@@ -4616,7 +4675,7 @@ du__'8746''737''7584'__806 v0
               MAlonzo.Code.Axiom.Set.d__'8712''63'__1560 d_List'45'Model'7496'_10
               erased v0 v2 v1))
 -- Ledger.Set.Theory._._._.indexedSumᵐ-partition
-d_indexedSum'7504''45'partition_808 ::
+d_indexedSum'7504''45'partition_812 ::
   () ->
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
@@ -4627,9 +4686,9 @@ d_indexedSum'7504''45'partition_808 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   (MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 -> AgdaAny) ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 -> AgdaAny
-d_indexedSum'7504''45'partition_808 ~v0 ~v1 v2 v3 v4
-  = du_indexedSum'7504''45'partition_808 v2 v3 v4
-du_indexedSum'7504''45'partition_808 ::
+d_indexedSum'7504''45'partition_812 ~v0 ~v1 v2 v3 v4
+  = du_indexedSum'7504''45'partition_812 v2 v3 v4
+du_indexedSum'7504''45'partition_812 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   MAlonzo.Code.Algebra.Bundles.T_CommutativeMonoid_820 ->
@@ -4638,9 +4697,9 @@ du_indexedSum'7504''45'partition_808 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   (MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 -> AgdaAny) ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 -> AgdaAny
-du_indexedSum'7504''45'partition_808 v0 v1 v2
+du_indexedSum'7504''45'partition_812 v0 v1 v2
   = coe
-      MAlonzo.Code.Axiom.Set.Sum.du_indexedSum'7504''45'partition_1010
+      MAlonzo.Code.Axiom.Set.Sum.du_indexedSum'7504''45'partition_1016
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe v2) (coe v0) (coe v1)
@@ -4653,7 +4712,7 @@ du_indexedSum'7504''45'partition_808 v0 v1 v2
               MAlonzo.Code.Axiom.Set.d__'8712''63'__1560 d_List'45'Model'7496'_10
               erased v0 v4 v3))
 -- Ledger.Set.Theory._._._.indexedSumᵐ-∪
-d_indexedSum'7504''45''8746'_810 ::
+d_indexedSum'7504''45''8746'_814 ::
   () ->
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
@@ -4667,9 +4726,9 @@ d_indexedSum'7504''45''8746'_810 ::
    MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
    MAlonzo.Code.Data.Irrelevant.T_Irrelevant_20) ->
   AgdaAny
-d_indexedSum'7504''45''8746'_810 ~v0 ~v1 v2 v3 v4
-  = du_indexedSum'7504''45''8746'_810 v2 v3 v4
-du_indexedSum'7504''45''8746'_810 ::
+d_indexedSum'7504''45''8746'_814 ~v0 ~v1 v2 v3 v4
+  = du_indexedSum'7504''45''8746'_814 v2 v3 v4
+du_indexedSum'7504''45''8746'_814 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   MAlonzo.Code.Algebra.Bundles.T_CommutativeMonoid_820 ->
@@ -4681,9 +4740,9 @@ du_indexedSum'7504''45''8746'_810 ::
    MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
    MAlonzo.Code.Data.Irrelevant.T_Irrelevant_20) ->
   AgdaAny
-du_indexedSum'7504''45''8746'_810 v0 v1 v2 v3 v4 v5 v6
+du_indexedSum'7504''45''8746'_814 v0 v1 v2 v3 v4 v5 v6
   = coe
-      MAlonzo.Code.Axiom.Set.Sum.du_indexedSum'7504''45''8746'_976
+      MAlonzo.Code.Axiom.Set.Sum.du_indexedSum'7504''45''8746'_982
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe v2) (coe v0) (coe v1)
@@ -4697,7 +4756,7 @@ du_indexedSum'7504''45''8746'_810 v0 v1 v2 v3 v4 v5 v6
               erased v0 v8 v7))
       v3 v4 v5
 -- Ledger.Set.Theory._._._.∪ˡ-finite
-d_'8746''737''45'finite_812 ::
+d_'8746''737''45'finite_816 ::
   () ->
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
@@ -4708,18 +4767,18 @@ d_'8746''737''45'finite_812 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'8746''737''45'finite_812 ~v0 ~v1 v2 ~v3 ~v4
-  = du_'8746''737''45'finite_812 v2
-du_'8746''737''45'finite_812 ::
+d_'8746''737''45'finite_816 ~v0 ~v1 v2 ~v3 ~v4
+  = du_'8746''737''45'finite_816 v2
+du_'8746''737''45'finite_816 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] ->
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-du_'8746''737''45'finite_812 v0
+du_'8746''737''45'finite_816 v0
   = coe
-      MAlonzo.Code.Axiom.Set.Sum.du_'8746''737''45'finite_954
+      MAlonzo.Code.Axiom.Set.Sum.du_'8746''737''45'finite_960
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
@@ -4731,71 +4790,71 @@ du_'8746''737''45'finite_812 v0
               MAlonzo.Code.Axiom.Set.d__'8712''63'__1560 d_List'45'Model'7496'_10
               erased v0 v2 v1))
 -- Ledger.Set.Theory.Properties._._≡_⨿_
-d__'8801'_'10815'__818 ::
+d__'8801'_'10815'__822 ::
   () -> [AgdaAny] -> [AgdaAny] -> [AgdaAny] -> ()
-d__'8801'_'10815'__818 = erased
+d__'8801'_'10815'__822 = erased
 -- Ledger.Set.Theory.Properties._.Dec-∈-fromList
-d_Dec'45''8712''45'fromList_820 ::
+d_Dec'45''8712''45'fromList_824 ::
   () ->
   AgdaAny ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   [AgdaAny] ->
   AgdaAny -> MAlonzo.Code.Relation.Nullary.Decidable.Core.T_Dec_20
-d_Dec'45''8712''45'fromList_820 v0 v1 v2 v3 v4
+d_Dec'45''8712''45'fromList_824 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Properties.du_Dec'45''8712''45'fromList_504
+      MAlonzo.Code.Axiom.Set.Properties.du_Dec'45''8712''45'fromList_534
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v2 v3 v4
 -- Ledger.Set.Theory.Properties._.Dec-∈-singleton
-d_Dec'45''8712''45'singleton_822 ::
+d_Dec'45''8712''45'singleton_826 ::
   () ->
   AgdaAny ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   AgdaAny -> MAlonzo.Code.Relation.Nullary.Decidable.Core.T_Dec_20
-d_Dec'45''8712''45'singleton_822 v0 v1 v2 v3
+d_Dec'45''8712''45'singleton_826 v0 v1 v2 v3
   = coe
-      MAlonzo.Code.Axiom.Set.Properties.du_Dec'45''8712''45'singleton_510
+      MAlonzo.Code.Axiom.Set.Properties.du_Dec'45''8712''45'singleton_540
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v2 v3
 -- Ledger.Set.Theory.Properties._.Set-BddSemilattice
-d_Set'45'BddSemilattice_824 ::
+d_Set'45'BddSemilattice_828 ::
   () ->
   MAlonzo.Code.Relation.Binary.Lattice.Bundles.T_BoundedJoinSemilattice_102
-d_Set'45'BddSemilattice_824 v0
+d_Set'45'BddSemilattice_828 v0
   = coe
-      MAlonzo.Code.Axiom.Set.Properties.du_Set'45'BddSemilattice_614
+      MAlonzo.Code.Axiom.Set.Properties.du_Set'45'BddSemilattice_644
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
 -- Ledger.Set.Theory.Properties._.Set-BoundedJoinSemilattice
-d_Set'45'BoundedJoinSemilattice_826 ::
+d_Set'45'BoundedJoinSemilattice_830 ::
   () ->
   MAlonzo.Code.Relation.Binary.Lattice.Structures.T_IsBoundedJoinSemilattice_116
-d_Set'45'BoundedJoinSemilattice_826 v0
+d_Set'45'BoundedJoinSemilattice_830 v0
   = coe
-      MAlonzo.Code.Axiom.Set.Properties.du_Set'45'BoundedJoinSemilattice_610
+      MAlonzo.Code.Axiom.Set.Properties.du_Set'45'BoundedJoinSemilattice_640
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
 -- Ledger.Set.Theory.Properties._.Set-JoinSemilattice
-d_Set'45'JoinSemilattice_828 ::
+d_Set'45'JoinSemilattice_832 ::
   () ->
   MAlonzo.Code.Relation.Binary.Lattice.Structures.T_IsJoinSemilattice_22
-d_Set'45'JoinSemilattice_828 v0
+d_Set'45'JoinSemilattice_832 v0
   = coe
-      MAlonzo.Code.Axiom.Set.Properties.du_Set'45'JoinSemilattice_608
+      MAlonzo.Code.Axiom.Set.Properties.du_Set'45'JoinSemilattice_638
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
 -- Ledger.Set.Theory.Properties._.card-≡ᵉ
-d_card'45''8801''7497'_830 ::
+d_card'45''8801''7497'_834 ::
   () ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_card'45''8801''7497'_830 = erased
+d_card'45''8801''7497'_834 = erased
 -- Ledger.Set.Theory.Properties._.cong-⊆⇒cong
-d_cong'45''8838''8658'cong_832 ::
+d_cong'45''8838''8658'cong_836 ::
   () ->
   () ->
   ([AgdaAny] -> [AgdaAny]) ->
@@ -4811,12 +4870,12 @@ d_cong'45''8838''8658'cong_832 ::
   [AgdaAny] ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_cong'45''8838''8658'cong_832 v0 v1 v2 v3 v4 v5 v6
+d_cong'45''8838''8658'cong_836 v0 v1 v2 v3 v4 v5 v6
   = coe
       MAlonzo.Code.Axiom.Set.Properties.du_cong'45''8838''8658'cong_262
       v3 v4 v5 v6
 -- Ledger.Set.Theory.Properties._.cong-⊆⇒cong₂
-d_cong'45''8838''8658'cong'8322'_834 ::
+d_cong'45''8838''8658'cong'8322'_838 ::
   () ->
   () ->
   () ->
@@ -4841,13 +4900,13 @@ d_cong'45''8838''8658'cong'8322'_834 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_cong'45''8838''8658'cong'8322'_834 v0 v1 v2 v3 v4 v5 v6 v7 v8 v9
+d_cong'45''8838''8658'cong'8322'_838 v0 v1 v2 v3 v4 v5 v6 v7 v8 v9
                                      v10
   = coe
       MAlonzo.Code.Axiom.Set.Properties.du_cong'45''8838''8658'cong'8322'_270
       v4 v5 v6 v7 v8 v9 v10
 -- Ledger.Set.Theory.Properties._.disjoint-sym
-d_disjoint'45'sym_836 ::
+d_disjoint'45'sym_840 ::
   () ->
   [AgdaAny] ->
   [AgdaAny] ->
@@ -4859,9 +4918,9 @@ d_disjoint'45'sym_836 ::
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.Irrelevant.T_Irrelevant_20
-d_disjoint'45'sym_836 = erased
+d_disjoint'45'sym_840 = erased
 -- Ledger.Set.Theory.Properties._.filter-finite
-d_filter'45'finite_838 ::
+d_filter'45'finite_842 ::
   () ->
   [AgdaAny] ->
   (AgdaAny -> ()) ->
@@ -4871,14 +4930,14 @@ d_filter'45'finite_838 ::
    MAlonzo.Code.Relation.Nullary.Decidable.Core.T_Dec_20) ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_filter'45'finite_838 v0 v1 v2 v3 v4 v5
+d_filter'45'finite_842 v0 v1 v2 v3 v4 v5
   = coe
-      MAlonzo.Code.Axiom.Set.Properties.du_filter'45'finite_528
+      MAlonzo.Code.Axiom.Set.Properties.du_filter'45'finite_558
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v3 v4 v5
 -- Ledger.Set.Theory.Properties._.filter-⊆
-d_filter'45''8838'_840 ::
+d_filter'45''8838'_844 ::
   () ->
   [AgdaAny] ->
   (AgdaAny -> ()) ->
@@ -4887,40 +4946,40 @@ d_filter'45''8838'_840 ::
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-d_filter'45''8838'_840 v0 v1 v2 v3 v4
+d_filter'45''8838'_844 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Properties.du_filter'45''8838'_496
+      MAlonzo.Code.Axiom.Set.Properties.du_filter'45''8838'_526
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v3 v4
 -- Ledger.Set.Theory.Properties._.map-∅
-d_map'45''8709'_842 ::
+d_map'45''8709'_846 ::
   () ->
   () ->
   [AgdaAny] ->
   (AgdaAny -> AgdaAny) -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_map'45''8709'_842 v0 v1 v2 v3
+d_map'45''8709'_846 v0 v1 v2 v3
   = coe
       MAlonzo.Code.Axiom.Set.Properties.du_map'45''8709'_442
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v3
 -- Ledger.Set.Theory.Properties._.map-∘
-d_map'45''8728'_844 ::
+d_map'45''8728'_848 ::
   () ->
   () ->
   () ->
   (AgdaAny -> AgdaAny) ->
   (AgdaAny -> AgdaAny) ->
   [AgdaAny] -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_map'45''8728'_844 v0 v1 v2 v3 v4 v5
+d_map'45''8728'_848 v0 v1 v2 v3 v4 v5
   = coe
       MAlonzo.Code.Axiom.Set.Properties.du_map'45''8728'_380
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v3 v4 v5
 -- Ledger.Set.Theory.Properties._.map-∘⊆
-d_map'45''8728''8838'_846 ::
+d_map'45''8728''8838'_850 ::
   () ->
   () ->
   () ->
@@ -4930,14 +4989,27 @@ d_map'45''8728''8838'_846 ::
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-d_map'45''8728''8838'_846 v0 v1 v2 v3 v4 v5 v6 v7
+d_map'45''8728''8838'_850 v0 v1 v2 v3 v4 v5 v6 v7
   = coe
       MAlonzo.Code.Axiom.Set.Properties.du_map'45''8728''8838'_364
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v3 v4 v5 v6 v7
+-- Ledger.Set.Theory.Properties._.map-∪
+d_map'45''8746'_852 ::
+  () ->
+  () ->
+  [AgdaAny] ->
+  [AgdaAny] ->
+  (AgdaAny -> AgdaAny) -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
+d_map'45''8746'_852 v0 v1 v2 v3 v4
+  = coe
+      MAlonzo.Code.Axiom.Set.Properties.du_map'45''8746'_456
+      (coe
+         MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
+      v2 v3 v4
 -- Ledger.Set.Theory.Properties._.map-≡ᵉ
-d_map'45''8801''7497'_848 ::
+d_map'45''8801''7497'_854 ::
   () ->
   () ->
   [AgdaAny] ->
@@ -4945,14 +5017,14 @@ d_map'45''8801''7497'_848 ::
   (AgdaAny -> AgdaAny) ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_map'45''8801''7497'_848 v0 v1 v2 v3 v4 v5
+d_map'45''8801''7497'_854 v0 v1 v2 v3 v4 v5
   = coe
       MAlonzo.Code.Axiom.Set.Properties.du_map'45''8801''7497'_414
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v2 v3 v4 v5
 -- Ledger.Set.Theory.Properties._.map-⊆
-d_map'45''8838'_850 ::
+d_map'45''8838'_856 ::
   () ->
   () ->
   [AgdaAny] ->
@@ -4964,14 +5036,14 @@ d_map'45''8838'_850 ::
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-d_map'45''8838'_850 v0 v1 v2 v3 v4 v5 v6 v7
+d_map'45''8838'_856 v0 v1 v2 v3 v4 v5 v6 v7
   = coe
       MAlonzo.Code.Axiom.Set.Properties.du_map'45''8838'_388
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v2 v3 v4 v5 v6 v7
 -- Ledger.Set.Theory.Properties._.map-⊆∘
-d_map'45''8838''8728'_852 ::
+d_map'45''8838''8728'_858 ::
   () ->
   () ->
   () ->
@@ -4981,102 +5053,102 @@ d_map'45''8838''8728'_852 ::
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-d_map'45''8838''8728'_852 v0 v1 v2 v3 v4 v5 v6 v7
+d_map'45''8838''8728'_858 v0 v1 v2 v3 v4 v5 v6 v7
   = coe
       MAlonzo.Code.Axiom.Set.Properties.du_map'45''8838''8728'_342
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v3 v4 v5 v6 v7
 -- Ledger.Set.Theory.Properties._.mapPartial-∅
-d_mapPartial'45''8709'_854 ::
+d_mapPartial'45''8709'_860 ::
   () ->
   () ->
   (AgdaAny -> Maybe AgdaAny) ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_mapPartial'45''8709'_854 v0 v1 v2
+d_mapPartial'45''8709'_860 v0 v1 v2
   = coe
-      MAlonzo.Code.Axiom.Set.Properties.du_mapPartial'45''8709'_452
+      MAlonzo.Code.Axiom.Set.Properties.du_mapPartial'45''8709'_482
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v2
 -- Ledger.Set.Theory.Properties._.singleton-finite
-d_singleton'45'finite_856 ::
+d_singleton'45'finite_862 ::
   () -> AgdaAny -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_singleton'45'finite_856 v0 v1
+d_singleton'45'finite_862 v0 v1
   = coe
-      MAlonzo.Code.Axiom.Set.Properties.du_singleton'45'finite_514
+      MAlonzo.Code.Axiom.Set.Properties.du_singleton'45'finite_544
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1
 -- Ledger.Set.Theory.Properties._.sublist-⇔
-d_sublist'45''8660'_858 ::
+d_sublist'45''8660'_864 ::
   () ->
   [AgdaAny] ->
   [AgdaAny] -> MAlonzo.Code.Function.Bundles.T_Equivalence_1714
-d_sublist'45''8660'_858 v0 v1 v2
+d_sublist'45''8660'_864 v0 v1 v2
   = coe
-      MAlonzo.Code.Axiom.Set.Properties.du_sublist'45''8660'_748
+      MAlonzo.Code.Axiom.Set.Properties.du_sublist'45''8660'_778
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v2
 -- Ledger.Set.Theory.Properties._.∃-sublist-⇔
-d_'8707''45'sublist'45''8660'_860 ::
+d_'8707''45'sublist'45''8660'_866 ::
   () ->
   [AgdaAny] ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   ([AgdaAny] -> ()) ->
   MAlonzo.Code.Function.Bundles.T_Equivalence_1714
-d_'8707''45'sublist'45''8660'_860 v0 v1 v2 v3
+d_'8707''45'sublist'45''8660'_866 v0 v1 v2 v3
   = coe
-      MAlonzo.Code.Axiom.Set.Properties.du_'8707''45'sublist'45''8660'_788
+      MAlonzo.Code.Axiom.Set.Properties.du_'8707''45'sublist'45''8660'_818
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1
 -- Ledger.Set.Theory.Properties._.∃?-sublist-⇔
-d_'8707''63''45'sublist'45''8660'_862 ::
+d_'8707''63''45'sublist'45''8660'_868 ::
   () ->
   [AgdaAny] ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   ([AgdaAny] -> ()) ->
   MAlonzo.Code.Function.Bundles.T_Equivalence_1714
-d_'8707''63''45'sublist'45''8660'_862 v0 v1 v2 v3
+d_'8707''63''45'sublist'45''8660'_868 v0 v1 v2 v3
   = coe
-      MAlonzo.Code.Axiom.Set.Properties.du_'8707''63''45'sublist'45''8660'_810
+      MAlonzo.Code.Axiom.Set.Properties.du_'8707''63''45'sublist'45''8660'_840
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1
 -- Ledger.Set.Theory.Properties._.∅-finite
-d_'8709''45'finite_864 ::
+d_'8709''45'finite_870 ::
   () -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'8709''45'finite_864 v0
+d_'8709''45'finite_870 v0
   = coe MAlonzo.Code.Axiom.Set.Properties.du_'8709''45'finite_436
 -- Ledger.Set.Theory.Properties._.∅-least
-d_'8709''45'least_866 ::
+d_'8709''45'least_872 ::
   () ->
   [AgdaAny] ->
   (AgdaAny ->
    MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
    MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34) ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'8709''45'least_866 v0 v1 v2
+d_'8709''45'least_872 v0 v1 v2
   = coe MAlonzo.Code.Axiom.Set.Properties.du_'8709''45'least_430 v2
 -- Ledger.Set.Theory.Properties._.∅-minimum
-d_'8709''45'minimum_868 ::
+d_'8709''45'minimum_874 ::
   () ->
   [AgdaAny] ->
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-d_'8709''45'minimum_868 v0 v1 v2 v3
+d_'8709''45'minimum_874 v0 v1 v2 v3
   = coe MAlonzo.Code.Axiom.Set.Properties.du_'8709''45'minimum_426
 -- Ledger.Set.Theory.Properties._.∅-weakly-finite
-d_'8709''45'weakly'45'finite_870 ::
+d_'8709''45'weakly'45'finite_876 ::
   () -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'8709''45'weakly'45'finite_870 v0
+d_'8709''45'weakly'45'finite_876 v0
   = coe
       MAlonzo.Code.Axiom.Set.Properties.du_'8709''45'weakly'45'finite_434
 -- Ledger.Set.Theory.Properties._.∈-filter⁺'
-d_'8712''45'filter'8314'''_872 ::
+d_'8712''45'filter'8314'''_878 ::
   () ->
   [AgdaAny] ->
   (AgdaAny -> ()) ->
@@ -5085,14 +5157,14 @@ d_'8712''45'filter'8314'''_872 ::
   AgdaAny ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-d_'8712''45'filter'8314'''_872 v0 v1 v2 v3 v4
+d_'8712''45'filter'8314'''_878 v0 v1 v2 v3 v4
   = coe
       MAlonzo.Code.Axiom.Set.Properties.du_'8712''45'filter'8314'''_196
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v3 v4
 -- Ledger.Set.Theory.Properties._.∈-filter⁻'
-d_'8712''45'filter'8315'''_874 ::
+d_'8712''45'filter'8315'''_880 ::
   () ->
   [AgdaAny] ->
   (AgdaAny -> ()) ->
@@ -5101,14 +5173,14 @@ d_'8712''45'filter'8315'''_874 ::
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'8712''45'filter'8315'''_874 v0 v1 v2 v3 v4
+d_'8712''45'filter'8315'''_880 v0 v1 v2 v3 v4
   = coe
       MAlonzo.Code.Axiom.Set.Properties.du_'8712''45'filter'8315'''_194
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v3 v4
 -- Ledger.Set.Theory.Properties._.∈-fromList⁺
-d_'8712''45'fromList'8314'_876 ::
+d_'8712''45'fromList'8314'_882 ::
   () ->
   [AgdaAny] ->
   AgdaAny ->
@@ -5116,27 +5188,27 @@ d_'8712''45'fromList'8314'_876 ::
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-d_'8712''45'fromList'8314'_876 v0 v1 v2 v3 v4
+d_'8712''45'fromList'8314'_882 v0 v1 v2 v3 v4
   = coe
       MAlonzo.Code.Axiom.Set.Properties.du_'8712''45'fromList'8314'_230
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v3 v4
 -- Ledger.Set.Theory.Properties._.∈-fromList⁻
-d_'8712''45'fromList'8315'_878 ::
+d_'8712''45'fromList'8315'_884 ::
   () ->
   [AgdaAny] ->
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-d_'8712''45'fromList'8315'_878 v0 v1 v2
+d_'8712''45'fromList'8315'_884 v0 v1 v2
   = coe
       MAlonzo.Code.Axiom.Set.Properties.du_'8712''45'fromList'8315'_224
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v2
 -- Ledger.Set.Theory.Properties._.∈-map⁺'
-d_'8712''45'map'8314'''_880 ::
+d_'8712''45'map'8314'''_886 ::
   () ->
   () ->
   (AgdaAny -> AgdaAny) ->
@@ -5144,14 +5216,14 @@ d_'8712''45'map'8314'''_880 ::
   AgdaAny ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-d_'8712''45'map'8314'''_880 v0 v1 v2 v3 v4
+d_'8712''45'map'8314'''_886 v0 v1 v2 v3 v4
   = coe
       MAlonzo.Code.Axiom.Set.Properties.du_'8712''45'map'8314'''_168
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v2 v3 v4
 -- Ledger.Set.Theory.Properties._.∈-map⁺''
-d_'8712''45'map'8314'''''_882 ::
+d_'8712''45'map'8314'''''_888 ::
   () ->
   () ->
   (AgdaAny -> AgdaAny) ->
@@ -5159,14 +5231,14 @@ d_'8712''45'map'8314'''''_882 ::
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-d_'8712''45'map'8314'''''_882 v0 v1 v2 v3 v4 v5
+d_'8712''45'map'8314'''''_888 v0 v1 v2 v3 v4 v5
   = coe
       MAlonzo.Code.Axiom.Set.Properties.du_'8712''45'map'8314'''''_176
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v2 v3 v4 v5
 -- Ledger.Set.Theory.Properties._.∈-map⁻'
-d_'8712''45'map'8315'''_884 ::
+d_'8712''45'map'8315'''_890 ::
   () ->
   () ->
   (AgdaAny -> AgdaAny) ->
@@ -5174,14 +5246,14 @@ d_'8712''45'map'8315'''_884 ::
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'8712''45'map'8315'''_884 v0 v1 v2 v3 v4
+d_'8712''45'map'8315'''_890 v0 v1 v2 v3 v4
   = coe
       MAlonzo.Code.Axiom.Set.Properties.du_'8712''45'map'8315'''_164
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v2 v3 v4
 -- Ledger.Set.Theory.Properties._.∈-×
-d_'8712''45''215'_886 ::
+d_'8712''45''215'_892 ::
   () ->
   () ->
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] ->
@@ -5189,59 +5261,59 @@ d_'8712''45''215'_886 ::
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'8712''45''215'_886 v0 v1 v2 v3 v4 v5
+d_'8712''45''215'_892 v0 v1 v2 v3 v4 v5
   = coe
       MAlonzo.Code.Axiom.Set.Properties.du_'8712''45''215'_320
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v2 v3 v4 v5
 -- Ledger.Set.Theory.Properties._.∈-∪⁺
-d_'8712''45''8746''8314'_888 ::
+d_'8712''45''8746''8314'_894 ::
   () ->
   [AgdaAny] ->
   [AgdaAny] ->
   AgdaAny ->
   MAlonzo.Code.Data.Sum.Base.T__'8846'__30 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-d_'8712''45''8746''8314'_888 v0 v1 v2 v3
+d_'8712''45''8746''8314'_894 v0 v1 v2 v3
   = coe
       MAlonzo.Code.Axiom.Set.Properties.du_'8712''45''8746''8314'_212
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v2 v3
 -- Ledger.Set.Theory.Properties._.∈-∪⁻
-d_'8712''45''8746''8315'_890 ::
+d_'8712''45''8746''8315'_896 ::
   () ->
   [AgdaAny] ->
   [AgdaAny] ->
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.Sum.Base.T__'8846'__30
-d_'8712''45''8746''8315'_890 v0 v1 v2 v3
+d_'8712''45''8746''8315'_896 v0 v1 v2 v3
   = coe
       MAlonzo.Code.Axiom.Set.Properties.du_'8712''45''8746''8315'_210
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v2 v3
 -- Ledger.Set.Theory.Properties._.∉-∅
-d_'8713''45''8709'_892 ::
+d_'8713''45''8709'_898 ::
   () ->
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.Irrelevant.T_Irrelevant_20
-d_'8713''45''8709'_892 = erased
+d_'8713''45''8709'_898 = erased
 -- Ledger.Set.Theory.Properties._.∪-Supremum
-d_'8746''45'Supremum_894 ::
+d_'8746''45'Supremum_900 ::
   () ->
   [AgdaAny] -> [AgdaAny] -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'8746''45'Supremum_894 v0 v1 v2
+d_'8746''45'Supremum_900 v0 v1 v2
   = coe
-      MAlonzo.Code.Axiom.Set.Properties.du_'8746''45'Supremum_574
+      MAlonzo.Code.Axiom.Set.Properties.du_'8746''45'Supremum_604
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v2
 -- Ledger.Set.Theory.Properties._.∪-cong
-d_'8746''45'cong_896 ::
+d_'8746''45'cong_902 ::
   () ->
   [AgdaAny] ->
   [AgdaAny] ->
@@ -5250,14 +5322,14 @@ d_'8746''45'cong_896 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'8746''45'cong_896 v0 v1 v2 v3 v4
+d_'8746''45'cong_902 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Properties.du_'8746''45'cong_584
+      MAlonzo.Code.Axiom.Set.Properties.du_'8746''45'cong_614
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v2 v3 v4
 -- Ledger.Set.Theory.Properties._.∪-cong-⊆
-d_'8746''45'cong'45''8838'_898 ::
+d_'8746''45'cong'45''8838'_904 ::
   () ->
   [AgdaAny] ->
   [AgdaAny] ->
@@ -5272,54 +5344,54 @@ d_'8746''45'cong'45''8838'_898 ::
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-d_'8746''45'cong'45''8838'_898 v0 v1 v2 v3 v4 v5 v6 v7
+d_'8746''45'cong'45''8838'_904 v0 v1 v2 v3 v4 v5 v6 v7
   = coe
-      MAlonzo.Code.Axiom.Set.Properties.du_'8746''45'cong'45''8838'_578
+      MAlonzo.Code.Axiom.Set.Properties.du_'8746''45'cong'45''8838'_608
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v2 v3 v4 v5 v6 v7
 -- Ledger.Set.Theory.Properties._.∪-identityʳ
-d_'8746''45'identity'691'_900 ::
+d_'8746''45'identity'691'_906 ::
   () -> [AgdaAny] -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'8746''45'identity'691'_900 v0
+d_'8746''45'identity'691'_906 v0
   = coe
-      MAlonzo.Code.Axiom.Set.Properties.du_'8746''45'identity'691'_642
+      MAlonzo.Code.Axiom.Set.Properties.du_'8746''45'identity'691'_672
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
 -- Ledger.Set.Theory.Properties._.∪-identityˡ
-d_'8746''45'identity'737'_902 ::
+d_'8746''45'identity'737'_908 ::
   () -> [AgdaAny] -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'8746''45'identity'737'_902 v0
+d_'8746''45'identity'737'_908 v0
   = coe
-      MAlonzo.Code.Axiom.Set.Properties.du_'8746''45'identity'737'_638
+      MAlonzo.Code.Axiom.Set.Properties.du_'8746''45'identity'737'_668
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
 -- Ledger.Set.Theory.Properties._.∪-preserves-finite
-d_'8746''45'preserves'45'finite_904 ::
+d_'8746''45'preserves'45'finite_910 ::
   () ->
   [AgdaAny] ->
   [AgdaAny] ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'8746''45'preserves'45'finite_904 v0 v1 v2 v3 v4
+d_'8746''45'preserves'45'finite_910 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Properties.du_'8746''45'preserves'45'finite_586
+      MAlonzo.Code.Axiom.Set.Properties.du_'8746''45'preserves'45'finite_616
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v2 v3 v4
 -- Ledger.Set.Theory.Properties._.∪-sym
-d_'8746''45'sym_906 ::
+d_'8746''45'sym_912 ::
   () ->
   [AgdaAny] -> [AgdaAny] -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'8746''45'sym_906 v0 v1 v2
+d_'8746''45'sym_912 v0 v1 v2
   = coe
-      MAlonzo.Code.Axiom.Set.Properties.du_'8746''45'sym_606
+      MAlonzo.Code.Axiom.Set.Properties.du_'8746''45'sym_636
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v2
 -- Ledger.Set.Theory.Properties._.∪-⊆
-d_'8746''45''8838'_908 ::
+d_'8746''45''8838'_914 ::
   () ->
   [AgdaAny] ->
   [AgdaAny] ->
@@ -5333,74 +5405,74 @@ d_'8746''45''8838'_908 ::
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-d_'8746''45''8838'_908 v0 v1 v2 v3 v4 v5 v6 v7
+d_'8746''45''8838'_914 v0 v1 v2 v3 v4 v5 v6 v7
   = coe
-      MAlonzo.Code.Axiom.Set.Properties.du_'8746''45''8838'_552
+      MAlonzo.Code.Axiom.Set.Properties.du_'8746''45''8838'_582
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v3 v4 v5 v6 v7
 -- Ledger.Set.Theory.Properties._.∪-⊆ʳ
-d_'8746''45''8838''691'_910 ::
+d_'8746''45''8838''691'_916 ::
   () ->
   [AgdaAny] ->
   [AgdaAny] ->
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-d_'8746''45''8838''691'_910 v0 v1 v2 v3
+d_'8746''45''8838''691'_916 v0 v1 v2 v3
   = coe
-      MAlonzo.Code.Axiom.Set.Properties.du_'8746''45''8838''691'_550
+      MAlonzo.Code.Axiom.Set.Properties.du_'8746''45''8838''691'_580
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v2 v3
 -- Ledger.Set.Theory.Properties._.∪-⊆ˡ
-d_'8746''45''8838''737'_912 ::
+d_'8746''45''8838''737'_918 ::
   () ->
   [AgdaAny] ->
   [AgdaAny] ->
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-d_'8746''45''8838''737'_912 v0 v1 v2 v3
+d_'8746''45''8838''737'_918 v0 v1 v2 v3
   = coe
-      MAlonzo.Code.Axiom.Set.Properties.du_'8746''45''8838''737'_548
+      MAlonzo.Code.Axiom.Set.Properties.du_'8746''45''8838''737'_578
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v2 v3
 -- Ledger.Set.Theory.Properties._.≡ᵉ-Setoid
-d_'8801''7497''45'Setoid_914 ::
+d_'8801''7497''45'Setoid_920 ::
   () -> MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44
-d_'8801''7497''45'Setoid_914 v0
+d_'8801''7497''45'Setoid_920 v0
   = coe
       MAlonzo.Code.Axiom.Set.Properties.du_'8801''7497''45'Setoid_298
 -- Ledger.Set.Theory.Properties._.≡ᵉ-isEquivalence
-d_'8801''7497''45'isEquivalence_916 ::
+d_'8801''7497''45'isEquivalence_922 ::
   () -> MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
-d_'8801''7497''45'isEquivalence_916 v0
+d_'8801''7497''45'isEquivalence_922 v0
   = coe
       MAlonzo.Code.Axiom.Set.Properties.du_'8801''7497''45'isEquivalence_284
 -- Ledger.Set.Theory.Properties._.≡ᵉ⇔≡ᵉ'
-d_'8801''7497''8660''8801''7497'''_918 ::
+d_'8801''7497''8660''8801''7497'''_924 ::
   () ->
   [AgdaAny] ->
   [AgdaAny] -> MAlonzo.Code.Function.Bundles.T_Equivalence_1714
-d_'8801''7497''8660''8801''7497'''_918 v0 v1 v2
+d_'8801''7497''8660''8801''7497'''_924 v0 v1 v2
   = coe
       MAlonzo.Code.Axiom.Set.Properties.du_'8801''7497''8660''8801''7497'''_246
 -- Ledger.Set.Theory.Properties._.⊆-PartialOrder
-d_'8838''45'PartialOrder_920 ::
+d_'8838''45'PartialOrder_926 ::
   () -> MAlonzo.Code.Relation.Binary.Structures.T_IsPartialOrder_174
-d_'8838''45'PartialOrder_920 v0
+d_'8838''45'PartialOrder_926 v0
   = coe
       MAlonzo.Code.Axiom.Set.Properties.du_'8838''45'PartialOrder_314
 -- Ledger.Set.Theory.Properties._.⊆-Preorder
-d_'8838''45'Preorder_922 ::
+d_'8838''45'Preorder_928 ::
   () ->
   AgdaAny -> MAlonzo.Code.Relation.Binary.Bundles.T_Preorder_132
-d_'8838''45'Preorder_922 v0 v1
+d_'8838''45'Preorder_928 v0 v1
   = coe MAlonzo.Code.Axiom.Set.Properties.du_'8838''45'Preorder_310
 -- Ledger.Set.Theory.Properties._.⊆-Transitive
-d_'8838''45'Transitive_924 ::
+d_'8838''45'Transitive_930 ::
   () ->
   [AgdaAny] ->
   [AgdaAny] ->
@@ -5414,17 +5486,17 @@ d_'8838''45'Transitive_924 ::
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-d_'8838''45'Transitive_924 v0 v1 v2 v3 v4 v5 v6 v7
+d_'8838''45'Transitive_930 v0 v1 v2 v3 v4 v5 v6 v7
   = coe
       MAlonzo.Code.Axiom.Set.Properties.du_'8838''45'Transitive_278 v4 v5
       v6 v7
 -- Ledger.Set.Theory.Properties._.⊆-isPreorder
-d_'8838''45'isPreorder_926 ::
+d_'8838''45'isPreorder_932 ::
   () -> MAlonzo.Code.Relation.Binary.Structures.T_IsPreorder_70
-d_'8838''45'isPreorder_926 v0
+d_'8838''45'isPreorder_932 v0
   = coe MAlonzo.Code.Axiom.Set.Properties.du_'8838''45'isPreorder_302
 -- Ledger.Set.Theory.Properties._.⊆→∪
-d_'8838''8594''8746'_928 ::
+d_'8838''8594''8746'_934 ::
   () ->
   [AgdaAny] ->
   [AgdaAny] ->
@@ -5432,27 +5504,27 @@ d_'8838''8594''8746'_928 ::
    MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
    MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34) ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'8838''8594''8746'_928 v0 v1 v2 v3
+d_'8838''8594''8746'_934 v0 v1 v2 v3
   = coe
-      MAlonzo.Code.Axiom.Set.Properties.du_'8838''8594''8746'_560
+      MAlonzo.Code.Axiom.Set.Properties.du_'8838''8594''8746'_590
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v2 v3
 -- Ledger.Set.Theory.Properties._.Intersectionᵖ.Set-Lattice
-d_Set'45'Lattice_932 ::
+d_Set'45'Lattice_938 ::
   () ->
   ([AgdaAny] ->
    AgdaAny ->
    MAlonzo.Code.Relation.Nullary.Decidable.Core.T_Dec_20) ->
   MAlonzo.Code.Relation.Binary.Lattice.Structures.T_IsLattice_340
-d_Set'45'Lattice_932 v0 v1
+d_Set'45'Lattice_938 v0 v1
   = coe
-      MAlonzo.Code.Axiom.Set.Properties.du_Set'45'Lattice_720
+      MAlonzo.Code.Axiom.Set.Properties.du_Set'45'Lattice_750
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1
 -- Ledger.Set.Theory.Properties._.Intersectionᵖ.disjoint'⇒disjoint
-d_disjoint'''8658'disjoint_934 ::
+d_disjoint'''8658'disjoint_940 ::
   () ->
   ([AgdaAny] ->
    AgdaAny ->
@@ -5464,9 +5536,9 @@ d_disjoint'''8658'disjoint_934 ::
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.Irrelevant.T_Irrelevant_20
-d_disjoint'''8658'disjoint_934 = erased
+d_disjoint'''8658'disjoint_940 = erased
 -- Ledger.Set.Theory.Properties._.Intersectionᵖ.disjoint⇒disjoint'
-d_disjoint'8658'disjoint''_936 ::
+d_disjoint'8658'disjoint''_942 ::
   () ->
   ([AgdaAny] ->
    AgdaAny ->
@@ -5478,52 +5550,52 @@ d_disjoint'8658'disjoint''_936 ::
    MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
    MAlonzo.Code.Data.Irrelevant.T_Irrelevant_20) ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_disjoint'8658'disjoint''_936 v0 v1 v2 v3 v4
+d_disjoint'8658'disjoint''_942 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Properties.du_disjoint'8658'disjoint''_664
+      MAlonzo.Code.Axiom.Set.Properties.du_disjoint'8658'disjoint''_694
 -- Ledger.Set.Theory.Properties._.Intersectionᵖ.∩-Infimum
-d_'8745''45'Infimum_938 ::
+d_'8745''45'Infimum_944 ::
   () ->
   ([AgdaAny] ->
    AgdaAny ->
    MAlonzo.Code.Relation.Nullary.Decidable.Core.T_Dec_20) ->
   [AgdaAny] -> [AgdaAny] -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'8745''45'Infimum_938 v0 v1 v2 v3
+d_'8745''45'Infimum_944 v0 v1 v2 v3
   = coe
-      MAlonzo.Code.Axiom.Set.Properties.du_'8745''45'Infimum_688
+      MAlonzo.Code.Axiom.Set.Properties.du_'8745''45'Infimum_718
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v2 v3
 -- Ledger.Set.Theory.Properties._.Intersectionᵖ.∩-OrderHomomorphismʳ
-d_'8745''45'OrderHomomorphism'691'_940 ::
+d_'8745''45'OrderHomomorphism'691'_946 ::
   () ->
   ([AgdaAny] ->
    AgdaAny ->
    MAlonzo.Code.Relation.Nullary.Decidable.Core.T_Dec_20) ->
   [AgdaAny] ->
   MAlonzo.Code.Relation.Binary.Morphism.Structures.T_IsOrderHomomorphism_138
-d_'8745''45'OrderHomomorphism'691'_940 v0 v1 v2
+d_'8745''45'OrderHomomorphism'691'_946 v0 v1 v2
   = coe
-      MAlonzo.Code.Axiom.Set.Properties.du_'8745''45'OrderHomomorphism'691'_712
+      MAlonzo.Code.Axiom.Set.Properties.du_'8745''45'OrderHomomorphism'691'_742
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v2
 -- Ledger.Set.Theory.Properties._.Intersectionᵖ.∩-OrderHomomorphismˡ
-d_'8745''45'OrderHomomorphism'737'_942 ::
+d_'8745''45'OrderHomomorphism'737'_948 ::
   () ->
   ([AgdaAny] ->
    AgdaAny ->
    MAlonzo.Code.Relation.Nullary.Decidable.Core.T_Dec_20) ->
   [AgdaAny] ->
   MAlonzo.Code.Relation.Binary.Morphism.Structures.T_IsOrderHomomorphism_138
-d_'8745''45'OrderHomomorphism'737'_942 v0 v1 v2
+d_'8745''45'OrderHomomorphism'737'_948 v0 v1 v2
   = coe
-      MAlonzo.Code.Axiom.Set.Properties.du_'8745''45'OrderHomomorphism'737'_718
+      MAlonzo.Code.Axiom.Set.Properties.du_'8745''45'OrderHomomorphism'737'_748
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v2
 -- Ledger.Set.Theory.Properties._.Intersectionᵖ.∩-cong
-d_'8745''45'cong_944 ::
+d_'8745''45'cong_950 ::
   () ->
   ([AgdaAny] ->
    AgdaAny ->
@@ -5535,14 +5607,14 @@ d_'8745''45'cong_944 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'8745''45'cong_944 v0 v1 v2 v3 v4 v5
+d_'8745''45'cong_950 v0 v1 v2 v3 v4 v5
   = coe
-      MAlonzo.Code.Axiom.Set.Properties.du_'8745''45'cong_706
+      MAlonzo.Code.Axiom.Set.Properties.du_'8745''45'cong_736
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v2 v3 v4 v5
 -- Ledger.Set.Theory.Properties._.Intersectionᵖ.∩-cong-⊆
-d_'8745''45'cong'45''8838'_946 ::
+d_'8745''45'cong'45''8838'_952 ::
   () ->
   ([AgdaAny] ->
    AgdaAny ->
@@ -5560,14 +5632,14 @@ d_'8745''45'cong'45''8838'_946 ::
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-d_'8745''45'cong'45''8838'_946 v0 v1 v2 v3 v4 v5 v6 v7 v8 v9
+d_'8745''45'cong'45''8838'_952 v0 v1 v2 v3 v4 v5 v6 v7 v8 v9
   = coe
-      MAlonzo.Code.Axiom.Set.Properties.du_'8745''45'cong'45''8838'_698
+      MAlonzo.Code.Axiom.Set.Properties.du_'8745''45'cong'45''8838'_728
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v2 v3 v4 v5 v6 v7 v8 v9
 -- Ledger.Set.Theory.Properties._.Intersectionᵖ.∩-preserves-finite
-d_'8745''45'preserves'45'finite_948 ::
+d_'8745''45'preserves'45'finite_954 ::
   () ->
   ([AgdaAny] ->
    AgdaAny ->
@@ -5577,27 +5649,27 @@ d_'8745''45'preserves'45'finite_948 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'8745''45'preserves'45'finite_948 v0 v1 v2 v3 v4
+d_'8745''45'preserves'45'finite_954 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Properties.du_'8745''45'preserves'45'finite_696
+      MAlonzo.Code.Axiom.Set.Properties.du_'8745''45'preserves'45'finite_726
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v2 v3
 -- Ledger.Set.Theory.Properties._.Intersectionᵖ.∩-sym
-d_'8745''45'sym_950 ::
+d_'8745''45'sym_956 ::
   () ->
   ([AgdaAny] ->
    AgdaAny ->
    MAlonzo.Code.Relation.Nullary.Decidable.Core.T_Dec_20) ->
   [AgdaAny] -> [AgdaAny] -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'8745''45'sym_950 v0 v1 v2 v3
+d_'8745''45'sym_956 v0 v1 v2 v3
   = coe
-      MAlonzo.Code.Axiom.Set.Properties.du_'8745''45'sym_736
+      MAlonzo.Code.Axiom.Set.Properties.du_'8745''45'sym_766
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v2 v3
 -- Ledger.Set.Theory.Properties._.Intersectionᵖ.∩-sym⊆
-d_'8745''45'sym'8838'_952 ::
+d_'8745''45'sym'8838'_958 ::
   () ->
   ([AgdaAny] ->
    AgdaAny ->
@@ -5607,14 +5679,14 @@ d_'8745''45'sym'8838'_952 ::
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-d_'8745''45'sym'8838'_952 v0 v1 v2 v3 v4 v5
+d_'8745''45'sym'8838'_958 v0 v1 v2 v3 v4 v5
   = coe
-      MAlonzo.Code.Axiom.Set.Properties.du_'8745''45'sym'8838'_722
+      MAlonzo.Code.Axiom.Set.Properties.du_'8745''45'sym'8838'_752
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v2 v3 v4 v5
 -- Ledger.Set.Theory.Properties._.Intersectionᵖ.∩-⊆
-d_'8745''45''8838'_954 ::
+d_'8745''45''8838'_960 ::
   () ->
   ([AgdaAny] ->
    AgdaAny ->
@@ -5631,14 +5703,14 @@ d_'8745''45''8838'_954 ::
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-d_'8745''45''8838'_954 v0 v1 v2 v3 v4 v5 v6 v7 v8
+d_'8745''45''8838'_960 v0 v1 v2 v3 v4 v5 v6 v7 v8
   = coe
-      MAlonzo.Code.Axiom.Set.Properties.du_'8745''45''8838'_680
+      MAlonzo.Code.Axiom.Set.Properties.du_'8745''45''8838'_710
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v3 v4 v5 v6 v7 v8
 -- Ledger.Set.Theory.Properties._.Intersectionᵖ.∩-⊆ʳ
-d_'8745''45''8838''691'_956 ::
+d_'8745''45''8838''691'_962 ::
   () ->
   ([AgdaAny] ->
    AgdaAny ->
@@ -5648,14 +5720,14 @@ d_'8745''45''8838''691'_956 ::
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-d_'8745''45''8838''691'_956 v0 v1 v2 v3 v4 v5
+d_'8745''45''8838''691'_962 v0 v1 v2 v3 v4 v5
   = coe
-      MAlonzo.Code.Axiom.Set.Properties.du_'8745''45''8838''691'_678
+      MAlonzo.Code.Axiom.Set.Properties.du_'8745''45''8838''691'_708
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v2 v3 v4 v5
 -- Ledger.Set.Theory.Properties._.Intersectionᵖ.∩-⊆ˡ
-d_'8745''45''8838''737'_958 ::
+d_'8745''45''8838''737'_964 ::
   () ->
   ([AgdaAny] ->
    AgdaAny ->
@@ -5665,31 +5737,31 @@ d_'8745''45''8838''737'_958 ::
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-d_'8745''45''8838''737'_958 v0 v1 v2 v3 v4 v5
+d_'8745''45''8838''737'_964 v0 v1 v2 v3 v4 v5
   = coe
-      MAlonzo.Code.Axiom.Set.Properties.du_'8745''45''8838''737'_676
+      MAlonzo.Code.Axiom.Set.Properties.du_'8745''45''8838''737'_706
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       v1 v2 v3 v4 v5
 -- Ledger.Set.Theory.Properties._._.Set-Lattice
-d_Set'45'Lattice_970 ::
+d_Set'45'Lattice_976 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   MAlonzo.Code.Relation.Binary.Lattice.Structures.T_IsLattice_340
-d_Set'45'Lattice_970 ~v0 v1 = du_Set'45'Lattice_970 v1
-du_Set'45'Lattice_970 ::
+d_Set'45'Lattice_976 ~v0 v1 = du_Set'45'Lattice_976 v1
+du_Set'45'Lattice_976 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   MAlonzo.Code.Relation.Binary.Lattice.Structures.T_IsLattice_340
-du_Set'45'Lattice_970 v0
+du_Set'45'Lattice_976 v0
   = coe
-      MAlonzo.Code.Axiom.Set.Properties.du_Set'45'Lattice_720
+      MAlonzo.Code.Axiom.Set.Properties.du_Set'45'Lattice_750
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
          MAlonzo.Code.Axiom.Set.d_'8712''45'sp_1558 d_List'45'Model'7496'_10
          erased v0)
 -- Ledger.Set.Theory.Properties._._.disjoint'⇒disjoint
-d_disjoint'''8658'disjoint_972 ::
+d_disjoint'''8658'disjoint_978 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   [AgdaAny] ->
@@ -5699,9 +5771,9 @@ d_disjoint'''8658'disjoint_972 ::
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.Irrelevant.T_Irrelevant_20
-d_disjoint'''8658'disjoint_972 = erased
+d_disjoint'''8658'disjoint_978 = erased
 -- Ledger.Set.Theory.Properties._._.disjoint⇒disjoint'
-d_disjoint'8658'disjoint''_974 ::
+d_disjoint'8658'disjoint''_980 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   [AgdaAny] ->
@@ -5711,9 +5783,9 @@ d_disjoint'8658'disjoint''_974 ::
    MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
    MAlonzo.Code.Data.Irrelevant.T_Irrelevant_20) ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_disjoint'8658'disjoint''_974 ~v0 ~v1
-  = du_disjoint'8658'disjoint''_974
-du_disjoint'8658'disjoint''_974 ::
+d_disjoint'8658'disjoint''_980 ~v0 ~v1
+  = du_disjoint'8658'disjoint''_980
+du_disjoint'8658'disjoint''_980 ::
   [AgdaAny] ->
   [AgdaAny] ->
   (AgdaAny ->
@@ -5721,68 +5793,68 @@ du_disjoint'8658'disjoint''_974 ::
    MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
    MAlonzo.Code.Data.Irrelevant.T_Irrelevant_20) ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-du_disjoint'8658'disjoint''_974 v0 v1 v2
+du_disjoint'8658'disjoint''_980 v0 v1 v2
   = coe
-      MAlonzo.Code.Axiom.Set.Properties.du_disjoint'8658'disjoint''_664
+      MAlonzo.Code.Axiom.Set.Properties.du_disjoint'8658'disjoint''_694
 -- Ledger.Set.Theory.Properties._._.∩-Infimum
-d_'8745''45'Infimum_976 ::
+d_'8745''45'Infimum_982 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   [AgdaAny] -> [AgdaAny] -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'8745''45'Infimum_976 ~v0 v1 = du_'8745''45'Infimum_976 v1
-du_'8745''45'Infimum_976 ::
+d_'8745''45'Infimum_982 ~v0 v1 = du_'8745''45'Infimum_982 v1
+du_'8745''45'Infimum_982 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   [AgdaAny] -> [AgdaAny] -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-du_'8745''45'Infimum_976 v0
+du_'8745''45'Infimum_982 v0
   = coe
-      MAlonzo.Code.Axiom.Set.Properties.du_'8745''45'Infimum_688
+      MAlonzo.Code.Axiom.Set.Properties.du_'8745''45'Infimum_718
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
          MAlonzo.Code.Axiom.Set.d_'8712''45'sp_1558 d_List'45'Model'7496'_10
          erased v0)
 -- Ledger.Set.Theory.Properties._._.∩-OrderHomomorphismʳ
-d_'8745''45'OrderHomomorphism'691'_978 ::
+d_'8745''45'OrderHomomorphism'691'_984 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   [AgdaAny] ->
   MAlonzo.Code.Relation.Binary.Morphism.Structures.T_IsOrderHomomorphism_138
-d_'8745''45'OrderHomomorphism'691'_978 ~v0 v1
-  = du_'8745''45'OrderHomomorphism'691'_978 v1
-du_'8745''45'OrderHomomorphism'691'_978 ::
+d_'8745''45'OrderHomomorphism'691'_984 ~v0 v1
+  = du_'8745''45'OrderHomomorphism'691'_984 v1
+du_'8745''45'OrderHomomorphism'691'_984 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   [AgdaAny] ->
   MAlonzo.Code.Relation.Binary.Morphism.Structures.T_IsOrderHomomorphism_138
-du_'8745''45'OrderHomomorphism'691'_978 v0
+du_'8745''45'OrderHomomorphism'691'_984 v0
   = coe
-      MAlonzo.Code.Axiom.Set.Properties.du_'8745''45'OrderHomomorphism'691'_712
+      MAlonzo.Code.Axiom.Set.Properties.du_'8745''45'OrderHomomorphism'691'_742
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
          MAlonzo.Code.Axiom.Set.d_'8712''45'sp_1558 d_List'45'Model'7496'_10
          erased v0)
 -- Ledger.Set.Theory.Properties._._.∩-OrderHomomorphismˡ
-d_'8745''45'OrderHomomorphism'737'_980 ::
+d_'8745''45'OrderHomomorphism'737'_986 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   [AgdaAny] ->
   MAlonzo.Code.Relation.Binary.Morphism.Structures.T_IsOrderHomomorphism_138
-d_'8745''45'OrderHomomorphism'737'_980 ~v0 v1
-  = du_'8745''45'OrderHomomorphism'737'_980 v1
-du_'8745''45'OrderHomomorphism'737'_980 ::
+d_'8745''45'OrderHomomorphism'737'_986 ~v0 v1
+  = du_'8745''45'OrderHomomorphism'737'_986 v1
+du_'8745''45'OrderHomomorphism'737'_986 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   [AgdaAny] ->
   MAlonzo.Code.Relation.Binary.Morphism.Structures.T_IsOrderHomomorphism_138
-du_'8745''45'OrderHomomorphism'737'_980 v0
+du_'8745''45'OrderHomomorphism'737'_986 v0
   = coe
-      MAlonzo.Code.Axiom.Set.Properties.du_'8745''45'OrderHomomorphism'737'_718
+      MAlonzo.Code.Axiom.Set.Properties.du_'8745''45'OrderHomomorphism'737'_748
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
          MAlonzo.Code.Axiom.Set.d_'8712''45'sp_1558 d_List'45'Model'7496'_10
          erased v0)
 -- Ledger.Set.Theory.Properties._._.∩-cong
-d_'8745''45'cong_982 ::
+d_'8745''45'cong_988 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   [AgdaAny] ->
@@ -5792,8 +5864,8 @@ d_'8745''45'cong_982 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'8745''45'cong_982 ~v0 v1 = du_'8745''45'cong_982 v1
-du_'8745''45'cong_982 ::
+d_'8745''45'cong_988 ~v0 v1 = du_'8745''45'cong_988 v1
+du_'8745''45'cong_988 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   [AgdaAny] ->
   [AgdaAny] ->
@@ -5802,16 +5874,16 @@ du_'8745''45'cong_982 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-du_'8745''45'cong_982 v0
+du_'8745''45'cong_988 v0
   = coe
-      MAlonzo.Code.Axiom.Set.Properties.du_'8745''45'cong_706
+      MAlonzo.Code.Axiom.Set.Properties.du_'8745''45'cong_736
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
          MAlonzo.Code.Axiom.Set.d_'8712''45'sp_1558 d_List'45'Model'7496'_10
          erased v0)
 -- Ledger.Set.Theory.Properties._._.∩-cong-⊆
-d_'8745''45'cong'45''8838'_984 ::
+d_'8745''45'cong'45''8838'_990 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   [AgdaAny] ->
@@ -5827,9 +5899,9 @@ d_'8745''45'cong'45''8838'_984 ::
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-d_'8745''45'cong'45''8838'_984 ~v0 v1
-  = du_'8745''45'cong'45''8838'_984 v1
-du_'8745''45'cong'45''8838'_984 ::
+d_'8745''45'cong'45''8838'_990 ~v0 v1
+  = du_'8745''45'cong'45''8838'_990 v1
+du_'8745''45'cong'45''8838'_990 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   [AgdaAny] ->
   [AgdaAny] ->
@@ -5844,16 +5916,16 @@ du_'8745''45'cong'45''8838'_984 ::
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-du_'8745''45'cong'45''8838'_984 v0
+du_'8745''45'cong'45''8838'_990 v0
   = coe
-      MAlonzo.Code.Axiom.Set.Properties.du_'8745''45'cong'45''8838'_698
+      MAlonzo.Code.Axiom.Set.Properties.du_'8745''45'cong'45''8838'_728
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
          MAlonzo.Code.Axiom.Set.d_'8712''45'sp_1558 d_List'45'Model'7496'_10
          erased v0)
 -- Ledger.Set.Theory.Properties._._.∩-preserves-finite
-d_'8745''45'preserves'45'finite_986 ::
+d_'8745''45'preserves'45'finite_992 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   [AgdaAny] ->
@@ -5861,18 +5933,18 @@ d_'8745''45'preserves'45'finite_986 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'8745''45'preserves'45'finite_986 ~v0 v1
-  = du_'8745''45'preserves'45'finite_986 v1
-du_'8745''45'preserves'45'finite_986 ::
+d_'8745''45'preserves'45'finite_992 ~v0 v1
+  = du_'8745''45'preserves'45'finite_992 v1
+du_'8745''45'preserves'45'finite_992 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   [AgdaAny] ->
   [AgdaAny] ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-du_'8745''45'preserves'45'finite_986 v0 v1 v2 v3
+du_'8745''45'preserves'45'finite_992 v0 v1 v2 v3
   = coe
-      MAlonzo.Code.Axiom.Set.Properties.du_'8745''45'preserves'45'finite_696
+      MAlonzo.Code.Axiom.Set.Properties.du_'8745''45'preserves'45'finite_726
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
@@ -5880,24 +5952,24 @@ du_'8745''45'preserves'45'finite_986 v0 v1 v2 v3
          erased v0)
       v1 v2
 -- Ledger.Set.Theory.Properties._._.∩-sym
-d_'8745''45'sym_988 ::
+d_'8745''45'sym_994 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   [AgdaAny] -> [AgdaAny] -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'8745''45'sym_988 ~v0 v1 = du_'8745''45'sym_988 v1
-du_'8745''45'sym_988 ::
+d_'8745''45'sym_994 ~v0 v1 = du_'8745''45'sym_994 v1
+du_'8745''45'sym_994 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   [AgdaAny] -> [AgdaAny] -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-du_'8745''45'sym_988 v0
+du_'8745''45'sym_994 v0
   = coe
-      MAlonzo.Code.Axiom.Set.Properties.du_'8745''45'sym_736
+      MAlonzo.Code.Axiom.Set.Properties.du_'8745''45'sym_766
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
          MAlonzo.Code.Axiom.Set.d_'8712''45'sp_1558 d_List'45'Model'7496'_10
          erased v0)
 -- Ledger.Set.Theory.Properties._._.∩-sym⊆
-d_'8745''45'sym'8838'_990 ::
+d_'8745''45'sym'8838'_996 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   [AgdaAny] ->
@@ -5905,24 +5977,24 @@ d_'8745''45'sym'8838'_990 ::
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-d_'8745''45'sym'8838'_990 ~v0 v1 = du_'8745''45'sym'8838'_990 v1
-du_'8745''45'sym'8838'_990 ::
+d_'8745''45'sym'8838'_996 ~v0 v1 = du_'8745''45'sym'8838'_996 v1
+du_'8745''45'sym'8838'_996 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   [AgdaAny] ->
   [AgdaAny] ->
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-du_'8745''45'sym'8838'_990 v0
+du_'8745''45'sym'8838'_996 v0
   = coe
-      MAlonzo.Code.Axiom.Set.Properties.du_'8745''45'sym'8838'_722
+      MAlonzo.Code.Axiom.Set.Properties.du_'8745''45'sym'8838'_752
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
          MAlonzo.Code.Axiom.Set.d_'8712''45'sp_1558 d_List'45'Model'7496'_10
          erased v0)
 -- Ledger.Set.Theory.Properties._._.∩-⊆
-d_'8745''45''8838'_992 ::
+d_'8745''45''8838'_998 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   [AgdaAny] ->
@@ -5937,8 +6009,8 @@ d_'8745''45''8838'_992 ::
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-d_'8745''45''8838'_992 ~v0 v1 = du_'8745''45''8838'_992 v1
-du_'8745''45''8838'_992 ::
+d_'8745''45''8838'_998 ~v0 v1 = du_'8745''45''8838'_998 v1
+du_'8745''45''8838'_998 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   [AgdaAny] ->
   [AgdaAny] ->
@@ -5952,9 +6024,9 @@ du_'8745''45''8838'_992 ::
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-du_'8745''45''8838'_992 v0 v1 v2 v3 v4 v5 v6 v7
+du_'8745''45''8838'_998 v0 v1 v2 v3 v4 v5 v6 v7
   = coe
-      MAlonzo.Code.Axiom.Set.Properties.du_'8745''45''8838'_680
+      MAlonzo.Code.Axiom.Set.Properties.du_'8745''45''8838'_710
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
@@ -5962,7 +6034,7 @@ du_'8745''45''8838'_992 v0 v1 v2 v3 v4 v5 v6 v7
          erased v0)
       v2 v3 v4 v5 v6 v7
 -- Ledger.Set.Theory.Properties._._.∩-⊆ʳ
-d_'8745''45''8838''691'_994 ::
+d_'8745''45''8838''691'_1000 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   [AgdaAny] ->
@@ -5970,25 +6042,25 @@ d_'8745''45''8838''691'_994 ::
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-d_'8745''45''8838''691'_994 ~v0 v1
-  = du_'8745''45''8838''691'_994 v1
-du_'8745''45''8838''691'_994 ::
+d_'8745''45''8838''691'_1000 ~v0 v1
+  = du_'8745''45''8838''691'_1000 v1
+du_'8745''45''8838''691'_1000 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   [AgdaAny] ->
   [AgdaAny] ->
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-du_'8745''45''8838''691'_994 v0
+du_'8745''45''8838''691'_1000 v0
   = coe
-      MAlonzo.Code.Axiom.Set.Properties.du_'8745''45''8838''691'_678
+      MAlonzo.Code.Axiom.Set.Properties.du_'8745''45''8838''691'_708
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
          MAlonzo.Code.Axiom.Set.d_'8712''45'sp_1558 d_List'45'Model'7496'_10
          erased v0)
 -- Ledger.Set.Theory.Properties._._.∩-⊆ˡ
-d_'8745''45''8838''737'_996 ::
+d_'8745''45''8838''737'_1002 ::
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   [AgdaAny] ->
@@ -5996,34 +6068,34 @@ d_'8745''45''8838''737'_996 ::
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-d_'8745''45''8838''737'_996 ~v0 v1
-  = du_'8745''45''8838''737'_996 v1
-du_'8745''45''8838''737'_996 ::
+d_'8745''45''8838''737'_1002 ~v0 v1
+  = du_'8745''45''8838''737'_1002 v1
+du_'8745''45''8838''737'_1002 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   [AgdaAny] ->
   [AgdaAny] ->
   AgdaAny ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34
-du_'8745''45''8838''737'_996 v0
+du_'8745''45''8838''737'_1002 v0
   = coe
-      MAlonzo.Code.Axiom.Set.Properties.du_'8745''45''8838''737'_676
+      MAlonzo.Code.Axiom.Set.Properties.du_'8745''45''8838''737'_706
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe
          MAlonzo.Code.Axiom.Set.d_'8712''45'sp_1558 d_List'45'Model'7496'_10
          erased v0)
 -- Ledger.Set.Theory._ᶠᵐ
-d__'7584''7504'_998 ::
+d__'7584''7504'_1004 ::
   () ->
   () ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d__'7584''7504'_998 ~v0 ~v1 v2 = du__'7584''7504'_998 v2
-du__'7584''7504'_998 ::
+d__'7584''7504'_1004 ~v0 ~v1 v2 = du__'7584''7504'_1004 v2
+du__'7584''7504'_1004 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-du__'7584''7504'_998 v0
+du__'7584''7504'_1004 v0
   = case coe v0 of
       MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 v1 v2
         -> coe
@@ -6033,32 +6105,32 @@ du__'7584''7504'_998 v0
                 (coe du_finiteness_214 v1))
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Ledger.Set.Theory._ᶠˢ
-d__'7584''738'_1004 ::
+d__'7584''738'_1010 ::
   () -> [AgdaAny] -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d__'7584''738'_1004 ~v0 v1 = du__'7584''738'_1004 v1
-du__'7584''738'_1004 ::
+d__'7584''738'_1010 ~v0 v1 = du__'7584''738'_1010 v1
+du__'7584''738'_1010 ::
   [AgdaAny] -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-du__'7584''738'_1004 v0
+du__'7584''738'_1010 v0
   = coe
       MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 (coe v0)
       (coe du_finiteness_214 v0)
 -- Ledger.Set.Theory.filterˢ
-d_filter'738'_1012 ::
+d_filter'738'_1018 ::
   () ->
   (AgdaAny -> ()) ->
   (AgdaAny -> MAlonzo.Code.Class.Decidable.Core.T__'8263'_10) ->
   [AgdaAny] -> [AgdaAny]
-d_filter'738'_1012 ~v0 ~v1 v2 = du_filter'738'_1012 v2
-du_filter'738'_1012 ::
+d_filter'738'_1018 ~v0 ~v1 v2 = du_filter'738'_1018 v2
+du_filter'738'_1018 ::
   (AgdaAny -> MAlonzo.Code.Class.Decidable.Core.T__'8263'_10) ->
   [AgdaAny] -> [AgdaAny]
-du_filter'738'_1012 v0
+du_filter'738'_1018 v0
   = coe
       MAlonzo.Code.Axiom.Set.du_filter_402
       (MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe du_to'45'sp_210 (coe v0))
 -- Ledger.Set.Theory.filterᵐ
-d_filter'7504'_1020 ::
+d_filter'7504'_1026 ::
   () ->
   () ->
   (MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 -> ()) ->
@@ -6066,58 +6138,58 @@ d_filter'7504'_1020 ::
    MAlonzo.Code.Class.Decidable.Core.T__'8263'_10) ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_filter'7504'_1020 ~v0 ~v1 ~v2 v3 = du_filter'7504'_1020 v3
-du_filter'7504'_1020 ::
+d_filter'7504'_1026 ~v0 ~v1 ~v2 v3 = du_filter'7504'_1026 v3
+du_filter'7504'_1026 ::
   (MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
    MAlonzo.Code.Class.Decidable.Core.T__'8263'_10) ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-du_filter'7504'_1020 v0
+du_filter'7504'_1026 v0
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du_filter'7504'_652
+      MAlonzo.Code.Axiom.Set.Map.du_filter'7504'_654
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe du_to'45'sp_210 (coe v0))
 -- Ledger.Set.Theory.filterKeys
-d_filterKeys_1028 ::
+d_filterKeys_1034 ::
   () ->
   () ->
   (AgdaAny -> ()) ->
   (AgdaAny -> MAlonzo.Code.Class.Decidable.Core.T__'8263'_10) ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_filterKeys_1028 ~v0 ~v1 ~v2 v3 = du_filterKeys_1028 v3
-du_filterKeys_1028 ::
+d_filterKeys_1034 ~v0 ~v1 ~v2 v3 = du_filterKeys_1034 v3
+du_filterKeys_1034 ::
   (AgdaAny -> MAlonzo.Code.Class.Decidable.Core.T__'8263'_10) ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-du_filterKeys_1028 v0
+du_filterKeys_1034 v0
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du_filterKeys_666
+      MAlonzo.Code.Axiom.Set.Map.du_filterKeys_668
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe du_to'45'sp_210 (coe v0))
 -- Ledger.Set.Theory._↾'_
-d__'8638'''__1036 ::
+d__'8638'''__1042 ::
   () ->
   () ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   (AgdaAny -> ()) ->
   (AgdaAny -> MAlonzo.Code.Class.Decidable.Core.T__'8263'_10) ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d__'8638'''__1036 ~v0 ~v1 v2 ~v3 v4 = du__'8638'''__1036 v2 v4
-du__'8638'''__1036 ::
+d__'8638'''__1042 ~v0 ~v1 v2 ~v3 v4 = du__'8638'''__1042 v2 v4
+du__'8638'''__1042 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
   (AgdaAny -> MAlonzo.Code.Class.Decidable.Core.T__'8263'_10) ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-du__'8638'''__1036 v0 v1
+du__'8638'''__1042 v0 v1
   = coe
-      MAlonzo.Code.Axiom.Set.Map.du__'8638'''__986
+      MAlonzo.Code.Axiom.Set.Map.du__'8638'''__1054
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430 (coe d_List'45'Model'7496'_10))
       (coe v0) (coe du_to'45'sp_210 (coe v1))
 -- Ledger.Set.Theory.indexedSumᵛ'
-d_indexedSum'7515'''_1042 ::
+d_indexedSum'7515'''_1048 ::
   () ->
   () ->
   () ->
@@ -6126,38 +6198,38 @@ d_indexedSum'7515'''_1042 ::
   MAlonzo.Code.Interface.IsCommutativeMonoid.T_IsCommutativeMonoid''_10 ->
   (AgdaAny -> AgdaAny) ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 -> AgdaAny
-d_indexedSum'7515'''_1042 ~v0 ~v1 ~v2 v3 v4 v5 v6 v7
-  = du_indexedSum'7515'''_1042 v3 v4 v5 v6 v7
-du_indexedSum'7515'''_1042 ::
+d_indexedSum'7515'''_1048 ~v0 ~v1 ~v2 v3 v4 v5 v6 v7
+  = du_indexedSum'7515'''_1048 v3 v4 v5 v6 v7
+du_indexedSum'7515'''_1048 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   MAlonzo.Code.Interface.IsCommutativeMonoid.T_IsCommutativeMonoid''_10 ->
   (AgdaAny -> AgdaAny) ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 -> AgdaAny
-du_indexedSum'7515'''_1042 v0 v1 v2 v3 v4
+du_indexedSum'7515'''_1048 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Axiom.Set.Sum.du_indexedSum'7515'_912
+      MAlonzo.Code.Axiom.Set.Sum.du_indexedSum'7515'_916
       (coe
          MAlonzo.Code.Interface.IsCommutativeMonoid.du_fromCommMonoid''_40
          (coe v2))
-      v0 v1 v3 (coe du__'7584''7504'_998 (coe v4))
+      v0 v1 v3 (coe du__'7584''7504'_1004 (coe v4))
 -- Ledger.Set.Theory.indexedSum'
-d_indexedSum''_1048 ::
+d_indexedSum''_1054 ::
   () ->
   () ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   MAlonzo.Code.Interface.IsCommutativeMonoid.T_IsCommutativeMonoid''_10 ->
   (AgdaAny -> AgdaAny) -> [AgdaAny] -> AgdaAny
-d_indexedSum''_1048 ~v0 ~v1 v2 v3 v4 v5
-  = du_indexedSum''_1048 v2 v3 v4 v5
-du_indexedSum''_1048 ::
+d_indexedSum''_1054 ~v0 ~v1 v2 v3 v4 v5
+  = du_indexedSum''_1054 v2 v3 v4 v5
+du_indexedSum''_1054 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   MAlonzo.Code.Interface.IsCommutativeMonoid.T_IsCommutativeMonoid''_10 ->
   (AgdaAny -> AgdaAny) -> [AgdaAny] -> AgdaAny
-du_indexedSum''_1048 v0 v1 v2 v3
+du_indexedSum''_1054 v0 v1 v2 v3
   = coe
-      MAlonzo.Code.Axiom.Set.Sum.du_indexedSum_734
+      MAlonzo.Code.Axiom.Set.Sum.du_indexedSum_738
       (coe
          MAlonzo.Code.Interface.IsCommutativeMonoid.du_fromCommMonoid''_40
          (coe v1))
-      v0 v2 (coe du__'7584''738'_1004 (coe v3))
+      v0 v2 (coe du__'7584''738'_1010 (coe v3))
