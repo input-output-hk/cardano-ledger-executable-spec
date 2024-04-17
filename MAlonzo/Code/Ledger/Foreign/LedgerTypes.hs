@@ -46,7 +46,8 @@ type Rational = (Integer, Integer)
 type Coin  = Integer
 type Addr  = Integer
 
-type TxId    = Integer
+newtype TxId = MkTxId Integer
+  deriving (Generic, Show, Eq, Ord)
 type Ix      = Integer
 type Epoch   = Integer
 type ScriptHash    = Integer
@@ -70,7 +71,6 @@ type RdmrPtr = (Tag, Ix)
 type ExUnits = (Integer, Integer)
 type ProtVer = (Integer, Integer)
 type GovActionID = (TxId, Integer)
-newtype TxId = MkTxId Integer
 data Credential
   = ScriptObj Integer
   | KeyHashObj Integer
