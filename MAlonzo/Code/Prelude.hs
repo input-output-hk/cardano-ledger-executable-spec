@@ -17,9 +17,11 @@ import MAlonzo.RTE (coe, erased, AgdaAny, addInt, subInt, mulInt,
                     rem64, lt64, eq64, word64FromNat, word64ToNat)
 import qualified MAlonzo.RTE
 import qualified Data.Text
+import qualified MAlonzo.Code.Agda.Builtin.FromNat
 import qualified MAlonzo.Code.Agda.Primitive
 import qualified MAlonzo.Code.Class.DecEq.Core
 import qualified MAlonzo.Code.Class.DecEq.Instances
+import qualified MAlonzo.Code.Data.Nat.Literals
 import qualified MAlonzo.Code.Data.Unit.Polymorphic.Base
 import qualified MAlonzo.Code.Level
 
@@ -51,3 +53,6 @@ d_'8707''8322''45'syntax_24 ::
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () -> () -> (AgdaAny -> AgdaAny -> ()) -> ()
 d_'8707''8322''45'syntax_24 = erased
+-- Prelude.Number-ℕ
+d_Number'45'ℕ_32 :: MAlonzo.Code.Agda.Builtin.FromNat.T_Number_10
+d_Number'45'ℕ_32 = coe MAlonzo.Code.Data.Nat.Literals.d_number_6

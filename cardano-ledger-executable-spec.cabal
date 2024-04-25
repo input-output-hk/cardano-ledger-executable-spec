@@ -270,6 +270,7 @@ library
         MAlonzo.Code.Data.Nat.Divisibility
         MAlonzo.Code.Data.Nat.Properties
         MAlonzo.Code.Data.Nat.DivMod.Core
+        MAlonzo.Code.Data.Nat.Literals
         MAlonzo.Code.Data.Nat.GCD
         MAlonzo.Code.Data.Nat.Divisibility.Core
         MAlonzo.Code.Data.Nat.Properties.Ext
@@ -582,6 +583,7 @@ library
         MAlonzo.Code.Agda.Builtin.String
         MAlonzo.Code.Agda.Builtin.Bool
         MAlonzo.Code.Agda.Builtin.Unit
+        MAlonzo.Code.Agda.Builtin.FromNat
         MAlonzo.Code.Agda.Primitive
         MAlonzo.Code.Axiom.Set
         MAlonzo.Code.Axiom.UniquenessOfIdentityProofs

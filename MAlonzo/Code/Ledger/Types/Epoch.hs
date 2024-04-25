@@ -17,6 +17,7 @@ import MAlonzo.RTE (coe, erased, AgdaAny, addInt, subInt, mulInt,
                     rem64, lt64, eq64, word64FromNat, word64ToNat)
 import qualified MAlonzo.RTE
 import qualified Data.Text
+import qualified MAlonzo.Code.Agda.Builtin.FromNat
 import qualified MAlonzo.Code.Agda.Builtin.Sigma
 import qualified MAlonzo.Code.Algebra.Bundles
 import qualified MAlonzo.Code.Class.DecEq.Core
@@ -178,57 +179,64 @@ d_addEpoch_216 v0
                  MAlonzo.Code.Algebra.Bundles.d__'43'__2046
                  (d_Slot'691'_28 (coe v0)) (coe d_firstSlot_42 v0 v1)
                  (coe d_firstSlot_42 v0 v2))))
+-- Ledger.Types.Epoch.EpochStructure.Number-Epoch
+d_Number'45'Epoch_222 ::
+  T_EpochStructure_6 -> MAlonzo.Code.Agda.Builtin.FromNat.T_Number_10
+d_Number'45'Epoch_222 v0
+  = coe
+      MAlonzo.Code.Agda.Builtin.FromNat.C_Number'46'constructor_55
+      (\ v1 v2 -> d_ℕtoEpoch_202 (coe v0) (coe v1))
 -- Ledger.Types.Epoch.GlobalConstants
-d_GlobalConstants_222 = ()
-data T_GlobalConstants_222
-  = C_GlobalConstants'46'constructor_4709 MAlonzo.Code.Class.DecEq.Core.T_DecEq_10
+d_GlobalConstants_226 = ()
+data T_GlobalConstants_226
+  = C_GlobalConstants'46'constructor_4825 MAlonzo.Code.Class.DecEq.Core.T_DecEq_10
                                           Integer MAlonzo.Code.Data.Nat.Base.T_NonZero_104 Integer
                                           Integer AgdaAny
 -- Ledger.Types.Epoch.GlobalConstants.Network
-d_Network_238 :: T_GlobalConstants_222 -> ()
-d_Network_238 = erased
+d_Network_242 :: T_GlobalConstants_226 -> ()
+d_Network_242 = erased
 -- Ledger.Types.Epoch.GlobalConstants.DecEq-Netw
-d_DecEq'45'Netw_240 ::
-  T_GlobalConstants_222 -> MAlonzo.Code.Class.DecEq.Core.T_DecEq_10
-d_DecEq'45'Netw_240 v0
+d_DecEq'45'Netw_244 ::
+  T_GlobalConstants_226 -> MAlonzo.Code.Class.DecEq.Core.T_DecEq_10
+d_DecEq'45'Netw_244 v0
   = case coe v0 of
-      C_GlobalConstants'46'constructor_4709 v2 v3 v4 v5 v6 v7 -> coe v2
+      C_GlobalConstants'46'constructor_4825 v2 v3 v4 v5 v6 v7 -> coe v2
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Ledger.Types.Epoch.GlobalConstants.SlotsPerEpochᶜ
-d_SlotsPerEpoch'7580'_242 :: T_GlobalConstants_222 -> Integer
-d_SlotsPerEpoch'7580'_242 v0
+d_SlotsPerEpoch'7580'_246 :: T_GlobalConstants_226 -> Integer
+d_SlotsPerEpoch'7580'_246 v0
   = case coe v0 of
-      C_GlobalConstants'46'constructor_4709 v2 v3 v4 v5 v6 v7 -> coe v3
+      C_GlobalConstants'46'constructor_4825 v2 v3 v4 v5 v6 v7 -> coe v3
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Ledger.Types.Epoch.GlobalConstants.NonZero-SlotsPerEpochᶜ
-d_NonZero'45'SlotsPerEpoch'7580'_244 ::
-  T_GlobalConstants_222 -> MAlonzo.Code.Data.Nat.Base.T_NonZero_104
-d_NonZero'45'SlotsPerEpoch'7580'_244 v0
+d_NonZero'45'SlotsPerEpoch'7580'_248 ::
+  T_GlobalConstants_226 -> MAlonzo.Code.Data.Nat.Base.T_NonZero_104
+d_NonZero'45'SlotsPerEpoch'7580'_248 v0
   = case coe v0 of
-      C_GlobalConstants'46'constructor_4709 v2 v3 v4 v5 v6 v7 -> coe v4
+      C_GlobalConstants'46'constructor_4825 v2 v3 v4 v5 v6 v7 -> coe v4
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Ledger.Types.Epoch.GlobalConstants.StabilityWindowᶜ
-d_StabilityWindow'7580'_246 :: T_GlobalConstants_222 -> Integer
-d_StabilityWindow'7580'_246 v0
+d_StabilityWindow'7580'_250 :: T_GlobalConstants_226 -> Integer
+d_StabilityWindow'7580'_250 v0
   = case coe v0 of
-      C_GlobalConstants'46'constructor_4709 v2 v3 v4 v5 v6 v7 -> coe v5
+      C_GlobalConstants'46'constructor_4825 v2 v3 v4 v5 v6 v7 -> coe v5
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Ledger.Types.Epoch.GlobalConstants.Quorum
-d_Quorum_248 :: T_GlobalConstants_222 -> Integer
-d_Quorum_248 v0
+d_Quorum_252 :: T_GlobalConstants_226 -> Integer
+d_Quorum_252 v0
   = case coe v0 of
-      C_GlobalConstants'46'constructor_4709 v2 v3 v4 v5 v6 v7 -> coe v6
+      C_GlobalConstants'46'constructor_4825 v2 v3 v4 v5 v6 v7 -> coe v6
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Ledger.Types.Epoch.GlobalConstants.NetworkId
-d_NetworkId_250 :: T_GlobalConstants_222 -> AgdaAny
-d_NetworkId_250 v0
+d_NetworkId_254 :: T_GlobalConstants_226 -> AgdaAny
+d_NetworkId_254 v0
   = case coe v0 of
-      C_GlobalConstants'46'constructor_4709 v2 v3 v4 v5 v6 v7 -> coe v7
+      C_GlobalConstants'46'constructor_4825 v2 v3 v4 v5 v6 v7 -> coe v7
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Ledger.Types.Epoch.GlobalConstants.ℕEpochStructure
-d_ℕEpochStructure_252 ::
-  T_GlobalConstants_222 -> T_EpochStructure_6
-d_ℕEpochStructure_252 v0
+d_ℕEpochStructure_256 ::
+  T_GlobalConstants_226 -> T_EpochStructure_6
+d_ℕEpochStructure_256 v0
   = coe
       C_EpochStructure'46'constructor_237
       MAlonzo.Code.Data.Nat.Properties.d_'43''45''42''45'semiring_3630
@@ -238,7 +246,7 @@ d_ℕEpochStructure_252 v0
       (\ v1 ->
          coe
            MAlonzo.Code.Data.Nat.Base.du__'47'__276 (coe v1)
-           (coe d_SlotsPerEpoch'7580'_242 (coe v0)))
-      (\ v1 -> mulInt (coe v1) (coe d_SlotsPerEpoch'7580'_242 (coe v0)))
-      (d_StabilityWindow'7580'_246 (coe v0))
+           (coe d_SlotsPerEpoch'7580'_246 (coe v0)))
+      (\ v1 -> mulInt (coe v1) (coe d_SlotsPerEpoch'7580'_246 (coe v0)))
+      (d_StabilityWindow'7580'_250 (coe v0))
       (\ v1 -> addInt (coe (1 :: Integer)) (coe v1))
