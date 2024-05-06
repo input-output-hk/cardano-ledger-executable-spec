@@ -6239,3 +6239,11 @@ du_indexedSum''_1054 v0 v1 v2 v3
          MAlonzo.Code.Interface.IsCommutativeMonoid.du_fromCommMonoid''_40
          (coe v1))
       v0 v2 (coe du__'7584''738'_1010 (coe v3))
+-- Ledger.Set.Theory.singleton-≢-∅
+d_singleton'45''8802''45''8709'_1064 ::
+  () ->
+  AgdaAny ->
+  MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
+  MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
+  MAlonzo.Code.Data.Irrelevant.T_Irrelevant_20
+d_singleton'45''8802''45''8709'_1064 = erased

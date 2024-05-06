@@ -53,8 +53,7 @@ library
         Lib
     build-depends:
         text,
-        ieee,
-        tree-diff
+        ieee
 -- This will be generated automatically when building with nix
     other-modules:
         MAlonzo.RTE
@@ -168,6 +167,7 @@ library
         MAlonzo.Code.Ledger.Set
         MAlonzo.Code.Ledger.Foreign.HSLedger
         MAlonzo.Code.Ledger.Foreign.LedgerTypes
+        MAlonzo.Code.Ledger.Deleg.Properties
         MAlonzo.Code.Ledger.GovernanceActions
         MAlonzo.Code.Ledger.Utxow
         MAlonzo.Code.Ledger.Utxo.Properties
@@ -227,9 +227,11 @@ library
         MAlonzo.Code.Reflection.AST
         MAlonzo.Code.Tactic.Cong
         MAlonzo.Code.Tactic.ClauseBuilder
+        MAlonzo.Code.Tactic.Constrs
         MAlonzo.Code.Tactic.MonoidSolver
         MAlonzo.Code.Tactic.MonoidSolver.NonNormalising
         MAlonzo.Code.Tactic.Assumption
+        MAlonzo.Code.Tactic.ReduceDec
         MAlonzo.Code.Tactic.Derive
         MAlonzo.Code.Tactic.Premises
         MAlonzo.Code.Tactic.Defaults
