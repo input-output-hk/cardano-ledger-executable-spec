@@ -129,6 +129,7 @@ data PParams = MkPParams
   , maxValSize          :: Integer
   , minUTxOValue        :: Coin
   , poolDeposit         :: Coin
+  , keyDeposit          :: Coin
   , emax                :: Epoch
   , nopt                :: Integer
   , pv                  :: (Integer, Integer)
