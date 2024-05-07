@@ -28,6 +28,8 @@ import qualified MAlonzo.Code.Class.DecEq.Core
 import qualified MAlonzo.Code.Class.DecEq.Instances
 import qualified MAlonzo.Code.Class.Decidable.Core
 import qualified MAlonzo.Code.Class.Decidable.Instances
+import qualified MAlonzo.Code.Class.Semigroup.Core
+import qualified MAlonzo.Code.Class.Semigroup.Instances
 import qualified MAlonzo.Code.Data.Irrelevant
 import qualified MAlonzo.Code.Data.List.Relation.Unary.Any
 import qualified MAlonzo.Code.Data.Nat.Properties
@@ -1480,110 +1482,154 @@ d_Computational'45'CERT_1090 v0
                                                                                                     MAlonzo.Code.Ledger.Deleg.C_CERT'45'deleg_964
                                                                                                     v27))
                                                                                        _ -> MAlonzo.RTE.mazUnreachableError)
-                                                                             _ -> case coe v11 of
-                                                                                    MAlonzo.Code.Interface.ComputationalRelation.C_success_42 v24
-                                                                                      -> case coe
-                                                                                                v24 of
-                                                                                           MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 v25 v26
-                                                                                             -> coe
-                                                                                                  MAlonzo.Code.Interface.ComputationalRelation.C_success_42
-                                                                                                  (coe
-                                                                                                     MAlonzo.Code.Data.Product.Base.du_'45''44'__92
+                                                                             _ -> let v24
+                                                                                        = "Failed in DELEG at delegate"
+                                                                                          ::
+                                                                                          Data.Text.Text in
+                                                                                  coe
+                                                                                    (case coe v11 of
+                                                                                       MAlonzo.Code.Interface.ComputationalRelation.C_success_42 v25
+                                                                                         -> case coe
+                                                                                                   v25 of
+                                                                                              MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 v26 v27
+                                                                                                -> coe
+                                                                                                     MAlonzo.Code.Interface.ComputationalRelation.C_success_42
                                                                                                      (coe
-                                                                                                        MAlonzo.Code.Ledger.Deleg.C_'10214'_'44'_'44'_'10215''7580''738'_738
+                                                                                                        MAlonzo.Code.Data.Product.Base.du_'45''44'__92
                                                                                                         (coe
-                                                                                                           v7)
+                                                                                                           MAlonzo.Code.Ledger.Deleg.C_'10214'_'44'_'44'_'10215''7580''738'_738
+                                                                                                           (coe
+                                                                                                              v7)
+                                                                                                           (coe
+                                                                                                              v26)
+                                                                                                           (coe
+                                                                                                              v9))
                                                                                                         (coe
-                                                                                                           v25)
-                                                                                                        (coe
-                                                                                                           v9))
-                                                                                                     (coe
-                                                                                                        MAlonzo.Code.Ledger.Deleg.C_CERT'45'pool_966
-                                                                                                        v26))
-                                                                                           _ -> MAlonzo.RTE.mazUnreachableError
-                                                                                    MAlonzo.Code.Interface.ComputationalRelation.C_failure_44 v24
-                                                                                      -> case coe
-                                                                                                v12 of
-                                                                                           MAlonzo.Code.Interface.ComputationalRelation.C_success_42 v25
-                                                                                             -> case coe
-                                                                                                       v25 of
-                                                                                                  MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 v26 v27
-                                                                                                    -> coe
-                                                                                                         MAlonzo.Code.Interface.ComputationalRelation.C_success_42
-                                                                                                         (coe
-                                                                                                            MAlonzo.Code.Data.Product.Base.du_'45''44'__92
+                                                                                                           MAlonzo.Code.Ledger.Deleg.C_CERT'45'pool_966
+                                                                                                           v27))
+                                                                                              _ -> MAlonzo.RTE.mazUnreachableError
+                                                                                       MAlonzo.Code.Interface.ComputationalRelation.C_failure_44 v25
+                                                                                         -> case coe
+                                                                                                   v12 of
+                                                                                              MAlonzo.Code.Interface.ComputationalRelation.C_success_42 v26
+                                                                                                -> case coe
+                                                                                                          v26 of
+                                                                                                     MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 v27 v28
+                                                                                                       -> coe
+                                                                                                            MAlonzo.Code.Interface.ComputationalRelation.C_success_42
                                                                                                             (coe
-                                                                                                               MAlonzo.Code.Ledger.Deleg.C_'10214'_'44'_'44'_'10215''7580''738'_738
+                                                                                                               MAlonzo.Code.Data.Product.Base.du_'45''44'__92
                                                                                                                (coe
-                                                                                                                  v7)
+                                                                                                                  MAlonzo.Code.Ledger.Deleg.C_'10214'_'44'_'44'_'10215''7580''738'_738
+                                                                                                                  (coe
+                                                                                                                     v7)
+                                                                                                                  (coe
+                                                                                                                     v8)
+                                                                                                                  (coe
+                                                                                                                     v27))
                                                                                                                (coe
-                                                                                                                  v8)
-                                                                                                               (coe
-                                                                                                                  v26))
-                                                                                                            (coe
-                                                                                                               MAlonzo.Code.Ledger.Deleg.C_CERT'45'vdel_968
-                                                                                                               v27))
-                                                                                                  _ -> MAlonzo.RTE.mazUnreachableError
-                                                                                           MAlonzo.Code.Interface.ComputationalRelation.C_failure_44 v25
-                                                                                             -> coe
-                                                                                                  MAlonzo.Code.Interface.ComputationalRelation.C_failure_44
-                                                                                                  (coe
-                                                                                                     ("Failed at CERT"
-                                                                                                      ::
-                                                                                                      Data.Text.Text))
-                                                                                           _ -> MAlonzo.RTE.mazUnreachableError
-                                                                                    _ -> MAlonzo.RTE.mazUnreachableError
-                                                                      _ -> case coe v11 of
-                                                                             MAlonzo.Code.Interface.ComputationalRelation.C_success_42 v24
-                                                                               -> case coe v24 of
-                                                                                    MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 v25 v26
-                                                                                      -> coe
-                                                                                           MAlonzo.Code.Interface.ComputationalRelation.C_success_42
-                                                                                           (coe
-                                                                                              MAlonzo.Code.Data.Product.Base.du_'45''44'__92
-                                                                                              (coe
-                                                                                                 MAlonzo.Code.Ledger.Deleg.C_'10214'_'44'_'44'_'10215''7580''738'_738
-                                                                                                 (coe
-                                                                                                    v7)
-                                                                                                 (coe
-                                                                                                    v25)
-                                                                                                 (coe
-                                                                                                    v9))
-                                                                                              (coe
-                                                                                                 MAlonzo.Code.Ledger.Deleg.C_CERT'45'pool_966
-                                                                                                 v26))
-                                                                                    _ -> MAlonzo.RTE.mazUnreachableError
-                                                                             MAlonzo.Code.Interface.ComputationalRelation.C_failure_44 v24
-                                                                               -> case coe v12 of
-                                                                                    MAlonzo.Code.Interface.ComputationalRelation.C_success_42 v25
-                                                                                      -> case coe
-                                                                                                v25 of
-                                                                                           MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 v26 v27
-                                                                                             -> coe
-                                                                                                  MAlonzo.Code.Interface.ComputationalRelation.C_success_42
-                                                                                                  (coe
-                                                                                                     MAlonzo.Code.Data.Product.Base.du_'45''44'__92
+                                                                                                                  MAlonzo.Code.Ledger.Deleg.C_CERT'45'vdel_968
+                                                                                                                  v28))
+                                                                                                     _ -> MAlonzo.RTE.mazUnreachableError
+                                                                                              MAlonzo.Code.Interface.ComputationalRelation.C_failure_44 v26
+                                                                                                -> coe
+                                                                                                     MAlonzo.Code.Interface.ComputationalRelation.C_failure_44
                                                                                                      (coe
-                                                                                                        MAlonzo.Code.Ledger.Deleg.C_'10214'_'44'_'44'_'10215''7580''738'_738
+                                                                                                        MAlonzo.Code.Class.Semigroup.Core.du__'60''62'__18
+                                                                                                        MAlonzo.Code.Class.Semigroup.Instances.d_Semigroup'45'String_20
+                                                                                                        v24
                                                                                                         (coe
-                                                                                                           v7)
-                                                                                                        (coe
-                                                                                                           v8)
-                                                                                                        (coe
-                                                                                                           v26))
+                                                                                                           MAlonzo.Code.Class.Semigroup.Core.du__'60''62'__18
+                                                                                                           MAlonzo.Code.Class.Semigroup.Instances.d_Semigroup'45'String_20
+                                                                                                           ("\n"
+                                                                                                            ::
+                                                                                                            Data.Text.Text)
+                                                                                                           (coe
+                                                                                                              MAlonzo.Code.Class.Semigroup.Core.du__'60''62'__18
+                                                                                                              MAlonzo.Code.Class.Semigroup.Instances.d_Semigroup'45'String_20
+                                                                                                              v25
+                                                                                                              (coe
+                                                                                                                 MAlonzo.Code.Class.Semigroup.Core.du__'60''62'__18
+                                                                                                                 MAlonzo.Code.Class.Semigroup.Instances.d_Semigroup'45'String_20
+                                                                                                                 ("\n"
+                                                                                                                  ::
+                                                                                                                  Data.Text.Text)
+                                                                                                                 v26))))
+                                                                                              _ -> MAlonzo.RTE.mazUnreachableError
+                                                                                       _ -> MAlonzo.RTE.mazUnreachableError)
+                                                                      _ -> let v24
+                                                                                 = "Failed in DELEG at delegate"
+                                                                                   ::
+                                                                                   Data.Text.Text in
+                                                                           coe
+                                                                             (case coe v11 of
+                                                                                MAlonzo.Code.Interface.ComputationalRelation.C_success_42 v25
+                                                                                  -> case coe v25 of
+                                                                                       MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 v26 v27
+                                                                                         -> coe
+                                                                                              MAlonzo.Code.Interface.ComputationalRelation.C_success_42
+                                                                                              (coe
+                                                                                                 MAlonzo.Code.Data.Product.Base.du_'45''44'__92
+                                                                                                 (coe
+                                                                                                    MAlonzo.Code.Ledger.Deleg.C_'10214'_'44'_'44'_'10215''7580''738'_738
+                                                                                                    (coe
+                                                                                                       v7)
+                                                                                                    (coe
+                                                                                                       v26)
+                                                                                                    (coe
+                                                                                                       v9))
+                                                                                                 (coe
+                                                                                                    MAlonzo.Code.Ledger.Deleg.C_CERT'45'pool_966
+                                                                                                    v27))
+                                                                                       _ -> MAlonzo.RTE.mazUnreachableError
+                                                                                MAlonzo.Code.Interface.ComputationalRelation.C_failure_44 v25
+                                                                                  -> case coe v12 of
+                                                                                       MAlonzo.Code.Interface.ComputationalRelation.C_success_42 v26
+                                                                                         -> case coe
+                                                                                                   v26 of
+                                                                                              MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 v27 v28
+                                                                                                -> coe
+                                                                                                     MAlonzo.Code.Interface.ComputationalRelation.C_success_42
                                                                                                      (coe
-                                                                                                        MAlonzo.Code.Ledger.Deleg.C_CERT'45'vdel_968
-                                                                                                        v27))
-                                                                                           _ -> MAlonzo.RTE.mazUnreachableError
-                                                                                    MAlonzo.Code.Interface.ComputationalRelation.C_failure_44 v25
-                                                                                      -> coe
-                                                                                           MAlonzo.Code.Interface.ComputationalRelation.C_failure_44
-                                                                                           (coe
-                                                                                              ("Failed at CERT"
-                                                                                               ::
-                                                                                               Data.Text.Text))
-                                                                                    _ -> MAlonzo.RTE.mazUnreachableError
-                                                                             _ -> MAlonzo.RTE.mazUnreachableError
+                                                                                                        MAlonzo.Code.Data.Product.Base.du_'45''44'__92
+                                                                                                        (coe
+                                                                                                           MAlonzo.Code.Ledger.Deleg.C_'10214'_'44'_'44'_'10215''7580''738'_738
+                                                                                                           (coe
+                                                                                                              v7)
+                                                                                                           (coe
+                                                                                                              v8)
+                                                                                                           (coe
+                                                                                                              v27))
+                                                                                                        (coe
+                                                                                                           MAlonzo.Code.Ledger.Deleg.C_CERT'45'vdel_968
+                                                                                                           v28))
+                                                                                              _ -> MAlonzo.RTE.mazUnreachableError
+                                                                                       MAlonzo.Code.Interface.ComputationalRelation.C_failure_44 v26
+                                                                                         -> coe
+                                                                                              MAlonzo.Code.Interface.ComputationalRelation.C_failure_44
+                                                                                              (coe
+                                                                                                 MAlonzo.Code.Class.Semigroup.Core.du__'60''62'__18
+                                                                                                 MAlonzo.Code.Class.Semigroup.Instances.d_Semigroup'45'String_20
+                                                                                                 v24
+                                                                                                 (coe
+                                                                                                    MAlonzo.Code.Class.Semigroup.Core.du__'60''62'__18
+                                                                                                    MAlonzo.Code.Class.Semigroup.Instances.d_Semigroup'45'String_20
+                                                                                                    ("\n"
+                                                                                                     ::
+                                                                                                     Data.Text.Text)
+                                                                                                    (coe
+                                                                                                       MAlonzo.Code.Class.Semigroup.Core.du__'60''62'__18
+                                                                                                       MAlonzo.Code.Class.Semigroup.Instances.d_Semigroup'45'String_20
+                                                                                                       v25
+                                                                                                       (coe
+                                                                                                          MAlonzo.Code.Class.Semigroup.Core.du__'60''62'__18
+                                                                                                          MAlonzo.Code.Class.Semigroup.Instances.d_Semigroup'45'String_20
+                                                                                                          ("\n"
+                                                                                                           ::
+                                                                                                           Data.Text.Text)
+                                                                                                          v26))))
+                                                                                       _ -> MAlonzo.RTE.mazUnreachableError
+                                                                                _ -> MAlonzo.RTE.mazUnreachableError)
                                                                _ -> MAlonzo.RTE.mazUnreachableError)
                                                      MAlonzo.Code.Ledger.Deleg.C_dereg_636 v17
                                                        -> let v18
@@ -1784,161 +1830,228 @@ d_Computational'45'CERT_1090 v0
                                                                                                     MAlonzo.Code.Ledger.Deleg.C_CERT'45'deleg_964
                                                                                                     v24))
                                                                                        _ -> MAlonzo.RTE.mazUnreachableError)
-                                                                             _ -> case coe v11 of
-                                                                                    MAlonzo.Code.Interface.ComputationalRelation.C_success_42 v21
-                                                                                      -> case coe
-                                                                                                v21 of
-                                                                                           MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 v22 v23
-                                                                                             -> coe
-                                                                                                  MAlonzo.Code.Interface.ComputationalRelation.C_success_42
-                                                                                                  (coe
-                                                                                                     MAlonzo.Code.Data.Product.Base.du_'45''44'__92
+                                                                             _ -> let v21
+                                                                                        = "Failed in DELEG at (c , 0) \8712 rwds"
+                                                                                          ::
+                                                                                          Data.Text.Text in
+                                                                                  coe
+                                                                                    (case coe v11 of
+                                                                                       MAlonzo.Code.Interface.ComputationalRelation.C_success_42 v22
+                                                                                         -> case coe
+                                                                                                   v22 of
+                                                                                              MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 v23 v24
+                                                                                                -> coe
+                                                                                                     MAlonzo.Code.Interface.ComputationalRelation.C_success_42
                                                                                                      (coe
-                                                                                                        MAlonzo.Code.Ledger.Deleg.C_'10214'_'44'_'44'_'10215''7580''738'_738
+                                                                                                        MAlonzo.Code.Data.Product.Base.du_'45''44'__92
                                                                                                         (coe
-                                                                                                           v7)
+                                                                                                           MAlonzo.Code.Ledger.Deleg.C_'10214'_'44'_'44'_'10215''7580''738'_738
+                                                                                                           (coe
+                                                                                                              v7)
+                                                                                                           (coe
+                                                                                                              v23)
+                                                                                                           (coe
+                                                                                                              v9))
                                                                                                         (coe
-                                                                                                           v22)
-                                                                                                        (coe
-                                                                                                           v9))
-                                                                                                     (coe
-                                                                                                        MAlonzo.Code.Ledger.Deleg.C_CERT'45'pool_966
-                                                                                                        v23))
-                                                                                           _ -> MAlonzo.RTE.mazUnreachableError
-                                                                                    MAlonzo.Code.Interface.ComputationalRelation.C_failure_44 v21
-                                                                                      -> case coe
-                                                                                                v12 of
-                                                                                           MAlonzo.Code.Interface.ComputationalRelation.C_success_42 v22
-                                                                                             -> case coe
-                                                                                                       v22 of
-                                                                                                  MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 v23 v24
-                                                                                                    -> coe
-                                                                                                         MAlonzo.Code.Interface.ComputationalRelation.C_success_42
-                                                                                                         (coe
-                                                                                                            MAlonzo.Code.Data.Product.Base.du_'45''44'__92
+                                                                                                           MAlonzo.Code.Ledger.Deleg.C_CERT'45'pool_966
+                                                                                                           v24))
+                                                                                              _ -> MAlonzo.RTE.mazUnreachableError
+                                                                                       MAlonzo.Code.Interface.ComputationalRelation.C_failure_44 v22
+                                                                                         -> case coe
+                                                                                                   v12 of
+                                                                                              MAlonzo.Code.Interface.ComputationalRelation.C_success_42 v23
+                                                                                                -> case coe
+                                                                                                          v23 of
+                                                                                                     MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 v24 v25
+                                                                                                       -> coe
+                                                                                                            MAlonzo.Code.Interface.ComputationalRelation.C_success_42
                                                                                                             (coe
-                                                                                                               MAlonzo.Code.Ledger.Deleg.C_'10214'_'44'_'44'_'10215''7580''738'_738
+                                                                                                               MAlonzo.Code.Data.Product.Base.du_'45''44'__92
                                                                                                                (coe
-                                                                                                                  v7)
+                                                                                                                  MAlonzo.Code.Ledger.Deleg.C_'10214'_'44'_'44'_'10215''7580''738'_738
+                                                                                                                  (coe
+                                                                                                                     v7)
+                                                                                                                  (coe
+                                                                                                                     v8)
+                                                                                                                  (coe
+                                                                                                                     v24))
                                                                                                                (coe
-                                                                                                                  v8)
-                                                                                                               (coe
-                                                                                                                  v23))
-                                                                                                            (coe
-                                                                                                               MAlonzo.Code.Ledger.Deleg.C_CERT'45'vdel_968
-                                                                                                               v24))
-                                                                                                  _ -> MAlonzo.RTE.mazUnreachableError
-                                                                                           MAlonzo.Code.Interface.ComputationalRelation.C_failure_44 v22
-                                                                                             -> coe
-                                                                                                  MAlonzo.Code.Interface.ComputationalRelation.C_failure_44
-                                                                                                  (coe
-                                                                                                     ("Failed at CERT"
-                                                                                                      ::
-                                                                                                      Data.Text.Text))
-                                                                                           _ -> MAlonzo.RTE.mazUnreachableError
-                                                                                    _ -> MAlonzo.RTE.mazUnreachableError
-                                                                      _ -> case coe v11 of
-                                                                             MAlonzo.Code.Interface.ComputationalRelation.C_success_42 v21
-                                                                               -> case coe v21 of
-                                                                                    MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 v22 v23
-                                                                                      -> coe
-                                                                                           MAlonzo.Code.Interface.ComputationalRelation.C_success_42
-                                                                                           (coe
-                                                                                              MAlonzo.Code.Data.Product.Base.du_'45''44'__92
-                                                                                              (coe
-                                                                                                 MAlonzo.Code.Ledger.Deleg.C_'10214'_'44'_'44'_'10215''7580''738'_738
-                                                                                                 (coe
-                                                                                                    v7)
-                                                                                                 (coe
-                                                                                                    v22)
-                                                                                                 (coe
-                                                                                                    v9))
-                                                                                              (coe
-                                                                                                 MAlonzo.Code.Ledger.Deleg.C_CERT'45'pool_966
-                                                                                                 v23))
-                                                                                    _ -> MAlonzo.RTE.mazUnreachableError
-                                                                             MAlonzo.Code.Interface.ComputationalRelation.C_failure_44 v21
-                                                                               -> case coe v12 of
-                                                                                    MAlonzo.Code.Interface.ComputationalRelation.C_success_42 v22
-                                                                                      -> case coe
-                                                                                                v22 of
-                                                                                           MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 v23 v24
-                                                                                             -> coe
-                                                                                                  MAlonzo.Code.Interface.ComputationalRelation.C_success_42
-                                                                                                  (coe
-                                                                                                     MAlonzo.Code.Data.Product.Base.du_'45''44'__92
+                                                                                                                  MAlonzo.Code.Ledger.Deleg.C_CERT'45'vdel_968
+                                                                                                                  v25))
+                                                                                                     _ -> MAlonzo.RTE.mazUnreachableError
+                                                                                              MAlonzo.Code.Interface.ComputationalRelation.C_failure_44 v23
+                                                                                                -> coe
+                                                                                                     MAlonzo.Code.Interface.ComputationalRelation.C_failure_44
                                                                                                      (coe
-                                                                                                        MAlonzo.Code.Ledger.Deleg.C_'10214'_'44'_'44'_'10215''7580''738'_738
+                                                                                                        MAlonzo.Code.Class.Semigroup.Core.du__'60''62'__18
+                                                                                                        MAlonzo.Code.Class.Semigroup.Instances.d_Semigroup'45'String_20
+                                                                                                        v21
                                                                                                         (coe
-                                                                                                           v7)
-                                                                                                        (coe
-                                                                                                           v8)
-                                                                                                        (coe
-                                                                                                           v23))
+                                                                                                           MAlonzo.Code.Class.Semigroup.Core.du__'60''62'__18
+                                                                                                           MAlonzo.Code.Class.Semigroup.Instances.d_Semigroup'45'String_20
+                                                                                                           ("\n"
+                                                                                                            ::
+                                                                                                            Data.Text.Text)
+                                                                                                           (coe
+                                                                                                              MAlonzo.Code.Class.Semigroup.Core.du__'60''62'__18
+                                                                                                              MAlonzo.Code.Class.Semigroup.Instances.d_Semigroup'45'String_20
+                                                                                                              v22
+                                                                                                              (coe
+                                                                                                                 MAlonzo.Code.Class.Semigroup.Core.du__'60''62'__18
+                                                                                                                 MAlonzo.Code.Class.Semigroup.Instances.d_Semigroup'45'String_20
+                                                                                                                 ("\n"
+                                                                                                                  ::
+                                                                                                                  Data.Text.Text)
+                                                                                                                 v23))))
+                                                                                              _ -> MAlonzo.RTE.mazUnreachableError
+                                                                                       _ -> MAlonzo.RTE.mazUnreachableError)
+                                                                      _ -> let v21
+                                                                                 = "Failed in DELEG at (c , 0) \8712 rwds"
+                                                                                   ::
+                                                                                   Data.Text.Text in
+                                                                           coe
+                                                                             (case coe v11 of
+                                                                                MAlonzo.Code.Interface.ComputationalRelation.C_success_42 v22
+                                                                                  -> case coe v22 of
+                                                                                       MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 v23 v24
+                                                                                         -> coe
+                                                                                              MAlonzo.Code.Interface.ComputationalRelation.C_success_42
+                                                                                              (coe
+                                                                                                 MAlonzo.Code.Data.Product.Base.du_'45''44'__92
+                                                                                                 (coe
+                                                                                                    MAlonzo.Code.Ledger.Deleg.C_'10214'_'44'_'44'_'10215''7580''738'_738
+                                                                                                    (coe
+                                                                                                       v7)
+                                                                                                    (coe
+                                                                                                       v23)
+                                                                                                    (coe
+                                                                                                       v9))
+                                                                                                 (coe
+                                                                                                    MAlonzo.Code.Ledger.Deleg.C_CERT'45'pool_966
+                                                                                                    v24))
+                                                                                       _ -> MAlonzo.RTE.mazUnreachableError
+                                                                                MAlonzo.Code.Interface.ComputationalRelation.C_failure_44 v22
+                                                                                  -> case coe v12 of
+                                                                                       MAlonzo.Code.Interface.ComputationalRelation.C_success_42 v23
+                                                                                         -> case coe
+                                                                                                   v23 of
+                                                                                              MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 v24 v25
+                                                                                                -> coe
+                                                                                                     MAlonzo.Code.Interface.ComputationalRelation.C_success_42
                                                                                                      (coe
-                                                                                                        MAlonzo.Code.Ledger.Deleg.C_CERT'45'vdel_968
-                                                                                                        v24))
-                                                                                           _ -> MAlonzo.RTE.mazUnreachableError
-                                                                                    MAlonzo.Code.Interface.ComputationalRelation.C_failure_44 v22
-                                                                                      -> coe
-                                                                                           MAlonzo.Code.Interface.ComputationalRelation.C_failure_44
-                                                                                           (coe
-                                                                                              ("Failed at CERT"
-                                                                                               ::
-                                                                                               Data.Text.Text))
-                                                                                    _ -> MAlonzo.RTE.mazUnreachableError
-                                                                             _ -> MAlonzo.RTE.mazUnreachableError
+                                                                                                        MAlonzo.Code.Data.Product.Base.du_'45''44'__92
+                                                                                                        (coe
+                                                                                                           MAlonzo.Code.Ledger.Deleg.C_'10214'_'44'_'44'_'10215''7580''738'_738
+                                                                                                           (coe
+                                                                                                              v7)
+                                                                                                           (coe
+                                                                                                              v8)
+                                                                                                           (coe
+                                                                                                              v24))
+                                                                                                        (coe
+                                                                                                           MAlonzo.Code.Ledger.Deleg.C_CERT'45'vdel_968
+                                                                                                           v25))
+                                                                                              _ -> MAlonzo.RTE.mazUnreachableError
+                                                                                       MAlonzo.Code.Interface.ComputationalRelation.C_failure_44 v23
+                                                                                         -> coe
+                                                                                              MAlonzo.Code.Interface.ComputationalRelation.C_failure_44
+                                                                                              (coe
+                                                                                                 MAlonzo.Code.Class.Semigroup.Core.du__'60''62'__18
+                                                                                                 MAlonzo.Code.Class.Semigroup.Instances.d_Semigroup'45'String_20
+                                                                                                 v21
+                                                                                                 (coe
+                                                                                                    MAlonzo.Code.Class.Semigroup.Core.du__'60''62'__18
+                                                                                                    MAlonzo.Code.Class.Semigroup.Instances.d_Semigroup'45'String_20
+                                                                                                    ("\n"
+                                                                                                     ::
+                                                                                                     Data.Text.Text)
+                                                                                                    (coe
+                                                                                                       MAlonzo.Code.Class.Semigroup.Core.du__'60''62'__18
+                                                                                                       MAlonzo.Code.Class.Semigroup.Instances.d_Semigroup'45'String_20
+                                                                                                       v22
+                                                                                                       (coe
+                                                                                                          MAlonzo.Code.Class.Semigroup.Core.du__'60''62'__18
+                                                                                                          MAlonzo.Code.Class.Semigroup.Instances.d_Semigroup'45'String_20
+                                                                                                          ("\n"
+                                                                                                           ::
+                                                                                                           Data.Text.Text)
+                                                                                                          v23))))
+                                                                                       _ -> MAlonzo.RTE.mazUnreachableError
+                                                                                _ -> MAlonzo.RTE.mazUnreachableError)
                                                                _ -> MAlonzo.RTE.mazUnreachableError)
-                                                     _ -> case coe v11 of
-                                                            MAlonzo.Code.Interface.ComputationalRelation.C_success_42 v17
-                                                              -> case coe v17 of
-                                                                   MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 v18 v19
-                                                                     -> coe
-                                                                          MAlonzo.Code.Interface.ComputationalRelation.C_success_42
-                                                                          (coe
-                                                                             MAlonzo.Code.Data.Product.Base.du_'45''44'__92
+                                                     _ -> let v17
+                                                                = "Unexpected certificate in DELEG"
+                                                                  ::
+                                                                  Data.Text.Text in
+                                                          coe
+                                                            (case coe v11 of
+                                                               MAlonzo.Code.Interface.ComputationalRelation.C_success_42 v18
+                                                                 -> case coe v18 of
+                                                                      MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 v19 v20
+                                                                        -> coe
+                                                                             MAlonzo.Code.Interface.ComputationalRelation.C_success_42
                                                                              (coe
-                                                                                MAlonzo.Code.Ledger.Deleg.C_'10214'_'44'_'44'_'10215''7580''738'_738
-                                                                                (coe v7) (coe v18)
-                                                                                (coe v9))
+                                                                                MAlonzo.Code.Data.Product.Base.du_'45''44'__92
+                                                                                (coe
+                                                                                   MAlonzo.Code.Ledger.Deleg.C_'10214'_'44'_'44'_'10215''7580''738'_738
+                                                                                   (coe v7)
+                                                                                   (coe v19)
+                                                                                   (coe v9))
+                                                                                (coe
+                                                                                   MAlonzo.Code.Ledger.Deleg.C_CERT'45'pool_966
+                                                                                   v20))
+                                                                      _ -> MAlonzo.RTE.mazUnreachableError
+                                                               MAlonzo.Code.Interface.ComputationalRelation.C_failure_44 v18
+                                                                 -> case coe v12 of
+                                                                      MAlonzo.Code.Interface.ComputationalRelation.C_success_42 v19
+                                                                        -> case coe v19 of
+                                                                             MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 v20 v21
+                                                                               -> coe
+                                                                                    MAlonzo.Code.Interface.ComputationalRelation.C_success_42
+                                                                                    (coe
+                                                                                       MAlonzo.Code.Data.Product.Base.du_'45''44'__92
+                                                                                       (coe
+                                                                                          MAlonzo.Code.Ledger.Deleg.C_'10214'_'44'_'44'_'10215''7580''738'_738
+                                                                                          (coe v7)
+                                                                                          (coe v8)
+                                                                                          (coe v20))
+                                                                                       (coe
+                                                                                          MAlonzo.Code.Ledger.Deleg.C_CERT'45'vdel_968
+                                                                                          v21))
+                                                                             _ -> MAlonzo.RTE.mazUnreachableError
+                                                                      MAlonzo.Code.Interface.ComputationalRelation.C_failure_44 v19
+                                                                        -> coe
+                                                                             MAlonzo.Code.Interface.ComputationalRelation.C_failure_44
                                                                              (coe
-                                                                                MAlonzo.Code.Ledger.Deleg.C_CERT'45'pool_966
-                                                                                v19))
-                                                                   _ -> MAlonzo.RTE.mazUnreachableError
-                                                            MAlonzo.Code.Interface.ComputationalRelation.C_failure_44 v17
-                                                              -> case coe v12 of
-                                                                   MAlonzo.Code.Interface.ComputationalRelation.C_success_42 v18
-                                                                     -> case coe v18 of
-                                                                          MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 v19 v20
-                                                                            -> coe
-                                                                                 MAlonzo.Code.Interface.ComputationalRelation.C_success_42
-                                                                                 (coe
-                                                                                    MAlonzo.Code.Data.Product.Base.du_'45''44'__92
-                                                                                    (coe
-                                                                                       MAlonzo.Code.Ledger.Deleg.C_'10214'_'44'_'44'_'10215''7580''738'_738
-                                                                                       (coe v7)
-                                                                                       (coe v8)
-                                                                                       (coe v19))
-                                                                                    (coe
-                                                                                       MAlonzo.Code.Ledger.Deleg.C_CERT'45'vdel_968
-                                                                                       v20))
-                                                                          _ -> MAlonzo.RTE.mazUnreachableError
-                                                                   MAlonzo.Code.Interface.ComputationalRelation.C_failure_44 v18
-                                                                     -> coe
-                                                                          MAlonzo.Code.Interface.ComputationalRelation.C_failure_44
-                                                                          (coe
-                                                                             ("Failed at CERT"
-                                                                              ::
-                                                                              Data.Text.Text))
-                                                                   _ -> MAlonzo.RTE.mazUnreachableError
-                                                            _ -> MAlonzo.RTE.mazUnreachableError)))))))
+                                                                                MAlonzo.Code.Class.Semigroup.Core.du__'60''62'__18
+                                                                                MAlonzo.Code.Class.Semigroup.Instances.d_Semigroup'45'String_20
+                                                                                v17
+                                                                                (coe
+                                                                                   MAlonzo.Code.Class.Semigroup.Core.du__'60''62'__18
+                                                                                   MAlonzo.Code.Class.Semigroup.Instances.d_Semigroup'45'String_20
+                                                                                   ("\n"
+                                                                                    ::
+                                                                                    Data.Text.Text)
+                                                                                   (coe
+                                                                                      MAlonzo.Code.Class.Semigroup.Core.du__'60''62'__18
+                                                                                      MAlonzo.Code.Class.Semigroup.Instances.d_Semigroup'45'String_20
+                                                                                      v18
+                                                                                      (coe
+                                                                                         MAlonzo.Code.Class.Semigroup.Core.du__'60''62'__18
+                                                                                         MAlonzo.Code.Class.Semigroup.Instances.d_Semigroup'45'String_20
+                                                                                         ("\n"
+                                                                                          ::
+                                                                                          Data.Text.Text)
+                                                                                         v19))))
+                                                                      _ -> MAlonzo.RTE.mazUnreachableError
+                                                               _ -> MAlonzo.RTE.mazUnreachableError))))))))
                        _ -> MAlonzo.RTE.mazUnreachableError)
            _ -> MAlonzo.RTE.mazUnreachableError)
 -- Ledger.Deleg.Properties.Computational-CERTBASE
-d_Computational'45'CERTBASE_1474 ::
+d_Computational'45'CERTBASE_1480 ::
   MAlonzo.Code.Ledger.Types.GovStructure.T_GovStructure_6 ->
   MAlonzo.Code.Interface.ComputationalRelation.T_Computational_232
-d_Computational'45'CERTBASE_1474 v0
+d_Computational'45'CERTBASE_1480 v0
   = coe
       MAlonzo.Code.Interface.ComputationalRelation.C_MkComputational_412
       (\ v1 ->
@@ -2522,13 +2635,13 @@ d_Computational'45'CERTBASE_1474 v0
                           _ -> MAlonzo.RTE.mazUnreachableError))
            _ -> MAlonzo.RTE.mazUnreachableError)
 -- Ledger.Deleg.Properties.Computational-CERTS
-d_Computational'45'CERTS_1604 ::
+d_Computational'45'CERTS_1610 ::
   MAlonzo.Code.Ledger.Types.GovStructure.T_GovStructure_6 ->
   MAlonzo.Code.Interface.ComputationalRelation.T_Computational_232
-d_Computational'45'CERTS_1604 v0
+d_Computational'45'CERTS_1610 v0
   = coe
       MAlonzo.Code.Interface.ComputationalRelation.du_Computational'45'ReflexiveTransitiveClosure'7495'_762
-      (coe d_Computational'45'CERTBASE_1474 (coe v0))
+      (coe d_Computational'45'CERTBASE_1480 (coe v0))
       (coe d_Computational'45'CERT_1090 (coe v0))
       (coe
          MAlonzo.Code.Interface.ComputationalRelation.C_InjectError'46'constructor_77373
