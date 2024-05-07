@@ -2527,6 +2527,12 @@ d_Computational'45'CERTS_1604 ::
   MAlonzo.Code.Interface.ComputationalRelation.T_Computational_232
 d_Computational'45'CERTS_1604 v0
   = coe
-      MAlonzo.Code.Interface.ComputationalRelation.du_Computational'45'ReflexiveTransitiveClosure'7495'_734
+      MAlonzo.Code.Interface.ComputationalRelation.du_Computational'45'ReflexiveTransitiveClosure'7495'_762
       (coe d_Computational'45'CERTBASE_1474 (coe v0))
       (coe d_Computational'45'CERT_1090 (coe v0))
+      (coe
+         MAlonzo.Code.Interface.ComputationalRelation.C_InjectError'46'constructor_77373
+         (coe (\ v1 -> v1)))
+      (coe
+         MAlonzo.Code.Interface.ComputationalRelation.C_InjectError'46'constructor_77373
+         (coe (\ v1 -> v1)))
