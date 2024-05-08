@@ -29,87 +29,87 @@ d_Map_126 = erased
 -- Interface.IsSet.TotalMap.TotalMap
 d_TotalMap_258 a0 a1 a2 = ()
 -- Interface.IsSet.IsSet
-d_IsSet_438 a0 a1 a2 = ()
-newtype T_IsSet_438
-  = C_IsSet'46'constructor_1803 (AgdaAny -> AgdaAny)
+d_IsSet_440 a0 a1 a2 = ()
+newtype T_IsSet_440
+  = C_IsSet'46'constructor_1807 (AgdaAny -> AgdaAny)
 -- Interface.IsSet.IsSet.toSet
-d_toSet_446 :: T_IsSet_438 -> AgdaAny -> AgdaAny
-d_toSet_446 v0
+d_toSet_448 :: T_IsSet_440 -> AgdaAny -> AgdaAny
+d_toSet_448 v0
   = case coe v0 of
-      C_IsSet'46'constructor_1803 v1 -> coe v1
+      C_IsSet'46'constructor_1807 v1 -> coe v1
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Interface.IsSet.IsSet._∈_
-d__'8712'__448 ::
+d__'8712'__450 ::
   MAlonzo.Code.Axiom.Set.T_Theory_82 ->
-  () -> () -> T_IsSet_438 -> AgdaAny -> AgdaAny -> ()
-d__'8712'__448 = erased
+  () -> () -> T_IsSet_440 -> AgdaAny -> AgdaAny -> ()
+d__'8712'__450 = erased
 -- Interface.IsSet.IsSet._∉_
-d__'8713'__450 ::
+d__'8713'__452 ::
   MAlonzo.Code.Axiom.Set.T_Theory_82 ->
-  () -> () -> T_IsSet_438 -> AgdaAny -> AgdaAny -> ()
-d__'8713'__450 = erased
+  () -> () -> T_IsSet_440 -> AgdaAny -> AgdaAny -> ()
+d__'8713'__452 = erased
 -- Interface.IsSet._._∈_
-d__'8712'__462 ::
+d__'8712'__464 ::
   MAlonzo.Code.Axiom.Set.T_Theory_82 ->
-  () -> () -> T_IsSet_438 -> AgdaAny -> AgdaAny -> ()
-d__'8712'__462 = erased
+  () -> () -> T_IsSet_440 -> AgdaAny -> AgdaAny -> ()
+d__'8712'__464 = erased
 -- Interface.IsSet._._∉_
-d__'8713'__464 ::
+d__'8713'__466 ::
   MAlonzo.Code.Axiom.Set.T_Theory_82 ->
-  () -> () -> T_IsSet_438 -> AgdaAny -> AgdaAny -> ()
-d__'8713'__464 = erased
+  () -> () -> T_IsSet_440 -> AgdaAny -> AgdaAny -> ()
+d__'8713'__466 = erased
 -- Interface.IsSet._.toSet
-d_toSet_466 :: T_IsSet_438 -> AgdaAny -> AgdaAny
-d_toSet_466 v0 = coe d_toSet_446 (coe v0)
+d_toSet_468 :: T_IsSet_440 -> AgdaAny -> AgdaAny
+d_toSet_468 v0 = coe d_toSet_448 (coe v0)
 -- Interface.IsSet.All-syntax
-d_All'45'syntax_474 ::
+d_All'45'syntax_476 ::
   MAlonzo.Code.Axiom.Set.T_Theory_82 ->
-  () -> () -> T_IsSet_438 -> (AgdaAny -> ()) -> AgdaAny -> ()
-d_All'45'syntax_474 = erased
+  () -> () -> T_IsSet_440 -> (AgdaAny -> ()) -> AgdaAny -> ()
+d_All'45'syntax_476 = erased
 -- Interface.IsSet._.dom
-d_dom_492 ::
+d_dom_494 ::
   MAlonzo.Code.Axiom.Set.T_Theory_82 ->
-  () -> () -> () -> T_IsSet_438 -> AgdaAny -> AgdaAny
-d_dom_492 v0 ~v1 ~v2 ~v3 v4 v5 = du_dom_492 v0 v4 v5
-du_dom_492 ::
+  () -> () -> () -> T_IsSet_440 -> AgdaAny -> AgdaAny
+d_dom_494 v0 ~v1 ~v2 ~v3 v4 v5 = du_dom_494 v0 v4 v5
+du_dom_494 ::
   MAlonzo.Code.Axiom.Set.T_Theory_82 ->
-  T_IsSet_438 -> AgdaAny -> AgdaAny
-du_dom_492 v0 v1 v2
+  T_IsSet_440 -> AgdaAny -> AgdaAny
+du_dom_494 v0 v1 v2
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_dom_312 v0 (coe d_toSet_446 v1 v2)
+      MAlonzo.Code.Axiom.Set.Rel.du_dom_314 v0 (coe d_toSet_448 v1 v2)
 -- Interface.IsSet._.range
-d_range_494 ::
+d_range_496 ::
   MAlonzo.Code.Axiom.Set.T_Theory_82 ->
-  () -> () -> () -> T_IsSet_438 -> AgdaAny -> AgdaAny
-d_range_494 v0 ~v1 ~v2 ~v3 v4 v5 = du_range_494 v0 v4 v5
-du_range_494 ::
+  () -> () -> () -> T_IsSet_440 -> AgdaAny -> AgdaAny
+d_range_496 v0 ~v1 ~v2 ~v3 v4 v5 = du_range_496 v0 v4 v5
+du_range_496 ::
   MAlonzo.Code.Axiom.Set.T_Theory_82 ->
-  T_IsSet_438 -> AgdaAny -> AgdaAny
-du_range_494 v0 v1 v2
+  T_IsSet_440 -> AgdaAny -> AgdaAny
+du_range_496 v0 v1 v2
   = coe
-      MAlonzo.Code.Axiom.Set.Rel.du_range_314 v0 (coe d_toSet_446 v1 v2)
+      MAlonzo.Code.Axiom.Set.Rel.du_range_316 v0 (coe d_toSet_448 v1 v2)
 -- Interface.IsSet.IsSet-Set
-d_IsSet'45'Set_496 ::
-  MAlonzo.Code.Axiom.Set.T_Theory_82 -> () -> T_IsSet_438
-d_IsSet'45'Set_496 ~v0 ~v1 = du_IsSet'45'Set_496
-du_IsSet'45'Set_496 :: T_IsSet_438
-du_IsSet'45'Set_496
-  = coe C_IsSet'46'constructor_1803 (coe (\ v0 -> v0))
+d_IsSet'45'Set_498 ::
+  MAlonzo.Code.Axiom.Set.T_Theory_82 -> () -> T_IsSet_440
+d_IsSet'45'Set_498 ~v0 ~v1 = du_IsSet'45'Set_498
+du_IsSet'45'Set_498 :: T_IsSet_440
+du_IsSet'45'Set_498
+  = coe C_IsSet'46'constructor_1807 (coe (\ v0 -> v0))
 -- Interface.IsSet.IsSet-Map
-d_IsSet'45'Map_500 ::
-  MAlonzo.Code.Axiom.Set.T_Theory_82 -> () -> () -> T_IsSet_438
-d_IsSet'45'Map_500 ~v0 ~v1 ~v2 = du_IsSet'45'Map_500
-du_IsSet'45'Map_500 :: T_IsSet_438
-du_IsSet'45'Map_500
+d_IsSet'45'Map_502 ::
+  MAlonzo.Code.Axiom.Set.T_Theory_82 -> () -> () -> T_IsSet_440
+d_IsSet'45'Map_502 ~v0 ~v1 ~v2 = du_IsSet'45'Map_502
+du_IsSet'45'Map_502 :: T_IsSet_440
+du_IsSet'45'Map_502
   = coe
-      C_IsSet'46'constructor_1803
-      (coe MAlonzo.Code.Axiom.Set.Map.du__'738'_482)
+      C_IsSet'46'constructor_1807
+      (coe MAlonzo.Code.Axiom.Set.Map.du__'738'_484)
 -- Interface.IsSet.IsSet-TotalMap
-d_IsSet'45'TotalMap_502 ::
-  MAlonzo.Code.Axiom.Set.T_Theory_82 -> () -> () -> T_IsSet_438
-d_IsSet'45'TotalMap_502 ~v0 ~v1 ~v2 = du_IsSet'45'TotalMap_502
-du_IsSet'45'TotalMap_502 :: T_IsSet_438
-du_IsSet'45'TotalMap_502
+d_IsSet'45'TotalMap_504 ::
+  MAlonzo.Code.Axiom.Set.T_Theory_82 -> () -> () -> T_IsSet_440
+d_IsSet'45'TotalMap_504 ~v0 ~v1 ~v2 = du_IsSet'45'TotalMap_504
+du_IsSet'45'TotalMap_504 :: T_IsSet_440
+du_IsSet'45'TotalMap_504
   = coe
-      C_IsSet'46'constructor_1803
+      C_IsSet'46'constructor_1807
       (coe (\ v0 -> MAlonzo.Code.Axiom.Set.TotalMap.d_rel_66 (coe v0)))

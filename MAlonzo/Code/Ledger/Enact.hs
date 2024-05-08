@@ -20,6 +20,7 @@ import qualified Data.Text
 import qualified MAlonzo.Code.Agda.Builtin.Maybe
 import qualified MAlonzo.Code.Agda.Builtin.Sigma
 import qualified MAlonzo.Code.Axiom.Set
+import qualified MAlonzo.Code.Axiom.Set.Map.Dec
 import qualified MAlonzo.Code.Class.DecEq.Core
 import qualified MAlonzo.Code.Data.List.Relation.Unary.Any
 import qualified MAlonzo.Code.Data.Nat.Base
@@ -210,17 +211,17 @@ du_ccCreds_666 v0
         -> case coe v1 of
              MAlonzo.Code.Agda.Builtin.Maybe.C_just_16 v3
                -> coe
-                    MAlonzo.Code.Interface.IsSet.du_dom_492
+                    MAlonzo.Code.Interface.IsSet.du_dom_494
                     (coe
-                       MAlonzo.Code.Axiom.Set.d_th_1430
+                       MAlonzo.Code.Axiom.Set.d_th_1444
                        (coe MAlonzo.Code.Ledger.Set.Theory.d_List'45'Model'7496'_10))
-                    (coe MAlonzo.Code.Interface.IsSet.du_IsSet'45'Map_500)
+                    (coe MAlonzo.Code.Interface.IsSet.du_IsSet'45'Map_502)
                     (coe MAlonzo.Code.Agda.Builtin.Sigma.d_fst_28 (coe v3))
              MAlonzo.Code.Agda.Builtin.Maybe.C_nothing_18
                -> coe
-                    MAlonzo.Code.Axiom.Set.du_'8709'_424
+                    MAlonzo.Code.Axiom.Set.du_'8709'_428
                     (coe
-                       MAlonzo.Code.Axiom.Set.d_th_1430
+                       MAlonzo.Code.Axiom.Set.d_th_1444
                        (coe MAlonzo.Code.Ledger.Set.Theory.d_List'45'Model'7496'_10))
              _ -> MAlonzo.RTE.mazUnreachableError
       _ -> MAlonzo.RTE.mazUnreachableError
@@ -295,14 +296,33 @@ du_getHashES_684 v0 v1
       MAlonzo.Code.Ledger.GovernanceActions.C_Info_524
         -> coe MAlonzo.Code.Agda.Builtin.Maybe.C_nothing_18
       _ -> MAlonzo.RTE.mazUnreachableError
+-- Ledger.Enact._∪⁺_
+d__'8746''8314'__728 ::
+  MAlonzo.Code.Ledger.Types.GovStructure.T_GovStructure_6 ->
+  () ->
+  MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
+  MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
+  MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
+  MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
+d__'8746''8314'__728 ~v0 ~v1 v2 = du__'8746''8314'__728 v2
+du__'8746''8314'__728 ::
+  MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
+  MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
+  MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
+  MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
+du__'8746''8314'__728 v0
+  = coe
+      MAlonzo.Code.Axiom.Set.Map.Dec.du__'8746''775'__470
+      (coe MAlonzo.Code.Ledger.Set.Theory.d_List'45'Model'7496'_10)
+      (coe addInt) (coe v0)
 -- Ledger.Enact._⊢_⇀⦇_,ENACT⦈_
-d__'8866'_'8640''10631'_'44'ENACT'10632'__726 a0 a1 a2 a3 a4 = ()
-data T__'8866'_'8640''10631'_'44'ENACT'10632'__726
-  = C_Enact'45'NoConf_728 |
-    C_Enact'45'NewComm_736 (AgdaAny ->
+d__'8866'_'8640''10631'_'44'ENACT'10632'__730 a0 a1 a2 a3 a4 = ()
+data T__'8866'_'8640''10631'_'44'ENACT'10632'__730
+  = C_Enact'45'NoConf_732 |
+    C_Enact'45'NewComm_740 (AgdaAny ->
                             MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
                             MAlonzo.Code.Data.Sum.Base.T__'8846'__30) |
-    C_Enact'45'NewConst_738 | C_Enact'45'HF_740 |
-    C_Enact'45'PParams_742 |
-    C_Enact'45'Wdrl_748 MAlonzo.Code.Data.Nat.Base.T__'8804'__18 |
-    C_Enact'45'Info_750
+    C_Enact'45'NewConst_742 | C_Enact'45'HF_744 |
+    C_Enact'45'PParams_746 |
+    C_Enact'45'Wdrl_752 MAlonzo.Code.Data.Nat.Base.T__'8804'__18 |
+    C_Enact'45'Info_754

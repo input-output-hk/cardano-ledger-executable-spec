@@ -80,7 +80,7 @@ du_maximum_476 v0
       (coe MAlonzo.Code.Data.Rational.Base.d_0ℚ_178)
       (coe
          MAlonzo.Code.Agda.Builtin.Sigma.d_fst_28
-         (coe MAlonzo.Code.Ledger.Set.Theory.du_finiteness_214 v0))
+         (coe MAlonzo.Code.Ledger.Set.Theory.du_finiteness_216 v0))
 -- Ledger.GovernanceActions.GovRole
 d_GovRole_480 a0 = ()
 data T_GovRole_480 = C_CC_482 | C_DRep_484 | C_SPO_486
@@ -157,7 +157,7 @@ d_actionWellFormed'63'_532 v0 v1
                    (coe
                       MAlonzo.Code.Class.DecEq.Core.d__'8799'__16
                       (coe
-                         MAlonzo.Code.Ledger.Set.Theory.du_DecEq'45'ℙ_252
+                         MAlonzo.Code.Ledger.Set.Theory.du_DecEq'45'ℙ_254
                          (coe MAlonzo.Code.Ledger.PParams.du_DecEq'45'PParamGroup_410)))
                    (coe
                       MAlonzo.Code.Ledger.PParams.d_updateGroups_482
@@ -166,9 +166,9 @@ d_actionWellFormed'63'_532 v0 v1
                             MAlonzo.Code.Ledger.Types.GovStructure.d_govParams_746 (coe v0)))
                       v2)
                    (coe
-                      MAlonzo.Code.Axiom.Set.du_'8709'_424
+                      MAlonzo.Code.Axiom.Set.du_'8709'_428
                       (coe
-                         MAlonzo.Code.Axiom.Set.d_th_1430
+                         MAlonzo.Code.Axiom.Set.d_th_1444
                          (coe MAlonzo.Code.Ledger.Set.Theory.d_List'45'Model'7496'_10))))
                 (coe MAlonzo.Code.Class.Decidable.Instances.d_Dec'45''8869'_18))
              (coe
