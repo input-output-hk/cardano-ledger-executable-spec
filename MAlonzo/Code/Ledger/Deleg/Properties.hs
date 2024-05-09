@@ -49,12 +49,15 @@ import qualified MAlonzo.Code.Ledger.Types.Epoch
 import qualified MAlonzo.Code.Ledger.Types.GovStructure
 import qualified MAlonzo.Code.Relation.Nullary.Decidable.Core
 import qualified MAlonzo.Code.Relation.Nullary.Reflects
+import GHC.Stack (HasCallStack)
+import Debug.Trace
 
 -- Ledger.Deleg.Properties._._⊢_⇀⦇_,CERTBASE⦈_
 d__'8866'_'8640''10631'_'44'CERTBASE'10632'__628 a0 a1 a2 a3 a4
   = ()
 -- Ledger.Deleg.Properties._._⊢_⇀⦇_,CERTS⦈_
 d__'8866'_'8640''10631'_'44'CERTS'10632'__630 ::
+  HasCallStack =>
   MAlonzo.Code.Ledger.Types.GovStructure.T_GovStructure_6 ->
   MAlonzo.Code.Ledger.Deleg.T_CertEnv_666 ->
   MAlonzo.Code.Ledger.Deleg.T_CertState_726 ->
@@ -82,6 +85,7 @@ d_completeness_810 ::
 d_completeness_810 = erased
 -- Ledger.Deleg.Properties._.computeProof
 d_computeProof_816 ::
+  HasCallStack =>
   MAlonzo.Code.Interface.ComputationalRelation.T_Computational_232 ->
   AgdaAny ->
   AgdaAny ->
@@ -93,6 +97,7 @@ d_computeProof_816 v0
       (coe v0)
 -- Ledger.Deleg.Properties.Computational-DELEG
 d_Computational'45'DELEG_828 ::
+  HasCallStack =>
   MAlonzo.Code.Ledger.Types.GovStructure.T_GovStructure_6 ->
   MAlonzo.Code.Interface.ComputationalRelation.T_Computational_232
 d_Computational'45'DELEG_828 v0
@@ -690,6 +695,7 @@ d_Computational'45'DELEG_828 v0
            _ -> MAlonzo.RTE.mazUnreachableError)
 -- Ledger.Deleg.Properties.Computational-POOL
 d_Computational'45'POOL_892 ::
+  HasCallStack =>
   MAlonzo.Code.Ledger.Types.GovStructure.T_GovStructure_6 ->
   MAlonzo.Code.Interface.ComputationalRelation.T_Computational_232
 d_Computational'45'POOL_892 v0
@@ -858,6 +864,7 @@ d_Computational'45'POOL_892 v0
            _ -> MAlonzo.RTE.mazUnreachableError)
 -- Ledger.Deleg.Properties.Computational-GOVCERT
 d_Computational'45'GOVCERT_918 ::
+  HasCallStack =>
   MAlonzo.Code.Ledger.Types.GovStructure.T_GovStructure_6 ->
   MAlonzo.Code.Interface.ComputationalRelation.T_Computational_232
 d_Computational'45'GOVCERT_918 v0
@@ -1058,7 +1065,7 @@ d_Computational'45'GOVCERT_918 v0
                                                                         (coe
                                                                            MAlonzo.Code.Ledger.Deleg.C_GOVCERT'45'regdrep_962
                                                                            v17))
-                                                              _ -> MAlonzo.RTE.mazUnreachableError
+                                                              _ -> trace "FAIL0" MAlonzo.RTE.mazUnreachableError
                                                        else coe
                                                               seq (coe v16)
                                                               (coe
@@ -1067,7 +1074,7 @@ d_Computational'45'GOVCERT_918 v0
                                                                     ("\172\n(d \8801 .Ledger.PParams.PParams.drepDeposit pp \215\n (_815 gs epoch\8321 pp votes wdrls dReps ccHotKeys c d x\n  Interface.IsSet.IsSet.\8713 c)\n (Interface.IsSet.dom (.Axiom.Set.Theory\7496.th List-Model\7496) dReps)\n \8846\n d \8801 0 \215\n (_826 gs epoch\8321 pp votes wdrls dReps ccHotKeys c d x\n  Interface.IsSet.IsSet.\8712 c)\n (Interface.IsSet.dom (.Axiom.Set.Theory\7496.th List-Model\7496) dReps))"
                                                                      ::
                                                                      Data.Text.Text)))
-                                                _ -> MAlonzo.RTE.mazUnreachableError)
+                                                _ -> trace "FAIL1" MAlonzo.RTE.mazUnreachableError)
                                       MAlonzo.Code.Ledger.Deleg.C_deregdrep_646 v11
                                         -> let v12
                                                  = coe
@@ -1159,7 +1166,7 @@ d_Computational'45'GOVCERT_918 v0
                                                                         (coe
                                                                            MAlonzo.Code.Ledger.Deleg.C_GOVCERT'45'deregdrep_964
                                                                            v15))
-                                                              _ -> MAlonzo.RTE.mazUnreachableError
+                                                              _ -> trace "FAIL2" MAlonzo.RTE.mazUnreachableError
                                                        else coe
                                                               seq (coe v14)
                                                               (coe
@@ -1168,7 +1175,7 @@ d_Computational'45'GOVCERT_918 v0
                                                                     ("\172\n(.Axiom.Set.Theory\7496.th List-Model\7496 Axiom.Set.Theory.\8712 c)\n(Interface.IsSet.dom (.Axiom.Set.Theory\7496.th List-Model\7496) dReps)"
                                                                      ::
                                                                      Data.Text.Text)))
-                                                _ -> MAlonzo.RTE.mazUnreachableError)
+                                                _ -> trace "FAIL3" MAlonzo.RTE.mazUnreachableError)
                                       MAlonzo.Code.Ledger.Deleg.C_ccreghot_648 v11 v12
                                         -> let v13
                                                  = coe
@@ -1281,12 +1288,13 @@ d_Computational'45'GOVCERT_918 v0
                                                                     ("\172\n(\172\n (.Axiom.Set.Theory\7496.th List-Model\7496 Axiom.Set.Theory.\8712\n  (c , nothing))\n ((.Axiom.Set.Theory\7496.th List-Model\7496 Axiom.Set.Map.\738) ccKeys))"
                                                                      ::
                                                                      Data.Text.Text)))
-                                                _ -> MAlonzo.RTE.mazUnreachableError)
+                                                _ -> trace "FAIL4" MAlonzo.RTE.mazUnreachableError)
                                       _ -> coe v10))
-                       _ -> MAlonzo.RTE.mazUnreachableError)
-           _ -> MAlonzo.RTE.mazUnreachableError)
+                       _ -> trace "FAIL5" MAlonzo.RTE.mazUnreachableError)
+           _ -> trace "FAIL6" MAlonzo.RTE.mazUnreachableError)
 -- Ledger.Deleg.Properties.Computational-CERT
 d_Computational'45'CERT_1108 ::
+  HasCallStack =>
   MAlonzo.Code.Ledger.Types.GovStructure.T_GovStructure_6 ->
   MAlonzo.Code.Interface.ComputationalRelation.T_Computational_232
 d_Computational'45'CERT_1108 v0
@@ -2246,6 +2254,7 @@ d_Computational'45'CERT_1108 v0
            _ -> MAlonzo.RTE.mazUnreachableError)
 -- Ledger.Deleg.Properties.Computational-CERTBASE
 d_Computational'45'CERTBASE_1498 ::
+  HasCallStack =>
   MAlonzo.Code.Ledger.Types.GovStructure.T_GovStructure_6 ->
   MAlonzo.Code.Interface.ComputationalRelation.T_Computational_232
 d_Computational'45'CERTBASE_1498 v0
@@ -2926,6 +2935,7 @@ d_Computational'45'CERTBASE_1498 v0
            _ -> MAlonzo.RTE.mazUnreachableError)
 -- Ledger.Deleg.Properties.Computational-CERTS
 d_Computational'45'CERTS_1630 ::
+  HasCallStack =>
   MAlonzo.Code.Ledger.Types.GovStructure.T_GovStructure_6 ->
   MAlonzo.Code.Interface.ComputationalRelation.T_Computational_232
 d_Computational'45'CERTS_1630 v0
