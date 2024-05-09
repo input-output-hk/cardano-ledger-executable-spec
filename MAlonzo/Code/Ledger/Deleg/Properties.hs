@@ -1064,7 +1064,7 @@ d_Computational'45'GOVCERT_918 v0
                                                               (coe
                                                                  MAlonzo.Code.Interface.ComputationalRelation.C_failure_44
                                                                  (coe
-                                                                    ("Failed at regdrep"
+                                                                    ("\172\n(d \8801 .Ledger.PParams.PParams.drepDeposit pp \215\n (_815 gs epoch\8321 pp votes wdrls dReps ccHotKeys c d x\n  Interface.IsSet.IsSet.\8713 c)\n (Interface.IsSet.dom (.Axiom.Set.Theory\7496.th List-Model\7496) dReps)\n \8846\n d \8801 0 \215\n (_826 gs epoch\8321 pp votes wdrls dReps ccHotKeys c d x\n  Interface.IsSet.IsSet.\8712 c)\n (Interface.IsSet.dom (.Axiom.Set.Theory\7496.th List-Model\7496) dReps))"
                                                                      ::
                                                                      Data.Text.Text)))
                                                 _ -> MAlonzo.RTE.mazUnreachableError)
@@ -2918,7 +2918,7 @@ d_Computational'45'CERTBASE_1498 v0
                                                          Data.Text.Text)
                                                  MAlonzo.Code.Data.Sum.Base.C_inj'8322'_42 v12
                                                    -> coe
-                                                        ("\172\n(.Axiom.Set.Theory\7496.th List-Model\7496 Axiom.Set.Theory.\8838\n Axiom.Set.Theory.map (.Axiom.Set.Theory\7496.th List-Model\7496)\n (Bifunctor.map\8321 (_1460 gs e pp vs wdrls st sig)\n  (\955 r \8594 .Ledger.Address.RwdAddr.stake r))\n (.proj\8321 wdrls))\n(.proj\8321\n (.Ledger.Deleg.DState.rewards (.Ledger.Deleg.CertState.dState st)))"
+                                                        ("\172\n(.Axiom.Set.Theory\7496.th List-Model\7496 Axiom.Set.Theory.\8838\n Axiom.Set.Theory.map (.Axiom.Set.Theory\7496.th List-Model\7496)\n (Bifunctor.map\8321 (_1464 gs e pp vs wdrls st sig)\n  (\955 r \8594 .Ledger.Address.RwdAddr.stake r))\n (.proj\8321 wdrls))\n(.proj\8321\n (.Ledger.Deleg.DState.rewards (.Ledger.Deleg.CertState.dState st)))"
                                                          ::
                                                          Data.Text.Text)
                                                  _ -> MAlonzo.RTE.mazUnreachableError)))
