@@ -171,9 +171,11 @@ library
         MAlonzo.Code.Ledger.GovernanceActions
         MAlonzo.Code.Ledger.Utxow
         MAlonzo.Code.Ledger.Utxo.Properties
+        MAlonzo.Code.Ledger.GovernanceActions.Properties
         MAlonzo.Code.Ledger.Gov.Properties
         MAlonzo.Code.Ledger.Types.Epoch
         MAlonzo.Code.Ledger.Types.GovStructure
+        MAlonzo.Code.Ledger.Ratify.Properties
         MAlonzo.Code.Ledger.Utxow.Properties
         MAlonzo.Code.Ledger.Address
         MAlonzo.Code.Ledger.Transaction
