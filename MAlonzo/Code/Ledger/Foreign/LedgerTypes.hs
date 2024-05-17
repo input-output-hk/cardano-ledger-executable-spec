@@ -293,6 +293,10 @@ data Block = MkBlock
   { blockTxs :: [Tx]
   , blockSlot :: Slot
   }
+data DelegEnv = MkDelegEnv
+  { dePParams :: PParams
+  , dePools :: HSMap Credential PoolParams
+  }
 -- Ledger.Foreign.LedgerTypes.Empty
 d_Empty_6 = ()
 type T_Empty_6 = AgdaEmpty
@@ -2070,4 +2074,29 @@ d_blockSlot_718 :: T_Block_710 -> Integer
 d_blockSlot_718 v0
   = case coe v0 of
       C_Block'46'constructor_6235 v1 v2 -> coe v2
+      _ -> MAlonzo.RTE.mazUnreachableError
+-- Ledger.Foreign.LedgerTypes.DelegEnv
+d_DelegEnv_720 = ()
+type T_DelegEnv_720 = DelegEnv
+pattern C_DelegEnv'46'constructor_6281 a0 a1 = MkDelegEnv a0 a1
+check_DelegEnv'46'constructor_6281 ::
+  T_PParams_240 ->
+  T_HSMap_26 T_Credential_120 T_Credential_120 -> T_DelegEnv_720
+check_DelegEnv'46'constructor_6281 = MkDelegEnv
+cover_DelegEnv_720 :: DelegEnv -> ()
+cover_DelegEnv_720 x
+  = case x of
+      MkDelegEnv _ _ -> ()
+-- Ledger.Foreign.LedgerTypes.DelegEnv.dePParams
+d_dePParams_726 :: T_DelegEnv_720 -> T_PParams_240
+d_dePParams_726 v0
+  = case coe v0 of
+      C_DelegEnv'46'constructor_6281 v1 v2 -> coe v1
+      _ -> MAlonzo.RTE.mazUnreachableError
+-- Ledger.Foreign.LedgerTypes.DelegEnv.dePools
+d_dePools_728 ::
+  T_DelegEnv_720 -> T_HSMap_26 T_Credential_120 T_Credential_120
+d_dePools_728 v0
+  = case coe v0 of
+      C_DelegEnv'46'constructor_6281 v1 v2 -> coe v2
       _ -> MAlonzo.RTE.mazUnreachableError
