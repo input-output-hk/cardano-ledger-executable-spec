@@ -160,11 +160,13 @@ library
         MAlonzo.Code.Algebra.Morphism.Construct.Identity
         MAlonzo.Code.Algebra.Morphism.GroupMonomorphism
         MAlonzo.Code.Ledger.Utxo
+        MAlonzo.Code.Ledger.Epoch.Properties
         MAlonzo.Code.Ledger.Enact
         MAlonzo.Code.Ledger.Prelude
         MAlonzo.Code.Ledger.Gov
         MAlonzo.Code.Ledger.Ratify
         MAlonzo.Code.Ledger.Set
+        MAlonzo.Code.Ledger.Ledger.Properties
         MAlonzo.Code.Ledger.Foreign.HSLedger
         MAlonzo.Code.Ledger.Foreign.LedgerTypes
         MAlonzo.Code.Ledger.Deleg.Properties
@@ -180,12 +182,16 @@ library
         MAlonzo.Code.Ledger.Address
         MAlonzo.Code.Ledger.Transaction
         MAlonzo.Code.Ledger.Abstract
+        MAlonzo.Code.Ledger.Chain
         MAlonzo.Code.Ledger.Deleg
+        MAlonzo.Code.Ledger.Epoch
         MAlonzo.Code.Ledger.Set.HashMap
         MAlonzo.Code.Ledger.Set.Theory
         MAlonzo.Code.Ledger.PParams
+        MAlonzo.Code.Ledger.Chain.Properties
         MAlonzo.Code.Ledger.Crypto
         MAlonzo.Code.Ledger.Interface.HasCoin
+        MAlonzo.Code.Ledger.Ledger
         MAlonzo.Code.Ledger.Script
         MAlonzo.Code.Ledger.TokenAlgebra
         MAlonzo.Code.Ledger.Prelude.Base
