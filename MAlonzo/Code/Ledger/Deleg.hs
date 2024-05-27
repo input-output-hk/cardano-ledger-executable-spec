@@ -289,7 +289,7 @@ d_keyDeposit_860 ~v0 v1 = du_keyDeposit_860 v1
 du_keyDeposit_860 :: T_GeneralizeTel_8001 -> Integer
 du_keyDeposit_860 v0
   = coe
-      MAlonzo.Code.Ledger.PParams.d_keyDeposit_302
+      MAlonzo.Code.Ledger.PParams.d_keyDeposit_298
       (coe d_'46'generalizedField'45'pp_7983 v0)
 -- Ledger.Deleg._⊢_⇀⦇_,POOL⦈_
 d__'8866'_'8640''10631'_'44'POOL'10632'__894 a0 a1 a2 a3 a4 = ()

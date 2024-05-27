@@ -589,7 +589,7 @@ d_minfee_1618 v0 v1 v2 v3 v4
             addInt
             (coe
                MAlonzo.Code.Ledger.Abstract.d_txscriptfee_1408 v1
-               (MAlonzo.Code.Ledger.PParams.d_prices_308 (coe v2))
+               (MAlonzo.Code.Ledger.PParams.d_prices_306 (coe v2))
                (coe du_totExUnits_1576 (coe v0) (coe v4)))
             (coe MAlonzo.Code.Ledger.PParams.d_b_296 (coe v2)))
          (coe
@@ -599,7 +599,7 @@ d_minfee_1618 v0 v1 v2 v3 v4
                (coe
                   MAlonzo.Code.Data.Rational.Base.d__'42'__274
                   (coe
-                     MAlonzo.Code.Ledger.PParams.d_minFeeRefScriptCoinsPerByte_306
+                     MAlonzo.Code.Ledger.PParams.d_minFeeRefScriptCoinsPerByte_304
                      (coe v2))
                   (coe
                      MAlonzo.Code.Data.Rational.Base.du__'47'__156
@@ -2679,7 +2679,7 @@ d_UTXO'45'premises_2424 v0 v1 v2 v3 v4
                                                                    MAlonzo.Code.Agda.Builtin.Sigma.d_snd_30
                                                                    (coe v6)))
                                                              (coe
-                                                                MAlonzo.Code.Ledger.PParams.d_minUTxOValue_298
+                                                                MAlonzo.Code.Ledger.PParams.d_minUTxOValue_308
                                                                 (coe d_pparams_1958 (coe v3)))))
                                                        (coe
                                                           MAlonzo.Code.Ledger.Transaction.du_getValue'688'_2412

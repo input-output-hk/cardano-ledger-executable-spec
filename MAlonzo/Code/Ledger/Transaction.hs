@@ -2522,11 +2522,11 @@ d_ccMinSize_1720 ::
   MAlonzo.Code.Ledger.PParams.T_PParams_218 -> Integer
 d_ccMinSize_1720 v0
   = coe MAlonzo.Code.Ledger.PParams.d_ccMinSize_332 (coe v0)
--- Ledger.Transaction.TransactionStructure._.PParams.coinsPerUTxOWord
-d_coinsPerUTxOWord_1722 ::
+-- Ledger.Transaction.TransactionStructure._.PParams.coinsPerUTxOByte
+d_coinsPerUTxOByte_1722 ::
   MAlonzo.Code.Ledger.PParams.T_PParams_218 -> Integer
-d_coinsPerUTxOWord_1722 v0
-  = coe MAlonzo.Code.Ledger.PParams.d_coinsPerUTxOWord_304 (coe v0)
+d_coinsPerUTxOByte_1722 v0
+  = coe MAlonzo.Code.Ledger.PParams.d_coinsPerUTxOByte_302 (coe v0)
 -- Ledger.Transaction.TransactionStructure._.PParams.collateralPercentage
 d_collateralPercentage_1724 ::
   MAlonzo.Code.Ledger.PParams.T_PParams_218 -> Integer
@@ -2568,12 +2568,12 @@ d_govActionLifetime_1736 v0
 d_keyDeposit_1738 ::
   MAlonzo.Code.Ledger.PParams.T_PParams_218 -> Integer
 d_keyDeposit_1738 v0
-  = coe MAlonzo.Code.Ledger.PParams.d_keyDeposit_302 (coe v0)
+  = coe MAlonzo.Code.Ledger.PParams.d_keyDeposit_298 (coe v0)
 -- Ledger.Transaction.TransactionStructure._.PParams.maxBlockExUnits
 d_maxBlockExUnits_1740 ::
   MAlonzo.Code.Ledger.PParams.T_PParams_218 -> AgdaAny
 d_maxBlockExUnits_1740 v0
-  = coe MAlonzo.Code.Ledger.PParams.d_maxBlockExUnits_292 (coe v0)
+  = coe MAlonzo.Code.Ledger.PParams.d_maxBlockExUnits_290 (coe v0)
 -- Ledger.Transaction.TransactionStructure._.PParams.maxBlockSize
 d_maxBlockSize_1742 ::
   MAlonzo.Code.Ledger.PParams.T_PParams_218 -> Integer
@@ -2594,7 +2594,7 @@ d_maxHeaderSize_1746 v0
 d_maxTxExUnits_1748 ::
   MAlonzo.Code.Ledger.PParams.T_PParams_218 -> AgdaAny
 d_maxTxExUnits_1748 v0
-  = coe MAlonzo.Code.Ledger.PParams.d_maxTxExUnits_290 (coe v0)
+  = coe MAlonzo.Code.Ledger.PParams.d_maxTxExUnits_288 (coe v0)
 -- Ledger.Transaction.TransactionStructure._.PParams.maxTxSize
 d_maxTxSize_1750 ::
   MAlonzo.Code.Ledger.PParams.T_PParams_218 -> Integer
@@ -2611,13 +2611,13 @@ d_minFeeRefScriptCoinsPerByte_1754 ::
   MAlonzo.Code.Data.Rational.Base.T_ℚ_6
 d_minFeeRefScriptCoinsPerByte_1754 v0
   = coe
-      MAlonzo.Code.Ledger.PParams.d_minFeeRefScriptCoinsPerByte_306
+      MAlonzo.Code.Ledger.PParams.d_minFeeRefScriptCoinsPerByte_304
       (coe v0)
 -- Ledger.Transaction.TransactionStructure._.PParams.minUTxOValue
 d_minUTxOValue_1756 ::
   MAlonzo.Code.Ledger.PParams.T_PParams_218 -> Integer
 d_minUTxOValue_1756 v0
-  = coe MAlonzo.Code.Ledger.PParams.d_minUTxOValue_298 (coe v0)
+  = coe MAlonzo.Code.Ledger.PParams.d_minUTxOValue_308 (coe v0)
 -- Ledger.Transaction.TransactionStructure._.PParams.nopt
 d_nopt_1758 :: MAlonzo.Code.Ledger.PParams.T_PParams_218 -> Integer
 d_nopt_1758 v0
@@ -2637,12 +2637,12 @@ d_poolThresholds_1762 v0
 d_prices_1764 ::
   MAlonzo.Code.Ledger.PParams.T_PParams_218 -> AgdaAny
 d_prices_1764 v0
-  = coe MAlonzo.Code.Ledger.PParams.d_prices_308 (coe v0)
+  = coe MAlonzo.Code.Ledger.PParams.d_prices_306 (coe v0)
 -- Ledger.Transaction.TransactionStructure._.PParams.pv
 d_pv_1766 ::
   MAlonzo.Code.Ledger.PParams.T_PParams_218 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_pv_1766 v0 = coe MAlonzo.Code.Ledger.PParams.d_pv_288 (coe v0)
+d_pv_1766 v0 = coe MAlonzo.Code.Ledger.PParams.d_pv_292 (coe v0)
 -- Ledger.Transaction.TransactionStructure._.PParamsDiff.UpdateT
 d_UpdateT_1770 ::
   MAlonzo.Code.Ledger.PParams.T_PParamsDiff_464 -> ()

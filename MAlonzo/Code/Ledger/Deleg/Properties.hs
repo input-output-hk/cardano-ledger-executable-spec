@@ -164,7 +164,7 @@ d_Computational'45'DELEG_828 v0
                                                                  MAlonzo.Code.Data.Nat.Properties.d__'8799'__2550)
                                                               (coe v13)
                                                               (coe
-                                                                 MAlonzo.Code.Ledger.PParams.d_keyDeposit_302
+                                                                 MAlonzo.Code.Ledger.PParams.d_keyDeposit_298
                                                                  (coe v2))))
                                                         (coe
                                                            MAlonzo.Code.Class.Decidable.Instances.du_Dec'45''215'_24
@@ -428,7 +428,7 @@ d_Computational'45'DELEG_828 v0
                                                                                      MAlonzo.Code.Data.Nat.Properties.d__'8799'__2550)
                                                                                   (coe v13)
                                                                                   (coe
-                                                                                     MAlonzo.Code.Ledger.PParams.d_keyDeposit_302
+                                                                                     MAlonzo.Code.Ledger.PParams.d_keyDeposit_298
                                                                                      (coe v2))))
                                                                             erased in
                                                                   coe
@@ -1376,7 +1376,7 @@ d_Computational'45'CERT_1108 v0
                                                                                 MAlonzo.Code.Data.Nat.Properties.d__'8799'__2550)
                                                                              (coe v20)
                                                                              (coe
-                                                                                MAlonzo.Code.Ledger.PParams.d_keyDeposit_302
+                                                                                MAlonzo.Code.Ledger.PParams.d_keyDeposit_298
                                                                                 (coe v3))))
                                                                        (coe
                                                                           MAlonzo.Code.Class.Decidable.Instances.du_Dec'45''215'_24
@@ -1681,7 +1681,7 @@ d_Computational'45'CERT_1108 v0
                                                                                                           (coe
                                                                                                              v20)
                                                                                                           (coe
-                                                                                                             MAlonzo.Code.Ledger.PParams.d_keyDeposit_302
+                                                                                                             MAlonzo.Code.Ledger.PParams.d_keyDeposit_298
                                                                                                              (coe
                                                                                                                 v3))))
                                                                                                     erased in
