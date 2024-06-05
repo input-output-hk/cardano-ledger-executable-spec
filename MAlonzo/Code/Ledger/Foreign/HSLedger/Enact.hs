@@ -65,7 +65,7 @@ d_HSGovStructure_8
   = coe
       MAlonzo.Code.Ledger.Transaction.d_govStructure_2114
       (coe
-         MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_786)
+         MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_794)
 -- Ledger.Foreign.HSLedger.Enact._._+ᵉ_
 d__'43''7497'__14 :: Integer -> Integer -> Integer
 d__'43''7497'__14
@@ -12268,7 +12268,7 @@ d_Convertible'45'GovAction_642
                                  (coe
                                     MAlonzo.Code.Ledger.Transaction.d_globalConstants_1090
                                     (coe
-                                       MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_786)))
+                                       MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_794)))
                               (coe
                                  MAlonzo.Code.Ledger.Crypto.d_DecEq'45'THash_20
                                  (coe
@@ -12276,13 +12276,13 @@ d_Convertible'45'GovAction_642
                                     (coe
                                        MAlonzo.Code.Ledger.Transaction.d_crypto_1110
                                        (coe
-                                          MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_786))))
+                                          MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_794))))
                               (coe
                                  MAlonzo.Code.Ledger.Crypto.d_DecEq'45'ScriptHash_196
                                  (coe
                                     MAlonzo.Code.Ledger.Transaction.d_crypto_1110
                                     (coe
-                                       MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_786))))
+                                       MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_794))))
                            (coe
                               MAlonzo.Code.Foreign.Convertible.C_Convertible'46'constructor_21
                               (coe
@@ -26356,7 +26356,7 @@ d_enact'45'step_644 v0 v1 v2
                                           (coe
                                              MAlonzo.Code.Ledger.Transaction.d_globalConstants_1090
                                              (coe
-                                                MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_786)))
+                                                MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_794)))
                                        (coe
                                           MAlonzo.Code.Ledger.Crypto.d_DecEq'45'THash_20
                                           (coe
@@ -26364,13 +26364,13 @@ d_enact'45'step_644 v0 v1 v2
                                              (coe
                                                 MAlonzo.Code.Ledger.Transaction.d_crypto_1110
                                                 (coe
-                                                   MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_786))))
+                                                   MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_794))))
                                        (coe
                                           MAlonzo.Code.Ledger.Crypto.d_DecEq'45'ScriptHash_196
                                           (coe
                                              MAlonzo.Code.Ledger.Transaction.d_crypto_1110
                                              (coe
-                                                MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_786))))
+                                                MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_794))))
                                     (coe
                                        MAlonzo.Code.Foreign.Convertible.C_Convertible'46'constructor_21
                                        (coe

@@ -98,9 +98,9 @@ d_Computational'45'UTXO_170
   = coe
       MAlonzo.Code.Ledger.Utxo.Properties.d_Computational'45'UTXO_2178
       (coe
-         MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_786)
+         MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_794)
       (coe
-         MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSAbstractFunctions_2270)
+         MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSAbstractFunctions_2278)
 -- Ledger.Foreign.HSLedger.Utxo._.Computational-UTXOW
 d_Computational'45'UTXOW_256 ::
   MAlonzo.Code.Interface.ComputationalRelation.T_Computational_232
@@ -108,9 +108,9 @@ d_Computational'45'UTXOW_256
   = coe
       MAlonzo.Code.Ledger.Utxow.Properties.d_Computational'45'UTXOW_1738
       (coe
-         MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_786)
+         MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_794)
       (coe
-         MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSAbstractFunctions_2270)
+         MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSAbstractFunctions_2278)
 -- Ledger.Foreign.HSLedger.Utxo.Convertible-UTxOEnv
 d_Convertible'45'UTxOEnv_260 ::
   MAlonzo.Code.Foreign.Convertible.T_Convertible_8
@@ -4533,7 +4533,7 @@ d_Convertible'45'UTxOState_262
               (let v1
                      = MAlonzo.Code.Ledger.Transaction.d_tokenAlgebra_1994
                          (coe
-                            MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_786) in
+                            MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_794) in
                coe
                  (coe
                     MAlonzo.Code.Algebra.Bundles.d_ε_842
@@ -5264,7 +5264,7 @@ d_utxo'45'step_278 v0 v1 v2
                             (let v5
                                    = MAlonzo.Code.Ledger.Transaction.d_tokenAlgebra_1994
                                        (coe
-                                          MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_786) in
+                                          MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_794) in
                              coe
                                (coe
                                   MAlonzo.Code.Algebra.Bundles.d_ε_842
@@ -5303,9 +5303,9 @@ d_utxo'45'step_278 v0 v1 v2
          (coe
             MAlonzo.Code.Ledger.Utxo.Properties.d_Computational'45'UTXO_2178
             (coe
-               MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_786)
+               MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_794)
             (coe
-               MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSAbstractFunctions_2270))
+               MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSAbstractFunctions_2278))
          (coe
             MAlonzo.Code.Ledger.Utxo.C_UTxOEnv'46'constructor_8643
             (coe MAlonzo.Code.Ledger.Foreign.LedgerTypes.d_slot_520 (coe v0))
@@ -7829,7 +7829,7 @@ d_utxo'45'step_278 v0 v1 v2
                        (let v4
                               = MAlonzo.Code.Ledger.Transaction.d_tokenAlgebra_1994
                                   (coe
-                                     MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_786) in
+                                     MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_794) in
                         coe
                           (coe
                              MAlonzo.Code.Algebra.Bundles.d_ε_842
@@ -9662,7 +9662,7 @@ d_utxo'45'step_278 v0 v1 v2
                                      (let v5
                                             = MAlonzo.Code.Ledger.Transaction.d_tokenAlgebra_1994
                                                 (coe
-                                                   MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_786) in
+                                                   MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_794) in
                                       coe
                                         (coe
                                            MAlonzo.Code.Algebra.Bundles.d_ε_842
@@ -10731,7 +10731,7 @@ d_utxo'45'step_278 v0 v1 v2
                                      (let v5
                                             = MAlonzo.Code.Ledger.Transaction.d_tokenAlgebra_1994
                                                 (coe
-                                                   MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_786) in
+                                                   MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_794) in
                                       coe
                                         (coe
                                            MAlonzo.Code.Algebra.Bundles.d_ε_842
@@ -13265,7 +13265,7 @@ d_utxo'45'step_278 v0 v1 v2
                                      (let v5
                                             = MAlonzo.Code.Ledger.Transaction.d_tokenAlgebra_1994
                                                 (coe
-                                                   MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_786) in
+                                                   MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_794) in
                                       coe
                                         (coe
                                            MAlonzo.Code.Algebra.Bundles.d_ε_842
@@ -14334,7 +14334,7 @@ d_utxo'45'step_278 v0 v1 v2
                                      (let v5
                                             = MAlonzo.Code.Ledger.Transaction.d_tokenAlgebra_1994
                                                 (coe
-                                                   MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_786) in
+                                                   MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_794) in
                                       coe
                                         (coe
                                            MAlonzo.Code.Algebra.Bundles.d_ε_842
@@ -15773,7 +15773,7 @@ d_utxow'45'step_280 v0 v1 v2
                             (let v5
                                    = MAlonzo.Code.Ledger.Transaction.d_tokenAlgebra_1994
                                        (coe
-                                          MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_786) in
+                                          MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_794) in
                              coe
                                (coe
                                   MAlonzo.Code.Algebra.Bundles.d_ε_842
@@ -15812,9 +15812,9 @@ d_utxow'45'step_280 v0 v1 v2
          (coe
             MAlonzo.Code.Ledger.Utxow.Properties.d_Computational'45'UTXOW_1738
             (coe
-               MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_786)
+               MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_794)
             (coe
-               MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSAbstractFunctions_2270))
+               MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSAbstractFunctions_2278))
          (coe
             MAlonzo.Code.Ledger.Utxo.C_UTxOEnv'46'constructor_8643
             (coe MAlonzo.Code.Ledger.Foreign.LedgerTypes.d_slot_520 (coe v0))
@@ -18338,7 +18338,7 @@ d_utxow'45'step_280 v0 v1 v2
                        (let v4
                               = MAlonzo.Code.Ledger.Transaction.d_tokenAlgebra_1994
                                   (coe
-                                     MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_786) in
+                                     MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_794) in
                         coe
                           (coe
                              MAlonzo.Code.Algebra.Bundles.d_ε_842
@@ -20171,7 +20171,7 @@ d_utxow'45'step_280 v0 v1 v2
                                      (let v5
                                             = MAlonzo.Code.Ledger.Transaction.d_tokenAlgebra_1994
                                                 (coe
-                                                   MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_786) in
+                                                   MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_794) in
                                       coe
                                         (coe
                                            MAlonzo.Code.Algebra.Bundles.d_ε_842
@@ -21240,7 +21240,7 @@ d_utxow'45'step_280 v0 v1 v2
                                      (let v5
                                             = MAlonzo.Code.Ledger.Transaction.d_tokenAlgebra_1994
                                                 (coe
-                                                   MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_786) in
+                                                   MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_794) in
                                       coe
                                         (coe
                                            MAlonzo.Code.Algebra.Bundles.d_ε_842
@@ -23774,7 +23774,7 @@ d_utxow'45'step_280 v0 v1 v2
                                      (let v5
                                             = MAlonzo.Code.Ledger.Transaction.d_tokenAlgebra_1994
                                                 (coe
-                                                   MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_786) in
+                                                   MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_794) in
                                       coe
                                         (coe
                                            MAlonzo.Code.Algebra.Bundles.d_ε_842
@@ -24843,7 +24843,7 @@ d_utxow'45'step_280 v0 v1 v2
                                      (let v5
                                             = MAlonzo.Code.Ledger.Transaction.d_tokenAlgebra_1994
                                                 (coe
-                                                   MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_786) in
+                                                   MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_794) in
                                       coe
                                         (coe
                                            MAlonzo.Code.Algebra.Bundles.d_ε_842

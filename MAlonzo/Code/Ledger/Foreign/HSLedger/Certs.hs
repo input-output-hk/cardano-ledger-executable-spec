@@ -8828,7 +8828,7 @@ d_Convertible'45'CertEnv_28
                                  (coe
                                     MAlonzo.Code.Ledger.Transaction.d_globalConstants_1090
                                     (coe
-                                       MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_786)))
+                                       MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_794)))
                               (coe
                                  MAlonzo.Code.Ledger.Crypto.d_DecEq'45'THash_20
                                  (coe
@@ -8836,13 +8836,13 @@ d_Convertible'45'CertEnv_28
                                     (coe
                                        MAlonzo.Code.Ledger.Transaction.d_crypto_1110
                                        (coe
-                                          MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_786))))
+                                          MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_794))))
                               (coe
                                  MAlonzo.Code.Ledger.Crypto.d_DecEq'45'ScriptHash_196
                                  (coe
                                     MAlonzo.Code.Ledger.Transaction.d_crypto_1110
                                     (coe
-                                       MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_786))))
+                                       MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_794))))
                            (coe
                               MAlonzo.Code.Foreign.Convertible.C_Convertible'46'constructor_21
                               (coe
@@ -18541,7 +18541,7 @@ d_govcert'45'step_34 v0 v1 v2
                         (coe
                            MAlonzo.Code.Ledger.Transaction.d_globalConstants_1090
                            (coe
-                              MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_786)))
+                              MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_794)))
                      (coe
                         MAlonzo.Code.Ledger.Crypto.d_DecEq'45'THash_20
                         (coe
@@ -18549,13 +18549,13 @@ d_govcert'45'step_34 v0 v1 v2
                            (coe
                               MAlonzo.Code.Ledger.Transaction.d_crypto_1110
                               (coe
-                                 MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_786))))
+                                 MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_794))))
                      (coe
                         MAlonzo.Code.Ledger.Crypto.d_DecEq'45'ScriptHash_196
                         (coe
                            MAlonzo.Code.Ledger.Transaction.d_crypto_1110
                            (coe
-                              MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_786))))
+                              MAlonzo.Code.Ledger.Foreign.HSLedger.Core.d_HSTransactionStructure_794))))
                   (coe
                      MAlonzo.Code.Foreign.Convertible.C_Convertible'46'constructor_21
                      (coe
