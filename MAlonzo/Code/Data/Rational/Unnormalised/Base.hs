@@ -24,6 +24,7 @@ import qualified MAlonzo.Code.Data.Bool.Base
 import qualified MAlonzo.Code.Data.Integer.Base
 import qualified MAlonzo.Code.Data.Irrelevant
 import qualified MAlonzo.Code.Data.Nat.Base
+import qualified MAlonzo.Code.Data.Sign.Base
 import qualified MAlonzo.Code.Relation.Nullary.Negation.Core
 
 -- Data.Rational.Unnormalised.Base.ℚᵘ
@@ -95,7 +96,7 @@ d__'8804''7495'__90 v0 v1
 -- Data.Rational.Unnormalised.Base._/_
 d__'47'__102 ::
   Integer ->
-  Integer -> MAlonzo.Code.Data.Nat.Base.T_NonZero_104 -> T_ℚ'7512'_8
+  Integer -> MAlonzo.Code.Data.Nat.Base.T_NonZero_112 -> T_ℚ'7512'_8
 d__'47'__102 v0 v1 ~v2 = du__'47'__102 v0 v1
 du__'47'__102 :: Integer -> Integer -> T_ℚ'7512'_8
 du__'47'__102 v0 v1
@@ -140,10 +141,10 @@ d_NonNegative_132 = erased
 d_'8802''45'nonZero_138 ::
   T_ℚ'7512'_8 ->
   (T__'8771'__24 -> MAlonzo.Code.Data.Irrelevant.T_Irrelevant_20) ->
-  MAlonzo.Code.Data.Nat.Base.T_NonZero_104
+  MAlonzo.Code.Data.Nat.Base.T_NonZero_112
 d_'8802''45'nonZero_138 v0 ~v1 = du_'8802''45'nonZero_138 v0
 du_'8802''45'nonZero_138 ::
-  T_ℚ'7512'_8 -> MAlonzo.Code.Data.Nat.Base.T_NonZero_104
+  T_ℚ'7512'_8 -> MAlonzo.Code.Data.Nat.Base.T_NonZero_112
 du_'8802''45'nonZero_138 v0
   = case coe v0 of
       C_mkℚ'7512'_22 v1 v2
@@ -163,7 +164,7 @@ du_'8802''45'nonZero_138 v0
 -- Data.Rational.Unnormalised.Base.>-nonZero
 d_'62''45'nonZero_148 ::
   T_ℚ'7512'_8 ->
-  T__'60'__46 -> MAlonzo.Code.Data.Nat.Base.T_NonZero_104
+  T__'60'__46 -> MAlonzo.Code.Data.Nat.Base.T_NonZero_112
 d_'62''45'nonZero_148 v0 v1
   = coe
       seq (coe v0)
@@ -175,7 +176,7 @@ d_'62''45'nonZero_148 v0 v1
 -- Data.Rational.Unnormalised.Base.<-nonZero
 d_'60''45'nonZero_154 ::
   T_ℚ'7512'_8 ->
-  T__'60'__46 -> MAlonzo.Code.Data.Nat.Base.T_NonZero_104
+  T__'60'__46 -> MAlonzo.Code.Data.Nat.Base.T_NonZero_112
 d_'60''45'nonZero_154 v0 v1
   = case coe v0 of
       C_mkℚ'7512'_22 v2 v3
@@ -294,7 +295,7 @@ d__'45'__208 v0 v1
 -- Data.Rational.Unnormalised.Base.1/_
 d_1'47'__218 ::
   T_ℚ'7512'_8 ->
-  MAlonzo.Code.Data.Nat.Base.T_NonZero_104 -> T_ℚ'7512'_8
+  MAlonzo.Code.Data.Nat.Base.T_NonZero_112 -> T_ℚ'7512'_8
 d_1'47'__218 v0 ~v1 = du_1'47'__218 v0
 du_1'47'__218 :: T_ℚ'7512'_8 -> T_ℚ'7512'_8
 du_1'47'__218 v0
@@ -316,7 +317,7 @@ du_1'47'__218 v0
 d__'247'__234 ::
   T_ℚ'7512'_8 ->
   T_ℚ'7512'_8 ->
-  MAlonzo.Code.Data.Nat.Base.T_NonZero_104 -> T_ℚ'7512'_8
+  MAlonzo.Code.Data.Nat.Base.T_NonZero_112 -> T_ℚ'7512'_8
 d__'247'__234 v0 v1 ~v2 = du__'247'__234 v0 v1
 du__'247'__234 :: T_ℚ'7512'_8 -> T_ℚ'7512'_8 -> T_ℚ'7512'_8
 du__'247'__234 v0 v1
@@ -333,7 +334,7 @@ d__'8852'__244 v0 v1
       (coe
          seq (coe v1)
          (coe
-            MAlonzo.Code.Data.Bool.Base.du_if_then_else__42
+            MAlonzo.Code.Data.Bool.Base.du_if_then_else__44
             (coe d__'8804''7495'__90 (coe v0) (coe v1)) (coe v1) (coe v0)))
 -- Data.Rational.Unnormalised.Base._⊓_
 d__'8851'__254 :: T_ℚ'7512'_8 -> T_ℚ'7512'_8 -> T_ℚ'7512'_8
@@ -343,7 +344,7 @@ d__'8851'__254 v0 v1
       (coe
          seq (coe v1)
          (coe
-            MAlonzo.Code.Data.Bool.Base.du_if_then_else__42
+            MAlonzo.Code.Data.Bool.Base.du_if_then_else__44
             (coe d__'8804''7495'__90 (coe v0) (coe v1)) (coe v0) (coe v1)))
 -- Data.Rational.Unnormalised.Base.∣_∣
 d_'8739'_'8739'_260 :: T_ℚ'7512'_8 -> T_ℚ'7512'_8
@@ -375,7 +376,30 @@ d_ceiling_270 v0
 -- Data.Rational.Unnormalised.Base.truncate
 d_truncate_274 :: T_ℚ'7512'_8 -> Integer
 d_truncate_274 v0
-  = let v1 = d__'8804''7495'__90 (coe v0) (coe d_0ℚ'7512'_108) in
+  = let v1
+          = MAlonzo.Code.Data.Integer.Base.d__'8804''7495'__110
+              (coe
+                 MAlonzo.Code.Data.Integer.Base.d__'9667'__230
+                 (coe
+                    MAlonzo.Code.Data.Sign.Base.d__'42'__14
+                    (coe
+                       MAlonzo.Code.Data.Integer.Base.d_sign_24
+                       (coe d_numerator_14 (coe v0)))
+                    (coe
+                       MAlonzo.Code.Data.Integer.Base.d_sign_24
+                       (coe d_denominator_20 (coe d_0ℚ'7512'_108))))
+                 (coe
+                    mulInt
+                    (coe
+                       MAlonzo.Code.Data.Integer.Base.d_'8739'_'8739'_18
+                       (coe d_numerator_14 (coe v0)))
+                    (coe
+                       MAlonzo.Code.Data.Integer.Base.d_'8739'_'8739'_18
+                       (coe d_denominator_20 (coe d_0ℚ'7512'_108)))))
+              (coe
+                 MAlonzo.Code.Data.Integer.Base.d__'42'__308
+                 (coe d_numerator_14 (coe d_0ℚ'7512'_108))
+                 (coe d_denominator_20 (coe v0))) in
     coe
       (if coe v1
          then coe d_ceiling_270 (coe v0)
@@ -383,7 +407,30 @@ d_truncate_274 v0
 -- Data.Rational.Unnormalised.Base.round
 d_round_286 :: T_ℚ'7512'_8 -> Integer
 d_round_286 v0
-  = let v1 = d__'8804''7495'__90 (coe v0) (coe d_0ℚ'7512'_108) in
+  = let v1
+          = MAlonzo.Code.Data.Integer.Base.d__'8804''7495'__110
+              (coe
+                 MAlonzo.Code.Data.Integer.Base.d__'9667'__230
+                 (coe
+                    MAlonzo.Code.Data.Sign.Base.d__'42'__14
+                    (coe
+                       MAlonzo.Code.Data.Integer.Base.d_sign_24
+                       (coe d_numerator_14 (coe v0)))
+                    (coe
+                       MAlonzo.Code.Data.Integer.Base.d_sign_24
+                       (coe d_denominator_20 (coe d_0ℚ'7512'_108))))
+                 (coe
+                    mulInt
+                    (coe
+                       MAlonzo.Code.Data.Integer.Base.d_'8739'_'8739'_18
+                       (coe d_numerator_14 (coe v0)))
+                    (coe
+                       MAlonzo.Code.Data.Integer.Base.d_'8739'_'8739'_18
+                       (coe d_denominator_20 (coe d_0ℚ'7512'_108)))))
+              (coe
+                 MAlonzo.Code.Data.Integer.Base.d__'42'__308
+                 (coe d_numerator_14 (coe d_0ℚ'7512'_108))
+                 (coe d_denominator_20 (coe v0))) in
     coe
       (if coe v1
          then coe

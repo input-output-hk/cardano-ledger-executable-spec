@@ -51,7 +51,7 @@ d_selectSubterms_8 ::
   [MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154]
 d_selectSubterms_8 v0 v1
   = coe
-      MAlonzo.Code.Data.Bool.Base.du_if_then_else__42 (coe v0 v1)
+      MAlonzo.Code.Data.Bool.Base.du_if_then_else__44 (coe v0 v1)
       (coe MAlonzo.Code.Data.List.Base.du_'91'_'93'_306 (coe v1))
       (coe d_helper_18 (coe v0) (coe v1) (coe v1))
 -- Tactic.ReduceDec._.helper
@@ -78,7 +78,7 @@ d_helper_18 v0 v1 v2
            -> case coe v4 of
                 MAlonzo.Code.Agda.Builtin.Reflection.C_arg_98 v6 v7
                   -> coe
-                       MAlonzo.Code.Data.Bool.Base.du_if_then_else__42 (coe v0 v7)
+                       MAlonzo.Code.Data.Bool.Base.du_if_then_else__44 (coe v0 v7)
                        (coe MAlonzo.Code.Data.List.Base.du_'91'_'93'_306 (coe v7))
                        (coe d_helper_18 (coe v0) (coe v1) (coe v7))
                 _ -> MAlonzo.RTE.mazUnreachableError
@@ -100,7 +100,7 @@ d_argHelper_20 v0 v1 v2
                -> coe
                     MAlonzo.Code.Data.List.Base.du__'43''43'__62
                     (coe
-                       MAlonzo.Code.Data.Bool.Base.du_if_then_else__42 (coe v0 v6)
+                       MAlonzo.Code.Data.Bool.Base.du_if_then_else__44 (coe v0 v6)
                        (coe MAlonzo.Code.Data.List.Base.du_'91'_'93'_306 (coe v6))
                        (coe d_helper_18 (coe v0) (coe v1) (coe v6)))
                     (coe d_argHelper_20 (coe v0) (coe v1) (coe v4))
@@ -115,7 +115,7 @@ d_generalizeSubterms_52 v0 v1
   = coe
       d_lambdas_104 (coe v0) (coe v1)
       (coe
-         MAlonzo.Code.Data.Bool.Base.du_if_then_else__42 (coe v0 v1)
+         MAlonzo.Code.Data.Bool.Base.du_if_then_else__44 (coe v0 v1)
          (coe
             MAlonzo.Code.Agda.Builtin.Reflection.C_var_172 (coe (0 :: Integer))
             (coe MAlonzo.Code.Agda.Builtin.List.C_'91''93'_16))
@@ -157,7 +157,7 @@ d_helper_62 v0 v1 v2
                     (coe
                        MAlonzo.Code.Agda.Builtin.Reflection.C_arg_98 (coe v5)
                        (coe
-                          MAlonzo.Code.Data.Bool.Base.du_if_then_else__42 (coe v0 v6)
+                          MAlonzo.Code.Data.Bool.Base.du_if_then_else__44 (coe v0 v6)
                           (coe
                              MAlonzo.Code.Agda.Builtin.Reflection.C_var_172 (coe (0 :: Integer))
                              (coe MAlonzo.Code.Agda.Builtin.List.C_'91''93'_16))
@@ -186,7 +186,7 @@ d_argHelper_64 v0 v1 v2
                     (coe
                        MAlonzo.Code.Agda.Builtin.Reflection.C_arg_98 (coe v5)
                        (coe
-                          MAlonzo.Code.Data.Bool.Base.du_if_then_else__42 (coe v0 v6)
+                          MAlonzo.Code.Data.Bool.Base.du_if_then_else__44 (coe v0 v6)
                           (coe
                              MAlonzo.Code.Agda.Builtin.Reflection.C_var_172 (coe (0 :: Integer))
                              (coe MAlonzo.Code.Agda.Builtin.List.C_'91''93'_16))
@@ -222,7 +222,7 @@ d_extractDec_112 v0
       (case coe v0 of
          MAlonzo.Code.Agda.Builtin.Reflection.C_def_184 v2 v3
            -> case coe v2 of
-                MAlonzo.RTE.QName 98 16368259409245829246 _ _
+                MAlonzo.RTE.QName 104 16368259409245829246 _ _
                   -> case coe v3 of
                        (:) v4 v5
                          -> case coe v5 of
@@ -335,7 +335,7 @@ d_fromWitness''Type_152 v0 v1
                             MAlonzo.Code.Agda.Builtin.Reflection.C_def_184
                             (coe
                                (MAlonzo.RTE.QName
-                                  (98 :: Integer) (16368259409245829246 :: Integer)
+                                  (104 :: Integer) (16368259409245829246 :: Integer)
                                   "Relation.Nullary.Decidable.Core.isYes"
                                   (MAlonzo.RTE.Fixity MAlonzo.RTE.NonAssoc MAlonzo.RTE.Unrelated)))
                             (coe
@@ -447,7 +447,7 @@ d_fromWitness''Type_152 v0 v1
                             MAlonzo.Code.Agda.Builtin.Reflection.C_def_184
                             (coe
                                (MAlonzo.RTE.QName
-                                  (98 :: Integer) (16368259409245829246 :: Integer)
+                                  (104 :: Integer) (16368259409245829246 :: Integer)
                                   "Relation.Nullary.Decidable.Core.isYes"
                                   (MAlonzo.RTE.Fixity MAlonzo.RTE.NonAssoc MAlonzo.RTE.Unrelated)))
                             (coe
@@ -726,7 +726,7 @@ d_reduceDecTermWith_182 v0 v1 v2
                     MAlonzo.Code.Class.MonadTC.d_inferType_148
                     MAlonzo.Code.Reflection.TCI.d_MonadTC'45'TCI_156 v2
                     (coe
-                       MAlonzo.Code.Class.MonadTC.C_TCEnv'46'constructor_309
+                       MAlonzo.Code.Class.MonadTC.C_TCEnv'46'constructor_243
                        (coe MAlonzo.Code.Class.MonadTC.d_normalisation_50 (coe v3))
                        (coe MAlonzo.Code.Class.MonadTC.d_reconstruction_52 (coe v3))
                        (coe MAlonzo.Code.Class.MonadTC.d_noConstraints_54 (coe v3))
@@ -740,7 +740,7 @@ d_reduceDecTermWith_182 v0 v1 v2
                       MAlonzo.Code.Class.MonadTC.d_normalise_152
                       MAlonzo.Code.Reflection.TCI.d_MonadTC'45'TCI_156 v4
                       (coe
-                         MAlonzo.Code.Class.MonadTC.C_TCEnv'46'constructor_309
+                         MAlonzo.Code.Class.MonadTC.C_TCEnv'46'constructor_243
                          (coe MAlonzo.Code.Class.MonadTC.d_normalisation_50 (coe v3))
                          (coe MAlonzo.Code.Class.MonadTC.d_reconstruction_52 (coe v3))
                          (coe MAlonzo.Code.Class.MonadTC.d_noConstraints_54 (coe v3))

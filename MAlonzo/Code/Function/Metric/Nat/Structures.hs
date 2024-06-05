@@ -78,8 +78,8 @@ d_antisym_50 ::
   MAlonzo.Code.Function.Metric.Structures.T_IsGeneralMetric_332 ->
   Integer ->
   Integer ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
 d_antisym_50 = erased
 -- Function.Metric.Nat.Structures.IsMetric._.cong
@@ -192,7 +192,7 @@ d_isSemiMetric_66 v0
 -- Function.Metric.Nat.Structures.IsMetric._.nonNegative
 d_nonNegative_68 ::
   MAlonzo.Code.Function.Metric.Structures.T_IsGeneralMetric_332 ->
-  AgdaAny -> AgdaAny -> MAlonzo.Code.Data.Nat.Base.T__'8804'__18
+  AgdaAny -> AgdaAny -> MAlonzo.Code.Data.Nat.Base.T__'8804'__22
 d_nonNegative_68 v0
   = coe
       MAlonzo.Code.Function.Metric.Structures.d_nonNegative_48
@@ -213,11 +213,11 @@ d_refl_70 ::
   (AgdaAny -> AgdaAny -> ()) ->
   (AgdaAny -> AgdaAny -> Integer) ->
   MAlonzo.Code.Function.Metric.Structures.T_IsGeneralMetric_332 ->
-  Integer -> MAlonzo.Code.Data.Nat.Base.T__'8804'__18
+  Integer -> MAlonzo.Code.Data.Nat.Base.T__'8804'__22
 d_refl_70 ~v0 ~v1 ~v2 ~v3 ~v4 v5 = du_refl_70 v5
 du_refl_70 ::
   MAlonzo.Code.Function.Metric.Structures.T_IsGeneralMetric_332 ->
-  Integer -> MAlonzo.Code.Data.Nat.Base.T__'8804'__18
+  Integer -> MAlonzo.Code.Data.Nat.Base.T__'8804'__22
 du_refl_70 v0
   = let v1
           = MAlonzo.Code.Function.Metric.Structures.d_isSemiMetric_342
@@ -250,7 +250,7 @@ d_reflexive_72 ::
   Integer ->
   Integer ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22
 d_reflexive_72 v0
   = coe
       MAlonzo.Code.Relation.Binary.Structures.d_reflexive_82
@@ -279,9 +279,9 @@ d_trans_76 ::
   Integer ->
   Integer ->
   Integer ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22
 d_trans_76 v0
   = coe
       MAlonzo.Code.Relation.Binary.Structures.d_trans_84
@@ -302,7 +302,7 @@ d_trans_76 v0
 d_triangle_78 ::
   MAlonzo.Code.Function.Metric.Structures.T_IsGeneralMetric_332 ->
   AgdaAny ->
-  AgdaAny -> AgdaAny -> MAlonzo.Code.Data.Nat.Base.T__'8804'__18
+  AgdaAny -> AgdaAny -> MAlonzo.Code.Data.Nat.Base.T__'8804'__22
 d_triangle_78 v0
   = coe
       MAlonzo.Code.Function.Metric.Structures.d_triangle_344 (coe v0)
@@ -381,8 +381,8 @@ d_'8764''45'resp'691''45''8776'_86 ::
   Integer ->
   Integer ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22
 d_'8764''45'resp'691''45''8776'_86 ~v0 ~v1 ~v2 ~v3 ~v4 v5
   = du_'8764''45'resp'691''45''8776'_86 v5
 du_'8764''45'resp'691''45''8776'_86 ::
@@ -391,8 +391,8 @@ du_'8764''45'resp'691''45''8776'_86 ::
   Integer ->
   Integer ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22
 du_'8764''45'resp'691''45''8776'_86 v0
   = let v1
           = MAlonzo.Code.Function.Metric.Structures.d_isSemiMetric_342
@@ -431,8 +431,8 @@ d_'8764''45'resp'737''45''8776'_88 ::
   Integer ->
   Integer ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22
 d_'8764''45'resp'737''45''8776'_88 ~v0 ~v1 ~v2 ~v3 ~v4 v5
   = du_'8764''45'resp'737''45''8776'_88 v5
 du_'8764''45'resp'737''45''8776'_88 ::
@@ -441,8 +441,8 @@ du_'8764''45'resp'737''45''8776'_88 ::
   Integer ->
   Integer ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22
 du_'8764''45'resp'737''45''8776'_88 v0
   = let v1
           = MAlonzo.Code.Function.Metric.Structures.d_isSemiMetric_342
@@ -521,8 +521,8 @@ d_'8818''45'resp'691''45''8776'_92 ::
   Integer ->
   Integer ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22
 d_'8818''45'resp'691''45''8776'_92 ~v0 ~v1 ~v2 ~v3 ~v4 v5
   = du_'8818''45'resp'691''45''8776'_92 v5
 du_'8818''45'resp'691''45''8776'_92 ::
@@ -531,8 +531,8 @@ du_'8818''45'resp'691''45''8776'_92 ::
   Integer ->
   Integer ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22
 du_'8818''45'resp'691''45''8776'_92 v0
   = let v1
           = MAlonzo.Code.Function.Metric.Structures.d_isSemiMetric_342
@@ -571,8 +571,8 @@ d_'8818''45'resp'737''45''8776'_94 ::
   Integer ->
   Integer ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22
 d_'8818''45'resp'737''45''8776'_94 ~v0 ~v1 ~v2 ~v3 ~v4 v5
   = du_'8818''45'resp'737''45''8776'_94 v5
 du_'8818''45'resp'737''45''8776'_94 ::
@@ -581,8 +581,8 @@ du_'8818''45'resp'737''45''8776'_94 ::
   Integer ->
   Integer ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22
 du_'8818''45'resp'737''45''8776'_94 v0
   = let v1
           = MAlonzo.Code.Function.Metric.Structures.d_isSemiMetric_342
@@ -846,8 +846,8 @@ d_antisym_140 ::
   MAlonzo.Code.Function.Metric.Structures.T_IsGeneralMetric_332 ->
   Integer ->
   Integer ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
 d_antisym_140 = erased
 -- Function.Metric.Nat.Structures.IsUltraMetric._.cong
@@ -960,7 +960,7 @@ d_isSemiMetric_156 v0
 -- Function.Metric.Nat.Structures.IsUltraMetric._.nonNegative
 d_nonNegative_158 ::
   MAlonzo.Code.Function.Metric.Structures.T_IsGeneralMetric_332 ->
-  AgdaAny -> AgdaAny -> MAlonzo.Code.Data.Nat.Base.T__'8804'__18
+  AgdaAny -> AgdaAny -> MAlonzo.Code.Data.Nat.Base.T__'8804'__22
 d_nonNegative_158 v0
   = coe
       MAlonzo.Code.Function.Metric.Structures.d_nonNegative_48
@@ -981,11 +981,11 @@ d_refl_160 ::
   (AgdaAny -> AgdaAny -> ()) ->
   (AgdaAny -> AgdaAny -> Integer) ->
   MAlonzo.Code.Function.Metric.Structures.T_IsGeneralMetric_332 ->
-  Integer -> MAlonzo.Code.Data.Nat.Base.T__'8804'__18
+  Integer -> MAlonzo.Code.Data.Nat.Base.T__'8804'__22
 d_refl_160 ~v0 ~v1 ~v2 ~v3 ~v4 v5 = du_refl_160 v5
 du_refl_160 ::
   MAlonzo.Code.Function.Metric.Structures.T_IsGeneralMetric_332 ->
-  Integer -> MAlonzo.Code.Data.Nat.Base.T__'8804'__18
+  Integer -> MAlonzo.Code.Data.Nat.Base.T__'8804'__22
 du_refl_160 v0
   = let v1
           = MAlonzo.Code.Function.Metric.Structures.d_isSemiMetric_342
@@ -1018,7 +1018,7 @@ d_reflexive_162 ::
   Integer ->
   Integer ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22
 d_reflexive_162 v0
   = coe
       MAlonzo.Code.Relation.Binary.Structures.d_reflexive_82
@@ -1047,9 +1047,9 @@ d_trans_166 ::
   Integer ->
   Integer ->
   Integer ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22
 d_trans_166 v0
   = coe
       MAlonzo.Code.Relation.Binary.Structures.d_trans_84
@@ -1070,7 +1070,7 @@ d_trans_166 v0
 d_triangle_168 ::
   MAlonzo.Code.Function.Metric.Structures.T_IsGeneralMetric_332 ->
   AgdaAny ->
-  AgdaAny -> AgdaAny -> MAlonzo.Code.Data.Nat.Base.T__'8804'__18
+  AgdaAny -> AgdaAny -> MAlonzo.Code.Data.Nat.Base.T__'8804'__22
 d_triangle_168 v0
   = coe
       MAlonzo.Code.Function.Metric.Structures.d_triangle_344 (coe v0)
@@ -1149,8 +1149,8 @@ d_'8764''45'resp'691''45''8776'_176 ::
   Integer ->
   Integer ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22
 d_'8764''45'resp'691''45''8776'_176 ~v0 ~v1 ~v2 ~v3 ~v4 v5
   = du_'8764''45'resp'691''45''8776'_176 v5
 du_'8764''45'resp'691''45''8776'_176 ::
@@ -1159,8 +1159,8 @@ du_'8764''45'resp'691''45''8776'_176 ::
   Integer ->
   Integer ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22
 du_'8764''45'resp'691''45''8776'_176 v0
   = let v1
           = MAlonzo.Code.Function.Metric.Structures.d_isSemiMetric_342
@@ -1199,8 +1199,8 @@ d_'8764''45'resp'737''45''8776'_178 ::
   Integer ->
   Integer ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22
 d_'8764''45'resp'737''45''8776'_178 ~v0 ~v1 ~v2 ~v3 ~v4 v5
   = du_'8764''45'resp'737''45''8776'_178 v5
 du_'8764''45'resp'737''45''8776'_178 ::
@@ -1209,8 +1209,8 @@ du_'8764''45'resp'737''45''8776'_178 ::
   Integer ->
   Integer ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22
 du_'8764''45'resp'737''45''8776'_178 v0
   = let v1
           = MAlonzo.Code.Function.Metric.Structures.d_isSemiMetric_342
@@ -1289,8 +1289,8 @@ d_'8818''45'resp'691''45''8776'_182 ::
   Integer ->
   Integer ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22
 d_'8818''45'resp'691''45''8776'_182 ~v0 ~v1 ~v2 ~v3 ~v4 v5
   = du_'8818''45'resp'691''45''8776'_182 v5
 du_'8818''45'resp'691''45''8776'_182 ::
@@ -1299,8 +1299,8 @@ du_'8818''45'resp'691''45''8776'_182 ::
   Integer ->
   Integer ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22
 du_'8818''45'resp'691''45''8776'_182 v0
   = let v1
           = MAlonzo.Code.Function.Metric.Structures.d_isSemiMetric_342
@@ -1339,8 +1339,8 @@ d_'8818''45'resp'737''45''8776'_184 ::
   Integer ->
   Integer ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22
 d_'8818''45'resp'737''45''8776'_184 ~v0 ~v1 ~v2 ~v3 ~v4 v5
   = du_'8818''45'resp'737''45''8776'_184 v5
 du_'8818''45'resp'737''45''8776'_184 ::
@@ -1349,8 +1349,8 @@ du_'8818''45'resp'737''45''8776'_184 ::
   Integer ->
   Integer ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22
 du_'8818''45'resp'737''45''8776'_184 v0
   = let v1
           = MAlonzo.Code.Function.Metric.Structures.d_isSemiMetric_342

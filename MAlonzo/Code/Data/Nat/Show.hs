@@ -130,10 +130,10 @@ du_dec_42 v0
       (coe
          MAlonzo.Code.Data.Bool.Base.d__'8743'__24
          (coe
-            MAlonzo.Code.Data.Nat.Base.d__'8804''7495'__10 (coe du_char0_24)
+            MAlonzo.Code.Data.Nat.Base.d__'8804''7495'__14 (coe du_char0_24)
             (coe du_charc_40 (coe v0)))
          (coe
-            MAlonzo.Code.Data.Nat.Base.d__'8804''7495'__10
+            MAlonzo.Code.Data.Nat.Base.d__'8804''7495'__14
             (coe du_charc_40 (coe v0)) (coe du_char9_26)))
       (coe
          MAlonzo.Code.Agda.Builtin.Nat.d__'45'__22
@@ -151,10 +151,10 @@ du_hex_44 v0
       (coe
          MAlonzo.Code.Data.Bool.Base.d__'8743'__24
          (coe
-            MAlonzo.Code.Data.Nat.Base.d__'8804''7495'__10 (coe du_chara_28)
+            MAlonzo.Code.Data.Nat.Base.d__'8804''7495'__14 (coe du_chara_28)
             (coe du_charc_40 (coe v0)))
          (coe
-            MAlonzo.Code.Data.Nat.Base.d__'8804''7495'__10
+            MAlonzo.Code.Data.Nat.Base.d__'8804''7495'__14
             (coe du_charc_40 (coe v0)) (coe du_charf_30)))
       (coe
          MAlonzo.Code.Agda.Builtin.Nat.d__'45'__22

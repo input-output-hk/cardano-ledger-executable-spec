@@ -77,22 +77,22 @@ du_'8596''8658'_82 v0
                   (coe MAlonzo.Code.Function.Bundles.d_from_1974 (coe v1)))
       C_equivalence_12
         -> coe
-             MAlonzo.Code.Function.Properties.Inverse.du_'8596''8658''8660'_574
+             MAlonzo.Code.Function.Properties.Inverse.du_'8596''8658''8660'_648
       C_injection_14
         -> coe
-             MAlonzo.Code.Function.Properties.Inverse.du_'8596''8658''8611'_568
+             MAlonzo.Code.Function.Properties.Inverse.du_'8596''8658''8611'_642
       C_reverseInjection_16
         -> coe
              (\ v1 ->
                 coe
-                  MAlonzo.Code.Function.Properties.Inverse.du_'8596''8658''8611'_568
+                  MAlonzo.Code.Function.Properties.Inverse.du_'8596''8658''8611'_642
                   (coe
                      MAlonzo.Code.Function.Construct.Symmetry.du_inverse_1052 (coe v1)))
       C_leftInverse_18
         -> coe MAlonzo.Code.Function.Bundles.du_rightInverse_1988
       C_surjection_20
         -> coe
-             MAlonzo.Code.Function.Properties.Inverse.du_'8596''8658''8608'_570
+             MAlonzo.Code.Function.Properties.Inverse.du_'8596''8658''8608'_644
       C_bijection_22 -> coe (\ v1 -> v1)
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Function.Related.Propositional.≡⇒
@@ -240,7 +240,7 @@ du_'8658''8660'_148 v0
              MAlonzo.Code.Function.Properties.Surjection.du_'8608''8658''8660'_230
       C_bijection_142
         -> coe
-             MAlonzo.Code.Function.Properties.Inverse.du_'8596''8658''8660'_574
+             MAlonzo.Code.Function.Properties.Inverse.du_'8596''8658''8660'_648
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Function.Related.Propositional.⇔⌊_⌋
 d_'8660''8970'_'8971'_150 ::

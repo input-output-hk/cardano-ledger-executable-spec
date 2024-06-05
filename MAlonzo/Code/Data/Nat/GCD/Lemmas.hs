@@ -46,17 +46,17 @@ d_lem'8320'_48 = erased
 -- Data.Nat.GCD.Lemmas.lem₁
 d_lem'8321'_68 ::
   Integer ->
-  Integer -> MAlonzo.Code.Data.Nat.Base.T__'8804''8242'__300
+  Integer -> MAlonzo.Code.Data.Nat.Base.T__'8804''8242'__338
 d_lem'8321'_68 v0 v1
   = coe
-      MAlonzo.Code.Data.Nat.Properties.du_'8804''8658''8804''8242'_5892
+      MAlonzo.Code.Data.Nat.Properties.du_'8804''8658''8804''8242'_5950
       (coe addInt (coe addInt (coe (2 :: Integer)) (coe v0)) (coe v1))
       (coe
-         MAlonzo.Code.Data.Nat.Base.C_s'8804's_30
+         MAlonzo.Code.Data.Nat.Base.C_s'8804's_34
          (coe
-            MAlonzo.Code.Data.Nat.Base.C_s'8804's_30
+            MAlonzo.Code.Data.Nat.Base.C_s'8804's_34
             (coe
-               MAlonzo.Code.Data.Nat.Properties.du_m'8804'n'43'm_3356 (coe v0))))
+               MAlonzo.Code.Data.Nat.Properties.du_m'8804'n'43'm_3364 (coe v0))))
 -- Data.Nat.GCD.Lemmas.lem₂
 d_lem'8322'_82 ::
   Integer ->

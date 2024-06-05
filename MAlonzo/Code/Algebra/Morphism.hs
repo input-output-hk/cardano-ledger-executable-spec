@@ -1070,7 +1070,7 @@ du_'42''45'monoid_1306 ::
   MAlonzo.Code.Algebra.Bundles.T_Monoid_740
 du_'42''45'monoid_1306 v0
   = let v1
-          = coe MAlonzo.Code.Algebra.Bundles.du_semiring_3662 (coe v0) in
+          = coe MAlonzo.Code.Algebra.Bundles.du_semiring_3666 (coe v0) in
     coe
       (coe
          MAlonzo.Code.Algebra.Bundles.du_'42''45'monoid_2006
@@ -1093,9 +1093,9 @@ du_'43''45'abelianGroup_1314 ::
   MAlonzo.Code.Algebra.Bundles.T_AbelianGroup_1378
 du_'43''45'abelianGroup_1314 v0
   = coe
-      MAlonzo.Code.Algebra.Bundles.du_'43''45'abelianGroup_3660 (coe v0)
+      MAlonzo.Code.Algebra.Bundles.du_'43''45'abelianGroup_3662 (coe v0)
 -- Algebra.Morphism._.T.*-monoid
-d_'42''45'monoid_1478 ::
+d_'42''45'monoid_1482 ::
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
@@ -1103,14 +1103,14 @@ d_'42''45'monoid_1478 ::
   MAlonzo.Code.Algebra.Bundles.T_Ring_3514 ->
   MAlonzo.Code.Algebra.Bundles.T_Ring_3514 ->
   MAlonzo.Code.Algebra.Bundles.T_Monoid_740
-d_'42''45'monoid_1478 ~v0 ~v1 ~v2 ~v3 ~v4 v5
-  = du_'42''45'monoid_1478 v5
-du_'42''45'monoid_1478 ::
+d_'42''45'monoid_1482 ~v0 ~v1 ~v2 ~v3 ~v4 v5
+  = du_'42''45'monoid_1482 v5
+du_'42''45'monoid_1482 ::
   MAlonzo.Code.Algebra.Bundles.T_Ring_3514 ->
   MAlonzo.Code.Algebra.Bundles.T_Monoid_740
-du_'42''45'monoid_1478 v0
+du_'42''45'monoid_1482 v0
   = let v1
-          = coe MAlonzo.Code.Algebra.Bundles.du_semiring_3662 (coe v0) in
+          = coe MAlonzo.Code.Algebra.Bundles.du_semiring_3666 (coe v0) in
     coe
       (coe
          MAlonzo.Code.Algebra.Bundles.du_'42''45'monoid_2006
@@ -1118,7 +1118,7 @@ du_'42''45'monoid_1478 v0
             MAlonzo.Code.Algebra.Bundles.du_semiringWithoutAnnihilatingZero_2140
             (coe v1)))
 -- Algebra.Morphism._.T.+-abelianGroup
-d_'43''45'abelianGroup_1486 ::
+d_'43''45'abelianGroup_1490 ::
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
@@ -1126,16 +1126,16 @@ d_'43''45'abelianGroup_1486 ::
   MAlonzo.Code.Algebra.Bundles.T_Ring_3514 ->
   MAlonzo.Code.Algebra.Bundles.T_Ring_3514 ->
   MAlonzo.Code.Algebra.Bundles.T_AbelianGroup_1378
-d_'43''45'abelianGroup_1486 ~v0 ~v1 ~v2 ~v3 ~v4 v5
-  = du_'43''45'abelianGroup_1486 v5
-du_'43''45'abelianGroup_1486 ::
+d_'43''45'abelianGroup_1490 ~v0 ~v1 ~v2 ~v3 ~v4 v5
+  = du_'43''45'abelianGroup_1490 v5
+du_'43''45'abelianGroup_1490 ::
   MAlonzo.Code.Algebra.Bundles.T_Ring_3514 ->
   MAlonzo.Code.Algebra.Bundles.T_AbelianGroup_1378
-du_'43''45'abelianGroup_1486 v0
+du_'43''45'abelianGroup_1490 v0
   = coe
-      MAlonzo.Code.Algebra.Bundles.du_'43''45'abelianGroup_3660 (coe v0)
+      MAlonzo.Code.Algebra.Bundles.du_'43''45'abelianGroup_3662 (coe v0)
 -- Algebra.Morphism._._.Homomorphic₀
-d_Homomorphic'8320'_1618 ::
+d_Homomorphic'8320'_1626 ::
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
@@ -1143,9 +1143,9 @@ d_Homomorphic'8320'_1618 ::
   MAlonzo.Code.Algebra.Bundles.T_Ring_3514 ->
   MAlonzo.Code.Algebra.Bundles.T_Ring_3514 ->
   (AgdaAny -> AgdaAny) -> AgdaAny -> AgdaAny -> ()
-d_Homomorphic'8320'_1618 = erased
+d_Homomorphic'8320'_1626 = erased
 -- Algebra.Morphism._._.Homomorphic₁
-d_Homomorphic'8321'_1620 ::
+d_Homomorphic'8321'_1628 ::
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
@@ -1154,9 +1154,9 @@ d_Homomorphic'8321'_1620 ::
   MAlonzo.Code.Algebra.Bundles.T_Ring_3514 ->
   (AgdaAny -> AgdaAny) ->
   (AgdaAny -> AgdaAny) -> (AgdaAny -> AgdaAny) -> ()
-d_Homomorphic'8321'_1620 = erased
+d_Homomorphic'8321'_1628 = erased
 -- Algebra.Morphism._._.Homomorphic₂
-d_Homomorphic'8322'_1622 ::
+d_Homomorphic'8322'_1630 ::
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
@@ -1166,37 +1166,37 @@ d_Homomorphic'8322'_1622 ::
   (AgdaAny -> AgdaAny) ->
   (AgdaAny -> AgdaAny -> AgdaAny) ->
   (AgdaAny -> AgdaAny -> AgdaAny) -> ()
-d_Homomorphic'8322'_1622 = erased
+d_Homomorphic'8322'_1630 = erased
 -- Algebra.Morphism._._.Morphism
-d_Morphism_1624 ::
+d_Morphism_1632 ::
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Algebra.Bundles.T_Ring_3514 ->
   MAlonzo.Code.Algebra.Bundles.T_Ring_3514 -> ()
-d_Morphism_1624 = erased
+d_Morphism_1632 = erased
 -- Algebra.Morphism._.IsRingMorphism
-d_IsRingMorphism_1628 a0 a1 a2 a3 a4 a5 a6 = ()
-data T_IsRingMorphism_1628
-  = C_IsRingMorphism'46'constructor_14085 T_IsAbelianGroupMorphism_1232
+d_IsRingMorphism_1636 a0 a1 a2 a3 a4 a5 a6 = ()
+data T_IsRingMorphism_1636
+  = C_IsRingMorphism'46'constructor_13935 T_IsAbelianGroupMorphism_1232
                                           T_IsMonoidMorphism_306
 -- Algebra.Morphism._.IsRingMorphism.+-abgp-homo
-d_'43''45'abgp'45'homo_1636 ::
-  T_IsRingMorphism_1628 -> T_IsAbelianGroupMorphism_1232
-d_'43''45'abgp'45'homo_1636 v0
+d_'43''45'abgp'45'homo_1644 ::
+  T_IsRingMorphism_1636 -> T_IsAbelianGroupMorphism_1232
+d_'43''45'abgp'45'homo_1644 v0
   = case coe v0 of
-      C_IsRingMorphism'46'constructor_14085 v1 v2 -> coe v1
+      C_IsRingMorphism'46'constructor_13935 v1 v2 -> coe v1
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Algebra.Morphism._.IsRingMorphism.*-mn-homo
-d_'42''45'mn'45'homo_1638 ::
-  T_IsRingMorphism_1628 -> T_IsMonoidMorphism_306
-d_'42''45'mn'45'homo_1638 v0
+d_'42''45'mn'45'homo_1646 ::
+  T_IsRingMorphism_1636 -> T_IsMonoidMorphism_306
+d_'42''45'mn'45'homo_1646 v0
   = case coe v0 of
-      C_IsRingMorphism'46'constructor_14085 v1 v2 -> coe v2
+      C_IsRingMorphism'46'constructor_13935 v1 v2 -> coe v2
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Algebra.Morphism._.IsRingMorphism-syntax
-d_IsRingMorphism'45'syntax_1640 ::
+d_IsRingMorphism'45'syntax_1648 ::
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
@@ -1204,4 +1204,4 @@ d_IsRingMorphism'45'syntax_1640 ::
   MAlonzo.Code.Algebra.Bundles.T_Ring_3514 ->
   MAlonzo.Code.Algebra.Bundles.T_Ring_3514 ->
   (AgdaAny -> AgdaAny) -> ()
-d_IsRingMorphism'45'syntax_1640 = erased
+d_IsRingMorphism'45'syntax_1648 = erased

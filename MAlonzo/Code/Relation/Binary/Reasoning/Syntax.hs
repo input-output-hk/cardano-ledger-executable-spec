@@ -110,7 +110,7 @@ du_begin__126 v0 v1 v2 v3
   = coe
       d_extract_92 v0 v1 v2 v3
       (coe
-         MAlonzo.Code.Relation.Nullary.Decidable.Core.du_toWitness_110
+         MAlonzo.Code.Relation.Nullary.Decidable.Core.du_toWitness_116
          (coe d_IsS'63'_88 v0 v1 v2 v3))
 -- Relation.Binary.Reasoning.Syntax.begin-equality-syntax._.begin_
 d_begin__148 ::
@@ -293,7 +293,7 @@ du_x'60'x_258 v0 v1 v2
   = coe
       d_extract_92 v0 v1 v1 v2
       (coe
-         MAlonzo.Code.Relation.Nullary.Decidable.Core.du_toWitness_110
+         MAlonzo.Code.Relation.Nullary.Decidable.Core.du_toWitness_116
          (coe d_IsS'63'_88 v0 v1 v1 v2))
 -- Relation.Binary.Reasoning.Syntax._.forward
 d_forward_290 ::

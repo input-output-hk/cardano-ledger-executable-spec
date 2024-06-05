@@ -1512,7 +1512,7 @@ du_getRecordDef_398 v0 v1 v2 v3 v4
                         coe
                           MAlonzo.Code.Class.Monad.Core.d_return_16 v0 () erased
                           (coe
-                             MAlonzo.Code.Reflection.Utils.C_RecordDef'46'constructor_321
+                             MAlonzo.Code.Reflection.Utils.C_RecordDef'46'constructor_299
                              (coe v7) (coe v8) (coe v9)))
               _ -> coe v6))
 -- Reflection.Utils.TCI.getDataOrRecordDef
@@ -1634,9 +1634,9 @@ du_getFuel_428 v0 v1 v2 v3
          (coe
             (\ v4 ->
                case coe v4 of
-                 MAlonzo.Code.Class.MonadTC.C_TCEnv'46'constructor_309 v5 v6 v7 v8 v9 v10 v11 v12
+                 MAlonzo.Code.Class.MonadTC.C_TCEnv'46'constructor_243 v5 v6 v7 v8 v9 v10 v11 v12
                    -> case coe v12 of
-                        MAlonzo.Code.Class.MonadTC.C_TCOptions'46'constructor_133 v13 v14
+                        MAlonzo.Code.Class.MonadTC.C_TCOptions'46'constructor_89 v13 v14
                           -> coe v14
                         _ -> MAlonzo.RTE.mazUnreachableError
                  _ -> MAlonzo.RTE.mazUnreachableError)))
@@ -1647,7 +1647,7 @@ du_getFuel_428 v0 v1 v2 v3
                    (coe
                       (\ v5 v6 ->
                          coe
-                           MAlonzo.Code.Relation.Nullary.Decidable.Core.d_'8970'_'8971'_106 ()
+                           MAlonzo.Code.Relation.Nullary.Decidable.Core.d_'8970'_'8971'_112 ()
                            erased
                            (coe
                               MAlonzo.Code.Class.DecEq.Core.d__'8799'__16
@@ -1730,7 +1730,7 @@ du_isNArySort_452 v0 v1 v2 v3 v4
                        MAlonzo.Code.Class.Monad.Core.d_return_16 v0 () erased
                        (MAlonzo.Code.Data.Bool.Base.d__'8743'__24
                           (coe
-                             MAlonzo.Code.Relation.Nullary.Decidable.Core.d_'8970'_'8971'_106 ()
+                             MAlonzo.Code.Relation.Nullary.Decidable.Core.d_'8970'_'8971'_112 ()
                              erased
                              (coe
                                 MAlonzo.Code.Class.DecEq.Core.d__'8799'__16
@@ -1768,7 +1768,7 @@ du_isDefT_466 v0 v1 v2 v3
                 -> coe
                      MAlonzo.Code.Class.Monad.Core.d_return_16 v0 () erased
                      (coe
-                        MAlonzo.Code.Relation.Nullary.Decidable.Core.d_'8970'_'8971'_106 ()
+                        MAlonzo.Code.Relation.Nullary.Decidable.Core.d_'8970'_'8971'_112 ()
                         erased
                         (MAlonzo.Code.Reflection.AST.Name.d__'8799'__12 (coe v2) (coe v6)))
               _ -> coe v5))
@@ -1795,7 +1795,7 @@ du_withSafeReset_476 v0 v1 v2 v3 v4
          erased v4
          (\ v5 ->
             coe
-              MAlonzo.Code.Data.Bool.Base.du_if_then_else__42
+              MAlonzo.Code.Data.Bool.Base.du_if_then_else__44
               (coe
                  MAlonzo.Code.Data.List.Base.du_null_282
                  (coe MAlonzo.Code.Reflection.Utils.d_findMetas_58 (coe v5)))

@@ -52,15 +52,15 @@ d_sign_24 v0
 -- Data.Integer.Base._≤_
 d__'8804'__26 a0 a1 = ()
 data T__'8804'__26
-  = C_'45''8804''45'_34 MAlonzo.Code.Data.Nat.Base.T__'8804'__18 |
+  = C_'45''8804''45'_34 MAlonzo.Code.Data.Nat.Base.T__'8804'__22 |
     C_'45''8804''43'_40 |
-    C_'43''8804''43'_48 MAlonzo.Code.Data.Nat.Base.T__'8804'__18
+    C_'43''8804''43'_48 MAlonzo.Code.Data.Nat.Base.T__'8804'__22
 -- Data.Integer.Base._<_
 d__'60'__50 a0 a1 = ()
 data T__'60'__50
-  = C_'45''60''45'_58 MAlonzo.Code.Data.Nat.Base.T__'8804'__18 |
+  = C_'45''60''45'_58 MAlonzo.Code.Data.Nat.Base.T__'8804'__22 |
     C_'45''60''43'_64 |
-    C_'43''60''43'_72 MAlonzo.Code.Data.Nat.Base.T__'8804'__18
+    C_'43''60''43'_72 MAlonzo.Code.Data.Nat.Base.T__'8804'__22
 -- Data.Integer.Base._≥_
 d__'8805'__74 :: Integer -> Integer -> ()
 d__'8805'__74 = erased
@@ -87,7 +87,7 @@ d__'8804''7495'__110 v0 v1
           case coe v1 of
             _ | coe geqInt (coe v1) (coe (0 :: Integer)) ->
                 coe
-                  MAlonzo.Code.Data.Nat.Base.d__'8804''7495'__10 (coe v0) (coe v1)
+                  MAlonzo.Code.Data.Nat.Base.d__'8804''7495'__14 (coe v0) (coe v1)
             _ -> coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8
       _ -> let v2 = subInt (coe (-1 :: Integer)) (coe v0) in
            coe
@@ -97,7 +97,7 @@ d__'8804''7495'__110 v0 v1
                 _ -> let v3 = subInt (coe (-1 :: Integer)) (coe v1) in
                      coe
                        (coe
-                          MAlonzo.Code.Data.Nat.Base.d__'8804''7495'__10 (coe v3) (coe v2)))
+                          MAlonzo.Code.Data.Nat.Base.d__'8804''7495'__14 (coe v3) (coe v2)))
 -- Data.Integer.Base.NonZero
 d_NonZero_128 :: Integer -> ()
 d_NonZero_128 = erased
@@ -182,10 +182,10 @@ d_'8802''45'nonZero_192 ::
   Integer ->
   (MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
    MAlonzo.Code.Data.Irrelevant.T_Irrelevant_20) ->
-  MAlonzo.Code.Data.Nat.Base.T_NonZero_104
+  MAlonzo.Code.Data.Nat.Base.T_NonZero_112
 d_'8802''45'nonZero_192 v0 ~v1 = du_'8802''45'nonZero_192 v0
 du_'8802''45'nonZero_192 ::
-  Integer -> MAlonzo.Code.Data.Nat.Base.T_NonZero_104
+  Integer -> MAlonzo.Code.Data.Nat.Base.T_NonZero_112
 du_'8802''45'nonZero_192 v0
   = case coe v0 of
       0 -> coe
@@ -199,10 +199,10 @@ du_'8802''45'nonZero_192 v0
              (coe MAlonzo.Code.Agda.Builtin.Unit.C_tt_8)
 -- Data.Integer.Base.>-nonZero
 d_'62''45'nonZero_202 ::
-  Integer -> T__'60'__50 -> MAlonzo.Code.Data.Nat.Base.T_NonZero_104
+  Integer -> T__'60'__50 -> MAlonzo.Code.Data.Nat.Base.T_NonZero_112
 d_'62''45'nonZero_202 ~v0 v1 = du_'62''45'nonZero_202 v1
 du_'62''45'nonZero_202 ::
-  T__'60'__50 -> MAlonzo.Code.Data.Nat.Base.T_NonZero_104
+  T__'60'__50 -> MAlonzo.Code.Data.Nat.Base.T_NonZero_112
 du_'62''45'nonZero_202 v0
   = case coe v0 of
       C_'43''60''43'_72 v3
@@ -214,10 +214,10 @@ du_'62''45'nonZero_202 v0
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Data.Integer.Base.<-nonZero
 d_'60''45'nonZero_208 ::
-  Integer -> T__'60'__50 -> MAlonzo.Code.Data.Nat.Base.T_NonZero_104
+  Integer -> T__'60'__50 -> MAlonzo.Code.Data.Nat.Base.T_NonZero_112
 d_'60''45'nonZero_208 ~v0 v1 = du_'60''45'nonZero_208 v1
 du_'60''45'nonZero_208 ::
-  T__'60'__50 -> MAlonzo.Code.Data.Nat.Base.T_NonZero_104
+  T__'60'__50 -> MAlonzo.Code.Data.Nat.Base.T_NonZero_112
 du_'60''45'nonZero_208 v0
   = coe
       seq (coe v0)
@@ -364,7 +364,7 @@ d__'8852'__322 v0 v1
       _ | coe geqInt (coe v0) (coe (0 :: Integer)) ->
           case coe v1 of
             _ | coe geqInt (coe v1) (coe (0 :: Integer)) ->
-                coe MAlonzo.Code.Data.Nat.Base.d__'8852'__166 (coe v0) (coe v1)
+                coe MAlonzo.Code.Data.Nat.Base.d__'8852'__204 (coe v0) (coe v1)
             _ -> coe v0
       _ -> let v2 = subInt (coe (-1 :: Integer)) (coe v0) in
            coe
@@ -374,7 +374,7 @@ d__'8852'__322 v0 v1
                      coe
                        (coe
                           subInt (coe (-1 :: Integer))
-                          (coe MAlonzo.Code.Data.Nat.Base.d__'8851'__194 (coe v2) (coe v3))))
+                          (coe MAlonzo.Code.Data.Nat.Base.d__'8851'__232 (coe v2) (coe v3))))
 -- Data.Integer.Base._⊓_
 d__'8851'__340 :: Integer -> Integer -> Integer
 d__'8851'__340 v0 v1
@@ -382,7 +382,7 @@ d__'8851'__340 v0 v1
       _ | coe geqInt (coe v0) (coe (0 :: Integer)) ->
           case coe v1 of
             _ | coe geqInt (coe v1) (coe (0 :: Integer)) ->
-                coe MAlonzo.Code.Data.Nat.Base.d__'8851'__194 (coe v0) (coe v1)
+                coe MAlonzo.Code.Data.Nat.Base.d__'8851'__232 (coe v0) (coe v1)
             _ -> coe v1
       _ -> let v2 = subInt (coe (-1 :: Integer)) (coe v0) in
            coe
@@ -392,37 +392,37 @@ d__'8851'__340 v0 v1
                      coe
                        (coe
                           subInt (coe (-1 :: Integer))
-                          (coe MAlonzo.Code.Data.Nat.Base.d__'8852'__166 (coe v2) (coe v3))))
+                          (coe MAlonzo.Code.Data.Nat.Base.d__'8852'__204 (coe v2) (coe v3))))
 -- Data.Integer.Base._/ℕ_
 d__'47'ℕ__364 ::
   Integer ->
-  Integer -> MAlonzo.Code.Data.Nat.Base.T_NonZero_104 -> Integer
+  Integer -> MAlonzo.Code.Data.Nat.Base.T_NonZero_112 -> Integer
 d__'47'ℕ__364 v0 v1 ~v2 = du__'47'ℕ__364 v0 v1
 du__'47'ℕ__364 :: Integer -> Integer -> Integer
 du__'47'ℕ__364 v0 v1
   = case coe v0 of
       _ | coe geqInt (coe v0) (coe (0 :: Integer)) ->
-          coe MAlonzo.Code.Data.Nat.Base.du__'47'__276 (coe v0) (coe v1)
+          coe MAlonzo.Code.Data.Nat.Base.du__'47'__314 (coe v0) (coe v1)
       _ -> let v2
                  = coe
-                     MAlonzo.Code.Data.Nat.Base.du__'37'__288
+                     MAlonzo.Code.Data.Nat.Base.du__'37'__326
                      (coe subInt (coe (0 :: Integer)) (coe v0)) (coe v1) in
            coe
              (case coe v2 of
                 0 -> coe
                        d_'45'__252
                        (coe
-                          MAlonzo.Code.Data.Nat.Base.du__'47'__276
+                          MAlonzo.Code.Data.Nat.Base.du__'47'__314
                           (coe subInt (coe (0 :: Integer)) (coe v0)) (coe v1))
                 _ -> coe
                        subInt (coe (-1 :: Integer))
                        (coe
-                          MAlonzo.Code.Data.Nat.Base.du__'47'__276
+                          MAlonzo.Code.Data.Nat.Base.du__'47'__314
                           (coe subInt (coe (0 :: Integer)) (coe v0)) (coe v1)))
 -- Data.Integer.Base._/_
 d__'47'__394 ::
   Integer ->
-  Integer -> MAlonzo.Code.Data.Nat.Base.T_NonZero_104 -> Integer
+  Integer -> MAlonzo.Code.Data.Nat.Base.T_NonZero_112 -> Integer
 d__'47'__394 v0 v1 ~v2 = du__'47'__394 v0 v1
 du__'47'__394 :: Integer -> Integer -> Integer
 du__'47'__394 v0 v1
@@ -433,16 +433,16 @@ du__'47'__394 v0 v1
 -- Data.Integer.Base._%ℕ_
 d__'37'ℕ__406 ::
   Integer ->
-  Integer -> MAlonzo.Code.Data.Nat.Base.T_NonZero_104 -> Integer
+  Integer -> MAlonzo.Code.Data.Nat.Base.T_NonZero_112 -> Integer
 d__'37'ℕ__406 v0 v1 ~v2 = du__'37'ℕ__406 v0 v1
 du__'37'ℕ__406 :: Integer -> Integer -> Integer
 du__'37'ℕ__406 v0 v1
   = case coe v0 of
       _ | coe geqInt (coe v0) (coe (0 :: Integer)) ->
-          coe MAlonzo.Code.Data.Nat.Base.du__'37'__288 (coe v0) (coe v1)
+          coe MAlonzo.Code.Data.Nat.Base.du__'37'__326 (coe v0) (coe v1)
       _ -> let v2
                  = coe
-                     MAlonzo.Code.Data.Nat.Base.du__'37'__288
+                     MAlonzo.Code.Data.Nat.Base.du__'37'__326
                      (coe subInt (coe (0 :: Integer)) (coe v0)) (coe v1) in
            coe
              (case coe v2 of
@@ -451,7 +451,7 @@ du__'37'ℕ__406 v0 v1
 -- Data.Integer.Base._%_
 d__'37'__436 ::
   Integer ->
-  Integer -> MAlonzo.Code.Data.Nat.Base.T_NonZero_104 -> Integer
+  Integer -> MAlonzo.Code.Data.Nat.Base.T_NonZero_112 -> Integer
 d__'37'__436 v0 v1 ~v2 = du__'37'__436 v0 v1
 du__'37'__436 :: Integer -> Integer -> Integer
 du__'37'__436 v0 v1

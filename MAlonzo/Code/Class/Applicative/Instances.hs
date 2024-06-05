@@ -125,7 +125,7 @@ d_Applicative'45'Vec_36 v0
       (coe MAlonzo.Code.Class.Functor.Instances.du_Functor'45'Vec_76)
       (coe
          (\ v1 v2 ->
-            coe MAlonzo.Code.Data.Vec.Base.du_replicate_444 (coe v0)))
+            coe MAlonzo.Code.Data.Vec.Base.du_replicate_460 (coe v0)))
       (coe
          (\ v1 v2 v3 v4 -> coe MAlonzo.Code.Data.Vec.Base.du__'8859'__284))
 -- Class.Applicative.Instances.Applicative₀-Vec

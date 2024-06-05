@@ -953,14 +953,14 @@ d_isAlgSemilattice_454 ::
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Relation.Binary.Lattice.Bundles.T_JoinSemilattice_14 ->
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2526
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2530
 d_isAlgSemilattice_454 ~v0 ~v1 ~v2 v3 = du_isAlgSemilattice_454 v3
 du_isAlgSemilattice_454 ::
   MAlonzo.Code.Relation.Binary.Lattice.Bundles.T_JoinSemilattice_14 ->
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2526
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2530
 du_isAlgSemilattice_454 v0
   = coe
-      MAlonzo.Code.Algebra.Lattice.Structures.C_IsSemilattice'46'constructor_32583
+      MAlonzo.Code.Algebra.Lattice.Structures.C_IsSemilattice'46'constructor_33435
       (coe
          MAlonzo.Code.Algebra.Structures.C_IsBand'46'constructor_10105
          (coe

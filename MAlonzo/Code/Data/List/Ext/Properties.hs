@@ -35,6 +35,7 @@ import qualified MAlonzo.Code.Data.List.Relation.Binary.Subset.Propositional.Pro
 import qualified MAlonzo.Code.Data.List.Relation.Unary.All
 import qualified MAlonzo.Code.Data.List.Relation.Unary.AllPairs.Core
 import qualified MAlonzo.Code.Data.List.Relation.Unary.Any
+import qualified MAlonzo.Code.Data.List.Relation.Unary.Any.Properties
 import qualified MAlonzo.Code.Data.List.Relation.Unary.Unique.Propositional.Properties
 import qualified MAlonzo.Code.Data.List.Relation.Unary.Unique.Propositional.Properties.WithK
 import qualified MAlonzo.Code.Data.Nat.Base
@@ -159,7 +160,7 @@ du_deduplicate'8801'_164 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 -> [AgdaAny] -> [AgdaAny]
 du_deduplicate'8801'_164 v0
   = coe
-      MAlonzo.Code.Data.List.Base.du_deduplicate_934
+      MAlonzo.Code.Data.List.Base.du_deduplicate_1000
       (coe MAlonzo.Code.Class.DecEq.Core.d__'8799'__16 (coe v0))
 -- Data.List.Ext.Properties._.disj-on-dedup
 d_disj'45'on'45'dedup_170 ::
@@ -221,18 +222,20 @@ du_dedup'45''43''43''45''8621'_184 v0 v1 v2
   = coe
       MAlonzo.Code.Data.List.Relation.Binary.BagAndSetEquality.du_'8764'bag'8658''8621'_1456
       (coe
-         MAlonzo.Code.Data.List.Base.du_deduplicate_934
-         (MAlonzo.Code.Class.DecEq.Core.d__'8799'__16 (coe v0))
+         MAlonzo.Code.Data.List.Base.du_deduplicate_1000
+         (coe MAlonzo.Code.Class.DecEq.Core.d__'8799'__16 (coe v0))
          (coe
             MAlonzo.Code.Data.List.Base.du__'43''43'__62 (coe v1) (coe v2)))
       (coe
          MAlonzo.Code.Data.List.Base.du__'43''43'__62
          (coe
-            MAlonzo.Code.Data.List.Base.du_deduplicate_934
-            (MAlonzo.Code.Class.DecEq.Core.d__'8799'__16 (coe v0)) v1)
+            MAlonzo.Code.Data.List.Base.du_deduplicate_1000
+            (coe MAlonzo.Code.Class.DecEq.Core.d__'8799'__16 (coe v0))
+            (coe v1))
          (coe
-            MAlonzo.Code.Data.List.Base.du_deduplicate_934
-            (MAlonzo.Code.Class.DecEq.Core.d__'8799'__16 (coe v0)) v2))
+            MAlonzo.Code.Data.List.Base.du_deduplicate_1000
+            (coe MAlonzo.Code.Class.DecEq.Core.d__'8799'__16 (coe v0))
+            (coe v2)))
       (coe
          MAlonzo.Code.Data.List.Relation.Unary.Unique.Propositional.Properties.WithK.du_unique'8743'set'8658'bag_64
          (coe
@@ -336,7 +339,7 @@ du_maxlen_218 v0
       MAlonzo.Code.Data.List.Base.du_foldr_242
       (coe
          (\ v1 ->
-            MAlonzo.Code.Data.Nat.Base.d__'8852'__166
+            MAlonzo.Code.Data.Nat.Base.d__'8852'__204
               (coe MAlonzo.Code.Data.List.Base.du_length_304 v1)))
       (coe (0 :: Integer)) (coe v0)
 -- Data.List.Ext.Properties._.maxlen≤∷
@@ -344,24 +347,24 @@ d_maxlen'8804''8759'_230 ::
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   [[AgdaAny]] ->
-  [AgdaAny] -> MAlonzo.Code.Data.Nat.Base.T__'8804'__18
+  [AgdaAny] -> MAlonzo.Code.Data.Nat.Base.T__'8804'__22
 d_maxlen'8804''8759'_230 ~v0 ~v1 v2 v3
   = du_maxlen'8804''8759'_230 v2 v3
 du_maxlen'8804''8759'_230 ::
   [[AgdaAny]] ->
-  [AgdaAny] -> MAlonzo.Code.Data.Nat.Base.T__'8804'__18
+  [AgdaAny] -> MAlonzo.Code.Data.Nat.Base.T__'8804'__22
 du_maxlen'8804''8759'_230 v0 v1
   = case coe v0 of
-      [] -> coe MAlonzo.Code.Data.Nat.Base.C_z'8804'n_22
+      [] -> coe MAlonzo.Code.Data.Nat.Base.C_z'8804'n_26
       (:) v2 v3
         -> let v4
-                 = MAlonzo.Code.Data.Nat.Properties.d_'8804''45'totalPreorder_2684 in
+                 = MAlonzo.Code.Data.Nat.Properties.d_'8804''45'totalPreorder_2692 in
            coe
              (let v5
-                    = MAlonzo.Code.Data.Nat.Properties.d_'8852''45'operator_4252 in
+                    = MAlonzo.Code.Data.Nat.Properties.d_'8852''45'operator_4312 in
               coe
                 (coe
-                   MAlonzo.Code.Algebra.Construct.NaturalChoice.MinOp.du_x'8851'y'8804'y_2700
+                   MAlonzo.Code.Algebra.Construct.NaturalChoice.MinOp.du_x'8851'y'8804'y_2704
                    (coe
                       MAlonzo.Code.Relation.Binary.Construct.Flip.EqAndOrd.du_totalPreorder_746
                       (coe v4))
@@ -378,26 +381,26 @@ d_'8712''45'maxlen'45''8804'_244 ::
   [[AgdaAny]] ->
   [AgdaAny] ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22
 d_'8712''45'maxlen'45''8804'_244 ~v0 ~v1 v2 ~v3 v4
   = du_'8712''45'maxlen'45''8804'_244 v2 v4
 du_'8712''45'maxlen'45''8804'_244 ::
   [[AgdaAny]] ->
   MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22
 du_'8712''45'maxlen'45''8804'_244 v0 v1
   = case coe v0 of
       (:) v2 v3
         -> case coe v1 of
              MAlonzo.Code.Data.List.Relation.Unary.Any.C_here_46 v6
                -> let v7
-                        = MAlonzo.Code.Data.Nat.Properties.d_'8804''45'totalPreorder_2684 in
+                        = MAlonzo.Code.Data.Nat.Properties.d_'8804''45'totalPreorder_2692 in
                   coe
                     (let v8
-                           = MAlonzo.Code.Data.Nat.Properties.d_'8852''45'operator_4252 in
+                           = MAlonzo.Code.Data.Nat.Properties.d_'8852''45'operator_4312 in
                      coe
                        (coe
-                          MAlonzo.Code.Algebra.Construct.NaturalChoice.MinOp.du_x'8851'y'8804'x_2674
+                          MAlonzo.Code.Algebra.Construct.NaturalChoice.MinOp.du_x'8851'y'8804'x_2678
                           (coe
                              MAlonzo.Code.Relation.Binary.Construct.Flip.EqAndOrd.du_totalPreorder_746
                              (coe v7))
@@ -408,7 +411,7 @@ du_'8712''45'maxlen'45''8804'_244 v0 v1
                           (coe du_maxlen_218 (coe v3))))
              MAlonzo.Code.Data.List.Relation.Unary.Any.C_there_54 v6
                -> coe
-                    MAlonzo.Code.Data.Nat.Properties.du_'8804''45'trans_2646
+                    MAlonzo.Code.Data.Nat.Properties.du_'8804''45'trans_2654
                     (coe du_'8712''45'maxlen'45''8804'_244 (coe v3) (coe v6))
                     (coe du_maxlen'8804''8759'_230 (coe v3) (coe v2))
              _ -> MAlonzo.RTE.mazUnreachableError
@@ -713,14 +716,8 @@ du_i_470 ::
 du_i_470 v0 v1 v2 v3 v4 v5 v6
   = let v7
           = coe
-              MAlonzo.Code.Data.List.Membership.Propositional.Properties.du_'8712''45''43''43''8315'_214
-              (coe v5 v2)
-              (coe
-                 MAlonzo.Code.Data.List.Base.du_foldr_242
-                 (coe MAlonzo.Code.Data.List.Base.du__'43''43'__62)
-                 (coe MAlonzo.Code.Agda.Builtin.List.C_'91''93'_16)
-                 (coe MAlonzo.Code.Data.List.Base.du_map_22 (coe v5) (coe v3)))
-              v6 in
+              MAlonzo.Code.Data.List.Relation.Unary.Any.Properties.du_'43''43''8315'_848
+              (coe v5 v2) (coe v6) in
     coe
       (case coe v7 of
          MAlonzo.Code.Data.Sum.Base.C_inj'8321'_38 v8
@@ -1775,7 +1772,7 @@ du_sublists'8871'P_952 ::
   [AgdaAny] -> [[AgdaAny]]
 du_sublists'8871'P_952 v0 v1
   = coe
-      MAlonzo.Code.Data.List.Base.du_filter_892 v0
+      MAlonzo.Code.Data.List.Base.du_filter_740 (coe v0)
       (coe MAlonzo.Code.Data.List.Ext.du_sublists_20 (coe v1))
 -- Data.List.Ext.Properties._.maxsublists⊧P
 d_maxsublists'8871'P_958 ::
@@ -1794,11 +1791,13 @@ du_maxsublists'8871'P_958 ::
   [AgdaAny] -> [[AgdaAny]]
 du_maxsublists'8871'P_958 v0 v1
   = coe
-      MAlonzo.Code.Data.List.Base.du_filter_892
-      (\ v2 ->
-         MAlonzo.Code.Data.Nat.Properties.d__'8799'__2550
-           (coe MAlonzo.Code.Data.List.Base.du_length_304 v2)
-           (coe du_maxlen_218 (coe du_sublists'8871'P_952 (coe v0) (coe v1))))
+      MAlonzo.Code.Data.List.Base.du_filter_740
+      (coe
+         (\ v2 ->
+            MAlonzo.Code.Data.Nat.Properties.d__'8799'__2558
+              (coe MAlonzo.Code.Data.List.Base.du_length_304 v2)
+              (coe
+                 du_maxlen_218 (coe du_sublists'8871'P_952 (coe v0) (coe v1)))))
       (coe du_sublists'8871'P_952 (coe v0) (coe v1))
 -- Data.List.Ext.Properties._.uniqueSubset→subperm
 d_uniqueSubset'8594'subperm_978 ::

@@ -222,8 +222,8 @@ d_applyUpTo'8314''8321'_170 ::
   Integer ->
   (Integer ->
    Integer ->
-   MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
-   MAlonzo.Code.Data.Nat.Base.T__'8804'__18 -> AgdaAny) ->
+   MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
+   MAlonzo.Code.Data.Nat.Base.T__'8804'__22 -> AgdaAny) ->
   MAlonzo.Code.Data.List.Relation.Unary.AllPairs.Core.T_AllPairs_20
 d_applyUpTo'8314''8321'_170 ~v0 ~v1 ~v2 ~v3 ~v4 v5 v6
   = du_applyUpTo'8314''8321'_170 v5 v6
@@ -231,8 +231,8 @@ du_applyUpTo'8314''8321'_170 ::
   Integer ->
   (Integer ->
    Integer ->
-   MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
-   MAlonzo.Code.Data.Nat.Base.T__'8804'__18 -> AgdaAny) ->
+   MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
+   MAlonzo.Code.Data.Nat.Base.T__'8804'__22 -> AgdaAny) ->
   MAlonzo.Code.Data.List.Relation.Unary.AllPairs.Core.T_AllPairs_20
 du_applyUpTo'8314''8321'_170 v0 v1
   = case coe v0 of
@@ -250,9 +250,9 @@ du_applyUpTo'8314''8321'_170 v0 v1
                          coe
                            v1 (0 :: Integer) (addInt (coe (1 :: Integer)) (coe v3))
                            (coe
-                              MAlonzo.Code.Data.Nat.Base.C_s'8804's_30
-                              (coe MAlonzo.Code.Data.Nat.Base.C_z'8804'n_22))
-                           (coe MAlonzo.Code.Data.Nat.Base.C_s'8804's_30 v4))))
+                              MAlonzo.Code.Data.Nat.Base.C_s'8804's_34
+                              (coe MAlonzo.Code.Data.Nat.Base.C_z'8804'n_26))
+                           (coe MAlonzo.Code.Data.Nat.Base.C_s'8804's_34 v4))))
                 (coe
                    du_applyUpTo'8314''8321'_170 (coe v2)
                    (coe
@@ -260,8 +260,8 @@ du_applyUpTo'8314''8321'_170 v0 v1
                          coe
                            v1 (addInt (coe (1 :: Integer)) (coe v3))
                            (addInt (coe (1 :: Integer)) (coe v4))
-                           (coe MAlonzo.Code.Data.Nat.Base.C_s'8804's_30 v5)
-                           (coe MAlonzo.Code.Data.Nat.Base.C_s'8804's_30 v6)))))
+                           (coe MAlonzo.Code.Data.Nat.Base.C_s'8804's_34 v5)
+                           (coe MAlonzo.Code.Data.Nat.Base.C_s'8804's_34 v6)))))
 -- Data.List.Relation.Unary.AllPairs.Properties._.applyUpTo⁺₂
 d_applyUpTo'8314''8322'_194 ::
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
@@ -292,8 +292,8 @@ d_applyDownFrom'8314''8321'_224 ::
   Integer ->
   (Integer ->
    Integer ->
-   MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
-   MAlonzo.Code.Data.Nat.Base.T__'8804'__18 -> AgdaAny) ->
+   MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
+   MAlonzo.Code.Data.Nat.Base.T__'8804'__22 -> AgdaAny) ->
   MAlonzo.Code.Data.List.Relation.Unary.AllPairs.Core.T_AllPairs_20
 d_applyDownFrom'8314''8321'_224 ~v0 ~v1 ~v2 ~v3 ~v4 v5 v6
   = du_applyDownFrom'8314''8321'_224 v5 v6
@@ -301,8 +301,8 @@ du_applyDownFrom'8314''8321'_224 ::
   Integer ->
   (Integer ->
    Integer ->
-   MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
-   MAlonzo.Code.Data.Nat.Base.T__'8804'__18 -> AgdaAny) ->
+   MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
+   MAlonzo.Code.Data.Nat.Base.T__'8804'__22 -> AgdaAny) ->
   MAlonzo.Code.Data.List.Relation.Unary.AllPairs.Core.T_AllPairs_20
 du_applyDownFrom'8314''8321'_224 v0 v1
   = case coe v0 of
@@ -319,7 +319,7 @@ du_applyDownFrom'8314''8321'_224 v0 v1
                       (\ v3 v4 ->
                          coe
                            v1 v2 v3 v4
-                           (MAlonzo.Code.Data.Nat.Properties.d_'8804''45'refl_2638
+                           (MAlonzo.Code.Data.Nat.Properties.d_'8804''45'refl_2646
                               (coe v0)))))
                 (coe
                    du_applyDownFrom'8314''8321'_224 (coe v2)
@@ -328,7 +328,7 @@ du_applyDownFrom'8314''8321'_224 v0 v1
                          coe
                            v1 v3 v4 v5
                            (coe
-                              MAlonzo.Code.Data.Nat.Properties.du_m'60'n'8658'm'60'1'43'n_2924
+                              MAlonzo.Code.Data.Nat.Properties.du_m'60'n'8658'm'60'1'43'n_2932
                               (coe v6))))))
 -- Data.List.Relation.Unary.AllPairs.Properties._.applyDownFrom⁺₂
 d_applyDownFrom'8314''8322'_248 ::

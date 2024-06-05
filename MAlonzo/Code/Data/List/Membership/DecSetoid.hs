@@ -182,5 +182,5 @@ du__'8713''63'__66 ::
   [AgdaAny] -> MAlonzo.Code.Relation.Nullary.Decidable.Core.T_Dec_20
 du__'8713''63'__66 v0 v1 v2
   = coe
-      MAlonzo.Code.Relation.Nullary.Decidable.Core.du_'172''63'_62
+      MAlonzo.Code.Relation.Nullary.Decidable.Core.du_'172''63'_68
       (coe du__'8712''63'__58 (coe v0) (coe v1) (coe v2))

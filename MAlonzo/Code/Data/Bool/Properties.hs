@@ -702,18 +702,18 @@ d_'8729''45'cong_508 ::
 d_'8729''45'cong_508 = erased
 -- Data.Bool.Properties._.IsCommutativeRing.*-assoc
 d_'42''45'assoc_518 ::
-  MAlonzo.Code.Algebra.Structures.T_IsCommutativeRing_2626 ->
+  MAlonzo.Code.Algebra.Structures.T_IsCommutativeRing_2624 ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
 d_'42''45'assoc_518 = erased
 -- Data.Bool.Properties._.IsCommutativeRing.*-comm
 d_'42''45'comm_520 ::
-  MAlonzo.Code.Algebra.Structures.T_IsCommutativeRing_2626 ->
+  MAlonzo.Code.Algebra.Structures.T_IsCommutativeRing_2624 ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
 d_'42''45'comm_520 = erased
 -- Data.Bool.Properties._.IsCommutativeRing.*-cong
 d_'42''45'cong_522 ::
-  MAlonzo.Code.Algebra.Structures.T_IsCommutativeRing_2626 ->
+  MAlonzo.Code.Algebra.Structures.T_IsCommutativeRing_2624 ->
   Bool ->
   Bool ->
   Bool ->
@@ -724,26 +724,41 @@ d_'42''45'cong_522 ::
 d_'42''45'cong_522 = erased
 -- Data.Bool.Properties._.IsCommutativeRing.*-identity
 d_'42''45'identity_528 ::
-  MAlonzo.Code.Algebra.Structures.T_IsCommutativeRing_2626 ->
+  MAlonzo.Code.Algebra.Structures.T_IsCommutativeRing_2624 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_'42''45'identity_528 v0
   = coe
-      MAlonzo.Code.Algebra.Structures.d_'42''45'identity_2510
-      (coe MAlonzo.Code.Algebra.Structures.d_isRing_2642 (coe v0))
+      MAlonzo.Code.Algebra.Structures.d_'42''45'identity_2506
+      (coe MAlonzo.Code.Algebra.Structures.d_isRing_2640 (coe v0))
 -- Data.Bool.Properties._.IsCommutativeRing.assoc
 d_assoc_546 ::
-  MAlonzo.Code.Algebra.Structures.T_IsCommutativeRing_2626 ->
+  (Bool -> Bool -> Bool) ->
+  (Bool -> Bool -> Bool) ->
+  (Bool -> Bool) ->
+  Bool ->
+  Bool ->
+  MAlonzo.Code.Algebra.Structures.T_IsCommutativeRing_2624 ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
 d_assoc_546 = erased
 -- Data.Bool.Properties._.IsCommutativeRing.comm
 d_comm_548 ::
-  MAlonzo.Code.Algebra.Structures.T_IsCommutativeRing_2626 ->
+  (Bool -> Bool -> Bool) ->
+  (Bool -> Bool -> Bool) ->
+  (Bool -> Bool) ->
+  Bool ->
+  Bool ->
+  MAlonzo.Code.Algebra.Structures.T_IsCommutativeRing_2624 ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
 d_comm_548 = erased
 -- Data.Bool.Properties._.IsCommutativeRing.∙-cong
 d_'8729''45'cong_550 ::
-  MAlonzo.Code.Algebra.Structures.T_IsCommutativeRing_2626 ->
+  (Bool -> Bool -> Bool) ->
+  (Bool -> Bool -> Bool) ->
+  (Bool -> Bool) ->
+  Bool ->
+  Bool ->
+  MAlonzo.Code.Algebra.Structures.T_IsCommutativeRing_2624 ->
   Bool ->
   Bool ->
   Bool ->
@@ -754,113 +769,77 @@ d_'8729''45'cong_550 ::
 d_'8729''45'cong_550 = erased
 -- Data.Bool.Properties._.IsCommutativeRing.identity
 d_identity_556 ::
-  MAlonzo.Code.Algebra.Structures.T_IsCommutativeRing_2626 ->
+  (Bool -> Bool -> Bool) ->
+  (Bool -> Bool -> Bool) ->
+  (Bool -> Bool) ->
+  Bool ->
+  Bool ->
+  MAlonzo.Code.Algebra.Structures.T_IsCommutativeRing_2624 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_identity_556 v0
-  = coe
-      MAlonzo.Code.Algebra.Structures.d_identity_616
+d_identity_556 ~v0 ~v1 ~v2 ~v3 ~v4 v5 = du_identity_556 v5
+du_identity_556 ::
+  MAlonzo.Code.Algebra.Structures.T_IsCommutativeRing_2624 ->
+  MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
+du_identity_556 v0
+  = let v1
+          = MAlonzo.Code.Algebra.Structures.d_isRing_2640 (coe v0) in
+    coe
       (coe
-         MAlonzo.Code.Algebra.Structures.d_isMonoid_906
-         (coe
-            MAlonzo.Code.Algebra.Structures.d_isGroup_992
-            (coe
-               MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2504
-               (coe MAlonzo.Code.Algebra.Structures.d_isRing_2642 (coe v0)))))
--- Data.Bool.Properties._.IsCommutativeRing.+-isAbelianGroup
-d_'43''45'isAbelianGroup_562 ::
-  MAlonzo.Code.Algebra.Structures.T_IsCommutativeRing_2626 ->
-  MAlonzo.Code.Algebra.Structures.T_IsAbelianGroup_980
-d_'43''45'isAbelianGroup_562 v0
-  = coe
-      MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2504
-      (coe MAlonzo.Code.Algebra.Structures.d_isRing_2642 (coe v0))
--- Data.Bool.Properties._.IsCommutativeRing.isGroup
-d_isGroup_570 ::
-  MAlonzo.Code.Algebra.Structures.T_IsCommutativeRing_2626 ->
-  MAlonzo.Code.Algebra.Structures.T_IsGroup_892
-d_isGroup_570 v0
-  = coe
-      MAlonzo.Code.Algebra.Structures.d_isGroup_992
-      (coe
-         MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2504
-         (coe MAlonzo.Code.Algebra.Structures.d_isRing_2642 (coe v0)))
--- Data.Bool.Properties._.IsCommutativeRing.isMagma
-d_isMagma_576 ::
-  MAlonzo.Code.Algebra.Structures.T_IsCommutativeRing_2626 ->
-  MAlonzo.Code.Algebra.Structures.T_IsMagma_144
-d_isMagma_576 v0
-  = coe
-      MAlonzo.Code.Algebra.Structures.d_isMagma_448
-      (coe
-         MAlonzo.Code.Algebra.Structures.d_isSemigroup_614
+         MAlonzo.Code.Algebra.Structures.d_identity_616
          (coe
             MAlonzo.Code.Algebra.Structures.d_isMonoid_906
             (coe
                MAlonzo.Code.Algebra.Structures.d_isGroup_992
                (coe
-                  MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2504
-                  (coe MAlonzo.Code.Algebra.Structures.d_isRing_2642 (coe v0))))))
--- Data.Bool.Properties._.IsCommutativeRing.isMonoid
-d_isMonoid_578 ::
-  MAlonzo.Code.Algebra.Structures.T_IsCommutativeRing_2626 ->
-  MAlonzo.Code.Algebra.Structures.T_IsMonoid_604
-d_isMonoid_578 v0
+                  MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2500
+                  (coe v1)))))
+-- Data.Bool.Properties._.IsCommutativeRing.+-isAbelianGroup
+d_'43''45'isAbelianGroup_562 ::
+  MAlonzo.Code.Algebra.Structures.T_IsCommutativeRing_2624 ->
+  MAlonzo.Code.Algebra.Structures.T_IsAbelianGroup_980
+d_'43''45'isAbelianGroup_562 v0
   = coe
-      MAlonzo.Code.Algebra.Structures.d_isMonoid_906
+      MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2500
+      (coe MAlonzo.Code.Algebra.Structures.d_isRing_2640 (coe v0))
+-- Data.Bool.Properties._.IsCommutativeRing.isGroup
+d_isGroup_570 ::
+  (Bool -> Bool -> Bool) ->
+  (Bool -> Bool -> Bool) ->
+  (Bool -> Bool) ->
+  Bool ->
+  Bool ->
+  MAlonzo.Code.Algebra.Structures.T_IsCommutativeRing_2624 ->
+  MAlonzo.Code.Algebra.Structures.T_IsGroup_892
+d_isGroup_570 ~v0 ~v1 ~v2 ~v3 ~v4 v5 = du_isGroup_570 v5
+du_isGroup_570 ::
+  MAlonzo.Code.Algebra.Structures.T_IsCommutativeRing_2624 ->
+  MAlonzo.Code.Algebra.Structures.T_IsGroup_892
+du_isGroup_570 v0
+  = let v1
+          = MAlonzo.Code.Algebra.Structures.d_isRing_2640 (coe v0) in
+    coe
       (coe
          MAlonzo.Code.Algebra.Structures.d_isGroup_992
          (coe
-            MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2504
-            (coe MAlonzo.Code.Algebra.Structures.d_isRing_2642 (coe v0))))
--- Data.Bool.Properties._.IsCommutativeRing.isSemigroup
-d_isSemigroup_580 ::
-  MAlonzo.Code.Algebra.Structures.T_IsCommutativeRing_2626 ->
-  MAlonzo.Code.Algebra.Structures.T_IsSemigroup_440
-d_isSemigroup_580 v0
-  = coe
-      MAlonzo.Code.Algebra.Structures.d_isSemigroup_614
-      (coe
-         MAlonzo.Code.Algebra.Structures.d_isMonoid_906
-         (coe
-            MAlonzo.Code.Algebra.Structures.d_isGroup_992
-            (coe
-               MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2504
-               (coe MAlonzo.Code.Algebra.Structures.d_isRing_2642 (coe v0)))))
--- Data.Bool.Properties._.IsCommutativeRing.⁻¹-cong
-d_'8315''185''45'cong_584 ::
-  MAlonzo.Code.Algebra.Structures.T_IsCommutativeRing_2626 ->
+            MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2500
+            (coe v1)))
+-- Data.Bool.Properties._.IsCommutativeRing.isMagma
+d_isMagma_576 ::
+  (Bool -> Bool -> Bool) ->
+  (Bool -> Bool -> Bool) ->
+  (Bool -> Bool) ->
   Bool ->
   Bool ->
-  MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
-  MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8315''185''45'cong_584 = erased
--- Data.Bool.Properties._.IsCommutativeRing.inverse
-d_inverse_586 ::
-  MAlonzo.Code.Algebra.Structures.T_IsCommutativeRing_2626 ->
-  MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_inverse_586 v0
-  = coe
-      MAlonzo.Code.Algebra.Structures.d_inverse_908
-      (coe
-         MAlonzo.Code.Algebra.Structures.d_isGroup_992
-         (coe
-            MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2504
-            (coe MAlonzo.Code.Algebra.Structures.d_isRing_2642 (coe v0))))
--- Data.Bool.Properties._.IsCommutativeRing.distrib
-d_distrib_592 ::
-  MAlonzo.Code.Algebra.Structures.T_IsCommutativeRing_2626 ->
-  MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_distrib_592 v0
-  = coe
-      MAlonzo.Code.Algebra.Structures.d_distrib_2512
-      (coe MAlonzo.Code.Algebra.Structures.d_isRing_2642 (coe v0))
--- Data.Bool.Properties._.IsCommutativeRing.isEquivalence
-d_isEquivalence_602 ::
-  MAlonzo.Code.Algebra.Structures.T_IsCommutativeRing_2626 ->
-  MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
-d_isEquivalence_602 v0
-  = coe
-      MAlonzo.Code.Algebra.Structures.d_isEquivalence_152
+  MAlonzo.Code.Algebra.Structures.T_IsCommutativeRing_2624 ->
+  MAlonzo.Code.Algebra.Structures.T_IsMagma_144
+d_isMagma_576 ~v0 ~v1 ~v2 ~v3 ~v4 v5 = du_isMagma_576 v5
+du_isMagma_576 ::
+  MAlonzo.Code.Algebra.Structures.T_IsCommutativeRing_2624 ->
+  MAlonzo.Code.Algebra.Structures.T_IsMagma_144
+du_isMagma_576 v0
+  = let v1
+          = MAlonzo.Code.Algebra.Structures.d_isRing_2640 (coe v0) in
+    coe
       (coe
          MAlonzo.Code.Algebra.Structures.d_isMagma_448
          (coe
@@ -870,59 +849,195 @@ d_isEquivalence_602 v0
                (coe
                   MAlonzo.Code.Algebra.Structures.d_isGroup_992
                   (coe
-                     MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2504
-                     (coe MAlonzo.Code.Algebra.Structures.d_isRing_2642 (coe v0)))))))
+                     MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2500
+                     (coe v1))))))
+-- Data.Bool.Properties._.IsCommutativeRing.isMonoid
+d_isMonoid_578 ::
+  (Bool -> Bool -> Bool) ->
+  (Bool -> Bool -> Bool) ->
+  (Bool -> Bool) ->
+  Bool ->
+  Bool ->
+  MAlonzo.Code.Algebra.Structures.T_IsCommutativeRing_2624 ->
+  MAlonzo.Code.Algebra.Structures.T_IsMonoid_604
+d_isMonoid_578 ~v0 ~v1 ~v2 ~v3 ~v4 v5 = du_isMonoid_578 v5
+du_isMonoid_578 ::
+  MAlonzo.Code.Algebra.Structures.T_IsCommutativeRing_2624 ->
+  MAlonzo.Code.Algebra.Structures.T_IsMonoid_604
+du_isMonoid_578 v0
+  = let v1
+          = MAlonzo.Code.Algebra.Structures.d_isRing_2640 (coe v0) in
+    coe
+      (coe
+         MAlonzo.Code.Algebra.Structures.d_isMonoid_906
+         (coe
+            MAlonzo.Code.Algebra.Structures.d_isGroup_992
+            (coe
+               MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2500
+               (coe v1))))
+-- Data.Bool.Properties._.IsCommutativeRing.isSemigroup
+d_isSemigroup_580 ::
+  (Bool -> Bool -> Bool) ->
+  (Bool -> Bool -> Bool) ->
+  (Bool -> Bool) ->
+  Bool ->
+  Bool ->
+  MAlonzo.Code.Algebra.Structures.T_IsCommutativeRing_2624 ->
+  MAlonzo.Code.Algebra.Structures.T_IsSemigroup_440
+d_isSemigroup_580 ~v0 ~v1 ~v2 ~v3 ~v4 v5 = du_isSemigroup_580 v5
+du_isSemigroup_580 ::
+  MAlonzo.Code.Algebra.Structures.T_IsCommutativeRing_2624 ->
+  MAlonzo.Code.Algebra.Structures.T_IsSemigroup_440
+du_isSemigroup_580 v0
+  = let v1
+          = MAlonzo.Code.Algebra.Structures.d_isRing_2640 (coe v0) in
+    coe
+      (coe
+         MAlonzo.Code.Algebra.Structures.d_isSemigroup_614
+         (coe
+            MAlonzo.Code.Algebra.Structures.d_isMonoid_906
+            (coe
+               MAlonzo.Code.Algebra.Structures.d_isGroup_992
+               (coe
+                  MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2500
+                  (coe v1)))))
+-- Data.Bool.Properties._.IsCommutativeRing.⁻¹-cong
+d_'8315''185''45'cong_584 ::
+  (Bool -> Bool -> Bool) ->
+  (Bool -> Bool -> Bool) ->
+  (Bool -> Bool) ->
+  Bool ->
+  Bool ->
+  MAlonzo.Code.Algebra.Structures.T_IsCommutativeRing_2624 ->
+  Bool ->
+  Bool ->
+  MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
+  MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
+d_'8315''185''45'cong_584 = erased
+-- Data.Bool.Properties._.IsCommutativeRing.inverse
+d_inverse_586 ::
+  (Bool -> Bool -> Bool) ->
+  (Bool -> Bool -> Bool) ->
+  (Bool -> Bool) ->
+  Bool ->
+  Bool ->
+  MAlonzo.Code.Algebra.Structures.T_IsCommutativeRing_2624 ->
+  MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
+d_inverse_586 ~v0 ~v1 ~v2 ~v3 ~v4 v5 = du_inverse_586 v5
+du_inverse_586 ::
+  MAlonzo.Code.Algebra.Structures.T_IsCommutativeRing_2624 ->
+  MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
+du_inverse_586 v0
+  = let v1
+          = MAlonzo.Code.Algebra.Structures.d_isRing_2640 (coe v0) in
+    coe
+      (coe
+         MAlonzo.Code.Algebra.Structures.d_inverse_908
+         (coe
+            MAlonzo.Code.Algebra.Structures.d_isGroup_992
+            (coe
+               MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2500
+               (coe v1))))
+-- Data.Bool.Properties._.IsCommutativeRing.distrib
+d_distrib_592 ::
+  MAlonzo.Code.Algebra.Structures.T_IsCommutativeRing_2624 ->
+  MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
+d_distrib_592 v0
+  = coe
+      MAlonzo.Code.Algebra.Structures.d_distrib_2508
+      (coe MAlonzo.Code.Algebra.Structures.d_isRing_2640 (coe v0))
+-- Data.Bool.Properties._.IsCommutativeRing.isEquivalence
+d_isEquivalence_602 ::
+  (Bool -> Bool -> Bool) ->
+  (Bool -> Bool -> Bool) ->
+  (Bool -> Bool) ->
+  Bool ->
+  Bool ->
+  MAlonzo.Code.Algebra.Structures.T_IsCommutativeRing_2624 ->
+  MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
+d_isEquivalence_602 ~v0 ~v1 ~v2 ~v3 ~v4 v5
+  = du_isEquivalence_602 v5
+du_isEquivalence_602 ::
+  MAlonzo.Code.Algebra.Structures.T_IsCommutativeRing_2624 ->
+  MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
+du_isEquivalence_602 v0
+  = let v1
+          = MAlonzo.Code.Algebra.Structures.d_isRing_2640 (coe v0) in
+    coe
+      (coe
+         MAlonzo.Code.Algebra.Structures.d_isEquivalence_152
+         (coe
+            MAlonzo.Code.Algebra.Structures.d_isMagma_448
+            (coe
+               MAlonzo.Code.Algebra.Structures.d_isSemigroup_614
+               (coe
+                  MAlonzo.Code.Algebra.Structures.d_isMonoid_906
+                  (coe
+                     MAlonzo.Code.Algebra.Structures.d_isGroup_992
+                     (coe
+                        MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2500
+                        (coe v1)))))))
 -- Data.Bool.Properties._.IsCommutativeRing.isRing
 d_isRing_608 ::
-  MAlonzo.Code.Algebra.Structures.T_IsCommutativeRing_2626 ->
-  MAlonzo.Code.Algebra.Structures.T_IsRing_2480
+  MAlonzo.Code.Algebra.Structures.T_IsCommutativeRing_2624 ->
+  MAlonzo.Code.Algebra.Structures.T_IsRing_2478
 d_isRing_608 v0
-  = coe MAlonzo.Code.Algebra.Structures.d_isRing_2642 (coe v0)
--- Data.Bool.Properties._.IsCommutativeRing.zero
-d_zero_630 ::
-  MAlonzo.Code.Algebra.Structures.T_IsCommutativeRing_2626 ->
-  MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_zero_630 v0
+  = coe MAlonzo.Code.Algebra.Structures.d_isRing_2640 (coe v0)
+-- Data.Bool.Properties._.IsCommutativeRing.isRingWithoutOne
+d_isRingWithoutOne_610 ::
+  (Bool -> Bool -> Bool) ->
+  (Bool -> Bool -> Bool) ->
+  (Bool -> Bool) ->
+  Bool ->
+  Bool ->
+  MAlonzo.Code.Algebra.Structures.T_IsCommutativeRing_2624 ->
+  MAlonzo.Code.Algebra.Structures.T_IsRingWithoutOne_2114
+d_isRingWithoutOne_610 ~v0 ~v1 ~v2 ~v3 ~v4 v5
+  = du_isRingWithoutOne_610 v5
+du_isRingWithoutOne_610 ::
+  MAlonzo.Code.Algebra.Structures.T_IsCommutativeRing_2624 ->
+  MAlonzo.Code.Algebra.Structures.T_IsRingWithoutOne_2114
+du_isRingWithoutOne_610 v0
   = coe
-      MAlonzo.Code.Algebra.Structures.d_zero_2514
-      (coe MAlonzo.Code.Algebra.Structures.d_isRing_2642 (coe v0))
+      MAlonzo.Code.Algebra.Structures.du_isRingWithoutOne_2510
+      (coe MAlonzo.Code.Algebra.Structures.d_isRing_2640 (coe v0))
 -- Data.Bool.Properties._.IsCommutativeSemigroup.assoc
-d_assoc_638 ::
+d_assoc_640 ::
   MAlonzo.Code.Algebra.Structures.T_IsCommutativeSemigroup_516 ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_assoc_638 = erased
+d_assoc_640 = erased
 -- Data.Bool.Properties._.IsCommutativeSemigroup.comm
-d_comm_640 ::
+d_comm_642 ::
   MAlonzo.Code.Algebra.Structures.T_IsCommutativeSemigroup_516 ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_comm_640 = erased
+d_comm_642 = erased
 -- Data.Bool.Properties._.IsCommutativeSemigroup.isEquivalence
-d_isEquivalence_644 ::
+d_isEquivalence_646 ::
   MAlonzo.Code.Algebra.Structures.T_IsCommutativeSemigroup_516 ->
   MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
-d_isEquivalence_644 v0
+d_isEquivalence_646 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isEquivalence_152
       (coe
          MAlonzo.Code.Algebra.Structures.d_isMagma_448
          (coe MAlonzo.Code.Algebra.Structures.d_isSemigroup_524 (coe v0)))
 -- Data.Bool.Properties._.IsCommutativeSemigroup.isMagma
-d_isMagma_646 ::
+d_isMagma_648 ::
   MAlonzo.Code.Algebra.Structures.T_IsCommutativeSemigroup_516 ->
   MAlonzo.Code.Algebra.Structures.T_IsMagma_144
-d_isMagma_646 v0
+d_isMagma_648 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isMagma_448
       (coe MAlonzo.Code.Algebra.Structures.d_isSemigroup_524 (coe v0))
 -- Data.Bool.Properties._.IsCommutativeSemigroup.isSemigroup
-d_isSemigroup_650 ::
+d_isSemigroup_652 ::
   MAlonzo.Code.Algebra.Structures.T_IsCommutativeSemigroup_516 ->
   MAlonzo.Code.Algebra.Structures.T_IsSemigroup_440
-d_isSemigroup_650 v0
+d_isSemigroup_652 v0
   = coe MAlonzo.Code.Algebra.Structures.d_isSemigroup_524 (coe v0)
 -- Data.Bool.Properties._.IsCommutativeSemigroup.∙-cong
-d_'8729''45'cong_662 ::
+d_'8729''45'cong_664 ::
   MAlonzo.Code.Algebra.Structures.T_IsCommutativeSemigroup_516 ->
   Bool ->
   Bool ->
@@ -931,20 +1046,20 @@ d_'8729''45'cong_662 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8729''45'cong_662 = erased
+d_'8729''45'cong_664 = erased
 -- Data.Bool.Properties._.IsCommutativeSemiring.*-assoc
-d_'42''45'assoc_670 ::
+d_'42''45'assoc_672 ::
   MAlonzo.Code.Algebra.Structures.T_IsCommutativeSemiring_1526 ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'42''45'assoc_670 = erased
+d_'42''45'assoc_672 = erased
 -- Data.Bool.Properties._.IsCommutativeSemiring.*-comm
-d_'42''45'comm_672 ::
+d_'42''45'comm_674 ::
   MAlonzo.Code.Algebra.Structures.T_IsCommutativeSemiring_1526 ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'42''45'comm_672 = erased
+d_'42''45'comm_674 = erased
 -- Data.Bool.Properties._.IsCommutativeSemiring.*-cong
-d_'42''45'cong_674 ::
+d_'42''45'cong_676 ::
   MAlonzo.Code.Algebra.Structures.T_IsCommutativeSemiring_1526 ->
   Bool ->
   Bool ->
@@ -953,30 +1068,30 @@ d_'42''45'cong_674 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'42''45'cong_674 = erased
+d_'42''45'cong_676 = erased
 -- Data.Bool.Properties._.IsCommutativeSemiring.*-identity
-d_'42''45'identity_680 ::
+d_'42''45'identity_682 ::
   MAlonzo.Code.Algebra.Structures.T_IsCommutativeSemiring_1526 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'42''45'identity_680 v0
+d_'42''45'identity_682 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_'42''45'identity_1342
       (coe
          MAlonzo.Code.Algebra.Structures.d_isSemiringWithoutAnnihilatingZero_1432
          (coe MAlonzo.Code.Algebra.Structures.d_isSemiring_1540 (coe v0)))
 -- Data.Bool.Properties._.IsCommutativeSemiring.assoc
-d_assoc_698 ::
+d_assoc_700 ::
   MAlonzo.Code.Algebra.Structures.T_IsCommutativeSemiring_1526 ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_assoc_698 = erased
+d_assoc_700 = erased
 -- Data.Bool.Properties._.IsCommutativeSemiring.comm
-d_comm_700 ::
+d_comm_702 ::
   MAlonzo.Code.Algebra.Structures.T_IsCommutativeSemiring_1526 ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_comm_700 = erased
+d_comm_702 = erased
 -- Data.Bool.Properties._.IsCommutativeSemiring.∙-cong
-d_'8729''45'cong_702 ::
+d_'8729''45'cong_704 ::
   MAlonzo.Code.Algebra.Structures.T_IsCommutativeSemiring_1526 ->
   Bool ->
   Bool ->
@@ -985,12 +1100,12 @@ d_'8729''45'cong_702 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8729''45'cong_702 = erased
+d_'8729''45'cong_704 = erased
 -- Data.Bool.Properties._.IsCommutativeSemiring.identity
-d_identity_708 ::
+d_identity_710 ::
   MAlonzo.Code.Algebra.Structures.T_IsCommutativeSemiring_1526 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_identity_708 v0
+d_identity_710 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_identity_616
       (coe
@@ -1001,20 +1116,20 @@ d_identity_708 v0
                MAlonzo.Code.Algebra.Structures.d_isSemiringWithoutAnnihilatingZero_1432
                (coe MAlonzo.Code.Algebra.Structures.d_isSemiring_1540 (coe v0)))))
 -- Data.Bool.Properties._.IsCommutativeSemiring.+-isCommutativeMonoid
-d_'43''45'isCommutativeMonoid_716 ::
+d_'43''45'isCommutativeMonoid_718 ::
   MAlonzo.Code.Algebra.Structures.T_IsCommutativeSemiring_1526 ->
   MAlonzo.Code.Algebra.Structures.T_IsCommutativeMonoid_654
-d_'43''45'isCommutativeMonoid_716 v0
+d_'43''45'isCommutativeMonoid_718 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_'43''45'isCommutativeMonoid_1336
       (coe
          MAlonzo.Code.Algebra.Structures.d_isSemiringWithoutAnnihilatingZero_1432
          (coe MAlonzo.Code.Algebra.Structures.d_isSemiring_1540 (coe v0)))
 -- Data.Bool.Properties._.IsCommutativeSemiring.isMagma
-d_isMagma_720 ::
+d_isMagma_722 ::
   MAlonzo.Code.Algebra.Structures.T_IsCommutativeSemiring_1526 ->
   MAlonzo.Code.Algebra.Structures.T_IsMagma_144
-d_isMagma_720 v0
+d_isMagma_722 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isMagma_448
       (coe
@@ -1028,10 +1143,10 @@ d_isMagma_720 v0
                   (coe
                      MAlonzo.Code.Algebra.Structures.d_isSemiring_1540 (coe v0))))))
 -- Data.Bool.Properties._.IsCommutativeSemiring.isMonoid
-d_isMonoid_722 ::
+d_isMonoid_724 ::
   MAlonzo.Code.Algebra.Structures.T_IsCommutativeSemiring_1526 ->
   MAlonzo.Code.Algebra.Structures.T_IsMonoid_604
-d_isMonoid_722 v0
+d_isMonoid_724 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isMonoid_664
       (coe
@@ -1040,10 +1155,10 @@ d_isMonoid_722 v0
             MAlonzo.Code.Algebra.Structures.d_isSemiringWithoutAnnihilatingZero_1432
             (coe MAlonzo.Code.Algebra.Structures.d_isSemiring_1540 (coe v0))))
 -- Data.Bool.Properties._.IsCommutativeSemiring.isSemigroup
-d_isSemigroup_724 ::
+d_isSemigroup_726 ::
   MAlonzo.Code.Algebra.Structures.T_IsCommutativeSemiring_1526 ->
   MAlonzo.Code.Algebra.Structures.T_IsSemigroup_440
-d_isSemigroup_724 v0
+d_isSemigroup_726 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isSemigroup_614
       (coe
@@ -1054,20 +1169,20 @@ d_isSemigroup_724 v0
                MAlonzo.Code.Algebra.Structures.d_isSemiringWithoutAnnihilatingZero_1432
                (coe MAlonzo.Code.Algebra.Structures.d_isSemiring_1540 (coe v0)))))
 -- Data.Bool.Properties._.IsCommutativeSemiring.distrib
-d_distrib_728 ::
+d_distrib_730 ::
   MAlonzo.Code.Algebra.Structures.T_IsCommutativeSemiring_1526 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_distrib_728 v0
+d_distrib_730 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_distrib_1344
       (coe
          MAlonzo.Code.Algebra.Structures.d_isSemiringWithoutAnnihilatingZero_1432
          (coe MAlonzo.Code.Algebra.Structures.d_isSemiring_1540 (coe v0)))
 -- Data.Bool.Properties._.IsCommutativeSemiring.isEquivalence
-d_isEquivalence_736 ::
+d_isEquivalence_738 ::
   MAlonzo.Code.Algebra.Structures.T_IsCommutativeSemiring_1526 ->
   MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
-d_isEquivalence_736 v0
+d_isEquivalence_738 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isEquivalence_152
       (coe
@@ -1083,40 +1198,40 @@ d_isEquivalence_736 v0
                      (coe
                         MAlonzo.Code.Algebra.Structures.d_isSemiring_1540 (coe v0)))))))
 -- Data.Bool.Properties._.IsCommutativeSemiring.isSemiring
-d_isSemiring_742 ::
+d_isSemiring_744 ::
   MAlonzo.Code.Algebra.Structures.T_IsCommutativeSemiring_1526 ->
   MAlonzo.Code.Algebra.Structures.T_IsSemiring_1418
-d_isSemiring_742 v0
+d_isSemiring_744 v0
   = coe MAlonzo.Code.Algebra.Structures.d_isSemiring_1540 (coe v0)
 -- Data.Bool.Properties._.IsCommutativeSemiring.isSemiringWithoutAnnihilatingZero
-d_isSemiringWithoutAnnihilatingZero_744 ::
+d_isSemiringWithoutAnnihilatingZero_746 ::
   MAlonzo.Code.Algebra.Structures.T_IsCommutativeSemiring_1526 ->
   MAlonzo.Code.Algebra.Structures.T_IsSemiringWithoutAnnihilatingZero_1316
-d_isSemiringWithoutAnnihilatingZero_744 v0
+d_isSemiringWithoutAnnihilatingZero_746 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isSemiringWithoutAnnihilatingZero_1432
       (coe MAlonzo.Code.Algebra.Structures.d_isSemiring_1540 (coe v0))
 -- Data.Bool.Properties._.IsCommutativeSemiring.zero
-d_zero_758 ::
+d_zero_760 ::
   MAlonzo.Code.Algebra.Structures.T_IsCommutativeSemiring_1526 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_zero_758 v0
+d_zero_760 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_zero_1434
       (coe MAlonzo.Code.Algebra.Structures.d_isSemiring_1540 (coe v0))
 -- Data.Bool.Properties._.IsCommutativeSemiringWithoutOne.*-assoc
-d_'42''45'assoc_770 ::
+d_'42''45'assoc_772 ::
   MAlonzo.Code.Algebra.Structures.T_IsCommutativeSemiringWithoutOne_1230 ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'42''45'assoc_770 = erased
+d_'42''45'assoc_772 = erased
 -- Data.Bool.Properties._.IsCommutativeSemiringWithoutOne.*-comm
-d_'42''45'comm_772 ::
+d_'42''45'comm_774 ::
   MAlonzo.Code.Algebra.Structures.T_IsCommutativeSemiringWithoutOne_1230 ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'42''45'comm_772 = erased
+d_'42''45'comm_774 = erased
 -- Data.Bool.Properties._.IsCommutativeSemiringWithoutOne.*-cong
-d_'42''45'cong_774 ::
+d_'42''45'cong_776 ::
   MAlonzo.Code.Algebra.Structures.T_IsCommutativeSemiringWithoutOne_1230 ->
   Bool ->
   Bool ->
@@ -1125,27 +1240,27 @@ d_'42''45'cong_774 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'42''45'cong_774 = erased
+d_'42''45'cong_776 = erased
 -- Data.Bool.Properties._.IsCommutativeSemiringWithoutOne.comm
-d_comm_788 ::
+d_comm_790 ::
   MAlonzo.Code.Algebra.Structures.T_IsCommutativeSemiringWithoutOne_1230 ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_comm_788 = erased
+d_comm_790 = erased
 -- Data.Bool.Properties._.IsCommutativeSemiringWithoutOne.+-isCommutativeMonoid
-d_'43''45'isCommutativeMonoid_792 ::
+d_'43''45'isCommutativeMonoid_794 ::
   MAlonzo.Code.Algebra.Structures.T_IsCommutativeSemiringWithoutOne_1230 ->
   MAlonzo.Code.Algebra.Structures.T_IsCommutativeMonoid_654
-d_'43''45'isCommutativeMonoid_792 v0
+d_'43''45'isCommutativeMonoid_794 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_'43''45'isCommutativeMonoid_1164
       (coe
          MAlonzo.Code.Algebra.Structures.d_isSemiringWithoutOne_1242
          (coe v0))
 -- Data.Bool.Properties._.IsCommutativeSemiringWithoutOne.isMonoid
-d_isMonoid_796 ::
+d_isMonoid_798 ::
   MAlonzo.Code.Algebra.Structures.T_IsCommutativeSemiringWithoutOne_1230 ->
   MAlonzo.Code.Algebra.Structures.T_IsMonoid_604
-d_isMonoid_796 v0
+d_isMonoid_798 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isMonoid_664
       (coe
@@ -1154,54 +1269,54 @@ d_isMonoid_796 v0
             MAlonzo.Code.Algebra.Structures.d_isSemiringWithoutOne_1242
             (coe v0)))
 -- Data.Bool.Properties._.IsCommutativeSemiringWithoutOne.distrib
-d_distrib_800 ::
+d_distrib_802 ::
   MAlonzo.Code.Algebra.Structures.T_IsCommutativeSemiringWithoutOne_1230 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_distrib_800 v0
+d_distrib_802 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_distrib_1170
       (coe
          MAlonzo.Code.Algebra.Structures.d_isSemiringWithoutOne_1242
          (coe v0))
 -- Data.Bool.Properties._.IsCommutativeSemiringWithoutOne.isSemiringWithoutOne
-d_isSemiringWithoutOne_808 ::
+d_isSemiringWithoutOne_810 ::
   MAlonzo.Code.Algebra.Structures.T_IsCommutativeSemiringWithoutOne_1230 ->
   MAlonzo.Code.Algebra.Structures.T_IsSemiringWithoutOne_1146
-d_isSemiringWithoutOne_808 v0
+d_isSemiringWithoutOne_810 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isSemiringWithoutOne_1242
       (coe v0)
 -- Data.Bool.Properties._.IsCommutativeSemiringWithoutOne.zero
-d_zero_822 ::
+d_zero_824 ::
   MAlonzo.Code.Algebra.Structures.T_IsCommutativeSemiringWithoutOne_1230 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_zero_822 v0
+d_zero_824 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_zero_1172
       (coe
          MAlonzo.Code.Algebra.Structures.d_isSemiringWithoutOne_1242
          (coe v0))
 -- Data.Bool.Properties._.IsFlexibleMagma.flex
-d_flex_830 ::
+d_flex_832 ::
   MAlonzo.Code.Algebra.Structures.T_IsFlexibleMagma_292 ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_flex_830 = erased
+d_flex_832 = erased
 -- Data.Bool.Properties._.IsFlexibleMagma.isEquivalence
-d_isEquivalence_832 ::
+d_isEquivalence_834 ::
   MAlonzo.Code.Algebra.Structures.T_IsFlexibleMagma_292 ->
   MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
-d_isEquivalence_832 v0
+d_isEquivalence_834 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isEquivalence_152
       (coe MAlonzo.Code.Algebra.Structures.d_isMagma_300 (coe v0))
 -- Data.Bool.Properties._.IsFlexibleMagma.isMagma
-d_isMagma_834 ::
+d_isMagma_836 ::
   MAlonzo.Code.Algebra.Structures.T_IsFlexibleMagma_292 ->
   MAlonzo.Code.Algebra.Structures.T_IsMagma_144
-d_isMagma_834 v0
+d_isMagma_836 v0
   = coe MAlonzo.Code.Algebra.Structures.d_isMagma_300 (coe v0)
 -- Data.Bool.Properties._.IsFlexibleMagma.∙-cong
-d_'8729''45'cong_848 ::
+d_'8729''45'cong_850 ::
   MAlonzo.Code.Algebra.Structures.T_IsFlexibleMagma_292 ->
   Bool ->
   Bool ->
@@ -1210,32 +1325,32 @@ d_'8729''45'cong_848 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8729''45'cong_848 = erased
+d_'8729''45'cong_850 = erased
 -- Data.Bool.Properties._.IsGroup.assoc
-d_assoc_858 ::
+d_assoc_860 ::
   MAlonzo.Code.Algebra.Structures.T_IsGroup_892 ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_assoc_858 = erased
+d_assoc_860 = erased
 -- Data.Bool.Properties._.IsGroup.identity
-d_identity_860 ::
+d_identity_862 ::
   MAlonzo.Code.Algebra.Structures.T_IsGroup_892 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_identity_860 v0
+d_identity_862 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_identity_616
       (coe MAlonzo.Code.Algebra.Structures.d_isMonoid_906 (coe v0))
 -- Data.Bool.Properties._.IsGroup.inverse
-d_inverse_866 ::
+d_inverse_868 ::
   MAlonzo.Code.Algebra.Structures.T_IsGroup_892 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_inverse_866 v0
+d_inverse_868 v0
   = coe MAlonzo.Code.Algebra.Structures.d_inverse_908 (coe v0)
 -- Data.Bool.Properties._.IsGroup.isEquivalence
-d_isEquivalence_872 ::
+d_isEquivalence_874 ::
   MAlonzo.Code.Algebra.Structures.T_IsGroup_892 ->
   MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
-d_isEquivalence_872 v0
+d_isEquivalence_874 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isEquivalence_152
       (coe
@@ -1244,39 +1359,39 @@ d_isEquivalence_872 v0
             MAlonzo.Code.Algebra.Structures.d_isSemigroup_614
             (coe MAlonzo.Code.Algebra.Structures.d_isMonoid_906 (coe v0))))
 -- Data.Bool.Properties._.IsGroup.isMagma
-d_isMagma_878 ::
+d_isMagma_880 ::
   MAlonzo.Code.Algebra.Structures.T_IsGroup_892 ->
   MAlonzo.Code.Algebra.Structures.T_IsMagma_144
-d_isMagma_878 v0
+d_isMagma_880 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isMagma_448
       (coe
          MAlonzo.Code.Algebra.Structures.d_isSemigroup_614
          (coe MAlonzo.Code.Algebra.Structures.d_isMonoid_906 (coe v0)))
 -- Data.Bool.Properties._.IsGroup.isMonoid
-d_isMonoid_880 ::
+d_isMonoid_882 ::
   MAlonzo.Code.Algebra.Structures.T_IsGroup_892 ->
   MAlonzo.Code.Algebra.Structures.T_IsMonoid_604
-d_isMonoid_880 v0
+d_isMonoid_882 v0
   = coe MAlonzo.Code.Algebra.Structures.d_isMonoid_906 (coe v0)
 -- Data.Bool.Properties._.IsGroup.isSemigroup
-d_isSemigroup_884 ::
+d_isSemigroup_886 ::
   MAlonzo.Code.Algebra.Structures.T_IsGroup_892 ->
   MAlonzo.Code.Algebra.Structures.T_IsSemigroup_440
-d_isSemigroup_884 v0
+d_isSemigroup_886 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isSemigroup_614
       (coe MAlonzo.Code.Algebra.Structures.d_isMonoid_906 (coe v0))
 -- Data.Bool.Properties._.IsGroup.⁻¹-cong
-d_'8315''185''45'cong_902 ::
+d_'8315''185''45'cong_904 ::
   MAlonzo.Code.Algebra.Structures.T_IsGroup_892 ->
   Bool ->
   Bool ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8315''185''45'cong_902 = erased
+d_'8315''185''45'cong_904 = erased
 -- Data.Bool.Properties._.IsGroup.∙-cong
-d_'8729''45'cong_904 ::
+d_'8729''45'cong_906 ::
   MAlonzo.Code.Algebra.Structures.T_IsGroup_892 ->
   Bool ->
   Bool ->
@@ -1285,28 +1400,28 @@ d_'8729''45'cong_904 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8729''45'cong_904 = erased
+d_'8729''45'cong_906 = erased
 -- Data.Bool.Properties._.IsIdempotentCommutativeMonoid.assoc
-d_assoc_912 ::
+d_assoc_914 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_assoc_912 = erased
+d_assoc_914 = erased
 -- Data.Bool.Properties._.IsIdempotentCommutativeMonoid.comm
-d_comm_914 ::
+d_comm_916 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_comm_914 = erased
+d_comm_916 = erased
 -- Data.Bool.Properties._.IsIdempotentCommutativeMonoid.idem
-d_idem_916 ::
+d_idem_918 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
   Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_idem_916 = erased
+d_idem_918 = erased
 -- Data.Bool.Properties._.IsIdempotentCommutativeMonoid.identity
-d_identity_918 ::
+d_identity_920 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_identity_918 v0
+d_identity_920 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_identity_616
       (coe
@@ -1315,17 +1430,17 @@ d_identity_918 v0
             MAlonzo.Code.Algebra.Structures.d_isCommutativeMonoid_724
             (coe v0)))
 -- Data.Bool.Properties._.IsIdempotentCommutativeMonoid.isCommutativeMonoid
-d_isCommutativeMonoid_928 ::
+d_isCommutativeMonoid_930 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
   MAlonzo.Code.Algebra.Structures.T_IsCommutativeMonoid_654
-d_isCommutativeMonoid_928 v0
+d_isCommutativeMonoid_930 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isCommutativeMonoid_724 (coe v0)
 -- Data.Bool.Properties._.IsIdempotentCommutativeMonoid.isEquivalence
-d_isEquivalence_932 ::
+d_isEquivalence_934 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
   MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
-d_isEquivalence_932 v0
+d_isEquivalence_934 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isEquivalence_152
       (coe
@@ -1338,10 +1453,10 @@ d_isEquivalence_932 v0
                   MAlonzo.Code.Algebra.Structures.d_isCommutativeMonoid_724
                   (coe v0)))))
 -- Data.Bool.Properties._.IsIdempotentCommutativeMonoid.isMagma
-d_isMagma_934 ::
+d_isMagma_936 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
   MAlonzo.Code.Algebra.Structures.T_IsMagma_144
-d_isMagma_934 v0
+d_isMagma_936 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isMagma_448
       (coe
@@ -1352,19 +1467,19 @@ d_isMagma_934 v0
                MAlonzo.Code.Algebra.Structures.d_isCommutativeMonoid_724
                (coe v0))))
 -- Data.Bool.Properties._.IsIdempotentCommutativeMonoid.isMonoid
-d_isMonoid_936 ::
+d_isMonoid_938 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
   MAlonzo.Code.Algebra.Structures.T_IsMonoid_604
-d_isMonoid_936 v0
+d_isMonoid_938 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isMonoid_664
       (coe
          MAlonzo.Code.Algebra.Structures.d_isCommutativeMonoid_724 (coe v0))
 -- Data.Bool.Properties._.IsIdempotentCommutativeMonoid.isSemigroup
-d_isSemigroup_940 ::
+d_isSemigroup_942 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
   MAlonzo.Code.Algebra.Structures.T_IsSemigroup_440
-d_isSemigroup_940 v0
+d_isSemigroup_942 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isSemigroup_614
       (coe
@@ -1373,7 +1488,7 @@ d_isSemigroup_940 v0
             MAlonzo.Code.Algebra.Structures.d_isCommutativeMonoid_724
             (coe v0)))
 -- Data.Bool.Properties._.IsIdempotentCommutativeMonoid.∙-cong
-d_'8729''45'cong_954 ::
+d_'8729''45'cong_956 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
   Bool ->
   Bool ->
@@ -1382,28 +1497,28 @@ d_'8729''45'cong_954 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8729''45'cong_954 = erased
+d_'8729''45'cong_956 = erased
 -- Data.Bool.Properties._.IsIdempotentMagma.idem
-d_idem_962 ::
+d_idem_964 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentMagma_216 ->
   Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_idem_962 = erased
+d_idem_964 = erased
 -- Data.Bool.Properties._.IsIdempotentMagma.isEquivalence
-d_isEquivalence_964 ::
+d_isEquivalence_966 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentMagma_216 ->
   MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
-d_isEquivalence_964 v0
+d_isEquivalence_966 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isEquivalence_152
       (coe MAlonzo.Code.Algebra.Structures.d_isMagma_224 (coe v0))
 -- Data.Bool.Properties._.IsIdempotentMagma.isMagma
-d_isMagma_966 ::
+d_isMagma_968 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentMagma_216 ->
   MAlonzo.Code.Algebra.Structures.T_IsMagma_144
-d_isMagma_966 v0
+d_isMagma_968 v0
   = coe MAlonzo.Code.Algebra.Structures.d_isMagma_224 (coe v0)
 -- Data.Bool.Properties._.IsIdempotentMagma.∙-cong
-d_'8729''45'cong_980 ::
+d_'8729''45'cong_982 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentMagma_216 ->
   Bool ->
   Bool ->
@@ -1412,15 +1527,15 @@ d_'8729''45'cong_980 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8729''45'cong_980 = erased
+d_'8729''45'cong_982 = erased
 -- Data.Bool.Properties._.IsIdempotentSemiring.*-assoc
-d_'42''45'assoc_988 ::
+d_'42''45'assoc_990 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentSemiring_1768 ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'42''45'assoc_988 = erased
+d_'42''45'assoc_990 = erased
 -- Data.Bool.Properties._.IsIdempotentSemiring.*-cong
-d_'42''45'cong_990 ::
+d_'42''45'cong_992 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentSemiring_1768 ->
   Bool ->
   Bool ->
@@ -1429,30 +1544,30 @@ d_'42''45'cong_990 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'42''45'cong_990 = erased
+d_'42''45'cong_992 = erased
 -- Data.Bool.Properties._.IsIdempotentSemiring.*-identity
-d_'42''45'identity_996 ::
+d_'42''45'identity_998 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentSemiring_1768 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'42''45'identity_996 v0
+d_'42''45'identity_998 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_'42''45'identity_1342
       (coe
          MAlonzo.Code.Algebra.Structures.d_isSemiringWithoutAnnihilatingZero_1432
          (coe MAlonzo.Code.Algebra.Structures.d_isSemiring_1782 (coe v0)))
 -- Data.Bool.Properties._.IsIdempotentSemiring.assoc
-d_assoc_1008 ::
+d_assoc_1010 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentSemiring_1768 ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_assoc_1008 = erased
+d_assoc_1010 = erased
 -- Data.Bool.Properties._.IsIdempotentSemiring.comm
-d_comm_1010 ::
+d_comm_1012 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentSemiring_1768 ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_comm_1010 = erased
+d_comm_1012 = erased
 -- Data.Bool.Properties._.IsIdempotentSemiring.∙-cong
-d_'8729''45'cong_1012 ::
+d_'8729''45'cong_1014 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentSemiring_1768 ->
   Bool ->
   Bool ->
@@ -1461,17 +1576,17 @@ d_'8729''45'cong_1012 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8729''45'cong_1012 = erased
+d_'8729''45'cong_1014 = erased
 -- Data.Bool.Properties._.IsIdempotentSemiring.+-idem
-d_'43''45'idem_1018 ::
+d_'43''45'idem_1020 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentSemiring_1768 ->
   Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'43''45'idem_1018 = erased
+d_'43''45'idem_1020 = erased
 -- Data.Bool.Properties._.IsIdempotentSemiring.identity
-d_identity_1020 ::
+d_identity_1022 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentSemiring_1768 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_identity_1020 v0
+d_identity_1022 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_identity_616
       (coe
@@ -1482,20 +1597,20 @@ d_identity_1020 v0
                MAlonzo.Code.Algebra.Structures.d_isSemiringWithoutAnnihilatingZero_1432
                (coe MAlonzo.Code.Algebra.Structures.d_isSemiring_1782 (coe v0)))))
 -- Data.Bool.Properties._.IsIdempotentSemiring.+-isCommutativeMonoid
-d_'43''45'isCommutativeMonoid_1028 ::
+d_'43''45'isCommutativeMonoid_1030 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentSemiring_1768 ->
   MAlonzo.Code.Algebra.Structures.T_IsCommutativeMonoid_654
-d_'43''45'isCommutativeMonoid_1028 v0
+d_'43''45'isCommutativeMonoid_1030 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_'43''45'isCommutativeMonoid_1336
       (coe
          MAlonzo.Code.Algebra.Structures.d_isSemiringWithoutAnnihilatingZero_1432
          (coe MAlonzo.Code.Algebra.Structures.d_isSemiring_1782 (coe v0)))
 -- Data.Bool.Properties._.IsIdempotentSemiring.isMagma
-d_isMagma_1032 ::
+d_isMagma_1034 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentSemiring_1768 ->
   MAlonzo.Code.Algebra.Structures.T_IsMagma_144
-d_isMagma_1032 v0
+d_isMagma_1034 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isMagma_448
       (coe
@@ -1509,10 +1624,10 @@ d_isMagma_1032 v0
                   (coe
                      MAlonzo.Code.Algebra.Structures.d_isSemiring_1782 (coe v0))))))
 -- Data.Bool.Properties._.IsIdempotentSemiring.isMonoid
-d_isMonoid_1034 ::
+d_isMonoid_1036 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentSemiring_1768 ->
   MAlonzo.Code.Algebra.Structures.T_IsMonoid_604
-d_isMonoid_1034 v0
+d_isMonoid_1036 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isMonoid_664
       (coe
@@ -1521,10 +1636,10 @@ d_isMonoid_1034 v0
             MAlonzo.Code.Algebra.Structures.d_isSemiringWithoutAnnihilatingZero_1432
             (coe MAlonzo.Code.Algebra.Structures.d_isSemiring_1782 (coe v0))))
 -- Data.Bool.Properties._.IsIdempotentSemiring.isSemigroup
-d_isSemigroup_1036 ::
+d_isSemigroup_1038 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentSemiring_1768 ->
   MAlonzo.Code.Algebra.Structures.T_IsSemigroup_440
-d_isSemigroup_1036 v0
+d_isSemigroup_1038 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isSemigroup_614
       (coe
@@ -1535,20 +1650,20 @@ d_isSemigroup_1036 v0
                MAlonzo.Code.Algebra.Structures.d_isSemiringWithoutAnnihilatingZero_1432
                (coe MAlonzo.Code.Algebra.Structures.d_isSemiring_1782 (coe v0)))))
 -- Data.Bool.Properties._.IsIdempotentSemiring.distrib
-d_distrib_1040 ::
+d_distrib_1042 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentSemiring_1768 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_distrib_1040 v0
+d_distrib_1042 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_distrib_1344
       (coe
          MAlonzo.Code.Algebra.Structures.d_isSemiringWithoutAnnihilatingZero_1432
          (coe MAlonzo.Code.Algebra.Structures.d_isSemiring_1782 (coe v0)))
 -- Data.Bool.Properties._.IsIdempotentSemiring.isEquivalence
-d_isEquivalence_1046 ::
+d_isEquivalence_1048 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentSemiring_1768 ->
   MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
-d_isEquivalence_1046 v0
+d_isEquivalence_1048 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isEquivalence_152
       (coe
@@ -1564,57 +1679,57 @@ d_isEquivalence_1046 v0
                      (coe
                         MAlonzo.Code.Algebra.Structures.d_isSemiring_1782 (coe v0)))))))
 -- Data.Bool.Properties._.IsIdempotentSemiring.isSemiring
-d_isSemiring_1052 ::
+d_isSemiring_1054 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentSemiring_1768 ->
   MAlonzo.Code.Algebra.Structures.T_IsSemiring_1418
-d_isSemiring_1052 v0
+d_isSemiring_1054 v0
   = coe MAlonzo.Code.Algebra.Structures.d_isSemiring_1782 (coe v0)
 -- Data.Bool.Properties._.IsIdempotentSemiring.isSemiringWithoutAnnihilatingZero
-d_isSemiringWithoutAnnihilatingZero_1054 ::
+d_isSemiringWithoutAnnihilatingZero_1056 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentSemiring_1768 ->
   MAlonzo.Code.Algebra.Structures.T_IsSemiringWithoutAnnihilatingZero_1316
-d_isSemiringWithoutAnnihilatingZero_1054 v0
+d_isSemiringWithoutAnnihilatingZero_1056 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isSemiringWithoutAnnihilatingZero_1432
       (coe MAlonzo.Code.Algebra.Structures.d_isSemiring_1782 (coe v0))
 -- Data.Bool.Properties._.IsIdempotentSemiring.zero
-d_zero_1068 ::
+d_zero_1070 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentSemiring_1768 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_zero_1068 v0
+d_zero_1070 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_zero_1434
       (coe MAlonzo.Code.Algebra.Structures.d_isSemiring_1782 (coe v0))
 -- Data.Bool.Properties._.IsInvertibleMagma.inverse
-d_inverse_1076 ::
+d_inverse_1078 ::
   MAlonzo.Code.Algebra.Structures.T_IsInvertibleMagma_780 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_inverse_1076 v0
+d_inverse_1078 v0
   = coe MAlonzo.Code.Algebra.Structures.d_inverse_796 (coe v0)
 -- Data.Bool.Properties._.IsInvertibleMagma.isEquivalence
-d_isEquivalence_1082 ::
+d_isEquivalence_1084 ::
   MAlonzo.Code.Algebra.Structures.T_IsInvertibleMagma_780 ->
   MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
-d_isEquivalence_1082 v0
+d_isEquivalence_1084 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isEquivalence_152
       (coe MAlonzo.Code.Algebra.Structures.d_isMagma_794 (coe v0))
 -- Data.Bool.Properties._.IsInvertibleMagma.isMagma
-d_isMagma_1084 ::
+d_isMagma_1086 ::
   MAlonzo.Code.Algebra.Structures.T_IsInvertibleMagma_780 ->
   MAlonzo.Code.Algebra.Structures.T_IsMagma_144
-d_isMagma_1084 v0
+d_isMagma_1086 v0
   = coe MAlonzo.Code.Algebra.Structures.d_isMagma_794 (coe v0)
 -- Data.Bool.Properties._.IsInvertibleMagma.⁻¹-cong
-d_'8315''185''45'cong_1098 ::
+d_'8315''185''45'cong_1100 ::
   MAlonzo.Code.Algebra.Structures.T_IsInvertibleMagma_780 ->
   Bool ->
   Bool ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8315''185''45'cong_1098 = erased
+d_'8315''185''45'cong_1100 = erased
 -- Data.Bool.Properties._.IsInvertibleMagma.∙-cong
-d_'8729''45'cong_1100 ::
+d_'8729''45'cong_1102 ::
   MAlonzo.Code.Algebra.Structures.T_IsInvertibleMagma_780 ->
   Bool ->
   Bool ->
@@ -1623,27 +1738,27 @@ d_'8729''45'cong_1100 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8729''45'cong_1100 = erased
+d_'8729''45'cong_1102 = erased
 -- Data.Bool.Properties._.IsInvertibleUnitalMagma.identity
-d_identity_1108 ::
+d_identity_1110 ::
   MAlonzo.Code.Algebra.Structures.T_IsInvertibleUnitalMagma_832 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_identity_1108 v0
+d_identity_1110 v0
   = coe MAlonzo.Code.Algebra.Structures.d_identity_846 (coe v0)
 -- Data.Bool.Properties._.IsInvertibleUnitalMagma.inverse
-d_inverse_1114 ::
+d_inverse_1116 ::
   MAlonzo.Code.Algebra.Structures.T_IsInvertibleUnitalMagma_832 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_inverse_1114 v0
+d_inverse_1116 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_inverse_796
       (coe
          MAlonzo.Code.Algebra.Structures.d_isInvertibleMagma_844 (coe v0))
 -- Data.Bool.Properties._.IsInvertibleUnitalMagma.isEquivalence
-d_isEquivalence_1120 ::
+d_isEquivalence_1122 ::
   MAlonzo.Code.Algebra.Structures.T_IsInvertibleUnitalMagma_832 ->
   MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
-d_isEquivalence_1120 v0
+d_isEquivalence_1122 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isEquivalence_152
       (coe
@@ -1651,31 +1766,31 @@ d_isEquivalence_1120 v0
          (coe
             MAlonzo.Code.Algebra.Structures.d_isInvertibleMagma_844 (coe v0)))
 -- Data.Bool.Properties._.IsInvertibleUnitalMagma.isInvertibleMagma
-d_isInvertibleMagma_1122 ::
+d_isInvertibleMagma_1124 ::
   MAlonzo.Code.Algebra.Structures.T_IsInvertibleUnitalMagma_832 ->
   MAlonzo.Code.Algebra.Structures.T_IsInvertibleMagma_780
-d_isInvertibleMagma_1122 v0
+d_isInvertibleMagma_1124 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isInvertibleMagma_844 (coe v0)
 -- Data.Bool.Properties._.IsInvertibleUnitalMagma.isMagma
-d_isMagma_1124 ::
+d_isMagma_1126 ::
   MAlonzo.Code.Algebra.Structures.T_IsInvertibleUnitalMagma_832 ->
   MAlonzo.Code.Algebra.Structures.T_IsMagma_144
-d_isMagma_1124 v0
+d_isMagma_1126 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isMagma_794
       (coe
          MAlonzo.Code.Algebra.Structures.d_isInvertibleMagma_844 (coe v0))
 -- Data.Bool.Properties._.IsInvertibleUnitalMagma.⁻¹-cong
-d_'8315''185''45'cong_1140 ::
+d_'8315''185''45'cong_1142 ::
   MAlonzo.Code.Algebra.Structures.T_IsInvertibleUnitalMagma_832 ->
   Bool ->
   Bool ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8315''185''45'cong_1140 = erased
+d_'8315''185''45'cong_1142 = erased
 -- Data.Bool.Properties._.IsInvertibleUnitalMagma.∙-cong
-d_'8729''45'cong_1142 ::
+d_'8729''45'cong_1144 ::
   MAlonzo.Code.Algebra.Structures.T_IsInvertibleUnitalMagma_832 ->
   Bool ->
   Bool ->
@@ -1684,15 +1799,15 @@ d_'8729''45'cong_1142 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8729''45'cong_1142 = erased
+d_'8729''45'cong_1144 = erased
 -- Data.Bool.Properties._.IsKleeneAlgebra.*-assoc
-d_'42''45'assoc_1150 ::
+d_'42''45'assoc_1152 ::
   MAlonzo.Code.Algebra.Structures.T_IsKleeneAlgebra_1880 ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'42''45'assoc_1150 = erased
+d_'42''45'assoc_1152 = erased
 -- Data.Bool.Properties._.IsKleeneAlgebra.*-cong
-d_'42''45'cong_1152 ::
+d_'42''45'cong_1154 ::
   MAlonzo.Code.Algebra.Structures.T_IsKleeneAlgebra_1880 ->
   Bool ->
   Bool ->
@@ -1701,12 +1816,12 @@ d_'42''45'cong_1152 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'42''45'cong_1152 = erased
+d_'42''45'cong_1154 = erased
 -- Data.Bool.Properties._.IsKleeneAlgebra.*-identity
-d_'42''45'identity_1158 ::
+d_'42''45'identity_1160 ::
   MAlonzo.Code.Algebra.Structures.T_IsKleeneAlgebra_1880 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'42''45'identity_1158 v0
+d_'42''45'identity_1160 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_'42''45'identity_1342
       (coe
@@ -1717,18 +1832,18 @@ d_'42''45'identity_1158 v0
                MAlonzo.Code.Algebra.Structures.d_isIdempotentSemiring_1898
                (coe v0))))
 -- Data.Bool.Properties._.IsKleeneAlgebra.assoc
-d_assoc_1170 ::
+d_assoc_1172 ::
   MAlonzo.Code.Algebra.Structures.T_IsKleeneAlgebra_1880 ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_assoc_1170 = erased
+d_assoc_1172 = erased
 -- Data.Bool.Properties._.IsKleeneAlgebra.comm
-d_comm_1172 ::
+d_comm_1174 ::
   MAlonzo.Code.Algebra.Structures.T_IsKleeneAlgebra_1880 ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_comm_1172 = erased
+d_comm_1174 = erased
 -- Data.Bool.Properties._.IsKleeneAlgebra.∙-cong
-d_'8729''45'cong_1174 ::
+d_'8729''45'cong_1176 ::
   MAlonzo.Code.Algebra.Structures.T_IsKleeneAlgebra_1880 ->
   Bool ->
   Bool ->
@@ -1737,17 +1852,17 @@ d_'8729''45'cong_1174 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8729''45'cong_1174 = erased
+d_'8729''45'cong_1176 = erased
 -- Data.Bool.Properties._.IsKleeneAlgebra.+-idem
-d_'43''45'idem_1180 ::
+d_'43''45'idem_1182 ::
   MAlonzo.Code.Algebra.Structures.T_IsKleeneAlgebra_1880 ->
   Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'43''45'idem_1180 = erased
+d_'43''45'idem_1182 = erased
 -- Data.Bool.Properties._.IsKleeneAlgebra.identity
-d_identity_1182 ::
+d_identity_1184 ::
   MAlonzo.Code.Algebra.Structures.T_IsKleeneAlgebra_1880 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_identity_1182 v0
+d_identity_1184 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_identity_616
       (coe
@@ -1762,10 +1877,10 @@ d_identity_1182 v0
                      MAlonzo.Code.Algebra.Structures.d_isIdempotentSemiring_1898
                      (coe v0))))))
 -- Data.Bool.Properties._.IsKleeneAlgebra.+-isCommutativeMonoid
-d_'43''45'isCommutativeMonoid_1190 ::
+d_'43''45'isCommutativeMonoid_1192 ::
   MAlonzo.Code.Algebra.Structures.T_IsKleeneAlgebra_1880 ->
   MAlonzo.Code.Algebra.Structures.T_IsCommutativeMonoid_654
-d_'43''45'isCommutativeMonoid_1190 v0
+d_'43''45'isCommutativeMonoid_1192 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_'43''45'isCommutativeMonoid_1336
       (coe
@@ -1776,10 +1891,10 @@ d_'43''45'isCommutativeMonoid_1190 v0
                MAlonzo.Code.Algebra.Structures.d_isIdempotentSemiring_1898
                (coe v0))))
 -- Data.Bool.Properties._.IsKleeneAlgebra.isMagma
-d_isMagma_1194 ::
+d_isMagma_1196 ::
   MAlonzo.Code.Algebra.Structures.T_IsKleeneAlgebra_1880 ->
   MAlonzo.Code.Algebra.Structures.T_IsMagma_144
-d_isMagma_1194 v0
+d_isMagma_1196 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isMagma_448
       (coe
@@ -1796,10 +1911,10 @@ d_isMagma_1194 v0
                         MAlonzo.Code.Algebra.Structures.d_isIdempotentSemiring_1898
                         (coe v0)))))))
 -- Data.Bool.Properties._.IsKleeneAlgebra.isMonoid
-d_isMonoid_1196 ::
+d_isMonoid_1198 ::
   MAlonzo.Code.Algebra.Structures.T_IsKleeneAlgebra_1880 ->
   MAlonzo.Code.Algebra.Structures.T_IsMonoid_604
-d_isMonoid_1196 v0
+d_isMonoid_1198 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isMonoid_664
       (coe
@@ -1812,10 +1927,10 @@ d_isMonoid_1196 v0
                   MAlonzo.Code.Algebra.Structures.d_isIdempotentSemiring_1898
                   (coe v0)))))
 -- Data.Bool.Properties._.IsKleeneAlgebra.isSemigroup
-d_isSemigroup_1198 ::
+d_isSemigroup_1200 ::
   MAlonzo.Code.Algebra.Structures.T_IsKleeneAlgebra_1880 ->
   MAlonzo.Code.Algebra.Structures.T_IsSemigroup_440
-d_isSemigroup_1198 v0
+d_isSemigroup_1200 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isSemigroup_614
       (coe
@@ -1830,10 +1945,10 @@ d_isSemigroup_1198 v0
                      MAlonzo.Code.Algebra.Structures.d_isIdempotentSemiring_1898
                      (coe v0))))))
 -- Data.Bool.Properties._.IsKleeneAlgebra.distrib
-d_distrib_1202 ::
+d_distrib_1204 ::
   MAlonzo.Code.Algebra.Structures.T_IsKleeneAlgebra_1880 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_distrib_1202 v0
+d_distrib_1204 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_distrib_1344
       (coe
@@ -1844,10 +1959,10 @@ d_distrib_1202 v0
                MAlonzo.Code.Algebra.Structures.d_isIdempotentSemiring_1898
                (coe v0))))
 -- Data.Bool.Properties._.IsKleeneAlgebra.isEquivalence
-d_isEquivalence_1208 ::
+d_isEquivalence_1210 ::
   MAlonzo.Code.Algebra.Structures.T_IsKleeneAlgebra_1880 ->
   MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
-d_isEquivalence_1208 v0
+d_isEquivalence_1210 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isEquivalence_152
       (coe
@@ -1866,28 +1981,28 @@ d_isEquivalence_1208 v0
                            MAlonzo.Code.Algebra.Structures.d_isIdempotentSemiring_1898
                            (coe v0))))))))
 -- Data.Bool.Properties._.IsKleeneAlgebra.isIdempotentSemiring
-d_isIdempotentSemiring_1210 ::
+d_isIdempotentSemiring_1212 ::
   MAlonzo.Code.Algebra.Structures.T_IsKleeneAlgebra_1880 ->
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentSemiring_1768
-d_isIdempotentSemiring_1210 v0
+d_isIdempotentSemiring_1212 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isIdempotentSemiring_1898
       (coe v0)
 -- Data.Bool.Properties._.IsKleeneAlgebra.isSemiring
-d_isSemiring_1216 ::
+d_isSemiring_1218 ::
   MAlonzo.Code.Algebra.Structures.T_IsKleeneAlgebra_1880 ->
   MAlonzo.Code.Algebra.Structures.T_IsSemiring_1418
-d_isSemiring_1216 v0
+d_isSemiring_1218 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isSemiring_1782
       (coe
          MAlonzo.Code.Algebra.Structures.d_isIdempotentSemiring_1898
          (coe v0))
 -- Data.Bool.Properties._.IsKleeneAlgebra.isSemiringWithoutAnnihilatingZero
-d_isSemiringWithoutAnnihilatingZero_1218 ::
+d_isSemiringWithoutAnnihilatingZero_1220 ::
   MAlonzo.Code.Algebra.Structures.T_IsKleeneAlgebra_1880 ->
   MAlonzo.Code.Algebra.Structures.T_IsSemiringWithoutAnnihilatingZero_1316
-d_isSemiringWithoutAnnihilatingZero_1218 v0
+d_isSemiringWithoutAnnihilatingZero_1220 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isSemiringWithoutAnnihilatingZero_1432
       (coe
@@ -1896,23 +2011,23 @@ d_isSemiringWithoutAnnihilatingZero_1218 v0
             MAlonzo.Code.Algebra.Structures.d_isIdempotentSemiring_1898
             (coe v0)))
 -- Data.Bool.Properties._.IsKleeneAlgebra.starDestructive
-d_starDestructive_1228 ::
+d_starDestructive_1230 ::
   MAlonzo.Code.Algebra.Structures.T_IsKleeneAlgebra_1880 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_starDestructive_1228 v0
+d_starDestructive_1230 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_starDestructive_1902 (coe v0)
 -- Data.Bool.Properties._.IsKleeneAlgebra.starExpansive
-d_starExpansive_1234 ::
+d_starExpansive_1236 ::
   MAlonzo.Code.Algebra.Structures.T_IsKleeneAlgebra_1880 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_starExpansive_1234 v0
+d_starExpansive_1236 v0
   = coe MAlonzo.Code.Algebra.Structures.d_starExpansive_1900 (coe v0)
 -- Data.Bool.Properties._.IsKleeneAlgebra.zero
-d_zero_1244 ::
+d_zero_1246 ::
   MAlonzo.Code.Algebra.Structures.T_IsKleeneAlgebra_1880 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_zero_1244 v0
+d_zero_1246 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_zero_1434
       (coe
@@ -1921,7 +2036,7 @@ d_zero_1244 v0
             MAlonzo.Code.Algebra.Structures.d_isIdempotentSemiring_1898
             (coe v0)))
 -- Data.Bool.Properties._.IsLeftBolLoop.//-cong
-d_'47''47''45'cong_1252 ::
+d_'47''47''45'cong_1254 ::
   MAlonzo.Code.Algebra.Structures.T_IsLeftBolLoop_2932 ->
   Bool ->
   Bool ->
@@ -1930,9 +2045,9 @@ d_'47''47''45'cong_1252 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'47''47''45'cong_1252 = erased
+d_'47''47''45'cong_1254 = erased
 -- Data.Bool.Properties._.IsLeftBolLoop.\\-cong
-d_'92''92''45'cong_1258 ::
+d_'92''92''45'cong_1260 ::
   MAlonzo.Code.Algebra.Structures.T_IsLeftBolLoop_2932 ->
   Bool ->
   Bool ->
@@ -1941,20 +2056,20 @@ d_'92''92''45'cong_1258 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'92''92''45'cong_1258 = erased
+d_'92''92''45'cong_1260 = erased
 -- Data.Bool.Properties._.IsLeftBolLoop.identity
-d_identity_1264 ::
+d_identity_1266 ::
   MAlonzo.Code.Algebra.Structures.T_IsLeftBolLoop_2932 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_identity_1264 v0
+d_identity_1266 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_identity_2870
       (coe MAlonzo.Code.Algebra.Structures.d_isLoop_2946 (coe v0))
 -- Data.Bool.Properties._.IsLeftBolLoop.isEquivalence
-d_isEquivalence_1270 ::
+d_isEquivalence_1272 ::
   MAlonzo.Code.Algebra.Structures.T_IsLeftBolLoop_2932 ->
   MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
-d_isEquivalence_1270 v0
+d_isEquivalence_1272 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isEquivalence_152
       (coe
@@ -1963,57 +2078,57 @@ d_isEquivalence_1270 v0
             MAlonzo.Code.Algebra.Structures.d_isQuasigroup_2868
             (coe MAlonzo.Code.Algebra.Structures.d_isLoop_2946 (coe v0))))
 -- Data.Bool.Properties._.IsLeftBolLoop.isLoop
-d_isLoop_1272 ::
+d_isLoop_1274 ::
   MAlonzo.Code.Algebra.Structures.T_IsLeftBolLoop_2932 ->
   MAlonzo.Code.Algebra.Structures.T_IsLoop_2854
-d_isLoop_1272 v0
+d_isLoop_1274 v0
   = coe MAlonzo.Code.Algebra.Structures.d_isLoop_2946 (coe v0)
 -- Data.Bool.Properties._.IsLeftBolLoop.isMagma
-d_isMagma_1274 ::
+d_isMagma_1276 ::
   MAlonzo.Code.Algebra.Structures.T_IsLeftBolLoop_2932 ->
   MAlonzo.Code.Algebra.Structures.T_IsMagma_144
-d_isMagma_1274 v0
+d_isMagma_1276 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isMagma_2790
       (coe
          MAlonzo.Code.Algebra.Structures.d_isQuasigroup_2868
          (coe MAlonzo.Code.Algebra.Structures.d_isLoop_2946 (coe v0)))
 -- Data.Bool.Properties._.IsLeftBolLoop.isQuasigroup
-d_isQuasigroup_1278 ::
+d_isQuasigroup_1280 ::
   MAlonzo.Code.Algebra.Structures.T_IsLeftBolLoop_2932 ->
   MAlonzo.Code.Algebra.Structures.T_IsQuasigroup_2772
-d_isQuasigroup_1278 v0
+d_isQuasigroup_1280 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isQuasigroup_2868
       (coe MAlonzo.Code.Algebra.Structures.d_isLoop_2946 (coe v0))
 -- Data.Bool.Properties._.IsLeftBolLoop.leftBol
-d_leftBol_1280 ::
+d_leftBol_1282 ::
   MAlonzo.Code.Algebra.Structures.T_IsLeftBolLoop_2932 ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_leftBol_1280 = erased
+d_leftBol_1282 = erased
 -- Data.Bool.Properties._.IsLeftBolLoop.leftDivides
-d_leftDivides_1282 ::
+d_leftDivides_1284 ::
   MAlonzo.Code.Algebra.Structures.T_IsLeftBolLoop_2932 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_leftDivides_1282 v0
+d_leftDivides_1284 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_leftDivides_2796
       (coe
          MAlonzo.Code.Algebra.Structures.d_isQuasigroup_2868
          (coe MAlonzo.Code.Algebra.Structures.d_isLoop_2946 (coe v0)))
 -- Data.Bool.Properties._.IsLeftBolLoop.rightDivides
-d_rightDivides_1292 ::
+d_rightDivides_1294 ::
   MAlonzo.Code.Algebra.Structures.T_IsLeftBolLoop_2932 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_rightDivides_1292 v0
+d_rightDivides_1294 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_rightDivides_2798
       (coe
          MAlonzo.Code.Algebra.Structures.d_isQuasigroup_2868
          (coe MAlonzo.Code.Algebra.Structures.d_isLoop_2946 (coe v0)))
 -- Data.Bool.Properties._.IsLeftBolLoop.∙-cong
-d_'8729''45'cong_1304 ::
+d_'8729''45'cong_1306 ::
   MAlonzo.Code.Algebra.Structures.T_IsLeftBolLoop_2932 ->
   Bool ->
   Bool ->
@@ -2022,9 +2137,9 @@ d_'8729''45'cong_1304 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8729''45'cong_1304 = erased
+d_'8729''45'cong_1306 = erased
 -- Data.Bool.Properties._.IsLoop.//-cong
-d_'47''47''45'cong_1312 ::
+d_'47''47''45'cong_1314 ::
   MAlonzo.Code.Algebra.Structures.T_IsLoop_2854 ->
   Bool ->
   Bool ->
@@ -2033,9 +2148,9 @@ d_'47''47''45'cong_1312 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'47''47''45'cong_1312 = erased
+d_'47''47''45'cong_1314 = erased
 -- Data.Bool.Properties._.IsLoop.\\-cong
-d_'92''92''45'cong_1318 ::
+d_'92''92''45'cong_1320 ::
   MAlonzo.Code.Algebra.Structures.T_IsLoop_2854 ->
   Bool ->
   Bool ->
@@ -2044,55 +2159,55 @@ d_'92''92''45'cong_1318 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'92''92''45'cong_1318 = erased
+d_'92''92''45'cong_1320 = erased
 -- Data.Bool.Properties._.IsLoop.identity
-d_identity_1324 ::
+d_identity_1326 ::
   MAlonzo.Code.Algebra.Structures.T_IsLoop_2854 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_identity_1324 v0
+d_identity_1326 v0
   = coe MAlonzo.Code.Algebra.Structures.d_identity_2870 (coe v0)
 -- Data.Bool.Properties._.IsLoop.isEquivalence
-d_isEquivalence_1330 ::
+d_isEquivalence_1332 ::
   MAlonzo.Code.Algebra.Structures.T_IsLoop_2854 ->
   MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
-d_isEquivalence_1330 v0
+d_isEquivalence_1332 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isEquivalence_152
       (coe
          MAlonzo.Code.Algebra.Structures.d_isMagma_2790
          (coe MAlonzo.Code.Algebra.Structures.d_isQuasigroup_2868 (coe v0)))
 -- Data.Bool.Properties._.IsLoop.isMagma
-d_isMagma_1332 ::
+d_isMagma_1334 ::
   MAlonzo.Code.Algebra.Structures.T_IsLoop_2854 ->
   MAlonzo.Code.Algebra.Structures.T_IsMagma_144
-d_isMagma_1332 v0
+d_isMagma_1334 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isMagma_2790
       (coe MAlonzo.Code.Algebra.Structures.d_isQuasigroup_2868 (coe v0))
 -- Data.Bool.Properties._.IsLoop.isQuasigroup
-d_isQuasigroup_1336 ::
+d_isQuasigroup_1338 ::
   MAlonzo.Code.Algebra.Structures.T_IsLoop_2854 ->
   MAlonzo.Code.Algebra.Structures.T_IsQuasigroup_2772
-d_isQuasigroup_1336 v0
+d_isQuasigroup_1338 v0
   = coe MAlonzo.Code.Algebra.Structures.d_isQuasigroup_2868 (coe v0)
 -- Data.Bool.Properties._.IsLoop.leftDivides
-d_leftDivides_1338 ::
+d_leftDivides_1340 ::
   MAlonzo.Code.Algebra.Structures.T_IsLoop_2854 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_leftDivides_1338 v0
+d_leftDivides_1340 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_leftDivides_2796
       (coe MAlonzo.Code.Algebra.Structures.d_isQuasigroup_2868 (coe v0))
 -- Data.Bool.Properties._.IsLoop.rightDivides
-d_rightDivides_1348 ::
+d_rightDivides_1350 ::
   MAlonzo.Code.Algebra.Structures.T_IsLoop_2854 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_rightDivides_1348 v0
+d_rightDivides_1350 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_rightDivides_2798
       (coe MAlonzo.Code.Algebra.Structures.d_isQuasigroup_2868 (coe v0))
 -- Data.Bool.Properties._.IsLoop.∙-cong
-d_'8729''45'cong_1360 ::
+d_'8729''45'cong_1362 ::
   MAlonzo.Code.Algebra.Structures.T_IsLoop_2854 ->
   Bool ->
   Bool ->
@@ -2101,15 +2216,15 @@ d_'8729''45'cong_1360 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8729''45'cong_1360 = erased
+d_'8729''45'cong_1362 = erased
 -- Data.Bool.Properties._.IsMagma.isEquivalence
-d_isEquivalence_1368 ::
+d_isEquivalence_1370 ::
   MAlonzo.Code.Algebra.Structures.T_IsMagma_144 ->
   MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
-d_isEquivalence_1368 v0
+d_isEquivalence_1370 v0
   = coe MAlonzo.Code.Algebra.Structures.d_isEquivalence_152 (coe v0)
 -- Data.Bool.Properties._.IsMagma.∙-cong
-d_'8729''45'cong_1382 ::
+d_'8729''45'cong_1384 ::
   MAlonzo.Code.Algebra.Structures.T_IsMagma_144 ->
   Bool ->
   Bool ->
@@ -2118,30 +2233,30 @@ d_'8729''45'cong_1382 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8729''45'cong_1382 = erased
+d_'8729''45'cong_1384 = erased
 -- Data.Bool.Properties._.IsMedialMagma.isEquivalence
-d_isEquivalence_1390 ::
+d_isEquivalence_1392 ::
   MAlonzo.Code.Algebra.Structures.T_IsMedialMagma_328 ->
   MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
-d_isEquivalence_1390 v0
+d_isEquivalence_1392 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isEquivalence_152
       (coe MAlonzo.Code.Algebra.Structures.d_isMagma_336 (coe v0))
 -- Data.Bool.Properties._.IsMedialMagma.isMagma
-d_isMagma_1392 ::
+d_isMagma_1394 ::
   MAlonzo.Code.Algebra.Structures.T_IsMedialMagma_328 ->
   MAlonzo.Code.Algebra.Structures.T_IsMagma_144
-d_isMagma_1392 v0
+d_isMagma_1394 v0
   = coe MAlonzo.Code.Algebra.Structures.d_isMagma_336 (coe v0)
 -- Data.Bool.Properties._.IsMedialMagma.medial
-d_medial_1396 ::
+d_medial_1398 ::
   MAlonzo.Code.Algebra.Structures.T_IsMedialMagma_328 ->
   Bool ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_medial_1396 = erased
+d_medial_1398 = erased
 -- Data.Bool.Properties._.IsMedialMagma.∙-cong
-d_'8729''45'cong_1408 ::
+d_'8729''45'cong_1410 ::
   MAlonzo.Code.Algebra.Structures.T_IsMedialMagma_328 ->
   Bool ->
   Bool ->
@@ -2150,9 +2265,9 @@ d_'8729''45'cong_1408 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8729''45'cong_1408 = erased
+d_'8729''45'cong_1410 = erased
 -- Data.Bool.Properties._.IsMiddleBolLoop.//-cong
-d_'47''47''45'cong_1416 ::
+d_'47''47''45'cong_1418 ::
   MAlonzo.Code.Algebra.Structures.T_IsMiddleBolLoop_3186 ->
   Bool ->
   Bool ->
@@ -2161,9 +2276,9 @@ d_'47''47''45'cong_1416 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'47''47''45'cong_1416 = erased
+d_'47''47''45'cong_1418 = erased
 -- Data.Bool.Properties._.IsMiddleBolLoop.\\-cong
-d_'92''92''45'cong_1422 ::
+d_'92''92''45'cong_1424 ::
   MAlonzo.Code.Algebra.Structures.T_IsMiddleBolLoop_3186 ->
   Bool ->
   Bool ->
@@ -2172,20 +2287,20 @@ d_'92''92''45'cong_1422 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'92''92''45'cong_1422 = erased
+d_'92''92''45'cong_1424 = erased
 -- Data.Bool.Properties._.IsMiddleBolLoop.identity
-d_identity_1428 ::
+d_identity_1430 ::
   MAlonzo.Code.Algebra.Structures.T_IsMiddleBolLoop_3186 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_identity_1428 v0
+d_identity_1430 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_identity_2870
       (coe MAlonzo.Code.Algebra.Structures.d_isLoop_3200 (coe v0))
 -- Data.Bool.Properties._.IsMiddleBolLoop.isEquivalence
-d_isEquivalence_1434 ::
+d_isEquivalence_1436 ::
   MAlonzo.Code.Algebra.Structures.T_IsMiddleBolLoop_3186 ->
   MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
-d_isEquivalence_1434 v0
+d_isEquivalence_1436 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isEquivalence_152
       (coe
@@ -2194,57 +2309,57 @@ d_isEquivalence_1434 v0
             MAlonzo.Code.Algebra.Structures.d_isQuasigroup_2868
             (coe MAlonzo.Code.Algebra.Structures.d_isLoop_3200 (coe v0))))
 -- Data.Bool.Properties._.IsMiddleBolLoop.isLoop
-d_isLoop_1436 ::
+d_isLoop_1438 ::
   MAlonzo.Code.Algebra.Structures.T_IsMiddleBolLoop_3186 ->
   MAlonzo.Code.Algebra.Structures.T_IsLoop_2854
-d_isLoop_1436 v0
+d_isLoop_1438 v0
   = coe MAlonzo.Code.Algebra.Structures.d_isLoop_3200 (coe v0)
 -- Data.Bool.Properties._.IsMiddleBolLoop.isMagma
-d_isMagma_1438 ::
+d_isMagma_1440 ::
   MAlonzo.Code.Algebra.Structures.T_IsMiddleBolLoop_3186 ->
   MAlonzo.Code.Algebra.Structures.T_IsMagma_144
-d_isMagma_1438 v0
+d_isMagma_1440 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isMagma_2790
       (coe
          MAlonzo.Code.Algebra.Structures.d_isQuasigroup_2868
          (coe MAlonzo.Code.Algebra.Structures.d_isLoop_3200 (coe v0)))
 -- Data.Bool.Properties._.IsMiddleBolLoop.isQuasigroup
-d_isQuasigroup_1442 ::
+d_isQuasigroup_1444 ::
   MAlonzo.Code.Algebra.Structures.T_IsMiddleBolLoop_3186 ->
   MAlonzo.Code.Algebra.Structures.T_IsQuasigroup_2772
-d_isQuasigroup_1442 v0
+d_isQuasigroup_1444 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isQuasigroup_2868
       (coe MAlonzo.Code.Algebra.Structures.d_isLoop_3200 (coe v0))
 -- Data.Bool.Properties._.IsMiddleBolLoop.leftDivides
-d_leftDivides_1444 ::
+d_leftDivides_1446 ::
   MAlonzo.Code.Algebra.Structures.T_IsMiddleBolLoop_3186 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_leftDivides_1444 v0
+d_leftDivides_1446 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_leftDivides_2796
       (coe
          MAlonzo.Code.Algebra.Structures.d_isQuasigroup_2868
          (coe MAlonzo.Code.Algebra.Structures.d_isLoop_3200 (coe v0)))
 -- Data.Bool.Properties._.IsMiddleBolLoop.middleBol
-d_middleBol_1450 ::
+d_middleBol_1452 ::
   MAlonzo.Code.Algebra.Structures.T_IsMiddleBolLoop_3186 ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_middleBol_1450 = erased
+d_middleBol_1452 = erased
 -- Data.Bool.Properties._.IsMiddleBolLoop.rightDivides
-d_rightDivides_1456 ::
+d_rightDivides_1458 ::
   MAlonzo.Code.Algebra.Structures.T_IsMiddleBolLoop_3186 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_rightDivides_1456 v0
+d_rightDivides_1458 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_rightDivides_2798
       (coe
          MAlonzo.Code.Algebra.Structures.d_isQuasigroup_2868
          (coe MAlonzo.Code.Algebra.Structures.d_isLoop_3200 (coe v0)))
 -- Data.Bool.Properties._.IsMiddleBolLoop.∙-cong
-d_'8729''45'cong_1468 ::
+d_'8729''45'cong_1470 ::
   MAlonzo.Code.Algebra.Structures.T_IsMiddleBolLoop_3186 ->
   Bool ->
   Bool ->
@@ -2253,45 +2368,45 @@ d_'8729''45'cong_1468 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8729''45'cong_1468 = erased
+d_'8729''45'cong_1470 = erased
 -- Data.Bool.Properties._.IsMonoid.assoc
-d_assoc_1476 ::
+d_assoc_1478 ::
   MAlonzo.Code.Algebra.Structures.T_IsMonoid_604 ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_assoc_1476 = erased
+d_assoc_1478 = erased
 -- Data.Bool.Properties._.IsMonoid.identity
-d_identity_1478 ::
+d_identity_1480 ::
   MAlonzo.Code.Algebra.Structures.T_IsMonoid_604 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_identity_1478 v0
+d_identity_1480 v0
   = coe MAlonzo.Code.Algebra.Structures.d_identity_616 (coe v0)
 -- Data.Bool.Properties._.IsMonoid.isEquivalence
-d_isEquivalence_1484 ::
+d_isEquivalence_1486 ::
   MAlonzo.Code.Algebra.Structures.T_IsMonoid_604 ->
   MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
-d_isEquivalence_1484 v0
+d_isEquivalence_1486 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isEquivalence_152
       (coe
          MAlonzo.Code.Algebra.Structures.d_isMagma_448
          (coe MAlonzo.Code.Algebra.Structures.d_isSemigroup_614 (coe v0)))
 -- Data.Bool.Properties._.IsMonoid.isMagma
-d_isMagma_1486 ::
+d_isMagma_1488 ::
   MAlonzo.Code.Algebra.Structures.T_IsMonoid_604 ->
   MAlonzo.Code.Algebra.Structures.T_IsMagma_144
-d_isMagma_1486 v0
+d_isMagma_1488 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isMagma_448
       (coe MAlonzo.Code.Algebra.Structures.d_isSemigroup_614 (coe v0))
 -- Data.Bool.Properties._.IsMonoid.isSemigroup
-d_isSemigroup_1490 ::
+d_isSemigroup_1492 ::
   MAlonzo.Code.Algebra.Structures.T_IsMonoid_604 ->
   MAlonzo.Code.Algebra.Structures.T_IsSemigroup_440
-d_isSemigroup_1490 v0
+d_isSemigroup_1492 v0
   = coe MAlonzo.Code.Algebra.Structures.d_isSemigroup_614 (coe v0)
 -- Data.Bool.Properties._.IsMonoid.∙-cong
-d_'8729''45'cong_1504 ::
+d_'8729''45'cong_1506 ::
   MAlonzo.Code.Algebra.Structures.T_IsMonoid_604 ->
   Bool ->
   Bool ->
@@ -2300,9 +2415,9 @@ d_'8729''45'cong_1504 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8729''45'cong_1504 = erased
+d_'8729''45'cong_1506 = erased
 -- Data.Bool.Properties._.IsMoufangLoop.//-cong
-d_'47''47''45'cong_1512 ::
+d_'47''47''45'cong_1514 ::
   MAlonzo.Code.Algebra.Structures.T_IsMoufangLoop_3096 ->
   Bool ->
   Bool ->
@@ -2311,9 +2426,9 @@ d_'47''47''45'cong_1512 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'47''47''45'cong_1512 = erased
+d_'47''47''45'cong_1514 = erased
 -- Data.Bool.Properties._.IsMoufangLoop.\\-cong
-d_'92''92''45'cong_1518 ::
+d_'92''92''45'cong_1520 ::
   MAlonzo.Code.Algebra.Structures.T_IsMoufangLoop_3096 ->
   Bool ->
   Bool ->
@@ -2322,18 +2437,18 @@ d_'92''92''45'cong_1518 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'92''92''45'cong_1518 = erased
+d_'92''92''45'cong_1520 = erased
 -- Data.Bool.Properties._.IsMoufangLoop.identical
-d_identical_1524 ::
+d_identical_1526 ::
   MAlonzo.Code.Algebra.Structures.T_IsMoufangLoop_3096 ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_identical_1524 = erased
+d_identical_1526 = erased
 -- Data.Bool.Properties._.IsMoufangLoop.identity
-d_identity_1526 ::
+d_identity_1528 ::
   MAlonzo.Code.Algebra.Structures.T_IsMoufangLoop_3096 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_identity_1526 v0
+d_identity_1528 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_identity_2870
       (coe
@@ -2341,10 +2456,10 @@ d_identity_1526 v0
          (coe
             MAlonzo.Code.Algebra.Structures.d_isLeftBolLoop_3112 (coe v0)))
 -- Data.Bool.Properties._.IsMoufangLoop.isEquivalence
-d_isEquivalence_1532 ::
+d_isEquivalence_1534 ::
   MAlonzo.Code.Algebra.Structures.T_IsMoufangLoop_3096 ->
   MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
-d_isEquivalence_1532 v0
+d_isEquivalence_1534 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isEquivalence_152
       (coe
@@ -2356,24 +2471,24 @@ d_isEquivalence_1532 v0
                (coe
                   MAlonzo.Code.Algebra.Structures.d_isLeftBolLoop_3112 (coe v0)))))
 -- Data.Bool.Properties._.IsMoufangLoop.isLeftBolLoop
-d_isLeftBolLoop_1534 ::
+d_isLeftBolLoop_1536 ::
   MAlonzo.Code.Algebra.Structures.T_IsMoufangLoop_3096 ->
   MAlonzo.Code.Algebra.Structures.T_IsLeftBolLoop_2932
-d_isLeftBolLoop_1534 v0
+d_isLeftBolLoop_1536 v0
   = coe MAlonzo.Code.Algebra.Structures.d_isLeftBolLoop_3112 (coe v0)
 -- Data.Bool.Properties._.IsMoufangLoop.isLoop
-d_isLoop_1536 ::
+d_isLoop_1538 ::
   MAlonzo.Code.Algebra.Structures.T_IsMoufangLoop_3096 ->
   MAlonzo.Code.Algebra.Structures.T_IsLoop_2854
-d_isLoop_1536 v0
+d_isLoop_1538 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isLoop_2946
       (coe MAlonzo.Code.Algebra.Structures.d_isLeftBolLoop_3112 (coe v0))
 -- Data.Bool.Properties._.IsMoufangLoop.isMagma
-d_isMagma_1538 ::
+d_isMagma_1540 ::
   MAlonzo.Code.Algebra.Structures.T_IsMoufangLoop_3096 ->
   MAlonzo.Code.Algebra.Structures.T_IsMagma_144
-d_isMagma_1538 v0
+d_isMagma_1540 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isMagma_2790
       (coe
@@ -2383,10 +2498,10 @@ d_isMagma_1538 v0
             (coe
                MAlonzo.Code.Algebra.Structures.d_isLeftBolLoop_3112 (coe v0))))
 -- Data.Bool.Properties._.IsMoufangLoop.isQuasigroup
-d_isQuasigroup_1542 ::
+d_isQuasigroup_1544 ::
   MAlonzo.Code.Algebra.Structures.T_IsMoufangLoop_3096 ->
   MAlonzo.Code.Algebra.Structures.T_IsQuasigroup_2772
-d_isQuasigroup_1542 v0
+d_isQuasigroup_1544 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isQuasigroup_2868
       (coe
@@ -2394,16 +2509,16 @@ d_isQuasigroup_1542 v0
          (coe
             MAlonzo.Code.Algebra.Structures.d_isLeftBolLoop_3112 (coe v0)))
 -- Data.Bool.Properties._.IsMoufangLoop.leftBol
-d_leftBol_1544 ::
+d_leftBol_1546 ::
   MAlonzo.Code.Algebra.Structures.T_IsMoufangLoop_3096 ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_leftBol_1544 = erased
+d_leftBol_1546 = erased
 -- Data.Bool.Properties._.IsMoufangLoop.leftDivides
-d_leftDivides_1546 ::
+d_leftDivides_1548 ::
   MAlonzo.Code.Algebra.Structures.T_IsMoufangLoop_3096 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_leftDivides_1546 v0
+d_leftDivides_1548 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_leftDivides_2796
       (coe
@@ -2413,16 +2528,16 @@ d_leftDivides_1546 v0
             (coe
                MAlonzo.Code.Algebra.Structures.d_isLeftBolLoop_3112 (coe v0))))
 -- Data.Bool.Properties._.IsMoufangLoop.rightBol
-d_rightBol_1556 ::
+d_rightBol_1558 ::
   MAlonzo.Code.Algebra.Structures.T_IsMoufangLoop_3096 ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_rightBol_1556 = erased
+d_rightBol_1558 = erased
 -- Data.Bool.Properties._.IsMoufangLoop.rightDivides
-d_rightDivides_1558 ::
+d_rightDivides_1560 ::
   MAlonzo.Code.Algebra.Structures.T_IsMoufangLoop_3096 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_rightDivides_1558 v0
+d_rightDivides_1560 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_rightDivides_2798
       (coe
@@ -2432,7 +2547,7 @@ d_rightDivides_1558 v0
             (coe
                MAlonzo.Code.Algebra.Structures.d_isLeftBolLoop_3112 (coe v0))))
 -- Data.Bool.Properties._.IsMoufangLoop.∙-cong
-d_'8729''45'cong_1570 ::
+d_'8729''45'cong_1572 ::
   MAlonzo.Code.Algebra.Structures.T_IsMoufangLoop_3096 ->
   Bool ->
   Bool ->
@@ -2441,15 +2556,15 @@ d_'8729''45'cong_1570 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8729''45'cong_1570 = erased
+d_'8729''45'cong_1572 = erased
 -- Data.Bool.Properties._.IsNearSemiring.*-assoc
-d_'42''45'assoc_1578 ::
+d_'42''45'assoc_1580 ::
   MAlonzo.Code.Algebra.Structures.T_IsNearSemiring_1066 ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'42''45'assoc_1578 = erased
+d_'42''45'assoc_1580 = erased
 -- Data.Bool.Properties._.IsNearSemiring.*-cong
-d_'42''45'cong_1580 ::
+d_'42''45'cong_1582 ::
   MAlonzo.Code.Algebra.Structures.T_IsNearSemiring_1066 ->
   Bool ->
   Bool ->
@@ -2458,15 +2573,15 @@ d_'42''45'cong_1580 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'42''45'cong_1580 = erased
+d_'42''45'cong_1582 = erased
 -- Data.Bool.Properties._.IsNearSemiring.assoc
-d_assoc_1590 ::
+d_assoc_1592 ::
   MAlonzo.Code.Algebra.Structures.T_IsNearSemiring_1066 ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_assoc_1590 = erased
+d_assoc_1592 = erased
 -- Data.Bool.Properties._.IsNearSemiring.∙-cong
-d_'8729''45'cong_1592 ::
+d_'8729''45'cong_1594 ::
   MAlonzo.Code.Algebra.Structures.T_IsNearSemiring_1066 ->
   Bool ->
   Bool ->
@@ -2475,21 +2590,21 @@ d_'8729''45'cong_1592 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8729''45'cong_1592 = erased
+d_'8729''45'cong_1594 = erased
 -- Data.Bool.Properties._.IsNearSemiring.identity
-d_identity_1598 ::
+d_identity_1600 ::
   MAlonzo.Code.Algebra.Structures.T_IsNearSemiring_1066 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_identity_1598 v0
+d_identity_1600 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_identity_616
       (coe
          MAlonzo.Code.Algebra.Structures.d_'43''45'isMonoid_1084 (coe v0))
 -- Data.Bool.Properties._.IsNearSemiring.isMagma
-d_isMagma_1604 ::
+d_isMagma_1606 ::
   MAlonzo.Code.Algebra.Structures.T_IsNearSemiring_1066 ->
   MAlonzo.Code.Algebra.Structures.T_IsMagma_144
-d_isMagma_1604 v0
+d_isMagma_1606 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isMagma_448
       (coe
@@ -2497,32 +2612,32 @@ d_isMagma_1604 v0
          (coe
             MAlonzo.Code.Algebra.Structures.d_'43''45'isMonoid_1084 (coe v0)))
 -- Data.Bool.Properties._.IsNearSemiring.+-isMonoid
-d_'43''45'isMonoid_1606 ::
+d_'43''45'isMonoid_1608 ::
   MAlonzo.Code.Algebra.Structures.T_IsNearSemiring_1066 ->
   MAlonzo.Code.Algebra.Structures.T_IsMonoid_604
-d_'43''45'isMonoid_1606 v0
+d_'43''45'isMonoid_1608 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_'43''45'isMonoid_1084 (coe v0)
 -- Data.Bool.Properties._.IsNearSemiring.isSemigroup
-d_isSemigroup_1608 ::
+d_isSemigroup_1610 ::
   MAlonzo.Code.Algebra.Structures.T_IsNearSemiring_1066 ->
   MAlonzo.Code.Algebra.Structures.T_IsSemigroup_440
-d_isSemigroup_1608 v0
+d_isSemigroup_1610 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isSemigroup_614
       (coe
          MAlonzo.Code.Algebra.Structures.d_'43''45'isMonoid_1084 (coe v0))
 -- Data.Bool.Properties._.IsNearSemiring.distribʳ
-d_distrib'691'_1612 ::
+d_distrib'691'_1614 ::
   MAlonzo.Code.Algebra.Structures.T_IsNearSemiring_1066 ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_distrib'691'_1612 = erased
+d_distrib'691'_1614 = erased
 -- Data.Bool.Properties._.IsNearSemiring.isEquivalence
-d_isEquivalence_1614 ::
+d_isEquivalence_1616 ::
   MAlonzo.Code.Algebra.Structures.T_IsNearSemiring_1066 ->
   MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
-d_isEquivalence_1614 v0
+d_isEquivalence_1616 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isEquivalence_152
       (coe
@@ -2532,19 +2647,19 @@ d_isEquivalence_1614 v0
             (coe
                MAlonzo.Code.Algebra.Structures.d_'43''45'isMonoid_1084 (coe v0))))
 -- Data.Bool.Properties._.IsNearSemiring.zeroˡ
-d_zero'737'_1628 ::
+d_zero'737'_1630 ::
   MAlonzo.Code.Algebra.Structures.T_IsNearSemiring_1066 ->
   Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_zero'737'_1628 = erased
+d_zero'737'_1630 = erased
 -- Data.Bool.Properties._.IsNearring.*-assoc
-d_'42''45'assoc_1632 ::
-  MAlonzo.Code.Algebra.Structures.T_IsNearring_2368 ->
+d_'42''45'assoc_1634 ::
+  MAlonzo.Code.Algebra.Structures.T_IsNearring_2366 ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'42''45'assoc_1632 = erased
+d_'42''45'assoc_1634 = erased
 -- Data.Bool.Properties._.IsNearring.*-cong
-d_'42''45'cong_1634 ::
-  MAlonzo.Code.Algebra.Structures.T_IsNearring_2368 ->
+d_'42''45'cong_1636 ::
+  MAlonzo.Code.Algebra.Structures.T_IsNearring_2366 ->
   Bool ->
   Bool ->
   Bool ->
@@ -2552,24 +2667,24 @@ d_'42''45'cong_1634 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'42''45'cong_1634 = erased
+d_'42''45'cong_1636 = erased
 -- Data.Bool.Properties._.IsNearring.*-identity
-d_'42''45'identity_1640 ::
-  MAlonzo.Code.Algebra.Structures.T_IsNearring_2368 ->
+d_'42''45'identity_1642 ::
+  MAlonzo.Code.Algebra.Structures.T_IsNearring_2366 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'42''45'identity_1640 v0
+d_'42''45'identity_1642 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_'42''45'identity_2036
-      (coe MAlonzo.Code.Algebra.Structures.d_isQuasiring_2386 (coe v0))
+      (coe MAlonzo.Code.Algebra.Structures.d_isQuasiring_2384 (coe v0))
 -- Data.Bool.Properties._.IsNearring.assoc
-d_assoc_1652 ::
-  MAlonzo.Code.Algebra.Structures.T_IsNearring_2368 ->
+d_assoc_1654 ::
+  MAlonzo.Code.Algebra.Structures.T_IsNearring_2366 ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_assoc_1652 = erased
+d_assoc_1654 = erased
 -- Data.Bool.Properties._.IsNearring.∙-cong
-d_'8729''45'cong_1654 ::
-  MAlonzo.Code.Algebra.Structures.T_IsNearring_2368 ->
+d_'8729''45'cong_1656 ::
+  MAlonzo.Code.Algebra.Structures.T_IsNearring_2366 ->
   Bool ->
   Bool ->
   Bool ->
@@ -2577,67 +2692,67 @@ d_'8729''45'cong_1654 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8729''45'cong_1654 = erased
+d_'8729''45'cong_1656 = erased
 -- Data.Bool.Properties._.IsNearring.identity
-d_identity_1660 ::
-  MAlonzo.Code.Algebra.Structures.T_IsNearring_2368 ->
+d_identity_1662 ::
+  MAlonzo.Code.Algebra.Structures.T_IsNearring_2366 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_identity_1660 v0
+d_identity_1662 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_identity_616
       (coe
          MAlonzo.Code.Algebra.Structures.d_'43''45'isMonoid_2030
-         (coe MAlonzo.Code.Algebra.Structures.d_isQuasiring_2386 (coe v0)))
+         (coe MAlonzo.Code.Algebra.Structures.d_isQuasiring_2384 (coe v0)))
 -- Data.Bool.Properties._.IsNearring.+-inverse
-d_'43''45'inverse_1666 ::
-  MAlonzo.Code.Algebra.Structures.T_IsNearring_2368 ->
+d_'43''45'inverse_1668 ::
+  MAlonzo.Code.Algebra.Structures.T_IsNearring_2366 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'43''45'inverse_1666 v0
+d_'43''45'inverse_1668 v0
   = coe
-      MAlonzo.Code.Algebra.Structures.d_'43''45'inverse_2388 (coe v0)
+      MAlonzo.Code.Algebra.Structures.d_'43''45'inverse_2386 (coe v0)
 -- Data.Bool.Properties._.IsNearring.isMagma
-d_isMagma_1672 ::
-  MAlonzo.Code.Algebra.Structures.T_IsNearring_2368 ->
+d_isMagma_1674 ::
+  MAlonzo.Code.Algebra.Structures.T_IsNearring_2366 ->
   MAlonzo.Code.Algebra.Structures.T_IsMagma_144
-d_isMagma_1672 v0
+d_isMagma_1674 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isMagma_448
       (coe
          MAlonzo.Code.Algebra.Structures.d_isSemigroup_614
          (coe
             MAlonzo.Code.Algebra.Structures.d_'43''45'isMonoid_2030
-            (coe MAlonzo.Code.Algebra.Structures.d_isQuasiring_2386 (coe v0))))
+            (coe MAlonzo.Code.Algebra.Structures.d_isQuasiring_2384 (coe v0))))
 -- Data.Bool.Properties._.IsNearring.+-isMonoid
-d_'43''45'isMonoid_1674 ::
-  MAlonzo.Code.Algebra.Structures.T_IsNearring_2368 ->
+d_'43''45'isMonoid_1676 ::
+  MAlonzo.Code.Algebra.Structures.T_IsNearring_2366 ->
   MAlonzo.Code.Algebra.Structures.T_IsMonoid_604
-d_'43''45'isMonoid_1674 v0
+d_'43''45'isMonoid_1676 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_'43''45'isMonoid_2030
-      (coe MAlonzo.Code.Algebra.Structures.d_isQuasiring_2386 (coe v0))
+      (coe MAlonzo.Code.Algebra.Structures.d_isQuasiring_2384 (coe v0))
 -- Data.Bool.Properties._.IsNearring.isSemigroup
-d_isSemigroup_1676 ::
-  MAlonzo.Code.Algebra.Structures.T_IsNearring_2368 ->
+d_isSemigroup_1678 ::
+  MAlonzo.Code.Algebra.Structures.T_IsNearring_2366 ->
   MAlonzo.Code.Algebra.Structures.T_IsSemigroup_440
-d_isSemigroup_1676 v0
+d_isSemigroup_1678 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isSemigroup_614
       (coe
          MAlonzo.Code.Algebra.Structures.d_'43''45'isMonoid_2030
-         (coe MAlonzo.Code.Algebra.Structures.d_isQuasiring_2386 (coe v0)))
+         (coe MAlonzo.Code.Algebra.Structures.d_isQuasiring_2384 (coe v0)))
 -- Data.Bool.Properties._.IsNearring.distrib
-d_distrib_1680 ::
-  MAlonzo.Code.Algebra.Structures.T_IsNearring_2368 ->
+d_distrib_1682 ::
+  MAlonzo.Code.Algebra.Structures.T_IsNearring_2366 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_distrib_1680 v0
+d_distrib_1682 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_distrib_2038
-      (coe MAlonzo.Code.Algebra.Structures.d_isQuasiring_2386 (coe v0))
+      (coe MAlonzo.Code.Algebra.Structures.d_isQuasiring_2384 (coe v0))
 -- Data.Bool.Properties._.IsNearring.isEquivalence
-d_isEquivalence_1690 ::
-  MAlonzo.Code.Algebra.Structures.T_IsNearring_2368 ->
+d_isEquivalence_1692 ::
+  MAlonzo.Code.Algebra.Structures.T_IsNearring_2366 ->
   MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
-d_isEquivalence_1690 v0
+d_isEquivalence_1692 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isEquivalence_152
       (coe
@@ -2647,32 +2762,32 @@ d_isEquivalence_1690 v0
             (coe
                MAlonzo.Code.Algebra.Structures.d_'43''45'isMonoid_2030
                (coe
-                  MAlonzo.Code.Algebra.Structures.d_isQuasiring_2386 (coe v0)))))
+                  MAlonzo.Code.Algebra.Structures.d_isQuasiring_2384 (coe v0)))))
 -- Data.Bool.Properties._.IsNearring.isQuasiring
-d_isQuasiring_1694 ::
-  MAlonzo.Code.Algebra.Structures.T_IsNearring_2368 ->
+d_isQuasiring_1696 ::
+  MAlonzo.Code.Algebra.Structures.T_IsNearring_2366 ->
   MAlonzo.Code.Algebra.Structures.T_IsQuasiring_2008
-d_isQuasiring_1694 v0
-  = coe MAlonzo.Code.Algebra.Structures.d_isQuasiring_2386 (coe v0)
+d_isQuasiring_1696 v0
+  = coe MAlonzo.Code.Algebra.Structures.d_isQuasiring_2384 (coe v0)
 -- Data.Bool.Properties._.IsNearring.zero
-d_zero_1706 ::
-  MAlonzo.Code.Algebra.Structures.T_IsNearring_2368 ->
+d_zero_1708 ::
+  MAlonzo.Code.Algebra.Structures.T_IsNearring_2366 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_zero_1706 v0
+d_zero_1708 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_zero_2040
-      (coe MAlonzo.Code.Algebra.Structures.d_isQuasiring_2386 (coe v0))
+      (coe MAlonzo.Code.Algebra.Structures.d_isQuasiring_2384 (coe v0))
 -- Data.Bool.Properties._.IsNearring.⁻¹-cong
-d_'8315''185''45'cong_1712 ::
-  MAlonzo.Code.Algebra.Structures.T_IsNearring_2368 ->
+d_'8315''185''45'cong_1714 ::
+  MAlonzo.Code.Algebra.Structures.T_IsNearring_2366 ->
   Bool ->
   Bool ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8315''185''45'cong_1712 = erased
+d_'8315''185''45'cong_1714 = erased
 -- Data.Bool.Properties._.IsNonAssociativeRing.*-cong
-d_'42''45'cong_1718 ::
-  MAlonzo.Code.Algebra.Structures.T_IsNonAssociativeRing_2238 ->
+d_'42''45'cong_1720 ::
+  MAlonzo.Code.Algebra.Structures.T_IsNonAssociativeRing_2236 ->
   Bool ->
   Bool ->
   Bool ->
@@ -2680,28 +2795,28 @@ d_'42''45'cong_1718 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'42''45'cong_1718 = erased
+d_'42''45'cong_1720 = erased
 -- Data.Bool.Properties._.IsNonAssociativeRing.*-identity
-d_'42''45'identity_1724 ::
-  MAlonzo.Code.Algebra.Structures.T_IsNonAssociativeRing_2238 ->
+d_'42''45'identity_1726 ::
+  MAlonzo.Code.Algebra.Structures.T_IsNonAssociativeRing_2236 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'42''45'identity_1724 v0
+d_'42''45'identity_1726 v0
   = coe
-      MAlonzo.Code.Algebra.Structures.d_'42''45'identity_2264 (coe v0)
+      MAlonzo.Code.Algebra.Structures.d_'42''45'identity_2262 (coe v0)
 -- Data.Bool.Properties._.IsNonAssociativeRing.assoc
-d_assoc_1734 ::
-  MAlonzo.Code.Algebra.Structures.T_IsNonAssociativeRing_2238 ->
+d_assoc_1736 ::
+  MAlonzo.Code.Algebra.Structures.T_IsNonAssociativeRing_2236 ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_assoc_1734 = erased
+d_assoc_1736 = erased
 -- Data.Bool.Properties._.IsNonAssociativeRing.comm
-d_comm_1736 ::
-  MAlonzo.Code.Algebra.Structures.T_IsNonAssociativeRing_2238 ->
+d_comm_1738 ::
+  MAlonzo.Code.Algebra.Structures.T_IsNonAssociativeRing_2236 ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_comm_1736 = erased
+d_comm_1738 = erased
 -- Data.Bool.Properties._.IsNonAssociativeRing.∙-cong
-d_'8729''45'cong_1738 ::
-  MAlonzo.Code.Algebra.Structures.T_IsNonAssociativeRing_2238 ->
+d_'8729''45'cong_1740 ::
+  MAlonzo.Code.Algebra.Structures.T_IsNonAssociativeRing_2236 ->
   Bool ->
   Bool ->
   Bool ->
@@ -2709,12 +2824,12 @@ d_'8729''45'cong_1738 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8729''45'cong_1738 = erased
+d_'8729''45'cong_1740 = erased
 -- Data.Bool.Properties._.IsNonAssociativeRing.identity
-d_identity_1744 ::
-  MAlonzo.Code.Algebra.Structures.T_IsNonAssociativeRing_2238 ->
+d_identity_1746 ::
+  MAlonzo.Code.Algebra.Structures.T_IsNonAssociativeRing_2236 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_identity_1744 v0
+d_identity_1746 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_identity_616
       (coe
@@ -2722,31 +2837,31 @@ d_identity_1744 v0
          (coe
             MAlonzo.Code.Algebra.Structures.d_isGroup_992
             (coe
-               MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2260
+               MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2258
                (coe v0))))
 -- Data.Bool.Properties._.IsNonAssociativeRing.+-isAbelianGroup
-d_'43''45'isAbelianGroup_1750 ::
-  MAlonzo.Code.Algebra.Structures.T_IsNonAssociativeRing_2238 ->
+d_'43''45'isAbelianGroup_1752 ::
+  MAlonzo.Code.Algebra.Structures.T_IsNonAssociativeRing_2236 ->
   MAlonzo.Code.Algebra.Structures.T_IsAbelianGroup_980
-d_'43''45'isAbelianGroup_1750 v0
+d_'43''45'isAbelianGroup_1752 v0
   = coe
-      MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2260
+      MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2258
       (coe v0)
 -- Data.Bool.Properties._.IsNonAssociativeRing.isGroup
-d_isGroup_1758 ::
-  MAlonzo.Code.Algebra.Structures.T_IsNonAssociativeRing_2238 ->
+d_isGroup_1760 ::
+  MAlonzo.Code.Algebra.Structures.T_IsNonAssociativeRing_2236 ->
   MAlonzo.Code.Algebra.Structures.T_IsGroup_892
-d_isGroup_1758 v0
+d_isGroup_1760 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isGroup_992
       (coe
-         MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2260
+         MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2258
          (coe v0))
 -- Data.Bool.Properties._.IsNonAssociativeRing.isMagma
-d_isMagma_1764 ::
-  MAlonzo.Code.Algebra.Structures.T_IsNonAssociativeRing_2238 ->
+d_isMagma_1766 ::
+  MAlonzo.Code.Algebra.Structures.T_IsNonAssociativeRing_2236 ->
   MAlonzo.Code.Algebra.Structures.T_IsMagma_144
-d_isMagma_1764 v0
+d_isMagma_1766 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isMagma_448
       (coe
@@ -2756,25 +2871,25 @@ d_isMagma_1764 v0
             (coe
                MAlonzo.Code.Algebra.Structures.d_isGroup_992
                (coe
-                  MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2260
+                  MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2258
                   (coe v0)))))
 -- Data.Bool.Properties._.IsNonAssociativeRing.isMonoid
-d_isMonoid_1766 ::
-  MAlonzo.Code.Algebra.Structures.T_IsNonAssociativeRing_2238 ->
+d_isMonoid_1768 ::
+  MAlonzo.Code.Algebra.Structures.T_IsNonAssociativeRing_2236 ->
   MAlonzo.Code.Algebra.Structures.T_IsMonoid_604
-d_isMonoid_1766 v0
+d_isMonoid_1768 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isMonoid_906
       (coe
          MAlonzo.Code.Algebra.Structures.d_isGroup_992
          (coe
-            MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2260
+            MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2258
             (coe v0)))
 -- Data.Bool.Properties._.IsNonAssociativeRing.isSemigroup
-d_isSemigroup_1768 ::
-  MAlonzo.Code.Algebra.Structures.T_IsNonAssociativeRing_2238 ->
+d_isSemigroup_1770 ::
+  MAlonzo.Code.Algebra.Structures.T_IsNonAssociativeRing_2236 ->
   MAlonzo.Code.Algebra.Structures.T_IsSemigroup_440
-d_isSemigroup_1768 v0
+d_isSemigroup_1770 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isSemigroup_614
       (coe
@@ -2782,39 +2897,39 @@ d_isSemigroup_1768 v0
          (coe
             MAlonzo.Code.Algebra.Structures.d_isGroup_992
             (coe
-               MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2260
+               MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2258
                (coe v0))))
 -- Data.Bool.Properties._.IsNonAssociativeRing.⁻¹-cong
-d_'8315''185''45'cong_1772 ::
-  MAlonzo.Code.Algebra.Structures.T_IsNonAssociativeRing_2238 ->
+d_'8315''185''45'cong_1774 ::
+  MAlonzo.Code.Algebra.Structures.T_IsNonAssociativeRing_2236 ->
   Bool ->
   Bool ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8315''185''45'cong_1772 = erased
+d_'8315''185''45'cong_1774 = erased
 -- Data.Bool.Properties._.IsNonAssociativeRing.inverse
-d_inverse_1774 ::
-  MAlonzo.Code.Algebra.Structures.T_IsNonAssociativeRing_2238 ->
+d_inverse_1776 ::
+  MAlonzo.Code.Algebra.Structures.T_IsNonAssociativeRing_2236 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_inverse_1774 v0
+d_inverse_1776 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_inverse_908
       (coe
          MAlonzo.Code.Algebra.Structures.d_isGroup_992
          (coe
-            MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2260
+            MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2258
             (coe v0)))
 -- Data.Bool.Properties._.IsNonAssociativeRing.distrib
-d_distrib_1780 ::
-  MAlonzo.Code.Algebra.Structures.T_IsNonAssociativeRing_2238 ->
+d_distrib_1782 ::
+  MAlonzo.Code.Algebra.Structures.T_IsNonAssociativeRing_2236 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_distrib_1780 v0
-  = coe MAlonzo.Code.Algebra.Structures.d_distrib_2266 (coe v0)
+d_distrib_1782 v0
+  = coe MAlonzo.Code.Algebra.Structures.d_distrib_2264 (coe v0)
 -- Data.Bool.Properties._.IsNonAssociativeRing.isEquivalence
-d_isEquivalence_1786 ::
-  MAlonzo.Code.Algebra.Structures.T_IsNonAssociativeRing_2238 ->
+d_isEquivalence_1788 ::
+  MAlonzo.Code.Algebra.Structures.T_IsNonAssociativeRing_2236 ->
   MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
-d_isEquivalence_1786 v0
+d_isEquivalence_1788 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isEquivalence_152
       (coe
@@ -2826,16 +2941,16 @@ d_isEquivalence_1786 v0
                (coe
                   MAlonzo.Code.Algebra.Structures.d_isGroup_992
                   (coe
-                     MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2260
+                     MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2258
                      (coe v0))))))
 -- Data.Bool.Properties._.IsNonAssociativeRing.zero
-d_zero_1804 ::
-  MAlonzo.Code.Algebra.Structures.T_IsNonAssociativeRing_2238 ->
+d_zero_1806 ::
+  MAlonzo.Code.Algebra.Structures.T_IsNonAssociativeRing_2236 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_zero_1804 v0
-  = coe MAlonzo.Code.Algebra.Structures.d_zero_2268 (coe v0)
+d_zero_1806 v0
+  = coe MAlonzo.Code.Algebra.Structures.d_zero_2266 (coe v0)
 -- Data.Bool.Properties._.IsQuasigroup.//-cong
-d_'47''47''45'cong_1812 ::
+d_'47''47''45'cong_1814 ::
   MAlonzo.Code.Algebra.Structures.T_IsQuasigroup_2772 ->
   Bool ->
   Bool ->
@@ -2844,9 +2959,9 @@ d_'47''47''45'cong_1812 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'47''47''45'cong_1812 = erased
+d_'47''47''45'cong_1814 = erased
 -- Data.Bool.Properties._.IsQuasigroup.\\-cong
-d_'92''92''45'cong_1818 ::
+d_'92''92''45'cong_1820 ::
   MAlonzo.Code.Algebra.Structures.T_IsQuasigroup_2772 ->
   Bool ->
   Bool ->
@@ -2855,35 +2970,35 @@ d_'92''92''45'cong_1818 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'92''92''45'cong_1818 = erased
+d_'92''92''45'cong_1820 = erased
 -- Data.Bool.Properties._.IsQuasigroup.isEquivalence
-d_isEquivalence_1824 ::
+d_isEquivalence_1826 ::
   MAlonzo.Code.Algebra.Structures.T_IsQuasigroup_2772 ->
   MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
-d_isEquivalence_1824 v0
+d_isEquivalence_1826 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isEquivalence_152
       (coe MAlonzo.Code.Algebra.Structures.d_isMagma_2790 (coe v0))
 -- Data.Bool.Properties._.IsQuasigroup.isMagma
-d_isMagma_1826 ::
+d_isMagma_1828 ::
   MAlonzo.Code.Algebra.Structures.T_IsQuasigroup_2772 ->
   MAlonzo.Code.Algebra.Structures.T_IsMagma_144
-d_isMagma_1826 v0
+d_isMagma_1828 v0
   = coe MAlonzo.Code.Algebra.Structures.d_isMagma_2790 (coe v0)
 -- Data.Bool.Properties._.IsQuasigroup.leftDivides
-d_leftDivides_1830 ::
+d_leftDivides_1832 ::
   MAlonzo.Code.Algebra.Structures.T_IsQuasigroup_2772 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_leftDivides_1830 v0
+d_leftDivides_1832 v0
   = coe MAlonzo.Code.Algebra.Structures.d_leftDivides_2796 (coe v0)
 -- Data.Bool.Properties._.IsQuasigroup.rightDivides
-d_rightDivides_1840 ::
+d_rightDivides_1842 ::
   MAlonzo.Code.Algebra.Structures.T_IsQuasigroup_2772 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_rightDivides_1840 v0
+d_rightDivides_1842 v0
   = coe MAlonzo.Code.Algebra.Structures.d_rightDivides_2798 (coe v0)
 -- Data.Bool.Properties._.IsQuasigroup.∙-cong
-d_'8729''45'cong_1852 ::
+d_'8729''45'cong_1854 ::
   MAlonzo.Code.Algebra.Structures.T_IsQuasigroup_2772 ->
   Bool ->
   Bool ->
@@ -2892,15 +3007,15 @@ d_'8729''45'cong_1852 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8729''45'cong_1852 = erased
+d_'8729''45'cong_1854 = erased
 -- Data.Bool.Properties._.IsQuasiring.*-assoc
-d_'42''45'assoc_1860 ::
+d_'42''45'assoc_1862 ::
   MAlonzo.Code.Algebra.Structures.T_IsQuasiring_2008 ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'42''45'assoc_1860 = erased
+d_'42''45'assoc_1862 = erased
 -- Data.Bool.Properties._.IsQuasiring.*-cong
-d_'42''45'cong_1862 ::
+d_'42''45'cong_1864 ::
   MAlonzo.Code.Algebra.Structures.T_IsQuasiring_2008 ->
   Bool ->
   Bool ->
@@ -2909,22 +3024,22 @@ d_'42''45'cong_1862 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'42''45'cong_1862 = erased
+d_'42''45'cong_1864 = erased
 -- Data.Bool.Properties._.IsQuasiring.*-identity
-d_'42''45'identity_1868 ::
+d_'42''45'identity_1870 ::
   MAlonzo.Code.Algebra.Structures.T_IsQuasiring_2008 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'42''45'identity_1868 v0
+d_'42''45'identity_1870 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_'42''45'identity_2036 (coe v0)
 -- Data.Bool.Properties._.IsQuasiring.assoc
-d_assoc_1880 ::
+d_assoc_1882 ::
   MAlonzo.Code.Algebra.Structures.T_IsQuasiring_2008 ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_assoc_1880 = erased
+d_assoc_1882 = erased
 -- Data.Bool.Properties._.IsQuasiring.∙-cong
-d_'8729''45'cong_1882 ::
+d_'8729''45'cong_1884 ::
   MAlonzo.Code.Algebra.Structures.T_IsQuasiring_2008 ->
   Bool ->
   Bool ->
@@ -2933,21 +3048,21 @@ d_'8729''45'cong_1882 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8729''45'cong_1882 = erased
+d_'8729''45'cong_1884 = erased
 -- Data.Bool.Properties._.IsQuasiring.identity
-d_identity_1888 ::
+d_identity_1890 ::
   MAlonzo.Code.Algebra.Structures.T_IsQuasiring_2008 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_identity_1888 v0
+d_identity_1890 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_identity_616
       (coe
          MAlonzo.Code.Algebra.Structures.d_'43''45'isMonoid_2030 (coe v0))
 -- Data.Bool.Properties._.IsQuasiring.isMagma
-d_isMagma_1894 ::
+d_isMagma_1896 ::
   MAlonzo.Code.Algebra.Structures.T_IsQuasiring_2008 ->
   MAlonzo.Code.Algebra.Structures.T_IsMagma_144
-d_isMagma_1894 v0
+d_isMagma_1896 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isMagma_448
       (coe
@@ -2955,32 +3070,32 @@ d_isMagma_1894 v0
          (coe
             MAlonzo.Code.Algebra.Structures.d_'43''45'isMonoid_2030 (coe v0)))
 -- Data.Bool.Properties._.IsQuasiring.+-isMonoid
-d_'43''45'isMonoid_1896 ::
+d_'43''45'isMonoid_1898 ::
   MAlonzo.Code.Algebra.Structures.T_IsQuasiring_2008 ->
   MAlonzo.Code.Algebra.Structures.T_IsMonoid_604
-d_'43''45'isMonoid_1896 v0
+d_'43''45'isMonoid_1898 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_'43''45'isMonoid_2030 (coe v0)
 -- Data.Bool.Properties._.IsQuasiring.isSemigroup
-d_isSemigroup_1898 ::
+d_isSemigroup_1900 ::
   MAlonzo.Code.Algebra.Structures.T_IsQuasiring_2008 ->
   MAlonzo.Code.Algebra.Structures.T_IsSemigroup_440
-d_isSemigroup_1898 v0
+d_isSemigroup_1900 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isSemigroup_614
       (coe
          MAlonzo.Code.Algebra.Structures.d_'43''45'isMonoid_2030 (coe v0))
 -- Data.Bool.Properties._.IsQuasiring.distrib
-d_distrib_1902 ::
+d_distrib_1904 ::
   MAlonzo.Code.Algebra.Structures.T_IsQuasiring_2008 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_distrib_1902 v0
+d_distrib_1904 v0
   = coe MAlonzo.Code.Algebra.Structures.d_distrib_2038 (coe v0)
 -- Data.Bool.Properties._.IsQuasiring.isEquivalence
-d_isEquivalence_1912 ::
+d_isEquivalence_1914 ::
   MAlonzo.Code.Algebra.Structures.T_IsQuasiring_2008 ->
   MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
-d_isEquivalence_1912 v0
+d_isEquivalence_1914 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isEquivalence_152
       (coe
@@ -2990,13 +3105,13 @@ d_isEquivalence_1912 v0
             (coe
                MAlonzo.Code.Algebra.Structures.d_'43''45'isMonoid_2030 (coe v0))))
 -- Data.Bool.Properties._.IsQuasiring.zero
-d_zero_1926 ::
+d_zero_1928 ::
   MAlonzo.Code.Algebra.Structures.T_IsQuasiring_2008 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_zero_1926 v0
+d_zero_1928 v0
   = coe MAlonzo.Code.Algebra.Structures.d_zero_2040 (coe v0)
 -- Data.Bool.Properties._.IsRightBolLoop.//-cong
-d_'47''47''45'cong_1934 ::
+d_'47''47''45'cong_1936 ::
   MAlonzo.Code.Algebra.Structures.T_IsRightBolLoop_3014 ->
   Bool ->
   Bool ->
@@ -3005,9 +3120,9 @@ d_'47''47''45'cong_1934 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'47''47''45'cong_1934 = erased
+d_'47''47''45'cong_1936 = erased
 -- Data.Bool.Properties._.IsRightBolLoop.\\-cong
-d_'92''92''45'cong_1940 ::
+d_'92''92''45'cong_1942 ::
   MAlonzo.Code.Algebra.Structures.T_IsRightBolLoop_3014 ->
   Bool ->
   Bool ->
@@ -3016,20 +3131,20 @@ d_'92''92''45'cong_1940 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'92''92''45'cong_1940 = erased
+d_'92''92''45'cong_1942 = erased
 -- Data.Bool.Properties._.IsRightBolLoop.identity
-d_identity_1946 ::
+d_identity_1948 ::
   MAlonzo.Code.Algebra.Structures.T_IsRightBolLoop_3014 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_identity_1946 v0
+d_identity_1948 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_identity_2870
       (coe MAlonzo.Code.Algebra.Structures.d_isLoop_3028 (coe v0))
 -- Data.Bool.Properties._.IsRightBolLoop.isEquivalence
-d_isEquivalence_1952 ::
+d_isEquivalence_1954 ::
   MAlonzo.Code.Algebra.Structures.T_IsRightBolLoop_3014 ->
   MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
-d_isEquivalence_1952 v0
+d_isEquivalence_1954 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isEquivalence_152
       (coe
@@ -3038,57 +3153,57 @@ d_isEquivalence_1952 v0
             MAlonzo.Code.Algebra.Structures.d_isQuasigroup_2868
             (coe MAlonzo.Code.Algebra.Structures.d_isLoop_3028 (coe v0))))
 -- Data.Bool.Properties._.IsRightBolLoop.isLoop
-d_isLoop_1954 ::
+d_isLoop_1956 ::
   MAlonzo.Code.Algebra.Structures.T_IsRightBolLoop_3014 ->
   MAlonzo.Code.Algebra.Structures.T_IsLoop_2854
-d_isLoop_1954 v0
+d_isLoop_1956 v0
   = coe MAlonzo.Code.Algebra.Structures.d_isLoop_3028 (coe v0)
 -- Data.Bool.Properties._.IsRightBolLoop.isMagma
-d_isMagma_1956 ::
+d_isMagma_1958 ::
   MAlonzo.Code.Algebra.Structures.T_IsRightBolLoop_3014 ->
   MAlonzo.Code.Algebra.Structures.T_IsMagma_144
-d_isMagma_1956 v0
+d_isMagma_1958 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isMagma_2790
       (coe
          MAlonzo.Code.Algebra.Structures.d_isQuasigroup_2868
          (coe MAlonzo.Code.Algebra.Structures.d_isLoop_3028 (coe v0)))
 -- Data.Bool.Properties._.IsRightBolLoop.isQuasigroup
-d_isQuasigroup_1960 ::
+d_isQuasigroup_1962 ::
   MAlonzo.Code.Algebra.Structures.T_IsRightBolLoop_3014 ->
   MAlonzo.Code.Algebra.Structures.T_IsQuasigroup_2772
-d_isQuasigroup_1960 v0
+d_isQuasigroup_1962 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isQuasigroup_2868
       (coe MAlonzo.Code.Algebra.Structures.d_isLoop_3028 (coe v0))
 -- Data.Bool.Properties._.IsRightBolLoop.leftDivides
-d_leftDivides_1962 ::
+d_leftDivides_1964 ::
   MAlonzo.Code.Algebra.Structures.T_IsRightBolLoop_3014 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_leftDivides_1962 v0
+d_leftDivides_1964 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_leftDivides_2796
       (coe
          MAlonzo.Code.Algebra.Structures.d_isQuasigroup_2868
          (coe MAlonzo.Code.Algebra.Structures.d_isLoop_3028 (coe v0)))
 -- Data.Bool.Properties._.IsRightBolLoop.rightBol
-d_rightBol_1972 ::
+d_rightBol_1974 ::
   MAlonzo.Code.Algebra.Structures.T_IsRightBolLoop_3014 ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_rightBol_1972 = erased
+d_rightBol_1974 = erased
 -- Data.Bool.Properties._.IsRightBolLoop.rightDivides
-d_rightDivides_1974 ::
+d_rightDivides_1976 ::
   MAlonzo.Code.Algebra.Structures.T_IsRightBolLoop_3014 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_rightDivides_1974 v0
+d_rightDivides_1976 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_rightDivides_2798
       (coe
          MAlonzo.Code.Algebra.Structures.d_isQuasigroup_2868
          (coe MAlonzo.Code.Algebra.Structures.d_isLoop_3028 (coe v0)))
 -- Data.Bool.Properties._.IsRightBolLoop.∙-cong
-d_'8729''45'cong_1986 ::
+d_'8729''45'cong_1988 ::
   MAlonzo.Code.Algebra.Structures.T_IsRightBolLoop_3014 ->
   Bool ->
   Bool ->
@@ -3097,16 +3212,16 @@ d_'8729''45'cong_1986 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8729''45'cong_1986 = erased
+d_'8729''45'cong_1988 = erased
 -- Data.Bool.Properties._.IsRing.*-assoc
-d_'42''45'assoc_1996 ::
-  MAlonzo.Code.Algebra.Structures.T_IsRing_2480 ->
+d_'42''45'assoc_1998 ::
+  MAlonzo.Code.Algebra.Structures.T_IsRing_2478 ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'42''45'assoc_1996 = erased
+d_'42''45'assoc_1998 = erased
 -- Data.Bool.Properties._.IsRing.*-cong
-d_'42''45'cong_1998 ::
-  MAlonzo.Code.Algebra.Structures.T_IsRing_2480 ->
+d_'42''45'cong_2000 ::
+  MAlonzo.Code.Algebra.Structures.T_IsRing_2478 ->
   Bool ->
   Bool ->
   Bool ->
@@ -3114,28 +3229,43 @@ d_'42''45'cong_1998 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'42''45'cong_1998 = erased
+d_'42''45'cong_2000 = erased
 -- Data.Bool.Properties._.IsRing.*-identity
-d_'42''45'identity_2004 ::
-  MAlonzo.Code.Algebra.Structures.T_IsRing_2480 ->
+d_'42''45'identity_2006 ::
+  MAlonzo.Code.Algebra.Structures.T_IsRing_2478 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'42''45'identity_2004 v0
+d_'42''45'identity_2006 v0
   = coe
-      MAlonzo.Code.Algebra.Structures.d_'42''45'identity_2510 (coe v0)
+      MAlonzo.Code.Algebra.Structures.d_'42''45'identity_2506 (coe v0)
 -- Data.Bool.Properties._.IsRing.assoc
-d_assoc_2016 ::
-  MAlonzo.Code.Algebra.Structures.T_IsRing_2480 ->
+d_assoc_2018 ::
+  (Bool -> Bool -> Bool) ->
+  (Bool -> Bool -> Bool) ->
+  (Bool -> Bool) ->
+  Bool ->
+  Bool ->
+  MAlonzo.Code.Algebra.Structures.T_IsRing_2478 ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_assoc_2016 = erased
+d_assoc_2018 = erased
 -- Data.Bool.Properties._.IsRing.comm
-d_comm_2018 ::
-  MAlonzo.Code.Algebra.Structures.T_IsRing_2480 ->
+d_comm_2020 ::
+  (Bool -> Bool -> Bool) ->
+  (Bool -> Bool -> Bool) ->
+  (Bool -> Bool) ->
+  Bool ->
+  Bool ->
+  MAlonzo.Code.Algebra.Structures.T_IsRing_2478 ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_comm_2018 = erased
+d_comm_2020 = erased
 -- Data.Bool.Properties._.IsRing.∙-cong
-d_'8729''45'cong_2020 ::
-  MAlonzo.Code.Algebra.Structures.T_IsRing_2480 ->
+d_'8729''45'cong_2022 ::
+  (Bool -> Bool -> Bool) ->
+  (Bool -> Bool -> Bool) ->
+  (Bool -> Bool) ->
+  Bool ->
+  Bool ->
+  MAlonzo.Code.Algebra.Structures.T_IsRing_2478 ->
   Bool ->
   Bool ->
   Bool ->
@@ -3143,12 +3273,21 @@ d_'8729''45'cong_2020 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8729''45'cong_2020 = erased
+d_'8729''45'cong_2022 = erased
 -- Data.Bool.Properties._.IsRing.identity
-d_identity_2026 ::
-  MAlonzo.Code.Algebra.Structures.T_IsRing_2480 ->
+d_identity_2028 ::
+  (Bool -> Bool -> Bool) ->
+  (Bool -> Bool -> Bool) ->
+  (Bool -> Bool) ->
+  Bool ->
+  Bool ->
+  MAlonzo.Code.Algebra.Structures.T_IsRing_2478 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_identity_2026 v0
+d_identity_2028 ~v0 ~v1 ~v2 ~v3 ~v4 v5 = du_identity_2028 v5
+du_identity_2028 ::
+  MAlonzo.Code.Algebra.Structures.T_IsRing_2478 ->
+  MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
+du_identity_2028 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_identity_616
       (coe
@@ -3156,31 +3295,49 @@ d_identity_2026 v0
          (coe
             MAlonzo.Code.Algebra.Structures.d_isGroup_992
             (coe
-               MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2504
+               MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2500
                (coe v0))))
 -- Data.Bool.Properties._.IsRing.+-isAbelianGroup
-d_'43''45'isAbelianGroup_2032 ::
-  MAlonzo.Code.Algebra.Structures.T_IsRing_2480 ->
+d_'43''45'isAbelianGroup_2034 ::
+  MAlonzo.Code.Algebra.Structures.T_IsRing_2478 ->
   MAlonzo.Code.Algebra.Structures.T_IsAbelianGroup_980
-d_'43''45'isAbelianGroup_2032 v0
+d_'43''45'isAbelianGroup_2034 v0
   = coe
-      MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2504
+      MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2500
       (coe v0)
 -- Data.Bool.Properties._.IsRing.isGroup
-d_isGroup_2040 ::
-  MAlonzo.Code.Algebra.Structures.T_IsRing_2480 ->
+d_isGroup_2042 ::
+  (Bool -> Bool -> Bool) ->
+  (Bool -> Bool -> Bool) ->
+  (Bool -> Bool) ->
+  Bool ->
+  Bool ->
+  MAlonzo.Code.Algebra.Structures.T_IsRing_2478 ->
   MAlonzo.Code.Algebra.Structures.T_IsGroup_892
-d_isGroup_2040 v0
+d_isGroup_2042 ~v0 ~v1 ~v2 ~v3 ~v4 v5 = du_isGroup_2042 v5
+du_isGroup_2042 ::
+  MAlonzo.Code.Algebra.Structures.T_IsRing_2478 ->
+  MAlonzo.Code.Algebra.Structures.T_IsGroup_892
+du_isGroup_2042 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isGroup_992
       (coe
-         MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2504
+         MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2500
          (coe v0))
 -- Data.Bool.Properties._.IsRing.isMagma
-d_isMagma_2046 ::
-  MAlonzo.Code.Algebra.Structures.T_IsRing_2480 ->
+d_isMagma_2048 ::
+  (Bool -> Bool -> Bool) ->
+  (Bool -> Bool -> Bool) ->
+  (Bool -> Bool) ->
+  Bool ->
+  Bool ->
+  MAlonzo.Code.Algebra.Structures.T_IsRing_2478 ->
   MAlonzo.Code.Algebra.Structures.T_IsMagma_144
-d_isMagma_2046 v0
+d_isMagma_2048 ~v0 ~v1 ~v2 ~v3 ~v4 v5 = du_isMagma_2048 v5
+du_isMagma_2048 ::
+  MAlonzo.Code.Algebra.Structures.T_IsRing_2478 ->
+  MAlonzo.Code.Algebra.Structures.T_IsMagma_144
+du_isMagma_2048 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isMagma_448
       (coe
@@ -3190,25 +3347,43 @@ d_isMagma_2046 v0
             (coe
                MAlonzo.Code.Algebra.Structures.d_isGroup_992
                (coe
-                  MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2504
+                  MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2500
                   (coe v0)))))
 -- Data.Bool.Properties._.IsRing.isMonoid
-d_isMonoid_2048 ::
-  MAlonzo.Code.Algebra.Structures.T_IsRing_2480 ->
+d_isMonoid_2050 ::
+  (Bool -> Bool -> Bool) ->
+  (Bool -> Bool -> Bool) ->
+  (Bool -> Bool) ->
+  Bool ->
+  Bool ->
+  MAlonzo.Code.Algebra.Structures.T_IsRing_2478 ->
   MAlonzo.Code.Algebra.Structures.T_IsMonoid_604
-d_isMonoid_2048 v0
+d_isMonoid_2050 ~v0 ~v1 ~v2 ~v3 ~v4 v5 = du_isMonoid_2050 v5
+du_isMonoid_2050 ::
+  MAlonzo.Code.Algebra.Structures.T_IsRing_2478 ->
+  MAlonzo.Code.Algebra.Structures.T_IsMonoid_604
+du_isMonoid_2050 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isMonoid_906
       (coe
          MAlonzo.Code.Algebra.Structures.d_isGroup_992
          (coe
-            MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2504
+            MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2500
             (coe v0)))
 -- Data.Bool.Properties._.IsRing.isSemigroup
-d_isSemigroup_2050 ::
-  MAlonzo.Code.Algebra.Structures.T_IsRing_2480 ->
+d_isSemigroup_2052 ::
+  (Bool -> Bool -> Bool) ->
+  (Bool -> Bool -> Bool) ->
+  (Bool -> Bool) ->
+  Bool ->
+  Bool ->
+  MAlonzo.Code.Algebra.Structures.T_IsRing_2478 ->
   MAlonzo.Code.Algebra.Structures.T_IsSemigroup_440
-d_isSemigroup_2050 v0
+d_isSemigroup_2052 ~v0 ~v1 ~v2 ~v3 ~v4 v5 = du_isSemigroup_2052 v5
+du_isSemigroup_2052 ::
+  MAlonzo.Code.Algebra.Structures.T_IsRing_2478 ->
+  MAlonzo.Code.Algebra.Structures.T_IsSemigroup_440
+du_isSemigroup_2052 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isSemigroup_614
       (coe
@@ -3216,39 +3391,63 @@ d_isSemigroup_2050 v0
          (coe
             MAlonzo.Code.Algebra.Structures.d_isGroup_992
             (coe
-               MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2504
+               MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2500
                (coe v0))))
 -- Data.Bool.Properties._.IsRing.⁻¹-cong
-d_'8315''185''45'cong_2054 ::
-  MAlonzo.Code.Algebra.Structures.T_IsRing_2480 ->
+d_'8315''185''45'cong_2056 ::
+  (Bool -> Bool -> Bool) ->
+  (Bool -> Bool -> Bool) ->
+  (Bool -> Bool) ->
+  Bool ->
+  Bool ->
+  MAlonzo.Code.Algebra.Structures.T_IsRing_2478 ->
   Bool ->
   Bool ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8315''185''45'cong_2054 = erased
+d_'8315''185''45'cong_2056 = erased
 -- Data.Bool.Properties._.IsRing.inverse
-d_inverse_2056 ::
-  MAlonzo.Code.Algebra.Structures.T_IsRing_2480 ->
+d_inverse_2058 ::
+  (Bool -> Bool -> Bool) ->
+  (Bool -> Bool -> Bool) ->
+  (Bool -> Bool) ->
+  Bool ->
+  Bool ->
+  MAlonzo.Code.Algebra.Structures.T_IsRing_2478 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_inverse_2056 v0
+d_inverse_2058 ~v0 ~v1 ~v2 ~v3 ~v4 v5 = du_inverse_2058 v5
+du_inverse_2058 ::
+  MAlonzo.Code.Algebra.Structures.T_IsRing_2478 ->
+  MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
+du_inverse_2058 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_inverse_908
       (coe
          MAlonzo.Code.Algebra.Structures.d_isGroup_992
          (coe
-            MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2504
+            MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2500
             (coe v0)))
 -- Data.Bool.Properties._.IsRing.distrib
-d_distrib_2062 ::
-  MAlonzo.Code.Algebra.Structures.T_IsRing_2480 ->
+d_distrib_2064 ::
+  MAlonzo.Code.Algebra.Structures.T_IsRing_2478 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_distrib_2062 v0
-  = coe MAlonzo.Code.Algebra.Structures.d_distrib_2512 (coe v0)
+d_distrib_2064 v0
+  = coe MAlonzo.Code.Algebra.Structures.d_distrib_2508 (coe v0)
 -- Data.Bool.Properties._.IsRing.isEquivalence
-d_isEquivalence_2068 ::
-  MAlonzo.Code.Algebra.Structures.T_IsRing_2480 ->
+d_isEquivalence_2070 ::
+  (Bool -> Bool -> Bool) ->
+  (Bool -> Bool -> Bool) ->
+  (Bool -> Bool) ->
+  Bool ->
+  Bool ->
+  MAlonzo.Code.Algebra.Structures.T_IsRing_2478 ->
   MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
-d_isEquivalence_2068 v0
+d_isEquivalence_2070 ~v0 ~v1 ~v2 ~v3 ~v4 v5
+  = du_isEquivalence_2070 v5
+du_isEquivalence_2070 ::
+  MAlonzo.Code.Algebra.Structures.T_IsRing_2478 ->
+  MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
+du_isEquivalence_2070 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isEquivalence_152
       (coe
@@ -3260,22 +3459,27 @@ d_isEquivalence_2068 v0
                (coe
                   MAlonzo.Code.Algebra.Structures.d_isGroup_992
                   (coe
-                     MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2504
+                     MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2500
                      (coe v0))))))
--- Data.Bool.Properties._.IsRing.zero
-d_zero_2094 ::
-  MAlonzo.Code.Algebra.Structures.T_IsRing_2480 ->
-  MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_zero_2094 v0
-  = coe MAlonzo.Code.Algebra.Structures.d_zero_2514 (coe v0)
+-- Data.Bool.Properties._.IsRing.isRingWithoutOne
+d_isRingWithoutOne_2076 ::
+  (Bool -> Bool -> Bool) ->
+  (Bool -> Bool -> Bool) ->
+  (Bool -> Bool) ->
+  Bool ->
+  Bool ->
+  MAlonzo.Code.Algebra.Structures.T_IsRing_2478 ->
+  MAlonzo.Code.Algebra.Structures.T_IsRingWithoutOne_2114
+d_isRingWithoutOne_2076 v0 v1 v2 v3 v4 v5
+  = coe MAlonzo.Code.Algebra.Structures.du_isRingWithoutOne_2510 v5
 -- Data.Bool.Properties._.IsRingWithoutOne.*-assoc
-d_'42''45'assoc_2104 ::
+d_'42''45'assoc_2108 ::
   MAlonzo.Code.Algebra.Structures.T_IsRingWithoutOne_2114 ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'42''45'assoc_2104 = erased
+d_'42''45'assoc_2108 = erased
 -- Data.Bool.Properties._.IsRingWithoutOne.*-cong
-d_'42''45'cong_2106 ::
+d_'42''45'cong_2110 ::
   MAlonzo.Code.Algebra.Structures.T_IsRingWithoutOne_2114 ->
   Bool ->
   Bool ->
@@ -3284,20 +3488,20 @@ d_'42''45'cong_2106 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'42''45'cong_2106 = erased
+d_'42''45'cong_2110 = erased
 -- Data.Bool.Properties._.IsRingWithoutOne.assoc
-d_assoc_2116 ::
+d_assoc_2120 ::
   MAlonzo.Code.Algebra.Structures.T_IsRingWithoutOne_2114 ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_assoc_2116 = erased
+d_assoc_2120 = erased
 -- Data.Bool.Properties._.IsRingWithoutOne.comm
-d_comm_2118 ::
+d_comm_2122 ::
   MAlonzo.Code.Algebra.Structures.T_IsRingWithoutOne_2114 ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_comm_2118 = erased
+d_comm_2122 = erased
 -- Data.Bool.Properties._.IsRingWithoutOne.∙-cong
-d_'8729''45'cong_2120 ::
+d_'8729''45'cong_2124 ::
   MAlonzo.Code.Algebra.Structures.T_IsRingWithoutOne_2114 ->
   Bool ->
   Bool ->
@@ -3306,12 +3510,12 @@ d_'8729''45'cong_2120 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8729''45'cong_2120 = erased
+d_'8729''45'cong_2124 = erased
 -- Data.Bool.Properties._.IsRingWithoutOne.identity
-d_identity_2126 ::
+d_identity_2130 ::
   MAlonzo.Code.Algebra.Structures.T_IsRingWithoutOne_2114 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_identity_2126 v0
+d_identity_2130 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_identity_616
       (coe
@@ -3319,31 +3523,31 @@ d_identity_2126 v0
          (coe
             MAlonzo.Code.Algebra.Structures.d_isGroup_992
             (coe
-               MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2134
+               MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2132
                (coe v0))))
 -- Data.Bool.Properties._.IsRingWithoutOne.+-isAbelianGroup
-d_'43''45'isAbelianGroup_2132 ::
+d_'43''45'isAbelianGroup_2136 ::
   MAlonzo.Code.Algebra.Structures.T_IsRingWithoutOne_2114 ->
   MAlonzo.Code.Algebra.Structures.T_IsAbelianGroup_980
-d_'43''45'isAbelianGroup_2132 v0
+d_'43''45'isAbelianGroup_2136 v0
   = coe
-      MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2134
+      MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2132
       (coe v0)
 -- Data.Bool.Properties._.IsRingWithoutOne.isGroup
-d_isGroup_2140 ::
+d_isGroup_2144 ::
   MAlonzo.Code.Algebra.Structures.T_IsRingWithoutOne_2114 ->
   MAlonzo.Code.Algebra.Structures.T_IsGroup_892
-d_isGroup_2140 v0
+d_isGroup_2144 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isGroup_992
       (coe
-         MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2134
+         MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2132
          (coe v0))
 -- Data.Bool.Properties._.IsRingWithoutOne.isMagma
-d_isMagma_2146 ::
+d_isMagma_2150 ::
   MAlonzo.Code.Algebra.Structures.T_IsRingWithoutOne_2114 ->
   MAlonzo.Code.Algebra.Structures.T_IsMagma_144
-d_isMagma_2146 v0
+d_isMagma_2150 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isMagma_448
       (coe
@@ -3353,25 +3557,25 @@ d_isMagma_2146 v0
             (coe
                MAlonzo.Code.Algebra.Structures.d_isGroup_992
                (coe
-                  MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2134
+                  MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2132
                   (coe v0)))))
 -- Data.Bool.Properties._.IsRingWithoutOne.isMonoid
-d_isMonoid_2148 ::
+d_isMonoid_2152 ::
   MAlonzo.Code.Algebra.Structures.T_IsRingWithoutOne_2114 ->
   MAlonzo.Code.Algebra.Structures.T_IsMonoid_604
-d_isMonoid_2148 v0
+d_isMonoid_2152 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isMonoid_906
       (coe
          MAlonzo.Code.Algebra.Structures.d_isGroup_992
          (coe
-            MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2134
+            MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2132
             (coe v0)))
 -- Data.Bool.Properties._.IsRingWithoutOne.isSemigroup
-d_isSemigroup_2150 ::
+d_isSemigroup_2154 ::
   MAlonzo.Code.Algebra.Structures.T_IsRingWithoutOne_2114 ->
   MAlonzo.Code.Algebra.Structures.T_IsSemigroup_440
-d_isSemigroup_2150 v0
+d_isSemigroup_2154 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isSemigroup_614
       (coe
@@ -3379,39 +3583,39 @@ d_isSemigroup_2150 v0
          (coe
             MAlonzo.Code.Algebra.Structures.d_isGroup_992
             (coe
-               MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2134
+               MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2132
                (coe v0))))
 -- Data.Bool.Properties._.IsRingWithoutOne.⁻¹-cong
-d_'8315''185''45'cong_2154 ::
+d_'8315''185''45'cong_2158 ::
   MAlonzo.Code.Algebra.Structures.T_IsRingWithoutOne_2114 ->
   Bool ->
   Bool ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8315''185''45'cong_2154 = erased
+d_'8315''185''45'cong_2158 = erased
 -- Data.Bool.Properties._.IsRingWithoutOne.inverse
-d_inverse_2156 ::
+d_inverse_2160 ::
   MAlonzo.Code.Algebra.Structures.T_IsRingWithoutOne_2114 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_inverse_2156 v0
+d_inverse_2160 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_inverse_908
       (coe
          MAlonzo.Code.Algebra.Structures.d_isGroup_992
          (coe
-            MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2134
+            MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2132
             (coe v0)))
 -- Data.Bool.Properties._.IsRingWithoutOne.distrib
-d_distrib_2162 ::
+d_distrib_2166 ::
   MAlonzo.Code.Algebra.Structures.T_IsRingWithoutOne_2114 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_distrib_2162 v0
-  = coe MAlonzo.Code.Algebra.Structures.d_distrib_2140 (coe v0)
+d_distrib_2166 v0
+  = coe MAlonzo.Code.Algebra.Structures.d_distrib_2138 (coe v0)
 -- Data.Bool.Properties._.IsRingWithoutOne.isEquivalence
-d_isEquivalence_2168 ::
+d_isEquivalence_2172 ::
   MAlonzo.Code.Algebra.Structures.T_IsRingWithoutOne_2114 ->
   MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
-d_isEquivalence_2168 v0
+d_isEquivalence_2172 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isEquivalence_152
       (coe
@@ -3423,36 +3627,30 @@ d_isEquivalence_2168 v0
                (coe
                   MAlonzo.Code.Algebra.Structures.d_isGroup_992
                   (coe
-                     MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2134
+                     MAlonzo.Code.Algebra.Structures.d_'43''45'isAbelianGroup_2132
                      (coe v0))))))
--- Data.Bool.Properties._.IsRingWithoutOne.zero
-d_zero_2186 ::
-  MAlonzo.Code.Algebra.Structures.T_IsRingWithoutOne_2114 ->
-  MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_zero_2186 v0
-  = coe MAlonzo.Code.Algebra.Structures.d_zero_2142 (coe v0)
 -- Data.Bool.Properties._.IsSelectiveMagma.isEquivalence
-d_isEquivalence_2194 ::
+d_isEquivalence_2198 ::
   MAlonzo.Code.Algebra.Structures.T_IsSelectiveMagma_404 ->
   MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
-d_isEquivalence_2194 v0
+d_isEquivalence_2198 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isEquivalence_152
       (coe MAlonzo.Code.Algebra.Structures.d_isMagma_412 (coe v0))
 -- Data.Bool.Properties._.IsSelectiveMagma.isMagma
-d_isMagma_2196 ::
+d_isMagma_2200 ::
   MAlonzo.Code.Algebra.Structures.T_IsSelectiveMagma_404 ->
   MAlonzo.Code.Algebra.Structures.T_IsMagma_144
-d_isMagma_2196 v0
+d_isMagma_2200 v0
   = coe MAlonzo.Code.Algebra.Structures.d_isMagma_412 (coe v0)
 -- Data.Bool.Properties._.IsSelectiveMagma.sel
-d_sel_2204 ::
+d_sel_2208 ::
   MAlonzo.Code.Algebra.Structures.T_IsSelectiveMagma_404 ->
   Bool -> Bool -> MAlonzo.Code.Data.Sum.Base.T__'8846'__30
-d_sel_2204 v0
+d_sel_2208 v0
   = coe MAlonzo.Code.Algebra.Structures.d_sel_414 (coe v0)
 -- Data.Bool.Properties._.IsSelectiveMagma.∙-cong
-d_'8729''45'cong_2212 ::
+d_'8729''45'cong_2216 ::
   MAlonzo.Code.Algebra.Structures.T_IsSelectiveMagma_404 ->
   Bool ->
   Bool ->
@@ -3461,29 +3659,29 @@ d_'8729''45'cong_2212 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8729''45'cong_2212 = erased
+d_'8729''45'cong_2216 = erased
 -- Data.Bool.Properties._.IsSemigroup.assoc
-d_assoc_2220 ::
+d_assoc_2224 ::
   MAlonzo.Code.Algebra.Structures.T_IsSemigroup_440 ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_assoc_2220 = erased
+d_assoc_2224 = erased
 -- Data.Bool.Properties._.IsSemigroup.isEquivalence
-d_isEquivalence_2222 ::
+d_isEquivalence_2226 ::
   MAlonzo.Code.Algebra.Structures.T_IsSemigroup_440 ->
   MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
-d_isEquivalence_2222 v0
+d_isEquivalence_2226 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isEquivalence_152
       (coe MAlonzo.Code.Algebra.Structures.d_isMagma_448 (coe v0))
 -- Data.Bool.Properties._.IsSemigroup.isMagma
-d_isMagma_2224 ::
+d_isMagma_2228 ::
   MAlonzo.Code.Algebra.Structures.T_IsSemigroup_440 ->
   MAlonzo.Code.Algebra.Structures.T_IsMagma_144
-d_isMagma_2224 v0
+d_isMagma_2228 v0
   = coe MAlonzo.Code.Algebra.Structures.d_isMagma_448 (coe v0)
 -- Data.Bool.Properties._.IsSemigroup.∙-cong
-d_'8729''45'cong_2238 ::
+d_'8729''45'cong_2242 ::
   MAlonzo.Code.Algebra.Structures.T_IsSemigroup_440 ->
   Bool ->
   Bool ->
@@ -3492,29 +3690,29 @@ d_'8729''45'cong_2238 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8729''45'cong_2238 = erased
+d_'8729''45'cong_2242 = erased
 -- Data.Bool.Properties._.IsSemimedialMagma.isEquivalence
-d_isEquivalence_2246 ::
+d_isEquivalence_2250 ::
   MAlonzo.Code.Algebra.Structures.T_IsSemimedialMagma_364 ->
   MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
-d_isEquivalence_2246 v0
+d_isEquivalence_2250 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isEquivalence_152
       (coe MAlonzo.Code.Algebra.Structures.d_isMagma_372 (coe v0))
 -- Data.Bool.Properties._.IsSemimedialMagma.isMagma
-d_isMagma_2248 ::
+d_isMagma_2252 ::
   MAlonzo.Code.Algebra.Structures.T_IsSemimedialMagma_364 ->
   MAlonzo.Code.Algebra.Structures.T_IsMagma_144
-d_isMagma_2248 v0
+d_isMagma_2252 v0
   = coe MAlonzo.Code.Algebra.Structures.d_isMagma_372 (coe v0)
 -- Data.Bool.Properties._.IsSemimedialMagma.semiMedial
-d_semiMedial_2256 ::
+d_semiMedial_2260 ::
   MAlonzo.Code.Algebra.Structures.T_IsSemimedialMagma_364 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_semiMedial_2256 v0
+d_semiMedial_2260 v0
   = coe MAlonzo.Code.Algebra.Structures.d_semiMedial_374 (coe v0)
 -- Data.Bool.Properties._.IsSemimedialMagma.∙-cong
-d_'8729''45'cong_2268 ::
+d_'8729''45'cong_2272 ::
   MAlonzo.Code.Algebra.Structures.T_IsSemimedialMagma_364 ->
   Bool ->
   Bool ->
@@ -3523,15 +3721,15 @@ d_'8729''45'cong_2268 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8729''45'cong_2268 = erased
+d_'8729''45'cong_2272 = erased
 -- Data.Bool.Properties._.IsSemiring.*-assoc
-d_'42''45'assoc_2276 ::
+d_'42''45'assoc_2280 ::
   MAlonzo.Code.Algebra.Structures.T_IsSemiring_1418 ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'42''45'assoc_2276 = erased
+d_'42''45'assoc_2280 = erased
 -- Data.Bool.Properties._.IsSemiring.*-cong
-d_'42''45'cong_2278 ::
+d_'42''45'cong_2282 ::
   MAlonzo.Code.Algebra.Structures.T_IsSemiring_1418 ->
   Bool ->
   Bool ->
@@ -3540,30 +3738,30 @@ d_'42''45'cong_2278 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'42''45'cong_2278 = erased
+d_'42''45'cong_2282 = erased
 -- Data.Bool.Properties._.IsSemiring.*-identity
-d_'42''45'identity_2284 ::
+d_'42''45'identity_2288 ::
   MAlonzo.Code.Algebra.Structures.T_IsSemiring_1418 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'42''45'identity_2284 v0
+d_'42''45'identity_2288 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_'42''45'identity_1342
       (coe
          MAlonzo.Code.Algebra.Structures.d_isSemiringWithoutAnnihilatingZero_1432
          (coe v0))
 -- Data.Bool.Properties._.IsSemiring.assoc
-d_assoc_2296 ::
+d_assoc_2300 ::
   MAlonzo.Code.Algebra.Structures.T_IsSemiring_1418 ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_assoc_2296 = erased
+d_assoc_2300 = erased
 -- Data.Bool.Properties._.IsSemiring.comm
-d_comm_2298 ::
+d_comm_2302 ::
   MAlonzo.Code.Algebra.Structures.T_IsSemiring_1418 ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_comm_2298 = erased
+d_comm_2302 = erased
 -- Data.Bool.Properties._.IsSemiring.∙-cong
-d_'8729''45'cong_2300 ::
+d_'8729''45'cong_2304 ::
   MAlonzo.Code.Algebra.Structures.T_IsSemiring_1418 ->
   Bool ->
   Bool ->
@@ -3572,12 +3770,12 @@ d_'8729''45'cong_2300 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8729''45'cong_2300 = erased
+d_'8729''45'cong_2304 = erased
 -- Data.Bool.Properties._.IsSemiring.identity
-d_identity_2306 ::
+d_identity_2310 ::
   MAlonzo.Code.Algebra.Structures.T_IsSemiring_1418 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_identity_2306 v0
+d_identity_2310 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_identity_616
       (coe
@@ -3588,20 +3786,20 @@ d_identity_2306 v0
                MAlonzo.Code.Algebra.Structures.d_isSemiringWithoutAnnihilatingZero_1432
                (coe v0))))
 -- Data.Bool.Properties._.IsSemiring.+-isCommutativeMonoid
-d_'43''45'isCommutativeMonoid_2314 ::
+d_'43''45'isCommutativeMonoid_2318 ::
   MAlonzo.Code.Algebra.Structures.T_IsSemiring_1418 ->
   MAlonzo.Code.Algebra.Structures.T_IsCommutativeMonoid_654
-d_'43''45'isCommutativeMonoid_2314 v0
+d_'43''45'isCommutativeMonoid_2318 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_'43''45'isCommutativeMonoid_1336
       (coe
          MAlonzo.Code.Algebra.Structures.d_isSemiringWithoutAnnihilatingZero_1432
          (coe v0))
 -- Data.Bool.Properties._.IsSemiring.isMagma
-d_isMagma_2318 ::
+d_isMagma_2322 ::
   MAlonzo.Code.Algebra.Structures.T_IsSemiring_1418 ->
   MAlonzo.Code.Algebra.Structures.T_IsMagma_144
-d_isMagma_2318 v0
+d_isMagma_2322 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isMagma_448
       (coe
@@ -3614,10 +3812,10 @@ d_isMagma_2318 v0
                   MAlonzo.Code.Algebra.Structures.d_isSemiringWithoutAnnihilatingZero_1432
                   (coe v0)))))
 -- Data.Bool.Properties._.IsSemiring.isMonoid
-d_isMonoid_2320 ::
+d_isMonoid_2324 ::
   MAlonzo.Code.Algebra.Structures.T_IsSemiring_1418 ->
   MAlonzo.Code.Algebra.Structures.T_IsMonoid_604
-d_isMonoid_2320 v0
+d_isMonoid_2324 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isMonoid_664
       (coe
@@ -3626,10 +3824,10 @@ d_isMonoid_2320 v0
             MAlonzo.Code.Algebra.Structures.d_isSemiringWithoutAnnihilatingZero_1432
             (coe v0)))
 -- Data.Bool.Properties._.IsSemiring.isSemigroup
-d_isSemigroup_2322 ::
+d_isSemigroup_2326 ::
   MAlonzo.Code.Algebra.Structures.T_IsSemiring_1418 ->
   MAlonzo.Code.Algebra.Structures.T_IsSemigroup_440
-d_isSemigroup_2322 v0
+d_isSemigroup_2326 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isSemigroup_614
       (coe
@@ -3640,20 +3838,20 @@ d_isSemigroup_2322 v0
                MAlonzo.Code.Algebra.Structures.d_isSemiringWithoutAnnihilatingZero_1432
                (coe v0))))
 -- Data.Bool.Properties._.IsSemiring.distrib
-d_distrib_2326 ::
+d_distrib_2330 ::
   MAlonzo.Code.Algebra.Structures.T_IsSemiring_1418 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_distrib_2326 v0
+d_distrib_2330 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_distrib_1344
       (coe
          MAlonzo.Code.Algebra.Structures.d_isSemiringWithoutAnnihilatingZero_1432
          (coe v0))
 -- Data.Bool.Properties._.IsSemiring.isEquivalence
-d_isEquivalence_2332 ::
+d_isEquivalence_2336 ::
   MAlonzo.Code.Algebra.Structures.T_IsSemiring_1418 ->
   MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
-d_isEquivalence_2332 v0
+d_isEquivalence_2336 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isEquivalence_152
       (coe
@@ -3668,27 +3866,27 @@ d_isEquivalence_2332 v0
                      MAlonzo.Code.Algebra.Structures.d_isSemiringWithoutAnnihilatingZero_1432
                      (coe v0))))))
 -- Data.Bool.Properties._.IsSemiring.isSemiringWithoutAnnihilatingZero
-d_isSemiringWithoutAnnihilatingZero_2338 ::
+d_isSemiringWithoutAnnihilatingZero_2342 ::
   MAlonzo.Code.Algebra.Structures.T_IsSemiring_1418 ->
   MAlonzo.Code.Algebra.Structures.T_IsSemiringWithoutAnnihilatingZero_1316
-d_isSemiringWithoutAnnihilatingZero_2338 v0
+d_isSemiringWithoutAnnihilatingZero_2342 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isSemiringWithoutAnnihilatingZero_1432
       (coe v0)
 -- Data.Bool.Properties._.IsSemiring.zero
-d_zero_2352 ::
+d_zero_2356 ::
   MAlonzo.Code.Algebra.Structures.T_IsSemiring_1418 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_zero_2352 v0
+d_zero_2356 v0
   = coe MAlonzo.Code.Algebra.Structures.d_zero_1434 (coe v0)
 -- Data.Bool.Properties._.IsSemiringWithoutAnnihilatingZero.*-assoc
-d_'42''45'assoc_2360 ::
+d_'42''45'assoc_2364 ::
   MAlonzo.Code.Algebra.Structures.T_IsSemiringWithoutAnnihilatingZero_1316 ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'42''45'assoc_2360 = erased
+d_'42''45'assoc_2364 = erased
 -- Data.Bool.Properties._.IsSemiringWithoutAnnihilatingZero.*-cong
-d_'42''45'cong_2362 ::
+d_'42''45'cong_2366 ::
   MAlonzo.Code.Algebra.Structures.T_IsSemiringWithoutAnnihilatingZero_1316 ->
   Bool ->
   Bool ->
@@ -3697,27 +3895,27 @@ d_'42''45'cong_2362 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'42''45'cong_2362 = erased
+d_'42''45'cong_2366 = erased
 -- Data.Bool.Properties._.IsSemiringWithoutAnnihilatingZero.*-identity
-d_'42''45'identity_2368 ::
+d_'42''45'identity_2372 ::
   MAlonzo.Code.Algebra.Structures.T_IsSemiringWithoutAnnihilatingZero_1316 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'42''45'identity_2368 v0
+d_'42''45'identity_2372 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_'42''45'identity_1342 (coe v0)
 -- Data.Bool.Properties._.IsSemiringWithoutAnnihilatingZero.assoc
-d_assoc_2380 ::
+d_assoc_2384 ::
   MAlonzo.Code.Algebra.Structures.T_IsSemiringWithoutAnnihilatingZero_1316 ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_assoc_2380 = erased
+d_assoc_2384 = erased
 -- Data.Bool.Properties._.IsSemiringWithoutAnnihilatingZero.comm
-d_comm_2382 ::
+d_comm_2386 ::
   MAlonzo.Code.Algebra.Structures.T_IsSemiringWithoutAnnihilatingZero_1316 ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_comm_2382 = erased
+d_comm_2386 = erased
 -- Data.Bool.Properties._.IsSemiringWithoutAnnihilatingZero.∙-cong
-d_'8729''45'cong_2384 ::
+d_'8729''45'cong_2388 ::
   MAlonzo.Code.Algebra.Structures.T_IsSemiringWithoutAnnihilatingZero_1316 ->
   Bool ->
   Bool ->
@@ -3726,12 +3924,12 @@ d_'8729''45'cong_2384 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8729''45'cong_2384 = erased
+d_'8729''45'cong_2388 = erased
 -- Data.Bool.Properties._.IsSemiringWithoutAnnihilatingZero.identity
-d_identity_2390 ::
+d_identity_2394 ::
   MAlonzo.Code.Algebra.Structures.T_IsSemiringWithoutAnnihilatingZero_1316 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_identity_2390 v0
+d_identity_2394 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_identity_616
       (coe
@@ -3740,18 +3938,18 @@ d_identity_2390 v0
             MAlonzo.Code.Algebra.Structures.d_'43''45'isCommutativeMonoid_1336
             (coe v0)))
 -- Data.Bool.Properties._.IsSemiringWithoutAnnihilatingZero.+-isCommutativeMonoid
-d_'43''45'isCommutativeMonoid_2398 ::
+d_'43''45'isCommutativeMonoid_2402 ::
   MAlonzo.Code.Algebra.Structures.T_IsSemiringWithoutAnnihilatingZero_1316 ->
   MAlonzo.Code.Algebra.Structures.T_IsCommutativeMonoid_654
-d_'43''45'isCommutativeMonoid_2398 v0
+d_'43''45'isCommutativeMonoid_2402 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_'43''45'isCommutativeMonoid_1336
       (coe v0)
 -- Data.Bool.Properties._.IsSemiringWithoutAnnihilatingZero.isMagma
-d_isMagma_2402 ::
+d_isMagma_2406 ::
   MAlonzo.Code.Algebra.Structures.T_IsSemiringWithoutAnnihilatingZero_1316 ->
   MAlonzo.Code.Algebra.Structures.T_IsMagma_144
-d_isMagma_2402 v0
+d_isMagma_2406 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isMagma_448
       (coe
@@ -3762,20 +3960,20 @@ d_isMagma_2402 v0
                MAlonzo.Code.Algebra.Structures.d_'43''45'isCommutativeMonoid_1336
                (coe v0))))
 -- Data.Bool.Properties._.IsSemiringWithoutAnnihilatingZero.isMonoid
-d_isMonoid_2404 ::
+d_isMonoid_2408 ::
   MAlonzo.Code.Algebra.Structures.T_IsSemiringWithoutAnnihilatingZero_1316 ->
   MAlonzo.Code.Algebra.Structures.T_IsMonoid_604
-d_isMonoid_2404 v0
+d_isMonoid_2408 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isMonoid_664
       (coe
          MAlonzo.Code.Algebra.Structures.d_'43''45'isCommutativeMonoid_1336
          (coe v0))
 -- Data.Bool.Properties._.IsSemiringWithoutAnnihilatingZero.isSemigroup
-d_isSemigroup_2406 ::
+d_isSemigroup_2410 ::
   MAlonzo.Code.Algebra.Structures.T_IsSemiringWithoutAnnihilatingZero_1316 ->
   MAlonzo.Code.Algebra.Structures.T_IsSemigroup_440
-d_isSemigroup_2406 v0
+d_isSemigroup_2410 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isSemigroup_614
       (coe
@@ -3784,16 +3982,16 @@ d_isSemigroup_2406 v0
             MAlonzo.Code.Algebra.Structures.d_'43''45'isCommutativeMonoid_1336
             (coe v0)))
 -- Data.Bool.Properties._.IsSemiringWithoutAnnihilatingZero.distrib
-d_distrib_2410 ::
+d_distrib_2414 ::
   MAlonzo.Code.Algebra.Structures.T_IsSemiringWithoutAnnihilatingZero_1316 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_distrib_2410 v0
+d_distrib_2414 v0
   = coe MAlonzo.Code.Algebra.Structures.d_distrib_1344 (coe v0)
 -- Data.Bool.Properties._.IsSemiringWithoutAnnihilatingZero.isEquivalence
-d_isEquivalence_2416 ::
+d_isEquivalence_2420 ::
   MAlonzo.Code.Algebra.Structures.T_IsSemiringWithoutAnnihilatingZero_1316 ->
   MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
-d_isEquivalence_2416 v0
+d_isEquivalence_2420 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isEquivalence_152
       (coe
@@ -3806,13 +4004,13 @@ d_isEquivalence_2416 v0
                   MAlonzo.Code.Algebra.Structures.d_'43''45'isCommutativeMonoid_1336
                   (coe v0)))))
 -- Data.Bool.Properties._.IsSemiringWithoutOne.*-assoc
-d_'42''45'assoc_2436 ::
+d_'42''45'assoc_2440 ::
   MAlonzo.Code.Algebra.Structures.T_IsSemiringWithoutOne_1146 ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'42''45'assoc_2436 = erased
+d_'42''45'assoc_2440 = erased
 -- Data.Bool.Properties._.IsSemiringWithoutOne.*-cong
-d_'42''45'cong_2438 ::
+d_'42''45'cong_2442 ::
   MAlonzo.Code.Algebra.Structures.T_IsSemiringWithoutOne_1146 ->
   Bool ->
   Bool ->
@@ -3821,64 +4019,64 @@ d_'42''45'cong_2438 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'42''45'cong_2438 = erased
+d_'42''45'cong_2442 = erased
 -- Data.Bool.Properties._.IsSemiringWithoutOne.comm
-d_comm_2448 ::
+d_comm_2452 ::
   MAlonzo.Code.Algebra.Structures.T_IsSemiringWithoutOne_1146 ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_comm_2448 = erased
+d_comm_2452 = erased
 -- Data.Bool.Properties._.IsSemiringWithoutOne.+-isCommutativeMonoid
-d_'43''45'isCommutativeMonoid_2452 ::
+d_'43''45'isCommutativeMonoid_2456 ::
   MAlonzo.Code.Algebra.Structures.T_IsSemiringWithoutOne_1146 ->
   MAlonzo.Code.Algebra.Structures.T_IsCommutativeMonoid_654
-d_'43''45'isCommutativeMonoid_2452 v0
+d_'43''45'isCommutativeMonoid_2456 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_'43''45'isCommutativeMonoid_1164
       (coe v0)
 -- Data.Bool.Properties._.IsSemiringWithoutOne.isMonoid
-d_isMonoid_2456 ::
+d_isMonoid_2460 ::
   MAlonzo.Code.Algebra.Structures.T_IsSemiringWithoutOne_1146 ->
   MAlonzo.Code.Algebra.Structures.T_IsMonoid_604
-d_isMonoid_2456 v0
+d_isMonoid_2460 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isMonoid_664
       (coe
          MAlonzo.Code.Algebra.Structures.d_'43''45'isCommutativeMonoid_1164
          (coe v0))
 -- Data.Bool.Properties._.IsSemiringWithoutOne.distrib
-d_distrib_2460 ::
+d_distrib_2464 ::
   MAlonzo.Code.Algebra.Structures.T_IsSemiringWithoutOne_1146 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_distrib_2460 v0
+d_distrib_2464 v0
   = coe MAlonzo.Code.Algebra.Structures.d_distrib_1170 (coe v0)
 -- Data.Bool.Properties._.IsSemiringWithoutOne.zero
-d_zero_2480 ::
+d_zero_2484 ::
   MAlonzo.Code.Algebra.Structures.T_IsSemiringWithoutOne_1146 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_zero_2480 v0
+d_zero_2484 v0
   = coe MAlonzo.Code.Algebra.Structures.d_zero_1172 (coe v0)
 -- Data.Bool.Properties._.IsUnitalMagma.identity
-d_identity_2488 ::
+d_identity_2492 ::
   MAlonzo.Code.Algebra.Structures.T_IsUnitalMagma_560 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_identity_2488 v0
+d_identity_2492 v0
   = coe MAlonzo.Code.Algebra.Structures.d_identity_572 (coe v0)
 -- Data.Bool.Properties._.IsUnitalMagma.isEquivalence
-d_isEquivalence_2494 ::
+d_isEquivalence_2498 ::
   MAlonzo.Code.Algebra.Structures.T_IsUnitalMagma_560 ->
   MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
-d_isEquivalence_2494 v0
+d_isEquivalence_2498 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isEquivalence_152
       (coe MAlonzo.Code.Algebra.Structures.d_isMagma_570 (coe v0))
 -- Data.Bool.Properties._.IsUnitalMagma.isMagma
-d_isMagma_2496 ::
+d_isMagma_2500 ::
   MAlonzo.Code.Algebra.Structures.T_IsUnitalMagma_560 ->
   MAlonzo.Code.Algebra.Structures.T_IsMagma_144
-d_isMagma_2496 v0
+d_isMagma_2500 v0
   = coe MAlonzo.Code.Algebra.Structures.d_isMagma_570 (coe v0)
 -- Data.Bool.Properties._.IsUnitalMagma.∙-cong
-d_'8729''45'cong_2510 ::
+d_'8729''45'cong_2514 ::
   MAlonzo.Code.Algebra.Structures.T_IsUnitalMagma_560 ->
   Bool ->
   Bool ->
@@ -3887,104 +4085,104 @@ d_'8729''45'cong_2510 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8729''45'cong_2510 = erased
+d_'8729''45'cong_2514 = erased
 -- Data.Bool.Properties._.IsBooleanAlgebra
-d_IsBooleanAlgebra_2518 a0 a1 a2 a3 a4 = ()
+d_IsBooleanAlgebra_2522 a0 a1 a2 a3 a4 = ()
 -- Data.Bool.Properties._.IsBoundedJoinSemilattice
-d_IsBoundedJoinSemilattice_2520 ::
+d_IsBoundedJoinSemilattice_2524 ::
   (Bool -> Bool -> Bool) -> Bool -> ()
-d_IsBoundedJoinSemilattice_2520 = erased
+d_IsBoundedJoinSemilattice_2524 = erased
 -- Data.Bool.Properties._.IsBoundedMeetSemilattice
-d_IsBoundedMeetSemilattice_2522 ::
+d_IsBoundedMeetSemilattice_2526 ::
   (Bool -> Bool -> Bool) -> Bool -> ()
-d_IsBoundedMeetSemilattice_2522 = erased
+d_IsBoundedMeetSemilattice_2526 = erased
 -- Data.Bool.Properties._.IsBoundedSemilattice
-d_IsBoundedSemilattice_2524 :: (Bool -> Bool -> Bool) -> Bool -> ()
-d_IsBoundedSemilattice_2524 = erased
+d_IsBoundedSemilattice_2528 :: (Bool -> Bool -> Bool) -> Bool -> ()
+d_IsBoundedSemilattice_2528 = erased
 -- Data.Bool.Properties._.IsDistributiveLattice
-d_IsDistributiveLattice_2526 a0 a1 = ()
+d_IsDistributiveLattice_2530 a0 a1 = ()
 -- Data.Bool.Properties._.IsJoinSemilattice
-d_IsJoinSemilattice_2528 :: (Bool -> Bool -> Bool) -> ()
-d_IsJoinSemilattice_2528 = erased
+d_IsJoinSemilattice_2532 :: (Bool -> Bool -> Bool) -> ()
+d_IsJoinSemilattice_2532 = erased
 -- Data.Bool.Properties._.IsLattice
-d_IsLattice_2530 a0 a1 = ()
+d_IsLattice_2534 a0 a1 = ()
 -- Data.Bool.Properties._.IsMeetSemilattice
-d_IsMeetSemilattice_2532 :: (Bool -> Bool -> Bool) -> ()
-d_IsMeetSemilattice_2532 = erased
+d_IsMeetSemilattice_2536 :: (Bool -> Bool -> Bool) -> ()
+d_IsMeetSemilattice_2536 = erased
 -- Data.Bool.Properties._.IsSemilattice
-d_IsSemilattice_2534 a0 = ()
+d_IsSemilattice_2538 a0 = ()
 -- Data.Bool.Properties._.IsBooleanAlgebra.absorptive
-d_absorptive_2538 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsBooleanAlgebra_2976 ->
+d_absorptive_2542 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsBooleanAlgebra_2980 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_absorptive_2538 v0
+d_absorptive_2542 v0
   = coe
-      MAlonzo.Code.Algebra.Lattice.Structures.d_absorptive_2862
+      MAlonzo.Code.Algebra.Lattice.Structures.d_absorptive_2866
       (coe
-         MAlonzo.Code.Algebra.Lattice.Structures.d_isLattice_2912
+         MAlonzo.Code.Algebra.Lattice.Structures.d_isLattice_2916
          (coe
-            MAlonzo.Code.Algebra.Lattice.Structures.d_isDistributiveLattice_2996
+            MAlonzo.Code.Algebra.Lattice.Structures.d_isDistributiveLattice_3000
             (coe v0)))
 -- Data.Bool.Properties._.IsBooleanAlgebra.isDistributiveLattice
-d_isDistributiveLattice_2540 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsBooleanAlgebra_2976 ->
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsDistributiveLattice_2900
-d_isDistributiveLattice_2540 v0
+d_isDistributiveLattice_2544 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsBooleanAlgebra_2980 ->
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsDistributiveLattice_2904
+d_isDistributiveLattice_2544 v0
   = coe
-      MAlonzo.Code.Algebra.Lattice.Structures.d_isDistributiveLattice_2996
+      MAlonzo.Code.Algebra.Lattice.Structures.d_isDistributiveLattice_3000
       (coe v0)
 -- Data.Bool.Properties._.IsBooleanAlgebra.isEquivalence
-d_isEquivalence_2542 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsBooleanAlgebra_2976 ->
+d_isEquivalence_2546 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsBooleanAlgebra_2980 ->
   MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
-d_isEquivalence_2542 v0
+d_isEquivalence_2546 v0
   = coe
-      MAlonzo.Code.Algebra.Lattice.Structures.d_isEquivalence_2848
+      MAlonzo.Code.Algebra.Lattice.Structures.d_isEquivalence_2852
       (coe
-         MAlonzo.Code.Algebra.Lattice.Structures.d_isLattice_2912
+         MAlonzo.Code.Algebra.Lattice.Structures.d_isLattice_2916
          (coe
-            MAlonzo.Code.Algebra.Lattice.Structures.d_isDistributiveLattice_2996
+            MAlonzo.Code.Algebra.Lattice.Structures.d_isDistributiveLattice_3000
             (coe v0)))
 -- Data.Bool.Properties._.IsBooleanAlgebra.isLattice
-d_isLattice_2544 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsBooleanAlgebra_2976 ->
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsLattice_2826
-d_isLattice_2544 v0
+d_isLattice_2548 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsBooleanAlgebra_2980 ->
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsLattice_2830
+d_isLattice_2548 v0
   = coe
-      MAlonzo.Code.Algebra.Lattice.Structures.d_isLattice_2912
+      MAlonzo.Code.Algebra.Lattice.Structures.d_isLattice_2916
       (coe
-         MAlonzo.Code.Algebra.Lattice.Structures.d_isDistributiveLattice_2996
+         MAlonzo.Code.Algebra.Lattice.Structures.d_isDistributiveLattice_3000
          (coe v0))
 -- Data.Bool.Properties._.IsBooleanAlgebra.¬-cong
-d_'172''45'cong_2556 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsBooleanAlgebra_2976 ->
+d_'172''45'cong_2560 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsBooleanAlgebra_2980 ->
   Bool ->
   Bool ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'172''45'cong_2556 = erased
+d_'172''45'cong_2560 = erased
 -- Data.Bool.Properties._.IsBooleanAlgebra.∧-assoc
-d_'8743''45'assoc_2560 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsBooleanAlgebra_2976 ->
+d_'8743''45'assoc_2564 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsBooleanAlgebra_2980 ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8743''45'assoc_2560 = erased
+d_'8743''45'assoc_2564 = erased
 -- Data.Bool.Properties._.IsBooleanAlgebra.∧-comm
-d_'8743''45'comm_2562 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsBooleanAlgebra_2976 ->
+d_'8743''45'comm_2566 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsBooleanAlgebra_2980 ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8743''45'comm_2562 = erased
+d_'8743''45'comm_2566 = erased
 -- Data.Bool.Properties._.IsBooleanAlgebra.∧-complement
-d_'8743''45'complement_2564 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsBooleanAlgebra_2976 ->
+d_'8743''45'complement_2568 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsBooleanAlgebra_2980 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'8743''45'complement_2564 v0
+d_'8743''45'complement_2568 v0
   = coe
-      MAlonzo.Code.Algebra.Lattice.Structures.d_'8743''45'complement_3000
+      MAlonzo.Code.Algebra.Lattice.Structures.d_'8743''45'complement_3004
       (coe v0)
 -- Data.Bool.Properties._.IsBooleanAlgebra.∧-cong
-d_'8743''45'cong_2570 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsBooleanAlgebra_2976 ->
+d_'8743''45'cong_2574 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsBooleanAlgebra_2980 ->
   Bool ->
   Bool ->
   Bool ->
@@ -3992,39 +4190,39 @@ d_'8743''45'cong_2570 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8743''45'cong_2570 = erased
+d_'8743''45'cong_2574 = erased
 -- Data.Bool.Properties._.IsBooleanAlgebra.∧-distrib-∨
-d_'8743''45'distrib'45''8744'_2576 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsBooleanAlgebra_2976 ->
+d_'8743''45'distrib'45''8744'_2580 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsBooleanAlgebra_2980 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'8743''45'distrib'45''8744'_2576 v0
+d_'8743''45'distrib'45''8744'_2580 v0
   = coe
-      MAlonzo.Code.Algebra.Lattice.Structures.d_'8743''45'distrib'45''8744'_2916
+      MAlonzo.Code.Algebra.Lattice.Structures.d_'8743''45'distrib'45''8744'_2920
       (coe
-         MAlonzo.Code.Algebra.Lattice.Structures.d_isDistributiveLattice_2996
+         MAlonzo.Code.Algebra.Lattice.Structures.d_isDistributiveLattice_3000
          (coe v0))
 -- Data.Bool.Properties._.IsBooleanAlgebra.∨-assoc
-d_'8744''45'assoc_2584 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsBooleanAlgebra_2976 ->
+d_'8744''45'assoc_2588 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsBooleanAlgebra_2980 ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8744''45'assoc_2584 = erased
+d_'8744''45'assoc_2588 = erased
 -- Data.Bool.Properties._.IsBooleanAlgebra.∨-comm
-d_'8744''45'comm_2586 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsBooleanAlgebra_2976 ->
+d_'8744''45'comm_2590 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsBooleanAlgebra_2980 ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8744''45'comm_2586 = erased
+d_'8744''45'comm_2590 = erased
 -- Data.Bool.Properties._.IsBooleanAlgebra.∨-complement
-d_'8744''45'complement_2588 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsBooleanAlgebra_2976 ->
+d_'8744''45'complement_2592 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsBooleanAlgebra_2980 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'8744''45'complement_2588 v0
+d_'8744''45'complement_2592 v0
   = coe
-      MAlonzo.Code.Algebra.Lattice.Structures.d_'8744''45'complement_2998
+      MAlonzo.Code.Algebra.Lattice.Structures.d_'8744''45'complement_3002
       (coe v0)
 -- Data.Bool.Properties._.IsBooleanAlgebra.∨-cong
-d_'8744''45'cong_2594 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsBooleanAlgebra_2976 ->
+d_'8744''45'cong_2598 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsBooleanAlgebra_2980 ->
   Bool ->
   Bool ->
   Bool ->
@@ -4032,44 +4230,44 @@ d_'8744''45'cong_2594 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8744''45'cong_2594 = erased
+d_'8744''45'cong_2598 = erased
 -- Data.Bool.Properties._.IsBooleanAlgebra.∨-distrib-∧
-d_'8744''45'distrib'45''8743'_2600 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsBooleanAlgebra_2976 ->
+d_'8744''45'distrib'45''8743'_2604 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsBooleanAlgebra_2980 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'8744''45'distrib'45''8743'_2600 v0
+d_'8744''45'distrib'45''8743'_2604 v0
   = coe
-      MAlonzo.Code.Algebra.Lattice.Structures.d_'8744''45'distrib'45''8743'_2914
+      MAlonzo.Code.Algebra.Lattice.Structures.d_'8744''45'distrib'45''8743'_2918
       (coe
-         MAlonzo.Code.Algebra.Lattice.Structures.d_isDistributiveLattice_2996
+         MAlonzo.Code.Algebra.Lattice.Structures.d_isDistributiveLattice_3000
          (coe v0))
 -- Data.Bool.Properties._.IsBoundedJoinSemilattice.assoc
-d_assoc_2608 ::
+d_assoc_2612 ::
   (Bool -> Bool -> Bool) ->
   Bool ->
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_assoc_2608 = erased
+d_assoc_2612 = erased
 -- Data.Bool.Properties._.IsBoundedJoinSemilattice.comm
-d_comm_2610 ::
+d_comm_2614 ::
   (Bool -> Bool -> Bool) ->
   Bool ->
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_comm_2610 = erased
+d_comm_2614 = erased
 -- Data.Bool.Properties._.IsBoundedJoinSemilattice.idem
-d_idem_2612 ::
+d_idem_2616 ::
   (Bool -> Bool -> Bool) ->
   Bool ->
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
   Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_idem_2612 = erased
+d_idem_2616 = erased
 -- Data.Bool.Properties._.IsBoundedJoinSemilattice.identity
-d_identity_2614 ::
+d_identity_2618 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_identity_2614 v0
+d_identity_2618 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_identity_616
       (coe
@@ -4078,28 +4276,28 @@ d_identity_2614 v0
             MAlonzo.Code.Algebra.Structures.d_isCommutativeMonoid_724
             (coe v0)))
 -- Data.Bool.Properties._.IsBoundedJoinSemilattice.isBand
-d_isBand_2620 ::
+d_isBand_2624 ::
   (Bool -> Bool -> Bool) ->
   Bool ->
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
   MAlonzo.Code.Algebra.Structures.T_IsBand_476
-d_isBand_2620 ~v0 ~v1 v2 = du_isBand_2620 v2
-du_isBand_2620 ::
+d_isBand_2624 ~v0 ~v1 v2 = du_isBand_2624 v2
+du_isBand_2624 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
   MAlonzo.Code.Algebra.Structures.T_IsBand_476
-du_isBand_2620 v0
+du_isBand_2624 v0
   = coe MAlonzo.Code.Algebra.Structures.du_isBand_772 (coe v0)
 -- Data.Bool.Properties._.IsBoundedJoinSemilattice.isEquivalence
-d_isEquivalence_2622 ::
+d_isEquivalence_2626 ::
   (Bool -> Bool -> Bool) ->
   Bool ->
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
   MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
-d_isEquivalence_2622 ~v0 ~v1 v2 = du_isEquivalence_2622 v2
-du_isEquivalence_2622 ::
+d_isEquivalence_2626 ~v0 ~v1 v2 = du_isEquivalence_2626 v2
+du_isEquivalence_2626 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
   MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
-du_isEquivalence_2622 v0
+du_isEquivalence_2626 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isEquivalence_152
       (coe
@@ -4112,30 +4310,30 @@ du_isEquivalence_2622 v0
                   MAlonzo.Code.Algebra.Structures.d_isCommutativeMonoid_724
                   (coe v0)))))
 -- Data.Bool.Properties._.IsBoundedJoinSemilattice.isSemilattice
-d_isSemilattice_2624 ::
+d_isSemilattice_2628 ::
   (Bool -> Bool -> Bool) ->
   Bool ->
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2526
-d_isSemilattice_2624 ~v0 ~v1 v2 = du_isSemilattice_2624 v2
-du_isSemilattice_2624 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2530
+d_isSemilattice_2628 ~v0 ~v1 v2 = du_isSemilattice_2628 v2
+du_isSemilattice_2628 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2526
-du_isSemilattice_2624 v0
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2530
+du_isSemilattice_2628 v0
   = coe
-      MAlonzo.Code.Algebra.Lattice.Structures.du_isSemilattice_2712
+      MAlonzo.Code.Algebra.Lattice.Structures.du_isSemilattice_2716
       (coe v0)
 -- Data.Bool.Properties._.IsBoundedJoinSemilattice.isMagma
-d_isMagma_2626 ::
+d_isMagma_2630 ::
   (Bool -> Bool -> Bool) ->
   Bool ->
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
   MAlonzo.Code.Algebra.Structures.T_IsMagma_144
-d_isMagma_2626 ~v0 ~v1 v2 = du_isMagma_2626 v2
-du_isMagma_2626 ::
+d_isMagma_2630 ~v0 ~v1 v2 = du_isMagma_2630 v2
+du_isMagma_2630 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
   MAlonzo.Code.Algebra.Structures.T_IsMagma_144
-du_isMagma_2626 v0
+du_isMagma_2630 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isMagma_448
       (coe
@@ -4146,16 +4344,16 @@ du_isMagma_2626 v0
                MAlonzo.Code.Algebra.Structures.d_isCommutativeMonoid_724
                (coe v0))))
 -- Data.Bool.Properties._.IsBoundedJoinSemilattice.isSemigroup
-d_isSemigroup_2630 ::
+d_isSemigroup_2634 ::
   (Bool -> Bool -> Bool) ->
   Bool ->
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
   MAlonzo.Code.Algebra.Structures.T_IsSemigroup_440
-d_isSemigroup_2630 ~v0 ~v1 v2 = du_isSemigroup_2630 v2
-du_isSemigroup_2630 ::
+d_isSemigroup_2634 ~v0 ~v1 v2 = du_isSemigroup_2634 v2
+du_isSemigroup_2634 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
   MAlonzo.Code.Algebra.Structures.T_IsSemigroup_440
-du_isSemigroup_2630 v0
+du_isSemigroup_2634 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isSemigroup_614
       (coe
@@ -4164,7 +4362,7 @@ du_isSemigroup_2630 v0
             MAlonzo.Code.Algebra.Structures.d_isCommutativeMonoid_724
             (coe v0)))
 -- Data.Bool.Properties._.IsBoundedJoinSemilattice.∙-cong
-d_'8729''45'cong_2642 ::
+d_'8729''45'cong_2646 ::
   (Bool -> Bool -> Bool) ->
   Bool ->
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
@@ -4175,34 +4373,34 @@ d_'8729''45'cong_2642 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8729''45'cong_2642 = erased
+d_'8729''45'cong_2646 = erased
 -- Data.Bool.Properties._.IsBoundedMeetSemilattice.assoc
-d_assoc_2650 ::
+d_assoc_2654 ::
   (Bool -> Bool -> Bool) ->
   Bool ->
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_assoc_2650 = erased
+d_assoc_2654 = erased
 -- Data.Bool.Properties._.IsBoundedMeetSemilattice.comm
-d_comm_2652 ::
+d_comm_2656 ::
   (Bool -> Bool -> Bool) ->
   Bool ->
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_comm_2652 = erased
+d_comm_2656 = erased
 -- Data.Bool.Properties._.IsBoundedMeetSemilattice.idem
-d_idem_2654 ::
+d_idem_2658 ::
   (Bool -> Bool -> Bool) ->
   Bool ->
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
   Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_idem_2654 = erased
+d_idem_2658 = erased
 -- Data.Bool.Properties._.IsBoundedMeetSemilattice.identity
-d_identity_2656 ::
+d_identity_2660 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_identity_2656 v0
+d_identity_2660 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_identity_616
       (coe
@@ -4211,28 +4409,28 @@ d_identity_2656 v0
             MAlonzo.Code.Algebra.Structures.d_isCommutativeMonoid_724
             (coe v0)))
 -- Data.Bool.Properties._.IsBoundedMeetSemilattice.isBand
-d_isBand_2662 ::
+d_isBand_2666 ::
   (Bool -> Bool -> Bool) ->
   Bool ->
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
   MAlonzo.Code.Algebra.Structures.T_IsBand_476
-d_isBand_2662 ~v0 ~v1 v2 = du_isBand_2662 v2
-du_isBand_2662 ::
+d_isBand_2666 ~v0 ~v1 v2 = du_isBand_2666 v2
+du_isBand_2666 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
   MAlonzo.Code.Algebra.Structures.T_IsBand_476
-du_isBand_2662 v0
+du_isBand_2666 v0
   = coe MAlonzo.Code.Algebra.Structures.du_isBand_772 (coe v0)
 -- Data.Bool.Properties._.IsBoundedMeetSemilattice.isEquivalence
-d_isEquivalence_2664 ::
+d_isEquivalence_2668 ::
   (Bool -> Bool -> Bool) ->
   Bool ->
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
   MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
-d_isEquivalence_2664 ~v0 ~v1 v2 = du_isEquivalence_2664 v2
-du_isEquivalence_2664 ::
+d_isEquivalence_2668 ~v0 ~v1 v2 = du_isEquivalence_2668 v2
+du_isEquivalence_2668 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
   MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
-du_isEquivalence_2664 v0
+du_isEquivalence_2668 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isEquivalence_152
       (coe
@@ -4245,16 +4443,16 @@ du_isEquivalence_2664 v0
                   MAlonzo.Code.Algebra.Structures.d_isCommutativeMonoid_724
                   (coe v0)))))
 -- Data.Bool.Properties._.IsBoundedMeetSemilattice.isMagma
-d_isMagma_2666 ::
+d_isMagma_2670 ::
   (Bool -> Bool -> Bool) ->
   Bool ->
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
   MAlonzo.Code.Algebra.Structures.T_IsMagma_144
-d_isMagma_2666 ~v0 ~v1 v2 = du_isMagma_2666 v2
-du_isMagma_2666 ::
+d_isMagma_2670 ~v0 ~v1 v2 = du_isMagma_2670 v2
+du_isMagma_2670 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
   MAlonzo.Code.Algebra.Structures.T_IsMagma_144
-du_isMagma_2666 v0
+du_isMagma_2670 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isMagma_448
       (coe
@@ -4265,30 +4463,30 @@ du_isMagma_2666 v0
                MAlonzo.Code.Algebra.Structures.d_isCommutativeMonoid_724
                (coe v0))))
 -- Data.Bool.Properties._.IsBoundedMeetSemilattice.isSemilattice
-d_isSemilattice_2668 ::
+d_isSemilattice_2672 ::
   (Bool -> Bool -> Bool) ->
   Bool ->
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2526
-d_isSemilattice_2668 ~v0 ~v1 v2 = du_isSemilattice_2668 v2
-du_isSemilattice_2668 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2530
+d_isSemilattice_2672 ~v0 ~v1 v2 = du_isSemilattice_2672 v2
+du_isSemilattice_2672 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2526
-du_isSemilattice_2668 v0
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2530
+du_isSemilattice_2672 v0
   = coe
-      MAlonzo.Code.Algebra.Lattice.Structures.du_isSemilattice_2712
+      MAlonzo.Code.Algebra.Lattice.Structures.du_isSemilattice_2716
       (coe v0)
 -- Data.Bool.Properties._.IsBoundedMeetSemilattice.isSemigroup
-d_isSemigroup_2672 ::
+d_isSemigroup_2676 ::
   (Bool -> Bool -> Bool) ->
   Bool ->
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
   MAlonzo.Code.Algebra.Structures.T_IsSemigroup_440
-d_isSemigroup_2672 ~v0 ~v1 v2 = du_isSemigroup_2672 v2
-du_isSemigroup_2672 ::
+d_isSemigroup_2676 ~v0 ~v1 v2 = du_isSemigroup_2676 v2
+du_isSemigroup_2676 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
   MAlonzo.Code.Algebra.Structures.T_IsSemigroup_440
-du_isSemigroup_2672 v0
+du_isSemigroup_2676 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isSemigroup_614
       (coe
@@ -4297,7 +4495,7 @@ du_isSemigroup_2672 v0
             MAlonzo.Code.Algebra.Structures.d_isCommutativeMonoid_724
             (coe v0)))
 -- Data.Bool.Properties._.IsBoundedMeetSemilattice.∙-cong
-d_'8729''45'cong_2684 ::
+d_'8729''45'cong_2688 ::
   (Bool -> Bool -> Bool) ->
   Bool ->
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
@@ -4308,28 +4506,28 @@ d_'8729''45'cong_2684 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8729''45'cong_2684 = erased
+d_'8729''45'cong_2688 = erased
 -- Data.Bool.Properties._.IsBoundedSemilattice.assoc
-d_assoc_2692 ::
+d_assoc_2696 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_assoc_2692 = erased
+d_assoc_2696 = erased
 -- Data.Bool.Properties._.IsBoundedSemilattice.comm
-d_comm_2694 ::
+d_comm_2698 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_comm_2694 = erased
+d_comm_2698 = erased
 -- Data.Bool.Properties._.IsBoundedSemilattice.idem
-d_idem_2696 ::
+d_idem_2700 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
   Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_idem_2696 = erased
+d_idem_2700 = erased
 -- Data.Bool.Properties._.IsBoundedSemilattice.identity
-d_identity_2698 ::
+d_identity_2702 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_identity_2698 v0
+d_identity_2702 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_identity_616
       (coe
@@ -4338,17 +4536,17 @@ d_identity_2698 v0
             MAlonzo.Code.Algebra.Structures.d_isCommutativeMonoid_724
             (coe v0)))
 -- Data.Bool.Properties._.IsBoundedSemilattice.isCommutativeMonoid
-d_isCommutativeMonoid_2708 ::
+d_isCommutativeMonoid_2712 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
   MAlonzo.Code.Algebra.Structures.T_IsCommutativeMonoid_654
-d_isCommutativeMonoid_2708 v0
+d_isCommutativeMonoid_2712 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isCommutativeMonoid_724 (coe v0)
 -- Data.Bool.Properties._.IsBoundedSemilattice.isEquivalence
-d_isEquivalence_2712 ::
+d_isEquivalence_2716 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
   MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
-d_isEquivalence_2712 v0
+d_isEquivalence_2716 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isEquivalence_152
       (coe
@@ -4361,10 +4559,10 @@ d_isEquivalence_2712 v0
                   MAlonzo.Code.Algebra.Structures.d_isCommutativeMonoid_724
                   (coe v0)))))
 -- Data.Bool.Properties._.IsBoundedSemilattice.isMagma
-d_isMagma_2714 ::
+d_isMagma_2718 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
   MAlonzo.Code.Algebra.Structures.T_IsMagma_144
-d_isMagma_2714 v0
+d_isMagma_2718 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isMagma_448
       (coe
@@ -4375,19 +4573,19 @@ d_isMagma_2714 v0
                MAlonzo.Code.Algebra.Structures.d_isCommutativeMonoid_724
                (coe v0))))
 -- Data.Bool.Properties._.IsBoundedSemilattice.isMonoid
-d_isMonoid_2716 ::
+d_isMonoid_2720 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
   MAlonzo.Code.Algebra.Structures.T_IsMonoid_604
-d_isMonoid_2716 v0
+d_isMonoid_2720 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isMonoid_664
       (coe
          MAlonzo.Code.Algebra.Structures.d_isCommutativeMonoid_724 (coe v0))
 -- Data.Bool.Properties._.IsBoundedSemilattice.isSemigroup
-d_isSemigroup_2720 ::
+d_isSemigroup_2724 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
   MAlonzo.Code.Algebra.Structures.T_IsSemigroup_440
-d_isSemigroup_2720 v0
+d_isSemigroup_2724 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isSemigroup_614
       (coe
@@ -4396,16 +4594,16 @@ d_isSemigroup_2720 v0
             MAlonzo.Code.Algebra.Structures.d_isCommutativeMonoid_724
             (coe v0)))
 -- Data.Bool.Properties._.IsBoundedSemilattice.isSemilattice
-d_isSemilattice_2722 ::
+d_isSemilattice_2726 ::
   (Bool -> Bool -> Bool) ->
   Bool ->
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2526
-d_isSemilattice_2722 v0 v1 v2
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2530
+d_isSemilattice_2726 v0 v1 v2
   = coe
-      MAlonzo.Code.Algebra.Lattice.Structures.du_isSemilattice_2712 v2
+      MAlonzo.Code.Algebra.Lattice.Structures.du_isSemilattice_2716 v2
 -- Data.Bool.Properties._.IsBoundedSemilattice.∙-cong
-d_'8729''45'cong_2736 ::
+d_'8729''45'cong_2740 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714 ->
   Bool ->
   Bool ->
@@ -4414,46 +4612,46 @@ d_'8729''45'cong_2736 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8729''45'cong_2736 = erased
+d_'8729''45'cong_2740 = erased
 -- Data.Bool.Properties._.IsDistributiveLattice.absorptive
-d_absorptive_2744 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsDistributiveLattice_2900 ->
+d_absorptive_2748 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsDistributiveLattice_2904 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_absorptive_2744 v0
+d_absorptive_2748 v0
   = coe
-      MAlonzo.Code.Algebra.Lattice.Structures.d_absorptive_2862
+      MAlonzo.Code.Algebra.Lattice.Structures.d_absorptive_2866
       (coe
-         MAlonzo.Code.Algebra.Lattice.Structures.d_isLattice_2912 (coe v0))
+         MAlonzo.Code.Algebra.Lattice.Structures.d_isLattice_2916 (coe v0))
 -- Data.Bool.Properties._.IsDistributiveLattice.isEquivalence
-d_isEquivalence_2746 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsDistributiveLattice_2900 ->
+d_isEquivalence_2750 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsDistributiveLattice_2904 ->
   MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
-d_isEquivalence_2746 v0
+d_isEquivalence_2750 v0
   = coe
-      MAlonzo.Code.Algebra.Lattice.Structures.d_isEquivalence_2848
+      MAlonzo.Code.Algebra.Lattice.Structures.d_isEquivalence_2852
       (coe
-         MAlonzo.Code.Algebra.Lattice.Structures.d_isLattice_2912 (coe v0))
+         MAlonzo.Code.Algebra.Lattice.Structures.d_isLattice_2916 (coe v0))
 -- Data.Bool.Properties._.IsDistributiveLattice.isLattice
-d_isLattice_2748 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsDistributiveLattice_2900 ->
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsLattice_2826
-d_isLattice_2748 v0
+d_isLattice_2752 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsDistributiveLattice_2904 ->
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsLattice_2830
+d_isLattice_2752 v0
   = coe
-      MAlonzo.Code.Algebra.Lattice.Structures.d_isLattice_2912 (coe v0)
+      MAlonzo.Code.Algebra.Lattice.Structures.d_isLattice_2916 (coe v0)
 -- Data.Bool.Properties._.IsDistributiveLattice.∧-assoc
-d_'8743''45'assoc_2762 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsDistributiveLattice_2900 ->
+d_'8743''45'assoc_2766 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsDistributiveLattice_2904 ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8743''45'assoc_2762 = erased
+d_'8743''45'assoc_2766 = erased
 -- Data.Bool.Properties._.IsDistributiveLattice.∧-comm
-d_'8743''45'comm_2764 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsDistributiveLattice_2900 ->
+d_'8743''45'comm_2768 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsDistributiveLattice_2904 ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8743''45'comm_2764 = erased
+d_'8743''45'comm_2768 = erased
 -- Data.Bool.Properties._.IsDistributiveLattice.∧-cong
-d_'8743''45'cong_2766 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsDistributiveLattice_2900 ->
+d_'8743''45'cong_2770 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsDistributiveLattice_2904 ->
   Bool ->
   Bool ->
   Bool ->
@@ -4461,29 +4659,29 @@ d_'8743''45'cong_2766 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8743''45'cong_2766 = erased
+d_'8743''45'cong_2770 = erased
 -- Data.Bool.Properties._.IsDistributiveLattice.∧-distrib-∨
-d_'8743''45'distrib'45''8744'_2772 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsDistributiveLattice_2900 ->
+d_'8743''45'distrib'45''8744'_2776 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsDistributiveLattice_2904 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'8743''45'distrib'45''8744'_2772 v0
+d_'8743''45'distrib'45''8744'_2776 v0
   = coe
-      MAlonzo.Code.Algebra.Lattice.Structures.d_'8743''45'distrib'45''8744'_2916
+      MAlonzo.Code.Algebra.Lattice.Structures.d_'8743''45'distrib'45''8744'_2920
       (coe v0)
 -- Data.Bool.Properties._.IsDistributiveLattice.∨-assoc
-d_'8744''45'assoc_2780 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsDistributiveLattice_2900 ->
+d_'8744''45'assoc_2784 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsDistributiveLattice_2904 ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8744''45'assoc_2780 = erased
+d_'8744''45'assoc_2784 = erased
 -- Data.Bool.Properties._.IsDistributiveLattice.∨-comm
-d_'8744''45'comm_2782 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsDistributiveLattice_2900 ->
+d_'8744''45'comm_2786 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsDistributiveLattice_2904 ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8744''45'comm_2782 = erased
+d_'8744''45'comm_2786 = erased
 -- Data.Bool.Properties._.IsDistributiveLattice.∨-cong
-d_'8744''45'cong_2784 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsDistributiveLattice_2900 ->
+d_'8744''45'cong_2788 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsDistributiveLattice_2904 ->
   Bool ->
   Bool ->
   Bool ->
@@ -4491,43 +4689,43 @@ d_'8744''45'cong_2784 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8744''45'cong_2784 = erased
+d_'8744''45'cong_2788 = erased
 -- Data.Bool.Properties._.IsDistributiveLattice.∨-distrib-∧
-d_'8744''45'distrib'45''8743'_2790 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsDistributiveLattice_2900 ->
+d_'8744''45'distrib'45''8743'_2794 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsDistributiveLattice_2904 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'8744''45'distrib'45''8743'_2790 v0
+d_'8744''45'distrib'45''8743'_2794 v0
   = coe
-      MAlonzo.Code.Algebra.Lattice.Structures.d_'8744''45'distrib'45''8743'_2914
+      MAlonzo.Code.Algebra.Lattice.Structures.d_'8744''45'distrib'45''8743'_2918
       (coe v0)
 -- Data.Bool.Properties._.IsJoinSemilattice.assoc
-d_assoc_2798 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2526 ->
+d_assoc_2802 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2530 ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_assoc_2798 = erased
+d_assoc_2802 = erased
 -- Data.Bool.Properties._.IsJoinSemilattice.comm
-d_comm_2800 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2526 ->
+d_comm_2804 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2530 ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_comm_2800 = erased
+d_comm_2804 = erased
 -- Data.Bool.Properties._.IsJoinSemilattice.idem
-d_idem_2802 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2526 ->
+d_idem_2806 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2530 ->
   Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_idem_2802 = erased
+d_idem_2806 = erased
 -- Data.Bool.Properties._.IsJoinSemilattice.isBand
-d_isBand_2804 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2526 ->
+d_isBand_2808 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2530 ->
   MAlonzo.Code.Algebra.Structures.T_IsBand_476
-d_isBand_2804 v0
+d_isBand_2808 v0
   = coe
-      MAlonzo.Code.Algebra.Lattice.Structures.d_isBand_2534 (coe v0)
+      MAlonzo.Code.Algebra.Lattice.Structures.d_isBand_2538 (coe v0)
 -- Data.Bool.Properties._.IsJoinSemilattice.isEquivalence
-d_isEquivalence_2806 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2526 ->
+d_isEquivalence_2810 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2530 ->
   MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
-d_isEquivalence_2806 v0
+d_isEquivalence_2810 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isEquivalence_152
       (coe
@@ -4535,30 +4733,30 @@ d_isEquivalence_2806 v0
          (coe
             MAlonzo.Code.Algebra.Structures.d_isSemigroup_484
             (coe
-               MAlonzo.Code.Algebra.Lattice.Structures.d_isBand_2534 (coe v0))))
+               MAlonzo.Code.Algebra.Lattice.Structures.d_isBand_2538 (coe v0))))
 -- Data.Bool.Properties._.IsJoinSemilattice.isMagma
-d_isMagma_2808 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2526 ->
+d_isMagma_2812 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2530 ->
   MAlonzo.Code.Algebra.Structures.T_IsMagma_144
-d_isMagma_2808 v0
+d_isMagma_2812 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isMagma_448
       (coe
          MAlonzo.Code.Algebra.Structures.d_isSemigroup_484
          (coe
-            MAlonzo.Code.Algebra.Lattice.Structures.d_isBand_2534 (coe v0)))
+            MAlonzo.Code.Algebra.Lattice.Structures.d_isBand_2538 (coe v0)))
 -- Data.Bool.Properties._.IsJoinSemilattice.isSemigroup
-d_isSemigroup_2812 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2526 ->
+d_isSemigroup_2816 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2530 ->
   MAlonzo.Code.Algebra.Structures.T_IsSemigroup_440
-d_isSemigroup_2812 v0
+d_isSemigroup_2816 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isSemigroup_484
       (coe
-         MAlonzo.Code.Algebra.Lattice.Structures.d_isBand_2534 (coe v0))
+         MAlonzo.Code.Algebra.Lattice.Structures.d_isBand_2538 (coe v0))
 -- Data.Bool.Properties._.IsJoinSemilattice.∙-cong
-d_'8729''45'cong_2824 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2526 ->
+d_'8729''45'cong_2828 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2530 ->
   Bool ->
   Bool ->
   Bool ->
@@ -4566,36 +4764,36 @@ d_'8729''45'cong_2824 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8729''45'cong_2824 = erased
+d_'8729''45'cong_2828 = erased
 -- Data.Bool.Properties._.IsLattice.absorptive
-d_absorptive_2832 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsLattice_2826 ->
+d_absorptive_2836 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsLattice_2830 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_absorptive_2832 v0
+d_absorptive_2836 v0
   = coe
-      MAlonzo.Code.Algebra.Lattice.Structures.d_absorptive_2862 (coe v0)
+      MAlonzo.Code.Algebra.Lattice.Structures.d_absorptive_2866 (coe v0)
 -- Data.Bool.Properties._.IsLattice.isEquivalence
-d_isEquivalence_2834 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsLattice_2826 ->
+d_isEquivalence_2838 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsLattice_2830 ->
   MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
-d_isEquivalence_2834 v0
+d_isEquivalence_2838 v0
   = coe
-      MAlonzo.Code.Algebra.Lattice.Structures.d_isEquivalence_2848
+      MAlonzo.Code.Algebra.Lattice.Structures.d_isEquivalence_2852
       (coe v0)
 -- Data.Bool.Properties._.IsLattice.∧-assoc
-d_'8743''45'assoc_2848 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsLattice_2826 ->
+d_'8743''45'assoc_2852 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsLattice_2830 ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8743''45'assoc_2848 = erased
+d_'8743''45'assoc_2852 = erased
 -- Data.Bool.Properties._.IsLattice.∧-comm
-d_'8743''45'comm_2850 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsLattice_2826 ->
+d_'8743''45'comm_2854 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsLattice_2830 ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8743''45'comm_2850 = erased
+d_'8743''45'comm_2854 = erased
 -- Data.Bool.Properties._.IsLattice.∧-cong
-d_'8743''45'cong_2852 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsLattice_2826 ->
+d_'8743''45'cong_2856 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsLattice_2830 ->
   Bool ->
   Bool ->
   Bool ->
@@ -4603,21 +4801,21 @@ d_'8743''45'cong_2852 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8743''45'cong_2852 = erased
+d_'8743''45'cong_2856 = erased
 -- Data.Bool.Properties._.IsLattice.∨-assoc
-d_'8744''45'assoc_2860 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsLattice_2826 ->
+d_'8744''45'assoc_2864 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsLattice_2830 ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8744''45'assoc_2860 = erased
+d_'8744''45'assoc_2864 = erased
 -- Data.Bool.Properties._.IsLattice.∨-comm
-d_'8744''45'comm_2862 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsLattice_2826 ->
+d_'8744''45'comm_2866 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsLattice_2830 ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8744''45'comm_2862 = erased
+d_'8744''45'comm_2866 = erased
 -- Data.Bool.Properties._.IsLattice.∨-cong
-d_'8744''45'cong_2864 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsLattice_2826 ->
+d_'8744''45'cong_2868 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsLattice_2830 ->
   Bool ->
   Bool ->
   Bool ->
@@ -4625,35 +4823,35 @@ d_'8744''45'cong_2864 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8744''45'cong_2864 = erased
+d_'8744''45'cong_2868 = erased
 -- Data.Bool.Properties._.IsMeetSemilattice.assoc
-d_assoc_2872 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2526 ->
+d_assoc_2876 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2530 ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_assoc_2872 = erased
+d_assoc_2876 = erased
 -- Data.Bool.Properties._.IsMeetSemilattice.comm
-d_comm_2874 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2526 ->
+d_comm_2878 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2530 ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_comm_2874 = erased
+d_comm_2878 = erased
 -- Data.Bool.Properties._.IsMeetSemilattice.idem
-d_idem_2876 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2526 ->
+d_idem_2880 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2530 ->
   Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_idem_2876 = erased
+d_idem_2880 = erased
 -- Data.Bool.Properties._.IsMeetSemilattice.isBand
-d_isBand_2878 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2526 ->
+d_isBand_2882 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2530 ->
   MAlonzo.Code.Algebra.Structures.T_IsBand_476
-d_isBand_2878 v0
+d_isBand_2882 v0
   = coe
-      MAlonzo.Code.Algebra.Lattice.Structures.d_isBand_2534 (coe v0)
+      MAlonzo.Code.Algebra.Lattice.Structures.d_isBand_2538 (coe v0)
 -- Data.Bool.Properties._.IsMeetSemilattice.isEquivalence
-d_isEquivalence_2880 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2526 ->
+d_isEquivalence_2884 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2530 ->
   MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
-d_isEquivalence_2880 v0
+d_isEquivalence_2884 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isEquivalence_152
       (coe
@@ -4661,30 +4859,30 @@ d_isEquivalence_2880 v0
          (coe
             MAlonzo.Code.Algebra.Structures.d_isSemigroup_484
             (coe
-               MAlonzo.Code.Algebra.Lattice.Structures.d_isBand_2534 (coe v0))))
+               MAlonzo.Code.Algebra.Lattice.Structures.d_isBand_2538 (coe v0))))
 -- Data.Bool.Properties._.IsMeetSemilattice.isMagma
-d_isMagma_2882 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2526 ->
+d_isMagma_2886 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2530 ->
   MAlonzo.Code.Algebra.Structures.T_IsMagma_144
-d_isMagma_2882 v0
+d_isMagma_2886 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isMagma_448
       (coe
          MAlonzo.Code.Algebra.Structures.d_isSemigroup_484
          (coe
-            MAlonzo.Code.Algebra.Lattice.Structures.d_isBand_2534 (coe v0)))
+            MAlonzo.Code.Algebra.Lattice.Structures.d_isBand_2538 (coe v0)))
 -- Data.Bool.Properties._.IsMeetSemilattice.isSemigroup
-d_isSemigroup_2886 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2526 ->
+d_isSemigroup_2890 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2530 ->
   MAlonzo.Code.Algebra.Structures.T_IsSemigroup_440
-d_isSemigroup_2886 v0
+d_isSemigroup_2890 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isSemigroup_484
       (coe
-         MAlonzo.Code.Algebra.Lattice.Structures.d_isBand_2534 (coe v0))
+         MAlonzo.Code.Algebra.Lattice.Structures.d_isBand_2538 (coe v0))
 -- Data.Bool.Properties._.IsMeetSemilattice.∙-cong
-d_'8729''45'cong_2898 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2526 ->
+d_'8729''45'cong_2902 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2530 ->
   Bool ->
   Bool ->
   Bool ->
@@ -4692,35 +4890,35 @@ d_'8729''45'cong_2898 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8729''45'cong_2898 = erased
+d_'8729''45'cong_2902 = erased
 -- Data.Bool.Properties._.IsSemilattice.assoc
-d_assoc_2906 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2526 ->
+d_assoc_2910 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2530 ->
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_assoc_2906 = erased
+d_assoc_2910 = erased
 -- Data.Bool.Properties._.IsSemilattice.comm
-d_comm_2908 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2526 ->
+d_comm_2912 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2530 ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_comm_2908 = erased
+d_comm_2912 = erased
 -- Data.Bool.Properties._.IsSemilattice.idem
-d_idem_2910 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2526 ->
+d_idem_2914 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2530 ->
   Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_idem_2910 = erased
+d_idem_2914 = erased
 -- Data.Bool.Properties._.IsSemilattice.isBand
-d_isBand_2912 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2526 ->
+d_isBand_2916 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2530 ->
   MAlonzo.Code.Algebra.Structures.T_IsBand_476
-d_isBand_2912 v0
+d_isBand_2916 v0
   = coe
-      MAlonzo.Code.Algebra.Lattice.Structures.d_isBand_2534 (coe v0)
+      MAlonzo.Code.Algebra.Lattice.Structures.d_isBand_2538 (coe v0)
 -- Data.Bool.Properties._.IsSemilattice.isEquivalence
-d_isEquivalence_2914 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2526 ->
+d_isEquivalence_2918 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2530 ->
   MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
-d_isEquivalence_2914 v0
+d_isEquivalence_2918 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isEquivalence_152
       (coe
@@ -4728,30 +4926,30 @@ d_isEquivalence_2914 v0
          (coe
             MAlonzo.Code.Algebra.Structures.d_isSemigroup_484
             (coe
-               MAlonzo.Code.Algebra.Lattice.Structures.d_isBand_2534 (coe v0))))
+               MAlonzo.Code.Algebra.Lattice.Structures.d_isBand_2538 (coe v0))))
 -- Data.Bool.Properties._.IsSemilattice.isMagma
-d_isMagma_2916 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2526 ->
+d_isMagma_2920 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2530 ->
   MAlonzo.Code.Algebra.Structures.T_IsMagma_144
-d_isMagma_2916 v0
+d_isMagma_2920 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isMagma_448
       (coe
          MAlonzo.Code.Algebra.Structures.d_isSemigroup_484
          (coe
-            MAlonzo.Code.Algebra.Lattice.Structures.d_isBand_2534 (coe v0)))
+            MAlonzo.Code.Algebra.Lattice.Structures.d_isBand_2538 (coe v0)))
 -- Data.Bool.Properties._.IsSemilattice.isSemigroup
-d_isSemigroup_2920 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2526 ->
+d_isSemigroup_2924 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2530 ->
   MAlonzo.Code.Algebra.Structures.T_IsSemigroup_440
-d_isSemigroup_2920 v0
+d_isSemigroup_2924 v0
   = coe
       MAlonzo.Code.Algebra.Structures.d_isSemigroup_484
       (coe
-         MAlonzo.Code.Algebra.Lattice.Structures.d_isBand_2534 (coe v0))
+         MAlonzo.Code.Algebra.Lattice.Structures.d_isBand_2538 (coe v0))
 -- Data.Bool.Properties._.IsSemilattice.∙-cong
-d_'8729''45'cong_2932 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2526 ->
+d_'8729''45'cong_2936 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2530 ->
   Bool ->
   Bool ->
   Bool ->
@@ -4759,12 +4957,12 @@ d_'8729''45'cong_2932 ::
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8729''45'cong_2932 = erased
+d_'8729''45'cong_2936 = erased
 -- Data.Bool.Properties._≟_
-d__'8799'__2946 ::
+d__'8799'__2950 ::
   Bool ->
   Bool -> MAlonzo.Code.Relation.Nullary.Decidable.Core.T_Dec_20
-d__'8799'__2946 v0 v1
+d__'8799'__2950 v0 v1
   = if coe v0
       then if coe v1
              then coe
@@ -4783,94 +4981,94 @@ d__'8799'__2946 v0 v1
                      (coe MAlonzo.Code.Agda.Builtin.Bool.C_true_10)
                      (coe MAlonzo.Code.Relation.Nullary.Reflects.C_of'696'_22 erased))
 -- Data.Bool.Properties.≡-setoid
-d_'8801''45'setoid_2948 ::
+d_'8801''45'setoid_2952 ::
   MAlonzo.Code.Relation.Binary.Bundles.T_Setoid_44
-d_'8801''45'setoid_2948
+d_'8801''45'setoid_2952
   = coe
       MAlonzo.Code.Relation.Binary.PropositionalEquality.Properties.du_setoid_402
 -- Data.Bool.Properties.≡-decSetoid
-d_'8801''45'decSetoid_2950 ::
+d_'8801''45'decSetoid_2954 ::
   MAlonzo.Code.Relation.Binary.Bundles.T_DecSetoid_84
-d_'8801''45'decSetoid_2950
+d_'8801''45'decSetoid_2954
   = coe
       MAlonzo.Code.Relation.Binary.PropositionalEquality.Properties.du_decSetoid_406
-      (coe d__'8799'__2946)
+      (coe d__'8799'__2950)
 -- Data.Bool.Properties.≤-reflexive
-d_'8804''45'reflexive_2952 ::
+d_'8804''45'reflexive_2956 ::
   Bool ->
   Bool ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Data.Bool.Base.T__'8804'__10
-d_'8804''45'reflexive_2952 ~v0 ~v1 ~v2
-  = du_'8804''45'reflexive_2952
-du_'8804''45'reflexive_2952 ::
+d_'8804''45'reflexive_2956 ~v0 ~v1 ~v2
+  = du_'8804''45'reflexive_2956
+du_'8804''45'reflexive_2956 ::
   MAlonzo.Code.Data.Bool.Base.T__'8804'__10
-du_'8804''45'reflexive_2952
+du_'8804''45'reflexive_2956
   = coe MAlonzo.Code.Data.Bool.Base.C_b'8804'b_16
 -- Data.Bool.Properties.≤-refl
-d_'8804''45'refl_2954 ::
+d_'8804''45'refl_2958 ::
   Bool -> MAlonzo.Code.Data.Bool.Base.T__'8804'__10
-d_'8804''45'refl_2954 ~v0 = du_'8804''45'refl_2954
-du_'8804''45'refl_2954 :: MAlonzo.Code.Data.Bool.Base.T__'8804'__10
-du_'8804''45'refl_2954 = coe du_'8804''45'reflexive_2952
+d_'8804''45'refl_2958 ~v0 = du_'8804''45'refl_2958
+du_'8804''45'refl_2958 :: MAlonzo.Code.Data.Bool.Base.T__'8804'__10
+du_'8804''45'refl_2958 = coe du_'8804''45'reflexive_2956
 -- Data.Bool.Properties.≤-trans
-d_'8804''45'trans_2956 ::
+d_'8804''45'trans_2960 ::
   Bool ->
   Bool ->
   Bool ->
   MAlonzo.Code.Data.Bool.Base.T__'8804'__10 ->
   MAlonzo.Code.Data.Bool.Base.T__'8804'__10 ->
   MAlonzo.Code.Data.Bool.Base.T__'8804'__10
-d_'8804''45'trans_2956 ~v0 ~v1 ~v2 v3 v4
-  = du_'8804''45'trans_2956 v3 v4
-du_'8804''45'trans_2956 ::
+d_'8804''45'trans_2960 ~v0 ~v1 ~v2 v3 v4
+  = du_'8804''45'trans_2960 v3 v4
+du_'8804''45'trans_2960 ::
   MAlonzo.Code.Data.Bool.Base.T__'8804'__10 ->
   MAlonzo.Code.Data.Bool.Base.T__'8804'__10 ->
   MAlonzo.Code.Data.Bool.Base.T__'8804'__10
-du_'8804''45'trans_2956 v0 v1
+du_'8804''45'trans_2960 v0 v1
   = case coe v0 of
       MAlonzo.Code.Data.Bool.Base.C_f'8804't_12
         -> coe seq (coe v1) (coe v0)
       MAlonzo.Code.Data.Bool.Base.C_b'8804'b_16 -> coe v1
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Data.Bool.Properties.≤-antisym
-d_'8804''45'antisym_2960 ::
+d_'8804''45'antisym_2964 ::
   Bool ->
   Bool ->
   MAlonzo.Code.Data.Bool.Base.T__'8804'__10 ->
   MAlonzo.Code.Data.Bool.Base.T__'8804'__10 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8804''45'antisym_2960 = erased
+d_'8804''45'antisym_2964 = erased
 -- Data.Bool.Properties.≤-minimum
-d_'8804''45'minimum_2962 ::
+d_'8804''45'minimum_2966 ::
   Bool -> MAlonzo.Code.Data.Bool.Base.T__'8804'__10
-d_'8804''45'minimum_2962 v0
+d_'8804''45'minimum_2966 v0
   = if coe v0
       then coe MAlonzo.Code.Data.Bool.Base.C_f'8804't_12
       else coe MAlonzo.Code.Data.Bool.Base.C_b'8804'b_16
 -- Data.Bool.Properties.≤-maximum
-d_'8804''45'maximum_2964 ::
+d_'8804''45'maximum_2968 ::
   Bool -> MAlonzo.Code.Data.Bool.Base.T__'8804'__10
-d_'8804''45'maximum_2964 v0
+d_'8804''45'maximum_2968 v0
   = if coe v0
       then coe MAlonzo.Code.Data.Bool.Base.C_b'8804'b_16
       else coe MAlonzo.Code.Data.Bool.Base.C_f'8804't_12
 -- Data.Bool.Properties.≤-total
-d_'8804''45'total_2966 ::
+d_'8804''45'total_2970 ::
   Bool -> Bool -> MAlonzo.Code.Data.Sum.Base.T__'8846'__30
-d_'8804''45'total_2966 v0 v1
+d_'8804''45'total_2970 v0 v1
   = if coe v0
       then coe
              MAlonzo.Code.Data.Sum.Base.C_inj'8322'_42
-             (coe d_'8804''45'maximum_2964 (coe v1))
+             (coe d_'8804''45'maximum_2968 (coe v1))
       else coe
              MAlonzo.Code.Data.Sum.Base.C_inj'8321'_38
-             (coe d_'8804''45'minimum_2962 (coe v1))
+             (coe d_'8804''45'minimum_2966 (coe v1))
 -- Data.Bool.Properties._≤?_
-d__'8804''63'__2972 ::
+d__'8804''63'__2976 ::
   Bool ->
   Bool -> MAlonzo.Code.Relation.Nullary.Decidable.Core.T_Dec_20
-d__'8804''63'__2972 v0 v1
+d__'8804''63'__2976 v0 v1
   = if coe v0
       then if coe v1
              then coe
@@ -4887,122 +5085,122 @@ d__'8804''63'__2972 v0 v1
              (coe MAlonzo.Code.Agda.Builtin.Bool.C_true_10)
              (coe
                 MAlonzo.Code.Relation.Nullary.Reflects.C_of'696'_22
-                (coe d_'8804''45'minimum_2962 (coe v1)))
+                (coe d_'8804''45'minimum_2966 (coe v1)))
 -- Data.Bool.Properties.≤-irrelevant
-d_'8804''45'irrelevant_2976 ::
+d_'8804''45'irrelevant_2980 ::
   Bool ->
   Bool ->
   MAlonzo.Code.Data.Bool.Base.T__'8804'__10 ->
   MAlonzo.Code.Data.Bool.Base.T__'8804'__10 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8804''45'irrelevant_2976 = erased
+d_'8804''45'irrelevant_2980 = erased
 -- Data.Bool.Properties.≤-isPreorder
-d_'8804''45'isPreorder_2978 ::
+d_'8804''45'isPreorder_2982 ::
   MAlonzo.Code.Relation.Binary.Structures.T_IsPreorder_70
-d_'8804''45'isPreorder_2978
+d_'8804''45'isPreorder_2982
   = coe
       MAlonzo.Code.Relation.Binary.Structures.C_IsPreorder'46'constructor_3993
       (coe
          MAlonzo.Code.Relation.Binary.PropositionalEquality.Properties.du_isEquivalence_396)
-      (\ v0 v1 v2 -> coe du_'8804''45'reflexive_2952)
-      (\ v0 v1 v2 v3 v4 -> coe du_'8804''45'trans_2956 v3 v4)
+      (\ v0 v1 v2 -> coe du_'8804''45'reflexive_2956)
+      (\ v0 v1 v2 v3 v4 -> coe du_'8804''45'trans_2960 v3 v4)
 -- Data.Bool.Properties.≤-isPartialOrder
-d_'8804''45'isPartialOrder_2980 ::
+d_'8804''45'isPartialOrder_2984 ::
   MAlonzo.Code.Relation.Binary.Structures.T_IsPartialOrder_174
-d_'8804''45'isPartialOrder_2980
+d_'8804''45'isPartialOrder_2984
   = coe
       MAlonzo.Code.Relation.Binary.Structures.C_IsPartialOrder'46'constructor_9831
-      (coe d_'8804''45'isPreorder_2978) erased
+      (coe d_'8804''45'isPreorder_2982) erased
 -- Data.Bool.Properties.≤-isTotalOrder
-d_'8804''45'isTotalOrder_2982 ::
+d_'8804''45'isTotalOrder_2986 ::
   MAlonzo.Code.Relation.Binary.Structures.T_IsTotalOrder_404
-d_'8804''45'isTotalOrder_2982
+d_'8804''45'isTotalOrder_2986
   = coe
       MAlonzo.Code.Relation.Binary.Structures.C_IsTotalOrder'46'constructor_20499
-      (coe d_'8804''45'isPartialOrder_2980) (coe d_'8804''45'total_2966)
+      (coe d_'8804''45'isPartialOrder_2984) (coe d_'8804''45'total_2970)
 -- Data.Bool.Properties.≤-isDecTotalOrder
-d_'8804''45'isDecTotalOrder_2984 ::
+d_'8804''45'isDecTotalOrder_2988 ::
   MAlonzo.Code.Relation.Binary.Structures.T_IsDecTotalOrder_460
-d_'8804''45'isDecTotalOrder_2984
+d_'8804''45'isDecTotalOrder_2988
   = coe
       MAlonzo.Code.Relation.Binary.Structures.C_IsDecTotalOrder'46'constructor_22635
-      (coe d_'8804''45'isTotalOrder_2982) (coe d__'8799'__2946)
-      (coe d__'8804''63'__2972)
+      (coe d_'8804''45'isTotalOrder_2986) (coe d__'8799'__2950)
+      (coe d__'8804''63'__2976)
 -- Data.Bool.Properties.≤-poset
-d_'8804''45'poset_2986 ::
+d_'8804''45'poset_2990 ::
   MAlonzo.Code.Relation.Binary.Bundles.T_Poset_314
-d_'8804''45'poset_2986
+d_'8804''45'poset_2990
   = coe
       MAlonzo.Code.Relation.Binary.Bundles.C_Poset'46'constructor_6347
-      d_'8804''45'isPartialOrder_2980
+      d_'8804''45'isPartialOrder_2984
 -- Data.Bool.Properties.≤-preorder
-d_'8804''45'preorder_2988 ::
+d_'8804''45'preorder_2992 ::
   MAlonzo.Code.Relation.Binary.Bundles.T_Preorder_132
-d_'8804''45'preorder_2988
+d_'8804''45'preorder_2992
   = coe
       MAlonzo.Code.Relation.Binary.Bundles.C_Preorder'46'constructor_2249
-      d_'8804''45'isPreorder_2978
+      d_'8804''45'isPreorder_2982
 -- Data.Bool.Properties.≤-totalOrder
-d_'8804''45'totalOrder_2990 ::
+d_'8804''45'totalOrder_2994 ::
   MAlonzo.Code.Relation.Binary.Bundles.T_TotalOrder_764
-d_'8804''45'totalOrder_2990
+d_'8804''45'totalOrder_2994
   = coe
       MAlonzo.Code.Relation.Binary.Bundles.C_TotalOrder'46'constructor_15657
-      d_'8804''45'isTotalOrder_2982
+      d_'8804''45'isTotalOrder_2986
 -- Data.Bool.Properties.≤-decTotalOrder
-d_'8804''45'decTotalOrder_2992 ::
+d_'8804''45'decTotalOrder_2996 ::
   MAlonzo.Code.Relation.Binary.Bundles.T_DecTotalOrder_866
-d_'8804''45'decTotalOrder_2992
+d_'8804''45'decTotalOrder_2996
   = coe
       MAlonzo.Code.Relation.Binary.Bundles.C_DecTotalOrder'46'constructor_17747
-      d_'8804''45'isDecTotalOrder_2984
+      d_'8804''45'isDecTotalOrder_2988
 -- Data.Bool.Properties.<-irrefl
-d_'60''45'irrefl_2994 ::
+d_'60''45'irrefl_2998 ::
   Bool ->
   Bool ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Data.Bool.Base.T__'60'__18 ->
   MAlonzo.Code.Data.Irrelevant.T_Irrelevant_20
-d_'60''45'irrefl_2994 = erased
+d_'60''45'irrefl_2998 = erased
 -- Data.Bool.Properties.<-asym
-d_'60''45'asym_2996 ::
+d_'60''45'asym_3000 ::
   Bool ->
   Bool ->
   MAlonzo.Code.Data.Bool.Base.T__'60'__18 ->
   MAlonzo.Code.Data.Bool.Base.T__'60'__18 ->
   MAlonzo.Code.Data.Irrelevant.T_Irrelevant_20
-d_'60''45'asym_2996 = erased
+d_'60''45'asym_3000 = erased
 -- Data.Bool.Properties.<-trans
-d_'60''45'trans_2998 ::
+d_'60''45'trans_3002 ::
   Bool ->
   Bool ->
   Bool ->
   MAlonzo.Code.Data.Bool.Base.T__'60'__18 ->
   MAlonzo.Code.Data.Bool.Base.T__'60'__18 ->
   MAlonzo.Code.Data.Bool.Base.T__'60'__18
-d_'60''45'trans_2998 = erased
+d_'60''45'trans_3002 = erased
 -- Data.Bool.Properties.<-transʳ
-d_'60''45'trans'691'_3000 ::
+d_'60''45'trans'691'_3004 ::
   Bool ->
   Bool ->
   Bool ->
   MAlonzo.Code.Data.Bool.Base.T__'8804'__10 ->
   MAlonzo.Code.Data.Bool.Base.T__'60'__18 ->
   MAlonzo.Code.Data.Bool.Base.T__'60'__18
-d_'60''45'trans'691'_3000 = erased
+d_'60''45'trans'691'_3004 = erased
 -- Data.Bool.Properties.<-transˡ
-d_'60''45'trans'737'_3002 ::
+d_'60''45'trans'737'_3006 ::
   Bool ->
   Bool ->
   Bool ->
   MAlonzo.Code.Data.Bool.Base.T__'60'__18 ->
   MAlonzo.Code.Data.Bool.Base.T__'8804'__10 ->
   MAlonzo.Code.Data.Bool.Base.T__'60'__18
-d_'60''45'trans'737'_3002 = erased
+d_'60''45'trans'737'_3006 = erased
 -- Data.Bool.Properties.<-cmp
-d_'60''45'cmp_3004 ::
+d_'60''45'cmp_3008 ::
   Bool -> Bool -> MAlonzo.Code.Relation.Binary.Definitions.T_Tri_158
-d_'60''45'cmp_3004 v0 v1
+d_'60''45'cmp_3008 v0 v1
   = if coe v0
       then if coe v1
              then coe
@@ -5015,10 +5213,10 @@ d_'60''45'cmp_3004 v0 v1
               else coe
                      MAlonzo.Code.Relation.Binary.Definitions.C_tri'8776'_180 erased)
 -- Data.Bool.Properties._<?_
-d__'60''63'__3006 ::
+d__'60''63'__3010 ::
   Bool ->
   Bool -> MAlonzo.Code.Relation.Nullary.Decidable.Core.T_Dec_20
-d__'60''63'__3006 v0 v1
+d__'60''63'__3010 v0 v1
   = if coe v0
       then coe
              MAlonzo.Code.Relation.Nullary.Decidable.Core.C__because__32
@@ -5034,563 +5232,563 @@ d__'60''63'__3006 v0 v1
                      (coe v1)
                      (coe MAlonzo.Code.Relation.Nullary.Reflects.C_of'8319'_26))
 -- Data.Bool.Properties.<-resp₂-≡
-d_'60''45'resp'8322''45''8801'_3008 ::
+d_'60''45'resp'8322''45''8801'_3012 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'60''45'resp'8322''45''8801'_3008
+d_'60''45'resp'8322''45''8801'_3012
   = coe
       MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32
       (coe (\ v0 v1 v2 v3 v4 -> v4)) (coe (\ v0 v1 v2 v3 v4 -> v4))
 -- Data.Bool.Properties.<-irrelevant
-d_'60''45'irrelevant_3014 ::
+d_'60''45'irrelevant_3018 ::
   Bool ->
   Bool ->
   MAlonzo.Code.Data.Bool.Base.T__'60'__18 ->
   MAlonzo.Code.Data.Bool.Base.T__'60'__18 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'60''45'irrelevant_3014 = erased
+d_'60''45'irrelevant_3018 = erased
 -- Data.Bool.Properties.<-wellFounded
-d_'60''45'wellFounded_3016 ::
+d_'60''45'wellFounded_3020 ::
   Bool -> MAlonzo.Code.Induction.WellFounded.T_Acc_42
-d_'60''45'wellFounded_3016 = erased
+d_'60''45'wellFounded_3020 = erased
 -- Data.Bool.Properties._.<-acc
-d_'60''45'acc_3026 ::
+d_'60''45'acc_3030 ::
   Bool ->
   Bool ->
   Bool ->
   MAlonzo.Code.Data.Bool.Base.T__'60'__18 ->
   MAlonzo.Code.Induction.WellFounded.T_Acc_42
-d_'60''45'acc_3026 = erased
+d_'60''45'acc_3030 = erased
 -- Data.Bool.Properties.<-isStrictPartialOrder
-d_'60''45'isStrictPartialOrder_3028 ::
+d_'60''45'isStrictPartialOrder_3032 ::
   MAlonzo.Code.Relation.Binary.Structures.T_IsStrictPartialOrder_290
-d_'60''45'isStrictPartialOrder_3028
+d_'60''45'isStrictPartialOrder_3032
   = coe
       MAlonzo.Code.Relation.Binary.Structures.C_IsStrictPartialOrder'46'constructor_14011
       (coe
          MAlonzo.Code.Relation.Binary.PropositionalEquality.Properties.du_isEquivalence_396)
-      erased d_'60''45'resp'8322''45''8801'_3008
+      erased d_'60''45'resp'8322''45''8801'_3012
 -- Data.Bool.Properties.<-isStrictTotalOrder
-d_'60''45'isStrictTotalOrder_3030 ::
+d_'60''45'isStrictTotalOrder_3034 ::
   MAlonzo.Code.Relation.Binary.Structures.T_IsStrictTotalOrder_534
-d_'60''45'isStrictTotalOrder_3030
+d_'60''45'isStrictTotalOrder_3034
   = coe
       MAlonzo.Code.Relation.Binary.Structures.C_IsStrictTotalOrder'46'constructor_24885
-      (coe d_'60''45'isStrictPartialOrder_3028) (coe d_'60''45'cmp_3004)
+      (coe d_'60''45'isStrictPartialOrder_3032) (coe d_'60''45'cmp_3008)
 -- Data.Bool.Properties.<-strictPartialOrder
-d_'60''45'strictPartialOrder_3032 ::
+d_'60''45'strictPartialOrder_3036 ::
   MAlonzo.Code.Relation.Binary.Bundles.T_StrictPartialOrder_556
-d_'60''45'strictPartialOrder_3032
+d_'60''45'strictPartialOrder_3036
   = coe
       MAlonzo.Code.Relation.Binary.Bundles.C_StrictPartialOrder'46'constructor_11031
-      d_'60''45'isStrictPartialOrder_3028
+      d_'60''45'isStrictPartialOrder_3032
 -- Data.Bool.Properties.<-strictTotalOrder
-d_'60''45'strictTotalOrder_3034 ::
+d_'60''45'strictTotalOrder_3038 ::
   MAlonzo.Code.Relation.Binary.Bundles.T_StrictTotalOrder_1036
-d_'60''45'strictTotalOrder_3034
+d_'60''45'strictTotalOrder_3038
   = coe
       MAlonzo.Code.Relation.Binary.Bundles.C_StrictTotalOrder'46'constructor_20945
-      d_'60''45'isStrictTotalOrder_3030
+      d_'60''45'isStrictTotalOrder_3034
 -- Data.Bool.Properties.∨-assoc
-d_'8744''45'assoc_3036 ::
+d_'8744''45'assoc_3040 ::
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8744''45'assoc_3036 = erased
+d_'8744''45'assoc_3040 = erased
 -- Data.Bool.Properties.∨-comm
-d_'8744''45'comm_3046 ::
+d_'8744''45'comm_3050 ::
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8744''45'comm_3046 = erased
+d_'8744''45'comm_3050 = erased
 -- Data.Bool.Properties.∨-identityˡ
-d_'8744''45'identity'737'_3048 ::
+d_'8744''45'identity'737'_3052 ::
   Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8744''45'identity'737'_3048 = erased
+d_'8744''45'identity'737'_3052 = erased
 -- Data.Bool.Properties.∨-identityʳ
-d_'8744''45'identity'691'_3050 ::
+d_'8744''45'identity'691'_3054 ::
   Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8744''45'identity'691'_3050 = erased
+d_'8744''45'identity'691'_3054 = erased
 -- Data.Bool.Properties.∨-identity
-d_'8744''45'identity_3052 :: MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'8744''45'identity_3052
+d_'8744''45'identity_3056 :: MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
+d_'8744''45'identity_3056
   = coe MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 erased erased
 -- Data.Bool.Properties.∨-zeroˡ
-d_'8744''45'zero'737'_3054 ::
+d_'8744''45'zero'737'_3058 ::
   Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8744''45'zero'737'_3054 = erased
+d_'8744''45'zero'737'_3058 = erased
 -- Data.Bool.Properties.∨-zeroʳ
-d_'8744''45'zero'691'_3056 ::
+d_'8744''45'zero'691'_3060 ::
   Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8744''45'zero'691'_3056 = erased
+d_'8744''45'zero'691'_3060 = erased
 -- Data.Bool.Properties.∨-zero
-d_'8744''45'zero_3058 :: MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'8744''45'zero_3058
+d_'8744''45'zero_3062 :: MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
+d_'8744''45'zero_3062
   = coe MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 erased erased
 -- Data.Bool.Properties.∨-inverseˡ
-d_'8744''45'inverse'737'_3060 ::
+d_'8744''45'inverse'737'_3064 ::
   Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8744''45'inverse'737'_3060 = erased
+d_'8744''45'inverse'737'_3064 = erased
 -- Data.Bool.Properties.∨-inverseʳ
-d_'8744''45'inverse'691'_3062 ::
+d_'8744''45'inverse'691'_3066 ::
   Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8744''45'inverse'691'_3062 = erased
+d_'8744''45'inverse'691'_3066 = erased
 -- Data.Bool.Properties.∨-inverse
-d_'8744''45'inverse_3066 :: MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'8744''45'inverse_3066
+d_'8744''45'inverse_3070 :: MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
+d_'8744''45'inverse_3070
   = coe MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 erased erased
 -- Data.Bool.Properties.∨-idem
-d_'8744''45'idem_3068 ::
+d_'8744''45'idem_3072 ::
   Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8744''45'idem_3068 = erased
+d_'8744''45'idem_3072 = erased
 -- Data.Bool.Properties.∨-sel
-d_'8744''45'sel_3070 ::
+d_'8744''45'sel_3074 ::
   Bool -> Bool -> MAlonzo.Code.Data.Sum.Base.T__'8846'__30
-d_'8744''45'sel_3070 v0 ~v1 = du_'8744''45'sel_3070 v0
-du_'8744''45'sel_3070 ::
+d_'8744''45'sel_3074 v0 ~v1 = du_'8744''45'sel_3074 v0
+du_'8744''45'sel_3074 ::
   Bool -> MAlonzo.Code.Data.Sum.Base.T__'8846'__30
-du_'8744''45'sel_3070 v0
+du_'8744''45'sel_3074 v0
   = if coe v0
       then coe MAlonzo.Code.Data.Sum.Base.C_inj'8321'_38 erased
       else coe MAlonzo.Code.Data.Sum.Base.C_inj'8322'_42 erased
 -- Data.Bool.Properties.∨-conicalˡ
-d_'8744''45'conical'737'_3076 ::
+d_'8744''45'conical'737'_3080 ::
   Bool ->
   Bool ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8744''45'conical'737'_3076 = erased
+d_'8744''45'conical'737'_3080 = erased
 -- Data.Bool.Properties.∨-conicalʳ
-d_'8744''45'conical'691'_3078 ::
+d_'8744''45'conical'691'_3082 ::
   Bool ->
   Bool ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8744''45'conical'691'_3078 = erased
+d_'8744''45'conical'691'_3082 = erased
 -- Data.Bool.Properties.∨-conical
-d_'8744''45'conical_3080 :: MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'8744''45'conical_3080
+d_'8744''45'conical_3084 :: MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
+d_'8744''45'conical_3084
   = coe MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 erased erased
 -- Data.Bool.Properties.∨-isMagma
-d_'8744''45'isMagma_3082 ::
+d_'8744''45'isMagma_3086 ::
   MAlonzo.Code.Algebra.Structures.T_IsMagma_144
-d_'8744''45'isMagma_3082
+d_'8744''45'isMagma_3086
   = coe
       MAlonzo.Code.Algebra.Structures.C_IsMagma'46'constructor_785
       (coe
          MAlonzo.Code.Relation.Binary.PropositionalEquality.Properties.du_isEquivalence_396)
       erased
 -- Data.Bool.Properties.∨-magma
-d_'8744''45'magma_3084 :: MAlonzo.Code.Algebra.Bundles.T_Magma_8
-d_'8744''45'magma_3084
+d_'8744''45'magma_3088 :: MAlonzo.Code.Algebra.Bundles.T_Magma_8
+d_'8744''45'magma_3088
   = coe
       MAlonzo.Code.Algebra.Bundles.C_Magma'46'constructor_193
-      MAlonzo.Code.Data.Bool.Base.d__'8744'__30 d_'8744''45'isMagma_3082
+      MAlonzo.Code.Data.Bool.Base.d__'8744'__30 d_'8744''45'isMagma_3086
 -- Data.Bool.Properties.∨-isSemigroup
-d_'8744''45'isSemigroup_3086 ::
+d_'8744''45'isSemigroup_3090 ::
   MAlonzo.Code.Algebra.Structures.T_IsSemigroup_440
-d_'8744''45'isSemigroup_3086
+d_'8744''45'isSemigroup_3090
   = coe
       MAlonzo.Code.Algebra.Structures.C_IsSemigroup'46'constructor_9319
-      (coe d_'8744''45'isMagma_3082) erased
+      (coe d_'8744''45'isMagma_3086) erased
 -- Data.Bool.Properties.∨-semigroup
-d_'8744''45'semigroup_3088 ::
+d_'8744''45'semigroup_3092 ::
   MAlonzo.Code.Algebra.Bundles.T_Semigroup_476
-d_'8744''45'semigroup_3088
+d_'8744''45'semigroup_3092
   = coe
       MAlonzo.Code.Algebra.Bundles.C_Semigroup'46'constructor_8611
       MAlonzo.Code.Data.Bool.Base.d__'8744'__30
-      d_'8744''45'isSemigroup_3086
+      d_'8744''45'isSemigroup_3090
 -- Data.Bool.Properties.∨-isBand
-d_'8744''45'isBand_3090 ::
+d_'8744''45'isBand_3094 ::
   MAlonzo.Code.Algebra.Structures.T_IsBand_476
-d_'8744''45'isBand_3090
+d_'8744''45'isBand_3094
   = coe
       MAlonzo.Code.Algebra.Structures.C_IsBand'46'constructor_10105
-      (coe d_'8744''45'isSemigroup_3086) erased
+      (coe d_'8744''45'isSemigroup_3090) erased
 -- Data.Bool.Properties.∨-band
-d_'8744''45'band_3092 :: MAlonzo.Code.Algebra.Bundles.T_Band_536
-d_'8744''45'band_3092
+d_'8744''45'band_3096 :: MAlonzo.Code.Algebra.Bundles.T_Band_536
+d_'8744''45'band_3096
   = coe
       MAlonzo.Code.Algebra.Bundles.C_Band'46'constructor_9687
-      MAlonzo.Code.Data.Bool.Base.d__'8744'__30 d_'8744''45'isBand_3090
+      MAlonzo.Code.Data.Bool.Base.d__'8744'__30 d_'8744''45'isBand_3094
 -- Data.Bool.Properties.∨-isSemilattice
-d_'8744''45'isSemilattice_3094 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2526
-d_'8744''45'isSemilattice_3094
+d_'8744''45'isSemilattice_3098 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2530
+d_'8744''45'isSemilattice_3098
   = coe
-      MAlonzo.Code.Algebra.Lattice.Structures.C_IsSemilattice'46'constructor_32583
-      (coe d_'8744''45'isBand_3090) erased
+      MAlonzo.Code.Algebra.Lattice.Structures.C_IsSemilattice'46'constructor_33435
+      (coe d_'8744''45'isBand_3094) erased
 -- Data.Bool.Properties.∨-semilattice
-d_'8744''45'semilattice_3096 ::
+d_'8744''45'semilattice_3100 ::
   MAlonzo.Code.Algebra.Lattice.Bundles.T_Semilattice_10
-d_'8744''45'semilattice_3096
+d_'8744''45'semilattice_3100
   = coe
       MAlonzo.Code.Algebra.Lattice.Bundles.C_Semilattice'46'constructor_193
       MAlonzo.Code.Data.Bool.Base.d__'8744'__30
-      d_'8744''45'isSemilattice_3094
+      d_'8744''45'isSemilattice_3098
 -- Data.Bool.Properties.∨-isMonoid
-d_'8744''45'isMonoid_3098 ::
+d_'8744''45'isMonoid_3102 ::
   MAlonzo.Code.Algebra.Structures.T_IsMonoid_604
-d_'8744''45'isMonoid_3098
+d_'8744''45'isMonoid_3102
   = coe
       MAlonzo.Code.Algebra.Structures.C_IsMonoid'46'constructor_13575
-      (coe d_'8744''45'isSemigroup_3086) (coe d_'8744''45'identity_3052)
+      (coe d_'8744''45'isSemigroup_3090) (coe d_'8744''45'identity_3056)
 -- Data.Bool.Properties.∨-isCommutativeMonoid
-d_'8744''45'isCommutativeMonoid_3100 ::
+d_'8744''45'isCommutativeMonoid_3104 ::
   MAlonzo.Code.Algebra.Structures.T_IsCommutativeMonoid_654
-d_'8744''45'isCommutativeMonoid_3100
+d_'8744''45'isCommutativeMonoid_3104
   = coe
       MAlonzo.Code.Algebra.Structures.C_IsCommutativeMonoid'46'constructor_15395
-      (coe d_'8744''45'isMonoid_3098) erased
+      (coe d_'8744''45'isMonoid_3102) erased
 -- Data.Bool.Properties.∨-commutativeMonoid
-d_'8744''45'commutativeMonoid_3102 ::
+d_'8744''45'commutativeMonoid_3106 ::
   MAlonzo.Code.Algebra.Bundles.T_CommutativeMonoid_820
-d_'8744''45'commutativeMonoid_3102
+d_'8744''45'commutativeMonoid_3106
   = coe
       MAlonzo.Code.Algebra.Bundles.C_CommutativeMonoid'46'constructor_15145
       MAlonzo.Code.Data.Bool.Base.d__'8744'__30
       (coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8)
-      d_'8744''45'isCommutativeMonoid_3100
+      d_'8744''45'isCommutativeMonoid_3104
 -- Data.Bool.Properties.∨-isIdempotentCommutativeMonoid
-d_'8744''45'isIdempotentCommutativeMonoid_3104 ::
+d_'8744''45'isIdempotentCommutativeMonoid_3108 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714
-d_'8744''45'isIdempotentCommutativeMonoid_3104
+d_'8744''45'isIdempotentCommutativeMonoid_3108
   = coe
       MAlonzo.Code.Algebra.Structures.C_IsIdempotentCommutativeMonoid'46'constructor_16935
-      (coe d_'8744''45'isCommutativeMonoid_3100) erased
+      (coe d_'8744''45'isCommutativeMonoid_3104) erased
 -- Data.Bool.Properties.∨-idempotentCommutativeMonoid
-d_'8744''45'idempotentCommutativeMonoid_3106 ::
+d_'8744''45'idempotentCommutativeMonoid_3110 ::
   MAlonzo.Code.Algebra.Bundles.T_IdempotentCommutativeMonoid_916
-d_'8744''45'idempotentCommutativeMonoid_3106
+d_'8744''45'idempotentCommutativeMonoid_3110
   = coe
       MAlonzo.Code.Algebra.Bundles.C_IdempotentCommutativeMonoid'46'constructor_16947
       MAlonzo.Code.Data.Bool.Base.d__'8744'__30
       (coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8)
-      d_'8744''45'isIdempotentCommutativeMonoid_3104
+      d_'8744''45'isIdempotentCommutativeMonoid_3108
 -- Data.Bool.Properties.∧-assoc
-d_'8743''45'assoc_3108 ::
+d_'8743''45'assoc_3112 ::
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8743''45'assoc_3108 = erased
+d_'8743''45'assoc_3112 = erased
 -- Data.Bool.Properties.∧-comm
-d_'8743''45'comm_3118 ::
+d_'8743''45'comm_3122 ::
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8743''45'comm_3118 = erased
+d_'8743''45'comm_3122 = erased
 -- Data.Bool.Properties.∧-identityˡ
-d_'8743''45'identity'737'_3120 ::
+d_'8743''45'identity'737'_3124 ::
   Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8743''45'identity'737'_3120 = erased
+d_'8743''45'identity'737'_3124 = erased
 -- Data.Bool.Properties.∧-identityʳ
-d_'8743''45'identity'691'_3122 ::
+d_'8743''45'identity'691'_3126 ::
   Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8743''45'identity'691'_3122 = erased
+d_'8743''45'identity'691'_3126 = erased
 -- Data.Bool.Properties.∧-identity
-d_'8743''45'identity_3124 :: MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'8743''45'identity_3124
+d_'8743''45'identity_3128 :: MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
+d_'8743''45'identity_3128
   = coe MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 erased erased
 -- Data.Bool.Properties.∧-zeroˡ
-d_'8743''45'zero'737'_3126 ::
+d_'8743''45'zero'737'_3130 ::
   Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8743''45'zero'737'_3126 = erased
+d_'8743''45'zero'737'_3130 = erased
 -- Data.Bool.Properties.∧-zeroʳ
-d_'8743''45'zero'691'_3128 ::
+d_'8743''45'zero'691'_3132 ::
   Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8743''45'zero'691'_3128 = erased
+d_'8743''45'zero'691'_3132 = erased
 -- Data.Bool.Properties.∧-zero
-d_'8743''45'zero_3130 :: MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'8743''45'zero_3130
+d_'8743''45'zero_3134 :: MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
+d_'8743''45'zero_3134
   = coe MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 erased erased
 -- Data.Bool.Properties.∧-inverseˡ
-d_'8743''45'inverse'737'_3132 ::
+d_'8743''45'inverse'737'_3136 ::
   Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8743''45'inverse'737'_3132 = erased
+d_'8743''45'inverse'737'_3136 = erased
 -- Data.Bool.Properties.∧-inverseʳ
-d_'8743''45'inverse'691'_3134 ::
+d_'8743''45'inverse'691'_3138 ::
   Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8743''45'inverse'691'_3134 = erased
+d_'8743''45'inverse'691'_3138 = erased
 -- Data.Bool.Properties.∧-inverse
-d_'8743''45'inverse_3138 :: MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'8743''45'inverse_3138
+d_'8743''45'inverse_3142 :: MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
+d_'8743''45'inverse_3142
   = coe MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 erased erased
 -- Data.Bool.Properties.∧-idem
-d_'8743''45'idem_3140 ::
+d_'8743''45'idem_3144 ::
   Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8743''45'idem_3140 = erased
+d_'8743''45'idem_3144 = erased
 -- Data.Bool.Properties.∧-sel
-d_'8743''45'sel_3142 ::
+d_'8743''45'sel_3146 ::
   Bool -> Bool -> MAlonzo.Code.Data.Sum.Base.T__'8846'__30
-d_'8743''45'sel_3142 v0 ~v1 = du_'8743''45'sel_3142 v0
-du_'8743''45'sel_3142 ::
+d_'8743''45'sel_3146 v0 ~v1 = du_'8743''45'sel_3146 v0
+du_'8743''45'sel_3146 ::
   Bool -> MAlonzo.Code.Data.Sum.Base.T__'8846'__30
-du_'8743''45'sel_3142 v0
+du_'8743''45'sel_3146 v0
   = if coe v0
       then coe MAlonzo.Code.Data.Sum.Base.C_inj'8322'_42 erased
       else coe MAlonzo.Code.Data.Sum.Base.C_inj'8321'_38 erased
 -- Data.Bool.Properties.∧-conicalˡ
-d_'8743''45'conical'737'_3148 ::
+d_'8743''45'conical'737'_3152 ::
   Bool ->
   Bool ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8743''45'conical'737'_3148 = erased
+d_'8743''45'conical'737'_3152 = erased
 -- Data.Bool.Properties.∧-conicalʳ
-d_'8743''45'conical'691'_3150 ::
+d_'8743''45'conical'691'_3154 ::
   Bool ->
   Bool ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8743''45'conical'691'_3150 = erased
+d_'8743''45'conical'691'_3154 = erased
 -- Data.Bool.Properties.∧-conical
-d_'8743''45'conical_3152 :: MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'8743''45'conical_3152
+d_'8743''45'conical_3156 :: MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
+d_'8743''45'conical_3156
   = coe MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 erased erased
 -- Data.Bool.Properties.∧-distribˡ-∨
-d_'8743''45'distrib'737''45''8744'_3154 ::
+d_'8743''45'distrib'737''45''8744'_3158 ::
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8743''45'distrib'737''45''8744'_3154 = erased
+d_'8743''45'distrib'737''45''8744'_3158 = erased
 -- Data.Bool.Properties.∧-distribʳ-∨
-d_'8743''45'distrib'691''45''8744'_3164 ::
+d_'8743''45'distrib'691''45''8744'_3168 ::
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8743''45'distrib'691''45''8744'_3164 = erased
+d_'8743''45'distrib'691''45''8744'_3168 = erased
 -- Data.Bool.Properties.∧-distrib-∨
-d_'8743''45'distrib'45''8744'_3172 ::
+d_'8743''45'distrib'45''8744'_3176 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'8743''45'distrib'45''8744'_3172
+d_'8743''45'distrib'45''8744'_3176
   = coe MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 erased erased
 -- Data.Bool.Properties.∨-distribˡ-∧
-d_'8744''45'distrib'737''45''8743'_3174 ::
+d_'8744''45'distrib'737''45''8743'_3178 ::
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8744''45'distrib'737''45''8743'_3174 = erased
+d_'8744''45'distrib'737''45''8743'_3178 = erased
 -- Data.Bool.Properties.∨-distribʳ-∧
-d_'8744''45'distrib'691''45''8743'_3184 ::
+d_'8744''45'distrib'691''45''8743'_3188 ::
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8744''45'distrib'691''45''8743'_3184 = erased
+d_'8744''45'distrib'691''45''8743'_3188 = erased
 -- Data.Bool.Properties.∨-distrib-∧
-d_'8744''45'distrib'45''8743'_3192 ::
+d_'8744''45'distrib'45''8743'_3196 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'8744''45'distrib'45''8743'_3192
+d_'8744''45'distrib'45''8743'_3196
   = coe MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 erased erased
 -- Data.Bool.Properties.∧-abs-∨
-d_'8743''45'abs'45''8744'_3194 ::
+d_'8743''45'abs'45''8744'_3198 ::
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8743''45'abs'45''8744'_3194 = erased
+d_'8743''45'abs'45''8744'_3198 = erased
 -- Data.Bool.Properties.∨-abs-∧
-d_'8744''45'abs'45''8743'_3200 ::
+d_'8744''45'abs'45''8743'_3204 ::
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8744''45'abs'45''8743'_3200 = erased
+d_'8744''45'abs'45''8743'_3204 = erased
 -- Data.Bool.Properties.∨-∧-absorptive
-d_'8744''45''8743''45'absorptive_3206 ::
+d_'8744''45''8743''45'absorptive_3210 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'8744''45''8743''45'absorptive_3206
+d_'8744''45''8743''45'absorptive_3210
   = coe MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 erased erased
 -- Data.Bool.Properties.∧-isMagma
-d_'8743''45'isMagma_3208 ::
+d_'8743''45'isMagma_3212 ::
   MAlonzo.Code.Algebra.Structures.T_IsMagma_144
-d_'8743''45'isMagma_3208
+d_'8743''45'isMagma_3212
   = coe
       MAlonzo.Code.Algebra.Structures.C_IsMagma'46'constructor_785
       (coe
          MAlonzo.Code.Relation.Binary.PropositionalEquality.Properties.du_isEquivalence_396)
       erased
 -- Data.Bool.Properties.∧-magma
-d_'8743''45'magma_3210 :: MAlonzo.Code.Algebra.Bundles.T_Magma_8
-d_'8743''45'magma_3210
+d_'8743''45'magma_3214 :: MAlonzo.Code.Algebra.Bundles.T_Magma_8
+d_'8743''45'magma_3214
   = coe
       MAlonzo.Code.Algebra.Bundles.C_Magma'46'constructor_193
-      MAlonzo.Code.Data.Bool.Base.d__'8743'__24 d_'8743''45'isMagma_3208
+      MAlonzo.Code.Data.Bool.Base.d__'8743'__24 d_'8743''45'isMagma_3212
 -- Data.Bool.Properties.∧-isSemigroup
-d_'8743''45'isSemigroup_3212 ::
+d_'8743''45'isSemigroup_3216 ::
   MAlonzo.Code.Algebra.Structures.T_IsSemigroup_440
-d_'8743''45'isSemigroup_3212
+d_'8743''45'isSemigroup_3216
   = coe
       MAlonzo.Code.Algebra.Structures.C_IsSemigroup'46'constructor_9319
-      (coe d_'8743''45'isMagma_3208) erased
+      (coe d_'8743''45'isMagma_3212) erased
 -- Data.Bool.Properties.∧-semigroup
-d_'8743''45'semigroup_3214 ::
+d_'8743''45'semigroup_3218 ::
   MAlonzo.Code.Algebra.Bundles.T_Semigroup_476
-d_'8743''45'semigroup_3214
+d_'8743''45'semigroup_3218
   = coe
       MAlonzo.Code.Algebra.Bundles.C_Semigroup'46'constructor_8611
       MAlonzo.Code.Data.Bool.Base.d__'8743'__24
-      d_'8743''45'isSemigroup_3212
+      d_'8743''45'isSemigroup_3216
 -- Data.Bool.Properties.∧-isBand
-d_'8743''45'isBand_3216 ::
+d_'8743''45'isBand_3220 ::
   MAlonzo.Code.Algebra.Structures.T_IsBand_476
-d_'8743''45'isBand_3216
+d_'8743''45'isBand_3220
   = coe
       MAlonzo.Code.Algebra.Structures.C_IsBand'46'constructor_10105
-      (coe d_'8743''45'isSemigroup_3212) erased
+      (coe d_'8743''45'isSemigroup_3216) erased
 -- Data.Bool.Properties.∧-band
-d_'8743''45'band_3218 :: MAlonzo.Code.Algebra.Bundles.T_Band_536
-d_'8743''45'band_3218
+d_'8743''45'band_3222 :: MAlonzo.Code.Algebra.Bundles.T_Band_536
+d_'8743''45'band_3222
   = coe
       MAlonzo.Code.Algebra.Bundles.C_Band'46'constructor_9687
-      MAlonzo.Code.Data.Bool.Base.d__'8743'__24 d_'8743''45'isBand_3216
+      MAlonzo.Code.Data.Bool.Base.d__'8743'__24 d_'8743''45'isBand_3220
 -- Data.Bool.Properties.∧-isSemilattice
-d_'8743''45'isSemilattice_3220 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2526
-d_'8743''45'isSemilattice_3220
+d_'8743''45'isSemilattice_3224 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2530
+d_'8743''45'isSemilattice_3224
   = coe
-      MAlonzo.Code.Algebra.Lattice.Structures.C_IsSemilattice'46'constructor_32583
-      (coe d_'8743''45'isBand_3216) erased
+      MAlonzo.Code.Algebra.Lattice.Structures.C_IsSemilattice'46'constructor_33435
+      (coe d_'8743''45'isBand_3220) erased
 -- Data.Bool.Properties.∧-semilattice
-d_'8743''45'semilattice_3222 ::
+d_'8743''45'semilattice_3226 ::
   MAlonzo.Code.Algebra.Lattice.Bundles.T_Semilattice_10
-d_'8743''45'semilattice_3222
+d_'8743''45'semilattice_3226
   = coe
       MAlonzo.Code.Algebra.Lattice.Bundles.C_Semilattice'46'constructor_193
       MAlonzo.Code.Data.Bool.Base.d__'8743'__24
-      d_'8743''45'isSemilattice_3220
+      d_'8743''45'isSemilattice_3224
 -- Data.Bool.Properties.∧-isMonoid
-d_'8743''45'isMonoid_3224 ::
+d_'8743''45'isMonoid_3228 ::
   MAlonzo.Code.Algebra.Structures.T_IsMonoid_604
-d_'8743''45'isMonoid_3224
+d_'8743''45'isMonoid_3228
   = coe
       MAlonzo.Code.Algebra.Structures.C_IsMonoid'46'constructor_13575
-      (coe d_'8743''45'isSemigroup_3212) (coe d_'8743''45'identity_3124)
+      (coe d_'8743''45'isSemigroup_3216) (coe d_'8743''45'identity_3128)
 -- Data.Bool.Properties.∧-isCommutativeMonoid
-d_'8743''45'isCommutativeMonoid_3226 ::
+d_'8743''45'isCommutativeMonoid_3230 ::
   MAlonzo.Code.Algebra.Structures.T_IsCommutativeMonoid_654
-d_'8743''45'isCommutativeMonoid_3226
+d_'8743''45'isCommutativeMonoid_3230
   = coe
       MAlonzo.Code.Algebra.Structures.C_IsCommutativeMonoid'46'constructor_15395
-      (coe d_'8743''45'isMonoid_3224) erased
+      (coe d_'8743''45'isMonoid_3228) erased
 -- Data.Bool.Properties.∧-commutativeMonoid
-d_'8743''45'commutativeMonoid_3228 ::
+d_'8743''45'commutativeMonoid_3232 ::
   MAlonzo.Code.Algebra.Bundles.T_CommutativeMonoid_820
-d_'8743''45'commutativeMonoid_3228
+d_'8743''45'commutativeMonoid_3232
   = coe
       MAlonzo.Code.Algebra.Bundles.C_CommutativeMonoid'46'constructor_15145
       MAlonzo.Code.Data.Bool.Base.d__'8743'__24
       (coe MAlonzo.Code.Agda.Builtin.Bool.C_true_10)
-      d_'8743''45'isCommutativeMonoid_3226
+      d_'8743''45'isCommutativeMonoid_3230
 -- Data.Bool.Properties.∧-isIdempotentCommutativeMonoid
-d_'8743''45'isIdempotentCommutativeMonoid_3230 ::
+d_'8743''45'isIdempotentCommutativeMonoid_3234 ::
   MAlonzo.Code.Algebra.Structures.T_IsIdempotentCommutativeMonoid_714
-d_'8743''45'isIdempotentCommutativeMonoid_3230
+d_'8743''45'isIdempotentCommutativeMonoid_3234
   = coe
       MAlonzo.Code.Algebra.Structures.C_IsIdempotentCommutativeMonoid'46'constructor_16935
-      (coe d_'8743''45'isCommutativeMonoid_3226) erased
+      (coe d_'8743''45'isCommutativeMonoid_3230) erased
 -- Data.Bool.Properties.∧-idempotentCommutativeMonoid
-d_'8743''45'idempotentCommutativeMonoid_3232 ::
+d_'8743''45'idempotentCommutativeMonoid_3236 ::
   MAlonzo.Code.Algebra.Bundles.T_IdempotentCommutativeMonoid_916
-d_'8743''45'idempotentCommutativeMonoid_3232
+d_'8743''45'idempotentCommutativeMonoid_3236
   = coe
       MAlonzo.Code.Algebra.Bundles.C_IdempotentCommutativeMonoid'46'constructor_16947
       MAlonzo.Code.Data.Bool.Base.d__'8743'__24
       (coe MAlonzo.Code.Agda.Builtin.Bool.C_true_10)
-      d_'8743''45'isIdempotentCommutativeMonoid_3230
+      d_'8743''45'isIdempotentCommutativeMonoid_3234
 -- Data.Bool.Properties.∨-∧-isSemiring
-d_'8744''45''8743''45'isSemiring_3234 ::
+d_'8744''45''8743''45'isSemiring_3238 ::
   MAlonzo.Code.Algebra.Structures.T_IsSemiring_1418
-d_'8744''45''8743''45'isSemiring_3234
+d_'8744''45''8743''45'isSemiring_3238
   = coe
       MAlonzo.Code.Algebra.Structures.C_IsSemiring'46'constructor_43487
       (coe
          MAlonzo.Code.Algebra.Structures.C_IsSemiringWithoutAnnihilatingZero'46'constructor_39247
-         (coe d_'8744''45'isCommutativeMonoid_3100) erased erased
-         (coe d_'8743''45'identity_3124)
-         (coe d_'8743''45'distrib'45''8744'_3172))
-      (coe d_'8743''45'zero_3130)
+         (coe d_'8744''45'isCommutativeMonoid_3104) erased erased
+         (coe d_'8743''45'identity_3128)
+         (coe d_'8743''45'distrib'45''8744'_3176))
+      (coe d_'8743''45'zero_3134)
 -- Data.Bool.Properties.∨-∧-isCommutativeSemiring
-d_'8744''45''8743''45'isCommutativeSemiring_3236 ::
+d_'8744''45''8743''45'isCommutativeSemiring_3240 ::
   MAlonzo.Code.Algebra.Structures.T_IsCommutativeSemiring_1526
-d_'8744''45''8743''45'isCommutativeSemiring_3236
+d_'8744''45''8743''45'isCommutativeSemiring_3240
   = coe
       MAlonzo.Code.Algebra.Structures.C_IsCommutativeSemiring'46'constructor_47309
-      (coe d_'8744''45''8743''45'isSemiring_3234) erased
+      (coe d_'8744''45''8743''45'isSemiring_3238) erased
 -- Data.Bool.Properties.∨-∧-commutativeSemiring
-d_'8744''45''8743''45'commutativeSemiring_3238 ::
+d_'8744''45''8743''45'commutativeSemiring_3242 ::
   MAlonzo.Code.Algebra.Bundles.T_CommutativeSemiring_2188
-d_'8744''45''8743''45'commutativeSemiring_3238
+d_'8744''45''8743''45'commutativeSemiring_3242
   = coe
       MAlonzo.Code.Algebra.Bundles.C_CommutativeSemiring'46'constructor_39235
       MAlonzo.Code.Data.Bool.Base.d__'8744'__30
       MAlonzo.Code.Data.Bool.Base.d__'8743'__24
       (coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8)
       (coe MAlonzo.Code.Agda.Builtin.Bool.C_true_10)
-      d_'8744''45''8743''45'isCommutativeSemiring_3236
+      d_'8744''45''8743''45'isCommutativeSemiring_3240
 -- Data.Bool.Properties.∧-∨-isSemiring
-d_'8743''45''8744''45'isSemiring_3240 ::
+d_'8743''45''8744''45'isSemiring_3244 ::
   MAlonzo.Code.Algebra.Structures.T_IsSemiring_1418
-d_'8743''45''8744''45'isSemiring_3240
+d_'8743''45''8744''45'isSemiring_3244
   = coe
       MAlonzo.Code.Algebra.Structures.C_IsSemiring'46'constructor_43487
       (coe
          MAlonzo.Code.Algebra.Structures.C_IsSemiringWithoutAnnihilatingZero'46'constructor_39247
-         (coe d_'8743''45'isCommutativeMonoid_3226) erased erased
-         (coe d_'8744''45'identity_3052)
-         (coe d_'8744''45'distrib'45''8743'_3192))
-      (coe d_'8744''45'zero_3058)
+         (coe d_'8743''45'isCommutativeMonoid_3230) erased erased
+         (coe d_'8744''45'identity_3056)
+         (coe d_'8744''45'distrib'45''8743'_3196))
+      (coe d_'8744''45'zero_3062)
 -- Data.Bool.Properties.∧-∨-isCommutativeSemiring
-d_'8743''45''8744''45'isCommutativeSemiring_3242 ::
+d_'8743''45''8744''45'isCommutativeSemiring_3246 ::
   MAlonzo.Code.Algebra.Structures.T_IsCommutativeSemiring_1526
-d_'8743''45''8744''45'isCommutativeSemiring_3242
+d_'8743''45''8744''45'isCommutativeSemiring_3246
   = coe
       MAlonzo.Code.Algebra.Structures.C_IsCommutativeSemiring'46'constructor_47309
-      (coe d_'8743''45''8744''45'isSemiring_3240) erased
+      (coe d_'8743''45''8744''45'isSemiring_3244) erased
 -- Data.Bool.Properties.∧-∨-commutativeSemiring
-d_'8743''45''8744''45'commutativeSemiring_3244 ::
+d_'8743''45''8744''45'commutativeSemiring_3248 ::
   MAlonzo.Code.Algebra.Bundles.T_CommutativeSemiring_2188
-d_'8743''45''8744''45'commutativeSemiring_3244
+d_'8743''45''8744''45'commutativeSemiring_3248
   = coe
       MAlonzo.Code.Algebra.Bundles.C_CommutativeSemiring'46'constructor_39235
       MAlonzo.Code.Data.Bool.Base.d__'8743'__24
       MAlonzo.Code.Data.Bool.Base.d__'8744'__30
       (coe MAlonzo.Code.Agda.Builtin.Bool.C_true_10)
       (coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8)
-      d_'8743''45''8744''45'isCommutativeSemiring_3242
+      d_'8743''45''8744''45'isCommutativeSemiring_3246
 -- Data.Bool.Properties.∨-∧-isLattice
-d_'8744''45''8743''45'isLattice_3246 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsLattice_2826
-d_'8744''45''8743''45'isLattice_3246
+d_'8744''45''8743''45'isLattice_3250 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsLattice_2830
+d_'8744''45''8743''45'isLattice_3250
   = coe
-      MAlonzo.Code.Algebra.Lattice.Structures.C_IsLattice'46'constructor_35597
+      MAlonzo.Code.Algebra.Lattice.Structures.C_IsLattice'46'constructor_36449
       (coe
          MAlonzo.Code.Relation.Binary.PropositionalEquality.Properties.du_isEquivalence_396)
       erased erased erased erased erased erased
-      (coe d_'8744''45''8743''45'absorptive_3206)
+      (coe d_'8744''45''8743''45'absorptive_3210)
 -- Data.Bool.Properties.∨-∧-lattice
-d_'8744''45''8743''45'lattice_3248 ::
+d_'8744''45''8743''45'lattice_3252 ::
   MAlonzo.Code.Algebra.Lattice.Bundles.T_Lattice_498
-d_'8744''45''8743''45'lattice_3248
+d_'8744''45''8743''45'lattice_3252
   = coe
       MAlonzo.Code.Algebra.Lattice.Bundles.C_Lattice'46'constructor_7961
       MAlonzo.Code.Data.Bool.Base.d__'8744'__30
       MAlonzo.Code.Data.Bool.Base.d__'8743'__24
-      d_'8744''45''8743''45'isLattice_3246
+      d_'8744''45''8743''45'isLattice_3250
 -- Data.Bool.Properties.∨-∧-isDistributiveLattice
-d_'8744''45''8743''45'isDistributiveLattice_3250 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsDistributiveLattice_2900
-d_'8744''45''8743''45'isDistributiveLattice_3250
+d_'8744''45''8743''45'isDistributiveLattice_3254 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsDistributiveLattice_2904
+d_'8744''45''8743''45'isDistributiveLattice_3254
   = coe
-      MAlonzo.Code.Algebra.Lattice.Structures.C_IsDistributiveLattice'46'constructor_39691
-      (coe d_'8744''45''8743''45'isLattice_3246)
-      (coe d_'8744''45'distrib'45''8743'_3192)
-      (coe d_'8743''45'distrib'45''8744'_3172)
+      MAlonzo.Code.Algebra.Lattice.Structures.C_IsDistributiveLattice'46'constructor_40543
+      (coe d_'8744''45''8743''45'isLattice_3250)
+      (coe d_'8744''45'distrib'45''8743'_3196)
+      (coe d_'8743''45'distrib'45''8744'_3176)
 -- Data.Bool.Properties.∨-∧-distributiveLattice
-d_'8744''45''8743''45'distributiveLattice_3252 ::
+d_'8744''45''8743''45'distributiveLattice_3256 ::
   MAlonzo.Code.Algebra.Lattice.Bundles.T_DistributiveLattice_582
-d_'8744''45''8743''45'distributiveLattice_3252
+d_'8744''45''8743''45'distributiveLattice_3256
   = coe
       MAlonzo.Code.Algebra.Lattice.Bundles.C_DistributiveLattice'46'constructor_9531
       MAlonzo.Code.Data.Bool.Base.d__'8744'__30
       MAlonzo.Code.Data.Bool.Base.d__'8743'__24
-      d_'8744''45''8743''45'isDistributiveLattice_3250
+      d_'8744''45''8743''45'isDistributiveLattice_3254
 -- Data.Bool.Properties.∨-∧-isBooleanAlgebra
-d_'8744''45''8743''45'isBooleanAlgebra_3254 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsBooleanAlgebra_2976
-d_'8744''45''8743''45'isBooleanAlgebra_3254
+d_'8744''45''8743''45'isBooleanAlgebra_3258 ::
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsBooleanAlgebra_2980
+d_'8744''45''8743''45'isBooleanAlgebra_3258
   = coe
-      MAlonzo.Code.Algebra.Lattice.Structures.C_IsBooleanAlgebra'46'constructor_42757
-      (coe d_'8744''45''8743''45'isDistributiveLattice_3250)
-      (coe d_'8744''45'inverse_3066) (coe d_'8743''45'inverse_3138)
+      MAlonzo.Code.Algebra.Lattice.Structures.C_IsBooleanAlgebra'46'constructor_43609
+      (coe d_'8744''45''8743''45'isDistributiveLattice_3254)
+      (coe d_'8744''45'inverse_3070) (coe d_'8743''45'inverse_3142)
       erased
 -- Data.Bool.Properties.∨-∧-booleanAlgebra
-d_'8744''45''8743''45'booleanAlgebra_3256 ::
+d_'8744''45''8743''45'booleanAlgebra_3260 ::
   MAlonzo.Code.Algebra.Lattice.Bundles.T_BooleanAlgebra_680
-d_'8744''45''8743''45'booleanAlgebra_3256
+d_'8744''45''8743''45'booleanAlgebra_3260
   = coe
       MAlonzo.Code.Algebra.Lattice.Bundles.C_BooleanAlgebra'46'constructor_11505
       MAlonzo.Code.Data.Bool.Base.d__'8744'__30
@@ -5598,126 +5796,129 @@ d_'8744''45''8743''45'booleanAlgebra_3256
       MAlonzo.Code.Data.Bool.Base.d_not_22
       (coe MAlonzo.Code.Agda.Builtin.Bool.C_true_10)
       (coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8)
-      d_'8744''45''8743''45'isBooleanAlgebra_3254
+      d_'8744''45''8743''45'isBooleanAlgebra_3258
 -- Data.Bool.Properties.not-involutive
-d_not'45'involutive_3258 ::
+d_not'45'involutive_3262 ::
   Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_not'45'involutive_3258 = erased
+d_not'45'involutive_3262 = erased
 -- Data.Bool.Properties.not-injective
-d_not'45'injective_3264 ::
+d_not'45'injective_3268 ::
   Bool ->
   Bool ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_not'45'injective_3264 = erased
+d_not'45'injective_3268 = erased
 -- Data.Bool.Properties.not-¬
-d_not'45''172'_3274 ::
+d_not'45''172'_3278 ::
   Bool ->
   Bool ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Data.Irrelevant.T_Irrelevant_20
-d_not'45''172'_3274 = erased
+d_not'45''172'_3278 = erased
 -- Data.Bool.Properties.¬-not
-d_'172''45'not_3280 ::
+d_'172''45'not_3284 ::
   Bool ->
   Bool ->
   (MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
    MAlonzo.Code.Data.Irrelevant.T_Irrelevant_20) ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'172''45'not_3280 = erased
+d_'172''45'not_3284 = erased
 -- Data.Bool.Properties.xor-is-ok
-d_xor'45'is'45'ok_3290 ::
+d_xor'45'is'45'ok_3294 ::
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_xor'45'is'45'ok_3290 = erased
+d_xor'45'is'45'ok_3294 = erased
 -- Data.Bool.Properties.true-xor
-d_true'45'xor_3298 ::
+d_true'45'xor_3302 ::
   Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_true'45'xor_3298 = erased
+d_true'45'xor_3302 = erased
 -- Data.Bool.Properties.xor-same
-d_xor'45'same_3302 ::
+d_xor'45'same_3306 ::
   Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_xor'45'same_3302 = erased
+d_xor'45'same_3306 = erased
 -- Data.Bool.Properties.not-distribˡ-xor
-d_not'45'distrib'737''45'xor_3308 ::
+d_not'45'distrib'737''45'xor_3312 ::
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_not'45'distrib'737''45'xor_3308 = erased
+d_not'45'distrib'737''45'xor_3312 = erased
 -- Data.Bool.Properties.not-distribʳ-xor
-d_not'45'distrib'691''45'xor_3318 ::
+d_not'45'distrib'691''45'xor_3322 ::
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_not'45'distrib'691''45'xor_3318 = erased
+d_not'45'distrib'691''45'xor_3322 = erased
 -- Data.Bool.Properties.xor-assoc
-d_xor'45'assoc_3324 ::
+d_xor'45'assoc_3328 ::
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_xor'45'assoc_3324 = erased
+d_xor'45'assoc_3328 = erased
 -- Data.Bool.Properties.xor-comm
-d_xor'45'comm_3334 ::
+d_xor'45'comm_3338 ::
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_xor'45'comm_3334 = erased
+d_xor'45'comm_3338 = erased
 -- Data.Bool.Properties.xor-identityˡ
-d_xor'45'identity'737'_3336 ::
+d_xor'45'identity'737'_3340 ::
   Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_xor'45'identity'737'_3336 = erased
+d_xor'45'identity'737'_3340 = erased
 -- Data.Bool.Properties.xor-identityʳ
-d_xor'45'identity'691'_3338 ::
+d_xor'45'identity'691'_3342 ::
   Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_xor'45'identity'691'_3338 = erased
+d_xor'45'identity'691'_3342 = erased
 -- Data.Bool.Properties.xor-identity
-d_xor'45'identity_3340 :: MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_xor'45'identity_3340
+d_xor'45'identity_3344 :: MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
+d_xor'45'identity_3344
   = coe MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 erased erased
 -- Data.Bool.Properties.xor-inverseˡ
-d_xor'45'inverse'737'_3342 ::
+d_xor'45'inverse'737'_3346 ::
   Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_xor'45'inverse'737'_3342 = erased
+d_xor'45'inverse'737'_3346 = erased
 -- Data.Bool.Properties.xor-inverseʳ
-d_xor'45'inverse'691'_3344 ::
+d_xor'45'inverse'691'_3348 ::
   Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_xor'45'inverse'691'_3344 = erased
+d_xor'45'inverse'691'_3348 = erased
 -- Data.Bool.Properties.xor-inverse
-d_xor'45'inverse_3348 :: MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_xor'45'inverse_3348
+d_xor'45'inverse_3352 :: MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
+d_xor'45'inverse_3352
   = coe MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 erased erased
 -- Data.Bool.Properties.∧-distribˡ-xor
-d_'8743''45'distrib'737''45'xor_3350 ::
+d_'8743''45'distrib'737''45'xor_3354 ::
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8743''45'distrib'737''45'xor_3350 = erased
+d_'8743''45'distrib'737''45'xor_3354 = erased
 -- Data.Bool.Properties.∧-distribʳ-xor
-d_'8743''45'distrib'691''45'xor_3360 ::
+d_'8743''45'distrib'691''45'xor_3364 ::
   Bool ->
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8743''45'distrib'691''45'xor_3360 = erased
+d_'8743''45'distrib'691''45'xor_3364 = erased
 -- Data.Bool.Properties.∧-distrib-xor
-d_'8743''45'distrib'45'xor_3370 ::
+d_'8743''45'distrib'45'xor_3374 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'8743''45'distrib'45'xor_3370
+d_'8743''45'distrib'45'xor_3374
   = coe MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 erased erased
 -- Data.Bool.Properties.xor-annihilates-not
-d_xor'45'annihilates'45'not_3376 ::
+d_xor'45'annihilates'45'not_3380 ::
   Bool -> Bool -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_xor'45'annihilates'45'not_3376 = erased
+d_xor'45'annihilates'45'not_3380 = erased
 -- Data.Bool.Properties.xor-∧-commutativeRing
-d_xor'45''8743''45'commutativeRing_3382 ::
-  MAlonzo.Code.Algebra.Bundles.T_CommutativeRing_3716
-d_xor'45''8743''45'commutativeRing_3382
+d_xor'45''8743''45'commutativeRing_3386 ::
+  MAlonzo.Code.Algebra.Bundles.T_CommutativeRing_3720
+d_xor'45''8743''45'commutativeRing_3386
   = coe
-      MAlonzo.Code.Algebra.Lattice.Properties.BooleanAlgebra.du_'8853''45''8743''45'commutativeRing_3522
-      (coe d_'8744''45''8743''45'booleanAlgebra_3256)
+      MAlonzo.Code.Algebra.Lattice.Properties.BooleanAlgebra.du_'8853''45''8743''45'commutativeRing_3574
+      (coe d_'8744''45''8743''45'booleanAlgebra_3260)
       (coe MAlonzo.Code.Data.Bool.Base.d__xor__36) erased
--- Data.Bool.Properties.⇔→≡
-d_'8660''8594''8801'_3654 ::
+-- Data.Bool.Properties.if-float
+d_if'45'float_3660 ::
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  () ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  () ->
+  (AgdaAny -> AgdaAny) ->
   Bool ->
-  Bool ->
-  Bool ->
-  MAlonzo.Code.Function.Bundles.T_Equivalence_1714 ->
-  MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8660''8594''8801'_3654 = erased
+  AgdaAny ->
+  AgdaAny -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
+d_if'45'float_3660 = erased
 -- Data.Bool.Properties.T-≡
-d_T'45''8801'_3670 ::
+d_T'45''8801'_3664 ::
   Bool -> MAlonzo.Code.Function.Bundles.T_Equivalence_1714
-d_T'45''8801'_3670 v0
+d_T'45''8801'_3664 v0
   = if coe v0
       then coe
              MAlonzo.Code.Function.Bundles.du_mk'8660'_2296 erased
@@ -5726,9 +5927,9 @@ d_T'45''8801'_3670 v0
       else coe
              MAlonzo.Code.Function.Bundles.du_mk'8660'_2296 erased erased
 -- Data.Bool.Properties.T-not-≡
-d_T'45'not'45''8801'_3674 ::
+d_T'45'not'45''8801'_3668 ::
   Bool -> MAlonzo.Code.Function.Bundles.T_Equivalence_1714
-d_T'45'not'45''8801'_3674 v0
+d_T'45'not'45''8801'_3668 v0
   = if coe v0
       then coe
              MAlonzo.Code.Function.Bundles.du_mk'8660'_2296 erased erased
@@ -5737,9 +5938,9 @@ d_T'45'not'45''8801'_3674 v0
              (let v1 = coe MAlonzo.Code.Agda.Builtin.Unit.C_tt_8 in
               coe (coe (\ v2 -> v1)))
 -- Data.Bool.Properties.T-∧
-d_T'45''8743'_3680 ::
+d_T'45''8743'_3674 ::
   Bool -> Bool -> MAlonzo.Code.Function.Bundles.T_Equivalence_1714
-d_T'45''8743'_3680 v0 v1
+d_T'45''8743'_3674 v0 v1
   = if coe v0
       then if coe v1
              then coe
@@ -5759,9 +5960,9 @@ d_T'45''8743'_3680 v0 v1
              MAlonzo.Code.Function.Bundles.du_mk'8660'_2296 erased
              (coe (\ v2 -> MAlonzo.Code.Agda.Builtin.Sigma.d_fst_28 (coe v2)))
 -- Data.Bool.Properties.T-∨
-d_T'45''8744'_3686 ::
+d_T'45''8744'_3680 ::
   Bool -> Bool -> MAlonzo.Code.Function.Bundles.T_Equivalence_1714
-d_T'45''8744'_3686 v0 v1
+d_T'45''8744'_3680 v0 v1
   = if coe v0
       then coe
              MAlonzo.Code.Function.Bundles.du_mk'8660'_2296
@@ -5781,42 +5982,32 @@ d_T'45''8744'_3686 v0 v1
                         MAlonzo.Code.Data.Sum.Base.du_'91'_'44'_'93'_52 (coe (\ v2 -> v2))
                         (coe (\ v2 -> v2))))
 -- Data.Bool.Properties.T-irrelevant
-d_T'45'irrelevant_3688 ::
+d_T'45'irrelevant_3682 ::
   Bool ->
   AgdaAny ->
   AgdaAny -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_T'45'irrelevant_3688 = erased
--- Data.Bool.Properties.T?
-d_T'63'_3690 ::
-  Bool -> MAlonzo.Code.Relation.Nullary.Decidable.Core.T_Dec_20
-d_T'63'_3690 v0
-  = coe
-      MAlonzo.Code.Relation.Nullary.Decidable.Core.C__because__32
-      (coe v0)
-      (if coe v0
-         then coe
-                MAlonzo.Code.Relation.Nullary.Reflects.C_of'696'_22
-                (coe MAlonzo.Code.Agda.Builtin.Unit.C_tt_8)
-         else coe MAlonzo.Code.Relation.Nullary.Reflects.C_of'8319'_26)
+d_T'45'irrelevant_3682 = erased
 -- Data.Bool.Properties.T?-diag
-d_T'63''45'diag_3696 :: Bool -> AgdaAny -> AgdaAny
-d_T'63''45'diag_3696 v0 ~v1 = du_T'63''45'diag_3696 v0
-du_T'63''45'diag_3696 :: Bool -> AgdaAny
-du_T'63''45'diag_3696 v0
-  = coe seq (coe v0) (coe MAlonzo.Code.Agda.Builtin.Unit.C_tt_8)
--- Data.Bool.Properties.if-float
-d_if'45'float_3706 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  () ->
-  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
-  () ->
-  (AgdaAny -> AgdaAny) ->
+d_T'63''45'diag_3686 :: Bool -> AgdaAny -> AgdaAny
+d_T'63''45'diag_3686 v0
+  = coe
+      MAlonzo.Code.Relation.Nullary.Decidable.Core.du_fromWitness_122
+      (coe
+         MAlonzo.Code.Relation.Nullary.Decidable.Core.C__because__32
+         (coe v0)
+         (coe
+            MAlonzo.Code.Relation.Nullary.Reflects.d_T'45'reflects_46
+            (coe v0)))
+-- Data.Bool.Properties.⇔→≡
+d_'8660''8594''8801'_3696 ::
   Bool ->
-  AgdaAny ->
-  AgdaAny -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_if'45'float_3706 = erased
+  Bool ->
+  Bool ->
+  MAlonzo.Code.Function.Bundles.T_Equivalence_1714 ->
+  MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
+d_'8660''8594''8801'_3696 = erased
 -- Data.Bool.Properties.push-function-into-if
-d_push'45'function'45'into'45'if_3708 ::
+d_push'45'function'45'into'45'if_3710 ::
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
@@ -5825,4 +6016,4 @@ d_push'45'function'45'into'45'if_3708 ::
   Bool ->
   AgdaAny ->
   AgdaAny -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_push'45'function'45'into'45'if_3708 = erased
+d_push'45'function'45'into'45'if_3710 = erased

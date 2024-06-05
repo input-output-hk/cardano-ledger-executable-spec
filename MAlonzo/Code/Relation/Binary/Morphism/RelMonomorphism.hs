@@ -197,7 +197,7 @@ du_dec_70 ::
   AgdaAny -> MAlonzo.Code.Relation.Nullary.Decidable.Core.T_Dec_20
 du_dec_70 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_144
+      MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_150
       (coe
          MAlonzo.Code.Relation.Binary.Morphism.Structures.d_injective_78 v1
          v3 v4)

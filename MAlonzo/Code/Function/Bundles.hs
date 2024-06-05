@@ -4590,7 +4590,7 @@ du_trans_1516 v0
             (coe
                MAlonzo.Code.Relation.Binary.Bundles.d_isEquivalence_60 (coe v2))))
 -- Function.Bundles._._.IsRightInverse.strictlyInverseʳ
-d_strictlyInverse'691'_1532 ::
+d_strictlyInverse'691'_1530 ::
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
@@ -4601,14 +4601,14 @@ d_strictlyInverse'691'_1532 ::
   (AgdaAny -> AgdaAny) ->
   MAlonzo.Code.Function.Structures.T_IsRightInverse_408 ->
   AgdaAny -> AgdaAny
-d_strictlyInverse'691'_1532 ~v0 ~v1 ~v2 ~v3 ~v4 ~v5
-  = du_strictlyInverse'691'_1532
-du_strictlyInverse'691'_1532 ::
+d_strictlyInverse'691'_1530 ~v0 ~v1 ~v2 ~v3 ~v4 ~v5
+  = du_strictlyInverse'691'_1530
+du_strictlyInverse'691'_1530 ::
   (AgdaAny -> AgdaAny) ->
   (AgdaAny -> AgdaAny) ->
   MAlonzo.Code.Function.Structures.T_IsRightInverse_408 ->
   AgdaAny -> AgdaAny
-du_strictlyInverse'691'_1532 v0 v1 v2 v3
+du_strictlyInverse'691'_1530 v0 v1 v2 v3
   = coe
       MAlonzo.Code.Function.Structures.du_strictlyInverse'691'_482 v0 v2
       v3
@@ -8897,7 +8897,7 @@ du_mk'8608''8347'_2358 v0 v1
   = coe
       du_mk'8608'_2278 (coe v0)
       (coe
-         MAlonzo.Code.Function.Consequences.Propositional.du_strictlySurjective'8658'surjective_44
+         MAlonzo.Code.Function.Consequences.Propositional.du_strictlySurjective'8658'surjective_40
          v0 v1)
 -- Function.Bundles._.mk↔ₛ′
 d_mk'8596''8347''8242'_2364 ::

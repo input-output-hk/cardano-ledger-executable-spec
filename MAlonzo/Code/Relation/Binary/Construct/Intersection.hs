@@ -404,7 +404,7 @@ du_decidable_238 ::
   AgdaAny -> MAlonzo.Code.Relation.Nullary.Decidable.Core.T_Dec_20
 du_decidable_238 v0 v1 v2 v3
   = coe
-      MAlonzo.Code.Relation.Nullary.Decidable.Core.du__'215''45'dec__68
+      MAlonzo.Code.Relation.Nullary.Decidable.Core.du__'215''45'dec__74
       (coe v0 v2 v3) (coe v1 v2 v3)
 -- Relation.Binary.Construct.Intersection.isEquivalence
 d_isEquivalence_248 ::

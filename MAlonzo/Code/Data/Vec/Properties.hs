@@ -104,10 +104,10 @@ du_'8801''45'dec_52 v0 v1 v2
         -> case coe v2 of
              MAlonzo.Code.Data.Vec.Base.C__'8759'__38 v7 v8
                -> coe
-                    MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_144
+                    MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_150
                     (coe MAlonzo.Code.Data.Product.Base.du_uncurry_244 erased)
                     (coe
-                       MAlonzo.Code.Relation.Nullary.Decidable.Core.du__'215''45'dec__68
+                       MAlonzo.Code.Relation.Nullary.Decidable.Core.du__'215''45'dec__74
                        (coe v0 v4 v7)
                        (coe du_'8801''45'dec_52 (coe v0) (coe v5) (coe v8)))
              _ -> MAlonzo.RTE.mazUnreachableError
@@ -223,8 +223,8 @@ d_truncate'45'trans_232 ::
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   Integer ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
   MAlonzo.Code.Data.Vec.Base.T_Vec_28 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
 d_truncate'45'trans_232 = erased
@@ -234,8 +234,8 @@ d_truncate'45'irrelevant_252 ::
   Integer ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
   MAlonzo.Code.Data.Vec.Base.T_Vec_28 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
 d_truncate'45'irrelevant_252 = erased
@@ -246,7 +246,7 @@ d_truncate'8801'take_268 ::
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   Integer ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
   MAlonzo.Code.Data.Vec.Base.T_Vec_28 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
@@ -275,7 +275,7 @@ d_padRight'45'replicate_316 ::
   Integer ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
   AgdaAny -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
 d_padRight'45'replicate_316 = erased
 -- Data.Vec.Properties.padRight-trans
@@ -285,8 +285,8 @@ d_padRight'45'trans_336 ::
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   Integer ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
   AgdaAny ->
   MAlonzo.Code.Data.Vec.Base.T_Vec_28 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
@@ -297,7 +297,7 @@ d_truncate'45'padRight_360 ::
   Integer ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
   AgdaAny ->
   MAlonzo.Code.Data.Vec.Base.T_Vec_28 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
@@ -402,7 +402,7 @@ d_lookup'45'truncate_438 ::
   Integer ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
   MAlonzo.Code.Data.Vec.Base.T_Vec_28 ->
   MAlonzo.Code.Data.Fin.Base.T_Fin_10 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
@@ -1031,7 +1031,7 @@ d_lookup'45''43''43''45''60'_1320 ::
   MAlonzo.Code.Data.Vec.Base.T_Vec_28 ->
   MAlonzo.Code.Data.Vec.Base.T_Vec_28 ->
   MAlonzo.Code.Data.Fin.Base.T_Fin_10 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
 d_lookup'45''43''43''45''60'_1320 = erased
 -- Data.Vec.Properties.lookup-++-≥
@@ -1043,7 +1043,7 @@ d_lookup'45''43''43''45''8805'_1346 ::
   MAlonzo.Code.Data.Vec.Base.T_Vec_28 ->
   MAlonzo.Code.Data.Vec.Base.T_Vec_28 ->
   MAlonzo.Code.Data.Fin.Base.T_Fin_10 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
 d_lookup'45''43''43''45''8805'_1346 = erased
 -- Data.Vec.Properties.lookup-++ˡ
@@ -2269,18 +2269,18 @@ d_count'8804'n_3414 ::
    MAlonzo.Code.Relation.Nullary.Decidable.Core.T_Dec_20) ->
   Integer ->
   MAlonzo.Code.Data.Vec.Base.T_Vec_28 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22
 d_count'8804'n_3414 ~v0 ~v1 ~v2 ~v3 v4 ~v5 v6
   = du_count'8804'n_3414 v4 v6
 du_count'8804'n_3414 ::
   (AgdaAny ->
    MAlonzo.Code.Relation.Nullary.Decidable.Core.T_Dec_20) ->
   MAlonzo.Code.Data.Vec.Base.T_Vec_28 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22
 du_count'8804'n_3414 v0 v1
   = case coe v1 of
       MAlonzo.Code.Data.Vec.Base.C_'91''93'_32
-        -> coe MAlonzo.Code.Data.Nat.Base.C_z'8804'n_22
+        -> coe MAlonzo.Code.Data.Nat.Base.C_z'8804'n_26
       MAlonzo.Code.Data.Vec.Base.C__'8759'__38 v3 v4
         -> let v5
                  = MAlonzo.Code.Relation.Nullary.Decidable.Core.d_does_28
@@ -2288,7 +2288,7 @@ du_count'8804'n_3414 v0 v1
            coe
              (if coe v5
                 then coe
-                       MAlonzo.Code.Data.Nat.Base.C_s'8804's_30
+                       MAlonzo.Code.Data.Nat.Base.C_s'8804's_34
                        (coe du_count'8804'n_3414 (coe v0) (coe v4))
                 else coe du_count'8804'n_3414 (coe v0) (coe v4))
       _ -> MAlonzo.RTE.mazUnreachableError
@@ -2622,7 +2622,7 @@ d_lookup'45'inject'8804''45'take_3770 ::
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   Integer ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
   MAlonzo.Code.Data.Fin.Base.T_Fin_10 ->
   MAlonzo.Code.Data.Vec.Base.T_Vec_28 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12

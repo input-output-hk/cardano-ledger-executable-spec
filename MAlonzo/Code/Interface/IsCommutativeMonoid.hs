@@ -121,4 +121,4 @@ d_ℕ'45'commMonoid''_78
   = coe
       du_toCommMonoid''_62
       (coe
-         MAlonzo.Code.Data.Nat.Properties.d_'43''45'0'45'commutativeMonoid_3196)
+         MAlonzo.Code.Data.Nat.Properties.d_'43''45'0'45'commutativeMonoid_3204)

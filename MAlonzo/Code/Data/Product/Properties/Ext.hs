@@ -25,6 +25,7 @@ import qualified MAlonzo.Code.Data.Sum.Base
 import qualified MAlonzo.Code.Function.Base
 import qualified MAlonzo.Code.Function.Bundles
 import qualified MAlonzo.Code.Function.Related.Propositional
+import qualified MAlonzo.Code.Relation.Binary.Reasoning.Syntax
 
 -- Data.Product.Properties.Ext.∃-cong
 d_'8707''45'cong_40 ::
@@ -185,3 +186,58 @@ du_'8707''45'distrib'45''8846'''_108
          (coe
             MAlonzo.Code.Data.Product.Base.du_map'8322'_150
             (coe (\ v0 -> coe MAlonzo.Code.Data.Sum.Base.C_inj'8322'_42))))
+-- Data.Product.Properties.Ext.×-⇔-swap
+d_'215''45''8660''45'swap_126 ::
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  () ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  () ->
+  MAlonzo.Code.Agda.Primitive.T_Level_18 ->
+  () -> MAlonzo.Code.Function.Bundles.T_Equivalence_1714
+d_'215''45''8660''45'swap_126 ~v0 ~v1 ~v2 ~v3 ~v4 ~v5
+  = du_'215''45''8660''45'swap_126
+du_'215''45''8660''45'swap_126 ::
+  MAlonzo.Code.Function.Bundles.T_Equivalence_1714
+du_'215''45''8660''45'swap_126
+  = coe
+      MAlonzo.Code.Relation.Binary.Reasoning.Syntax.du_step'45''8764'_300
+      (\ v0 v1 v2 ->
+         coe
+           MAlonzo.Code.Function.Related.Propositional.du_K'45'trans_164
+           (coe MAlonzo.Code.Function.Related.Propositional.C_equivalence_12))
+      erased erased erased
+      (coe
+         MAlonzo.Code.Relation.Binary.Reasoning.Syntax.du__'8718'_492
+         (\ v0 ->
+            coe
+              MAlonzo.Code.Function.Related.Propositional.du_K'45'refl_160
+              (coe MAlonzo.Code.Function.Related.Propositional.C_equivalence_12))
+         erased)
+      (coe
+         MAlonzo.Code.Function.Bundles.du_mk'8660'_2296
+         (coe
+            (\ v0 ->
+               coe
+                 MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32
+                 (coe
+                    MAlonzo.Code.Agda.Builtin.Sigma.d_fst_28
+                    (coe MAlonzo.Code.Agda.Builtin.Sigma.d_snd_30 (coe v0)))
+                 (coe
+                    MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32
+                    (coe MAlonzo.Code.Agda.Builtin.Sigma.d_fst_28 (coe v0))
+                    (coe
+                       MAlonzo.Code.Agda.Builtin.Sigma.d_snd_30
+                       (coe MAlonzo.Code.Agda.Builtin.Sigma.d_snd_30 (coe v0))))))
+         (coe
+            (\ v0 ->
+               coe
+                 MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32
+                 (coe
+                    MAlonzo.Code.Agda.Builtin.Sigma.d_fst_28
+                    (coe MAlonzo.Code.Agda.Builtin.Sigma.d_snd_30 (coe v0)))
+                 (coe
+                    MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32
+                    (coe MAlonzo.Code.Agda.Builtin.Sigma.d_fst_28 (coe v0))
+                    (coe
+                       MAlonzo.Code.Agda.Builtin.Sigma.d_snd_30
+                       (coe MAlonzo.Code.Agda.Builtin.Sigma.d_snd_30 (coe v0)))))))

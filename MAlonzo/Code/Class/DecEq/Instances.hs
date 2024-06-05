@@ -64,25 +64,25 @@ d_DecEq'45'Bool_16 :: MAlonzo.Code.Class.DecEq.Core.T_DecEq_10
 d_DecEq'45'Bool_16
   = coe
       MAlonzo.Code.Class.DecEq.Core.C_DecEq'46'constructor_31
-      (coe MAlonzo.Code.Data.Bool.Properties.d__'8799'__2946)
+      (coe MAlonzo.Code.Data.Bool.Properties.d__'8799'__2950)
 -- Class.DecEq.Instances.DecEq-ℕ
 d_DecEq'45'ℕ_22 :: MAlonzo.Code.Class.DecEq.Core.T_DecEq_10
 d_DecEq'45'ℕ_22
   = coe
       MAlonzo.Code.Class.DecEq.Core.C_DecEq'46'constructor_31
-      (coe MAlonzo.Code.Data.Nat.Properties.d__'8799'__2550)
+      (coe MAlonzo.Code.Data.Nat.Properties.d__'8799'__2558)
 -- Class.DecEq.Instances.DecEq-ℤ
 d_DecEq'45'ℤ_28 :: MAlonzo.Code.Class.DecEq.Core.T_DecEq_10
 d_DecEq'45'ℤ_28
   = coe
       MAlonzo.Code.Class.DecEq.Core.C_DecEq'46'constructor_31
-      (coe MAlonzo.Code.Data.Integer.Properties.d__'8799'__2558)
+      (coe MAlonzo.Code.Data.Integer.Properties.d__'8799'__2562)
 -- Class.DecEq.Instances.DecEq-ℚ
 d_DecEq'45'ℚ_34 :: MAlonzo.Code.Class.DecEq.Core.T_DecEq_10
 d_DecEq'45'ℚ_34
   = coe
       MAlonzo.Code.Class.DecEq.Core.C_DecEq'46'constructor_31
-      (coe MAlonzo.Code.Data.Rational.Properties.d__'8799'__2550)
+      (coe MAlonzo.Code.Data.Rational.Properties.d__'8799'__2554)
 -- Class.DecEq.Instances.DecEq-Char
 d_DecEq'45'Char_40 :: MAlonzo.Code.Class.DecEq.Core.T_DecEq_10
 d_DecEq'45'Char_40

@@ -48,7 +48,7 @@ du_poset_684 v0
       (coe
          MAlonzo.Code.Algebra.Lattice.Properties.Semilattice.du_poset_162
          (coe
-            MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8743''45'semilattice_3058
+            MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8743''45'semilattice_3062
             (coe v1)))
 -- Algebra.Lattice.Properties.DistributiveLattice._.∧-idem
 d_'8743''45'idem_686 ::
@@ -62,7 +62,7 @@ du_'8743''45'idem_686 ::
   AgdaAny -> AgdaAny
 du_'8743''45'idem_686 v0
   = coe
-      MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8743''45'idem_3046
+      MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8743''45'idem_3050
       (coe MAlonzo.Code.Algebra.Lattice.Bundles.du_lattice_662 (coe v0))
 -- Algebra.Lattice.Properties.DistributiveLattice._.∧-isBand
 d_'8743''45'isBand_688 ::
@@ -76,7 +76,7 @@ du_'8743''45'isBand_688 ::
   MAlonzo.Code.Algebra.Structures.T_IsBand_476
 du_'8743''45'isBand_688 v0
   = coe
-      MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8743''45'isBand_3054
+      MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8743''45'isBand_3058
       (coe MAlonzo.Code.Algebra.Lattice.Bundles.du_lattice_662 (coe v0))
 -- Algebra.Lattice.Properties.DistributiveLattice._.∧-isMagma
 d_'8743''45'isMagma_690 ::
@@ -90,7 +90,7 @@ du_'8743''45'isMagma_690 ::
   MAlonzo.Code.Algebra.Structures.T_IsMagma_144
 du_'8743''45'isMagma_690 v0
   = coe
-      MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8743''45'isMagma_3050
+      MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8743''45'isMagma_3054
       (coe MAlonzo.Code.Algebra.Lattice.Bundles.du_lattice_662 (coe v0))
 -- Algebra.Lattice.Properties.DistributiveLattice._.∧-isOrderTheoreticJoinSemilattice
 d_'8743''45'isOrderTheoreticJoinSemilattice_692 ::
@@ -111,7 +111,7 @@ du_'8743''45'isOrderTheoreticJoinSemilattice_692 v0
       (coe
          MAlonzo.Code.Algebra.Lattice.Properties.Semilattice.du_'8743''45'isOrderTheoreticJoinSemilattice_178
          (coe
-            MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8743''45'semilattice_3058
+            MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8743''45'semilattice_3062
             (coe v1)))
 -- Algebra.Lattice.Properties.DistributiveLattice._.∧-isOrderTheoreticMeetSemilattice
 d_'8743''45'isOrderTheoreticMeetSemilattice_694 ::
@@ -132,7 +132,7 @@ du_'8743''45'isOrderTheoreticMeetSemilattice_694 v0
       (coe
          MAlonzo.Code.Algebra.Lattice.Properties.Semilattice.du_'8743''45'isOrderTheoreticMeetSemilattice_176
          (coe
-            MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8743''45'semilattice_3058
+            MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8743''45'semilattice_3062
             (coe v1)))
 -- Algebra.Lattice.Properties.DistributiveLattice._.∧-isSemigroup
 d_'8743''45'isSemigroup_696 ::
@@ -147,22 +147,22 @@ du_'8743''45'isSemigroup_696 ::
   MAlonzo.Code.Algebra.Structures.T_IsSemigroup_440
 du_'8743''45'isSemigroup_696 v0
   = coe
-      MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8743''45'isSemigroup_3052
+      MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8743''45'isSemigroup_3056
       (coe MAlonzo.Code.Algebra.Lattice.Bundles.du_lattice_662 (coe v0))
 -- Algebra.Lattice.Properties.DistributiveLattice._.∧-isSemilattice
 d_'8743''45'isSemilattice_698 ::
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Algebra.Lattice.Bundles.T_DistributiveLattice_582 ->
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2526
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2530
 d_'8743''45'isSemilattice_698 ~v0 ~v1 v2
   = du_'8743''45'isSemilattice_698 v2
 du_'8743''45'isSemilattice_698 ::
   MAlonzo.Code.Algebra.Lattice.Bundles.T_DistributiveLattice_582 ->
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2526
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2530
 du_'8743''45'isSemilattice_698 v0
   = coe
-      MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8743''45'isSemilattice_3056
+      MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8743''45'isSemilattice_3060
       (coe MAlonzo.Code.Algebra.Lattice.Bundles.du_lattice_662 (coe v0))
 -- Algebra.Lattice.Properties.DistributiveLattice._.∧-orderTheoreticJoinSemilattice
 d_'8743''45'orderTheoreticJoinSemilattice_700 ::
@@ -183,7 +183,7 @@ du_'8743''45'orderTheoreticJoinSemilattice_700 v0
       (coe
          MAlonzo.Code.Algebra.Lattice.Properties.Semilattice.du_'8743''45'orderTheoreticJoinSemilattice_182
          (coe
-            MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8743''45'semilattice_3058
+            MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8743''45'semilattice_3062
             (coe v1)))
 -- Algebra.Lattice.Properties.DistributiveLattice._.∧-orderTheoreticMeetSemilattice
 d_'8743''45'orderTheoreticMeetSemilattice_702 ::
@@ -204,7 +204,7 @@ du_'8743''45'orderTheoreticMeetSemilattice_702 v0
       (coe
          MAlonzo.Code.Algebra.Lattice.Properties.Semilattice.du_'8743''45'orderTheoreticMeetSemilattice_180
          (coe
-            MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8743''45'semilattice_3058
+            MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8743''45'semilattice_3062
             (coe v1)))
 -- Algebra.Lattice.Properties.DistributiveLattice._.∧-semilattice
 d_'8743''45'semilattice_704 ::
@@ -219,22 +219,22 @@ du_'8743''45'semilattice_704 ::
   MAlonzo.Code.Algebra.Lattice.Bundles.T_Semilattice_10
 du_'8743''45'semilattice_704 v0
   = coe
-      MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8743''45'semilattice_3058
+      MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8743''45'semilattice_3062
       (coe MAlonzo.Code.Algebra.Lattice.Bundles.du_lattice_662 (coe v0))
 -- Algebra.Lattice.Properties.DistributiveLattice._.∧-∨-isLattice
 d_'8743''45''8744''45'isLattice_706 ::
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Algebra.Lattice.Bundles.T_DistributiveLattice_582 ->
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsLattice_2826
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsLattice_2830
 d_'8743''45''8744''45'isLattice_706 ~v0 ~v1 v2
   = du_'8743''45''8744''45'isLattice_706 v2
 du_'8743''45''8744''45'isLattice_706 ::
   MAlonzo.Code.Algebra.Lattice.Bundles.T_DistributiveLattice_582 ->
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsLattice_2826
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsLattice_2830
 du_'8743''45''8744''45'isLattice_706 v0
   = coe
-      MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8743''45''8744''45'isLattice_3094
+      MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8743''45''8744''45'isLattice_3098
       (coe MAlonzo.Code.Algebra.Lattice.Bundles.du_lattice_662 (coe v0))
 -- Algebra.Lattice.Properties.DistributiveLattice._.∧-∨-lattice
 d_'8743''45''8744''45'lattice_708 ::
@@ -249,7 +249,7 @@ du_'8743''45''8744''45'lattice_708 ::
   MAlonzo.Code.Algebra.Lattice.Bundles.T_Lattice_498
 du_'8743''45''8744''45'lattice_708 v0
   = coe
-      MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8743''45''8744''45'lattice_3096
+      MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8743''45''8744''45'lattice_3100
       (coe MAlonzo.Code.Algebra.Lattice.Bundles.du_lattice_662 (coe v0))
 -- Algebra.Lattice.Properties.DistributiveLattice._.∨-idem
 d_'8744''45'idem_710 ::
@@ -263,7 +263,7 @@ du_'8744''45'idem_710 ::
   AgdaAny -> AgdaAny
 du_'8744''45'idem_710 v0
   = coe
-      MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8744''45'idem_3070
+      MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8744''45'idem_3074
       (coe MAlonzo.Code.Algebra.Lattice.Bundles.du_lattice_662 (coe v0))
 -- Algebra.Lattice.Properties.DistributiveLattice._.∨-isBand
 d_'8744''45'isBand_712 ::
@@ -277,7 +277,7 @@ du_'8744''45'isBand_712 ::
   MAlonzo.Code.Algebra.Structures.T_IsBand_476
 du_'8744''45'isBand_712 v0
   = coe
-      MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8744''45'isBand_3078
+      MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8744''45'isBand_3082
       (coe MAlonzo.Code.Algebra.Lattice.Bundles.du_lattice_662 (coe v0))
 -- Algebra.Lattice.Properties.DistributiveLattice._.∨-isMagma
 d_'8744''45'isMagma_714 ::
@@ -291,7 +291,7 @@ du_'8744''45'isMagma_714 ::
   MAlonzo.Code.Algebra.Structures.T_IsMagma_144
 du_'8744''45'isMagma_714 v0
   = coe
-      MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8744''45'isMagma_3074
+      MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8744''45'isMagma_3078
       (coe MAlonzo.Code.Algebra.Lattice.Bundles.du_lattice_662 (coe v0))
 -- Algebra.Lattice.Properties.DistributiveLattice._.∧-isOrderTheoreticJoinSemilattice
 d_'8743''45'isOrderTheoreticJoinSemilattice_716 ::
@@ -312,7 +312,7 @@ du_'8743''45'isOrderTheoreticJoinSemilattice_716 v0
       (coe
          MAlonzo.Code.Algebra.Lattice.Properties.Semilattice.du_'8743''45'isOrderTheoreticJoinSemilattice_178
          (coe
-            MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8744''45'semilattice_3082
+            MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8744''45'semilattice_3086
             (coe v1)))
 -- Algebra.Lattice.Properties.DistributiveLattice._.∧-isOrderTheoreticMeetSemilattice
 d_'8743''45'isOrderTheoreticMeetSemilattice_718 ::
@@ -333,7 +333,7 @@ du_'8743''45'isOrderTheoreticMeetSemilattice_718 v0
       (coe
          MAlonzo.Code.Algebra.Lattice.Properties.Semilattice.du_'8743''45'isOrderTheoreticMeetSemilattice_176
          (coe
-            MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8744''45'semilattice_3082
+            MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8744''45'semilattice_3086
             (coe v1)))
 -- Algebra.Lattice.Properties.DistributiveLattice._.∨-isSemigroup
 d_'8744''45'isSemigroup_720 ::
@@ -348,22 +348,22 @@ du_'8744''45'isSemigroup_720 ::
   MAlonzo.Code.Algebra.Structures.T_IsSemigroup_440
 du_'8744''45'isSemigroup_720 v0
   = coe
-      MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8744''45'isSemigroup_3076
+      MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8744''45'isSemigroup_3080
       (coe MAlonzo.Code.Algebra.Lattice.Bundles.du_lattice_662 (coe v0))
 -- Algebra.Lattice.Properties.DistributiveLattice._.∨-isSemilattice
 d_'8744''45'isSemilattice_722 ::
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Algebra.Lattice.Bundles.T_DistributiveLattice_582 ->
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2526
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2530
 d_'8744''45'isSemilattice_722 ~v0 ~v1 v2
   = du_'8744''45'isSemilattice_722 v2
 du_'8744''45'isSemilattice_722 ::
   MAlonzo.Code.Algebra.Lattice.Bundles.T_DistributiveLattice_582 ->
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2526
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsSemilattice_2530
 du_'8744''45'isSemilattice_722 v0
   = coe
-      MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8744''45'isSemilattice_3080
+      MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8744''45'isSemilattice_3084
       (coe MAlonzo.Code.Algebra.Lattice.Bundles.du_lattice_662 (coe v0))
 -- Algebra.Lattice.Properties.DistributiveLattice._.∧-orderTheoreticJoinSemilattice
 d_'8743''45'orderTheoreticJoinSemilattice_724 ::
@@ -384,7 +384,7 @@ du_'8743''45'orderTheoreticJoinSemilattice_724 v0
       (coe
          MAlonzo.Code.Algebra.Lattice.Properties.Semilattice.du_'8743''45'orderTheoreticJoinSemilattice_182
          (coe
-            MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8744''45'semilattice_3082
+            MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8744''45'semilattice_3086
             (coe v1)))
 -- Algebra.Lattice.Properties.DistributiveLattice._.∧-orderTheoreticMeetSemilattice
 d_'8743''45'orderTheoreticMeetSemilattice_726 ::
@@ -405,7 +405,7 @@ du_'8743''45'orderTheoreticMeetSemilattice_726 v0
       (coe
          MAlonzo.Code.Algebra.Lattice.Properties.Semilattice.du_'8743''45'orderTheoreticMeetSemilattice_180
          (coe
-            MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8744''45'semilattice_3082
+            MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8744''45'semilattice_3086
             (coe v1)))
 -- Algebra.Lattice.Properties.DistributiveLattice._.∨-semilattice
 d_'8744''45'semilattice_728 ::
@@ -420,7 +420,7 @@ du_'8744''45'semilattice_728 ::
   MAlonzo.Code.Algebra.Lattice.Bundles.T_Semilattice_10
 du_'8744''45'semilattice_728 v0
   = coe
-      MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8744''45'semilattice_3082
+      MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8744''45'semilattice_3086
       (coe MAlonzo.Code.Algebra.Lattice.Bundles.du_lattice_662 (coe v0))
 -- Algebra.Lattice.Properties.DistributiveLattice._.∨-∧-isOrderTheoreticLattice
 d_'8744''45''8743''45'isOrderTheoreticLattice_730 ::
@@ -435,7 +435,7 @@ du_'8744''45''8743''45'isOrderTheoreticLattice_730 ::
   MAlonzo.Code.Relation.Binary.Lattice.Structures.T_IsLattice_340
 du_'8744''45''8743''45'isOrderTheoreticLattice_730 v0
   = coe
-      MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8744''45''8743''45'isOrderTheoreticLattice_3108
+      MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8744''45''8743''45'isOrderTheoreticLattice_3112
       (coe MAlonzo.Code.Algebra.Lattice.Bundles.du_lattice_662 (coe v0))
 -- Algebra.Lattice.Properties.DistributiveLattice._.∨-∧-orderTheoreticLattice
 d_'8744''45''8743''45'orderTheoreticLattice_732 ::
@@ -450,32 +450,32 @@ du_'8744''45''8743''45'orderTheoreticLattice_732 ::
   MAlonzo.Code.Relation.Binary.Lattice.Bundles.T_Lattice_386
 du_'8744''45''8743''45'orderTheoreticLattice_732 v0
   = coe
-      MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8744''45''8743''45'orderTheoreticLattice_3164
+      MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8744''45''8743''45'orderTheoreticLattice_3168
       (coe MAlonzo.Code.Algebra.Lattice.Bundles.du_lattice_662 (coe v0))
 -- Algebra.Lattice.Properties.DistributiveLattice.∧-∨-isDistributiveLattice
 d_'8743''45''8744''45'isDistributiveLattice_734 ::
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Algebra.Lattice.Bundles.T_DistributiveLattice_582 ->
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsDistributiveLattice_2900
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsDistributiveLattice_2904
 d_'8743''45''8744''45'isDistributiveLattice_734 ~v0 ~v1 v2
   = du_'8743''45''8744''45'isDistributiveLattice_734 v2
 du_'8743''45''8744''45'isDistributiveLattice_734 ::
   MAlonzo.Code.Algebra.Lattice.Bundles.T_DistributiveLattice_582 ->
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsDistributiveLattice_2900
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsDistributiveLattice_2904
 du_'8743''45''8744''45'isDistributiveLattice_734 v0
   = coe
-      MAlonzo.Code.Algebra.Lattice.Structures.C_IsDistributiveLattice'46'constructor_39691
+      MAlonzo.Code.Algebra.Lattice.Structures.C_IsDistributiveLattice'46'constructor_40543
       (coe
-         MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8743''45''8744''45'isLattice_3094
+         MAlonzo.Code.Algebra.Lattice.Properties.Lattice.du_'8743''45''8744''45'isLattice_3098
          (coe MAlonzo.Code.Algebra.Lattice.Bundles.du_lattice_662 (coe v0)))
       (coe
-         MAlonzo.Code.Algebra.Lattice.Structures.d_'8743''45'distrib'45''8744'_2916
+         MAlonzo.Code.Algebra.Lattice.Structures.d_'8743''45'distrib'45''8744'_2920
          (coe
             MAlonzo.Code.Algebra.Lattice.Bundles.d_isDistributiveLattice_606
             (coe v0)))
       (coe
-         MAlonzo.Code.Algebra.Lattice.Structures.d_'8744''45'distrib'45''8743'_2914
+         MAlonzo.Code.Algebra.Lattice.Structures.d_'8744''45'distrib'45''8743'_2918
          (coe
             MAlonzo.Code.Algebra.Lattice.Bundles.d_isDistributiveLattice_606
             (coe v0)))

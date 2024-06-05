@@ -631,10 +631,10 @@ du_decidable_260 v0 v1 v2 v3 v4
                     MAlonzo.Code.Relation.Nullary.Decidable.du_map_18
                     (coe du_'8759''60''8759''45''8660'_248)
                     (coe
-                       MAlonzo.Code.Relation.Nullary.Decidable.Core.du__'8846''45'dec__78
+                       MAlonzo.Code.Relation.Nullary.Decidable.Core.du__'8846''45'dec__84
                        (coe v2 v5 v7)
                        (coe
-                          MAlonzo.Code.Relation.Nullary.Decidable.Core.du__'215''45'dec__68
+                          MAlonzo.Code.Relation.Nullary.Decidable.Core.du__'215''45'dec__74
                           (coe v1 v5 v7)
                           (coe
                              du_decidable_260 (coe v0) (coe v1) (coe v2) (coe v6) (coe v8))))

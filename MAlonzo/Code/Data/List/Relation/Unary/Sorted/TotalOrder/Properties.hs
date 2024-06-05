@@ -181,14 +181,14 @@ d_applyUpTo'8314''8321'_512 ::
   MAlonzo.Code.Relation.Binary.Bundles.T_TotalOrder_764 ->
   (Integer -> AgdaAny) ->
   Integer ->
-  (Integer -> MAlonzo.Code.Data.Nat.Base.T__'8804'__18 -> AgdaAny) ->
+  (Integer -> MAlonzo.Code.Data.Nat.Base.T__'8804'__22 -> AgdaAny) ->
   MAlonzo.Code.Data.List.Relation.Unary.Linked.T_Linked_26
 d_applyUpTo'8314''8321'_512 ~v0 ~v1 ~v2 ~v3
   = du_applyUpTo'8314''8321'_512
 du_applyUpTo'8314''8321'_512 ::
   (Integer -> AgdaAny) ->
   Integer ->
-  (Integer -> MAlonzo.Code.Data.Nat.Base.T__'8804'__18 -> AgdaAny) ->
+  (Integer -> MAlonzo.Code.Data.Nat.Base.T__'8804'__22 -> AgdaAny) ->
   MAlonzo.Code.Data.List.Relation.Unary.Linked.T_Linked_26
 du_applyUpTo'8314''8321'_512 v0 v1 v2
   = coe
@@ -223,14 +223,14 @@ d_applyDownFrom'8314''8321'_618 ::
   MAlonzo.Code.Relation.Binary.Bundles.T_TotalOrder_764 ->
   (Integer -> AgdaAny) ->
   Integer ->
-  (Integer -> MAlonzo.Code.Data.Nat.Base.T__'8804'__18 -> AgdaAny) ->
+  (Integer -> MAlonzo.Code.Data.Nat.Base.T__'8804'__22 -> AgdaAny) ->
   MAlonzo.Code.Data.List.Relation.Unary.Linked.T_Linked_26
 d_applyDownFrom'8314''8321'_618 ~v0 ~v1 ~v2 ~v3
   = du_applyDownFrom'8314''8321'_618
 du_applyDownFrom'8314''8321'_618 ::
   (Integer -> AgdaAny) ->
   Integer ->
-  (Integer -> MAlonzo.Code.Data.Nat.Base.T__'8804'__18 -> AgdaAny) ->
+  (Integer -> MAlonzo.Code.Data.Nat.Base.T__'8804'__22 -> AgdaAny) ->
   MAlonzo.Code.Data.List.Relation.Unary.Linked.T_Linked_26
 du_applyDownFrom'8314''8321'_618 v0 v1 v2
   = coe
@@ -1175,7 +1175,7 @@ d_drop'8314'_842 ::
   Integer ->
   [AgdaAny] ->
   [AgdaAny] ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
   MAlonzo.Code.Data.List.Relation.Binary.Sublist.Heterogeneous.Core.T_Sublist_26 ->
   MAlonzo.Code.Data.List.Relation.Binary.Sublist.Heterogeneous.Core.T_Sublist_26
 d_drop'8314'_842 ~v0 ~v1 ~v2 ~v3 = du_drop'8314'_842
@@ -1184,7 +1184,7 @@ du_drop'8314'_842 ::
   Integer ->
   [AgdaAny] ->
   [AgdaAny] ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
   MAlonzo.Code.Data.List.Relation.Binary.Sublist.Heterogeneous.Core.T_Sublist_26 ->
   MAlonzo.Code.Data.List.Relation.Binary.Sublist.Heterogeneous.Core.T_Sublist_26
 du_drop'8314'_842 v0 v1 v2 v3
@@ -1200,7 +1200,7 @@ d_drop'8314''45''8805'_844 ::
   Integer ->
   Integer ->
   [AgdaAny] ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
   MAlonzo.Code.Data.List.Relation.Binary.Sublist.Heterogeneous.Core.T_Sublist_26
 d_drop'8314''45''8805'_844 ~v0 ~v1 ~v2 v3
   = du_drop'8314''45''8805'_844 v3
@@ -1209,7 +1209,7 @@ du_drop'8314''45''8805'_844 ::
   Integer ->
   Integer ->
   [AgdaAny] ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
   MAlonzo.Code.Data.List.Relation.Binary.Sublist.Heterogeneous.Core.T_Sublist_26
 du_drop'8314''45''8805'_844 v0 v1 v2 v3 v4
   = coe
@@ -1348,14 +1348,14 @@ d_length'45'mono'45''8804'_856 ::
   [AgdaAny] ->
   [AgdaAny] ->
   MAlonzo.Code.Data.List.Relation.Binary.Sublist.Heterogeneous.Core.T_Sublist_26 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22
 d_length'45'mono'45''8804'_856 ~v0 ~v1 ~v2 ~v3
   = du_length'45'mono'45''8804'_856
 du_length'45'mono'45''8804'_856 ::
   [AgdaAny] ->
   [AgdaAny] ->
   MAlonzo.Code.Data.List.Relation.Binary.Sublist.Heterogeneous.Core.T_Sublist_26 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22
 du_length'45'mono'45''8804'_856
   = coe
       MAlonzo.Code.Data.List.Relation.Binary.Sublist.Setoid.Properties.du_length'45'mono'45''8804'_654
@@ -1676,7 +1676,7 @@ d_take'8314'_882 ::
   Integer ->
   Integer ->
   [AgdaAny] ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
   MAlonzo.Code.Data.List.Relation.Binary.Sublist.Heterogeneous.Core.T_Sublist_26
 d_take'8314'_882 ~v0 ~v1 ~v2 v3 = du_take'8314'_882 v3
 du_take'8314'_882 ::
@@ -1684,7 +1684,7 @@ du_take'8314'_882 ::
   Integer ->
   Integer ->
   [AgdaAny] ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
   MAlonzo.Code.Data.List.Relation.Binary.Sublist.Heterogeneous.Core.T_Sublist_26
 du_take'8314'_882 v0 v1 v2 v3 v4
   = coe

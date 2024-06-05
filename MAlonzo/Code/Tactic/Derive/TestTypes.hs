@@ -40,59 +40,59 @@ d_E4_54 a0 a1 = ()
 data T_E4_54 = C_c1E4_58 | C_c2E4_64
 -- Tactic.Derive.TestTypes.R1
 d_R1_66 = ()
-data T_R1_66 = C_R1'46'constructor_659 T_E1_8 T_E2_28
+data T_R1_66 = C_R1'46'constructor_385 T_E1_8 T_E2_28
 -- Tactic.Derive.TestTypes.R1.f1R1
 d_f1R1_72 :: T_R1_66 -> T_E1_8
 d_f1R1_72 v0
   = case coe v0 of
-      C_R1'46'constructor_659 v1 v2 -> coe v1
+      C_R1'46'constructor_385 v1 v2 -> coe v1
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Tactic.Derive.TestTypes.R1.f2R1
 d_f2R1_74 :: T_R1_66 -> T_E2_28
 d_f2R1_74 v0
   = case coe v0 of
-      C_R1'46'constructor_659 v1 v2 -> coe v2
+      C_R1'46'constructor_385 v1 v2 -> coe v2
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Tactic.Derive.TestTypes.R2
 d_R2_80 a0 a1 = ()
 data T_R2_80
-  = C_R2'46'constructor_777 T_E1_8 T_E2_28 T_R1_66 T_R1_66 AgdaAny
+  = C_R2'46'constructor_481 T_E1_8 T_E2_28 T_R1_66 T_R1_66 AgdaAny
                             AgdaAny
 -- Tactic.Derive.TestTypes.R2.f1R2
 d_f1R2_98 :: T_R2_80 -> T_E1_8
 d_f1R2_98 v0
   = case coe v0 of
-      C_R2'46'constructor_777 v1 v2 v3 v4 v5 v6 -> coe v1
+      C_R2'46'constructor_481 v1 v2 v3 v4 v5 v6 -> coe v1
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Tactic.Derive.TestTypes.R2.f2R2
 d_f2R2_100 :: T_R2_80 -> T_E2_28
 d_f2R2_100 v0
   = case coe v0 of
-      C_R2'46'constructor_777 v1 v2 v3 v4 v5 v6 -> coe v2
+      C_R2'46'constructor_481 v1 v2 v3 v4 v5 v6 -> coe v2
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Tactic.Derive.TestTypes.R2.f3R2
 d_f3R2_102 :: T_R2_80 -> T_R1_66
 d_f3R2_102 v0
   = case coe v0 of
-      C_R2'46'constructor_777 v1 v2 v3 v4 v5 v6 -> coe v3
+      C_R2'46'constructor_481 v1 v2 v3 v4 v5 v6 -> coe v3
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Tactic.Derive.TestTypes.R2.f4R2
 d_f4R2_104 :: T_R2_80 -> T_R1_66
 d_f4R2_104 v0
   = case coe v0 of
-      C_R2'46'constructor_777 v1 v2 v3 v4 v5 v6 -> coe v4
+      C_R2'46'constructor_481 v1 v2 v3 v4 v5 v6 -> coe v4
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Tactic.Derive.TestTypes.R2.f5R2
 d_f5R2_106 :: T_R2_80 -> AgdaAny
 d_f5R2_106 v0
   = case coe v0 of
-      C_R2'46'constructor_777 v1 v2 v3 v4 v5 v6 -> coe v5
+      C_R2'46'constructor_481 v1 v2 v3 v4 v5 v6 -> coe v5
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Tactic.Derive.TestTypes.R2.f6R2
 d_f6R2_108 :: T_R2_80 -> AgdaAny
 d_f6R2_108 v0
   = case coe v0 of
-      C_R2'46'constructor_777 v1 v2 v3 v4 v5 v6 -> coe v6
+      C_R2'46'constructor_481 v1 v2 v3 v4 v5 v6 -> coe v6
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Tactic.Derive.TestTypes.M₁
 d_M'8321'_110 = ()

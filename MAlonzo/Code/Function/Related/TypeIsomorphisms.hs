@@ -631,10 +631,10 @@ du_'215''45''8846''45'isCommutativeSemiring_362 ::
   MAlonzo.Code.Algebra.Structures.T_IsCommutativeSemiring_1526
 du_'215''45''8846''45'isCommutativeSemiring_362 v0
   = coe
-      MAlonzo.Code.Algebra.Structures.Biased.du_isCommutativeSemiring_2862
+      MAlonzo.Code.Algebra.Structures.Biased.du_isCommutativeSemiring_2866
       erased erased erased
       (coe
-         MAlonzo.Code.Algebra.Structures.Biased.C_IsCommutativeSemiring'737''46'constructor_41409
+         MAlonzo.Code.Algebra.Structures.Biased.C_IsCommutativeSemiring'737''46'constructor_42261
          (coe du_'8846''45'isCommutativeMonoid_340 (coe v0))
          (coe du_'215''45'isCommutativeMonoid_258 (coe v0))
          (coe

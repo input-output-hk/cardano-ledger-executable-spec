@@ -27,9 +27,9 @@ import qualified MAlonzo.Code.Reflection.Debug
 d_defaultTCOptionsI_4 :: MAlonzo.Code.Class.MonadTC.T_TCOptions_20
 d_defaultTCOptionsI_4
   = coe
-      MAlonzo.Code.Class.MonadTC.C_TCOptions'46'constructor_133
+      MAlonzo.Code.Class.MonadTC.C_TCOptions'46'constructor_89
       (coe
-         MAlonzo.Code.Reflection.Debug.C_DebugOptions'46'constructor_2025
+         MAlonzo.Code.Reflection.Debug.C_DebugOptions'46'constructor_1911
          (coe
             MAlonzo.Code.Reflection.Debug.d_path_246
             (coe MAlonzo.Code.Reflection.Debug.d_defaultDebugOptions_256))

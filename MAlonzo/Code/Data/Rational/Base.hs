@@ -27,6 +27,7 @@ import qualified MAlonzo.Code.Data.Irrelevant
 import qualified MAlonzo.Code.Data.Nat.Base
 import qualified MAlonzo.Code.Data.Nat.GCD
 import qualified MAlonzo.Code.Data.Rational.Unnormalised.Base
+import qualified MAlonzo.Code.Data.Sign.Base
 import qualified MAlonzo.Code.Relation.Nullary.Negation.Core
 
 -- Data.Rational.Base.ℚ
@@ -56,7 +57,7 @@ d_denominator_22 v0 = coe d_denominatorℕ_20 (coe v0)
 d_mkℚ'43'_32 ::
   Integer ->
   Integer ->
-  MAlonzo.Code.Data.Nat.Base.T_NonZero_104 ->
+  MAlonzo.Code.Data.Nat.Base.T_NonZero_112 ->
   (Integer ->
    MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
    MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12) ->
@@ -121,35 +122,35 @@ d_'45'__112 v0
 -- Data.Rational.Base.normalize
 d_normalize_136 ::
   Integer ->
-  Integer -> MAlonzo.Code.Data.Nat.Base.T_NonZero_104 -> T_ℚ_6
+  Integer -> MAlonzo.Code.Data.Nat.Base.T_NonZero_112 -> T_ℚ_6
 d_normalize_136 v0 v1 ~v2 = du_normalize_136 v0 v1
 du_normalize_136 :: Integer -> Integer -> T_ℚ_6
 du_normalize_136 v0 v1
   = coe
       du_mkℚ'43'_32
       (coe
-         MAlonzo.Code.Data.Nat.Base.du__'47'__276 (coe v0)
+         MAlonzo.Code.Data.Nat.Base.du__'47'__314 (coe v0)
          (coe MAlonzo.Code.Data.Nat.GCD.d_gcd_152 (coe v0) (coe v1)))
       (coe
-         MAlonzo.Code.Data.Nat.Base.du__'47'__276 (coe v1)
+         MAlonzo.Code.Data.Nat.Base.du__'47'__314 (coe v1)
          (coe MAlonzo.Code.Data.Nat.GCD.d_gcd_152 (coe v0) (coe v1)))
 -- Data.Rational.Base._.g≢0
 d_g'8802'0_146 ::
   Integer ->
   Integer ->
-  MAlonzo.Code.Data.Nat.Base.T_NonZero_104 ->
-  MAlonzo.Code.Data.Nat.Base.T_NonZero_104
+  MAlonzo.Code.Data.Nat.Base.T_NonZero_112 ->
+  MAlonzo.Code.Data.Nat.Base.T_NonZero_112
 d_g'8802'0_146 v0 v1 ~v2 = du_g'8802'0_146 v0 v1
 du_g'8802'0_146 ::
-  Integer -> Integer -> MAlonzo.Code.Data.Nat.Base.T_NonZero_104
+  Integer -> Integer -> MAlonzo.Code.Data.Nat.Base.T_NonZero_112
 du_g'8802'0_146 v0 v1
   = coe
-      MAlonzo.Code.Data.Nat.Base.du_'8802''45'nonZero_118
+      MAlonzo.Code.Data.Nat.Base.du_'8802''45'nonZero_126
       (coe MAlonzo.Code.Data.Nat.GCD.d_gcd_152 (coe v0) (coe v1))
 -- Data.Rational.Base._/_
 d__'47'__156 ::
   Integer ->
-  Integer -> MAlonzo.Code.Data.Nat.Base.T_NonZero_104 -> T_ℚ_6
+  Integer -> MAlonzo.Code.Data.Nat.Base.T_NonZero_112 -> T_ℚ_6
 d__'47'__156 v0 v1 ~v2 = du__'47'__156 v0 v1
 du__'47'__156 :: Integer -> Integer -> T_ℚ_6
 du__'47'__156 v0 v1
@@ -215,10 +216,10 @@ d_'8802''45'nonZero_208 ::
   T_ℚ_6 ->
   (MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
    MAlonzo.Code.Data.Irrelevant.T_Irrelevant_20) ->
-  MAlonzo.Code.Data.Nat.Base.T_NonZero_104
+  MAlonzo.Code.Data.Nat.Base.T_NonZero_112
 d_'8802''45'nonZero_208 v0 ~v1 = du_'8802''45'nonZero_208 v0
 du_'8802''45'nonZero_208 ::
-  T_ℚ_6 -> MAlonzo.Code.Data.Nat.Base.T_NonZero_104
+  T_ℚ_6 -> MAlonzo.Code.Data.Nat.Base.T_NonZero_112
 du_'8802''45'nonZero_208 v0
   = case coe v0 of
       C_mkℚ_24 v1 v2
@@ -236,9 +237,9 @@ du_'8802''45'nonZero_208 v0
                     (coe MAlonzo.Code.Agda.Builtin.Unit.C_tt_8)
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Data.Rational.Base.>-nonZero
-d_'62''45'nonZero_222 ::
-  T_ℚ_6 -> T__'60'__62 -> MAlonzo.Code.Data.Nat.Base.T_NonZero_104
-d_'62''45'nonZero_222 v0 v1
+d_'62''45'nonZero_224 ::
+  T_ℚ_6 -> T__'60'__62 -> MAlonzo.Code.Data.Nat.Base.T_NonZero_112
+d_'62''45'nonZero_224 v0 v1
   = case coe v0 of
       C_mkℚ_24 v2 v3
         -> case coe v1 of
@@ -251,9 +252,9 @@ d_'62''45'nonZero_222 v0 v1
              _ -> MAlonzo.RTE.mazUnreachableError
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Data.Rational.Base.<-nonZero
-d_'60''45'nonZero_230 ::
-  T_ℚ_6 -> T__'60'__62 -> MAlonzo.Code.Data.Nat.Base.T_NonZero_104
-d_'60''45'nonZero_230 v0 v1
+d_'60''45'nonZero_232 ::
+  T_ℚ_6 -> T__'60'__62 -> MAlonzo.Code.Data.Nat.Base.T_NonZero_112
+d_'60''45'nonZero_232 v0 v1
   = case coe v0 of
       C_mkℚ_24 v2 v3
         -> case coe v1 of
@@ -266,10 +267,10 @@ d_'60''45'nonZero_230 v0 v1
              _ -> MAlonzo.RTE.mazUnreachableError
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Data.Rational.Base.positive
-d_positive_238 ::
+d_positive_240 ::
   T_ℚ_6 ->
   T__'60'__62 -> MAlonzo.Code.Data.Integer.Base.T_Positive_134
-d_positive_238 v0 v1
+d_positive_240 v0 v1
   = case coe v0 of
       C_mkℚ_24 v2 v3
         -> case coe v1 of
@@ -282,10 +283,10 @@ d_positive_238 v0 v1
              _ -> MAlonzo.RTE.mazUnreachableError
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Data.Rational.Base.negative
-d_negative_246 ::
+d_negative_248 ::
   T_ℚ_6 ->
   T__'60'__62 -> MAlonzo.Code.Data.Integer.Base.T_Negative_164
-d_negative_246 v0 v1
+d_negative_248 v0 v1
   = case coe v0 of
       C_mkℚ_24 v2 v3
         -> case coe v1 of
@@ -298,10 +299,10 @@ d_negative_246 v0 v1
              _ -> MAlonzo.RTE.mazUnreachableError
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Data.Rational.Base.nonPositive
-d_nonPositive_254 ::
+d_nonPositive_256 ::
   T_ℚ_6 ->
   T__'8804'__54 -> MAlonzo.Code.Data.Integer.Base.T_NonPositive_154
-d_nonPositive_254 v0 v1
+d_nonPositive_256 v0 v1
   = case coe v0 of
       C_mkℚ_24 v2 v3
         -> case coe v1 of
@@ -315,10 +316,10 @@ d_nonPositive_254 v0 v1
              _ -> MAlonzo.RTE.mazUnreachableError
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Data.Rational.Base.nonNegative
-d_nonNegative_262 ::
+d_nonNegative_264 ::
   T_ℚ_6 ->
   T__'8804'__54 -> MAlonzo.Code.Data.Integer.Base.T_NonNegative_144
-d_nonNegative_262 v0 v1
+d_nonNegative_264 v0 v1
   = case coe v0 of
       C_mkℚ_24 v2 v3
         -> case coe v1 of
@@ -332,8 +333,8 @@ d_nonNegative_262 v0 v1
              _ -> MAlonzo.RTE.mazUnreachableError
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Data.Rational.Base._+_
-d__'43'__268 :: T_ℚ_6 -> T_ℚ_6 -> T_ℚ_6
-d__'43'__268 v0 v1
+d__'43'__270 :: T_ℚ_6 -> T_ℚ_6 -> T_ℚ_6
+d__'43'__270 v0 v1
   = case coe v0 of
       C_mkℚ_24 v2 v3
         -> case coe v1 of
@@ -354,8 +355,8 @@ d__'43'__268 v0 v1
              _ -> MAlonzo.RTE.mazUnreachableError
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Data.Rational.Base._*_
-d__'42'__274 :: T_ℚ_6 -> T_ℚ_6 -> T_ℚ_6
-d__'42'__274 v0 v1
+d__'42'__276 :: T_ℚ_6 -> T_ℚ_6 -> T_ℚ_6
+d__'42'__276 v0 v1
   = case coe v0 of
       C_mkℚ_24 v2 v3
         -> case coe v1 of
@@ -369,15 +370,15 @@ d__'42'__274 v0 v1
              _ -> MAlonzo.RTE.mazUnreachableError
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Data.Rational.Base._-_
-d__'45'__280 :: T_ℚ_6 -> T_ℚ_6 -> T_ℚ_6
-d__'45'__280 v0 v1
-  = coe d__'43'__268 (coe v0) (coe d_'45'__112 (coe v1))
+d__'45'__282 :: T_ℚ_6 -> T_ℚ_6 -> T_ℚ_6
+d__'45'__282 v0 v1
+  = coe d__'43'__270 (coe v0) (coe d_'45'__112 (coe v1))
 -- Data.Rational.Base.1/_
-d_1'47'__290 ::
-  T_ℚ_6 -> MAlonzo.Code.Data.Nat.Base.T_NonZero_104 -> T_ℚ_6
-d_1'47'__290 v0 ~v1 = du_1'47'__290 v0
-du_1'47'__290 :: T_ℚ_6 -> T_ℚ_6
-du_1'47'__290 v0
+d_1'47'__292 ::
+  T_ℚ_6 -> MAlonzo.Code.Data.Nat.Base.T_NonZero_112 -> T_ℚ_6
+d_1'47'__292 v0 ~v1 = du_1'47'__292 v0
+du_1'47'__292 :: T_ℚ_6 -> T_ℚ_6
+du_1'47'__292 v0
   = case coe v0 of
       C_mkℚ_24 v1 v2
         -> case coe v1 of
@@ -388,43 +389,43 @@ du_1'47'__290 v0
                   coe (coe C_mkℚ_24 (subInt (coe (-1 :: Integer)) (coe v2)) v4)
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Data.Rational.Base._÷_
-d__'247'__310 ::
-  T_ℚ_6 -> T_ℚ_6 -> MAlonzo.Code.Data.Nat.Base.T_NonZero_104 -> T_ℚ_6
-d__'247'__310 v0 v1 ~v2 = du__'247'__310 v0 v1
-du__'247'__310 :: T_ℚ_6 -> T_ℚ_6 -> T_ℚ_6
-du__'247'__310 v0 v1
-  = coe d__'42'__274 (coe v0) (coe du_1'47'__290 (coe v1))
+d__'247'__312 ::
+  T_ℚ_6 -> T_ℚ_6 -> MAlonzo.Code.Data.Nat.Base.T_NonZero_112 -> T_ℚ_6
+d__'247'__312 v0 v1 ~v2 = du__'247'__312 v0 v1
+du__'247'__312 :: T_ℚ_6 -> T_ℚ_6 -> T_ℚ_6
+du__'247'__312 v0 v1
+  = coe d__'42'__276 (coe v0) (coe du_1'47'__292 (coe v1))
 -- Data.Rational.Base._⊔_
-d__'8852'__320 :: T_ℚ_6 -> T_ℚ_6 -> T_ℚ_6
-d__'8852'__320 v0 v1
+d__'8852'__322 :: T_ℚ_6 -> T_ℚ_6 -> T_ℚ_6
+d__'8852'__322 v0 v1
   = case coe v0 of
       C_mkℚ_24 v2 v3
         -> case coe v1 of
              C_mkℚ_24 v5 v6
                -> coe
-                    MAlonzo.Code.Data.Bool.Base.du_if_then_else__42
+                    MAlonzo.Code.Data.Bool.Base.du_if_then_else__44
                     (coe
                        d__'8804''7495'__106 (coe C_mkℚ_24 v2 v3) (coe C_mkℚ_24 v5 v6))
                     (coe C_mkℚ_24 v5 v6) (coe C_mkℚ_24 v2 v3)
              _ -> MAlonzo.RTE.mazUnreachableError
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Data.Rational.Base._⊓_
-d__'8851'__330 :: T_ℚ_6 -> T_ℚ_6 -> T_ℚ_6
-d__'8851'__330 v0 v1
+d__'8851'__332 :: T_ℚ_6 -> T_ℚ_6 -> T_ℚ_6
+d__'8851'__332 v0 v1
   = case coe v0 of
       C_mkℚ_24 v2 v3
         -> case coe v1 of
              C_mkℚ_24 v5 v6
                -> coe
-                    MAlonzo.Code.Data.Bool.Base.du_if_then_else__42
+                    MAlonzo.Code.Data.Bool.Base.du_if_then_else__44
                     (coe
                        d__'8804''7495'__106 (coe C_mkℚ_24 v2 v3) (coe C_mkℚ_24 v5 v6))
                     (coe C_mkℚ_24 v2 v3) (coe C_mkℚ_24 v5 v6)
              _ -> MAlonzo.RTE.mazUnreachableError
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Data.Rational.Base.∣_∣
-d_'8739'_'8739'_336 :: T_ℚ_6 -> T_ℚ_6
-d_'8739'_'8739'_336 v0
+d_'8739'_'8739'_338 :: T_ℚ_6 -> T_ℚ_6
+d_'8739'_'8739'_338 v0
   = case coe v0 of
       C_mkℚ_24 v1 v2
         -> coe
@@ -432,8 +433,8 @@ d_'8739'_'8739'_336 v0
              (MAlonzo.Code.Data.Integer.Base.d_'8739'_'8739'_18 (coe v1)) v2
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Data.Rational.Base.floor
-d_floor_344 :: T_ℚ_6 -> Integer
-d_floor_344 v0
+d_floor_346 :: T_ℚ_6 -> Integer
+d_floor_346 v0
   = case coe v0 of
       C_mkℚ_24 v1 v2
         -> coe
@@ -441,105 +442,151 @@ d_floor_344 v0
              (coe d_denominator_22 (coe C_mkℚ_24 v1 v2))
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Data.Rational.Base.ceiling
-d_ceiling_348 :: T_ℚ_6 -> Integer
-d_ceiling_348 v0
+d_ceiling_350 :: T_ℚ_6 -> Integer
+d_ceiling_350 v0
   = case coe v0 of
       C_mkℚ_24 v1 v2
         -> coe
              MAlonzo.Code.Data.Integer.Base.d_'45'__252
-             (coe d_floor_344 (coe d_'45'__112 (coe C_mkℚ_24 v1 v2)))
+             (coe d_floor_346 (coe d_'45'__112 (coe C_mkℚ_24 v1 v2)))
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Data.Rational.Base.truncate
-d_truncate_352 :: T_ℚ_6 -> Integer
-d_truncate_352 v0
-  = let v1 = d__'8804''7495'__106 (coe v0) (coe d_0ℚ_178) in
+d_truncate_354 :: T_ℚ_6 -> Integer
+d_truncate_354 v0
+  = let v1
+          = MAlonzo.Code.Data.Integer.Base.d__'8804''7495'__110
+              (coe
+                 MAlonzo.Code.Data.Integer.Base.d__'9667'__230
+                 (coe
+                    MAlonzo.Code.Data.Sign.Base.d__'42'__14
+                    (coe
+                       MAlonzo.Code.Data.Integer.Base.d_sign_24
+                       (coe d_numerator_14 (coe v0)))
+                    (coe
+                       MAlonzo.Code.Data.Integer.Base.d_sign_24
+                       (coe d_denominator_22 (coe d_0ℚ_178))))
+                 (coe
+                    mulInt
+                    (coe
+                       MAlonzo.Code.Data.Integer.Base.d_'8739'_'8739'_18
+                       (coe d_numerator_14 (coe v0)))
+                    (coe
+                       MAlonzo.Code.Data.Integer.Base.d_'8739'_'8739'_18
+                       (coe d_denominator_22 (coe d_0ℚ_178)))))
+              (coe
+                 MAlonzo.Code.Data.Integer.Base.d__'42'__308
+                 (coe d_numerator_14 (coe d_0ℚ_178))
+                 (coe d_denominator_22 (coe v0))) in
     coe
       (if coe v1
-         then coe d_ceiling_348 (coe v0)
-         else coe d_floor_344 (coe v0))
+         then coe d_ceiling_350 (coe v0)
+         else coe d_floor_346 (coe v0))
 -- Data.Rational.Base.round
-d_round_364 :: T_ℚ_6 -> Integer
-d_round_364 v0
-  = let v1 = d__'8804''7495'__106 (coe v0) (coe d_0ℚ_178) in
+d_round_366 :: T_ℚ_6 -> Integer
+d_round_366 v0
+  = let v1
+          = MAlonzo.Code.Data.Integer.Base.d__'8804''7495'__110
+              (coe
+                 MAlonzo.Code.Data.Integer.Base.d__'9667'__230
+                 (coe
+                    MAlonzo.Code.Data.Sign.Base.d__'42'__14
+                    (coe
+                       MAlonzo.Code.Data.Integer.Base.d_sign_24
+                       (coe d_numerator_14 (coe v0)))
+                    (coe
+                       MAlonzo.Code.Data.Integer.Base.d_sign_24
+                       (coe d_denominator_22 (coe d_0ℚ_178))))
+                 (coe
+                    mulInt
+                    (coe
+                       MAlonzo.Code.Data.Integer.Base.d_'8739'_'8739'_18
+                       (coe d_numerator_14 (coe v0)))
+                    (coe
+                       MAlonzo.Code.Data.Integer.Base.d_'8739'_'8739'_18
+                       (coe d_denominator_22 (coe d_0ℚ_178)))))
+              (coe
+                 MAlonzo.Code.Data.Integer.Base.d__'42'__308
+                 (coe d_numerator_14 (coe d_0ℚ_178))
+                 (coe d_denominator_22 (coe v0))) in
     coe
       (if coe v1
          then coe
-                d_ceiling_348 (coe d__'45'__280 (coe v0) (coe d_'189'_182))
-         else coe d_floor_344 (coe d__'43'__268 (coe v0) (coe d_'189'_182)))
+                d_ceiling_350 (coe d__'45'__282 (coe v0) (coe d_'189'_182))
+         else coe d_floor_346 (coe d__'43'__270 (coe v0) (coe d_'189'_182)))
 -- Data.Rational.Base.fracPart
-d_fracPart_376 :: T_ℚ_6 -> T_ℚ_6
-d_fracPart_376 v0
+d_fracPart_378 :: T_ℚ_6 -> T_ℚ_6
+d_fracPart_378 v0
   = case coe v0 of
       C_mkℚ_24 v1 v2
         -> coe
-             d_'8739'_'8739'_336
+             d_'8739'_'8739'_338
              (coe
-                d__'45'__280 (coe C_mkℚ_24 v1 v2)
+                d__'45'__282 (coe C_mkℚ_24 v1 v2)
                 (coe
-                   du__'47'__156 (coe d_truncate_352 (coe C_mkℚ_24 v1 v2))
+                   du__'47'__156 (coe d_truncate_354 (coe C_mkℚ_24 v1 v2))
                    (coe (1 :: Integer))))
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Data.Rational.Base.+-rawMagma
-d_'43''45'rawMagma_380 ::
+d_'43''45'rawMagma_382 ::
   MAlonzo.Code.Algebra.Bundles.Raw.T_RawMagma_10
-d_'43''45'rawMagma_380
+d_'43''45'rawMagma_382
   = coe
       MAlonzo.Code.Algebra.Bundles.Raw.C_RawMagma'46'constructor_79
-      d__'43'__268
+      d__'43'__270
 -- Data.Rational.Base.+-0-rawMonoid
-d_'43''45'0'45'rawMonoid_382 ::
+d_'43''45'0'45'rawMonoid_384 ::
   MAlonzo.Code.Algebra.Bundles.Raw.T_RawMonoid_38
-d_'43''45'0'45'rawMonoid_382
+d_'43''45'0'45'rawMonoid_384
   = coe
       MAlonzo.Code.Algebra.Bundles.Raw.C_RawMonoid'46'constructor_477
-      d__'43'__268 d_0ℚ_178
+      d__'43'__270 d_0ℚ_178
 -- Data.Rational.Base.+-0-rawGroup
-d_'43''45'0'45'rawGroup_384 ::
+d_'43''45'0'45'rawGroup_386 ::
   MAlonzo.Code.Algebra.Bundles.Raw.T_RawGroup_70
-d_'43''45'0'45'rawGroup_384
+d_'43''45'0'45'rawGroup_386
   = coe
       MAlonzo.Code.Algebra.Bundles.Raw.C_RawGroup'46'constructor_927
-      d__'43'__268 d_0ℚ_178 d_'45'__112
+      d__'43'__270 d_0ℚ_178 d_'45'__112
 -- Data.Rational.Base.+-*-rawNearSemiring
-d_'43''45''42''45'rawNearSemiring_386 ::
+d_'43''45''42''45'rawNearSemiring_388 ::
   MAlonzo.Code.Algebra.Bundles.Raw.T_RawNearSemiring_108
-d_'43''45''42''45'rawNearSemiring_386
+d_'43''45''42''45'rawNearSemiring_388
   = coe
       MAlonzo.Code.Algebra.Bundles.Raw.C_RawNearSemiring'46'constructor_1429
-      d__'43'__268 d__'42'__274 d_0ℚ_178
+      d__'43'__270 d__'42'__276 d_0ℚ_178
 -- Data.Rational.Base.+-*-rawSemiring
-d_'43''45''42''45'rawSemiring_388 ::
+d_'43''45''42''45'rawSemiring_390 ::
   MAlonzo.Code.Algebra.Bundles.Raw.T_RawSemiring_148
-d_'43''45''42''45'rawSemiring_388
+d_'43''45''42''45'rawSemiring_390
   = coe
       MAlonzo.Code.Algebra.Bundles.Raw.C_RawSemiring'46'constructor_2033
-      d__'43'__268 d__'42'__274 d_0ℚ_178 d_1ℚ_180
+      d__'43'__270 d__'42'__276 d_0ℚ_178 d_1ℚ_180
 -- Data.Rational.Base.+-*-rawRing
-d_'43''45''42''45'rawRing_390 ::
+d_'43''45''42''45'rawRing_392 ::
   MAlonzo.Code.Algebra.Bundles.Raw.T_RawRing_242
-d_'43''45''42''45'rawRing_390
+d_'43''45''42''45'rawRing_392
   = coe
       MAlonzo.Code.Algebra.Bundles.Raw.C_RawRing'46'constructor_3477
-      d__'43'__268 d__'42'__274 d_'45'__112 d_0ℚ_178 d_1ℚ_180
+      d__'43'__270 d__'42'__276 d_'45'__112 d_0ℚ_178 d_1ℚ_180
 -- Data.Rational.Base.*-rawMagma
-d_'42''45'rawMagma_392 ::
+d_'42''45'rawMagma_394 ::
   MAlonzo.Code.Algebra.Bundles.Raw.T_RawMagma_10
-d_'42''45'rawMagma_392
+d_'42''45'rawMagma_394
   = coe
       MAlonzo.Code.Algebra.Bundles.Raw.C_RawMagma'46'constructor_79
-      d__'42'__274
+      d__'42'__276
 -- Data.Rational.Base.*-1-rawMonoid
-d_'42''45'1'45'rawMonoid_394 ::
+d_'42''45'1'45'rawMonoid_396 ::
   MAlonzo.Code.Algebra.Bundles.Raw.T_RawMonoid_38
-d_'42''45'1'45'rawMonoid_394
+d_'42''45'1'45'rawMonoid_396
   = coe
       MAlonzo.Code.Algebra.Bundles.Raw.C_RawMonoid'46'constructor_477
-      d__'42'__274 d_1ℚ_180
+      d__'42'__276 d_1ℚ_180
 -- Data.Rational.Base.+-rawMonoid
-d_'43''45'rawMonoid_396 ::
+d_'43''45'rawMonoid_398 ::
   MAlonzo.Code.Algebra.Bundles.Raw.T_RawMonoid_38
-d_'43''45'rawMonoid_396 = coe d_'43''45'0'45'rawMonoid_382
+d_'43''45'rawMonoid_398 = coe d_'43''45'0'45'rawMonoid_384
 -- Data.Rational.Base.*-rawMonoid
-d_'42''45'rawMonoid_398 ::
+d_'42''45'rawMonoid_400 ::
   MAlonzo.Code.Algebra.Bundles.Raw.T_RawMonoid_38
-d_'42''45'rawMonoid_398 = coe d_'42''45'1'45'rawMonoid_394
+d_'42''45'rawMonoid_400 = coe d_'42''45'1'45'rawMonoid_396

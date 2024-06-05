@@ -67,7 +67,7 @@ du_applyReductionOptions_24 ::
   MAlonzo.Code.Class.MonadTC.T_TCEnv_32 -> AgdaAny
 du_applyReductionOptions_24 v0 v1 v2
   = case coe v2 of
-      MAlonzo.Code.Class.MonadTC.C_TCEnv'46'constructor_309 v3 v4 v5 v6 v7 v8 v9 v10
+      MAlonzo.Code.Class.MonadTC.C_TCEnv'46'constructor_243 v3 v4 v5 v6 v7 v8 v9 v10
         -> case coe v6 of
              MAlonzo.Code.Class.MonadTC.C_onlyReduce_14 v11
                -> coe
@@ -99,7 +99,7 @@ du_applyNormalisation_38 ::
   MAlonzo.Code.Class.MonadTC.T_TCEnv_32 -> AgdaAny
 du_applyNormalisation_38 v0 v1 v2
   = case coe v2 of
-      MAlonzo.Code.Class.MonadTC.C_TCEnv'46'constructor_309 v3 v4 v5 v6 v7 v8 v9 v10
+      MAlonzo.Code.Class.MonadTC.C_TCEnv'46'constructor_243 v3 v4 v5 v6 v7 v8 v9 v10
         -> coe
              MAlonzo.Code.Agda.Builtin.Reflection.d_withNormalisation_424 v0
              erased v3
@@ -119,7 +119,7 @@ du_applyReconstruction_46 ::
   MAlonzo.Code.Class.MonadTC.T_TCEnv_32 -> AgdaAny
 du_applyReconstruction_46 v0 v1 v2
   = case coe v2 of
-      MAlonzo.Code.Class.MonadTC.C_TCEnv'46'constructor_309 v3 v4 v5 v6 v7 v8 v9 v10
+      MAlonzo.Code.Class.MonadTC.C_TCEnv'46'constructor_243 v3 v4 v5 v6 v7 v8 v9 v10
         -> if coe v4
              then coe
                     MAlonzo.Code.Agda.Builtin.Reflection.d_withReconstructed_432 v0
@@ -140,7 +140,7 @@ du_applyNoConstraints_56 ::
   MAlonzo.Code.Class.MonadTC.T_TCEnv_32 -> AgdaAny
 du_applyNoConstraints_56 v0 v1 v2
   = case coe v2 of
-      MAlonzo.Code.Class.MonadTC.C_TCEnv'46'constructor_309 v3 v4 v5 v6 v7 v8 v9 v10
+      MAlonzo.Code.Class.MonadTC.C_TCEnv'46'constructor_243 v3 v4 v5 v6 v7 v8 v9 v10
         -> if coe v5
              then coe
                     MAlonzo.Code.Agda.Builtin.Reflection.d_noConstraints_464 v0 erased
@@ -478,7 +478,7 @@ d_getInstances_154
 d_MonadTC'45'TCI_156 :: MAlonzo.Code.Class.MonadTC.T_MonadTC_88
 d_MonadTC'45'TCI_156
   = coe
-      MAlonzo.Code.Class.MonadTC.C_MonadTC'46'constructor_5687
+      MAlonzo.Code.Class.MonadTC.C_MonadTC'46'constructor_5599
       (coe d_unify_108) (\ v0 v1 -> coe du_typeError_110 v0)
       (coe d_inferType_112) (coe d_checkType_114) (coe d_normalise_116)
       (coe d_reduce_118) (\ v0 v1 v2 -> coe du_quoteTC_120 v0 v2)

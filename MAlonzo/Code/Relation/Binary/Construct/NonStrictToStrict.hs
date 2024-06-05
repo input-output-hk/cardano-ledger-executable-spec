@@ -575,10 +575,10 @@ du_'60''45'decidable_434 ::
   AgdaAny -> MAlonzo.Code.Relation.Nullary.Decidable.Core.T_Dec_20
 du_'60''45'decidable_434 v0 v1 v2 v3
   = coe
-      MAlonzo.Code.Relation.Nullary.Decidable.Core.du__'215''45'dec__68
+      MAlonzo.Code.Relation.Nullary.Decidable.Core.du__'215''45'dec__74
       (coe v1 v2 v3)
       (coe
-         MAlonzo.Code.Relation.Nullary.Decidable.Core.du_'172''63'_62
+         MAlonzo.Code.Relation.Nullary.Decidable.Core.du_'172''63'_68
          (coe v0 v2 v3))
 -- Relation.Binary.Construct.NonStrictToStrict.<-isStrictPartialOrder
 d_'60''45'isStrictPartialOrder_444 ::

@@ -668,7 +668,7 @@ du_'215''45'decidable_210 v0 v1 v2 v3
         -> case coe v3 of
              MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 v6 v7
                -> coe
-                    MAlonzo.Code.Relation.Nullary.Decidable.Core.du__'215''45'dec__68
+                    MAlonzo.Code.Relation.Nullary.Decidable.Core.du__'215''45'dec__74
                     (coe v0 v4 v6) (coe v1 v5 v7)
              _ -> MAlonzo.RTE.mazUnreachableError
       _ -> MAlonzo.RTE.mazUnreachableError

@@ -122,7 +122,7 @@ d_wkVar_60 v0 v1 v2
   = case coe v1 of
       MAlonzo.Code.Reflection.AST.Traversal.C__'44'__54 v3 v4
         -> coe
-             MAlonzo.Code.Data.Bool.Base.du_if_then_else__42
+             MAlonzo.Code.Data.Bool.Base.du_if_then_else__44
              (coe ltInt (coe v2) (coe v3)) (coe v2)
              (coe addInt (coe v0) (coe v2))
       _ -> MAlonzo.RTE.mazUnreachableError

@@ -228,8 +228,8 @@ d_applyUpTo'8314''8321'_162 ::
   Integer ->
   (Integer ->
    Integer ->
-   MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
-   MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
+   MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
+   MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
    MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
    MAlonzo.Code.Data.Irrelevant.T_Irrelevant_20) ->
   MAlonzo.Code.Data.List.Relation.Unary.AllPairs.Core.T_AllPairs_20
@@ -239,8 +239,8 @@ du_applyUpTo'8314''8321'_162 ::
   Integer ->
   (Integer ->
    Integer ->
-   MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
-   MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
+   MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
+   MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
    MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
    MAlonzo.Code.Data.Irrelevant.T_Irrelevant_20) ->
   MAlonzo.Code.Data.List.Relation.Unary.AllPairs.Core.T_AllPairs_20
@@ -284,8 +284,8 @@ d_applyDownFrom'8314''8321'_200 ::
   Integer ->
   (Integer ->
    Integer ->
-   MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
-   MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
+   MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
+   MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
    MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
    MAlonzo.Code.Data.Irrelevant.T_Irrelevant_20) ->
   MAlonzo.Code.Data.List.Relation.Unary.AllPairs.Core.T_AllPairs_20
@@ -296,8 +296,8 @@ du_applyDownFrom'8314''8321'_200 ::
   Integer ->
   (Integer ->
    Integer ->
-   MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
-   MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
+   MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
+   MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
    MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
    MAlonzo.Code.Data.Irrelevant.T_Irrelevant_20) ->
   MAlonzo.Code.Data.List.Relation.Unary.AllPairs.Core.T_AllPairs_20

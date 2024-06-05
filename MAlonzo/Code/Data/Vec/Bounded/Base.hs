@@ -20,6 +20,7 @@ import qualified Data.Text
 import qualified MAlonzo.Code.Agda.Builtin.Equality
 import qualified MAlonzo.Code.Agda.Builtin.Sigma
 import qualified MAlonzo.Code.Agda.Primitive
+import qualified MAlonzo.Code.Algebra.Definitions.RawMagma
 import qualified MAlonzo.Code.Data.List.Base
 import qualified MAlonzo.Code.Data.List.Extrema
 import qualified MAlonzo.Code.Data.List.Membership.Setoid
@@ -37,7 +38,7 @@ d_max_50 :: Integer -> [Integer] -> Integer
 d_max_50
   = coe
       MAlonzo.Code.Data.List.Extrema.du_max_142
-      (coe MAlonzo.Code.Data.Nat.Properties.d_'8804''45'totalOrder_2688)
+      (coe MAlonzo.Code.Data.Nat.Properties.d_'8804''45'totalOrder_2696)
 -- Data.Vec.Bounded.Base._.xs≤max
 d_xs'8804'max_98 ::
   Integer ->
@@ -45,7 +46,7 @@ d_xs'8804'max_98 ::
 d_xs'8804'max_98
   = coe
       MAlonzo.Code.Data.List.Extrema.du_xs'8804'max_720
-      (coe MAlonzo.Code.Data.Nat.Properties.d_'8804''45'totalOrder_2688)
+      (coe MAlonzo.Code.Data.Nat.Properties.d_'8804''45'totalOrder_2696)
 -- Data.Vec.Bounded.Base.Vec≤
 d_Vec'8804'_122 a0 a1 a2 = ()
 data T_Vec'8804'_122
@@ -88,14 +89,14 @@ du_padRight_150 v0 v1 v2
                  = coe
                      MAlonzo.Code.Relation.Nullary.Decidable.Core.du_recompute_54
                      (coe
-                        MAlonzo.Code.Data.Nat.Properties.d__'8804''8243''63'__6048 (coe v3)
+                        MAlonzo.Code.Data.Nat.Properties.d__'8804''8243''63'__6106 (coe v3)
                         (coe v0)) in
            coe
              (case coe v6 of
-                MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 v7 v8
+                MAlonzo.Code.Algebra.Definitions.RawMagma.C__'44'__40 v7 v8
                   -> coe
                        MAlonzo.Code.Data.Vec.Base.du__'43''43'__188 (coe v4)
-                       (coe MAlonzo.Code.Data.Vec.Base.du_replicate_444 (coe v7) (coe v1))
+                       (coe MAlonzo.Code.Data.Vec.Base.du_replicate_460 (coe v7) (coe v1))
                 _ -> MAlonzo.RTE.mazUnreachableError)
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Data.Vec.Bounded.Base.padLeft
@@ -115,25 +116,17 @@ du_padLeft_170 v0 v1 v2
                  = coe
                      MAlonzo.Code.Relation.Nullary.Decidable.Core.du_recompute_54
                      (coe
-                        MAlonzo.Code.Data.Nat.Properties.d__'8804''8243''63'__6048 (coe v3)
+                        MAlonzo.Code.Data.Nat.Properties.d__'8804''8243''63'__6106 (coe v3)
                         (coe v0)) in
            coe
              (case coe v6 of
-                MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 v7 v8
+                MAlonzo.Code.Algebra.Definitions.RawMagma.C__'44'__40 v7 v8
                   -> coe
                        MAlonzo.Code.Data.Vec.Base.du__'43''43'__188
-                       (coe MAlonzo.Code.Data.Vec.Base.du_replicate_444 (coe v7) (coe v1))
+                       (coe MAlonzo.Code.Data.Vec.Base.du_replicate_460 (coe v7) (coe v1))
                        (coe v4)
                 _ -> MAlonzo.RTE.mazUnreachableError)
       _ -> MAlonzo.RTE.mazUnreachableError
--- Data.Vec.Bounded.Base.split
-d_split_218 ::
-  Integer ->
-  Integer ->
-  Integer ->
-  MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
-  MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_split_218 = erased
 -- Data.Vec.Bounded.Base.padBoth
 d_padBoth_238 ::
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
@@ -153,22 +146,22 @@ du_padBoth_238 v0 v1 v2 v3
                  = coe
                      MAlonzo.Code.Relation.Nullary.Decidable.Core.du_recompute_54
                      (coe
-                        MAlonzo.Code.Data.Nat.Properties.d__'8804''8243''63'__6048 (coe v4)
+                        MAlonzo.Code.Data.Nat.Properties.d__'8804''8243''63'__6106 (coe v4)
                         (coe v0)) in
            coe
              (case coe v7 of
-                MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 v8 v9
+                MAlonzo.Code.Algebra.Definitions.RawMagma.C__'44'__40 v8 v9
                   -> coe
                        MAlonzo.Code.Data.Vec.Base.du__'43''43'__188
                        (coe
-                          MAlonzo.Code.Data.Vec.Base.du_replicate_444
-                          (coe MAlonzo.Code.Data.Nat.Base.d_'8970'_'47'2'8971'_226 (coe v8))
+                          MAlonzo.Code.Data.Vec.Base.du_replicate_460
+                          (coe MAlonzo.Code.Data.Nat.Base.d_'8970'_'47'2'8971'_264 (coe v8))
                           (coe v1))
                        (coe
                           MAlonzo.Code.Data.Vec.Base.du__'43''43'__188 (coe v5)
                           (coe
-                             MAlonzo.Code.Data.Vec.Base.du_replicate_444
-                             (coe MAlonzo.Code.Data.Nat.Base.d_'8968'_'47'2'8969'_230 (coe v8))
+                             MAlonzo.Code.Data.Vec.Base.du_replicate_460
+                             (coe MAlonzo.Code.Data.Nat.Base.d_'8968'_'47'2'8969'_268 (coe v8))
                              (coe v2)))
                 _ -> MAlonzo.RTE.mazUnreachableError)
       _ -> MAlonzo.RTE.mazUnreachableError
@@ -181,7 +174,7 @@ du_fromList_288 :: [AgdaAny] -> T_Vec'8804'_122
 du_fromList_288 v0
   = coe
       du_fromVec_144 (coe MAlonzo.Code.Data.List.Base.du_length_304 v0)
-      (coe MAlonzo.Code.Data.Vec.Base.du_fromList_600 (coe v0))
+      (coe MAlonzo.Code.Data.Vec.Base.du_fromList_616 (coe v0))
 -- Data.Vec.Bounded.Base.toList
 d_toList_292 ::
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
@@ -190,21 +183,21 @@ d_toList_292 ~v0 ~v1 ~v2 v3 = du_toList_292 v3
 du_toList_292 :: T_Vec'8804'_122 -> [AgdaAny]
 du_toList_292 v0
   = coe
-      MAlonzo.Code.Data.Vec.Base.du_toList_592 (coe d_vec_136 (coe v0))
+      MAlonzo.Code.Data.Vec.Base.du_toList_608 (coe d_vec_136 (coe v0))
 -- Data.Vec.Bounded.Base.replicate
 d_replicate_300 ::
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   Integer ->
   Integer ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
   AgdaAny -> T_Vec'8804'_122
 d_replicate_300 ~v0 ~v1 v2 ~v3 ~v4 v5 = du_replicate_300 v2 v5
 du_replicate_300 :: Integer -> AgdaAny -> T_Vec'8804'_122
 du_replicate_300 v0 v1
   = coe
       C__'44'__140 v0
-      (coe MAlonzo.Code.Data.Vec.Base.du_replicate_444 (coe v0) (coe v1))
+      (coe MAlonzo.Code.Data.Vec.Base.du_replicate_460 (coe v0) (coe v1))
 -- Data.Vec.Bounded.Base.[]
 d_'91''93'_308 ::
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
@@ -234,7 +227,7 @@ d_'8804''45'cast_326 ::
   () ->
   Integer ->
   Integer ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
   T_Vec'8804'_122 -> T_Vec'8804'_122
 d_'8804''45'cast_326 ~v0 ~v1 ~v2 ~v3 ~v4 v5
   = du_'8804''45'cast_326 v5
@@ -280,7 +273,7 @@ du_reverse_356 v0
   = case coe v0 of
       C__'44'__140 v1 v2
         -> coe
-             C__'44'__140 v1 (coe MAlonzo.Code.Data.Vec.Base.du_reverse_616 v2)
+             C__'44'__140 v1 (coe MAlonzo.Code.Data.Vec.Base.du_reverse_632 v2)
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Data.Vec.Bounded.Base.alignWith
 d_alignWith_364 ::
@@ -304,7 +297,7 @@ du_alignWith_364 v0 v1 v2
              C__'44'__140 v6 v7
                -> coe
                     C__'44'__140
-                    (MAlonzo.Code.Data.Nat.Base.d__'8852'__166 (coe v3) (coe v6))
+                    (MAlonzo.Code.Data.Nat.Base.d__'8852'__204 (coe v3) (coe v6))
                     (coe
                        MAlonzo.Code.Data.Vec.Base.du_alignWith_204 (coe v0) (coe v4)
                        (coe v7))
@@ -332,7 +325,7 @@ du_zipWith_378 v0 v1 v2
              C__'44'__140 v6 v7
                -> coe
                     C__'44'__140
-                    (MAlonzo.Code.Data.Nat.Base.d__'8851'__194 (coe v3) (coe v6))
+                    (MAlonzo.Code.Data.Nat.Base.d__'8851'__232 (coe v3) (coe v6))
                     (coe
                        MAlonzo.Code.Data.Vec.Base.du_restrictWith_224 (coe v0) (coe v4)
                        (coe v7))
@@ -439,7 +432,7 @@ du_width_452 :: [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] -> Integer
 du_width_452 v0
   = coe
       MAlonzo.Code.Data.List.Extrema.du_max_142
-      MAlonzo.Code.Data.Nat.Properties.d_'8804''45'totalOrder_2688
+      MAlonzo.Code.Data.Nat.Properties.d_'8804''45'totalOrder_2696
       (0 :: Integer) (coe du_sizes_450 (coe v0))
 -- Data.Vec.Bounded.Base._.all≤
 d_all'8804'_456 ::
@@ -457,7 +450,7 @@ du_all'8804'_456 v0
       (coe v0)
       (coe
          MAlonzo.Code.Data.List.Extrema.du_xs'8804'max_720
-         MAlonzo.Code.Data.Nat.Properties.d_'8804''45'totalOrder_2688
+         MAlonzo.Code.Data.Nat.Properties.d_'8804''45'totalOrder_2696
          (0 :: Integer) (coe du_sizes_450 (coe v0)))
 -- Data.Vec.Bounded.Base._.padded
 d_padded_458 ::

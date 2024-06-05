@@ -22,7 +22,6 @@ import qualified MAlonzo.Code.Agda.Builtin.Unit
 import qualified MAlonzo.Code.Agda.Primitive
 import qualified MAlonzo.Code.Class.DecEq.Core
 import qualified MAlonzo.Code.Class.Decidable.Core
-import qualified MAlonzo.Code.Data.Bool.Properties
 import qualified MAlonzo.Code.Data.Integer.Properties
 import qualified MAlonzo.Code.Data.List.Relation.Unary.All
 import qualified MAlonzo.Code.Data.List.Relation.Unary.AllPairs
@@ -97,7 +96,7 @@ du_Dec'45''8594'_22 v0 v1
   = coe
       MAlonzo.Code.Class.Decidable.Core.C_'8263'__30
       (coe
-         MAlonzo.Code.Relation.Nullary.Decidable.Core.du__'8594''45'dec__88
+         MAlonzo.Code.Relation.Nullary.Decidable.Core.du__'8594''45'dec__94
          (coe MAlonzo.Code.Class.Decidable.Core.d_dec_16 (coe v0))
          (coe MAlonzo.Code.Class.Decidable.Core.d_dec_16 (coe v1)))
 -- Class.Decidable.Instances.Dec-×
@@ -118,7 +117,7 @@ du_Dec'45''215'_24 v0 v1
   = coe
       MAlonzo.Code.Class.Decidable.Core.C_'8263'__30
       (coe
-         MAlonzo.Code.Relation.Nullary.Decidable.Core.du__'215''45'dec__68
+         MAlonzo.Code.Relation.Nullary.Decidable.Core.du__'215''45'dec__74
          (coe MAlonzo.Code.Class.Decidable.Core.d_dec_16 (coe v0))
          (coe MAlonzo.Code.Class.Decidable.Core.d_dec_16 (coe v1)))
 -- Class.Decidable.Instances.Dec-⊎
@@ -140,7 +139,7 @@ du_Dec'45''8846'_26 v0 v1
   = coe
       MAlonzo.Code.Class.Decidable.Core.C_'8263'__30
       (coe
-         MAlonzo.Code.Relation.Nullary.Decidable.Core.du__'8846''45'dec__78
+         MAlonzo.Code.Relation.Nullary.Decidable.Core.du__'8846''45'dec__84
          (coe MAlonzo.Code.Class.Decidable.Core.d_dec_16 (coe v0))
          (coe MAlonzo.Code.Class.Decidable.Core.d_dec_16 (coe v1)))
 -- Class.Decidable.Instances.Dec-⊎All
@@ -170,13 +169,13 @@ du_Dec'45''8846'All_28 v0 v1 v2
       (case coe v2 of
          MAlonzo.Code.Data.Sum.Base.C_inj'8321'_38 v3
            -> coe
-                MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_144
+                MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_150
                 (coe MAlonzo.Code.Data.Sum.Relation.Unary.All.C_inj'8321'_56)
                 (coe
                    MAlonzo.Code.Class.Decidable.Core.du_'191'_'191'_42 (coe v0 v3))
          MAlonzo.Code.Data.Sum.Base.C_inj'8322'_42 v3
            -> coe
-                MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_144
+                MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_150
                 (coe MAlonzo.Code.Data.Sum.Relation.Unary.All.C_inj'8322'_60)
                 (coe
                    MAlonzo.Code.Class.Decidable.Core.du_'191'_'191'_42 (coe v1 v3))
@@ -236,7 +235,8 @@ d_Dec'45'T_58 ::
 d_Dec'45'T_58 v0
   = coe
       MAlonzo.Code.Class.Decidable.Core.du_'8263''185'__110
-      (coe MAlonzo.Code.Data.Bool.Properties.d_T'63'_3690) (coe v0)
+      (coe MAlonzo.Code.Relation.Nullary.Decidable.Core.d_T'63'_64)
+      (coe v0)
 -- Class.Decidable.Instances.Dec-All
 d_Dec'45'All_60 ::
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
@@ -388,7 +388,7 @@ d_ℕ'45'Dec'45''8804'_74 ::
 d_ℕ'45'Dec'45''8804'_74
   = coe
       MAlonzo.Code.Class.Decidable.Core.du_'8263''178'__138
-      (coe MAlonzo.Code.Data.Nat.Properties.d__'8804''63'__2664)
+      (coe MAlonzo.Code.Data.Nat.Properties.d__'8804''63'__2672)
 -- Class.Decidable.Instances.ℕ-Dec-<
 d_ℕ'45'Dec'45''60'_76 ::
   Integer ->
@@ -396,7 +396,7 @@ d_ℕ'45'Dec'45''60'_76 ::
 d_ℕ'45'Dec'45''60'_76
   = coe
       MAlonzo.Code.Class.Decidable.Core.du_'8263''178'__138
-      (coe MAlonzo.Code.Data.Nat.Properties.d__'60''63'__2892)
+      (coe MAlonzo.Code.Data.Nat.Properties.d__'60''63'__2900)
 -- Class.Decidable.Instances.ℤ-Dec-≤
 d_ℤ'45'Dec'45''8804'_78 ::
   Integer ->
@@ -404,7 +404,7 @@ d_ℤ'45'Dec'45''8804'_78 ::
 d_ℤ'45'Dec'45''8804'_78
   = coe
       MAlonzo.Code.Class.Decidable.Core.du_'8263''178'__138
-      (coe MAlonzo.Code.Data.Integer.Properties.d__'8804''63'__2638)
+      (coe MAlonzo.Code.Data.Integer.Properties.d__'8804''63'__2642)
 -- Class.Decidable.Instances.ℤ-Dec-<
 d_ℤ'45'Dec'45''60'_80 ::
   Integer ->
@@ -412,4 +412,4 @@ d_ℤ'45'Dec'45''60'_80 ::
 d_ℤ'45'Dec'45''60'_80
   = coe
       MAlonzo.Code.Class.Decidable.Core.du_'8263''178'__138
-      (coe MAlonzo.Code.Data.Integer.Properties.d__'60''63'__2948)
+      (coe MAlonzo.Code.Data.Integer.Properties.d__'60''63'__2952)

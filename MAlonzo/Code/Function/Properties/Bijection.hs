@@ -260,7 +260,7 @@ du_Bijection'8658'Equivalence_124 ::
   MAlonzo.Code.Function.Bundles.T_Equivalence_1714
 du_Bijection'8658'Equivalence_124 v0 v1 v2
   = coe
-      MAlonzo.Code.Function.Properties.Inverse.du_Inverse'8658'Equivalence_478
+      MAlonzo.Code.Function.Properties.Inverse.du_Inverse'8658'Equivalence_552
       (coe du_Bijection'8658'Inverse_36 (coe v0) (coe v1) (coe v2))
 -- Function.Properties.Bijection.⤖⇒↔
 d_'10518''8658''8596'_126 ::

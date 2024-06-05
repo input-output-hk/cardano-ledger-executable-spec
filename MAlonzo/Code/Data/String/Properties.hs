@@ -159,7 +159,7 @@ d__'8799'__54 ::
   MAlonzo.Code.Relation.Nullary.Decidable.Core.T_Dec_20
 d__'8799'__54 v0 v1
   = coe
-      MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_144
+      MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_150
       erased (coe d__'8776''63'__28 (coe v0) (coe v1))
 -- Data.String.Properties.≡-setoid
 d_'8801''45'setoid_60 ::
@@ -280,5 +280,5 @@ d__'61''61'__86 ::
   MAlonzo.Code.Agda.Builtin.String.T_String_6 -> Bool
 d__'61''61'__86 v0 v1
   = coe
-      MAlonzo.Code.Relation.Nullary.Decidable.Core.du_isYes_98
+      MAlonzo.Code.Relation.Nullary.Decidable.Core.du_isYes_104
       (coe d__'8799'__54 (coe v0) (coe v1))

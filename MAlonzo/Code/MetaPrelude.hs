@@ -41,7 +41,7 @@ du_lookup'7495'_6 v0 v1 v2
         -> case coe v3 of
              MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 v5 v6
                -> coe
-                    MAlonzo.Code.Data.Bool.Base.du_if_then_else__42 (coe v0 v5 v2)
+                    MAlonzo.Code.Data.Bool.Base.du_if_then_else__44 (coe v0 v5 v2)
                     (coe MAlonzo.Code.Agda.Builtin.Maybe.C_just_16 (coe v6))
                     (coe du_lookup'7495'_6 (coe v0) (coe v4) (coe v2))
              _ -> MAlonzo.RTE.mazUnreachableError

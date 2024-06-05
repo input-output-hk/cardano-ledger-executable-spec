@@ -23,6 +23,7 @@ import qualified MAlonzo.Code.Class.Decidable.Core
 import qualified MAlonzo.Code.Data.Irrelevant
 import qualified MAlonzo.Code.Data.Sum.Base
 import qualified MAlonzo.Code.Interface.HasEmptySet
+import qualified MAlonzo.Code.Interface.HasEmptySet.Instances
 import qualified MAlonzo.Code.Interface.HasSingleton
 import qualified MAlonzo.Code.Ledger.Set.Theory
 import qualified MAlonzo.Code.Relation.Nullary.Decidable.Core
@@ -32,82 +33,70 @@ import qualified MAlonzo.Code.Relation.Nullary.Reflects
 d_HasSingleton_6 a0 a1 = ()
 -- Ledger.Prelude._.HasSingletonSet-Map
 d_HasSingletonSet'45'Map_8 ::
-  () -> () -> MAlonzo.Code.Interface.HasSingleton.T_HasSingleton_286
+  () -> () -> MAlonzo.Code.Interface.HasSingleton.T_HasSingleton_292
 d_HasSingletonSet'45'Map_8 v0 v1
   = coe
-      MAlonzo.Code.Interface.HasSingleton.du_HasSingletonSet'45'Map_304
+      MAlonzo.Code.Interface.HasSingleton.du_HasSingletonSet'45'Map_310
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430
          (coe MAlonzo.Code.Ledger.Set.Theory.d_List'45'Model'7496'_10))
 -- Ledger.Prelude._.HasSingletonSet-Set
 d_HasSingletonSet'45'Set_10 ::
-  () -> MAlonzo.Code.Interface.HasSingleton.T_HasSingleton_286
+  () -> MAlonzo.Code.Interface.HasSingleton.T_HasSingleton_292
 d_HasSingletonSet'45'Set_10 v0
   = coe
-      MAlonzo.Code.Interface.HasSingleton.du_HasSingletonSet'45'Set_298
+      MAlonzo.Code.Interface.HasSingleton.du_HasSingletonSet'45'Set_304
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430
          (coe MAlonzo.Code.Ledger.Set.Theory.d_List'45'Model'7496'_10))
 -- Ledger.Prelude._.❴_❵
 d_'10100'_'10101'_12 ::
-  MAlonzo.Code.Interface.HasSingleton.T_HasSingleton_286 ->
+  MAlonzo.Code.Interface.HasSingleton.T_HasSingleton_292 ->
   AgdaAny -> AgdaAny
 d_'10100'_'10101'_12 v0
   = coe
-      MAlonzo.Code.Interface.HasSingleton.d_'10100'_'10101'_294 (coe v0)
+      MAlonzo.Code.Interface.HasSingleton.d_'10100'_'10101'_300 (coe v0)
 -- Ledger.Prelude._.HasSingleton.❴_❵
 d_'10100'_'10101'_16 ::
-  MAlonzo.Code.Interface.HasSingleton.T_HasSingleton_286 ->
+  MAlonzo.Code.Interface.HasSingleton.T_HasSingleton_292 ->
   AgdaAny -> AgdaAny
 d_'10100'_'10101'_16 v0
   = coe
-      MAlonzo.Code.Interface.HasSingleton.d_'10100'_'10101'_294 (coe v0)
--- Ledger.Prelude._.HasEmptySet
-d_HasEmptySet_20 a0 = ()
+      MAlonzo.Code.Interface.HasSingleton.d_'10100'_'10101'_300 (coe v0)
 -- Ledger.Prelude._.HasEmptySet-Map
-d_HasEmptySet'45'Map_22 ::
-  () -> () -> MAlonzo.Code.Interface.HasEmptySet.T_HasEmptySet_284
-d_HasEmptySet'45'Map_22 v0 v1
+d_HasEmptySet'45'Map_20 ::
+  () -> () -> MAlonzo.Code.Interface.HasEmptySet.T_HasEmptySet_6
+d_HasEmptySet'45'Map_20 v0 v1
   = coe
-      MAlonzo.Code.Interface.HasEmptySet.du_HasEmptySet'45'Map_300
+      MAlonzo.Code.Interface.HasEmptySet.Instances.du_HasEmptySet'45'Map_298
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430
          (coe MAlonzo.Code.Ledger.Set.Theory.d_List'45'Model'7496'_10))
 -- Ledger.Prelude._.HasEmptySet-Set
-d_HasEmptySet'45'Set_24 ::
-  () -> MAlonzo.Code.Interface.HasEmptySet.T_HasEmptySet_284
-d_HasEmptySet'45'Set_24 v0
+d_HasEmptySet'45'Set_22 ::
+  () -> MAlonzo.Code.Interface.HasEmptySet.T_HasEmptySet_6
+d_HasEmptySet'45'Set_22 v0
   = coe
-      MAlonzo.Code.Interface.HasEmptySet.du_HasEmptySet'45'Set_294
+      MAlonzo.Code.Interface.HasEmptySet.Instances.du_HasEmptySet'45'Set_292
       (coe
          MAlonzo.Code.Axiom.Set.d_th_1430
          (coe MAlonzo.Code.Ledger.Set.Theory.d_List'45'Model'7496'_10))
--- Ledger.Prelude._.∅
-d_'8709'_26 ::
-  MAlonzo.Code.Interface.HasEmptySet.T_HasEmptySet_284 -> AgdaAny
-d_'8709'_26 v0
-  = coe MAlonzo.Code.Interface.HasEmptySet.d_'8709'_290 (coe v0)
--- Ledger.Prelude._.HasEmptySet.∅
-d_'8709'_30 ::
-  MAlonzo.Code.Interface.HasEmptySet.T_HasEmptySet_284 -> AgdaAny
-d_'8709'_30 v0
-  = coe MAlonzo.Code.Interface.HasEmptySet.d_'8709'_290 (coe v0)
 -- Ledger.Prelude.dec-de-morgan
-d_dec'45'de'45'morgan_36 ::
+d_dec'45'de'45'morgan_28 ::
   () ->
   () ->
   MAlonzo.Code.Class.Decidable.Core.T__'8263'_10 ->
   (MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
    MAlonzo.Code.Data.Irrelevant.T_Irrelevant_20) ->
   MAlonzo.Code.Data.Sum.Base.T__'8846'__30
-d_dec'45'de'45'morgan_36 ~v0 ~v1 v2 v3
-  = du_dec'45'de'45'morgan_36 v2 v3
-du_dec'45'de'45'morgan_36 ::
+d_dec'45'de'45'morgan_28 ~v0 ~v1 v2 v3
+  = du_dec'45'de'45'morgan_28 v2 v3
+du_dec'45'de'45'morgan_28 ::
   MAlonzo.Code.Class.Decidable.Core.T__'8263'_10 ->
   (MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
    MAlonzo.Code.Data.Irrelevant.T_Irrelevant_20) ->
   MAlonzo.Code.Data.Sum.Base.T__'8846'__30
-du_dec'45'de'45'morgan_36 v0 v1
+du_dec'45'de'45'morgan_28 v0 v1
   = case coe v0 of
       MAlonzo.Code.Class.Decidable.Core.C_'8263'__30 v2
         -> case coe v2 of

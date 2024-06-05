@@ -21,7 +21,7 @@ import qualified MAlonzo.Code.Agda.Builtin.Sigma
 import qualified MAlonzo.Code.Class.DecEq.Core
 import qualified MAlonzo.Code.Data.Sum.Base
 import qualified MAlonzo.Code.Ledger.Address
-import qualified MAlonzo.Code.Ledger.Deleg
+import qualified MAlonzo.Code.Ledger.Certs
 import qualified MAlonzo.Code.Ledger.GovernanceActions
 import qualified MAlonzo.Code.Ledger.Transaction
 import qualified MAlonzo.Code.Ledger.Types.GovStructure
@@ -83,8 +83,8 @@ d_Wdrl_404 = erased
 -- Ledger.Abstract.indexOf
 d_indexOf_1370 a0 = ()
 data T_indexOf_1370
-  = C_indexOf'46'constructor_2381 (MAlonzo.Code.Ledger.Deleg.T_DCert_634 ->
-                                   [MAlonzo.Code.Ledger.Deleg.T_DCert_634] -> Maybe AgdaAny)
+  = C_indexOf'46'constructor_2381 (MAlonzo.Code.Ledger.Certs.T_DCert_636 ->
+                                   [MAlonzo.Code.Ledger.Certs.T_DCert_636] -> Maybe AgdaAny)
                                   (MAlonzo.Code.Ledger.Address.T_RwdAddr_58 ->
                                    MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 -> Maybe AgdaAny)
                                   (MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
@@ -98,8 +98,8 @@ data T_indexOf_1370
 -- Ledger.Abstract.indexOf.indexOfDCert
 d_indexOfDCert_1384 ::
   T_indexOf_1370 ->
-  MAlonzo.Code.Ledger.Deleg.T_DCert_634 ->
-  [MAlonzo.Code.Ledger.Deleg.T_DCert_634] -> Maybe AgdaAny
+  MAlonzo.Code.Ledger.Certs.T_DCert_636 ->
+  [MAlonzo.Code.Ledger.Certs.T_DCert_636] -> Maybe AgdaAny
 d_indexOfDCert_1384 v0
   = case coe v0 of
       C_indexOf'46'constructor_2381 v1 v2 v3 v4 v5 v6 -> coe v1
@@ -151,7 +151,7 @@ d_indexOfProposal_1394 v0
 -- Ledger.Abstract.AbstractFunctions
 d_AbstractFunctions_1396 a0 = ()
 data T_AbstractFunctions_1396
-  = C_AbstractFunctions'46'constructor_2669 (AgdaAny ->
+  = C_AbstractFunctions'46'constructor_2643 (AgdaAny ->
                                              AgdaAny -> Integer)
                                             (AgdaAny -> Integer) T_indexOf_1370
                                             (AgdaAny -> AgdaAny -> AgdaAny -> [AgdaAny] -> Bool)
@@ -161,19 +161,19 @@ d_txscriptfee_1408 ::
   T_AbstractFunctions_1396 -> AgdaAny -> AgdaAny -> Integer
 d_txscriptfee_1408 v0
   = case coe v0 of
-      C_AbstractFunctions'46'constructor_2669 v1 v2 v3 v4 v5 -> coe v1
+      C_AbstractFunctions'46'constructor_2643 v1 v2 v3 v4 v5 -> coe v1
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Ledger.Abstract.AbstractFunctions.serSize
 d_serSize_1410 :: T_AbstractFunctions_1396 -> AgdaAny -> Integer
 d_serSize_1410 v0
   = case coe v0 of
-      C_AbstractFunctions'46'constructor_2669 v1 v2 v3 v4 v5 -> coe v2
+      C_AbstractFunctions'46'constructor_2643 v1 v2 v3 v4 v5 -> coe v2
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Ledger.Abstract.AbstractFunctions.indexOfImp
 d_indexOfImp_1412 :: T_AbstractFunctions_1396 -> T_indexOf_1370
 d_indexOfImp_1412 v0
   = case coe v0 of
-      C_AbstractFunctions'46'constructor_2669 v1 v2 v3 v4 v5 -> coe v3
+      C_AbstractFunctions'46'constructor_2643 v1 v2 v3 v4 v5 -> coe v3
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Ledger.Abstract.AbstractFunctions.runPLCScript
 d_runPLCScript_1414 ::
@@ -181,7 +181,7 @@ d_runPLCScript_1414 ::
   AgdaAny -> AgdaAny -> AgdaAny -> [AgdaAny] -> Bool
 d_runPLCScript_1414 v0
   = case coe v0 of
-      C_AbstractFunctions'46'constructor_2669 v1 v2 v3 v4 v5 -> coe v4
+      C_AbstractFunctions'46'constructor_2643 v1 v2 v3 v4 v5 -> coe v4
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Ledger.Abstract.AbstractFunctions.scriptSize
 d_scriptSize_1416 ::
@@ -189,5 +189,5 @@ d_scriptSize_1416 ::
   MAlonzo.Code.Data.Sum.Base.T__'8846'__30 -> Integer
 d_scriptSize_1416 v0
   = case coe v0 of
-      C_AbstractFunctions'46'constructor_2669 v1 v2 v3 v4 v5 -> coe v5
+      C_AbstractFunctions'46'constructor_2643 v1 v2 v3 v4 v5 -> coe v5
       _ -> MAlonzo.RTE.mazUnreachableError

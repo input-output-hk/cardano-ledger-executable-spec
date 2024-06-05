@@ -93,10 +93,10 @@ d__'8799'__48 v0 v1
         -> case coe v1 of
              MAlonzo.Code.Agda.Builtin.Reflection.C_nat_128 v3
                -> coe
-                    MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_144
+                    MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_150
                     erased
                     (coe
-                       MAlonzo.Code.Data.Nat.Properties.d__'8799'__2550 (coe v2) (coe v3))
+                       MAlonzo.Code.Data.Nat.Properties.d__'8799'__2558 (coe v2) (coe v3))
              MAlonzo.Code.Agda.Builtin.Reflection.C_word64_132 v3
                -> coe
                     MAlonzo.Code.Relation.Nullary.Decidable.Core.C__because__32
@@ -137,7 +137,7 @@ d__'8799'__48 v0 v1
                     (coe MAlonzo.Code.Relation.Nullary.Reflects.C_of'8319'_26)
              MAlonzo.Code.Agda.Builtin.Reflection.C_word64_132 v3
                -> coe
-                    MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_144
+                    MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_150
                     erased
                     (coe
                        MAlonzo.Code.Data.Word.Properties.d__'8799'__52 (coe v2) (coe v3))
@@ -181,7 +181,7 @@ d__'8799'__48 v0 v1
                     (coe MAlonzo.Code.Relation.Nullary.Reflects.C_of'8319'_26)
              MAlonzo.Code.Agda.Builtin.Reflection.C_float_136 v3
                -> coe
-                    MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_144
+                    MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_150
                     erased
                     (coe
                        MAlonzo.Code.Data.Float.Properties.d__'8799'__52 (coe v2) (coe v3))
@@ -225,7 +225,7 @@ d__'8799'__48 v0 v1
                     (coe MAlonzo.Code.Relation.Nullary.Reflects.C_of'8319'_26)
              MAlonzo.Code.Agda.Builtin.Reflection.C_char_140 v3
                -> coe
-                    MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_144
+                    MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_150
                     erased
                     (coe
                        MAlonzo.Code.Data.Char.Properties.d__'8799'__14 (coe v2) (coe v3))
@@ -269,7 +269,7 @@ d__'8799'__48 v0 v1
                     (coe MAlonzo.Code.Relation.Nullary.Reflects.C_of'8319'_26)
              MAlonzo.Code.Agda.Builtin.Reflection.C_string_144 v3
                -> coe
-                    MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_144
+                    MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_150
                     erased
                     (coe
                        MAlonzo.Code.Data.String.Properties.d__'8799'__54 (coe v2)
@@ -314,7 +314,7 @@ d__'8799'__48 v0 v1
                     (coe MAlonzo.Code.Relation.Nullary.Reflects.C_of'8319'_26)
              MAlonzo.Code.Agda.Builtin.Reflection.C_name_148 v3
                -> coe
-                    MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_144
+                    MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_150
                     erased
                     (coe
                        MAlonzo.Code.Reflection.AST.Name.d__'8799'__12 (coe v2) (coe v3))
@@ -358,7 +358,7 @@ d__'8799'__48 v0 v1
                     (coe MAlonzo.Code.Relation.Nullary.Reflects.C_of'8319'_26)
              MAlonzo.Code.Agda.Builtin.Reflection.C_meta_152 v3
                -> coe
-                    MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_144
+                    MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_150
                     erased
                     (coe
                        MAlonzo.Code.Reflection.AST.Meta.d__'8799'__10 (coe v2) (coe v3))
@@ -370,5 +370,5 @@ d__'8801''7495'__246 ::
   MAlonzo.Code.Agda.Builtin.Reflection.T_Literal_124 -> Bool
 d__'8801''7495'__246 v0 v1
   = coe
-      MAlonzo.Code.Relation.Nullary.Decidable.Core.du_isYes_98
+      MAlonzo.Code.Relation.Nullary.Decidable.Core.du_isYes_104
       (coe d__'8799'__48 (coe v0) (coe v1))

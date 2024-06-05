@@ -43,7 +43,7 @@ du_map_18 ::
   MAlonzo.Code.Relation.Nullary.Decidable.Core.T_Dec_20
 du_map_18 v0
   = coe
-      MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_144
+      MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_150
       (coe MAlonzo.Code.Function.Bundles.d_to_1724 (coe v0))
 -- Relation.Nullary.Decidable._.Eq₁._≈_
 d__'8776'__114 ::
@@ -86,7 +86,7 @@ du_via'45'injection_160 ::
   AgdaAny -> MAlonzo.Code.Relation.Nullary.Decidable.Core.T_Dec_20
 du_via'45'injection_160 v0 v1 v2 v3
   = coe
-      MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_144
+      MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_150
       (coe MAlonzo.Code.Function.Bundles.d_injective_788 v0 v2 v3)
       (coe
          v1 (coe MAlonzo.Code.Function.Bundles.d_to_784 v0 v2)

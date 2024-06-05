@@ -123,7 +123,7 @@ d_'42''45'cancel'737''45''8739'_54 ::
   Integer ->
   Integer ->
   Integer ->
-  MAlonzo.Code.Data.Nat.Base.T_NonZero_104 ->
+  MAlonzo.Code.Data.Nat.Base.T_NonZero_112 ->
   MAlonzo.Code.Data.Nat.Divisibility.Core.T__'8739'__12 ->
   MAlonzo.Code.Data.Nat.Divisibility.Core.T__'8739'__12
 d_'42''45'cancel'737''45''8739'_54 v0 v1 v2 ~v3 v4
@@ -213,7 +213,7 @@ d_'42''45'cancel'691''45''8739'_76 ::
   Integer ->
   Integer ->
   Integer ->
-  MAlonzo.Code.Data.Nat.Base.T_NonZero_104 ->
+  MAlonzo.Code.Data.Nat.Base.T_NonZero_112 ->
   MAlonzo.Code.Data.Nat.Divisibility.Core.T__'8739'__12 ->
   MAlonzo.Code.Data.Nat.Divisibility.Core.T__'8739'__12
 d_'42''45'cancel'691''45''8739'_76 v0 v1 v2 ~v3

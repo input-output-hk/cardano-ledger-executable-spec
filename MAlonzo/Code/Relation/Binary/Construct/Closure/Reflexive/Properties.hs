@@ -316,7 +316,7 @@ du_dec_174 v0 v1 v2 v3
       MAlonzo.Code.Relation.Nullary.Decidable.du_map_18
       (coe du_'8846''8660'Refl_84)
       (coe
-         MAlonzo.Code.Relation.Nullary.Decidable.Core.du__'8846''45'dec__78
+         MAlonzo.Code.Relation.Nullary.Decidable.Core.du__'8846''45'dec__84
          (coe v0 v2 v3) (coe v1 v2 v3))
 -- Relation.Binary.Construct.Closure.Reflexive.Properties._.decidable
 d_decidable_184 ::

@@ -17,42 +17,16 @@ import MAlonzo.RTE (coe, erased, AgdaAny, addInt, subInt, mulInt,
                     rem64, lt64, eq64, word64FromNat, word64ToNat)
 import qualified MAlonzo.RTE
 import qualified Data.Text
-import qualified MAlonzo.Code.Axiom.Set
-import qualified MAlonzo.Code.Axiom.Set.Map
 
--- Interface.HasEmptySet._.Map
-d_Map_152 :: MAlonzo.Code.Axiom.Set.T_Theory_82 -> () -> () -> ()
-d_Map_152 = erased
 -- Interface.HasEmptySet.HasEmptySet
-d_HasEmptySet_284 a0 a1 = ()
-newtype T_HasEmptySet_284
-  = C_HasEmptySet'46'constructor_1003 AgdaAny
+d_HasEmptySet_6 a0 = ()
+newtype T_HasEmptySet_6 = C_HasEmptySet'46'constructor_3 AgdaAny
 -- Interface.HasEmptySet.HasEmptySet.∅
-d_'8709'_290 :: T_HasEmptySet_284 -> AgdaAny
-d_'8709'_290 v0
+d_'8709'_12 :: T_HasEmptySet_6 -> AgdaAny
+d_'8709'_12 v0
   = case coe v0 of
-      C_HasEmptySet'46'constructor_1003 v1 -> coe v1
+      C_HasEmptySet'46'constructor_3 v1 -> coe v1
       _ -> MAlonzo.RTE.mazUnreachableError
--- Interface.HasEmptySet.HasEmptySet-Set
-d_HasEmptySet'45'Set_294 ::
-  MAlonzo.Code.Axiom.Set.T_Theory_82 -> () -> T_HasEmptySet_284
-d_HasEmptySet'45'Set_294 v0 ~v1 = du_HasEmptySet'45'Set_294 v0
-du_HasEmptySet'45'Set_294 ::
-  MAlonzo.Code.Axiom.Set.T_Theory_82 -> T_HasEmptySet_284
-du_HasEmptySet'45'Set_294 v0
-  = coe
-      C_HasEmptySet'46'constructor_1003
-      (coe MAlonzo.Code.Axiom.Set.du_'8709'_424 (coe v0))
--- Interface.HasEmptySet.HasEmptySet-Map
-d_HasEmptySet'45'Map_300 ::
-  MAlonzo.Code.Axiom.Set.T_Theory_82 -> () -> () -> T_HasEmptySet_284
-d_HasEmptySet'45'Map_300 v0 ~v1 ~v2 = du_HasEmptySet'45'Map_300 v0
-du_HasEmptySet'45'Map_300 ::
-  MAlonzo.Code.Axiom.Set.T_Theory_82 -> T_HasEmptySet_284
-du_HasEmptySet'45'Map_300 v0
-  = coe
-      C_HasEmptySet'46'constructor_1003
-      (coe MAlonzo.Code.Axiom.Set.Map.du_'8709''7504'_512 (coe v0))
 -- Interface.HasEmptySet._.∅
-d_'8709'_304 :: T_HasEmptySet_284 -> AgdaAny
-d_'8709'_304 v0 = coe d_'8709'_290 (coe v0)
+d_'8709'_16 :: T_HasEmptySet_6 -> AgdaAny
+d_'8709'_16 v0 = coe d_'8709'_12 (coe v0)

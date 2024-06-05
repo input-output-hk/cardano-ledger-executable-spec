@@ -220,7 +220,7 @@ du_total'8743'dec'8658'dec_204 v0 v1 v2 v3 v4
                 (coe MAlonzo.Code.Relation.Nullary.Reflects.C_of'696'_22 (coe v6))
          MAlonzo.Code.Data.Sum.Base.C_inj'8322'_42 v6
            -> coe
-                MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_144
+                MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_150
                 (coe v0 v3 v4) (coe v2 v3 v4)
          _ -> MAlonzo.RTE.mazUnreachableError)
 -- Relation.Binary.Consequences._.mono⇒cong

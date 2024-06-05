@@ -204,7 +204,7 @@ du__'94'__362 v0
                  (coe v0)) in
     coe
       (coe
-         MAlonzo.Code.Algebra.Definitions.RawSemiring.du__'94'__70
+         MAlonzo.Code.Algebra.Definitions.RawSemiring.du__'94'__86
          (coe
             MAlonzo.Code.Algebra.Bundles.du_rawSemiring_1978
             (coe
@@ -321,7 +321,7 @@ du_'10214'_'10215'_484 v0 v1 v2 v3
         -> coe MAlonzo.Code.Data.Vec.Base.du_lookup_82 (coe v3) (coe v4)
       C__'58''94'__448 v4 v5
         -> coe
-             MAlonzo.Code.Algebra.Definitions.RawSemiring.du__'94'__70
+             MAlonzo.Code.Algebra.Definitions.RawSemiring.du__'94'__86
              (coe
                 MAlonzo.Code.Algebra.Bundles.du_rawSemiring_1978
                 (coe
@@ -8910,7 +8910,7 @@ d_'94'N'45'homo_1308 v0 v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11
                       (coe v0) (coe v1) (coe v2) (coe v3) (coe v4) (coe v5) (coe v6)
                       (coe v7) (coe v8) (coe v9) (coe v11))
                    (coe
-                      MAlonzo.Code.Algebra.Definitions.RawSemiring.du__'94'__70
+                      MAlonzo.Code.Algebra.Definitions.RawSemiring.du__'94'__86
                       (coe
                          MAlonzo.Code.Algebra.Bundles.du_rawSemiring_1978
                          (coe
@@ -8995,7 +8995,7 @@ d_'94'N'45'homo_1308 v0 v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11
                          (coe v0) (coe v1) (coe v2) (coe v3) (coe v4) (coe v5) (coe v6)
                          (coe v7) (coe v8) (coe v9) (coe v11))
                       (coe
-                         MAlonzo.Code.Algebra.Definitions.RawSemiring.du__'94'__70
+                         MAlonzo.Code.Algebra.Definitions.RawSemiring.du__'94'__86
                          (coe
                             MAlonzo.Code.Algebra.Bundles.du_rawSemiring_1978
                             (coe
@@ -9070,7 +9070,7 @@ d_'94'N'45'homo_1308 v0 v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11
                             (coe v0) (coe v1) (coe v2) (coe v3) (coe v4) (coe v5) (coe v6)
                             (coe v7) (coe v8) (coe v9) (coe v11))
                          (coe
-                            MAlonzo.Code.Algebra.Definitions.RawSemiring.du__'94'__70
+                            MAlonzo.Code.Algebra.Definitions.RawSemiring.du__'94'__86
                             (coe
                                MAlonzo.Code.Algebra.Bundles.du_rawSemiring_1978
                                (coe
@@ -9091,7 +9091,7 @@ d_'94'N'45'homo_1308 v0 v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11
                             (coe v0) (coe v1) (coe v2) (coe v3) (coe v4) (coe v5) (coe v6)
                             (coe v7) (coe v8) (coe v9) (coe v11))
                          (coe
-                            MAlonzo.Code.Algebra.Definitions.RawSemiring.du__'94'__70
+                            MAlonzo.Code.Algebra.Definitions.RawSemiring.du__'94'__86
                             (coe
                                MAlonzo.Code.Algebra.Bundles.du_rawSemiring_1978
                                (coe
@@ -9155,7 +9155,7 @@ d_'94'N'45'homo_1308 v0 v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11
                                   (coe v0) (coe v1) (coe v2) (coe v3) (coe v4) (coe v5) (coe v6)
                                   (coe v7) (coe v8) (coe v9) (coe v11))
                                (coe
-                                  MAlonzo.Code.Algebra.Definitions.RawSemiring.du__'94'__70
+                                  MAlonzo.Code.Algebra.Definitions.RawSemiring.du__'94'__86
                                   (coe
                                      MAlonzo.Code.Algebra.Bundles.du_rawSemiring_1978
                                      (coe
@@ -9226,7 +9226,7 @@ d_'94'N'45'homo_1308 v0 v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11
                                           (coe v5)) in
                              coe
                                (coe
-                                  MAlonzo.Code.Algebra.Definitions.RawSemiring.du__'94'__70
+                                  MAlonzo.Code.Algebra.Definitions.RawSemiring.du__'94'__86
                                   (coe
                                      MAlonzo.Code.Algebra.Bundles.du_rawSemiring_1978
                                      (coe
@@ -11143,7 +11143,7 @@ d_correct_1388 v0 v1 v2 v3 v4 v5 v6 v7 v8 v9 v10
                    (coe v12))
                 (coe v10))
              (coe
-                MAlonzo.Code.Algebra.Definitions.RawSemiring.du__'94'__70
+                MAlonzo.Code.Algebra.Definitions.RawSemiring.du__'94'__86
                 (coe
                    MAlonzo.Code.Algebra.Bundles.du_rawSemiring_1978
                    (coe
@@ -11208,7 +11208,7 @@ d_correct_1388 v0 v1 v2 v3 v4 v5 v6 v7 v8 v9 v10
                       (coe v12))
                    (coe v10))
                 (coe
-                   MAlonzo.Code.Algebra.Definitions.RawSemiring.du__'94'__70
+                   MAlonzo.Code.Algebra.Definitions.RawSemiring.du__'94'__86
                    (coe
                       MAlonzo.Code.Algebra.Bundles.du_rawSemiring_1978
                       (coe
@@ -11223,7 +11223,7 @@ d_correct_1388 v0 v1 v2 v3 v4 v5 v6 v7 v8 v9 v10
                       (coe v4) (coe v5) (coe v6) (coe v7) (coe v8) (coe v11) (coe v10))
                    (coe v12))
                 (coe
-                   MAlonzo.Code.Algebra.Definitions.RawSemiring.du__'94'__70
+                   MAlonzo.Code.Algebra.Definitions.RawSemiring.du__'94'__86
                    (coe
                       MAlonzo.Code.Algebra.Bundles.du_rawSemiring_1978
                       (coe
@@ -11277,7 +11277,7 @@ d_correct_1388 v0 v1 v2 v3 v4 v5 v6 v7 v8 v9 v10
                                                        MAlonzo.Code.Algebra.Structures.d_isMagma_448
                                                        (coe v19)))))))))))))
                    (coe
-                      MAlonzo.Code.Algebra.Definitions.RawSemiring.du__'94'__70
+                      MAlonzo.Code.Algebra.Definitions.RawSemiring.du__'94'__86
                       (coe
                          MAlonzo.Code.Algebra.Bundles.du_rawSemiring_1978
                          (coe
@@ -11292,7 +11292,7 @@ d_correct_1388 v0 v1 v2 v3 v4 v5 v6 v7 v8 v9 v10
                          (coe v4) (coe v5) (coe v6) (coe v7) (coe v8) (coe v11) (coe v10))
                       (coe v12))
                    (coe
-                      MAlonzo.Code.Algebra.Definitions.RawSemiring.du__'94'__70
+                      MAlonzo.Code.Algebra.Definitions.RawSemiring.du__'94'__86
                       (coe
                          MAlonzo.Code.Algebra.Bundles.du_rawSemiring_1978
                          (coe
@@ -11305,7 +11305,7 @@ d_correct_1388 v0 v1 v2 v3 v4 v5 v6 v7 v8 v9 v10
                       (coe du_'10214'_'10215'_484 (coe v5) (coe v6) (coe v11) (coe v10))
                       (coe v12))
                    (coe
-                      MAlonzo.Code.Algebra.Definitions.RawSemiring.du__'94'__70
+                      MAlonzo.Code.Algebra.Definitions.RawSemiring.du__'94'__86
                       (coe
                          MAlonzo.Code.Algebra.Bundles.du_rawSemiring_1978
                          (coe
@@ -11361,7 +11361,7 @@ d_correct_1388 v0 v1 v2 v3 v4 v5 v6 v7 v8 v9 v10
                             MAlonzo.Code.Relation.Binary.Reasoning.Base.Single.du_stop_54
                             (coe v13))
                          (coe
-                            MAlonzo.Code.Algebra.Definitions.RawSemiring.du__'94'__70
+                            MAlonzo.Code.Algebra.Definitions.RawSemiring.du__'94'__86
                             (coe
                                MAlonzo.Code.Algebra.Bundles.du_rawSemiring_1978
                                (coe
