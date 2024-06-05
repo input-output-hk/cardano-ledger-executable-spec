@@ -6,7 +6,7 @@ import MAlonzo.Code.Ledger.Foreign.LedgerTypes as X
 
 import MAlonzo.Code.Ledger.Foreign.HSLedger.Cert as X (certStep)
 import MAlonzo.Code.Ledger.Foreign.HSLedger.Chain as X (chainStep)
-import MAlonzo.Code.Ledger.Foreign.HSLedger.Certs as X (delegStep)
+import MAlonzo.Code.Ledger.Foreign.HSLedger.Certs as X (delegStep, govCertsStep, poolStep)
 import MAlonzo.Code.Ledger.Foreign.HSLedger.Enact as X (enactStep)
 import MAlonzo.Code.Ledger.Foreign.HSLedger.Epoch as X (epochStep)
 import MAlonzo.Code.Ledger.Foreign.HSLedger.Gov as X (govStep)
