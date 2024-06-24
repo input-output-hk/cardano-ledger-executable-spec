@@ -121,7 +121,7 @@ du_SemigroupLaws'45'Maybe_40 ::
   MAlonzo.Code.Class.Semigroup.Core.T_SemigroupLaws_40
 du_SemigroupLaws'45'Maybe_40
   = coe
-      MAlonzo.Code.Class.Semigroup.Core.C_SemigroupLaws'46'constructor_2217
+      MAlonzo.Code.Class.Semigroup.Core.C_SemigroupLaws'46'constructor_2187
       erased erased
 -- Class.Semigroup.Instances._.Semigroup-ℕ-+
 d_Semigroup'45'ℕ'45''43'_62 ::
@@ -135,7 +135,7 @@ d_SemigroupLaws'45'ℕ'45''43'_66 ::
   MAlonzo.Code.Class.Semigroup.Core.T_SemigroupLaws_40
 d_SemigroupLaws'45'ℕ'45''43'_66
   = coe
-      MAlonzo.Code.Class.Semigroup.Core.C_SemigroupLaws'46'constructor_2217
+      MAlonzo.Code.Class.Semigroup.Core.C_SemigroupLaws'46'constructor_2187
       erased erased
 -- Class.Semigroup.Instances._.Semigroup-ℕ-*
 d_Semigroup'45'ℕ'45''42'_74 ::
@@ -149,7 +149,7 @@ d_SemigroupLaws'45'ℕ'45''42'_78 ::
   MAlonzo.Code.Class.Semigroup.Core.T_SemigroupLaws_40
 d_SemigroupLaws'45'ℕ'45''42'_78
   = coe
-      MAlonzo.Code.Class.Semigroup.Core.C_SemigroupLaws'46'constructor_2217
+      MAlonzo.Code.Class.Semigroup.Core.C_SemigroupLaws'46'constructor_2187
       erased erased
 -- Class.Semigroup.Instances._.Semigroup-ℤ-+
 d_Semigroup'45'ℤ'45''43'_90 ::
@@ -163,7 +163,7 @@ d_SemigroupLaws'45'ℤ'45''43'_94 ::
   MAlonzo.Code.Class.Semigroup.Core.T_SemigroupLaws_40
 d_SemigroupLaws'45'ℤ'45''43'_94
   = coe
-      MAlonzo.Code.Class.Semigroup.Core.C_SemigroupLaws'46'constructor_2217
+      MAlonzo.Code.Class.Semigroup.Core.C_SemigroupLaws'46'constructor_2187
       erased erased
 -- Class.Semigroup.Instances._.Semigroup-ℤ-*
 d_Semigroup'45'ℤ'45''42'_102 ::
@@ -177,5 +177,5 @@ d_SemigroupLaws'45'ℤ'45''42'_106 ::
   MAlonzo.Code.Class.Semigroup.Core.T_SemigroupLaws_40
 d_SemigroupLaws'45'ℤ'45''42'_106
   = coe
-      MAlonzo.Code.Class.Semigroup.Core.C_SemigroupLaws'46'constructor_2217
+      MAlonzo.Code.Class.Semigroup.Core.C_SemigroupLaws'46'constructor_2187
       erased erased

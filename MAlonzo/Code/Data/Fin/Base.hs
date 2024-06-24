@@ -21,6 +21,7 @@ import qualified MAlonzo.Code.Agda.Builtin.Equality
 import qualified MAlonzo.Code.Agda.Builtin.Nat
 import qualified MAlonzo.Code.Agda.Builtin.Sigma
 import qualified MAlonzo.Code.Agda.Primitive
+import qualified MAlonzo.Code.Algebra.Definitions.RawMagma
 import qualified MAlonzo.Code.Data.Irrelevant
 import qualified MAlonzo.Code.Data.Nat.Base
 import qualified MAlonzo.Code.Data.Product.Base
@@ -74,7 +75,7 @@ d_fromℕ_48 v0
 -- Data.Fin.Base.fromℕ<
 d_fromℕ'60'_52 ::
   Integer ->
-  Integer -> MAlonzo.Code.Data.Nat.Base.T__'8804'__18 -> T_Fin_10
+  Integer -> MAlonzo.Code.Data.Nat.Base.T__'8804'__22 -> T_Fin_10
 d_fromℕ'60'_52 v0 ~v1 ~v2 = du_fromℕ'60'_52 v0
 du_fromℕ'60'_52 :: Integer -> T_Fin_10
 du_fromℕ'60'_52 v0
@@ -85,7 +86,9 @@ du_fromℕ'60'_52 v0
 -- Data.Fin.Base.fromℕ<″
 d_fromℕ'60''8243'_62 ::
   Integer ->
-  Integer -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 -> T_Fin_10
+  Integer ->
+  MAlonzo.Code.Algebra.Definitions.RawMagma.T__'8739''737'__26 ->
+  T_Fin_10
 d_fromℕ'60''8243'_62 v0 ~v1 ~v2 = du_fromℕ'60''8243'_62 v0
 du_fromℕ'60''8243'_62 :: Integer -> T_Fin_10
 du_fromℕ'60''8243'_62 v0
@@ -111,7 +114,7 @@ du__'8593''691'__84 v0 v1
 d_reduce'8805'_94 ::
   Integer ->
   Integer ->
-  T_Fin_10 -> MAlonzo.Code.Data.Nat.Base.T__'8804'__18 -> T_Fin_10
+  T_Fin_10 -> MAlonzo.Code.Data.Nat.Base.T__'8804'__22 -> T_Fin_10
 d_reduce'8805'_94 v0 ~v1 v2 ~v3 = du_reduce'8805'_94 v0 v2
 du_reduce'8805'_94 :: Integer -> T_Fin_10 -> T_Fin_10
 du_reduce'8805'_94 v0 v1
@@ -156,7 +159,7 @@ du_inject'8321'_118 v0 = coe v0
 d_inject'8804'_122 ::
   Integer ->
   Integer ->
-  T_Fin_10 -> MAlonzo.Code.Data.Nat.Base.T__'8804'__18 -> T_Fin_10
+  T_Fin_10 -> MAlonzo.Code.Data.Nat.Base.T__'8804'__22 -> T_Fin_10
 d_inject'8804'_122 ~v0 ~v1 v2 ~v3 = du_inject'8804'_122 v2
 du_inject'8804'_122 :: T_Fin_10 -> T_Fin_10
 du_inject'8804'_122 v0 = coe v0
@@ -288,14 +291,14 @@ d_finToFun_242 v0 v1 v2 v3
          C_zero_12
            -> coe
                 du_quotient_214
-                (coe MAlonzo.Code.Data.Nat.Base.d__'94'__234 (coe v0) (coe v4))
+                (coe MAlonzo.Code.Data.Nat.Base.d__'94'__272 (coe v0) (coe v4))
                 (coe v2)
          C_suc_16 v6
            -> coe
                 d_finToFun_242 (coe v0) (coe v4)
                 (coe
                    du_remainder_220
-                   (coe MAlonzo.Code.Data.Nat.Base.d__'94'__234 (coe v0) (coe v4))
+                   (coe MAlonzo.Code.Data.Nat.Base.d__'94'__272 (coe v0) (coe v4))
                    (coe v2))
                 (coe v6)
          _ -> MAlonzo.RTE.mazUnreachableError)
@@ -309,7 +312,7 @@ d_funToFin_258 v0 v1 v2
            coe
              (coe
                 du_combine_226
-                (coe MAlonzo.Code.Data.Nat.Base.d__'94'__234 (coe v1) (coe v3))
+                (coe MAlonzo.Code.Data.Nat.Base.d__'94'__272 (coe v1) (coe v3))
                 (coe v2 (coe C_zero_12))
                 (coe
                    d_funToFin_258 (coe v3) (coe v1)

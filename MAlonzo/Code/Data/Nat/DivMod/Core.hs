@@ -56,11 +56,11 @@ d_n'91'mod'8341''93'n'8801'0_58 = erased
 -- Data.Nat.DivMod.Core.a[modₕ]n<n
 d_a'91'mod'8341''93'n'60'n_70 ::
   Integer ->
-  Integer -> Integer -> MAlonzo.Code.Data.Nat.Base.T__'8804'__18
+  Integer -> Integer -> MAlonzo.Code.Data.Nat.Base.T__'8804'__22
 d_a'91'mod'8341''93'n'60'n_70 v0 v1 v2
   = case coe v1 of
       0 -> coe
-             MAlonzo.Code.Data.Nat.Properties.du_m'8804'm'43'n_3344 (coe v0)
+             MAlonzo.Code.Data.Nat.Properties.du_m'8804'm'43'n_3352 (coe v0)
       _ -> let v3 = subInt (coe v1) (coe (1 :: Integer)) in
            coe
              (case coe v2 of
@@ -75,11 +75,11 @@ d_a'91'mod'8341''93'n'60'n_70 v0 v1 v2
 -- Data.Nat.DivMod.Core.a[modₕ]n≤a
 d_a'91'mod'8341''93'n'8804'a_96 ::
   Integer ->
-  Integer -> Integer -> MAlonzo.Code.Data.Nat.Base.T__'8804'__18
+  Integer -> Integer -> MAlonzo.Code.Data.Nat.Base.T__'8804'__22
 d_a'91'mod'8341''93'n'8804'a_96 v0 v1 v2
   = case coe v1 of
       0 -> coe
-             MAlonzo.Code.Data.Nat.Properties.du_'8804''45'reflexive_2634
+             MAlonzo.Code.Data.Nat.Properties.du_'8804''45'reflexive_2642
              (coe
                 MAlonzo.Code.Agda.Builtin.Nat.d_mod'45'helper_90 v0
                 (addInt (coe v0) (coe v2)) (0 :: Integer) v2)
@@ -90,9 +90,9 @@ d_a'91'mod'8341''93'n'8804'a_96 v0 v1 v2
                        MAlonzo.Code.Relation.Binary.Reasoning.Syntax.du_begin__46
                        (coe
                           MAlonzo.Code.Relation.Binary.Reasoning.Base.Triple.du_start_96
-                          (coe MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2672)
+                          (coe MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2680)
                           (\ v4 v5 v6 ->
-                             coe MAlonzo.Code.Data.Nat.Properties.du_'60''8658''8804'_2716 v6))
+                             coe MAlonzo.Code.Data.Nat.Properties.du_'60''8658''8804'_2724 v6))
                        (coe
                           MAlonzo.Code.Agda.Builtin.Nat.d_mod'45'helper_90 v0 v0 v1
                           (0 :: Integer))
@@ -111,10 +111,10 @@ d_a'91'mod'8341''93'n'8804'a_96 v0 v1 v2
                              MAlonzo.Code.Relation.Binary.Reasoning.Syntax.du_step'45''8804'_308
                              (coe
                                 MAlonzo.Code.Relation.Binary.Reasoning.Base.Triple.du_'8804''45'go_138
-                                (coe MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2672)
+                                (coe MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2680)
                                 (\ v4 v5 v6 v7 v8 ->
                                    coe
-                                     MAlonzo.Code.Data.Nat.Properties.du_'8804''45''60''45'trans_2848
+                                     MAlonzo.Code.Data.Nat.Properties.du_'8804''45''60''45'trans_2856
                                      v7 v8))
                              (coe
                                 MAlonzo.Code.Agda.Builtin.Nat.d_mod'45'helper_90 v0 v0 v1
@@ -125,10 +125,10 @@ d_a'91'mod'8341''93'n'8804'a_96 v0 v1 v2
                                 (coe
                                    MAlonzo.Code.Relation.Binary.Reasoning.Base.Triple.du_'8804''45'go_138
                                    (coe
-                                      MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2672)
+                                      MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2680)
                                    (\ v4 v5 v6 v7 v8 ->
                                       coe
-                                        MAlonzo.Code.Data.Nat.Properties.du_'8804''45''60''45'trans_2848
+                                        MAlonzo.Code.Data.Nat.Properties.du_'8804''45''60''45'trans_2856
                                         v7 v8))
                                 v3 v1 (addInt (coe v0) (coe v1))
                                 (coe
@@ -136,10 +136,10 @@ d_a'91'mod'8341''93'n'8804'a_96 v0 v1 v2
                                    (coe
                                       MAlonzo.Code.Relation.Binary.Reasoning.Base.Triple.du_'8804''45'go_138
                                       (coe
-                                         MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2672)
+                                         MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2680)
                                       (\ v4 v5 v6 v7 v8 ->
                                          coe
-                                           MAlonzo.Code.Data.Nat.Properties.du_'8804''45''60''45'trans_2848
+                                           MAlonzo.Code.Data.Nat.Properties.du_'8804''45''60''45'trans_2856
                                            v7 v8))
                                    v1 (addInt (coe v0) (coe v1)) (addInt (coe v0) (coe v1))
                                    (coe
@@ -147,12 +147,12 @@ d_a'91'mod'8341''93'n'8804'a_96 v0 v1 v2
                                       (coe
                                          MAlonzo.Code.Relation.Binary.Reasoning.Base.Triple.du_stop_166
                                          (coe
-                                            MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2672))
+                                            MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2680))
                                       (coe addInt (coe v0) (coe v1)))
                                    (coe
-                                      MAlonzo.Code.Data.Nat.Properties.du_m'8804'n'43'm_3356
+                                      MAlonzo.Code.Data.Nat.Properties.du_m'8804'n'43'm_3364
                                       (coe v1)))
-                                (MAlonzo.Code.Data.Nat.Properties.d_n'8804'1'43'n_2706 (coe v3)))
+                                (MAlonzo.Code.Data.Nat.Properties.d_n'8804'1'43'n_2714 (coe v3)))
                              (d_a'91'mod'8341''93'n'8804'a_96
                                 (coe (0 :: Integer)) (coe v3) (coe v0)))
                           erased)
@@ -162,9 +162,9 @@ d_a'91'mod'8341''93'n'8804'a_96 v0 v1 v2
                           MAlonzo.Code.Relation.Binary.Reasoning.Syntax.du_begin__46
                           (coe
                              MAlonzo.Code.Relation.Binary.Reasoning.Base.Triple.du_start_96
-                             (coe MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2672)
+                             (coe MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2680)
                              (\ v5 v6 v7 ->
-                                coe MAlonzo.Code.Data.Nat.Properties.du_'60''8658''8804'_2716 v7))
+                                coe MAlonzo.Code.Data.Nat.Properties.du_'60''8658''8804'_2724 v7))
                           (coe
                              MAlonzo.Code.Agda.Builtin.Nat.d_mod'45'helper_90 v0
                              (addInt (coe v0) (coe v2)) v1 v2)
@@ -184,10 +184,10 @@ d_a'91'mod'8341''93'n'8804'a_96 v0 v1 v2
                                 (coe
                                    MAlonzo.Code.Relation.Binary.Reasoning.Base.Triple.du_'8804''45'go_138
                                    (coe
-                                      MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2672)
+                                      MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2680)
                                    (\ v5 v6 v7 v8 v9 ->
                                       coe
-                                        MAlonzo.Code.Data.Nat.Properties.du_'8804''45''60''45'trans_2848
+                                        MAlonzo.Code.Data.Nat.Properties.du_'8804''45''60''45'trans_2856
                                         v8 v9))
                                 (coe
                                    MAlonzo.Code.Agda.Builtin.Nat.d_mod'45'helper_90 v0
@@ -202,7 +202,7 @@ d_a'91'mod'8341''93'n'8804'a_96 v0 v1 v2
                                       (coe
                                          MAlonzo.Code.Relation.Binary.Reasoning.Base.Triple.du_stop_166
                                          (coe
-                                            MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2672))
+                                            MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2680))
                                       (coe addInt (coe v0) (coe v1)))
                                    erased)
                                 (d_a'91'mod'8341''93'n'8804'a_96
@@ -236,8 +236,8 @@ d_k'60'1'43'a'91'mod'8341''93'n'8658'k'8804'a'91'mod'8341''93'n_216 ::
   Integer ->
   Integer ->
   Integer ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22
 d_k'60'1'43'a'91'mod'8341''93'n'8658'k'8804'a'91'mod'8341''93'n_216 v0
                                                                     ~v1 v2 v3 v4
   = du_k'60'1'43'a'91'mod'8341''93'n'8658'k'8804'a'91'mod'8341''93'n_216
@@ -246,13 +246,13 @@ du_k'60'1'43'a'91'mod'8341''93'n'8658'k'8804'a'91'mod'8341''93'n_216 ::
   Integer ->
   Integer ->
   Integer ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22
 du_k'60'1'43'a'91'mod'8341''93'n'8658'k'8804'a'91'mod'8341''93'n_216 v0
                                                                      v1 v2 v3
   = case coe v1 of
       0 -> case coe v3 of
-             MAlonzo.Code.Data.Nat.Base.C_s'8804's_30 v6 -> coe v6
+             MAlonzo.Code.Data.Nat.Base.C_s'8804's_34 v6 -> coe v6
              _ -> MAlonzo.RTE.mazUnreachableError
       _ -> let v4 = subInt (coe v1) (coe (1 :: Integer)) in
            coe
@@ -272,9 +272,9 @@ d_1'43'a'91'mod'8341''93'n'8804'1'43'k'8658'a'91'mod'8341''93'n'8804'k_260 ::
   Integer ->
   Integer ->
   Integer ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22
 d_1'43'a'91'mod'8341''93'n'8804'1'43'k'8658'a'91'mod'8341''93'n'8804'k_260 v0
                                                                            ~v1 v2 v3 ~v4 v5
   = du_1'43'a'91'mod'8341''93'n'8804'1'43'k'8658'a'91'mod'8341''93'n'8804'k_260
@@ -283,13 +283,13 @@ du_1'43'a'91'mod'8341''93'n'8804'1'43'k'8658'a'91'mod'8341''93'n'8804'k_260 ::
   Integer ->
   Integer ->
   Integer ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22
 du_1'43'a'91'mod'8341''93'n'8804'1'43'k'8658'a'91'mod'8341''93'n'8804'k_260 v0
                                                                             v1 v2 v3
   = case coe v1 of
       0 -> case coe v3 of
-             MAlonzo.Code.Data.Nat.Base.C_s'8804's_30 v6 -> coe v6
+             MAlonzo.Code.Data.Nat.Base.C_s'8804's_34 v6 -> coe v6
              _ -> MAlonzo.RTE.mazUnreachableError
       _ -> let v4 = subInt (coe v1) (coe (1 :: Integer)) in
            coe
@@ -344,18 +344,18 @@ d_div'45'cong'8323'_358 = erased
 d_acc'8804'div'8341''91'acc'93'_368 ::
   Integer ->
   Integer ->
-  Integer -> Integer -> MAlonzo.Code.Data.Nat.Base.T__'8804'__18
+  Integer -> Integer -> MAlonzo.Code.Data.Nat.Base.T__'8804'__22
 d_acc'8804'div'8341''91'acc'93'_368 v0 v1 v2 v3
   = case coe v2 of
       0 -> coe
-             MAlonzo.Code.Data.Nat.Properties.d_'8804''45'refl_2638 (coe v0)
+             MAlonzo.Code.Data.Nat.Properties.d_'8804''45'refl_2646 (coe v0)
       _ -> let v4 = subInt (coe v2) (coe (1 :: Integer)) in
            coe
              (case coe v3 of
                 0 -> coe
-                       MAlonzo.Code.Data.Nat.Properties.du_'8804''45'trans_2646
+                       MAlonzo.Code.Data.Nat.Properties.du_'8804''45'trans_2654
                        (coe
-                          MAlonzo.Code.Data.Nat.Properties.d_n'8804'1'43'n_2706 (coe v0))
+                          MAlonzo.Code.Data.Nat.Properties.d_n'8804'1'43'n_2714 (coe v0))
                        (coe
                           d_acc'8804'div'8341''91'acc'93'_368
                           (coe addInt (coe (1 :: Integer)) (coe v0)) (coe v1) (coe v4)
@@ -373,8 +373,8 @@ d_div'8341''45'offsetEq_410 ::
   Integer ->
   Integer ->
   Integer ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
   MAlonzo.Code.Data.Sum.Base.T__'8846'__30 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
 d_div'8341''45'offsetEq_410 = erased
@@ -397,7 +397,7 @@ d_div'8341''45'restart_700 ::
   Integer ->
   Integer ->
   Integer ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
 d_div'8341''45'restart_700 = erased
 -- Data.Nat.DivMod.Core.divₕ-extractAcc
@@ -413,7 +413,7 @@ d_div'8341''45'finish_756 ::
   Integer ->
   Integer ->
   Integer ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
 d_div'8341''45'finish_756 = erased
 -- Data.Nat.DivMod.Core.n[divₕ]n≡1
@@ -439,7 +439,7 @@ d_'43''45'distrib'45'div'8341'_824 ::
   Integer ->
   Integer ->
   Integer ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
 d_'43''45'distrib'45'div'8341'_824 = erased
 -- Data.Nat.DivMod.Core._.case
@@ -448,13 +448,13 @@ d_case_870 ::
   Integer ->
   Integer ->
   Integer ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
   MAlonzo.Code.Data.Sum.Base.T__'8846'__30
 d_case_870 ~v0 v1 ~v2 v3 v4 = du_case_870 v1 v3 v4
 du_case_870 ::
   Integer ->
   Integer ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
   MAlonzo.Code.Data.Sum.Base.T__'8846'__30
 du_case_870 v0 v1 v2
   = coe
@@ -466,10 +466,10 @@ du_case_870 v0 v1 v2
             (coe
                MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32
                (coe
-                  MAlonzo.Code.Data.Nat.Properties.du_'43''45'cancel'737''45''8804'_3276
+                  MAlonzo.Code.Data.Nat.Properties.du_'43''45'cancel'737''45''8804'_3284
                   (coe addInt (coe (1 :: Integer)) (coe v0)) (coe v2))
                (coe
-                  MAlonzo.Code.Data.Nat.Properties.du_m'8804'n'43'm_3356 (coe v1)))))
+                  MAlonzo.Code.Data.Nat.Properties.du_m'8804'n'43'm_3364 (coe v1)))))
 -- Data.Nat.DivMod.Core.divₕ-mono-≤
 d_div'8341''45'mono'45''8804'_886 ::
   Integer ->
@@ -478,19 +478,19 @@ d_div'8341''45'mono'45''8804'_886 ::
   Integer ->
   Integer ->
   Integer ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22
 d_div'8341''45'mono'45''8804'_886 v0 v1 v2 v3 v4 v5 v6 v7
   = case coe v6 of
-      MAlonzo.Code.Data.Nat.Base.C_z'8804'n_22
+      MAlonzo.Code.Data.Nat.Base.C_z'8804'n_26
         -> coe
              d_acc'8804'div'8341''91'acc'93'_368
              (coe
                 MAlonzo.Code.Agda.Builtin.Nat.d_div'45'helper_60 v0
                 (addInt (coe v1) (coe v4)) (0 :: Integer) v4)
              (coe addInt (coe v1) (coe v5)) (coe v3) (coe v5)
-      MAlonzo.Code.Data.Nat.Base.C_s'8804's_30 v10
+      MAlonzo.Code.Data.Nat.Base.C_s'8804's_34 v10
         -> let v11 = subInt (coe v2) (coe (1 :: Integer)) in
            coe
              (let v12 = subInt (coe v3) (coe (1 :: Integer)) in
@@ -499,8 +499,17 @@ d_div'8341''45'mono'45''8804'_886 v0 v1 v2 v3 v4 v5 v6 v7
                        = seq
                            (coe v7)
                            (let v13
-                                  = MAlonzo.Code.Data.Nat.Properties.d__'60''63'__2892
-                                      (coe v4) (coe v2) in
+                                  = coe
+                                      MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_150
+                                      (\ v13 ->
+                                         coe
+                                           MAlonzo.Code.Data.Nat.Properties.du_'8804''7495''8658''8804'_2616
+                                           (coe addInt (coe (1 :: Integer)) (coe v4)))
+                                      (coe
+                                         MAlonzo.Code.Relation.Nullary.Decidable.Core.d_T'63'_64
+                                         (coe
+                                            MAlonzo.Code.Data.Nat.Base.d__'8804''7495'__14
+                                            (coe addInt (coe (1 :: Integer)) (coe v4)) (coe v2))) in
                             coe
                               (case coe v13 of
                                  MAlonzo.Code.Relation.Nullary.Decidable.Core.C__because__32 v14 v15
@@ -512,10 +521,10 @@ d_div'8341''45'mono'45''8804'_886 v0 v1 v2 v3 v4 v5 v6 v7
                                                   (coe
                                                      MAlonzo.Code.Relation.Binary.Reasoning.Base.Triple.du_start_96
                                                      (coe
-                                                        MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2672)
+                                                        MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2680)
                                                      (\ v16 v17 v18 ->
                                                         coe
-                                                          MAlonzo.Code.Data.Nat.Properties.du_'60''8658''8804'_2716
+                                                          MAlonzo.Code.Data.Nat.Properties.du_'60''8658''8804'_2724
                                                           v18))
                                                   (coe
                                                      MAlonzo.Code.Agda.Builtin.Nat.d_div'45'helper_60
@@ -547,10 +556,10 @@ d_div'8341''45'mono'45''8804'_886 v0 v1 v2 v3 v4 v5 v6 v7
                                                         (coe
                                                            MAlonzo.Code.Relation.Binary.Reasoning.Base.Triple.du_'8804''45'go_138
                                                            (coe
-                                                              MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2672)
+                                                              MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2680)
                                                            (\ v16 v17 v18 v19 v20 ->
                                                               coe
-                                                                MAlonzo.Code.Data.Nat.Properties.du_'8804''45''60''45'trans_2848
+                                                                MAlonzo.Code.Data.Nat.Properties.du_'8804''45''60''45'trans_2856
                                                                 v19 v20))
                                                         (coe
                                                            MAlonzo.Code.Agda.Builtin.Nat.d_div'45'helper_60
@@ -573,7 +582,7 @@ d_div'8341''45'mono'45''8804'_886 v0 v1 v2 v3 v4 v5 v6 v7
                                                            (coe
                                                               MAlonzo.Code.Relation.Binary.Reasoning.Base.Triple.du_stop_166
                                                               (coe
-                                                                 MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2672))
+                                                                 MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2680))
                                                            (coe
                                                               MAlonzo.Code.Agda.Builtin.Nat.d_div'45'helper_60
                                                               (addInt (coe (1 :: Integer)) (coe v0))
@@ -588,13 +597,13 @@ d_div'8341''45'mono'45''8804'_886 v0 v1 v2 v3 v4 v5 v6 v7
                                                            (coe v12) (coe addInt (coe v1) (coe v4))
                                                            (coe v1)
                                                            (coe
-                                                              MAlonzo.Code.Data.Nat.Properties.du_'8804''45'trans_2646
+                                                              MAlonzo.Code.Data.Nat.Properties.du_'8804''45'trans_2654
                                                               (coe
-                                                                 MAlonzo.Code.Data.Nat.Properties.d_m'8760'n'8804'm_4854
+                                                                 MAlonzo.Code.Data.Nat.Properties.d_m'8760'n'8804'm_4914
                                                                  (coe v11) (coe v4))
                                                               (coe v10))
                                                            (coe
-                                                              MAlonzo.Code.Data.Nat.Properties.du_m'8804'm'43'n_3344
+                                                              MAlonzo.Code.Data.Nat.Properties.du_m'8804'm'43'n_3352
                                                               (coe v1))))
                                                      erased))
                                         else coe
@@ -604,10 +613,10 @@ d_div'8341''45'mono'45''8804'_886 v0 v1 v2 v3 v4 v5 v6 v7
                                                   (coe
                                                      MAlonzo.Code.Relation.Binary.Reasoning.Base.Triple.du_start_96
                                                      (coe
-                                                        MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2672)
+                                                        MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2680)
                                                      (\ v16 v17 v18 ->
                                                         coe
-                                                          MAlonzo.Code.Data.Nat.Properties.du_'60''8658''8804'_2716
+                                                          MAlonzo.Code.Data.Nat.Properties.du_'60''8658''8804'_2724
                                                           v18))
                                                   (coe
                                                      MAlonzo.Code.Agda.Builtin.Nat.d_div'45'helper_60
@@ -632,10 +641,10 @@ d_div'8341''45'mono'45''8804'_886 v0 v1 v2 v3 v4 v5 v6 v7
                                                         (coe
                                                            MAlonzo.Code.Relation.Binary.Reasoning.Base.Triple.du_'8804''45'go_138
                                                            (coe
-                                                              MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2672)
+                                                              MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2680)
                                                            (\ v16 v17 v18 v19 v20 ->
                                                               coe
-                                                                MAlonzo.Code.Data.Nat.Properties.du_'8804''45''60''45'trans_2848
+                                                                MAlonzo.Code.Data.Nat.Properties.du_'8804''45''60''45'trans_2856
                                                                 v19 v20))
                                                         v0 (addInt (coe (1 :: Integer)) (coe v0))
                                                         (coe
@@ -647,10 +656,10 @@ d_div'8341''45'mono'45''8804'_886 v0 v1 v2 v3 v4 v5 v6 v7
                                                            (coe
                                                               MAlonzo.Code.Relation.Binary.Reasoning.Base.Triple.du_'8804''45'go_138
                                                               (coe
-                                                                 MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2672)
+                                                                 MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2680)
                                                               (\ v16 v17 v18 v19 v20 ->
                                                                  coe
-                                                                   MAlonzo.Code.Data.Nat.Properties.du_'8804''45''60''45'trans_2848
+                                                                   MAlonzo.Code.Data.Nat.Properties.du_'8804''45''60''45'trans_2856
                                                                    v19 v20))
                                                            (addInt (coe (1 :: Integer)) (coe v0))
                                                            (coe
@@ -666,7 +675,7 @@ d_div'8341''45'mono'45''8804'_886 v0 v1 v2 v3 v4 v5 v6 v7
                                                               (coe
                                                                  MAlonzo.Code.Relation.Binary.Reasoning.Base.Triple.du_stop_166
                                                                  (coe
-                                                                    MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2672))
+                                                                    MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2680))
                                                               (coe
                                                                  MAlonzo.Code.Agda.Builtin.Nat.d_div'45'helper_60
                                                                  (addInt
@@ -677,7 +686,7 @@ d_div'8341''45'mono'45''8804'_886 v0 v1 v2 v3 v4 v5 v6 v7
                                                                  addInt (coe (1 :: Integer))
                                                                  (coe v0))
                                                               (coe v1) (coe v12) (coe v1)))
-                                                        (MAlonzo.Code.Data.Nat.Properties.d_n'8804'1'43'n_2706
+                                                        (MAlonzo.Code.Data.Nat.Properties.d_n'8804'1'43'n_2714
                                                            (coe v0)))
                                                      erased))
                                  _ -> MAlonzo.RTE.mazUnreachableError)) in
@@ -685,12 +694,21 @@ d_div'8341''45'mono'45''8804'_886 v0 v1 v2 v3 v4 v5 v6 v7
                    (case coe v4 of
                       0 -> case coe v5 of
                              0 -> case coe v7 of
-                                    MAlonzo.Code.Data.Nat.Base.C_z'8804'n_22
+                                    MAlonzo.Code.Data.Nat.Base.C_z'8804'n_26
                                       -> let v15 = 0 :: Integer in
                                          coe
                                            (let v16
-                                                  = MAlonzo.Code.Data.Nat.Properties.d__'60''63'__2892
-                                                      (coe (0 :: Integer)) (coe v2) in
+                                                  = coe
+                                                      MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_150
+                                                      (\ v16 ->
+                                                         coe
+                                                           MAlonzo.Code.Data.Nat.Properties.du_'8804''7495''8658''8804'_2616
+                                                           (coe (1 :: Integer)))
+                                                      (coe
+                                                         MAlonzo.Code.Relation.Nullary.Decidable.Core.d_T'63'_64
+                                                         (coe
+                                                            MAlonzo.Code.Data.Nat.Base.d__'8804''7495'__14
+                                                            (coe (1 :: Integer)) (coe v2))) in
                                             coe
                                               (case coe v16 of
                                                  MAlonzo.Code.Relation.Nullary.Decidable.Core.C__because__32 v17 v18
@@ -702,10 +720,10 @@ d_div'8341''45'mono'45''8804'_886 v0 v1 v2 v3 v4 v5 v6 v7
                                                                   (coe
                                                                      MAlonzo.Code.Relation.Binary.Reasoning.Base.Triple.du_start_96
                                                                      (coe
-                                                                        MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2672)
+                                                                        MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2680)
                                                                      (\ v19 v20 v21 ->
                                                                         coe
-                                                                          MAlonzo.Code.Data.Nat.Properties.du_'60''8658''8804'_2716
+                                                                          MAlonzo.Code.Data.Nat.Properties.du_'60''8658''8804'_2724
                                                                           v21))
                                                                   (coe
                                                                      MAlonzo.Code.Agda.Builtin.Nat.d_div'45'helper_60
@@ -743,10 +761,10 @@ d_div'8341''45'mono'45''8804'_886 v0 v1 v2 v3 v4 v5 v6 v7
                                                                         (coe
                                                                            MAlonzo.Code.Relation.Binary.Reasoning.Base.Triple.du_'8804''45'go_138
                                                                            (coe
-                                                                              MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2672)
+                                                                              MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2680)
                                                                            (\ v19 v20 v21 v22 v23 ->
                                                                               coe
-                                                                                MAlonzo.Code.Data.Nat.Properties.du_'8804''45''60''45'trans_2848
+                                                                                MAlonzo.Code.Data.Nat.Properties.du_'8804''45''60''45'trans_2856
                                                                                 v22 v23))
                                                                         (coe
                                                                            MAlonzo.Code.Agda.Builtin.Nat.d_div'45'helper_60
@@ -775,7 +793,7 @@ d_div'8341''45'mono'45''8804'_886 v0 v1 v2 v3 v4 v5 v6 v7
                                                                            (coe
                                                                               MAlonzo.Code.Relation.Binary.Reasoning.Base.Triple.du_stop_166
                                                                               (coe
-                                                                                 MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2672))
+                                                                                 MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2680))
                                                                            (coe
                                                                               MAlonzo.Code.Agda.Builtin.Nat.d_div'45'helper_60
                                                                               (addInt
@@ -795,14 +813,14 @@ d_div'8341''45'mono'45''8804'_886 v0 v1 v2 v3 v4 v5 v6 v7
                                                                            (coe v12) (coe v1)
                                                                            (coe v1)
                                                                            (coe
-                                                                              MAlonzo.Code.Data.Nat.Properties.du_'8804''45'trans_2646
+                                                                              MAlonzo.Code.Data.Nat.Properties.du_'8804''45'trans_2654
                                                                               (coe
-                                                                                 MAlonzo.Code.Data.Nat.Properties.d_m'8760'n'8804'm_4854
+                                                                                 MAlonzo.Code.Data.Nat.Properties.d_m'8760'n'8804'm_4914
                                                                                  (coe v11)
                                                                                  (coe v15))
                                                                               (coe v10))
                                                                            (coe
-                                                                              MAlonzo.Code.Data.Nat.Properties.du_m'8804'm'43'n_3344
+                                                                              MAlonzo.Code.Data.Nat.Properties.du_m'8804'm'43'n_3352
                                                                               (coe v1))))
                                                                      erased))
                                                         else coe
@@ -812,10 +830,10 @@ d_div'8341''45'mono'45''8804'_886 v0 v1 v2 v3 v4 v5 v6 v7
                                                                   (coe
                                                                      MAlonzo.Code.Relation.Binary.Reasoning.Base.Triple.du_start_96
                                                                      (coe
-                                                                        MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2672)
+                                                                        MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2680)
                                                                      (\ v19 v20 v21 ->
                                                                         coe
-                                                                          MAlonzo.Code.Data.Nat.Properties.du_'60''8658''8804'_2716
+                                                                          MAlonzo.Code.Data.Nat.Properties.du_'60''8658''8804'_2724
                                                                           v21))
                                                                   (coe
                                                                      MAlonzo.Code.Agda.Builtin.Nat.d_div'45'helper_60
@@ -844,10 +862,10 @@ d_div'8341''45'mono'45''8804'_886 v0 v1 v2 v3 v4 v5 v6 v7
                                                                         (coe
                                                                            MAlonzo.Code.Relation.Binary.Reasoning.Base.Triple.du_'8804''45'go_138
                                                                            (coe
-                                                                              MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2672)
+                                                                              MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2680)
                                                                            (\ v19 v20 v21 v22 v23 ->
                                                                               coe
-                                                                                MAlonzo.Code.Data.Nat.Properties.du_'8804''45''60''45'trans_2848
+                                                                                MAlonzo.Code.Data.Nat.Properties.du_'8804''45''60''45'trans_2856
                                                                                 v22 v23))
                                                                         v0
                                                                         (addInt
@@ -864,11 +882,11 @@ d_div'8341''45'mono'45''8804'_886 v0 v1 v2 v3 v4 v5 v6 v7
                                                                            (coe
                                                                               MAlonzo.Code.Relation.Binary.Reasoning.Base.Triple.du_'8804''45'go_138
                                                                               (coe
-                                                                                 MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2672)
+                                                                                 MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2680)
                                                                               (\ v19 v20 v21 v22
                                                                                  v23 ->
                                                                                  coe
-                                                                                   MAlonzo.Code.Data.Nat.Properties.du_'8804''45''60''45'trans_2848
+                                                                                   MAlonzo.Code.Data.Nat.Properties.du_'8804''45''60''45'trans_2856
                                                                                    v22 v23))
                                                                            (addInt
                                                                               (coe (1 :: Integer))
@@ -892,7 +910,7 @@ d_div'8341''45'mono'45''8804'_886 v0 v1 v2 v3 v4 v5 v6 v7
                                                                               (coe
                                                                                  MAlonzo.Code.Relation.Binary.Reasoning.Base.Triple.du_stop_166
                                                                                  (coe
-                                                                                    MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2672))
+                                                                                    MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2680))
                                                                               (coe
                                                                                  MAlonzo.Code.Agda.Builtin.Nat.d_div'45'helper_60
                                                                                  (addInt
@@ -909,7 +927,7 @@ d_div'8341''45'mono'45''8804'_886 v0 v1 v2 v3 v4 v5 v6 v7
                                                                                  (coe v0))
                                                                               (coe v1) (coe v12)
                                                                               (coe v1)))
-                                                                        (MAlonzo.Code.Data.Nat.Properties.d_n'8804'1'43'n_2706
+                                                                        (MAlonzo.Code.Data.Nat.Properties.d_n'8804'1'43'n_2714
                                                                            (coe v0)))
                                                                      erased))
                                                  _ -> MAlonzo.RTE.mazUnreachableError))
@@ -921,8 +939,18 @@ d_div'8341''45'mono'45''8804'_886 v0 v1 v2 v3 v4 v5 v6 v7
                                 0 -> coe
                                        seq (coe v7)
                                        (let v15
-                                              = MAlonzo.Code.Data.Nat.Properties.d__'60''63'__2892
-                                                  (coe v4) (coe v2) in
+                                              = coe
+                                                  MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_150
+                                                  (\ v15 ->
+                                                     coe
+                                                       MAlonzo.Code.Data.Nat.Properties.du_'8804''7495''8658''8804'_2616
+                                                       (coe addInt (coe (1 :: Integer)) (coe v4)))
+                                                  (coe
+                                                     MAlonzo.Code.Relation.Nullary.Decidable.Core.d_T'63'_64
+                                                     (coe
+                                                        MAlonzo.Code.Data.Nat.Base.d__'8804''7495'__14
+                                                        (coe addInt (coe (1 :: Integer)) (coe v4))
+                                                        (coe v2))) in
                                         coe
                                           (case coe v15 of
                                              MAlonzo.Code.Relation.Nullary.Decidable.Core.C__because__32 v16 v17
@@ -934,10 +962,10 @@ d_div'8341''45'mono'45''8804'_886 v0 v1 v2 v3 v4 v5 v6 v7
                                                               (coe
                                                                  MAlonzo.Code.Relation.Binary.Reasoning.Base.Triple.du_start_96
                                                                  (coe
-                                                                    MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2672)
+                                                                    MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2680)
                                                                  (\ v18 v19 v20 ->
                                                                     coe
-                                                                      MAlonzo.Code.Data.Nat.Properties.du_'60''8658''8804'_2716
+                                                                      MAlonzo.Code.Data.Nat.Properties.du_'60''8658''8804'_2724
                                                                       v20))
                                                               (coe
                                                                  MAlonzo.Code.Agda.Builtin.Nat.d_div'45'helper_60
@@ -976,10 +1004,10 @@ d_div'8341''45'mono'45''8804'_886 v0 v1 v2 v3 v4 v5 v6 v7
                                                                     (coe
                                                                        MAlonzo.Code.Relation.Binary.Reasoning.Base.Triple.du_'8804''45'go_138
                                                                        (coe
-                                                                          MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2672)
+                                                                          MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2680)
                                                                        (\ v18 v19 v20 v21 v22 ->
                                                                           coe
-                                                                            MAlonzo.Code.Data.Nat.Properties.du_'8804''45''60''45'trans_2848
+                                                                            MAlonzo.Code.Data.Nat.Properties.du_'8804''45''60''45'trans_2856
                                                                             v21 v22))
                                                                     (coe
                                                                        MAlonzo.Code.Agda.Builtin.Nat.d_div'45'helper_60
@@ -1008,7 +1036,7 @@ d_div'8341''45'mono'45''8804'_886 v0 v1 v2 v3 v4 v5 v6 v7
                                                                        (coe
                                                                           MAlonzo.Code.Relation.Binary.Reasoning.Base.Triple.du_stop_166
                                                                           (coe
-                                                                             MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2672))
+                                                                             MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2680))
                                                                        (coe
                                                                           MAlonzo.Code.Agda.Builtin.Nat.d_div'45'helper_60
                                                                           (addInt
@@ -1029,13 +1057,13 @@ d_div'8341''45'mono'45''8804'_886 v0 v1 v2 v3 v4 v5 v6 v7
                                                                           addInt (coe v1) (coe v4))
                                                                        (coe v1)
                                                                        (coe
-                                                                          MAlonzo.Code.Data.Nat.Properties.du_'8804''45'trans_2646
+                                                                          MAlonzo.Code.Data.Nat.Properties.du_'8804''45'trans_2654
                                                                           (coe
-                                                                             MAlonzo.Code.Data.Nat.Properties.d_m'8760'n'8804'm_4854
+                                                                             MAlonzo.Code.Data.Nat.Properties.d_m'8760'n'8804'm_4914
                                                                              (coe v11) (coe v4))
                                                                           (coe v10))
                                                                        (coe
-                                                                          MAlonzo.Code.Data.Nat.Properties.du_m'8804'm'43'n_3344
+                                                                          MAlonzo.Code.Data.Nat.Properties.du_m'8804'm'43'n_3352
                                                                           (coe v1))))
                                                                  erased))
                                                     else coe
@@ -1045,10 +1073,10 @@ d_div'8341''45'mono'45''8804'_886 v0 v1 v2 v3 v4 v5 v6 v7
                                                               (coe
                                                                  MAlonzo.Code.Relation.Binary.Reasoning.Base.Triple.du_start_96
                                                                  (coe
-                                                                    MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2672)
+                                                                    MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2680)
                                                                  (\ v18 v19 v20 ->
                                                                     coe
-                                                                      MAlonzo.Code.Data.Nat.Properties.du_'60''8658''8804'_2716
+                                                                      MAlonzo.Code.Data.Nat.Properties.du_'60''8658''8804'_2724
                                                                       v20))
                                                               (coe
                                                                  MAlonzo.Code.Agda.Builtin.Nat.d_div'45'helper_60
@@ -1078,10 +1106,10 @@ d_div'8341''45'mono'45''8804'_886 v0 v1 v2 v3 v4 v5 v6 v7
                                                                     (coe
                                                                        MAlonzo.Code.Relation.Binary.Reasoning.Base.Triple.du_'8804''45'go_138
                                                                        (coe
-                                                                          MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2672)
+                                                                          MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2680)
                                                                        (\ v18 v19 v20 v21 v22 ->
                                                                           coe
-                                                                            MAlonzo.Code.Data.Nat.Properties.du_'8804''45''60''45'trans_2848
+                                                                            MAlonzo.Code.Data.Nat.Properties.du_'8804''45''60''45'trans_2856
                                                                             v21 v22))
                                                                     v0
                                                                     (addInt
@@ -1098,10 +1126,10 @@ d_div'8341''45'mono'45''8804'_886 v0 v1 v2 v3 v4 v5 v6 v7
                                                                        (coe
                                                                           MAlonzo.Code.Relation.Binary.Reasoning.Base.Triple.du_'8804''45'go_138
                                                                           (coe
-                                                                             MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2672)
+                                                                             MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2680)
                                                                           (\ v18 v19 v20 v21 v22 ->
                                                                              coe
-                                                                               MAlonzo.Code.Data.Nat.Properties.du_'8804''45''60''45'trans_2848
+                                                                               MAlonzo.Code.Data.Nat.Properties.du_'8804''45''60''45'trans_2856
                                                                                v21 v22))
                                                                        (addInt
                                                                           (coe (1 :: Integer))
@@ -1123,7 +1151,7 @@ d_div'8341''45'mono'45''8804'_886 v0 v1 v2 v3 v4 v5 v6 v7
                                                                           (coe
                                                                              MAlonzo.Code.Relation.Binary.Reasoning.Base.Triple.du_stop_166
                                                                              (coe
-                                                                                MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2672))
+                                                                                MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2680))
                                                                           (coe
                                                                              MAlonzo.Code.Agda.Builtin.Nat.d_div'45'helper_60
                                                                              (addInt
@@ -1137,23 +1165,37 @@ d_div'8341''45'mono'45''8804'_886 v0 v1 v2 v3 v4 v5 v6 v7
                                                                              (coe v0))
                                                                           (coe v1) (coe v12)
                                                                           (coe v1)))
-                                                                    (MAlonzo.Code.Data.Nat.Properties.d_n'8804'1'43'n_2706
+                                                                    (MAlonzo.Code.Data.Nat.Properties.d_n'8804'1'43'n_2714
                                                                        (coe v0)))
                                                                  erased))
                                              _ -> MAlonzo.RTE.mazUnreachableError))
                                 _ -> let v15 = subInt (coe v5) (coe (1 :: Integer)) in
                                      coe
                                        (case coe v7 of
-                                          MAlonzo.Code.Data.Nat.Base.C_s'8804's_30 v18
+                                          MAlonzo.Code.Data.Nat.Base.C_s'8804's_34 v18
                                             -> coe
                                                  d_div'8341''45'mono'45''8804'_886 (coe v0)
                                                  (coe addInt (coe (1 :: Integer)) (coe v1))
                                                  (coe v11) (coe v12) (coe v14) (coe v15) (coe v10)
                                                  (coe v18)
-                                          MAlonzo.Code.Data.Nat.Base.C_z'8804'n_22
+                                          MAlonzo.Code.Data.Nat.Base.C_z'8804'n_26
                                             -> let v17
-                                                     = MAlonzo.Code.Data.Nat.Properties.d__'60''63'__2892
-                                                         (coe v4) (coe v2) in
+                                                     = coe
+                                                         MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_150
+                                                         (\ v17 ->
+                                                            coe
+                                                              MAlonzo.Code.Data.Nat.Properties.du_'8804''7495''8658''8804'_2616
+                                                              (coe
+                                                                 addInt (coe (1 :: Integer))
+                                                                 (coe v4)))
+                                                         (coe
+                                                            MAlonzo.Code.Relation.Nullary.Decidable.Core.d_T'63'_64
+                                                            (coe
+                                                               MAlonzo.Code.Data.Nat.Base.d__'8804''7495'__14
+                                                               (coe
+                                                                  addInt (coe (1 :: Integer))
+                                                                  (coe v4))
+                                                               (coe v2))) in
                                                coe
                                                  (case coe v17 of
                                                     MAlonzo.Code.Relation.Nullary.Decidable.Core.C__because__32 v18 v19
@@ -1165,10 +1207,10 @@ d_div'8341''45'mono'45''8804'_886 v0 v1 v2 v3 v4 v5 v6 v7
                                                                      (coe
                                                                         MAlonzo.Code.Relation.Binary.Reasoning.Base.Triple.du_start_96
                                                                         (coe
-                                                                           MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2672)
+                                                                           MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2680)
                                                                         (\ v20 v21 v22 ->
                                                                            coe
-                                                                             MAlonzo.Code.Data.Nat.Properties.du_'60''8658''8804'_2716
+                                                                             MAlonzo.Code.Data.Nat.Properties.du_'60''8658''8804'_2724
                                                                              v22))
                                                                      (coe
                                                                         MAlonzo.Code.Agda.Builtin.Nat.d_div'45'helper_60
@@ -1214,11 +1256,11 @@ d_div'8341''45'mono'45''8804'_886 v0 v1 v2 v3 v4 v5 v6 v7
                                                                            (coe
                                                                               MAlonzo.Code.Relation.Binary.Reasoning.Base.Triple.du_'8804''45'go_138
                                                                               (coe
-                                                                                 MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2672)
+                                                                                 MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2680)
                                                                               (\ v20 v21 v22 v23
                                                                                  v24 ->
                                                                                  coe
-                                                                                   MAlonzo.Code.Data.Nat.Properties.du_'8804''45''60''45'trans_2848
+                                                                                   MAlonzo.Code.Data.Nat.Properties.du_'8804''45''60''45'trans_2856
                                                                                    v23 v24))
                                                                            (coe
                                                                               MAlonzo.Code.Agda.Builtin.Nat.d_div'45'helper_60
@@ -1252,7 +1294,7 @@ d_div'8341''45'mono'45''8804'_886 v0 v1 v2 v3 v4 v5 v6 v7
                                                                               (coe
                                                                                  MAlonzo.Code.Relation.Binary.Reasoning.Base.Triple.du_stop_166
                                                                                  (coe
-                                                                                    MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2672))
+                                                                                    MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2680))
                                                                               (coe
                                                                                  MAlonzo.Code.Agda.Builtin.Nat.d_div'45'helper_60
                                                                                  (addInt
@@ -1277,14 +1319,14 @@ d_div'8341''45'mono'45''8804'_886 v0 v1 v2 v3 v4 v5 v6 v7
                                                                                  (coe v4))
                                                                               (coe v1)
                                                                               (coe
-                                                                                 MAlonzo.Code.Data.Nat.Properties.du_'8804''45'trans_2646
+                                                                                 MAlonzo.Code.Data.Nat.Properties.du_'8804''45'trans_2654
                                                                                  (coe
-                                                                                    MAlonzo.Code.Data.Nat.Properties.d_m'8760'n'8804'm_4854
+                                                                                    MAlonzo.Code.Data.Nat.Properties.d_m'8760'n'8804'm_4914
                                                                                     (coe v11)
                                                                                     (coe v4))
                                                                                  (coe v10))
                                                                               (coe
-                                                                                 MAlonzo.Code.Data.Nat.Properties.du_m'8804'm'43'n_3344
+                                                                                 MAlonzo.Code.Data.Nat.Properties.du_m'8804'm'43'n_3352
                                                                                  (coe v1))))
                                                                         erased))
                                                            else coe
@@ -1294,10 +1336,10 @@ d_div'8341''45'mono'45''8804'_886 v0 v1 v2 v3 v4 v5 v6 v7
                                                                      (coe
                                                                         MAlonzo.Code.Relation.Binary.Reasoning.Base.Triple.du_start_96
                                                                         (coe
-                                                                           MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2672)
+                                                                           MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2680)
                                                                         (\ v20 v21 v22 ->
                                                                            coe
-                                                                             MAlonzo.Code.Data.Nat.Properties.du_'60''8658''8804'_2716
+                                                                             MAlonzo.Code.Data.Nat.Properties.du_'60''8658''8804'_2724
                                                                              v22))
                                                                      (coe
                                                                         MAlonzo.Code.Agda.Builtin.Nat.d_div'45'helper_60
@@ -1332,11 +1374,11 @@ d_div'8341''45'mono'45''8804'_886 v0 v1 v2 v3 v4 v5 v6 v7
                                                                            (coe
                                                                               MAlonzo.Code.Relation.Binary.Reasoning.Base.Triple.du_'8804''45'go_138
                                                                               (coe
-                                                                                 MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2672)
+                                                                                 MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2680)
                                                                               (\ v20 v21 v22 v23
                                                                                  v24 ->
                                                                                  coe
-                                                                                   MAlonzo.Code.Data.Nat.Properties.du_'8804''45''60''45'trans_2848
+                                                                                   MAlonzo.Code.Data.Nat.Properties.du_'8804''45''60''45'trans_2856
                                                                                    v23 v24))
                                                                            v0
                                                                            (addInt
@@ -1354,11 +1396,11 @@ d_div'8341''45'mono'45''8804'_886 v0 v1 v2 v3 v4 v5 v6 v7
                                                                               (coe
                                                                                  MAlonzo.Code.Relation.Binary.Reasoning.Base.Triple.du_'8804''45'go_138
                                                                                  (coe
-                                                                                    MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2672)
+                                                                                    MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2680)
                                                                                  (\ v20 v21 v22 v23
                                                                                     v24 ->
                                                                                     coe
-                                                                                      MAlonzo.Code.Data.Nat.Properties.du_'8804''45''60''45'trans_2848
+                                                                                      MAlonzo.Code.Data.Nat.Properties.du_'8804''45''60''45'trans_2856
                                                                                       v23 v24))
                                                                               (addInt
                                                                                  (coe
@@ -1385,7 +1427,7 @@ d_div'8341''45'mono'45''8804'_886 v0 v1 v2 v3 v4 v5 v6 v7
                                                                                  (coe
                                                                                     MAlonzo.Code.Relation.Binary.Reasoning.Base.Triple.du_stop_166
                                                                                     (coe
-                                                                                       MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2672))
+                                                                                       MAlonzo.Code.Data.Nat.Properties.d_'8804''45'isPreorder_2680))
                                                                                  (coe
                                                                                     MAlonzo.Code.Agda.Builtin.Nat.d_div'45'helper_60
                                                                                     (addInt
@@ -1403,7 +1445,7 @@ d_div'8341''45'mono'45''8804'_886 v0 v1 v2 v3 v4 v5 v6 v7
                                                                                     (coe v0))
                                                                                  (coe v1) (coe v12)
                                                                                  (coe v1)))
-                                                                           (MAlonzo.Code.Data.Nat.Properties.d_n'8804'1'43'n_2706
+                                                                           (MAlonzo.Code.Data.Nat.Properties.d_n'8804'1'43'n_2714
                                                                               (coe v0)))
                                                                         erased))
                                                     _ -> MAlonzo.RTE.mazUnreachableError)

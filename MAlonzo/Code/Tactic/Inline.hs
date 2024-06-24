@@ -25,6 +25,7 @@ import qualified MAlonzo.Code.Agda.Builtin.Reflection
 import qualified MAlonzo.Code.Agda.Builtin.Sigma
 import qualified MAlonzo.Code.Agda.Builtin.String
 import qualified MAlonzo.Code.Agda.Builtin.Unit
+import qualified MAlonzo.Code.Algebra.Definitions.RawMagma
 import qualified MAlonzo.Code.Class.DecEq.Core
 import qualified MAlonzo.Code.Class.Functor.Core
 import qualified MAlonzo.Code.Class.Functor.Instances
@@ -35,6 +36,7 @@ import qualified MAlonzo.Code.Class.Show.Core
 import qualified MAlonzo.Code.Class.Show.Instances
 import qualified MAlonzo.Code.Data.List.Base
 import qualified MAlonzo.Code.Data.List.Ext
+import qualified MAlonzo.Code.Data.Nat.Base
 import qualified MAlonzo.Code.Data.Nat.Properties
 import qualified MAlonzo.Code.Data.String.Base
 import qualified MAlonzo.Code.Interface.ToBool
@@ -322,8 +324,17 @@ du_lookupVar_54 ::
   Integer -> Maybe MAlonzo.Code.Agda.Builtin.Reflection.T_Term_154
 du_lookupVar_54 v0 v1 v2
   = let v3
-          = MAlonzo.Code.Data.Nat.Properties.d__'60''63'__2892
-              (coe v2) (coe v1) in
+          = coe
+              MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_150
+              (\ v3 ->
+                 coe
+                   MAlonzo.Code.Data.Nat.Properties.du_'8804''7495''8658''8804'_2616
+                   (coe addInt (coe (1 :: Integer)) (coe v2)))
+              (coe
+                 MAlonzo.Code.Relation.Nullary.Decidable.Core.d_T'63'_64
+                 (coe
+                    MAlonzo.Code.Data.Nat.Base.d__'8804''7495'__14
+                    (coe addInt (coe (1 :: Integer)) (coe v2)) (coe v1))) in
     coe
       (case coe v3 of
          MAlonzo.Code.Relation.Nullary.Decidable.Core.C__because__32 v4 v5
@@ -344,9 +355,9 @@ du_lookupVar_54 v0 v1 v2
                                 (addInt
                                    (coe (1 :: Integer))
                                    (coe
-                                      MAlonzo.Code.Agda.Builtin.Sigma.d_fst_28
+                                      MAlonzo.Code.Algebra.Definitions.RawMagma.d_quotient_36
                                       (coe
-                                         MAlonzo.Code.Data.Nat.Properties.du_'8804''8658''8804''8243'_6040
+                                         MAlonzo.Code.Data.Nat.Properties.du_'8804''8658''8804''8243'_6098
                                          (coe v1) (coe v2)))))))
          _ -> MAlonzo.RTE.mazUnreachableError)
 -- Tactic.Inline._._.go

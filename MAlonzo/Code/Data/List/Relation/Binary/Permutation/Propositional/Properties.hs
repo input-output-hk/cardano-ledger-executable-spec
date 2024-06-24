@@ -26,11 +26,13 @@ import qualified MAlonzo.Code.Algebra.Structures
 import qualified MAlonzo.Code.Data.Irrelevant
 import qualified MAlonzo.Code.Data.List.Base
 import qualified MAlonzo.Code.Data.List.Membership.Propositional.Properties
+import qualified MAlonzo.Code.Data.List.Membership.Setoid.Properties
 import qualified MAlonzo.Code.Data.List.Properties
 import qualified MAlonzo.Code.Data.List.Relation.Binary.Permutation.Propositional
 import qualified MAlonzo.Code.Data.List.Relation.Unary.All
 import qualified MAlonzo.Code.Data.List.Relation.Unary.Any
 import qualified MAlonzo.Code.Data.Product.Base
+import qualified MAlonzo.Code.Relation.Binary.PropositionalEquality.Properties
 import qualified MAlonzo.Code.Relation.Binary.Reasoning.Base.Single
 import qualified MAlonzo.Code.Relation.Binary.Reasoning.Syntax
 import qualified MAlonzo.Code.Relation.Binary.Structures
@@ -1262,17 +1264,19 @@ du_drop'45'mid'8242'_530 v0 v1 v2 v3 v4 v5 v6 v7
       MAlonzo.Code.Data.List.Relation.Binary.Permutation.Propositional.C_trans_46 v9 v11 v12
         -> let v13
                  = coe
-                     MAlonzo.Code.Data.List.Membership.Propositional.Properties.du_'8712''45''8707''43''43'_230
+                     MAlonzo.Code.Data.List.Membership.Setoid.Properties.du_'8712''45''8707''43''43'_860
+                     (coe
+                        MAlonzo.Code.Relation.Binary.PropositionalEquality.Properties.du_setoid_402)
                      (coe v9)
                      (coe
-                        du_'8712''45'resp'45''8621'_180
+                        du_Any'45'resp'45''8621'_130
                         (coe
                            MAlonzo.Code.Data.List.Base.du__'43''43'__62 (coe v4)
                            (coe
                               MAlonzo.Code.Data.List.Base.du__'43''43'__62
                               (coe MAlonzo.Code.Data.List.Base.du_'91'_'93'_306 (coe v0))
                               (coe v6)))
-                        v9 v11
+                        (coe v9) (coe v11)
                         (coe
                            MAlonzo.Code.Data.List.Membership.Propositional.Properties.du_'8712''45'insert_220
                            (coe v0) (coe v4))) in
@@ -1281,37 +1285,65 @@ du_drop'45'mid'8242'_530 v0 v1 v2 v3 v4 v5 v6 v7
                 MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 v14 v15
                   -> case coe v15 of
                        MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 v16 v17
-                         -> coe
-                              MAlonzo.Code.Data.List.Relation.Binary.Permutation.Propositional.C_trans_46
-                              (coe
-                                 MAlonzo.Code.Data.List.Base.du__'43''43'__62 (coe v14) (coe v16))
-                              (coe
-                                 du_drop'45'mid'8242'_530 (coe v0)
-                                 (coe
-                                    MAlonzo.Code.Data.List.Base.du__'43''43'__62 (coe v4)
-                                    (coe
-                                       MAlonzo.Code.Data.List.Base.du__'43''43'__62
-                                       (coe MAlonzo.Code.Data.List.Base.du_'91'_'93'_306 (coe v0))
-                                       (coe v6)))
-                                 (coe
-                                    MAlonzo.Code.Data.List.Base.du__'43''43'__62 (coe v14)
-                                    (coe
-                                       MAlonzo.Code.Agda.Builtin.List.C__'8759'__22 (coe v0)
-                                       (coe v16)))
-                                 (coe v11) (coe v4) (coe v14) (coe v6) (coe v16))
-                              (coe
-                                 du_drop'45'mid'8242'_530 (coe v0)
-                                 (coe
-                                    MAlonzo.Code.Data.List.Base.du__'43''43'__62 (coe v14)
-                                    (coe
-                                       MAlonzo.Code.Agda.Builtin.List.C__'8759'__22 (coe v0)
-                                       (coe v16)))
-                                 (coe
-                                    MAlonzo.Code.Data.List.Base.du__'43''43'__62 (coe v5)
-                                    (coe
-                                       MAlonzo.Code.Agda.Builtin.List.C__'8759'__22 (coe v0)
-                                       (coe v7)))
-                                 (coe v12) (coe v14) (coe v5) (coe v16) (coe v7))
+                         -> case coe v17 of
+                              MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 v18 v19
+                                -> let v20
+                                         = seq
+                                             (coe v19)
+                                             (coe
+                                                MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32
+                                                (coe v14)
+                                                (coe
+                                                   MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32
+                                                   (coe v16) erased)) in
+                                   coe
+                                     (case coe v20 of
+                                        MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 v21 v22
+                                          -> case coe v22 of
+                                               MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 v23 v24
+                                                 -> coe
+                                                      MAlonzo.Code.Data.List.Relation.Binary.Permutation.Propositional.C_trans_46
+                                                      (coe
+                                                         MAlonzo.Code.Data.List.Base.du__'43''43'__62
+                                                         (coe v21) (coe v23))
+                                                      (coe
+                                                         du_drop'45'mid'8242'_530 (coe v0)
+                                                         (coe
+                                                            MAlonzo.Code.Data.List.Base.du__'43''43'__62
+                                                            (coe v4)
+                                                            (coe
+                                                               MAlonzo.Code.Data.List.Base.du__'43''43'__62
+                                                               (coe
+                                                                  MAlonzo.Code.Data.List.Base.du_'91'_'93'_306
+                                                                  (coe v0))
+                                                               (coe v6)))
+                                                         (coe
+                                                            MAlonzo.Code.Data.List.Base.du__'43''43'__62
+                                                            (coe v21)
+                                                            (coe
+                                                               MAlonzo.Code.Agda.Builtin.List.C__'8759'__22
+                                                               (coe v0) (coe v23)))
+                                                         (coe v11) (coe v4) (coe v21) (coe v6)
+                                                         (coe v23))
+                                                      (coe
+                                                         du_drop'45'mid'8242'_530 (coe v0)
+                                                         (coe
+                                                            MAlonzo.Code.Data.List.Base.du__'43''43'__62
+                                                            (coe v21)
+                                                            (coe
+                                                               MAlonzo.Code.Agda.Builtin.List.C__'8759'__22
+                                                               (coe v0) (coe v23)))
+                                                         (coe
+                                                            MAlonzo.Code.Data.List.Base.du__'43''43'__62
+                                                            (coe v5)
+                                                            (coe
+                                                               MAlonzo.Code.Agda.Builtin.List.C__'8759'__22
+                                                               (coe v0) (coe v7)))
+                                                         (coe v12) (coe v21) (coe v5) (coe v23)
+                                                         (coe v7))
+                                               _ -> MAlonzo.RTE.mazUnreachableError
+                                        _ -> MAlonzo.RTE.mazUnreachableError)
+                              _ -> MAlonzo.RTE.mazUnreachableError
                        _ -> MAlonzo.RTE.mazUnreachableError
                 _ -> MAlonzo.RTE.mazUnreachableError)
       _ -> MAlonzo.RTE.mazUnreachableError

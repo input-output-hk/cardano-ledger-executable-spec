@@ -244,7 +244,7 @@ du_adjustParams_24 v0 v1 v2
                                    () erased () erased
                                    (\ v10 ->
                                       coe
-                                        MAlonzo.Code.Data.Bool.Base.du_if_then_else__42 (coe v10)
+                                        MAlonzo.Code.Data.Bool.Base.du_if_then_else__44 (coe v10)
                                         (coe
                                            MAlonzo.Code.Data.List.Base.du_'91'_'93'_306
                                            (coe
@@ -375,7 +375,7 @@ du_adjustParams_24 v0 v1 v2
                                                                                       (\ v19 ->
                                                                                          addInt
                                                                                            (coe
-                                                                                              MAlonzo.Code.Data.Bool.Base.du_if_then_else__42
+                                                                                              MAlonzo.Code.Data.Bool.Base.du_if_then_else__44
                                                                                               (coe
                                                                                                  v14)
                                                                                               (coe
@@ -411,7 +411,7 @@ du_trueIndices_54 v0
       [] -> coe v0
       (:) v1 v2
         -> coe
-             MAlonzo.Code.Data.Bool.Base.du_if_then_else__42
+             MAlonzo.Code.Data.Bool.Base.du_if_then_else__44
              (coe MAlonzo.Code.Agda.Builtin.Sigma.d_snd_30 (coe v1))
              (coe
                 MAlonzo.Code.Agda.Builtin.List.C__'8759'__22
@@ -519,7 +519,7 @@ du_lookupName_84
       (coe
          (\ v0 v1 ->
             coe
-              MAlonzo.Code.Relation.Nullary.Decidable.Core.d_'8970'_'8971'_106 ()
+              MAlonzo.Code.Relation.Nullary.Decidable.Core.d_'8970'_'8971'_112 ()
               erased
               (MAlonzo.Code.Reflection.AST.Name.d__'8799'__12
                  (coe v0) (coe v1))))
@@ -581,8 +581,9 @@ du_genMutualHelpers_90 v0 v1
            MAlonzo.Code.Class.Monad.Core.d_return_16
            MAlonzo.Code.Class.Monad.Instances.d_Monad'45'TC_6 () erased
            (coe
-              MAlonzo.Code.Data.List.Base.du_deduplicate_934
-              (MAlonzo.Code.Class.DecEq.Core.d__'8799'__16
+              MAlonzo.Code.Data.List.Base.du_deduplicate_1000
+              (coe
+                 MAlonzo.Code.Class.DecEq.Core.d__'8799'__16
                  (coe MAlonzo.Code.Class.DecEq.Instances.d_DecEq'45'Name_178))
               (coe
                  MAlonzo.Code.Data.List.Base.du_mapMaybe_32
@@ -603,7 +604,7 @@ du_helper_98 v0 v1
       (case coe v1 of
          MAlonzo.Code.Agda.Builtin.Reflection.C_def_184 v3 v4
            -> coe
-                MAlonzo.Code.Data.Bool.Base.du_if_then_else__42
+                MAlonzo.Code.Data.Bool.Base.du_if_then_else__44
                 (coe
                    MAlonzo.Code.Data.List.Base.du_any_292
                    (coe
@@ -615,7 +616,7 @@ du_helper_98 v0 v1
                                   (case coe v7 of
                                      MAlonzo.Code.Agda.Builtin.Reflection.C_def_184 v9 v10
                                        -> coe
-                                            MAlonzo.Code.Relation.Nullary.Decidable.Core.d_'8970'_'8971'_106
+                                            MAlonzo.Code.Relation.Nullary.Decidable.Core.d_'8970'_'8971'_112
                                             () erased
                                             (MAlonzo.Code.Reflection.AST.Name.d__'8799'__12
                                                (coe v0) (coe v9))
@@ -702,7 +703,7 @@ d_deriveSingle_118 v0 v1 v2 v3 v4 v5 v6 v7
                               MAlonzo.Code.Meta.d_iMonadReader'45'TC_6 () erased
                               (\ v11 ->
                                  coe
-                                   MAlonzo.Code.Class.MonadTC.C_TCEnv'46'constructor_309
+                                   MAlonzo.Code.Class.MonadTC.C_TCEnv'46'constructor_243
                                    (coe MAlonzo.Code.Class.MonadTC.d_normalisation_50 (coe v11))
                                    (coe MAlonzo.Code.Class.MonadTC.d_reconstruction_52 (coe v11))
                                    (coe MAlonzo.Code.Class.MonadTC.d_noConstraints_54 (coe v11))

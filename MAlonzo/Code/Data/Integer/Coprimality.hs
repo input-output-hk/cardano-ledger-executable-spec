@@ -45,7 +45,7 @@ d_coprime'63'_10 ::
   Integer -> MAlonzo.Code.Relation.Nullary.Decidable.Core.T_Dec_20
 d_coprime'63'_10 v0 v1
   = coe
-      MAlonzo.Code.Data.Nat.Coprimality.d_coprime'63'_82
+      MAlonzo.Code.Data.Nat.Coprimality.d_coprime'63'_76
       (coe MAlonzo.Code.Data.Integer.Base.d_'8739'_'8739'_18 (coe v0))
       (coe MAlonzo.Code.Data.Integer.Base.d_'8739'_'8739'_18 (coe v1))
 -- Data.Integer.Coprimality.coprime-divisor
@@ -68,11 +68,7 @@ du_coprime'45'divisor_22 ::
   MAlonzo.Code.Data.Nat.Divisibility.Core.T__'8739'__12
 du_coprime'45'divisor_22 v0 v1 v2 v3
   = coe
-      MAlonzo.Code.Data.Nat.Coprimality.du_coprime'45'divisor_198
-      (coe
-         MAlonzo.Code.Function.Base.du_'8739'_'10217''45'__298
-         (\ v4 v5 -> v5) MAlonzo.Code.Data.Integer.Base.d_'8739'_'8739'_18
-         v0 v2)
+      MAlonzo.Code.Data.Nat.Coprimality.du_coprime'45'divisor_162
       (coe
          MAlonzo.Code.Function.Base.du__'45''10216'_'8739'_292
          MAlonzo.Code.Data.Integer.Base.d_'8739'_'8739'_18 (\ v4 v5 -> v4)
@@ -81,4 +77,8 @@ du_coprime'45'divisor_22 v0 v1 v2 v3
          MAlonzo.Code.Function.Base.du_'8739'_'10217''45'__298
          (\ v4 v5 -> v5) MAlonzo.Code.Data.Integer.Base.d_'8739'_'8739'_18
          v0 v1)
+      (coe
+         MAlonzo.Code.Function.Base.du_'8739'_'10217''45'__298
+         (\ v4 v5 -> v5) MAlonzo.Code.Data.Integer.Base.d_'8739'_'8739'_18
+         v0 v2)
       (coe v3)

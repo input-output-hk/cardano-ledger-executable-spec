@@ -42,7 +42,7 @@ du_toVec_28 ::
   (MAlonzo.Code.Data.Fin.Base.T_Fin_10 -> AgdaAny) ->
   MAlonzo.Code.Data.Vec.Base.T_Vec_28
 du_toVec_28 v0
-  = coe MAlonzo.Code.Data.Vec.Base.du_tabulate_452 (coe v0)
+  = coe MAlonzo.Code.Data.Vec.Base.du_tabulate_468 (coe v0)
 -- Data.Vec.Functional.fromVec
 d_fromVec_30 ::
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->

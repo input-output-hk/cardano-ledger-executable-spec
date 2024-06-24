@@ -23,7 +23,6 @@ import qualified MAlonzo.Code.Agda.Primitive
 import qualified MAlonzo.Code.Data.Product.Base
 import qualified MAlonzo.Code.Function.Base
 import qualified MAlonzo.Code.Function.Bundles
-import qualified MAlonzo.Code.Function.Consequences.Propositional
 import qualified MAlonzo.Code.Function.Properties.Inverse
 import qualified MAlonzo.Code.Function.Properties.Inverse.HalfAdjointEquivalence
 import qualified MAlonzo.Code.Function.Properties.RightInverse
@@ -405,12 +404,9 @@ du_Σ'45''8608'_210 ::
   MAlonzo.Code.Function.Bundles.T_Surjection_846
 du_Σ'45''8608'_210 v0 v1
   = coe
-      MAlonzo.Code.Function.Bundles.du_mk'8608'_2278
+      MAlonzo.Code.Function.Bundles.du_mk'8608''8347'_2358
       (coe du_to'8242'_228 (coe v0) (coe v1))
-      (coe
-         MAlonzo.Code.Function.Consequences.Propositional.du_strictlySurjective'8658'surjective_44
-         (coe du_to'8242'_228 (coe v0) (coe v1))
-         (coe du_strictlySurjective'8242'_236 (coe v0) (coe v1)))
+      (coe du_strictlySurjective'8242'_236 (coe v0) (coe v1))
 -- Data.Product.Function.Dependent.Propositional._._.to′
 d_to'8242'_228 ::
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
@@ -703,14 +699,14 @@ du_surjection'8242'_318 v0 v1
   = coe
       du_Σ'45''8608'_210
       (coe
-         MAlonzo.Code.Function.Properties.Inverse.du_'8596''8658''8608'_570
+         MAlonzo.Code.Function.Properties.Inverse.du_'8596''8658''8608'_644
          (coe
             MAlonzo.Code.Function.Properties.Inverse.HalfAdjointEquivalence.du_'8771''8658''8596'_78
             (coe du_I'8771'J_316 (coe v0))))
       (coe
          (\ v2 ->
             coe
-              MAlonzo.Code.Function.Properties.Inverse.du_'8596''8658''8608'_570
+              MAlonzo.Code.Function.Properties.Inverse.du_'8596''8658''8608'_644
               (coe v1 v2)))
 -- Data.Product.Function.Dependent.Propositional._._.left-inverse-of
 d_left'45'inverse'45'of_322 ::
@@ -815,14 +811,14 @@ du_cong_368 v0 v1 v2
         -> coe
              du_Σ'45''10230'_36
              (coe
-                MAlonzo.Code.Function.Properties.Inverse.du_'8596''8658''10230'_564
+                MAlonzo.Code.Function.Properties.Inverse.du_'8596''8658''10230'_638
                 v1)
              (coe v2)
       MAlonzo.Code.Function.Related.Propositional.C_reverseImplication_10
         -> coe
              du_Σ'45''10230'_36
              (coe
-                MAlonzo.Code.Function.Properties.Inverse.du_'8596''8658''10229'_566
+                MAlonzo.Code.Function.Properties.Inverse.du_'8596''8658''10229'_640
                 v1)
              (coe
                 du_swap'45'coercions_346 erased (coe v0) erased (coe v1) (coe v2))
@@ -830,7 +826,7 @@ du_cong_368 v0 v1 v2
         -> coe
              du_Σ'45''8660'_50
              (coe
-                MAlonzo.Code.Function.Properties.Inverse.du_'8596''8658''8608'_570
+                MAlonzo.Code.Function.Properties.Inverse.du_'8596''8658''8608'_644
                 v1)
              (coe v2)
       MAlonzo.Code.Function.Related.Propositional.C_injection_14
@@ -848,7 +844,7 @@ du_cong_368 v0 v1 v2
              (coe
                 du_Σ'45''8617'_254
                 (coe
-                   MAlonzo.Code.Function.Properties.Inverse.du_'8596''8658''8617'_576
+                   MAlonzo.Code.Function.Properties.Inverse.du_'8596''8658''8617'_650
                    (coe
                       MAlonzo.Code.Function.Properties.Inverse.du_'8596''45'sym_38 v1))
                 (coe
@@ -862,7 +858,7 @@ du_cong_368 v0 v1 v2
         -> coe
              du_Σ'45''8608'_210
              (coe
-                MAlonzo.Code.Function.Properties.Inverse.du_'8596''8658''8608'_570
+                MAlonzo.Code.Function.Properties.Inverse.du_'8596''8658''8608'_644
                 v1)
              (coe v2)
       MAlonzo.Code.Function.Related.Propositional.C_bijection_22

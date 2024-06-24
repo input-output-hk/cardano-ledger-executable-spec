@@ -137,7 +137,7 @@ du_fromVec_74 v0
       MAlonzo.Code.Data.Vec.Base.C__'8759'__38 v2 v3
         -> coe
              C__'8759'__34 (coe v2)
-             (coe MAlonzo.Code.Data.Vec.Base.du_toList_592 (coe v3))
+             (coe MAlonzo.Code.Data.Vec.Base.du_toList_608 (coe v3))
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Data.List.NonEmpty.Base.toVec
 d_toVec_82 ::
@@ -151,7 +151,7 @@ du_toVec_82 v0
       C__'8759'__34 v1 v2
         -> coe
              MAlonzo.Code.Data.Vec.Base.C__'8759'__38 v1
-             (coe MAlonzo.Code.Data.Vec.Base.du_fromList_600 (coe v2))
+             (coe MAlonzo.Code.Data.Vec.Base.du_fromList_616 (coe v2))
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Data.List.NonEmpty.Base.lift
 d_lift_92 ::
@@ -213,7 +213,7 @@ du_replicate_108 v0 v1
       C__'8759'__34 (coe v1)
       (coe
          MAlonzo.Code.Data.List.Base.du_replicate_314
-         (coe MAlonzo.Code.Data.Nat.Base.d_pred_154 (coe v0)) (coe v1))
+         (coe MAlonzo.Code.Data.Nat.Base.d_pred_192 (coe v0)) (coe v1))
 -- Data.List.NonEmpty.Base.drop+
 d_drop'43'_116 ::
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
@@ -412,7 +412,7 @@ du_reverse_220
             coe
               MAlonzo.Code.Function.Base.du__'8728''8242'__216
               (coe MAlonzo.Code.Data.Product.Base.du_'45''44'__92 (coe v0))
-              (coe MAlonzo.Code.Data.Vec.Base.du_reverse_616)))
+              (coe MAlonzo.Code.Data.Vec.Base.du_reverse_632)))
 -- Data.List.NonEmpty.Base.alignWith
 d_alignWith_222 ::
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
@@ -642,11 +642,18 @@ d_last_326 ::
 d_last_326 ~v0 ~v1 v2 = du_last_326 v2
 du_last_326 :: T_List'8314'_22 -> AgdaAny
 du_last_326 v0
-  = let v1 = coe du_snocView_308 (coe v0) in
+  = let v1
+          = coe
+              MAlonzo.Code.Data.List.Base.du_initLast_564
+              (coe d_tail_32 (coe v0)) in
     coe
-      (case coe v1 of
-         C__'8759''691''8242'__304 v2 v3 -> coe v3
-         _ -> MAlonzo.RTE.mazUnreachableError)
+      (let v2 = d_head_30 (coe v0) in
+       coe
+         (case coe v1 of
+            MAlonzo.Code.Data.List.Base.C_'91''93'_554 -> coe v2
+            MAlonzo.Code.Data.List.Base.C__'8759''691''8242'__560 v3 v4
+              -> coe v4
+            _ -> MAlonzo.RTE.mazUnreachableError))
 -- Data.List.NonEmpty.Base.groupSeqsᵇ
 d_groupSeqs'7495'_338 ::
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->

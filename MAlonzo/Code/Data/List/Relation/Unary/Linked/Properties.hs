@@ -282,13 +282,13 @@ d_applyUpTo'8314''8321'_170 ::
   (AgdaAny -> AgdaAny -> ()) ->
   (Integer -> AgdaAny) ->
   Integer ->
-  (Integer -> MAlonzo.Code.Data.Nat.Base.T__'8804'__18 -> AgdaAny) ->
+  (Integer -> MAlonzo.Code.Data.Nat.Base.T__'8804'__22 -> AgdaAny) ->
   MAlonzo.Code.Data.List.Relation.Unary.Linked.T_Linked_26
 d_applyUpTo'8314''8321'_170 ~v0 ~v1 ~v2 ~v3 ~v4 v5 v6
   = du_applyUpTo'8314''8321'_170 v5 v6
 du_applyUpTo'8314''8321'_170 ::
   Integer ->
-  (Integer -> MAlonzo.Code.Data.Nat.Base.T__'8804'__18 -> AgdaAny) ->
+  (Integer -> MAlonzo.Code.Data.Nat.Base.T__'8804'__22 -> AgdaAny) ->
   MAlonzo.Code.Data.List.Relation.Unary.Linked.T_Linked_26
 du_applyUpTo'8314''8321'_170 v0 v1
   = case coe v0 of
@@ -300,10 +300,10 @@ du_applyUpTo'8314''8321'_170 v0 v1
              (coe
                 v1 (0 :: Integer)
                 (coe
-                   MAlonzo.Code.Data.Nat.Base.C_s'8804's_30
+                   MAlonzo.Code.Data.Nat.Base.C_s'8804's_34
                    (coe
-                      MAlonzo.Code.Data.Nat.Base.C_s'8804's_30
-                      (coe MAlonzo.Code.Data.Nat.Base.C_z'8804'n_22))))
+                      MAlonzo.Code.Data.Nat.Base.C_s'8804's_34
+                      (coe MAlonzo.Code.Data.Nat.Base.C_z'8804'n_26))))
              (coe
                 du_applyUpTo'8314''8321'_170
                 (coe subInt (coe v0) (coe (1 :: Integer)))
@@ -311,7 +311,7 @@ du_applyUpTo'8314''8321'_170 v0 v1
                    (\ v2 v3 ->
                       coe
                         v1 (addInt (coe (1 :: Integer)) (coe v2))
-                        (coe MAlonzo.Code.Data.Nat.Base.C_s'8804's_30 v3))))
+                        (coe MAlonzo.Code.Data.Nat.Base.C_s'8804's_34 v3))))
 -- Data.List.Relation.Unary.Linked.Properties._.applyUpTo⁺₂
 d_applyUpTo'8314''8322'_192 ::
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
@@ -339,13 +339,13 @@ d_applyDownFrom'8314''8321'_218 ::
   (AgdaAny -> AgdaAny -> ()) ->
   (Integer -> AgdaAny) ->
   Integer ->
-  (Integer -> MAlonzo.Code.Data.Nat.Base.T__'8804'__18 -> AgdaAny) ->
+  (Integer -> MAlonzo.Code.Data.Nat.Base.T__'8804'__22 -> AgdaAny) ->
   MAlonzo.Code.Data.List.Relation.Unary.Linked.T_Linked_26
 d_applyDownFrom'8314''8321'_218 ~v0 ~v1 ~v2 ~v3 ~v4 v5 v6
   = du_applyDownFrom'8314''8321'_218 v5 v6
 du_applyDownFrom'8314''8321'_218 ::
   Integer ->
-  (Integer -> MAlonzo.Code.Data.Nat.Base.T__'8804'__18 -> AgdaAny) ->
+  (Integer -> MAlonzo.Code.Data.Nat.Base.T__'8804'__22 -> AgdaAny) ->
   MAlonzo.Code.Data.List.Relation.Unary.Linked.T_Linked_26
 du_applyDownFrom'8314''8321'_218 v0 v1
   = case coe v0 of
@@ -358,7 +358,7 @@ du_applyDownFrom'8314''8321'_218 v0 v1
                 MAlonzo.Code.Data.List.Relation.Unary.Linked.C__'8759'__42
                 (coe
                    v1 v2
-                   (MAlonzo.Code.Data.Nat.Properties.d_'8804''45'refl_2638 (coe v0)))
+                   (MAlonzo.Code.Data.Nat.Properties.d_'8804''45'refl_2646 (coe v0)))
                 (coe
                    du_applyDownFrom'8314''8321'_218
                    (coe subInt (coe v0) (coe (1 :: Integer)))

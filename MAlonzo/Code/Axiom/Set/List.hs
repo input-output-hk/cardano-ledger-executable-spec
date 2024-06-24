@@ -47,12 +47,12 @@ d_List'45'Model_6 = coe d_'46'extendedlambda0_12
 d_'46'extendedlambda0_12 :: MAlonzo.Code.Axiom.Set.T_Theory_82
 d_'46'extendedlambda0_12
   = coe
-      MAlonzo.Code.Axiom.Set.C_Theory'46'constructor_6913
+      MAlonzo.Code.Axiom.Set.C_Theory'46'constructor_6887
       MAlonzo.Code.Axiom.Set.d_Dec'45'SpecProperty_72
       (\ v0 v1 v2 v3 ->
          coe
            MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32
-           (coe MAlonzo.Code.Data.List.Base.du_filter_892 v3 v2)
+           (coe MAlonzo.Code.Data.List.Base.du_filter_740 (coe v3) (coe v2))
            (coe
               (\ v4 ->
                  coe
@@ -146,7 +146,7 @@ d_'46'extendedlambda0_12
                               (coe MAlonzo.Code.Function.Related.Propositional.C_equivalence_12))
                          erased)
                       (coe
-                         MAlonzo.Code.Function.Properties.Inverse.du_'8596''8658''10518'_572
+                         MAlonzo.Code.Function.Properties.Inverse.du_'8596''8658''10518'_646
                          (coe
                             MAlonzo.Code.Data.List.Membership.Propositional.Properties.du_map'45''8712''8596'_176
                             (coe v3))))
@@ -156,7 +156,7 @@ d_'46'extendedlambda0_12
                       (coe
                          (\ v5 ->
                             coe
-                              MAlonzo.Code.Function.Properties.Inverse.du_'8596''8658''8660'_574
+                              MAlonzo.Code.Function.Properties.Inverse.du_'8596''8658''8660'_648
                               (coe MAlonzo.Code.Data.Product.Algebra.du_'215''45'comm_224)))))))
       (\ v0 v1 ->
          coe
@@ -171,7 +171,7 @@ d_List'45'Model'7584'_58 ::
   MAlonzo.Code.Axiom.Set.T_Theory'7584'_734
 d_List'45'Model'7584'_58
   = coe
-      MAlonzo.Code.Axiom.Set.C_Theory'7584''46'constructor_99579
+      MAlonzo.Code.Axiom.Set.C_Theory'7584''46'constructor_99503
       (coe d_List'45'Model_6)
       (coe
          (\ v0 v1 ->
@@ -218,7 +218,7 @@ d_List'45'Model'7496'_208 ::
   MAlonzo.Code.Axiom.Set.T_Theory'7496'_1280
 d_List'45'Model'7496'_208
   = coe
-      MAlonzo.Code.Axiom.Set.C_Theory'7496''46'constructor_106483
+      MAlonzo.Code.Axiom.Set.C_Theory'7496''46'constructor_106363
       (coe d_List'45'Model_6)
       (coe (\ v0 v1 v2 v3 -> coe du__'8712''63'__200 v1 v3 v2))
       (\ v0 v1 v2 -> coe du__'8712''63'__200 v1 v2)

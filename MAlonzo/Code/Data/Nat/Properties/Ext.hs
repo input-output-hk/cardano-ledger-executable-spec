@@ -44,14 +44,14 @@ du_negInduction_14 v0 v1
       MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 v2 v3
         -> let v4
                  = coe
-                     MAlonzo.Code.Data.Nat.Properties.du_anyUpTo'63'_6174
+                     MAlonzo.Code.Data.Nat.Properties.du_anyUpTo'63'_6232
                      (coe
                         (\ v4 ->
                            coe
-                             MAlonzo.Code.Relation.Nullary.Decidable.Core.du__'215''45'dec__68
+                             MAlonzo.Code.Relation.Nullary.Decidable.Core.du__'215''45'dec__74
                              (coe v0 v4)
                              (coe
-                                MAlonzo.Code.Relation.Nullary.Decidable.Core.du_'172''63'_62
+                                MAlonzo.Code.Relation.Nullary.Decidable.Core.du_'172''63'_68
                                 (coe v0 (addInt (coe (1 :: Integer)) (coe v4))))))
                      (coe v2) in
            coe
@@ -87,7 +87,7 @@ d_helper_64 ::
   AgdaAny ->
   (AgdaAny -> MAlonzo.Code.Data.Irrelevant.T_Irrelevant_20) ->
   Integer ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
   AgdaAny -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_helper_64 ~v0 v1 ~v2 ~v3 ~v4 ~v5 v6 ~v7 v8
   = du_helper_64 v1 v6 v8
@@ -99,7 +99,7 @@ du_helper_64 v0 v1 v2
   = coe
       MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 (coe v2)
       (coe
-         MAlonzo.Code.Relation.Nullary.Decidable.Core.du_decidable'45'stable_164
+         MAlonzo.Code.Relation.Nullary.Decidable.Core.du_decidable'45'stable_170
          (coe v0 (addInt (coe (1 :: Integer)) (coe v1))))
 -- Data.Nat.Properties.Ext._.k<N⇒P'k
 d_k'60'N'8658'P''k_74 ::
@@ -112,7 +112,7 @@ d_k'60'N'8658'P''k_74 ::
   AgdaAny ->
   (AgdaAny -> MAlonzo.Code.Data.Irrelevant.T_Irrelevant_20) ->
   Integer ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_k'60'N'8658'P''k_74 ~v0 v1 ~v2 ~v3 v4 ~v5 v6 ~v7
   = du_k'60'N'8658'P''k_74 v1 v4 v6
@@ -140,7 +140,7 @@ d_k'8804'N'8658'Pk_84 ::
    MAlonzo.Code.Data.Irrelevant.T_Irrelevant_20) ->
   AgdaAny ->
   (AgdaAny -> MAlonzo.Code.Data.Irrelevant.T_Irrelevant_20) ->
-  Integer -> MAlonzo.Code.Data.Nat.Base.T__'8804'__18 -> AgdaAny
+  Integer -> MAlonzo.Code.Data.Nat.Base.T__'8804'__22 -> AgdaAny
 d_k'8804'N'8658'Pk_84 ~v0 v1 ~v2 ~v3 v4 ~v5 v6 ~v7
   = du_k'8804'N'8658'Pk_84 v1 v4 v6
 du_k'8804'N'8658'Pk_84 ::

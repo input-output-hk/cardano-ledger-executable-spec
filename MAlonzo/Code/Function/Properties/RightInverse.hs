@@ -129,7 +129,7 @@ du_RightInverse'8658'Surjection_322 v0
       (coe MAlonzo.Code.Function.Bundles.d_from_1894 (coe v0))
       (coe MAlonzo.Code.Function.Bundles.d_from'45'cong_1898 (coe v0))
       (coe
-         MAlonzo.Code.Function.Consequences.du_inverse'737''8658'surjective_36
+         MAlonzo.Code.Function.Consequences.du_inverse'737''8658'surjective_38
          (coe MAlonzo.Code.Function.Bundles.d_to_1892 (coe v0))
          (coe MAlonzo.Code.Function.Bundles.d_inverse'691'_1900 (coe v0)))
 -- Function.Properties.RightInverse..generalizedField-S.a

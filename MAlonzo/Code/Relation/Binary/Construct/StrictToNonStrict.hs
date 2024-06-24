@@ -468,7 +468,7 @@ du_decidable_260 ::
   AgdaAny -> MAlonzo.Code.Relation.Nullary.Decidable.Core.T_Dec_20
 du_decidable_260 v0 v1 v2 v3
   = coe
-      MAlonzo.Code.Relation.Nullary.Decidable.Core.du__'8846''45'dec__78
+      MAlonzo.Code.Relation.Nullary.Decidable.Core.du__'8846''45'dec__84
       (coe v1 v2 v3) (coe v0 v2 v3)
 -- Relation.Binary.Construct.StrictToNonStrict.decidable′
 d_decidable'8242'_270 ::

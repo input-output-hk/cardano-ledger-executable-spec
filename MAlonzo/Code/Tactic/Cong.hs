@@ -31,14 +31,15 @@ import qualified MAlonzo.Code.Data.Product.Base
 import qualified MAlonzo.Code.Reflection.AST.AlphaEquality
 import qualified MAlonzo.Code.Reflection.AST.Argument
 import qualified MAlonzo.Code.Reflection.AST.Literal
+import qualified MAlonzo.Code.Relation.Nullary.Decidable.Core
 
 -- Tactic.Cong.varDescend
 d_varDescend_4 :: Integer -> Integer -> Integer
 d_varDescend_4 v0 v1
   = coe
-      MAlonzo.Code.Data.Bool.Base.du_if_then_else__42
+      MAlonzo.Code.Data.Bool.Base.du_if_then_else__44
       (coe
-         MAlonzo.Code.Data.Nat.Base.d__'8804''7495'__10 (coe v0) (coe v1))
+         MAlonzo.Code.Data.Nat.Base.d__'8804''7495'__14 (coe v0) (coe v1))
       (coe addInt (coe (1 :: Integer)) (coe v1)) (coe v1)
 -- Tactic.Cong.patternDescend
 d_patternDescend_10 ::
@@ -684,8 +685,11 @@ d_antiUnify_148 v0 v1 v2
            -> case coe v2 of
                 MAlonzo.Code.Agda.Builtin.Reflection.C_lit_210 v5
                   -> let v6
-                           = MAlonzo.Code.Reflection.AST.Literal.d__'8801''7495'__246
-                               (coe v4) (coe v5) in
+                           = coe
+                               MAlonzo.Code.Relation.Nullary.Decidable.Core.du_isYes_104
+                               (coe
+                                  MAlonzo.Code.Reflection.AST.Literal.d__'8799'__48 (coe v4)
+                                  (coe v5)) in
                      coe
                        (if coe v6
                           then coe v1

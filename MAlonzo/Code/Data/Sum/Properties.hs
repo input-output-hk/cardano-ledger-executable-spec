@@ -80,7 +80,7 @@ du_'8801''45'dec_54 v0 v1 v2 v3
         -> case coe v3 of
              MAlonzo.Code.Data.Sum.Base.C_inj'8321'_38 v5
                -> coe
-                    MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_144
+                    MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_150
                     erased (coe v0 v4 v5)
              MAlonzo.Code.Data.Sum.Base.C_inj'8322'_42 v5
                -> coe
@@ -97,7 +97,7 @@ du_'8801''45'dec_54 v0 v1 v2 v3
                     (coe MAlonzo.Code.Relation.Nullary.Reflects.C_of'8319'_26)
              MAlonzo.Code.Data.Sum.Base.C_inj'8322'_42 v5
                -> coe
-                    MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_144
+                    MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_150
                     erased (coe v1 v4 v5)
              _ -> MAlonzo.RTE.mazUnreachableError
       _ -> MAlonzo.RTE.mazUnreachableError

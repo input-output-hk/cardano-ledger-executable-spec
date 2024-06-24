@@ -2745,22 +2745,22 @@ d_inverse'691'_424 v0
   = case coe v0 of
       C_IsRightInverse'46'constructor_18819 v1 v2 v3 -> coe v3
       _ -> MAlonzo.RTE.mazUnreachableError
--- Function.Structures.IsRightInverse._.cong
-d_cong_428 ::
-  T_IsRightInverse_408 -> AgdaAny -> AgdaAny -> AgdaAny -> AgdaAny
-d_cong_428 v0 = coe d_cong_32 (coe d_isCongruent_420 (coe v0))
 -- Function.Structures.IsRightInverse._.isEquivalence₁
-d_isEquivalence'8321'_430 ::
+d_isEquivalence'8321'_428 ::
   T_IsRightInverse_408 ->
   MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
-d_isEquivalence'8321'_430 v0
+d_isEquivalence'8321'_428 v0
   = coe d_isEquivalence'8321'_34 (coe d_isCongruent_420 (coe v0))
 -- Function.Structures.IsRightInverse._.isEquivalence₂
-d_isEquivalence'8322'_432 ::
+d_isEquivalence'8322'_430 ::
   T_IsRightInverse_408 ->
   MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
-d_isEquivalence'8322'_432 v0
+d_isEquivalence'8322'_430 v0
   = coe d_isEquivalence'8322'_36 (coe d_isCongruent_420 (coe v0))
+-- Function.Structures.IsRightInverse._.cong
+d_cong_432 ::
+  T_IsRightInverse_408 -> AgdaAny -> AgdaAny -> AgdaAny -> AgdaAny
+d_cong_432 v0 = coe d_cong_32 (coe d_isCongruent_420 (coe v0))
 -- Function.Structures.IsRightInverse._.Eq₁._≈_
 d__'8776'__436 ::
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->

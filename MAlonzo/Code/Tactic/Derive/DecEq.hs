@@ -207,7 +207,7 @@ du_map''_38 v0 v1
   = case coe v1 of
       MAlonzo.Code.Function.Bundles.C_Equivalence'46'constructor_25777 v2 v3 v4 v5
         -> coe
-             MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_144
+             MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_150
              (coe v2) (coe v0)
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Tactic.Derive.DecEq._.eqFromTerm
@@ -538,7 +538,7 @@ du_genPf_100 v0 v1
              MAlonzo.Code.Agda.Builtin.Reflection.C_def_184
              (coe
                 (MAlonzo.RTE.QName
-                   (68 :: Integer) (16368259409245829246 :: Integer)
+                   (74 :: Integer) (16368259409245829246 :: Integer)
                    "Relation.Nullary.Decidable.Core._\215-dec_"
                    (MAlonzo.RTE.Fixity
                       MAlonzo.RTE.RightAssoc (MAlonzo.RTE.Related (2.0 :: Double)))))
@@ -829,9 +829,9 @@ d_toMapDiag_130 v0 v1 v2
                                         MAlonzo.Code.Class.MonadReader.du_Monad'45'ReaderT_96
                                         (coe MAlonzo.Code.Class.Monad.Instances.d_Monad'45'TC_6))
                                      (coe
-                                        MAlonzo.Code.Data.Bool.Base.du_if_then_else__42
+                                        MAlonzo.Code.Data.Bool.Base.du_if_then_else__44
                                         (coe
-                                           MAlonzo.Code.Relation.Nullary.Decidable.Core.d_'8970'_'8971'_106
+                                           MAlonzo.Code.Relation.Nullary.Decidable.Core.d_'8970'_'8971'_112
                                            () erased
                                            (MAlonzo.Code.Reflection.AST.Term.d__'8799''45'Pattern__230
                                               (coe v6) (coe v10)))

@@ -22,7 +22,6 @@ import qualified MAlonzo.Code.Agda.Builtin.Equality
 import qualified MAlonzo.Code.Agda.Builtin.List
 import qualified MAlonzo.Code.Agda.Builtin.Sigma
 import qualified MAlonzo.Code.Agda.Primitive
-import qualified MAlonzo.Code.Data.Bool.Base
 import qualified MAlonzo.Code.Data.Empty
 import qualified MAlonzo.Code.Data.Irrelevant
 import qualified MAlonzo.Code.Data.List.Base
@@ -110,18 +109,18 @@ d_length'45'mono'45''8804'_98 ::
   [AgdaAny] ->
   [AgdaAny] ->
   MAlonzo.Code.Data.List.Relation.Binary.Sublist.Heterogeneous.Core.T_Sublist_26 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22
 d_length'45'mono'45''8804'_98 ~v0 ~v1 ~v2 ~v3 ~v4 ~v5 v6 v7 v8
   = du_length'45'mono'45''8804'_98 v6 v7 v8
 du_length'45'mono'45''8804'_98 ::
   [AgdaAny] ->
   [AgdaAny] ->
   MAlonzo.Code.Data.List.Relation.Binary.Sublist.Heterogeneous.Core.T_Sublist_26 ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22
 du_length'45'mono'45''8804'_98 v0 v1 v2
   = case coe v2 of
       MAlonzo.Code.Data.List.Relation.Binary.Sublist.Heterogeneous.Core.C_'91''93'_28
-        -> coe MAlonzo.Code.Data.Nat.Base.C_z'8804'n_22
+        -> coe MAlonzo.Code.Data.Nat.Base.C_z'8804'n_26
       MAlonzo.Code.Data.List.Relation.Binary.Sublist.Heterogeneous.Core.C__'8759''691'__36 v6
         -> case coe v1 of
              (:) v7 v8
@@ -133,7 +132,7 @@ du_length'45'mono'45''8804'_98 v0 v1 v2
                -> case coe v1 of
                     (:) v11 v12
                       -> coe
-                           MAlonzo.Code.Data.Nat.Base.C_s'8804's_30
+                           MAlonzo.Code.Data.Nat.Base.C_s'8804's_34
                            (coe du_length'45'mono'45''8804'_98 (coe v10) (coe v12) (coe v8))
                     _ -> MAlonzo.RTE.mazUnreachableError
              _ -> MAlonzo.RTE.mazUnreachableError
@@ -966,7 +965,7 @@ d_take'8314'_656 ::
   Integer ->
   [AgdaAny] ->
   [AgdaAny] ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
   MAlonzo.Code.Data.List.Relation.Binary.Pointwise.Base.T_Pointwise_48 ->
   MAlonzo.Code.Data.List.Relation.Binary.Sublist.Heterogeneous.Core.T_Sublist_26
 d_take'8314'_656 ~v0 ~v1 ~v2 ~v3 ~v4 ~v5 ~v6 v7 v8 v9 v10 v11
@@ -975,16 +974,16 @@ du_take'8314'_656 ::
   Integer ->
   [AgdaAny] ->
   [AgdaAny] ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
   MAlonzo.Code.Data.List.Relation.Binary.Pointwise.Base.T_Pointwise_48 ->
   MAlonzo.Code.Data.List.Relation.Binary.Sublist.Heterogeneous.Core.T_Sublist_26
 du_take'8314'_656 v0 v1 v2 v3 v4
   = case coe v3 of
-      MAlonzo.Code.Data.Nat.Base.C_z'8804'n_22
+      MAlonzo.Code.Data.Nat.Base.C_z'8804'n_26
         -> coe
              MAlonzo.Code.Data.List.Relation.Binary.Sublist.Heterogeneous.du_minimum_48
              (coe MAlonzo.Code.Data.List.Base.du_take_622 (coe v0) (coe v2))
-      MAlonzo.Code.Data.Nat.Base.C_s'8804's_30 v7
+      MAlonzo.Code.Data.Nat.Base.C_s'8804's_34 v7
         -> let v8 = subInt (coe v0) (coe (1 :: Integer)) in
            coe
              (case coe v4 of
@@ -1018,7 +1017,7 @@ d_drop'8314'_676 ::
   Integer ->
   [AgdaAny] ->
   [AgdaAny] ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
   MAlonzo.Code.Data.List.Relation.Binary.Sublist.Heterogeneous.Core.T_Sublist_26 ->
   MAlonzo.Code.Data.List.Relation.Binary.Sublist.Heterogeneous.Core.T_Sublist_26
 d_drop'8314'_676 ~v0 ~v1 ~v2 ~v3 ~v4 ~v5 v6 ~v7 v8 v9 v10 v11
@@ -1027,14 +1026,14 @@ du_drop'8314'_676 ::
   Integer ->
   [AgdaAny] ->
   [AgdaAny] ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
   MAlonzo.Code.Data.List.Relation.Binary.Sublist.Heterogeneous.Core.T_Sublist_26 ->
   MAlonzo.Code.Data.List.Relation.Binary.Sublist.Heterogeneous.Core.T_Sublist_26
 du_drop'8314'_676 v0 v1 v2 v3 v4
   = case coe v3 of
-      MAlonzo.Code.Data.Nat.Base.C_z'8804'n_22
+      MAlonzo.Code.Data.Nat.Base.C_z'8804'n_26
         -> coe du_drop'45'Sublist_200 (coe v0) (coe v1) (coe v2) (coe v4)
-      MAlonzo.Code.Data.Nat.Base.C_s'8804's_30 v7
+      MAlonzo.Code.Data.Nat.Base.C_s'8804's_34 v7
         -> let v8 = subInt (coe v0) (coe (1 :: Integer)) in
            coe
              (case coe v4 of
@@ -1070,7 +1069,7 @@ d_drop'8314''45''8805'_704 ::
   Integer ->
   [AgdaAny] ->
   [AgdaAny] ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
   MAlonzo.Code.Data.List.Relation.Binary.Pointwise.Base.T_Pointwise_48 ->
   MAlonzo.Code.Data.List.Relation.Binary.Sublist.Heterogeneous.Core.T_Sublist_26
 d_drop'8314''45''8805'_704 ~v0 ~v1 ~v2 ~v3 ~v4 ~v5 v6 ~v7 v8 v9 v10
@@ -1080,7 +1079,7 @@ du_drop'8314''45''8805'_704 ::
   Integer ->
   [AgdaAny] ->
   [AgdaAny] ->
-  MAlonzo.Code.Data.Nat.Base.T__'8804'__18 ->
+  MAlonzo.Code.Data.Nat.Base.T__'8804'__22 ->
   MAlonzo.Code.Data.List.Relation.Binary.Pointwise.Base.T_Pointwise_48 ->
   MAlonzo.Code.Data.List.Relation.Binary.Sublist.Heterogeneous.Core.T_Sublist_26
 du_drop'8314''45''8805'_704 v0 v1 v2 v3 v4
@@ -1112,7 +1111,7 @@ du_drop'8314''45''8838'_716 v0 v1 v2
   = coe
       du_drop'8314'_676 (coe v2) (coe v0) (coe v1)
       (coe
-         MAlonzo.Code.Data.Nat.Properties.d_'8804''45'refl_2638 (coe v2))
+         MAlonzo.Code.Data.Nat.Properties.d_'8804''45'refl_2646 (coe v2))
 -- Data.List.Relation.Binary.Sublist.Heterogeneous.Properties._.⊆-takeWhile-Sublist
 d_'8838''45'takeWhile'45'Sublist_756 ::
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
@@ -1182,23 +1181,19 @@ du_'8838''45'takeWhile'45'Sublist_756 v0 v1 v2 v3 v4
                                                _ -> MAlonzo.RTE.mazUnreachableError
                                         else coe
                                                MAlonzo.Code.Data.List.Relation.Binary.Sublist.Heterogeneous.du_minimum_48
-                                               (coe
-                                                  MAlonzo.Code.Data.Bool.Base.du_if_then_else__42
-                                                  (coe
-                                                     MAlonzo.Code.Relation.Nullary.Decidable.Core.d_does_28
-                                                     (coe v16))
-                                                  (coe
-                                                     MAlonzo.Code.Agda.Builtin.List.C__'8759'__22
-                                                     (coe v13)
-                                                     (coe
-                                                        MAlonzo.Code.Data.List.Base.du_takeWhile'7495'_674
-                                                        (coe
-                                                           (\ v19 ->
-                                                              MAlonzo.Code.Relation.Nullary.Decidable.Core.d_does_28
-                                                                (coe v1 v19)))
-                                                        (coe v14)))
-                                                  (coe
-                                                     MAlonzo.Code.Agda.Builtin.List.C_'91''93'_16))
+                                               (let v19
+                                                      = MAlonzo.Code.Relation.Nullary.Decidable.Core.d_does_28
+                                                          (coe v16) in
+                                                coe
+                                                  (if coe v19
+                                                     then coe
+                                                            MAlonzo.Code.Agda.Builtin.List.C__'8759'__22
+                                                            (coe v13)
+                                                            (coe
+                                                               MAlonzo.Code.Data.List.Base.du_takeWhile_676
+                                                               (coe v1) (coe v14))
+                                                     else coe
+                                                            MAlonzo.Code.Agda.Builtin.List.C_'91''93'_16))
                                  _ -> MAlonzo.RTE.mazUnreachableError))
                     _ -> MAlonzo.RTE.mazUnreachableError
              _ -> MAlonzo.RTE.mazUnreachableError
@@ -1429,24 +1424,7 @@ du_takeWhile'45'filter_1046 v0 v1 v2
                               v7 (coe du_takeWhile'45'filter_1046 (coe v0) (coe v10) (coe v8))
                        else coe
                               MAlonzo.Code.Data.List.Relation.Binary.Sublist.Heterogeneous.du_minimum_48
-                              (coe
-                                 MAlonzo.Code.Data.Bool.Base.du_if_then_else__42 (coe v11)
-                                 (coe
-                                    MAlonzo.Code.Agda.Builtin.List.C__'8759'__22 (coe v9)
-                                    (coe
-                                       MAlonzo.Code.Data.List.Base.du_filter'7495'_694
-                                       (coe
-                                          (\ v12 ->
-                                             MAlonzo.Code.Relation.Nullary.Decidable.Core.d_does_28
-                                               (coe v0 v12)))
-                                       (coe v10)))
-                                 (coe
-                                    MAlonzo.Code.Data.List.Base.du_filter'7495'_694
-                                    (coe
-                                       (\ v12 ->
-                                          MAlonzo.Code.Relation.Nullary.Decidable.Core.d_does_28
-                                            (coe v0 v12)))
-                                    (coe v10))))
+                              (coe MAlonzo.Code.Data.List.Base.du_filter_740 (coe v0) (coe v10)))
              _ -> MAlonzo.RTE.mazUnreachableError
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Data.List.Relation.Binary.Sublist.Heterogeneous.Properties._.filter-dropWhile
@@ -1764,7 +1742,7 @@ du_Sublist'45''91'x'93''45'bijection_1302 v0
       (coe
          MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 erased
          (coe
-            MAlonzo.Code.Function.Consequences.Propositional.du_strictlySurjective'8658'surjective_44
+            MAlonzo.Code.Function.Consequences.Propositional.du_strictlySurjective'8658'surjective_40
             (coe
                MAlonzo.Code.Data.List.Relation.Binary.Sublist.Heterogeneous.du_toAny_60
                (coe v0))
@@ -2468,7 +2446,7 @@ du_'8838''45'disjoint'63'_2008 v0 v1 v2 v3 v4
                -> case coe v4 of
                     MAlonzo.Code.Data.List.Relation.Binary.Sublist.Heterogeneous.Core.C__'8759''691'__36 v14
                       -> coe
-                           MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_144
+                           MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_150
                            (coe
                               MAlonzo.Code.Data.List.Relation.Binary.Sublist.Heterogeneous.C__'8759''8345'__146)
                            (coe
@@ -2478,7 +2456,7 @@ du_'8838''45'disjoint'63'_2008 v0 v1 v2 v3 v4
                       -> case coe v1 of
                            (:) v17 v18
                              -> coe
-                                  MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_144
+                                  MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_150
                                   (coe
                                      MAlonzo.Code.Data.List.Relation.Binary.Sublist.Heterogeneous.C__'8759''7523'__182)
                                   (coe
@@ -2495,7 +2473,7 @@ du_'8838''45'disjoint'63'_2008 v0 v1 v2 v3 v4
                       -> case coe v4 of
                            MAlonzo.Code.Data.List.Relation.Binary.Sublist.Heterogeneous.Core.C__'8759''691'__36 v18
                              -> coe
-                                  MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_144
+                                  MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_150
                                   (coe
                                      MAlonzo.Code.Data.List.Relation.Binary.Sublist.Heterogeneous.C__'8759''8343'__164)
                                   (coe
@@ -3002,7 +2980,7 @@ d_DisjointUnion'179'_2262 a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 a10 a11 a12
                           a13 a14 a15 a16 a17 a18
   = ()
 data T_DisjointUnion'179'_2262
-  = C_DisjointUnion'179''46'constructor_1413739 [AgdaAny]
+  = C_DisjointUnion'179''46'constructor_1413595 [AgdaAny]
                                                 MAlonzo.Code.Data.List.Relation.Binary.Sublist.Heterogeneous.Core.T_Sublist_26
                                                 MAlonzo.Code.Data.List.Relation.Binary.Sublist.Heterogeneous.T_DisjointUnion_198
                                                 MAlonzo.Code.Data.List.Relation.Binary.Sublist.Heterogeneous.T_DisjointUnion_198
@@ -3011,7 +2989,7 @@ data T_DisjointUnion'179'_2262
 d_union'179'_2300 :: T_DisjointUnion'179'_2262 -> [AgdaAny]
 d_union'179'_2300 v0
   = case coe v0 of
-      C_DisjointUnion'179''46'constructor_1413739 v1 v2 v3 v4 v5
+      C_DisjointUnion'179''46'constructor_1413595 v1 v2 v3 v4 v5
         -> coe v1
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Data.List.Relation.Binary.Sublist.Heterogeneous.Properties.Disjointness.DisjointUnion³.sub³
@@ -3020,7 +2998,7 @@ d_sub'179'_2302 ::
   MAlonzo.Code.Data.List.Relation.Binary.Sublist.Heterogeneous.Core.T_Sublist_26
 d_sub'179'_2302 v0
   = case coe v0 of
-      C_DisjointUnion'179''46'constructor_1413739 v1 v2 v3 v4 v5
+      C_DisjointUnion'179''46'constructor_1413595 v1 v2 v3 v4 v5
         -> coe v2
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Data.List.Relation.Binary.Sublist.Heterogeneous.Properties.Disjointness.DisjointUnion³.join₁
@@ -3029,7 +3007,7 @@ d_join'8321'_2304 ::
   MAlonzo.Code.Data.List.Relation.Binary.Sublist.Heterogeneous.T_DisjointUnion_198
 d_join'8321'_2304 v0
   = case coe v0 of
-      C_DisjointUnion'179''46'constructor_1413739 v1 v2 v3 v4 v5
+      C_DisjointUnion'179''46'constructor_1413595 v1 v2 v3 v4 v5
         -> coe v3
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Data.List.Relation.Binary.Sublist.Heterogeneous.Properties.Disjointness.DisjointUnion³.join₂
@@ -3038,7 +3016,7 @@ d_join'8322'_2306 ::
   MAlonzo.Code.Data.List.Relation.Binary.Sublist.Heterogeneous.T_DisjointUnion_198
 d_join'8322'_2306 v0
   = case coe v0 of
-      C_DisjointUnion'179''46'constructor_1413739 v1 v2 v3 v4 v5
+      C_DisjointUnion'179''46'constructor_1413595 v1 v2 v3 v4 v5
         -> coe v4
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Data.List.Relation.Binary.Sublist.Heterogeneous.Properties.Disjointness.DisjointUnion³.join₃
@@ -3047,7 +3025,7 @@ d_join'8323'_2308 ::
   MAlonzo.Code.Data.List.Relation.Binary.Sublist.Heterogeneous.T_DisjointUnion_198
 d_join'8323'_2308 v0
   = case coe v0 of
-      C_DisjointUnion'179''46'constructor_1413739 v1 v2 v3 v4 v5
+      C_DisjointUnion'179''46'constructor_1413595 v1 v2 v3 v4 v5
         -> coe v5
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Data.List.Relation.Binary.Sublist.Heterogeneous.Properties.Disjointness._∷ʳ-DisjointUnion³_
@@ -3080,9 +3058,9 @@ du__'8759''691''45'DisjointUnion'179'__2338 ::
   T_DisjointUnion'179'_2262 -> T_DisjointUnion'179'_2262
 du__'8759''691''45'DisjointUnion'179'__2338 v0
   = case coe v0 of
-      C_DisjointUnion'179''46'constructor_1413739 v1 v2 v3 v4 v5
+      C_DisjointUnion'179''46'constructor_1413595 v1 v2 v3 v4 v5
         -> coe
-             C_DisjointUnion'179''46'constructor_1413739 (coe v1)
+             C_DisjointUnion'179''46'constructor_1413595 (coe v1)
              (coe
                 MAlonzo.Code.Data.List.Relation.Binary.Sublist.Heterogeneous.Core.C__'8759''691'__36
                 v2)
@@ -3129,9 +3107,9 @@ du__'8759''8321''45'DisjointUnion'179'__2382 ::
   AgdaAny -> T_DisjointUnion'179'_2262 -> T_DisjointUnion'179'_2262
 du__'8759''8321''45'DisjointUnion'179'__2382 v0 v1 v2
   = case coe v2 of
-      C_DisjointUnion'179''46'constructor_1413739 v3 v4 v5 v6 v7
+      C_DisjointUnion'179''46'constructor_1413595 v3 v4 v5 v6 v7
         -> coe
-             C_DisjointUnion'179''46'constructor_1413739
+             C_DisjointUnion'179''46'constructor_1413595
              (coe
                 MAlonzo.Code.Agda.Builtin.List.C__'8759'__22 (coe v0) (coe v3))
              (coe
@@ -3180,9 +3158,9 @@ du__'8759''8322''45'DisjointUnion'179'__2426 ::
   AgdaAny -> T_DisjointUnion'179'_2262 -> T_DisjointUnion'179'_2262
 du__'8759''8322''45'DisjointUnion'179'__2426 v0 v1 v2
   = case coe v2 of
-      C_DisjointUnion'179''46'constructor_1413739 v3 v4 v5 v6 v7
+      C_DisjointUnion'179''46'constructor_1413595 v3 v4 v5 v6 v7
         -> coe
-             C_DisjointUnion'179''46'constructor_1413739
+             C_DisjointUnion'179''46'constructor_1413595
              (coe
                 MAlonzo.Code.Agda.Builtin.List.C__'8759'__22 (coe v0) (coe v3))
              (coe
@@ -3231,9 +3209,9 @@ du__'8759''8323''45'DisjointUnion'179'__2470 ::
   AgdaAny -> T_DisjointUnion'179'_2262 -> T_DisjointUnion'179'_2262
 du__'8759''8323''45'DisjointUnion'179'__2470 v0 v1 v2
   = case coe v2 of
-      C_DisjointUnion'179''46'constructor_1413739 v3 v4 v5 v6 v7
+      C_DisjointUnion'179''46'constructor_1413595 v3 v4 v5 v6 v7
         -> coe
-             C_DisjointUnion'179''46'constructor_1413739
+             C_DisjointUnion'179''46'constructor_1413595
              (coe
                 MAlonzo.Code.Agda.Builtin.List.C__'8759'__22 (coe v0) (coe v3))
              (coe
@@ -3305,7 +3283,7 @@ du_disjointUnion'179'_2508 v0 v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11
              (coe
                 seq (coe v15)
                 (coe
-                   C_DisjointUnion'179''46'constructor_1413739
+                   C_DisjointUnion'179''46'constructor_1413595
                    (coe MAlonzo.Code.Agda.Builtin.List.C_'91''93'_16)
                    (coe
                       MAlonzo.Code.Data.List.Relation.Binary.Sublist.Heterogeneous.Core.C_'91''93'_28)

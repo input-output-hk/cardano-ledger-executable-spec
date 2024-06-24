@@ -44,177 +44,189 @@ d__'43''7497'__8 v0
   = coe
       MAlonzo.Code.Ledger.Types.Epoch.d__'43''7497'__206
       (coe
-         MAlonzo.Code.Ledger.Types.GovStructure.d_epochStructure_430
+         MAlonzo.Code.Ledger.Types.GovStructure.d_epochStructure_536
          (coe v0))
 -- _.Credential
-d_Credential_22 ::
-  MAlonzo.Code.Ledger.Types.GovStructure.T_GovStructure_6 ->
-  MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
-  MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
-  MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 -> ()
-d_Credential_22 = erased
--- _.DecEq-RwdAddr
-d_DecEq'45'RwdAddr_68 ::
+d_Credential_22 a0 a1 a2 a3 = ()
+-- _.DecEq-Credential
+d_DecEq'45'Credential_50 ::
   MAlonzo.Code.Ledger.Types.GovStructure.T_GovStructure_6 ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10
-d_DecEq'45'RwdAddr_68 ~v0 v1 v2 v3
-  = du_DecEq'45'RwdAddr_68 v1 v2 v3
-du_DecEq'45'RwdAddr_68 ::
-  MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
+d_DecEq'45'Credential_50 ~v0 ~v1 v2 v3
+  = du_DecEq'45'Credential_50 v2 v3
+du_DecEq'45'Credential_50 ::
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
   MAlonzo.Code.Class.DecEq.Core.T_DecEq_10
-du_DecEq'45'RwdAddr_68 v0 v1 v2
+du_DecEq'45'Credential_50 v0 v1
   = coe
-      MAlonzo.Code.Ledger.Address.du_DecEq'45'RwdAddr_158 (coe v0)
+      MAlonzo.Code.Ledger.Address.du_DecEq'45'Credential_124 (coe v0)
+      (coe v1)
+-- _.DecEq-RwdAddr
+d_DecEq'45'RwdAddr_70 ::
+  MAlonzo.Code.Ledger.Types.GovStructure.T_GovStructure_6 ->
+  MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
+  MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
+  MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
+  MAlonzo.Code.Class.DecEq.Core.T_DecEq_10
+d_DecEq'45'RwdAddr_70 ~v0 v1 v2 v3
+  = du_DecEq'45'RwdAddr_70 v1 v2 v3
+du_DecEq'45'RwdAddr_70 ::
+  MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
+  MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
+  MAlonzo.Code.Class.DecEq.Core.T_DecEq_10 ->
+  MAlonzo.Code.Class.DecEq.Core.T_DecEq_10
+du_DecEq'45'RwdAddr_70 v0 v1 v2
+  = coe
+      MAlonzo.Code.Ledger.Address.du_DecEq'45'RwdAddr_176 (coe v0)
       (coe v1) (coe v2)
 -- _.Epoch
-d_Epoch_100 ::
+d_Epoch_102 ::
   MAlonzo.Code.Ledger.Types.GovStructure.T_GovStructure_6 -> ()
-d_Epoch_100 = erased
+d_Epoch_102 = erased
 -- _.PParams
-d_PParams_140 a0 = ()
+d_PParams_148 a0 = ()
 -- _.UpdateT
-d_UpdateT_144 ::
+d_UpdateT_152 ::
   MAlonzo.Code.Ledger.Types.GovStructure.T_GovStructure_6 -> ()
-d_UpdateT_144 = erased
+d_UpdateT_152 = erased
 -- _.ProtVer
-d_ProtVer_150 ::
+d_ProtVer_158 ::
   MAlonzo.Code.Ledger.Types.GovStructure.T_GovStructure_6 -> ()
-d_ProtVer_150 = erased
+d_ProtVer_158 = erased
 -- _.RwdAddr
-d_RwdAddr_154 a0 a1 a2 a3 = ()
+d_RwdAddr_164 a0 a1 a2 a3 = ()
 -- _.ScriptHash
-d_ScriptHash_168 ::
+d_ScriptHash_178 ::
   MAlonzo.Code.Ledger.Types.GovStructure.T_GovStructure_6 -> ()
-d_ScriptHash_168 = erased
+d_ScriptHash_178 = erased
 -- _.applyUpdate
-d_applyUpdate_208 ::
+d_applyUpdate_224 ::
   MAlonzo.Code.Ledger.Types.GovStructure.T_GovStructure_6 ->
   MAlonzo.Code.Ledger.PParams.T_PParams_218 ->
   AgdaAny -> MAlonzo.Code.Ledger.PParams.T_PParams_218
-d_applyUpdate_208 v0
+d_applyUpdate_224 v0
   = coe
-      MAlonzo.Code.Ledger.PParams.d_applyUpdate_480
+      MAlonzo.Code.Ledger.PParams.d_applyUpdate_1126
       (coe
-         MAlonzo.Code.Ledger.PParams.d_ppUpd_526
+         MAlonzo.Code.Ledger.PParams.d_ppUpd_1172
          (coe
-            MAlonzo.Code.Ledger.Types.GovStructure.d_govParams_746 (coe v0)))
+            MAlonzo.Code.Ledger.Types.GovStructure.d_govParams_938 (coe v0)))
 -- _.preoEpoch
-d_preoEpoch_266 ::
+d_preoEpoch_288 ::
   MAlonzo.Code.Ledger.Types.GovStructure.T_GovStructure_6 ->
   MAlonzo.Code.Interface.HasOrder.T_HasPreorder_18
-d_preoEpoch_266 v0
+d_preoEpoch_288 v0
   = coe
       MAlonzo.Code.Ledger.Types.Epoch.d_preoEpoch_48
       (coe
-         MAlonzo.Code.Ledger.Types.GovStructure.d_epochStructure_430
+         MAlonzo.Code.Ledger.Types.GovStructure.d_epochStructure_536
          (coe v0))
 -- Ledger.Enact._.GovAction
-d_GovAction_492 a0 = ()
+d_GovAction_610 a0 = ()
 -- Ledger.Enact._.GovActionID
-d_GovActionID_494 ::
+d_GovActionID_612 ::
   MAlonzo.Code.Ledger.Types.GovStructure.T_GovStructure_6 -> ()
-d_GovActionID_494 = erased
+d_GovActionID_612 = erased
 -- Ledger.Enact._.HashProtected
-d_HashProtected_504 ::
+d_HashProtected_622 ::
   MAlonzo.Code.Ledger.Types.GovStructure.T_GovStructure_6 -> () -> ()
-d_HashProtected_504 = erased
+d_HashProtected_622 = erased
 -- Ledger.Enact._.NeedsHash
-d_NeedsHash_508 ::
+d_NeedsHash_626 ::
   MAlonzo.Code.Ledger.Types.GovStructure.T_GovStructure_6 ->
-  MAlonzo.Code.Ledger.GovernanceActions.T_GovAction_510 -> ()
-d_NeedsHash_508 = erased
+  MAlonzo.Code.Ledger.GovernanceActions.T_GovAction_628 -> ()
+d_NeedsHash_626 = erased
 -- Ledger.Enact.EnactEnv
-d_EnactEnv_628 a0 = ()
-data T_EnactEnv_628
-  = C_'10214'_'44'_'44'_'10215''7497'_642 MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
+d_EnactEnv_748 a0 = ()
+data T_EnactEnv_748
+  = C_'10214'_'44'_'44'_'10215''7497'_762 MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
                                           Integer AgdaAny
 -- Ledger.Enact.EnactEnv.gid
-d_gid_636 ::
-  T_EnactEnv_628 -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_gid_636 v0
+d_gid_756 ::
+  T_EnactEnv_748 -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
+d_gid_756 v0
   = case coe v0 of
-      C_'10214'_'44'_'44'_'10215''7497'_642 v1 v2 v3 -> coe v1
+      C_'10214'_'44'_'44'_'10215''7497'_762 v1 v2 v3 -> coe v1
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Ledger.Enact.EnactEnv.treasury
-d_treasury_638 :: T_EnactEnv_628 -> Integer
-d_treasury_638 v0
+d_treasury_758 :: T_EnactEnv_748 -> Integer
+d_treasury_758 v0
   = case coe v0 of
-      C_'10214'_'44'_'44'_'10215''7497'_642 v1 v2 v3 -> coe v2
+      C_'10214'_'44'_'44'_'10215''7497'_762 v1 v2 v3 -> coe v2
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Ledger.Enact.EnactEnv.epoch
-d_epoch_640 :: T_EnactEnv_628 -> AgdaAny
-d_epoch_640 v0
+d_epoch_760 :: T_EnactEnv_748 -> AgdaAny
+d_epoch_760 v0
   = case coe v0 of
-      C_'10214'_'44'_'44'_'10215''7497'_642 v1 v2 v3 -> coe v3
+      C_'10214'_'44'_'44'_'10215''7497'_762 v1 v2 v3 -> coe v3
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Ledger.Enact.EnactState
-d_EnactState_644 a0 = ()
-data T_EnactState_644
-  = C_EnactState'46'constructor_1231 MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
+d_EnactState_764 a0 = ()
+data T_EnactState_764
+  = C_EnactState'46'constructor_1383 MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
                                      MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
                                      MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
                                      MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
                                      MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 -- Ledger.Enact.EnactState.cc
-d_cc_656 ::
-  T_EnactState_644 -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_cc_656 v0
+d_cc_776 ::
+  T_EnactState_764 -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
+d_cc_776 v0
   = case coe v0 of
-      C_EnactState'46'constructor_1231 v1 v2 v3 v4 v5 -> coe v1
+      C_EnactState'46'constructor_1383 v1 v2 v3 v4 v5 -> coe v1
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Ledger.Enact.EnactState.constitution
-d_constitution_658 ::
-  T_EnactState_644 -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_constitution_658 v0
+d_constitution_778 ::
+  T_EnactState_764 -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
+d_constitution_778 v0
   = case coe v0 of
-      C_EnactState'46'constructor_1231 v1 v2 v3 v4 v5 -> coe v2
+      C_EnactState'46'constructor_1383 v1 v2 v3 v4 v5 -> coe v2
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Ledger.Enact.EnactState.pv
-d_pv_660 ::
-  T_EnactState_644 -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_pv_660 v0
+d_pv_780 ::
+  T_EnactState_764 -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
+d_pv_780 v0
   = case coe v0 of
-      C_EnactState'46'constructor_1231 v1 v2 v3 v4 v5 -> coe v3
+      C_EnactState'46'constructor_1383 v1 v2 v3 v4 v5 -> coe v3
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Ledger.Enact.EnactState.pparams
-d_pparams_662 ::
-  T_EnactState_644 -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_pparams_662 v0
+d_pparams_782 ::
+  T_EnactState_764 -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
+d_pparams_782 v0
   = case coe v0 of
-      C_EnactState'46'constructor_1231 v1 v2 v3 v4 v5 -> coe v4
+      C_EnactState'46'constructor_1383 v1 v2 v3 v4 v5 -> coe v4
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Ledger.Enact.EnactState.withdrawals
-d_withdrawals_664 ::
-  T_EnactState_644 -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_withdrawals_664 v0
+d_withdrawals_784 ::
+  T_EnactState_764 -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
+d_withdrawals_784 v0
   = case coe v0 of
-      C_EnactState'46'constructor_1231 v1 v2 v3 v4 v5 -> coe v5
+      C_EnactState'46'constructor_1383 v1 v2 v3 v4 v5 -> coe v5
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Ledger.Enact.ccCreds
-d_ccCreds_666 ::
+d_ccCreds_786 ::
   MAlonzo.Code.Ledger.Types.GovStructure.T_GovStructure_6 ->
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
-  [MAlonzo.Code.Data.Sum.Base.T__'8846'__30]
-d_ccCreds_666 ~v0 v1 = du_ccCreds_666 v1
-du_ccCreds_666 ::
+  [MAlonzo.Code.Ledger.Address.T_Credential_16]
+d_ccCreds_786 ~v0 v1 = du_ccCreds_786 v1
+du_ccCreds_786 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 ->
-  [MAlonzo.Code.Data.Sum.Base.T__'8846'__30]
-du_ccCreds_666 v0
+  [MAlonzo.Code.Ledger.Address.T_Credential_16]
+du_ccCreds_786 v0
   = case coe v0 of
       MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 v1 v2
         -> case coe v1 of
              MAlonzo.Code.Agda.Builtin.Maybe.C_just_16 v3
                -> coe
-                    MAlonzo.Code.Interface.IsSet.du_dom_492
+                    MAlonzo.Code.Interface.IsSet.du_dom_526
                     (coe
                        MAlonzo.Code.Axiom.Set.d_th_1430
                        (coe MAlonzo.Code.Ledger.Set.Theory.d_List'45'Model'7496'_10))
-                    (coe MAlonzo.Code.Interface.IsSet.du_IsSet'45'Map_500)
+                    (coe MAlonzo.Code.Interface.IsSet.du_IsSet'45'Map_534)
                     (coe MAlonzo.Code.Agda.Builtin.Sigma.d_fst_28 (coe v3))
              MAlonzo.Code.Agda.Builtin.Maybe.C_nothing_18
                -> coe
@@ -225,84 +237,84 @@ du_ccCreds_666 v0
              _ -> MAlonzo.RTE.mazUnreachableError
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Ledger.Enact.getHash
-d_getHash_672 ::
+d_getHash_792 ::
   MAlonzo.Code.Ledger.Types.GovStructure.T_GovStructure_6 ->
-  MAlonzo.Code.Ledger.GovernanceActions.T_GovAction_510 ->
+  MAlonzo.Code.Ledger.GovernanceActions.T_GovAction_628 ->
   AgdaAny -> Maybe MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_getHash_672 ~v0 v1 v2 = du_getHash_672 v1 v2
-du_getHash_672 ::
-  MAlonzo.Code.Ledger.GovernanceActions.T_GovAction_510 ->
+d_getHash_792 ~v0 v1 v2 = du_getHash_792 v1 v2
+du_getHash_792 ::
+  MAlonzo.Code.Ledger.GovernanceActions.T_GovAction_628 ->
   AgdaAny -> Maybe MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-du_getHash_672 v0 v1
+du_getHash_792 v0 v1
   = case coe v0 of
-      MAlonzo.Code.Ledger.GovernanceActions.C_NoConfidence_512
+      MAlonzo.Code.Ledger.GovernanceActions.C_NoConfidence_630
         -> coe MAlonzo.Code.Agda.Builtin.Maybe.C_just_16 (coe v1)
-      MAlonzo.Code.Ledger.GovernanceActions.C_NewCommittee_514 v2 v3 v4
+      MAlonzo.Code.Ledger.GovernanceActions.C_NewCommittee_632 v2 v3 v4
         -> coe MAlonzo.Code.Agda.Builtin.Maybe.C_just_16 (coe v1)
-      MAlonzo.Code.Ledger.GovernanceActions.C_NewConstitution_516 v2 v3
+      MAlonzo.Code.Ledger.GovernanceActions.C_NewConstitution_634 v2 v3
         -> coe MAlonzo.Code.Agda.Builtin.Maybe.C_just_16 (coe v1)
-      MAlonzo.Code.Ledger.GovernanceActions.C_TriggerHF_518 v2
+      MAlonzo.Code.Ledger.GovernanceActions.C_TriggerHF_636 v2
         -> coe MAlonzo.Code.Agda.Builtin.Maybe.C_just_16 (coe v1)
-      MAlonzo.Code.Ledger.GovernanceActions.C_ChangePParams_520 v2
+      MAlonzo.Code.Ledger.GovernanceActions.C_ChangePParams_638 v2
         -> coe MAlonzo.Code.Agda.Builtin.Maybe.C_just_16 (coe v1)
-      MAlonzo.Code.Ledger.GovernanceActions.C_TreasuryWdrl_522 v2
+      MAlonzo.Code.Ledger.GovernanceActions.C_TreasuryWdrl_640 v2
         -> coe MAlonzo.Code.Agda.Builtin.Maybe.C_nothing_18
-      MAlonzo.Code.Ledger.GovernanceActions.C_Info_524
+      MAlonzo.Code.Ledger.GovernanceActions.C_Info_642
         -> coe MAlonzo.Code.Agda.Builtin.Maybe.C_nothing_18
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Ledger.Enact.getHashES
-d_getHashES_684 ::
+d_getHashES_804 ::
   MAlonzo.Code.Ledger.Types.GovStructure.T_GovStructure_6 ->
-  T_EnactState_644 ->
-  MAlonzo.Code.Ledger.GovernanceActions.T_GovAction_510 ->
+  T_EnactState_764 ->
+  MAlonzo.Code.Ledger.GovernanceActions.T_GovAction_628 ->
   Maybe MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_getHashES_684 ~v0 v1 v2 = du_getHashES_684 v1 v2
-du_getHashES_684 ::
-  T_EnactState_644 ->
-  MAlonzo.Code.Ledger.GovernanceActions.T_GovAction_510 ->
+d_getHashES_804 ~v0 v1 v2 = du_getHashES_804 v1 v2
+du_getHashES_804 ::
+  T_EnactState_764 ->
+  MAlonzo.Code.Ledger.GovernanceActions.T_GovAction_628 ->
   Maybe MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-du_getHashES_684 v0 v1
+du_getHashES_804 v0 v1
   = case coe v1 of
-      MAlonzo.Code.Ledger.GovernanceActions.C_NoConfidence_512
+      MAlonzo.Code.Ledger.GovernanceActions.C_NoConfidence_630
         -> coe
              MAlonzo.Code.Agda.Builtin.Maybe.C_just_16
              (coe
-                MAlonzo.Code.Agda.Builtin.Sigma.d_snd_30 (coe d_cc_656 (coe v0)))
-      MAlonzo.Code.Ledger.GovernanceActions.C_NewCommittee_514 v2 v3 v4
+                MAlonzo.Code.Agda.Builtin.Sigma.d_snd_30 (coe d_cc_776 (coe v0)))
+      MAlonzo.Code.Ledger.GovernanceActions.C_NewCommittee_632 v2 v3 v4
         -> coe
              MAlonzo.Code.Agda.Builtin.Maybe.C_just_16
              (coe
-                MAlonzo.Code.Agda.Builtin.Sigma.d_snd_30 (coe d_cc_656 (coe v0)))
-      MAlonzo.Code.Ledger.GovernanceActions.C_NewConstitution_516 v2 v3
-        -> coe
-             MAlonzo.Code.Agda.Builtin.Maybe.C_just_16
-             (coe
-                MAlonzo.Code.Agda.Builtin.Sigma.d_snd_30
-                (coe d_constitution_658 (coe v0)))
-      MAlonzo.Code.Ledger.GovernanceActions.C_TriggerHF_518 v2
-        -> coe
-             MAlonzo.Code.Agda.Builtin.Maybe.C_just_16
-             (coe
-                MAlonzo.Code.Agda.Builtin.Sigma.d_snd_30 (coe d_pv_660 (coe v0)))
-      MAlonzo.Code.Ledger.GovernanceActions.C_ChangePParams_520 v2
+                MAlonzo.Code.Agda.Builtin.Sigma.d_snd_30 (coe d_cc_776 (coe v0)))
+      MAlonzo.Code.Ledger.GovernanceActions.C_NewConstitution_634 v2 v3
         -> coe
              MAlonzo.Code.Agda.Builtin.Maybe.C_just_16
              (coe
                 MAlonzo.Code.Agda.Builtin.Sigma.d_snd_30
-                (coe d_pparams_662 (coe v0)))
-      MAlonzo.Code.Ledger.GovernanceActions.C_TreasuryWdrl_522 v2
+                (coe d_constitution_778 (coe v0)))
+      MAlonzo.Code.Ledger.GovernanceActions.C_TriggerHF_636 v2
+        -> coe
+             MAlonzo.Code.Agda.Builtin.Maybe.C_just_16
+             (coe
+                MAlonzo.Code.Agda.Builtin.Sigma.d_snd_30 (coe d_pv_780 (coe v0)))
+      MAlonzo.Code.Ledger.GovernanceActions.C_ChangePParams_638 v2
+        -> coe
+             MAlonzo.Code.Agda.Builtin.Maybe.C_just_16
+             (coe
+                MAlonzo.Code.Agda.Builtin.Sigma.d_snd_30
+                (coe d_pparams_782 (coe v0)))
+      MAlonzo.Code.Ledger.GovernanceActions.C_TreasuryWdrl_640 v2
         -> coe MAlonzo.Code.Agda.Builtin.Maybe.C_nothing_18
-      MAlonzo.Code.Ledger.GovernanceActions.C_Info_524
+      MAlonzo.Code.Ledger.GovernanceActions.C_Info_642
         -> coe MAlonzo.Code.Agda.Builtin.Maybe.C_nothing_18
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Ledger.Enact._⊢_⇀⦇_,ENACT⦈_
-d__'8866'_'8640''10631'_'44'ENACT'10632'__726 a0 a1 a2 a3 a4 = ()
-data T__'8866'_'8640''10631'_'44'ENACT'10632'__726
-  = C_Enact'45'NoConf_728 |
-    C_Enact'45'NewComm_736 (AgdaAny ->
+d__'8866'_'8640''10631'_'44'ENACT'10632'__846 a0 a1 a2 a3 a4 = ()
+data T__'8866'_'8640''10631'_'44'ENACT'10632'__846
+  = C_Enact'45'NoConf_848 |
+    C_Enact'45'NewComm_856 (AgdaAny ->
                             MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 ->
                             MAlonzo.Code.Data.Sum.Base.T__'8846'__30) |
-    C_Enact'45'NewConst_738 | C_Enact'45'HF_740 |
-    C_Enact'45'PParams_742 |
-    C_Enact'45'Wdrl_748 MAlonzo.Code.Data.Nat.Base.T__'8804'__18 |
-    C_Enact'45'Info_750
+    C_Enact'45'NewConst_858 | C_Enact'45'HF_860 |
+    C_Enact'45'PParams_862 |
+    C_Enact'45'Wdrl_868 MAlonzo.Code.Data.Nat.Base.T__'8804'__22 |
+    C_Enact'45'Info_870

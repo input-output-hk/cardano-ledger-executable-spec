@@ -43,7 +43,7 @@ d_auto_18 ~v0 ~v1 v2 ~v3 = du_auto_18 v2
 du_auto_18 :: T__'8263'_10 -> AgdaAny
 du_auto_18 v0
   = coe
-      MAlonzo.Code.Relation.Nullary.Decidable.Core.du_toWitness_110
+      MAlonzo.Code.Relation.Nullary.Decidable.Core.du_toWitness_116
       (coe d_dec_16 (coe v0))
 -- Class.Decidable.Core._⁇.contradict
 d_contradict_26 ::
@@ -91,7 +91,7 @@ du_'191'_'191''7495'_46 ::
   MAlonzo.Code.Agda.Primitive.T_Level_18 -> T__'8263'_10 -> Bool
 du_'191'_'191''7495'_46 v0 v1
   = coe
-      MAlonzo.Code.Relation.Nullary.Decidable.Core.d_'8970'_'8971'_106 v0
+      MAlonzo.Code.Relation.Nullary.Decidable.Core.d_'8970'_'8971'_112 v0
       erased (coe du_'191'_'191'_42 (coe v1))
 -- Class.Decidable.Core.ifᵈ_then_else_
 d_if'7496'_then_else__58 ::
@@ -113,7 +113,7 @@ du_if'7496'_then_else__58 ::
    AgdaAny) ->
   AgdaAny
 du_if'7496'_then_else__58 v0 v1 v2
-  = let v3 = coe du_'191'_'191'_42 (coe v0) in
+  = let v3 = d_dec_16 (coe v0) in
     coe
       (case coe v3 of
          MAlonzo.Code.Relation.Nullary.Decidable.Core.C__because__32 v4 v5

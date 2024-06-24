@@ -91,7 +91,7 @@ d__'8776''63'__30
               (coe MAlonzo.Code.Agda.Builtin.Float.d_primFloatToWord64_22 v0)))
       (coe
          MAlonzo.Code.Data.Maybe.Properties.du_'8801''45'dec_24
-         (coe MAlonzo.Code.Data.Nat.Properties.d__'8799'__2550))
+         (coe MAlonzo.Code.Data.Nat.Properties.d__'8799'__2558))
 -- Data.Float.Properties.≈-isEquivalence
 d_'8776''45'isEquivalence_32 ::
   MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
@@ -127,7 +127,7 @@ d__'8799'__52 ::
   MAlonzo.Code.Relation.Nullary.Decidable.Core.T_Dec_20
 d__'8799'__52 v0 v1
   = coe
-      MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_144
+      MAlonzo.Code.Relation.Nullary.Decidable.Core.du_map'8242'_150
       erased (coe d__'8776''63'__30 v0 v1)
 -- Data.Float.Properties.≡-setoid
 d_'8801''45'setoid_58 ::

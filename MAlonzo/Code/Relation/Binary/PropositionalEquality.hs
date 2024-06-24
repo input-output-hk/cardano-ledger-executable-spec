@@ -117,12 +117,8 @@ du_'8594''45'to'45''10230'_60 v0
             MAlonzo.Code.Relation.Binary.Indexed.Heterogeneous.Construct.Trivial.du_isIndexedEquivalence_32
             (coe
                MAlonzo.Code.Relation.Binary.Bundles.d_isEquivalence_60 (coe v0))))
--- Relation.Binary.PropositionalEquality.isPropositional
-d_isPropositional_62 ::
-  MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()
-d_isPropositional_62 = erased
 -- Relation.Binary.PropositionalEquality.naturality
-d_naturality_84 ::
+d_naturality_76 ::
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
@@ -134,36 +130,36 @@ d_naturality_84 ::
   (AgdaAny -> AgdaAny) ->
   (AgdaAny -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12) ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_naturality_84 = erased
+d_naturality_76 = erased
 -- Relation.Binary.PropositionalEquality.cong-≡id
-d_cong'45''8801'id_102 ::
+d_cong'45''8801'id_94 ::
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   (AgdaAny -> AgdaAny) ->
   AgdaAny ->
   (AgdaAny -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12) ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_cong'45''8801'id_102 = erased
+d_cong'45''8801'id_94 = erased
 -- Relation.Binary.PropositionalEquality._.fx≡x
-d_fx'8801'x_114 ::
+d_fx'8801'x_106 ::
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   (AgdaAny -> AgdaAny) ->
   AgdaAny ->
   (AgdaAny -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12) ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_fx'8801'x_114 = erased
+d_fx'8801'x_106 = erased
 -- Relation.Binary.PropositionalEquality._.f²x≡x
-d_f'178'x'8801'x_116 ::
+d_f'178'x'8801'x_108 ::
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   (AgdaAny -> AgdaAny) ->
   AgdaAny ->
   (AgdaAny -> MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12) ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_f'178'x'8801'x_116 = erased
+d_f'178'x'8801'x_108 = erased
 -- Relation.Binary.PropositionalEquality._.≡-≟-identity
-d_'8801''45''8799''45'identity_136 ::
+d_'8801''45''8799''45'identity_128 ::
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   (AgdaAny ->
@@ -173,9 +169,9 @@ d_'8801''45''8799''45'identity_136 ::
   AgdaAny ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8801''45''8799''45'identity_136 = erased
+d_'8801''45''8799''45'identity_128 = erased
 -- Relation.Binary.PropositionalEquality._.≢-≟-identity
-d_'8802''45''8799''45'identity_142 ::
+d_'8802''45''8799''45'identity_134 ::
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   (AgdaAny ->
@@ -186,20 +182,24 @@ d_'8802''45''8799''45'identity_142 ::
   (MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12 ->
    MAlonzo.Code.Data.Irrelevant.T_Irrelevant_20) ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_'8802''45''8799''45'identity_142 = erased
+d_'8802''45''8799''45'identity_134 = erased
 -- Relation.Binary.PropositionalEquality.Reveal_·_is_
-d_Reveal_'183'_is__160 a0 a1 a2 a3 a4 a5 a6 = ()
-data T_Reveal_'183'_is__160 = C_'91'_'93'_176
+d_Reveal_'183'_is__152 a0 a1 a2 a3 a4 a5 a6 = ()
+data T_Reveal_'183'_is__152 = C_'91'_'93'_168
 -- Relation.Binary.PropositionalEquality.Reveal_·_is_.eq
-d_eq_174 ::
-  T_Reveal_'183'_is__160 ->
+d_eq_166 ::
+  T_Reveal_'183'_is__152 ->
   MAlonzo.Code.Agda.Builtin.Equality.T__'8801'__12
-d_eq_174 = erased
+d_eq_166 = erased
 -- Relation.Binary.PropositionalEquality.inspect
-d_inspect_188 ::
+d_inspect_180 ::
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () ->
   (AgdaAny -> ()) ->
-  (AgdaAny -> AgdaAny) -> AgdaAny -> T_Reveal_'183'_is__160
-d_inspect_188 = erased
+  (AgdaAny -> AgdaAny) -> AgdaAny -> T_Reveal_'183'_is__152
+d_inspect_180 = erased
+-- Relation.Binary.PropositionalEquality.isPropositional
+d_isPropositional_186 ::
+  MAlonzo.Code.Agda.Primitive.T_Level_18 -> () -> ()
+d_isPropositional_186 = erased

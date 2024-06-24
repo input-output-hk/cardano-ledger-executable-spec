@@ -57,7 +57,7 @@ d_initTacOpts_86 v0 v1
       (coe
          (\ v2 ->
             coe
-              MAlonzo.Code.Class.MonadTC.C_TCEnv'46'constructor_309
+              MAlonzo.Code.Class.MonadTC.C_TCEnv'46'constructor_243
               (coe MAlonzo.Code.Class.MonadTC.d_normalisation_50 (coe v2))
               (coe MAlonzo.Code.Class.MonadTC.d_reconstruction_52 (coe v2))
               (coe MAlonzo.Code.Class.MonadTC.d_noConstraints_54 (coe v2))
@@ -85,7 +85,7 @@ d_initUnquoteWithGoal_104 v0 v1 v2
          coe
            v2
            (coe
-              MAlonzo.Code.Class.MonadTC.C_TCEnv'46'constructor_309
+              MAlonzo.Code.Class.MonadTC.C_TCEnv'46'constructor_243
               (coe MAlonzo.Code.Class.MonadTC.d_normalisation_50 (coe v3))
               (coe MAlonzo.Code.Class.MonadTC.d_reconstruction_52 (coe v3))
               (coe MAlonzo.Code.Class.MonadTC.d_noConstraints_54 (coe v3))

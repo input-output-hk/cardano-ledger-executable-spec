@@ -41,13 +41,13 @@ d__'8744'__30 v0 v1 = if coe v0 then coe v0 else coe v1
 -- Data.Bool.Base._xor_
 d__xor__36 :: Bool -> Bool -> Bool
 d__xor__36 v0 v1 = if coe v0 then coe d_not_22 (coe v1) else coe v1
+-- Data.Bool.Base.T
+d_T_42 :: Bool -> ()
+d_T_42 = erased
 -- Data.Bool.Base.if_then_else_
-d_if_then_else__42 ::
+d_if_then_else__44 ::
   MAlonzo.Code.Agda.Primitive.T_Level_18 ->
   () -> Bool -> AgdaAny -> AgdaAny -> AgdaAny
-d_if_then_else__42 ~v0 ~v1 v2 v3 v4 = du_if_then_else__42 v2 v3 v4
-du_if_then_else__42 :: Bool -> AgdaAny -> AgdaAny -> AgdaAny
-du_if_then_else__42 v0 v1 v2 = if coe v0 then coe v1 else coe v2
--- Data.Bool.Base.T
-d_T_52 :: Bool -> ()
-d_T_52 = erased
+d_if_then_else__44 ~v0 ~v1 v2 v3 v4 = du_if_then_else__44 v2 v3 v4
+du_if_then_else__44 :: Bool -> AgdaAny -> AgdaAny -> AgdaAny
+du_if_then_else__44 v0 v1 v2 = if coe v0 then coe v1 else coe v2

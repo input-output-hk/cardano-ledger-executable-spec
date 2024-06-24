@@ -86,7 +86,7 @@ du_liftViaInverse_64 ::
   (AgdaAny -> AgdaAny -> AgdaAny) -> AgdaAny -> AgdaAny -> AgdaAny
 du_liftViaInverse_64 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Function.Properties.Inverse.du_transportVia_620
+      MAlonzo.Code.Function.Properties.Inverse.du_transportVia_694
       (coe ()) (coe ())
       (coe
          MAlonzo.Code.Relation.Binary.PropositionalEquality.Properties.du_setoid_402)
@@ -177,7 +177,7 @@ du__'8846''45''8660'__78
       (coe
          (\ v0 v1 v2 v3 v4 v5 v6 ->
             coe
-              MAlonzo.Code.Function.Properties.Inverse.du_Inverse'8658'Equivalence_478
+              MAlonzo.Code.Function.Properties.Inverse.du_Inverse'8658'Equivalence_552
               v6))
       (coe
          MAlonzo.Code.Data.Sum.Function.Setoid.du__'8846''45'equivalence__142)
@@ -245,7 +245,7 @@ du__'8846''45''8608'__82
       (coe
          (\ v0 v1 v2 v3 v4 v5 v6 ->
             coe
-              MAlonzo.Code.Function.Properties.Inverse.du_Inverse'8658'Surjection_302
+              MAlonzo.Code.Function.Properties.Inverse.du_Inverse'8658'Surjection_328
               v6))
       (coe
          MAlonzo.Code.Data.Sum.Function.Setoid.du__'8846''45'surjection__162)
@@ -343,7 +343,7 @@ du__'8846''45''10518'__88
       (coe
          (\ v0 v1 v2 v3 v4 ->
             coe
-              MAlonzo.Code.Function.Properties.Inverse.du_Inverse'8658'Bijection_392
+              MAlonzo.Code.Function.Properties.Inverse.du_Inverse'8658'Bijection_440
               (coe v4)))
       (coe
          MAlonzo.Code.Data.Sum.Function.Setoid.du__'8846''45'bijection__172)

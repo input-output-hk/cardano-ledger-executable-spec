@@ -32,25 +32,25 @@ d_ℤtoSignedℕ_6 v0
 -- Data.Integer.Ext.posPart
 d_posPart_10 :: Integer -> Integer
 d_posPart_10 v0
-  = let v1 = d_ℤtoSignedℕ_6 (coe v0) in
+  = let v1 = MAlonzo.Code.Data.Integer.Base.d_sign_24 (coe v0) in
     coe
-      (case coe v1 of
-         MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 v2 v3
-           -> case coe v2 of
-                MAlonzo.Code.Data.Sign.Base.C_'43'_10 -> coe v3
-                _ -> coe (0 :: Integer)
-         _ -> MAlonzo.RTE.mazUnreachableError)
+      (let v2
+             = MAlonzo.Code.Data.Integer.Base.d_'8739'_'8739'_18 (coe v0) in
+       coe
+         (case coe v1 of
+            MAlonzo.Code.Data.Sign.Base.C_'43'_10 -> coe v2
+            _ -> coe (0 :: Integer)))
 -- Data.Integer.Ext.negPart
 d_negPart_24 :: Integer -> Integer
 d_negPart_24 v0
-  = let v1 = d_ℤtoSignedℕ_6 (coe v0) in
+  = let v1 = MAlonzo.Code.Data.Integer.Base.d_sign_24 (coe v0) in
     coe
-      (case coe v1 of
-         MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32 v2 v3
-           -> case coe v2 of
-                MAlonzo.Code.Data.Sign.Base.C_'45'_8 -> coe v3
-                _ -> coe (0 :: Integer)
-         _ -> MAlonzo.RTE.mazUnreachableError)
+      (let v2
+             = MAlonzo.Code.Data.Integer.Base.d_'8739'_'8739'_18 (coe v0) in
+       coe
+         (case coe v1 of
+            MAlonzo.Code.Data.Sign.Base.C_'45'_8 -> coe v2
+            _ -> coe (0 :: Integer)))
 -- Data.Integer.Ext.∸≡posPart⊖
 d_'8760''8801'posPart'8854'_42 ::
   Integer ->

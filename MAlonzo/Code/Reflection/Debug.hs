@@ -167,7 +167,7 @@ d_Filter'45'Alg_70
   = coe
       MAlonzo.Code.Algebra.Function.du_hom_264
       (coe
-         MAlonzo.Code.Data.Bool.Properties.d_'8744''45''8743''45'booleanAlgebra_3256)
+         MAlonzo.Code.Data.Bool.Properties.d_'8744''45''8743''45'booleanAlgebra_3260)
 -- Reflection.Debug.Filter._._∧_
 d__'8743'__74 ::
   ([MAlonzo.Code.Agda.Builtin.String.T_String_6] -> Bool) ->
@@ -203,11 +203,11 @@ d_Carrier_82 = erased
 d_absorptive_84 :: MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_absorptive_84
   = coe
-      MAlonzo.Code.Algebra.Lattice.Structures.d_absorptive_2862
+      MAlonzo.Code.Algebra.Lattice.Structures.d_absorptive_2866
       (coe
-         MAlonzo.Code.Algebra.Lattice.Structures.d_isLattice_2912
+         MAlonzo.Code.Algebra.Lattice.Structures.d_isLattice_2916
          (coe
-            MAlonzo.Code.Algebra.Lattice.Structures.d_isDistributiveLattice_2996
+            MAlonzo.Code.Algebra.Lattice.Structures.d_isDistributiveLattice_3000
             (coe
                MAlonzo.Code.Algebra.Lattice.Bundles.d_isBooleanAlgebra_716
                (coe d_Filter'45'Alg_70))))
@@ -220,17 +220,17 @@ d_distributiveLattice_86
       (coe d_Filter'45'Alg_70)
 -- Reflection.Debug.Filter._.isBooleanAlgebra
 d_isBooleanAlgebra_88 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsBooleanAlgebra_2976
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsBooleanAlgebra_2980
 d_isBooleanAlgebra_88
   = coe
       MAlonzo.Code.Algebra.Lattice.Bundles.d_isBooleanAlgebra_716
       (coe d_Filter'45'Alg_70)
 -- Reflection.Debug.Filter._.isDistributiveLattice
 d_isDistributiveLattice_90 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsDistributiveLattice_2900
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsDistributiveLattice_2904
 d_isDistributiveLattice_90
   = coe
-      MAlonzo.Code.Algebra.Lattice.Structures.d_isDistributiveLattice_2996
+      MAlonzo.Code.Algebra.Lattice.Structures.d_isDistributiveLattice_3000
       (coe
          MAlonzo.Code.Algebra.Lattice.Bundles.d_isBooleanAlgebra_716
          (coe d_Filter'45'Alg_70))
@@ -239,22 +239,22 @@ d_isEquivalence_92 ::
   MAlonzo.Code.Relation.Binary.Structures.T_IsEquivalence_26
 d_isEquivalence_92
   = coe
-      MAlonzo.Code.Algebra.Lattice.Structures.d_isEquivalence_2848
+      MAlonzo.Code.Algebra.Lattice.Structures.d_isEquivalence_2852
       (coe
-         MAlonzo.Code.Algebra.Lattice.Structures.d_isLattice_2912
+         MAlonzo.Code.Algebra.Lattice.Structures.d_isLattice_2916
          (coe
-            MAlonzo.Code.Algebra.Lattice.Structures.d_isDistributiveLattice_2996
+            MAlonzo.Code.Algebra.Lattice.Structures.d_isDistributiveLattice_3000
             (coe
                MAlonzo.Code.Algebra.Lattice.Bundles.d_isBooleanAlgebra_716
                (coe d_Filter'45'Alg_70))))
 -- Reflection.Debug.Filter._.isLattice
 d_isLattice_94 ::
-  MAlonzo.Code.Algebra.Lattice.Structures.T_IsLattice_2826
+  MAlonzo.Code.Algebra.Lattice.Structures.T_IsLattice_2830
 d_isLattice_94
   = coe
-      MAlonzo.Code.Algebra.Lattice.Structures.d_isLattice_2912
+      MAlonzo.Code.Algebra.Lattice.Structures.d_isLattice_2916
       (coe
-         MAlonzo.Code.Algebra.Lattice.Structures.d_isDistributiveLattice_2996
+         MAlonzo.Code.Algebra.Lattice.Structures.d_isDistributiveLattice_3000
          (coe
             MAlonzo.Code.Algebra.Lattice.Bundles.d_isBooleanAlgebra_716
             (coe d_Filter'45'Alg_70)))
@@ -269,17 +269,17 @@ d_isPartialEquivalence_96
                  (coe v0) in
        coe
          (let v2
-                = MAlonzo.Code.Algebra.Lattice.Structures.d_isDistributiveLattice_2996
+                = MAlonzo.Code.Algebra.Lattice.Structures.d_isDistributiveLattice_3000
                     (coe v1) in
           coe
             (let v3
-                   = MAlonzo.Code.Algebra.Lattice.Structures.d_isLattice_2912
+                   = MAlonzo.Code.Algebra.Lattice.Structures.d_isLattice_2916
                        (coe v2) in
              coe
                (coe
                   MAlonzo.Code.Relation.Binary.Structures.du_isPartialEquivalence_42
                   (coe
-                     MAlonzo.Code.Algebra.Lattice.Structures.d_isEquivalence_2848
+                     MAlonzo.Code.Algebra.Lattice.Structures.d_isEquivalence_2852
                      (coe v3))))))
 -- Reflection.Debug.Filter._.lattice
 d_lattice_98 :: MAlonzo.Code.Algebra.Lattice.Bundles.T_Lattice_498
@@ -399,7 +399,7 @@ d_'8743''45'complement_122 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_'8743''45'complement_122
   = coe
-      MAlonzo.Code.Algebra.Lattice.Structures.d_'8743''45'complement_3000
+      MAlonzo.Code.Algebra.Lattice.Structures.d_'8743''45'complement_3004
       (coe
          MAlonzo.Code.Algebra.Lattice.Bundles.d_isBooleanAlgebra_716
          (coe d_Filter'45'Alg_70))
@@ -453,9 +453,9 @@ d_'8743''45'distrib'45''8744'_134 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_'8743''45'distrib'45''8744'_134
   = coe
-      MAlonzo.Code.Algebra.Lattice.Structures.d_'8743''45'distrib'45''8744'_2916
+      MAlonzo.Code.Algebra.Lattice.Structures.d_'8743''45'distrib'45''8744'_2920
       (coe
-         MAlonzo.Code.Algebra.Lattice.Structures.d_isDistributiveLattice_2996
+         MAlonzo.Code.Algebra.Lattice.Structures.d_isDistributiveLattice_3000
          (coe
             MAlonzo.Code.Algebra.Lattice.Bundles.d_isBooleanAlgebra_716
             (coe d_Filter'45'Alg_70)))
@@ -521,7 +521,7 @@ d_'8744''45'complement_148 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_'8744''45'complement_148
   = coe
-      MAlonzo.Code.Algebra.Lattice.Structures.d_'8744''45'complement_2998
+      MAlonzo.Code.Algebra.Lattice.Structures.d_'8744''45'complement_3002
       (coe
          MAlonzo.Code.Algebra.Lattice.Bundles.d_isBooleanAlgebra_716
          (coe d_Filter'45'Alg_70))
@@ -575,9 +575,9 @@ d_'8744''45'distrib'45''8743'_160 ::
   MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 d_'8744''45'distrib'45''8743'_160
   = coe
-      MAlonzo.Code.Algebra.Lattice.Structures.d_'8744''45'distrib'45''8743'_2914
+      MAlonzo.Code.Algebra.Lattice.Structures.d_'8744''45'distrib'45''8743'_2918
       (coe
-         MAlonzo.Code.Algebra.Lattice.Structures.d_isDistributiveLattice_2996
+         MAlonzo.Code.Algebra.Lattice.Structures.d_isDistributiveLattice_3000
          (coe
             MAlonzo.Code.Algebra.Lattice.Bundles.d_isBooleanAlgebra_716
             (coe d_Filter'45'Alg_70)))
@@ -636,7 +636,7 @@ d__'8803'__172 ::
   MAlonzo.Code.Agda.Builtin.String.T_String_6 -> Bool
 d__'8803'__172 v0 v1
   = coe
-      MAlonzo.Code.Relation.Nullary.Decidable.Core.d_'8970'_'8971'_106 ()
+      MAlonzo.Code.Relation.Nullary.Decidable.Core.d_'8970'_'8971'_112 ()
       erased
       (MAlonzo.Code.Data.String.Properties.d__'8799'__54
          (coe v0) (coe v1))
@@ -700,7 +700,7 @@ d_beginsWith_214 v0 v1
 -- Reflection.Debug.DebugOptions
 d_DebugOptions_234 = ()
 data T_DebugOptions_234
-  = C_DebugOptions'46'constructor_2025 [MAlonzo.Code.Agda.Builtin.String.T_String_6]
+  = C_DebugOptions'46'constructor_1911 [MAlonzo.Code.Agda.Builtin.String.T_String_6]
                                        T_DebugSelection_56
                                        ([MAlonzo.Code.Agda.Builtin.String.T_String_6] -> Bool)
                                        Integer MAlonzo.Code.Agda.Builtin.Char.T_Char_6
@@ -709,13 +709,13 @@ d_path_246 ::
   T_DebugOptions_234 -> [MAlonzo.Code.Agda.Builtin.String.T_String_6]
 d_path_246 v0
   = case coe v0 of
-      C_DebugOptions'46'constructor_2025 v1 v2 v3 v4 v5 -> coe v1
+      C_DebugOptions'46'constructor_1911 v1 v2 v3 v4 v5 -> coe v1
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Reflection.Debug.DebugOptions.selection
 d_selection_248 :: T_DebugOptions_234 -> T_DebugSelection_56
 d_selection_248 v0
   = case coe v0 of
-      C_DebugOptions'46'constructor_2025 v1 v2 v3 v4 v5 -> coe v2
+      C_DebugOptions'46'constructor_1911 v1 v2 v3 v4 v5 -> coe v2
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Reflection.Debug.DebugOptions.filter
 d_filter_250 ::
@@ -723,26 +723,26 @@ d_filter_250 ::
   [MAlonzo.Code.Agda.Builtin.String.T_String_6] -> Bool
 d_filter_250 v0
   = case coe v0 of
-      C_DebugOptions'46'constructor_2025 v1 v2 v3 v4 v5 -> coe v3
+      C_DebugOptions'46'constructor_1911 v1 v2 v3 v4 v5 -> coe v3
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Reflection.Debug.DebugOptions.level
 d_level_252 :: T_DebugOptions_234 -> Integer
 d_level_252 v0
   = case coe v0 of
-      C_DebugOptions'46'constructor_2025 v1 v2 v3 v4 v5 -> coe v4
+      C_DebugOptions'46'constructor_1911 v1 v2 v3 v4 v5 -> coe v4
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Reflection.Debug.DebugOptions.prefix
 d_prefix_254 ::
   T_DebugOptions_234 -> MAlonzo.Code.Agda.Builtin.Char.T_Char_6
 d_prefix_254 v0
   = case coe v0 of
-      C_DebugOptions'46'constructor_2025 v1 v2 v3 v4 v5 -> coe v5
+      C_DebugOptions'46'constructor_1911 v1 v2 v3 v4 v5 -> coe v5
       _ -> MAlonzo.RTE.mazUnreachableError
 -- Reflection.Debug.defaultDebugOptions
 d_defaultDebugOptions_256 :: T_DebugOptions_234
 d_defaultDebugOptions_256
   = coe
-      C_DebugOptions'46'constructor_2025
+      C_DebugOptions'46'constructor_1911
       (coe MAlonzo.Code.Agda.Builtin.List.C_'91''93'_16) (coe C_All_62)
       (coe
          MAlonzo.Code.Algebra.Lattice.Bundles.d_'8868'_712
@@ -753,11 +753,11 @@ d_specializeDebugOptions_258 ::
   T_DebugOptions_234 -> T_DebugOptions_234 -> T_DebugOptions_234
 d_specializeDebugOptions_258 v0 v1
   = case coe v0 of
-      C_DebugOptions'46'constructor_2025 v2 v3 v4 v5 v6
+      C_DebugOptions'46'constructor_1911 v2 v3 v4 v5 v6
         -> case coe v1 of
-             C_DebugOptions'46'constructor_2025 v7 v8 v9 v10 v11
+             C_DebugOptions'46'constructor_1911 v7 v8 v9 v10 v11
                -> coe
-                    C_DebugOptions'46'constructor_2025
+                    C_DebugOptions'46'constructor_1911
                     (coe
                        MAlonzo.Code.Data.List.Base.du__'43''43'__62 (coe v2) (coe v7))
                     (coe v8) (coe v9) (coe v10) (coe v11)
@@ -768,7 +768,7 @@ d_debugOptionsPath_266 ::
   T_DebugOptions_234 -> MAlonzo.Code.Agda.Builtin.String.T_String_6
 d_debugOptionsPath_266 v0
   = case coe v0 of
-      C_DebugOptions'46'constructor_2025 v1 v2 v3 v4 v5
+      C_DebugOptions'46'constructor_1911 v1 v2 v3 v4 v5
         -> case coe v2 of
              C_FullPath_58
                -> coe
