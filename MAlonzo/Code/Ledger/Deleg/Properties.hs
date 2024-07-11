@@ -1058,7 +1058,7 @@ d_Computational'45'GOVCERT_918 v0
                                                                         (coe
                                                                            MAlonzo.Code.Ledger.Deleg.C_GOVCERT'45'regdrep_962
                                                                            v17))
-                                                              _ -> MAlonzo.RTE.mazUnreachableError
+                                                              _ -> MAlonzo.RTE.mazUnreachableErrorX "Properties.hs, line 1061"
                                                        else coe
                                                               seq (coe v16)
                                                               (coe

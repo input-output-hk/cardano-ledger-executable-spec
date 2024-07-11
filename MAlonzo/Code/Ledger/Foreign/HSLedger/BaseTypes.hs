@@ -7052,7 +7052,7 @@ d_Convertible'45'DCert_516
                                      -> coe
                                           MAlonzo.Code.Ledger.Foreign.LedgerTypes.C_ScriptObj_120
                                           (coe v5)
-                                   _ -> MAlonzo.RTE.mazUnreachableError))
+                                   _ -> MAlonzo.RTE.mazUnreachableErrorX "BaseTypes.hs, line 7055"))
                            (coe
                               (\ v4 ->
                                  case coe v4 of
@@ -7060,7 +7060,7 @@ d_Convertible'45'DCert_516
                                      -> coe MAlonzo.Code.Data.Sum.Base.C_inj'8322'_42 (coe v5)
                                    MAlonzo.Code.Ledger.Foreign.LedgerTypes.C_KeyHashObj_122 v5
                                      -> coe MAlonzo.Code.Data.Sum.Base.C_inj'8321'_38 (coe v5)
-                                   _ -> MAlonzo.RTE.mazUnreachableError)))
+                                   _ -> MAlonzo.RTE.mazUnreachableErrorX "BaseTypes.hs, line: 7063")))
                         v1)
                      (coe v2)
                      (coe MAlonzo.Code.Ledger.GovernanceActions.d_hash_592 (coe v3))
@@ -7148,7 +7148,7 @@ d_Convertible'45'DCert_516
                                         -> coe MAlonzo.Code.Data.Sum.Base.C_inj'8321'_38 (coe v4)
                                       _ -> MAlonzo.RTE.mazUnreachableError))))
                         v2)
-              _ -> MAlonzo.RTE.mazUnreachableError))
+              _ -> MAlonzo.RTE.mazUnreachableErrorX "Basetypes.hs, like 7151"))
       (coe
          (\ v0 ->
             case coe v0 of
@@ -7510,7 +7510,7 @@ d_Convertible'45'DCert_516
                                      -> coe
                                           MAlonzo.Code.Ledger.Foreign.LedgerTypes.C_ScriptObj_120
                                           (coe v5)
-                                   _ -> MAlonzo.RTE.mazUnreachableError))
+                                   _ -> MAlonzo.RTE.mazUnreachableErrorX "BaseTypes.hs, line: 7513"))
                            (coe
                               (\ v4 ->
                                  case coe v4 of
@@ -7518,7 +7518,7 @@ d_Convertible'45'DCert_516
                                      -> coe MAlonzo.Code.Data.Sum.Base.C_inj'8322'_42 (coe v5)
                                    MAlonzo.Code.Ledger.Foreign.LedgerTypes.C_KeyHashObj_122 v5
                                      -> coe MAlonzo.Code.Data.Sum.Base.C_inj'8321'_38 (coe v5)
-                                   _ -> MAlonzo.RTE.mazUnreachableError)))
+                                   _ -> MAlonzo.RTE.mazUnreachableErrorX "BaseTypes.hs, line: 7521")))
                         v1)
                      (coe v2)
                      (coe
@@ -7621,7 +7621,7 @@ d_Convertible'45'DCert_516
                                         -> coe MAlonzo.Code.Data.Sum.Base.C_inj'8321'_38 (coe v4)
                                       _ -> MAlonzo.RTE.mazUnreachableError))))
                         v2)
-              _ -> MAlonzo.RTE.mazUnreachableError))
+              _ -> MAlonzo.RTE.mazUnreachableErrorX "BaseTypes.hs, line 7624"))
 -- Ledger.Foreign.HSLedger.BaseTypes.Convertible-TxBody
 d_Convertible'45'TxBody_518 ::
   MAlonzo.Code.Foreign.Convertible.T_Convertible_8
@@ -8359,7 +8359,7 @@ d_Convertible'45'TxBody_518
                                                       -> coe
                                                            MAlonzo.Code.Data.Sum.Base.C_inj'8321'_38
                                                            (coe v5)
-                                                    _ -> MAlonzo.RTE.mazUnreachableError)))
+                                                    _ -> MAlonzo.RTE.mazUnreachableErrorX "BaseTypes.hs, line: 8362")))
                                          v2)
                                       (coe v3)
                                MAlonzo.Code.Ledger.Certs.C_regdrep_730 v2 v3 v4
@@ -8380,7 +8380,7 @@ d_Convertible'45'TxBody_518
                                                       -> coe
                                                            MAlonzo.Code.Ledger.Foreign.LedgerTypes.C_ScriptObj_120
                                                            (coe v6)
-                                                    _ -> MAlonzo.RTE.mazUnreachableError))
+                                                    _ -> MAlonzo.RTE.mazUnreachableErrorX "BaseTypes.hs, line 8383"))
                                             (coe
                                                (\ v5 ->
                                                   case coe v5 of
@@ -8459,7 +8459,7 @@ d_Convertible'45'TxBody_518
                                                       -> coe
                                                            MAlonzo.Code.Data.Sum.Base.C_inj'8321'_38
                                                            (coe v5)
-                                                    _ -> MAlonzo.RTE.mazUnreachableError)))
+                                                    _ -> MAlonzo.RTE.mazUnreachableErrorX "BaseTypes, line 8462")))
                                          v2)
                                       (coe
                                          MAlonzo.Code.Foreign.Convertible.d_to_18
@@ -8879,7 +8879,7 @@ d_Convertible'45'TxBody_518
                                                       -> coe
                                                            MAlonzo.Code.Ledger.Foreign.LedgerTypes.C_ScriptObj_120
                                                            (coe v6)
-                                                    _ -> MAlonzo.RTE.mazUnreachableError))
+                                                    _ -> MAlonzo.RTE.mazUnreachableErrorX "BaseTypes, line 8882"))
                                             (coe
                                                (\ v5 ->
                                                   case coe v5 of
@@ -9677,7 +9677,7 @@ d_Convertible'45'TxBody_518
                                                       -> coe
                                                            MAlonzo.Code.Ledger.Foreign.LedgerTypes.C_ScriptObj_120
                                                            (coe v6)
-                                                    _ -> MAlonzo.RTE.mazUnreachableError))
+                                                    _ -> MAlonzo.RTE.mazUnreachableError "BaseTypes, line 9680"))
                                             (coe
                                                (\ v5 ->
                                                   case coe v5 of
@@ -10176,7 +10176,7 @@ d_Convertible'45'TxBody_518
                                                       -> coe
                                                            MAlonzo.Code.Ledger.Foreign.LedgerTypes.C_ScriptObj_120
                                                            (coe v6)
-                                                    _ -> MAlonzo.RTE.mazUnreachableError))
+                                                    _ -> MAlonzo.RTE.mazUnreachableErrorX "BaseTypes, line 10179"))
                                             (coe
                                                (\ v5 ->
                                                   case coe v5 of
@@ -11178,7 +11178,7 @@ d_Convertible'45'Tx_590
                                                                     -> coe
                                                                          MAlonzo.Code.Ledger.Foreign.LedgerTypes.C_ScriptObj_120
                                                                          (coe v7)
-                                                                  _ -> MAlonzo.RTE.mazUnreachableError))
+                                                                  _ -> MAlonzo.RTE.mazUnreachableErrorX "BaseTypes line 11181"))
                                                           (coe
                                                              (\ v6 ->
                                                                 case coe v6 of
@@ -11694,7 +11694,7 @@ d_Convertible'45'Tx_590
                                                                     -> coe
                                                                          MAlonzo.Code.Ledger.Foreign.LedgerTypes.C_ScriptObj_120
                                                                          (coe v7)
-                                                                  _ -> MAlonzo.RTE.mazUnreachableError))
+                                                                  _ -> MAlonzo.RTE.mazUnreachableErrorX "BaseTypes, line 11697"))
                                                           (coe
                                                              (\ v6 ->
                                                                 case coe v6 of
@@ -11706,7 +11706,7 @@ d_Convertible'45'Tx_590
                                                                     -> coe
                                                                          MAlonzo.Code.Data.Sum.Base.C_inj'8321'_38
                                                                          (coe v7)
-                                                                  _ -> MAlonzo.RTE.mazUnreachableError)))
+                                                                  _ -> MAlonzo.RTE.mazUnreachableErrorX "BaseTypes, line 11709")))
                                                        v3)
                                                     (coe v4)
                                                     (coe
@@ -12530,7 +12530,7 @@ d_Convertible'45'Tx_590
                                                                     -> coe
                                                                          MAlonzo.Code.Ledger.Foreign.LedgerTypes.C_ScriptObj_120
                                                                          (coe v7)
-                                                                  _ -> MAlonzo.RTE.mazUnreachableError))
+                                                                  _ -> MAlonzo.RTE.mazUnreachableErrorX "BaseTypes, line 12533"))
                                                           (coe
                                                              (\ v6 ->
                                                                 case coe v6 of
@@ -13046,7 +13046,7 @@ d_Convertible'45'Tx_590
                                                                     -> coe
                                                                          MAlonzo.Code.Ledger.Foreign.LedgerTypes.C_ScriptObj_120
                                                                          (coe v7)
-                                                                  _ -> MAlonzo.RTE.mazUnreachableError))
+                                                                  _ -> MAlonzo.RTE.mazUnreachableErrorX "BaseTypes, line 13049"))
                                                           (coe
                                                              (\ v6 ->
                                                                 case coe v6 of
@@ -14668,7 +14668,7 @@ d_Convertible'45'Tx_590
                                                                     -> coe
                                                                          MAlonzo.Code.Ledger.Foreign.LedgerTypes.C_ScriptObj_120
                                                                          (coe v7)
-                                                                  _ -> MAlonzo.RTE.mazUnreachableError))
+                                                                  _ -> MAlonzo.RTE.mazUnreachableErrorX "BaseTypes, line 14671"))
                                                           (coe
                                                              (\ v6 ->
                                                                 case coe v6 of
@@ -15184,7 +15184,7 @@ d_Convertible'45'Tx_590
                                                                     -> coe
                                                                          MAlonzo.Code.Ledger.Foreign.LedgerTypes.C_ScriptObj_120
                                                                          (coe v7)
-                                                                  _ -> MAlonzo.RTE.mazUnreachableError))
+                                                                  _ -> MAlonzo.RTE.mazUnreachableErrorX "BaseTypes.hs, line 15187"))
                                                           (coe
                                                              (\ v6 ->
                                                                 case coe v6 of
@@ -16020,7 +16020,7 @@ d_Convertible'45'Tx_590
                                                                     -> coe
                                                                          MAlonzo.Code.Ledger.Foreign.LedgerTypes.C_ScriptObj_120
                                                                          (coe v7)
-                                                                  _ -> MAlonzo.RTE.mazUnreachableError))
+                                                                  _ -> MAlonzo.RTE.mazUnreachableErrorX "BaseTypes.hs, line 16023"))
                                                           (coe
                                                              (\ v6 ->
                                                                 case coe v6 of
@@ -16536,7 +16536,7 @@ d_Convertible'45'Tx_590
                                                                     -> coe
                                                                          MAlonzo.Code.Ledger.Foreign.LedgerTypes.C_ScriptObj_120
                                                                          (coe v7)
-                                                                  _ -> MAlonzo.RTE.mazUnreachableError))
+                                                                  _ -> MAlonzo.RTE.mazUnreachableErrorX "BaseTypes.hs, line 16539"))
                                                           (coe
                                                              (\ v6 ->
                                                                 case coe v6 of

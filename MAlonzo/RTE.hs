@@ -43,6 +43,9 @@ erased = coe (\ _ -> erased)
 mazUnreachableError :: a
 mazUnreachableError = error ("Agda: unreachable code reached.")
 
+mazUnreachableErrorX :: HasCallStack => String -> a
+mazUnreachableErrorX msg = error $ "XXX Agda: unreachable code reached." ++ msg
+
 mazHole :: String -> a
 mazHole s = error ("Agda: reached hole: " ++ s)
 

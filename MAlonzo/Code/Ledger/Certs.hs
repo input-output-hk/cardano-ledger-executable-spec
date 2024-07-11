@@ -113,7 +113,7 @@ d_cwitness_736 v0
       C_regdrep_730 v1 v2 v3 -> coe v1
       C_deregdrep_732 v1 -> coe v1
       C_ccreghot_734 v1 v2 -> coe v1
-      _ -> MAlonzo.RTE.mazUnreachableError
+      _ -> MAlonzo.RTE.mazUnreachableErrorX "d_cwitness_736 Certs.hs, line 116"
 -- Ledger.Certs.CertEnv
 d_CertEnv_752 a0 = ()
 data T_CertEnv_752

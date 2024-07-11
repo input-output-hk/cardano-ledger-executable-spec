@@ -12238,7 +12238,7 @@ d_deleg'45'step_30 v0 v1 v2
                                               -> coe
                                                    MAlonzo.Code.Ledger.Foreign.LedgerTypes.C_ScriptObj_120
                                                    (coe v8)
-                                            _ -> MAlonzo.RTE.mazUnreachableError))
+                                            _ -> MAlonzo.RTE.mazUnreachableErrorX "Certs.hs, line 12241"))
                                     (coe
                                        (\ v7 ->
                                           case coe v7 of
@@ -12732,7 +12732,7 @@ d_deleg'45'step_30 v0 v1 v2
                                               -> coe
                                                    MAlonzo.Code.Ledger.Foreign.LedgerTypes.C_ScriptObj_120
                                                    (coe v8)
-                                            _ -> MAlonzo.RTE.mazUnreachableError))
+                                            _ -> MAlonzo.RTE.mazUnreachableErrorX "Certs.hs, line 12735"))
                                     (coe
                                        (\ v7 ->
                                           case coe v7 of
@@ -15416,7 +15416,7 @@ d_pool'45'step_32 v0 v1 v2
                                               -> coe
                                                    MAlonzo.Code.Ledger.Foreign.LedgerTypes.C_ScriptObj_120
                                                    (coe v8)
-                                            _ -> MAlonzo.RTE.mazUnreachableError))
+                                            _ -> MAlonzo.RTE.mazUnreachableErrorX "Certs.hs, line 15419"))
                                     (coe
                                        (\ v7 ->
                                           case coe v7 of
@@ -15910,7 +15910,7 @@ d_pool'45'step_32 v0 v1 v2
                                               -> coe
                                                    MAlonzo.Code.Ledger.Foreign.LedgerTypes.C_ScriptObj_120
                                                    (coe v8)
-                                            _ -> MAlonzo.RTE.mazUnreachableError))
+                                            _ -> MAlonzo.RTE.mazUnreachableErrorX "Certs.hs, 15913"))
                                     (coe
                                        (\ v7 ->
                                           case coe v7 of
@@ -16092,7 +16092,7 @@ d_govcert'45'step_34 v0 v1 v2
                                                                  -> coe
                                                                       MAlonzo.Code.Ledger.Foreign.LedgerTypes.C_ScriptObj_120
                                                                       (coe v8)
-                                                               _ -> MAlonzo.RTE.mazUnreachableError))
+                                                               _ -> MAlonzo.RTE.mazUnreachableErrorX "HSLedger/Certs.hs line 16095"))
                                                        (coe
                                                           (\ v7 ->
                                                              case coe v7 of
@@ -16104,7 +16104,7 @@ d_govcert'45'step_34 v0 v1 v2
                                                                  -> coe
                                                                       MAlonzo.Code.Data.Sum.Base.C_inj'8321'_38
                                                                       (coe v8)
-                                                               _ -> MAlonzo.RTE.mazUnreachableError)) in
+                                                               _ -> MAlonzo.RTE.mazUnreachableErrorX "HSLedger/Certs.hsline 16107")) in
                                              coe
                                                (let v8
                                                       = coe
@@ -16168,7 +16168,7 @@ d_govcert'45'step_34 v0 v1 v2
                                                                  -> coe
                                                                       MAlonzo.Code.Ledger.Foreign.LedgerTypes.C_ScriptObj_120
                                                                       (coe v8)
-                                                               _ -> MAlonzo.RTE.mazUnreachableError))
+                                                               _ -> MAlonzo.RTE.mazUnreachableErrorX "Certs.hs, line: 16171"))
                                                        (coe
                                                           (\ v7 ->
                                                              case coe v7 of
@@ -16180,7 +16180,7 @@ d_govcert'45'step_34 v0 v1 v2
                                                                  -> coe
                                                                       MAlonzo.Code.Data.Sum.Base.C_inj'8321'_38
                                                                       (coe v8)
-                                                               _ -> MAlonzo.RTE.mazUnreachableError)) in
+                                                               _ -> MAlonzo.RTE.mazUnreachableErrorX "Certs.hs, line: 16183")) in
                                              coe
                                                (let v8
                                                       = coe
@@ -16200,7 +16200,7 @@ d_govcert'45'step_34 v0 v1 v2
                                                                        -> coe
                                                                             MAlonzo.Code.Ledger.Foreign.LedgerTypes.C_ScriptObj_120
                                                                             (coe v9)
-                                                                     _ -> MAlonzo.RTE.mazUnreachableError))
+                                                                     _ -> MAlonzo.RTE.mazUnreachableErrorX "Certs.hs, line: 16203"))
                                                              (coe
                                                                 (\ v8 ->
                                                                    case coe v8 of
@@ -16212,7 +16212,7 @@ d_govcert'45'step_34 v0 v1 v2
                                                                        -> coe
                                                                             MAlonzo.Code.Data.Sum.Base.C_inj'8321'_38
                                                                             (coe v9)
-                                                                     _ -> MAlonzo.RTE.mazUnreachableError))) in
+                                                                     _ -> MAlonzo.RTE.mazUnreachableErrorX "Certs.hs, line: 16215"))) in
                                                 coe
                                                   (coe
                                                      MAlonzo.Code.Foreign.Convertible.C_Convertible'46'constructor_21
@@ -16251,7 +16251,7 @@ d_govcert'45'step_34 v0 v1 v2
                                                                    MAlonzo.Code.Foreign.Haskell.Coerce.C_TrustMe_40)
                                                                 v9)))))))
                                          (MAlonzo.Code.Agda.Builtin.Sigma.d_fst_28 (coe v6))))
-                            _ -> MAlonzo.RTE.mazUnreachableError))
+                            _ -> MAlonzo.RTE.mazUnreachableErrorX "Certs.hs, line: 16254"))
                     (coe
                        (\ v4 ->
                           case coe v4 of
@@ -16285,7 +16285,7 @@ d_govcert'45'step_34 v0 v1 v2
                                                       -> coe
                                                            MAlonzo.Code.Ledger.Foreign.LedgerTypes.C_ScriptObj_120
                                                            (coe v8)
-                                                    _ -> MAlonzo.RTE.mazUnreachableError))
+                                                    _ -> MAlonzo.RTE.mazUnreachableErrorX "Certs.hs, line: 16288"))
                                             (coe
                                                (\ v7 ->
                                                   case coe v7 of
@@ -16297,7 +16297,7 @@ d_govcert'45'step_34 v0 v1 v2
                                                       -> coe
                                                            MAlonzo.Code.Data.Sum.Base.C_inj'8321'_38
                                                            (coe v8)
-                                                    _ -> MAlonzo.RTE.mazUnreachableError)))
+                                                    _ -> MAlonzo.RTE.mazUnreachableErrorX "Certs.hs, line: 16300")))
                                          (coe
                                             MAlonzo.Code.Foreign.Convertible.C_Convertible'46'constructor_21
                                             (coe (\ v7 -> v7)) (coe (\ v7 -> v7))))
@@ -16330,7 +16330,7 @@ d_govcert'45'step_34 v0 v1 v2
                                                       -> coe
                                                            MAlonzo.Code.Ledger.Foreign.LedgerTypes.C_ScriptObj_120
                                                            (coe v8)
-                                                    _ -> MAlonzo.RTE.mazUnreachableError))
+                                                    _ -> MAlonzo.RTE.mazUnreachableErrorX "Certs.hs, line: 16333"))
                                             (coe
                                                (\ v7 ->
                                                   case coe v7 of
@@ -16342,7 +16342,7 @@ d_govcert'45'step_34 v0 v1 v2
                                                       -> coe
                                                            MAlonzo.Code.Data.Sum.Base.C_inj'8321'_38
                                                            (coe v8)
-                                                    _ -> MAlonzo.RTE.mazUnreachableError)))
+                                                    _ -> MAlonzo.RTE.mazUnreachableErrorX "Certs.hs, line: 16345")))
                                          (coe
                                             MAlonzo.Code.Foreign.Convertible.du_Functor'8658'Convertible_56
                                             (coe
@@ -16360,7 +16360,7 @@ d_govcert'45'step_34 v0 v1 v2
                                                          -> coe
                                                               MAlonzo.Code.Ledger.Foreign.LedgerTypes.C_ScriptObj_120
                                                               (coe v8)
-                                                       _ -> MAlonzo.RTE.mazUnreachableError))
+                                                       _ -> MAlonzo.RTE.mazUnreachableErrorX "Certs.hs, line: 16363"))
                                                (coe
                                                   (\ v7 ->
                                                      case coe v7 of
@@ -16372,10 +16372,10 @@ d_govcert'45'step_34 v0 v1 v2
                                                          -> coe
                                                               MAlonzo.Code.Data.Sum.Base.C_inj'8321'_38
                                                               (coe v8)
-                                                       _ -> MAlonzo.RTE.mazUnreachableError)))))
+                                                       _ -> MAlonzo.RTE.mazUnreachableErrorX "Certs.hs, line: 16375")))))
                                       (MAlonzo.Code.Ledger.Foreign.LedgerTypes.d_assocList_34
                                          (coe v6)))
-                            _ -> MAlonzo.RTE.mazUnreachableError)) in
+                            _ -> MAlonzo.RTE.mazUnreachableErrorX "Certs.hs, line: 16378")) in
           coe
             (coe
                MAlonzo.Code.Foreign.Convertible.C_Convertible'46'constructor_21
@@ -16390,7 +16390,7 @@ d_govcert'45'step_34 v0 v1 v2
                          -> coe
                               MAlonzo.Code.Ledger.Foreign.LedgerTypes.C_Failure_20
                               (coe MAlonzo.Code.Foreign.Convertible.d_to_18 v3 v6)
-                       _ -> MAlonzo.RTE.mazUnreachableError))
+                       _ -> MAlonzo.RTE.mazUnreachableErrorX "Certs.hs, line: 16393"))
                (coe
                   (\ v5 ->
                      case coe v5 of
@@ -16402,7 +16402,7 @@ d_govcert'45'step_34 v0 v1 v2
                          -> coe
                               MAlonzo.Code.Interface.ComputationalRelation.C_failure_44
                               (coe MAlonzo.Code.Foreign.Convertible.d_from_20 v3 v6)
-                       _ -> MAlonzo.RTE.mazUnreachableError)))))
+                       _ -> MAlonzo.RTE.mazUnreachableErrorX "Certs.hs, line: 16405")))))
       (coe
          MAlonzo.Code.Interface.ComputationalRelation.du_compute_274
          (coe
@@ -16460,7 +16460,7 @@ d_govcert'45'step_34 v0 v1 v2
                                                              (coe
                                                                 addInt (coe (1 :: Integer))
                                                                 (coe v7))
-                                                      _ -> MAlonzo.RTE.mazUnreachableError))
+                                                      _ -> MAlonzo.RTE.mazUnreachableErrorX "Certs.hs, line: 16463"))
                                               (coe
                                                  (\ v5 ->
                                                     case coe v5 of
@@ -16471,7 +16471,7 @@ d_govcert'45'step_34 v0 v1 v2
                                                              _ -> coe
                                                                     MAlonzo.Code.Data.Rational.Base.du__'47'__156
                                                                     (coe v6) (coe v7)
-                                                      _ -> MAlonzo.RTE.mazUnreachableError)))
+                                                      _ -> MAlonzo.RTE.mazUnreachableErrorX "Certs.hs, line: 16474")))
                                            (MAlonzo.Code.Ledger.PParams.d_Q1_210 (coe v4)))
                                         (coe
                                            MAlonzo.Code.Foreign.Convertible.d_to_18
@@ -16487,7 +16487,7 @@ d_govcert'45'step_34 v0 v1 v2
                                                              (coe
                                                                 addInt (coe (1 :: Integer))
                                                                 (coe v7))
-                                                      _ -> MAlonzo.RTE.mazUnreachableError))
+                                                      _ -> MAlonzo.RTE.mazUnreachableErrorX "Certs.hs, line: 16490"))
                                               (coe
                                                  (\ v5 ->
                                                     case coe v5 of
@@ -16498,7 +16498,7 @@ d_govcert'45'step_34 v0 v1 v2
                                                              _ -> coe
                                                                     MAlonzo.Code.Data.Rational.Base.du__'47'__156
                                                                     (coe v6) (coe v7)
-                                                      _ -> MAlonzo.RTE.mazUnreachableError)))
+                                                      _ -> MAlonzo.RTE.mazUnreachableErrorX "Certs.hs, line: 16501")))
                                            (MAlonzo.Code.Ledger.PParams.d_Q2a_212 (coe v4)))
                                         (coe
                                            MAlonzo.Code.Foreign.Convertible.d_to_18
@@ -16514,7 +16514,7 @@ d_govcert'45'step_34 v0 v1 v2
                                                              (coe
                                                                 addInt (coe (1 :: Integer))
                                                                 (coe v7))
-                                                      _ -> MAlonzo.RTE.mazUnreachableError))
+                                                      _ -> MAlonzo.RTE.mazUnreachableErrorX "Certs.hs, line: 16517"))
                                               (coe
                                                  (\ v5 ->
                                                     case coe v5 of
@@ -16525,7 +16525,7 @@ d_govcert'45'step_34 v0 v1 v2
                                                              _ -> coe
                                                                     MAlonzo.Code.Data.Rational.Base.du__'47'__156
                                                                     (coe v6) (coe v7)
-                                                      _ -> MAlonzo.RTE.mazUnreachableError)))
+                                                      _ -> MAlonzo.RTE.mazUnreachableErrorX "Certs.hs, line: 16528")))
                                            (MAlonzo.Code.Ledger.PParams.d_Q2b_214 (coe v4)))
                                         (coe
                                            MAlonzo.Code.Foreign.Convertible.d_to_18
@@ -16541,7 +16541,7 @@ d_govcert'45'step_34 v0 v1 v2
                                                              (coe
                                                                 addInt (coe (1 :: Integer))
                                                                 (coe v7))
-                                                      _ -> MAlonzo.RTE.mazUnreachableError))
+                                                      _ -> MAlonzo.RTE.mazUnreachableErrorX "Certs.hs, line: 16544"))
                                               (coe
                                                  (\ v5 ->
                                                     case coe v5 of
@@ -16552,7 +16552,7 @@ d_govcert'45'step_34 v0 v1 v2
                                                              _ -> coe
                                                                     MAlonzo.Code.Data.Rational.Base.du__'47'__156
                                                                     (coe v6) (coe v7)
-                                                      _ -> MAlonzo.RTE.mazUnreachableError)))
+                                                      _ -> MAlonzo.RTE.mazUnreachableErrorX "Certs.hs, line: 16555")))
                                            (MAlonzo.Code.Ledger.PParams.d_Q4_216 (coe v4)))
                                         (coe
                                            MAlonzo.Code.Foreign.Convertible.d_to_18
@@ -16568,7 +16568,7 @@ d_govcert'45'step_34 v0 v1 v2
                                                              (coe
                                                                 addInt (coe (1 :: Integer))
                                                                 (coe v7))
-                                                      _ -> MAlonzo.RTE.mazUnreachableError))
+                                                      _ -> MAlonzo.RTE.mazUnreachableErrorX "Certs.hs, line: 16571"))
                                               (coe
                                                  (\ v5 ->
                                                     case coe v5 of
@@ -16579,7 +16579,7 @@ d_govcert'45'step_34 v0 v1 v2
                                                              _ -> coe
                                                                     MAlonzo.Code.Data.Rational.Base.du__'47'__156
                                                                     (coe v6) (coe v7)
-                                                      _ -> MAlonzo.RTE.mazUnreachableError)))
+                                                      _ -> MAlonzo.RTE.mazUnreachableErrorX "Certs.hs, line: 16582")))
                                            (MAlonzo.Code.Ledger.PParams.d_Q5e_218 (coe v4)))))
                                 (coe
                                    (\ v4 ->
@@ -16599,7 +16599,7 @@ d_govcert'45'step_34 v0 v1 v2
                                                              (coe
                                                                 addInt (coe (1 :: Integer))
                                                                 (coe v7))
-                                                      _ -> MAlonzo.RTE.mazUnreachableError))
+                                                      _ -> MAlonzo.RTE.mazUnreachableErrorX "Certs.hs, line: 16602"))
                                               (coe
                                                  (\ v5 ->
                                                     case coe v5 of
@@ -16610,7 +16610,7 @@ d_govcert'45'step_34 v0 v1 v2
                                                              _ -> coe
                                                                     MAlonzo.Code.Data.Rational.Base.du__'47'__156
                                                                     (coe v6) (coe v7)
-                                                      _ -> MAlonzo.RTE.mazUnreachableError)))
+                                                      _ -> MAlonzo.RTE.mazUnreachableErrorX "Certs.hs, line: 16613")))
                                            (MAlonzo.Code.Ledger.Foreign.LedgerTypes.d_Q1_292
                                               (coe v4)))
                                         (coe
@@ -16627,7 +16627,7 @@ d_govcert'45'step_34 v0 v1 v2
                                                              (coe
                                                                 addInt (coe (1 :: Integer))
                                                                 (coe v7))
-                                                      _ -> MAlonzo.RTE.mazUnreachableError))
+                                                      _ -> MAlonzo.RTE.mazUnreachableErrorX "Certs.hs, line: 16630"))
                                               (coe
                                                  (\ v5 ->
                                                     case coe v5 of
@@ -16638,7 +16638,7 @@ d_govcert'45'step_34 v0 v1 v2
                                                              _ -> coe
                                                                     MAlonzo.Code.Data.Rational.Base.du__'47'__156
                                                                     (coe v6) (coe v7)
-                                                      _ -> MAlonzo.RTE.mazUnreachableError)))
+                                                      _ -> MAlonzo.RTE.mazUnreachableErrorX "Certs.hs, line: 16641")))
                                            (MAlonzo.Code.Ledger.Foreign.LedgerTypes.d_Q2a_294
                                               (coe v4)))
                                         (coe
@@ -16655,7 +16655,7 @@ d_govcert'45'step_34 v0 v1 v2
                                                              (coe
                                                                 addInt (coe (1 :: Integer))
                                                                 (coe v7))
-                                                      _ -> MAlonzo.RTE.mazUnreachableError))
+                                                      _ -> MAlonzo.RTE.mazUnreachableErrorX "Certs.hs, line: 16658"))
                                               (coe
                                                  (\ v5 ->
                                                     case coe v5 of
@@ -16666,7 +16666,7 @@ d_govcert'45'step_34 v0 v1 v2
                                                              _ -> coe
                                                                     MAlonzo.Code.Data.Rational.Base.du__'47'__156
                                                                     (coe v6) (coe v7)
-                                                      _ -> MAlonzo.RTE.mazUnreachableError)))
+                                                      _ -> MAlonzo.RTE.mazUnreachableErrorX "Certs.hs, line: 16669")))
                                            (MAlonzo.Code.Ledger.Foreign.LedgerTypes.d_Q2b_296
                                               (coe v4)))
                                         (coe
@@ -16683,7 +16683,7 @@ d_govcert'45'step_34 v0 v1 v2
                                                              (coe
                                                                 addInt (coe (1 :: Integer))
                                                                 (coe v7))
-                                                      _ -> MAlonzo.RTE.mazUnreachableError))
+                                                      _ -> MAlonzo.RTE.mazUnreachableErrorX "Certs.hs, line: 16686"))
                                               (coe
                                                  (\ v5 ->
                                                     case coe v5 of
@@ -16694,7 +16694,7 @@ d_govcert'45'step_34 v0 v1 v2
                                                              _ -> coe
                                                                     MAlonzo.Code.Data.Rational.Base.du__'47'__156
                                                                     (coe v6) (coe v7)
-                                                      _ -> MAlonzo.RTE.mazUnreachableError)))
+                                                      _ -> MAlonzo.RTE.mazUnreachableErrorX "Certs.hs, line: 16697")))
                                            (MAlonzo.Code.Ledger.Foreign.LedgerTypes.d_Q4_298
                                               (coe v4)))
                                         (coe
@@ -16711,7 +16711,7 @@ d_govcert'45'step_34 v0 v1 v2
                                                              (coe
                                                                 addInt (coe (1 :: Integer))
                                                                 (coe v7))
-                                                      _ -> MAlonzo.RTE.mazUnreachableError))
+                                                      _ -> MAlonzo.RTE.mazUnreachableErrorX "Certs.hs, line: 16714"))
                                               (coe
                                                  (\ v5 ->
                                                     case coe v5 of
@@ -19086,7 +19086,7 @@ d_govcert'45'step_34 v0 v1 v2
                                               -> coe
                                                    MAlonzo.Code.Ledger.Foreign.LedgerTypes.C_ScriptObj_120
                                                    (coe v8)
-                                            _ -> MAlonzo.RTE.mazUnreachableError))
+                                            _ -> MAlonzo.RTE.mazUnreachableErrorX "Certs.hs, line 19089"))
                                     (coe
                                        (\ v7 ->
                                           case coe v7 of
@@ -19580,7 +19580,7 @@ d_govcert'45'step_34 v0 v1 v2
                                               -> coe
                                                    MAlonzo.Code.Ledger.Foreign.LedgerTypes.C_ScriptObj_120
                                                    (coe v8)
-                                            _ -> MAlonzo.RTE.mazUnreachableError))
+                                            _ -> MAlonzo.RTE.mazUnreachableErrorX "Certs.hs, line 19583"))
                                     (coe
                                        (\ v7 ->
                                           case coe v7 of

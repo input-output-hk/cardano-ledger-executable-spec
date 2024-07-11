@@ -5932,7 +5932,7 @@ d_certs'45'step_26 v0 v1 v2
                                                  -> coe
                                                       MAlonzo.Code.Ledger.Foreign.LedgerTypes.C_ScriptObj_120
                                                       (coe v8)
-                                               _ -> MAlonzo.RTE.mazUnreachableError))
+                                               _ -> MAlonzo.RTE.mazUnreachableErrorX "Cert.hs, line 5935"))
                                        (coe
                                           (\ v7 ->
                                              case coe v7 of
@@ -6430,7 +6430,7 @@ d_certs'45'step_26 v0 v1 v2
                                                  -> coe
                                                       MAlonzo.Code.Ledger.Foreign.LedgerTypes.C_ScriptObj_120
                                                       (coe v8)
-                                               _ -> MAlonzo.RTE.mazUnreachableError))
+                                               _ -> MAlonzo.RTE.mazUnreachableErrorX "Cert.hs, line 6433"))
                                        (coe
                                           (\ v7 ->
                                              case coe v7 of
@@ -11110,7 +11110,7 @@ d_cert'45'step_28 v0 v1 v2
                                               -> coe
                                                    MAlonzo.Code.Ledger.Foreign.LedgerTypes.C_ScriptObj_120
                                                    (coe v8)
-                                            _ -> MAlonzo.RTE.mazUnreachableError))
+                                            _ -> MAlonzo.RTE.mazUnreachableErrorX "Cert.hs, line 11113"))
                                     (coe
                                        (\ v7 ->
                                           case coe v7 of
@@ -11604,7 +11604,7 @@ d_cert'45'step_28 v0 v1 v2
                                               -> coe
                                                    MAlonzo.Code.Ledger.Foreign.LedgerTypes.C_ScriptObj_120
                                                    (coe v8)
-                                            _ -> MAlonzo.RTE.mazUnreachableError))
+                                            _ -> MAlonzo.RTE.mazUnreachableErrorX "Cert.hs, line 11607"))
                                     (coe
                                        (\ v7 ->
                                           case coe v7 of
