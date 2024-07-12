@@ -33,6 +33,8 @@ import qualified MAlonzo.Code.Ledger.Script
 import qualified MAlonzo.Code.Ledger.Types.Epoch
 import qualified MAlonzo.Code.Ledger.Types.GovStructure
 
+import GHC.Stack (HasCallStack)
+
 -- _.Credential
 d_Credential_22 a0 a1 a2 a3 = ()
 -- _.DecEq-Credential
@@ -328,17 +330,17 @@ d_drepActivity_1046 ::
   MAlonzo.Code.Ledger.Types.GovStructure.T_GovStructure_6 ->
   T_GeneralizeTel_13777 -> AgdaAny
 d_drepActivity_1046 ~v0 v1 = du_drepActivity_1046 v1
-du_drepActivity_1046 :: T_GeneralizeTel_13777 -> AgdaAny
+du_drepActivity_1046 :: HasCallStack => T_GeneralizeTel_13777 -> AgdaAny
 du_drepActivity_1046 v0
   = coe
       MAlonzo.Code.Ledger.PParams.d_drepActivity_330
       (coe d_'46'generalizedField'45'pp_13759 v0)
 -- Ledger.Certs._.drepDeposit
-d_drepDeposit_1048 ::
+d_drepDeposit_1048 :: HasCallStack => 
   MAlonzo.Code.Ledger.Types.GovStructure.T_GovStructure_6 ->
   T_GeneralizeTel_13777 -> Integer
 d_drepDeposit_1048 ~v0 v1 = du_drepDeposit_1048 v1
-du_drepDeposit_1048 :: T_GeneralizeTel_13777 -> Integer
+du_drepDeposit_1048 :: HasCallStack => T_GeneralizeTel_13777 -> Integer
 du_drepDeposit_1048 v0
   = coe
       MAlonzo.Code.Ledger.PParams.d_drepDeposit_328
@@ -454,7 +456,7 @@ data T_GeneralizeTel_6635
                            MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
                            (Maybe MAlonzo.Code.Ledger.GovernanceActions.T_VDeleg_610)
 -- Ledger.Certs..generalizedField-pp
-d_'46'generalizedField'45'pp_13759 ::
+d_'46'generalizedField'45'pp_13759 :: HasCallStack => 
   T_GeneralizeTel_13777 -> MAlonzo.Code.Ledger.PParams.T_PParams_218
 d_'46'generalizedField'45'pp_13759
   = MAlonzo.RTE.mazUnreachableError
