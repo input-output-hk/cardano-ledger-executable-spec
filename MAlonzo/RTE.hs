@@ -15,6 +15,8 @@ import qualified Data.Word
 import qualified GHC.Exts as GHC ( Any )
 import Unsafe.Coerce ( unsafeCoerce )
 
+import GHC.Stack (HasCallStack)
+
 type AgdaAny = GHC.Any
 
 -- Special version of coerce that plays well with rules.
@@ -40,7 +42,7 @@ instance Ord QName where
 erased :: a
 erased = coe (\ _ -> erased)
 
-mazUnreachableError :: a
+mazUnreachableError :: HasCallStack => a
 mazUnreachableError = error ("Agda: unreachable code reached.")
 
 mazHole :: String -> a
