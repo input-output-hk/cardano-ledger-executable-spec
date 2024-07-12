@@ -8678,7 +8678,7 @@ d_utxo'45'step_278 v0 v1 v2
                                                                              -> coe
                                                                                   MAlonzo.Code.Ledger.Foreign.LedgerTypes.C_ScriptObj_120
                                                                                   (coe v10)
-                                                                           _ -> MAlonzo.RTE.mazUnreachableError))
+                                                                           _ -> MAlonzo.RTE.mazUnreachableErrorX "Utxo.hs, line: 8681"))
                                                                    (coe
                                                                       (\ v9 ->
                                                                          case coe v9 of
@@ -8690,7 +8690,7 @@ d_utxo'45'step_278 v0 v1 v2
                                                                              -> coe
                                                                                   MAlonzo.Code.Data.Sum.Base.C_inj'8321'_38
                                                                                   (coe v10)
-                                                                           _ -> MAlonzo.RTE.mazUnreachableError)))
+                                                                           _ -> MAlonzo.RTE.mazUnreachableErrorX "Utxo.hs, line: 8693")))
                                                                 v6)
                                                              (coe v7)
                                                              (coe
@@ -9200,7 +9200,7 @@ d_utxo'45'step_278 v0 v1 v2
                                                                              -> coe
                                                                                   MAlonzo.Code.Ledger.Foreign.LedgerTypes.C_ScriptObj_120
                                                                                   (coe v10)
-                                                                           _ -> MAlonzo.RTE.mazUnreachableError))
+                                                                           _ -> MAlonzo.RTE.mazUnreachableErrorX "Utxo.hs, line: 9203"))
                                                                    (coe
                                                                       (\ v9 ->
                                                                          case coe v9 of
@@ -9212,7 +9212,7 @@ d_utxo'45'step_278 v0 v1 v2
                                                                              -> coe
                                                                                   MAlonzo.Code.Data.Sum.Base.C_inj'8321'_38
                                                                                   (coe v10)
-                                                                           _ -> MAlonzo.RTE.mazUnreachableError)))
+                                                                           _ -> MAlonzo.RTE.mazUnreachableErrorX "Utxo.hs, line: 9215")))
                                                                 v6)
                                                              (coe v7)
                                                              (coe
@@ -9224,7 +9224,7 @@ d_utxo'45'step_278 v0 v1 v2
                                                                          case coe v9 of
                                                                            MAlonzo.Code.Ledger.GovernanceActions.C_Anchor'46'constructor_1287 v10 v11
                                                                              -> coe v11
-                                                                           _ -> MAlonzo.RTE.mazUnreachableError))
+                                                                           _ -> MAlonzo.RTE.mazUnreachableErrorX "Utxo.hs, line: 9227"))
                                                                    (coe
                                                                       (\ v9 ->
                                                                          coe
@@ -10063,7 +10063,7 @@ d_utxo'45'step_278 v0 v1 v2
                                                                              -> coe
                                                                                   MAlonzo.Code.Ledger.Foreign.LedgerTypes.C_ScriptObj_120
                                                                                   (coe v10)
-                                                                           _ -> MAlonzo.RTE.mazUnreachableError))
+                                                                           _ -> MAlonzo.RTE.mazUnreachableErrorX "Utxo.hs, line: 10066"))
                                                                    (coe
                                                                       (\ v9 ->
                                                                          case coe v9 of
@@ -10075,7 +10075,7 @@ d_utxo'45'step_278 v0 v1 v2
                                                                              -> coe
                                                                                   MAlonzo.Code.Data.Sum.Base.C_inj'8321'_38
                                                                                   (coe v10)
-                                                                           _ -> MAlonzo.RTE.mazUnreachableError)))
+                                                                           _ -> MAlonzo.RTE.mazUnreachableErrorX "Utxo.hs, line: 10078")))
                                                                 v6)
                                                              (coe v7)
                                                              (coe
@@ -10585,7 +10585,7 @@ d_utxo'45'step_278 v0 v1 v2
                                                                              -> coe
                                                                                   MAlonzo.Code.Ledger.Foreign.LedgerTypes.C_ScriptObj_120
                                                                                   (coe v10)
-                                                                           _ -> MAlonzo.RTE.mazUnreachableError))
+                                                                           _ -> MAlonzo.RTE.mazUnreachableErrorX "Utxo.hs, line: 10588"))
                                                                    (coe
                                                                       (\ v9 ->
                                                                          case coe v9 of
@@ -10597,7 +10597,7 @@ d_utxo'45'step_278 v0 v1 v2
                                                                              -> coe
                                                                                   MAlonzo.Code.Data.Sum.Base.C_inj'8321'_38
                                                                                   (coe v10)
-                                                                           _ -> MAlonzo.RTE.mazUnreachableError)))
+                                                                           _ -> MAlonzo.RTE.mazUnreachableErrorX "Utxo.hs, line: 10600")))
                                                                 v6)
                                                              (coe v7)
                                                              (coe
@@ -10609,7 +10609,7 @@ d_utxo'45'step_278 v0 v1 v2
                                                                          case coe v9 of
                                                                            MAlonzo.Code.Ledger.GovernanceActions.C_Anchor'46'constructor_1287 v10 v11
                                                                              -> coe v11
-                                                                           _ -> MAlonzo.RTE.mazUnreachableError))
+                                                                           _ -> MAlonzo.RTE.mazUnreachableErrorX "Utxo.hs, line: 10612"))
                                                                    (coe
                                                                       (\ v9 ->
                                                                          coe
@@ -12281,7 +12281,7 @@ d_utxo'45'step_278 v0 v1 v2
                                                                              -> coe
                                                                                   MAlonzo.Code.Ledger.Foreign.LedgerTypes.C_ScriptObj_120
                                                                                   (coe v10)
-                                                                           _ -> MAlonzo.RTE.mazUnreachableError))
+                                                                           _ -> MAlonzo.RTE.mazUnreachableErrorX "Utxo.hs, line: 12284"))
                                                                    (coe
                                                                       (\ v9 ->
                                                                          case coe v9 of
@@ -12293,7 +12293,7 @@ d_utxo'45'step_278 v0 v1 v2
                                                                              -> coe
                                                                                   MAlonzo.Code.Data.Sum.Base.C_inj'8321'_38
                                                                                   (coe v10)
-                                                                           _ -> MAlonzo.RTE.mazUnreachableError)))
+                                                                           _ -> MAlonzo.RTE.mazUnreachableErrorX "Utxo.hs, line: 12296")))
                                                                 v6)
                                                              (coe v7)
                                                              (coe
@@ -12803,7 +12803,7 @@ d_utxo'45'step_278 v0 v1 v2
                                                                              -> coe
                                                                                   MAlonzo.Code.Ledger.Foreign.LedgerTypes.C_ScriptObj_120
                                                                                   (coe v10)
-                                                                           _ -> MAlonzo.RTE.mazUnreachableError))
+                                                                           _ -> MAlonzo.RTE.mazUnreachableErrorX "Utxo.hs, line: 12806"))
                                                                    (coe
                                                                       (\ v9 ->
                                                                          case coe v9 of
@@ -12815,7 +12815,7 @@ d_utxo'45'step_278 v0 v1 v2
                                                                              -> coe
                                                                                   MAlonzo.Code.Data.Sum.Base.C_inj'8321'_38
                                                                                   (coe v10)
-                                                                           _ -> MAlonzo.RTE.mazUnreachableError)))
+                                                                           _ -> MAlonzo.RTE.mazUnreachableErrorX "Utxo.hs, line: 12818")))
                                                                 v6)
                                                              (coe v7)
                                                              (coe
@@ -12827,7 +12827,7 @@ d_utxo'45'step_278 v0 v1 v2
                                                                          case coe v9 of
                                                                            MAlonzo.Code.Ledger.GovernanceActions.C_Anchor'46'constructor_1287 v10 v11
                                                                              -> coe v11
-                                                                           _ -> MAlonzo.RTE.mazUnreachableError))
+                                                                           _ -> MAlonzo.RTE.mazUnreachableErrorX "Utxo.hs, line: 12830"))
                                                                    (coe
                                                                       (\ v9 ->
                                                                          coe
@@ -13666,7 +13666,7 @@ d_utxo'45'step_278 v0 v1 v2
                                                                              -> coe
                                                                                   MAlonzo.Code.Ledger.Foreign.LedgerTypes.C_ScriptObj_120
                                                                                   (coe v10)
-                                                                           _ -> MAlonzo.RTE.mazUnreachableError))
+                                                                           _ -> MAlonzo.RTE.mazUnreachableErrorX "Utxo.hs, line: 13669"))
                                                                    (coe
                                                                       (\ v9 ->
                                                                          case coe v9 of
@@ -13678,7 +13678,7 @@ d_utxo'45'step_278 v0 v1 v2
                                                                              -> coe
                                                                                   MAlonzo.Code.Data.Sum.Base.C_inj'8321'_38
                                                                                   (coe v10)
-                                                                           _ -> MAlonzo.RTE.mazUnreachableError)))
+                                                                           _ -> MAlonzo.RTE.mazUnreachableErrorX "Utxo.hs, line: 13681")))
                                                                 v6)
                                                              (coe v7)
                                                              (coe
@@ -14188,7 +14188,7 @@ d_utxo'45'step_278 v0 v1 v2
                                                                              -> coe
                                                                                   MAlonzo.Code.Ledger.Foreign.LedgerTypes.C_ScriptObj_120
                                                                                   (coe v10)
-                                                                           _ -> MAlonzo.RTE.mazUnreachableError))
+                                                                           _ -> MAlonzo.RTE.mazUnreachableErrorX "Utxo.hs, line: 14191"))
                                                                    (coe
                                                                       (\ v9 ->
                                                                          case coe v9 of
@@ -14200,7 +14200,7 @@ d_utxo'45'step_278 v0 v1 v2
                                                                              -> coe
                                                                                   MAlonzo.Code.Data.Sum.Base.C_inj'8321'_38
                                                                                   (coe v10)
-                                                                           _ -> MAlonzo.RTE.mazUnreachableError)))
+                                                                           _ -> MAlonzo.RTE.mazUnreachableErrorX "Utxo.hs, line: 14203")))
                                                                 v6)
                                                              (coe v7)
                                                              (coe
@@ -14212,7 +14212,7 @@ d_utxo'45'step_278 v0 v1 v2
                                                                          case coe v9 of
                                                                            MAlonzo.Code.Ledger.GovernanceActions.C_Anchor'46'constructor_1287 v10 v11
                                                                              -> coe v11
-                                                                           _ -> MAlonzo.RTE.mazUnreachableError))
+                                                                           _ -> MAlonzo.RTE.mazUnreachableErrorX "Utxo.hs, line: 14215"))
                                                                    (coe
                                                                       (\ v9 ->
                                                                          coe
@@ -19187,7 +19187,7 @@ d_utxow'45'step_280 v0 v1 v2
                                                                              -> coe
                                                                                   MAlonzo.Code.Ledger.Foreign.LedgerTypes.C_ScriptObj_120
                                                                                   (coe v10)
-                                                                           _ -> MAlonzo.RTE.mazUnreachableError))
+                                                                           _ -> MAlonzo.RTE.mazUnreachableErrorX "Utxo.hs, line: 19190"))
                                                                    (coe
                                                                       (\ v9 ->
                                                                          case coe v9 of
@@ -19199,7 +19199,7 @@ d_utxow'45'step_280 v0 v1 v2
                                                                              -> coe
                                                                                   MAlonzo.Code.Data.Sum.Base.C_inj'8321'_38
                                                                                   (coe v10)
-                                                                           _ -> MAlonzo.RTE.mazUnreachableError)))
+                                                                           _ -> MAlonzo.RTE.mazUnreachableErrorX "Utxo.hs, line: 19202")))
                                                                 v6)
                                                              (coe v7)
                                                              (coe
@@ -19709,7 +19709,7 @@ d_utxow'45'step_280 v0 v1 v2
                                                                              -> coe
                                                                                   MAlonzo.Code.Ledger.Foreign.LedgerTypes.C_ScriptObj_120
                                                                                   (coe v10)
-                                                                           _ -> MAlonzo.RTE.mazUnreachableError))
+                                                                           _ -> MAlonzo.RTE.mazUnreachableErrorX "Utxo.hs, line: 19712"))
                                                                    (coe
                                                                       (\ v9 ->
                                                                          case coe v9 of
@@ -19721,7 +19721,7 @@ d_utxow'45'step_280 v0 v1 v2
                                                                              -> coe
                                                                                   MAlonzo.Code.Data.Sum.Base.C_inj'8321'_38
                                                                                   (coe v10)
-                                                                           _ -> MAlonzo.RTE.mazUnreachableError)))
+                                                                           _ -> MAlonzo.RTE.mazUnreachableErrorX "Utxo.hs, line: 19724")))
                                                                 v6)
                                                              (coe v7)
                                                              (coe
@@ -19733,7 +19733,7 @@ d_utxow'45'step_280 v0 v1 v2
                                                                          case coe v9 of
                                                                            MAlonzo.Code.Ledger.GovernanceActions.C_Anchor'46'constructor_1287 v10 v11
                                                                              -> coe v11
-                                                                           _ -> MAlonzo.RTE.mazUnreachableError))
+                                                                           _ -> MAlonzo.RTE.mazUnreachableErrorX "Utxo.hs, line: 19736"))
                                                                    (coe
                                                                       (\ v9 ->
                                                                          coe
@@ -20572,7 +20572,7 @@ d_utxow'45'step_280 v0 v1 v2
                                                                              -> coe
                                                                                   MAlonzo.Code.Ledger.Foreign.LedgerTypes.C_ScriptObj_120
                                                                                   (coe v10)
-                                                                           _ -> MAlonzo.RTE.mazUnreachableError))
+                                                                           _ -> MAlonzo.RTE.mazUnreachableErrorX "Utxo.hs, line: 20575"))
                                                                    (coe
                                                                       (\ v9 ->
                                                                          case coe v9 of
@@ -20584,7 +20584,7 @@ d_utxow'45'step_280 v0 v1 v2
                                                                              -> coe
                                                                                   MAlonzo.Code.Data.Sum.Base.C_inj'8321'_38
                                                                                   (coe v10)
-                                                                           _ -> MAlonzo.RTE.mazUnreachableError)))
+                                                                           _ -> MAlonzo.RTE.mazUnreachableErrorX "Utxo.hs, line: 20587")))
                                                                 v6)
                                                              (coe v7)
                                                              (coe
@@ -21094,7 +21094,7 @@ d_utxow'45'step_280 v0 v1 v2
                                                                              -> coe
                                                                                   MAlonzo.Code.Ledger.Foreign.LedgerTypes.C_ScriptObj_120
                                                                                   (coe v10)
-                                                                           _ -> MAlonzo.RTE.mazUnreachableError))
+                                                                           _ -> MAlonzo.RTE.mazUnreachableErrorX "Utxo.hs, line: 21097"))
                                                                    (coe
                                                                       (\ v9 ->
                                                                          case coe v9 of
@@ -21106,7 +21106,7 @@ d_utxow'45'step_280 v0 v1 v2
                                                                              -> coe
                                                                                   MAlonzo.Code.Data.Sum.Base.C_inj'8321'_38
                                                                                   (coe v10)
-                                                                           _ -> MAlonzo.RTE.mazUnreachableError)))
+                                                                           _ -> MAlonzo.RTE.mazUnreachableErrorX "Utxo.hs, line: 21109")))
                                                                 v6)
                                                              (coe v7)
                                                              (coe
@@ -21118,7 +21118,7 @@ d_utxow'45'step_280 v0 v1 v2
                                                                          case coe v9 of
                                                                            MAlonzo.Code.Ledger.GovernanceActions.C_Anchor'46'constructor_1287 v10 v11
                                                                              -> coe v11
-                                                                           _ -> MAlonzo.RTE.mazUnreachableError))
+                                                                           _ -> MAlonzo.RTE.mazUnreachableErrorX "Utxo.hs, line: 21121"))
                                                                    (coe
                                                                       (\ v9 ->
                                                                          coe
@@ -22790,7 +22790,7 @@ d_utxow'45'step_280 v0 v1 v2
                                                                              -> coe
                                                                                   MAlonzo.Code.Ledger.Foreign.LedgerTypes.C_ScriptObj_120
                                                                                   (coe v10)
-                                                                           _ -> MAlonzo.RTE.mazUnreachableError))
+                                                                           _ -> MAlonzo.RTE.mazUnreachableErrorX "Utxo.hs, line: 22793"))
                                                                    (coe
                                                                       (\ v9 ->
                                                                          case coe v9 of
@@ -22802,7 +22802,7 @@ d_utxow'45'step_280 v0 v1 v2
                                                                              -> coe
                                                                                   MAlonzo.Code.Data.Sum.Base.C_inj'8321'_38
                                                                                   (coe v10)
-                                                                           _ -> MAlonzo.RTE.mazUnreachableError)))
+                                                                           _ -> MAlonzo.RTE.mazUnreachableErrorX "Utxo.hs, line: 22805")))
                                                                 v6)
                                                              (coe v7)
                                                              (coe
@@ -23312,7 +23312,7 @@ d_utxow'45'step_280 v0 v1 v2
                                                                              -> coe
                                                                                   MAlonzo.Code.Ledger.Foreign.LedgerTypes.C_ScriptObj_120
                                                                                   (coe v10)
-                                                                           _ -> MAlonzo.RTE.mazUnreachableError))
+                                                                           _ -> MAlonzo.RTE.mazUnreachableErrorX "Utxo.hs, line: 23315"))
                                                                    (coe
                                                                       (\ v9 ->
                                                                          case coe v9 of
@@ -23324,7 +23324,7 @@ d_utxow'45'step_280 v0 v1 v2
                                                                              -> coe
                                                                                   MAlonzo.Code.Data.Sum.Base.C_inj'8321'_38
                                                                                   (coe v10)
-                                                                           _ -> MAlonzo.RTE.mazUnreachableError)))
+                                                                           _ -> MAlonzo.RTE.mazUnreachableErrorX "Utxo.hs, line: 23327")))
                                                                 v6)
                                                              (coe v7)
                                                              (coe
@@ -23336,7 +23336,7 @@ d_utxow'45'step_280 v0 v1 v2
                                                                          case coe v9 of
                                                                            MAlonzo.Code.Ledger.GovernanceActions.C_Anchor'46'constructor_1287 v10 v11
                                                                              -> coe v11
-                                                                           _ -> MAlonzo.RTE.mazUnreachableError))
+                                                                           _ -> MAlonzo.RTE.mazUnreachableErrorX "Utxo.hs, line: 23339"))
                                                                    (coe
                                                                       (\ v9 ->
                                                                          coe
@@ -24175,7 +24175,7 @@ d_utxow'45'step_280 v0 v1 v2
                                                                              -> coe
                                                                                   MAlonzo.Code.Ledger.Foreign.LedgerTypes.C_ScriptObj_120
                                                                                   (coe v10)
-                                                                           _ -> MAlonzo.RTE.mazUnreachableError))
+                                                                           _ -> MAlonzo.RTE.mazUnreachableErrorX "Utxo.hs, line: 24178"))
                                                                    (coe
                                                                       (\ v9 ->
                                                                          case coe v9 of
@@ -24187,7 +24187,7 @@ d_utxow'45'step_280 v0 v1 v2
                                                                              -> coe
                                                                                   MAlonzo.Code.Data.Sum.Base.C_inj'8321'_38
                                                                                   (coe v10)
-                                                                           _ -> MAlonzo.RTE.mazUnreachableError)))
+                                                                           _ -> MAlonzo.RTE.mazUnreachableErrorX "Utxo.hs, line: 24190")))
                                                                 v6)
                                                              (coe v7)
                                                              (coe
@@ -24697,7 +24697,7 @@ d_utxow'45'step_280 v0 v1 v2
                                                                              -> coe
                                                                                   MAlonzo.Code.Ledger.Foreign.LedgerTypes.C_ScriptObj_120
                                                                                   (coe v10)
-                                                                           _ -> MAlonzo.RTE.mazUnreachableError))
+                                                                           _ -> MAlonzo.RTE.mazUnreachableErrorX "Utxo.hs, line: 24700"))
                                                                    (coe
                                                                       (\ v9 ->
                                                                          case coe v9 of
@@ -24709,7 +24709,7 @@ d_utxow'45'step_280 v0 v1 v2
                                                                              -> coe
                                                                                   MAlonzo.Code.Data.Sum.Base.C_inj'8321'_38
                                                                                   (coe v10)
-                                                                           _ -> MAlonzo.RTE.mazUnreachableError)))
+                                                                           _ -> MAlonzo.RTE.mazUnreachableErrorX "Utxo.hs, line: 24712")))
                                                                 v6)
                                                              (coe v7)
                                                              (coe
@@ -24721,7 +24721,7 @@ d_utxow'45'step_280 v0 v1 v2
                                                                          case coe v9 of
                                                                            MAlonzo.Code.Ledger.GovernanceActions.C_Anchor'46'constructor_1287 v10 v11
                                                                              -> coe v11
-                                                                           _ -> MAlonzo.RTE.mazUnreachableError))
+                                                                           _ -> MAlonzo.RTE.mazUnreachableErrorX "Utxo.hs, line: 24724"))
                                                                    (coe
                                                                       (\ v9 ->
                                                                          coe

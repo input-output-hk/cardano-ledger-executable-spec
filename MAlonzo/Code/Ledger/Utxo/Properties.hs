@@ -4648,9 +4648,9 @@ du_'8804'updateCertDeps_2950 v0 v1 v2 v3 v4
                                  (coe
                                     MAlonzo.Code.Ledger.Utxo.du_updateCertDeposits_1782 (coe v0)
                                     (coe v2) (coe v6) (coe v3))))
-                    _ -> MAlonzo.RTE.mazUnreachableError
-             _ -> MAlonzo.RTE.mazUnreachableError
-      _ -> MAlonzo.RTE.mazUnreachableError
+                    _ -> MAlonzo.RTE.mazUnreachableErrorX "Properties.hs, line: 4651"
+             _ -> MAlonzo.RTE.mazUnreachableErrorX "Properties.hs, line: 4652"
+      _ -> MAlonzo.RTE.mazUnreachableErrorX "Properties.hs, line: 4653"
 -- Ledger.Utxo.Properties._._.body
 d_body_2980 ::
   MAlonzo.Code.Ledger.Transaction.T_TransactionStructure_20 ->

@@ -1094,7 +1094,7 @@ du_updateCertDeposits_1782 v0 v1 v2 v3
                    du_updateCertDeposits_1782 (coe v0) (coe v1) (coe v5) (coe v3))
                 (coe du_certDeposit_1762 (coe v4) (coe v1)))
              (coe du_certRefund_1776 (coe v4))
-      _ -> MAlonzo.RTE.mazUnreachableError
+      _ -> MAlonzo.RTE.mazUnreachableErrorX "Utxo.hs, line: 1097"
 -- Ledger.Utxo.updateProposalDeposits
 d_updateProposalDeposits_1794 ::
   MAlonzo.Code.Ledger.Transaction.T_TransactionStructure_20 ->

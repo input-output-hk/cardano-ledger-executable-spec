@@ -1058,7 +1058,7 @@ d_Computational'45'GOVCERT_918 v0
                                                                         (coe
                                                                            MAlonzo.Code.Ledger.Deleg.C_GOVCERT'45'regdrep_962
                                                                            v17))
-                                                              _ -> MAlonzo.RTE.mazUnreachableError
+                                                              _ -> MAlonzo.RTE.mazUnreachableErrorX "Properties.hs, line: 1061"
                                                        else coe
                                                               seq (coe v16)
                                                               (coe
@@ -1067,7 +1067,7 @@ d_Computational'45'GOVCERT_918 v0
                                                                     ("\172\n(d \8801 .Ledger.PParams.PParams.drepDeposit pp \215\n (_815 gs epoch\8321 pp votes wdrls dReps ccHotKeys c d x\n  Interface.IsSet.IsSet.\8713 c)\n (Interface.IsSet.dom (.Axiom.Set.Theory\7496.th List-Model\7496) dReps)\n \8846\n d \8801 0 \215\n (_826 gs epoch\8321 pp votes wdrls dReps ccHotKeys c d x\n  Interface.IsSet.IsSet.\8712 c)\n (Interface.IsSet.dom (.Axiom.Set.Theory\7496.th List-Model\7496) dReps))"
                                                                      ::
                                                                      Data.Text.Text)))
-                                                _ -> MAlonzo.RTE.mazUnreachableError)
+                                                _ -> MAlonzo.RTE.mazUnreachableErrorX "Properties.hs, line: 1070")
                                       MAlonzo.Code.Ledger.Deleg.C_deregdrep_646 v11
                                         -> let v12
                                                  = coe

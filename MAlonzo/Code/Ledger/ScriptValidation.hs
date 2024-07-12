@@ -628,7 +628,7 @@ du_Dec'45'DelegateOrDeReg_1836 v0
                 MAlonzo.Code.Relation.Nullary.Decidable.Core.C__because__32
                 (coe MAlonzo.Code.Agda.Builtin.Bool.C_false_8)
                 (coe MAlonzo.Code.Relation.Nullary.Reflects.C_of'8319'_26)
-         _ -> MAlonzo.RTE.mazUnreachableError)
+         _ -> MAlonzo.RTE.mazUnreachableErrorX "ScriptValidation.hs, line: 631")
 -- Ledger.ScriptValidation.UTxOSH
 d_UTxOSH_1858 ::
   MAlonzo.Code.Ledger.Transaction.T_TransactionStructure_20 ->
@@ -812,7 +812,7 @@ du_certScripts_1890 v0
                     (coe
                        MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32
                        (coe C_Cert_1486 (coe v0)) (coe v4))
-             _ -> MAlonzo.RTE.mazUnreachableError
+             _ -> MAlonzo.RTE.mazUnreachableErrorX "ScriptValidation.hs, line: 815"
       MAlonzo.Code.Ledger.Certs.C_deregdrep_732 v1
         -> case coe v1 of
              MAlonzo.Code.Data.Sum.Base.C_inj'8321'_38 v2
