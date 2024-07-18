@@ -162,14 +162,15 @@ du__'8739'''__346 v0 v1 v2
          (MAlonzo.Code.Axiom.Set.d_sp_150 (coe v0)) erased erased erased v2
          (\ v3 -> MAlonzo.Code.Agda.Builtin.Sigma.d_fst_28 (coe v3)))
       v1
--- Axiom.Set.Rel._↾'_
-d__'8638'''__354 ::
+-- Axiom.Set.Rel._∣^'_
+d__'8739''94'''__354 ::
   MAlonzo.Code.Axiom.Set.T_Theory_82 ->
   () -> () -> (AgdaAny -> ()) -> AgdaAny -> AgdaAny -> AgdaAny
-d__'8638'''__354 v0 ~v1 ~v2 ~v3 v4 v5 = du__'8638'''__354 v0 v4 v5
-du__'8638'''__354 ::
+d__'8739''94'''__354 v0 ~v1 ~v2 ~v3 v4 v5
+  = du__'8739''94'''__354 v0 v4 v5
+du__'8739''94'''__354 ::
   MAlonzo.Code.Axiom.Set.T_Theory_82 -> AgdaAny -> AgdaAny -> AgdaAny
-du__'8638'''__354 v0 v1 v2
+du__'8739''94'''__354 v0 v1 v2
   = coe
       MAlonzo.Code.Axiom.Set.du_filter_402 v0
       (coe
@@ -2225,28 +2226,29 @@ du_res'45'dom'45'comm_980 v0 v1 v2 v3
                (coe v1) (coe du_dom_336 v0 v3) (coe du_dom_336 v0 v2)))
          (coe
             du_res'45'dom'45'comm''_974 (coe v0) (coe v1) (coe v2) (coe v3)))
--- Axiom.Set.Rel.Corestriction._↾_
-d__'8638'__1036 ::
+-- Axiom.Set.Rel.Corestriction._∣^_
+d__'8739''94'__1036 ::
   MAlonzo.Code.Axiom.Set.T_Theory_82 ->
   () -> (AgdaAny -> AgdaAny) -> () -> AgdaAny -> AgdaAny -> AgdaAny
-d__'8638'__1036 v0 ~v1 v2 ~v3 v4 v5 = du__'8638'__1036 v0 v2 v4 v5
-du__'8638'__1036 ::
+d__'8739''94'__1036 v0 ~v1 v2 ~v3 v4 v5
+  = du__'8739''94'__1036 v0 v2 v4 v5
+du__'8739''94'__1036 ::
   MAlonzo.Code.Axiom.Set.T_Theory_82 ->
   (AgdaAny -> AgdaAny) -> AgdaAny -> AgdaAny -> AgdaAny
-du__'8638'__1036 v0 v1 v2 v3
-  = coe du__'8638'''__354 (coe v0) (coe v2) (coe v1 v3)
--- Axiom.Set.Rel.Corestriction._↾_ᶜ
-d__'8638'_'7580'_1042 ::
+du__'8739''94'__1036 v0 v1 v2 v3
+  = coe du__'8739''94'''__354 (coe v0) (coe v2) (coe v1 v3)
+-- Axiom.Set.Rel.Corestriction._∣^_ᶜ
+d__'8739''94'_'7580'_1042 ::
   MAlonzo.Code.Axiom.Set.T_Theory_82 ->
   () -> (AgdaAny -> AgdaAny) -> () -> AgdaAny -> AgdaAny -> AgdaAny
-d__'8638'_'7580'_1042 v0 ~v1 v2 ~v3 v4 v5
-  = du__'8638'_'7580'_1042 v0 v2 v4 v5
-du__'8638'_'7580'_1042 ::
+d__'8739''94'_'7580'_1042 v0 ~v1 v2 ~v3 v4 v5
+  = du__'8739''94'_'7580'_1042 v0 v2 v4 v5
+du__'8739''94'_'7580'_1042 ::
   MAlonzo.Code.Axiom.Set.T_Theory_82 ->
   (AgdaAny -> AgdaAny) -> AgdaAny -> AgdaAny -> AgdaAny
-du__'8638'_'7580'_1042 v0 v1 v2 v3
+du__'8739''94'_'7580'_1042 v0 v1 v2 v3
   = coe
-      du__'8638'''__354 (coe v0) (coe v2)
+      du__'8739''94'''__354 (coe v0) (coe v2)
       (coe
          MAlonzo.Code.Axiom.Set.d_sp'45''172'_70
          (MAlonzo.Code.Axiom.Set.d_sp_150 (coe v0)) erased erased
