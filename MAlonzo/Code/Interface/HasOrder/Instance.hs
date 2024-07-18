@@ -23,7 +23,6 @@ import qualified MAlonzo.Code.Class.Decidable.Core
 import qualified MAlonzo.Code.Class.Decidable.Instances
 import qualified MAlonzo.Code.Data.Integer.Properties
 import qualified MAlonzo.Code.Data.Nat.Properties
-import qualified MAlonzo.Code.Data.Rational.Base
 import qualified MAlonzo.Code.Data.Rational.Properties
 import qualified MAlonzo.Code.Data.Sum.Base
 import qualified MAlonzo.Code.Function.Bundles
@@ -235,37 +234,19 @@ d_ℤ'45'hasDecPartialOrder_32
               (coe
                  MAlonzo.Code.Data.Integer.Properties.d__'60''63'__2952 (coe v0)
                  (coe v1))))
--- Interface.HasOrder.Instance.ℚ-Dec-≤
-d_ℚ'45'Dec'45''8804'_34 ::
-  MAlonzo.Code.Data.Rational.Base.T_ℚ_6 ->
-  MAlonzo.Code.Data.Rational.Base.T_ℚ_6 ->
-  MAlonzo.Code.Class.Decidable.Core.T__'8263'_10
-d_ℚ'45'Dec'45''8804'_34
-  = coe
-      MAlonzo.Code.Class.Decidable.Core.du_'8263''178'__138
-      (coe MAlonzo.Code.Data.Rational.Properties.d__'8804''63'__3402)
--- Interface.HasOrder.Instance.ℚ-Dec-<
-d_ℚ'45'Dec'45''60'_36 ::
-  MAlonzo.Code.Data.Rational.Base.T_ℚ_6 ->
-  MAlonzo.Code.Data.Rational.Base.T_ℚ_6 ->
-  MAlonzo.Code.Class.Decidable.Core.T__'8263'_10
-d_ℚ'45'Dec'45''60'_36
-  = coe
-      MAlonzo.Code.Class.Decidable.Core.du_'8263''178'__138
-      (coe MAlonzo.Code.Data.Rational.Properties.d__'60''63'__3584)
 -- Interface.HasOrder.Instance.ℚ-hasPreorder
-d_ℚ'45'hasPreorder_38 ::
+d_ℚ'45'hasPreorder_34 ::
   MAlonzo.Code.Interface.HasOrder.T_HasPreorder_18
-d_ℚ'45'hasPreorder_38
+d_ℚ'45'hasPreorder_34
   = coe
       MAlonzo.Code.Interface.HasOrder.du_hasPreorderFromNonStrict_362
       (coe
          MAlonzo.Code.Data.Rational.Properties.d_'8804''45'isPreorder_3416)
       (coe MAlonzo.Code.Data.Rational.Properties.d__'8799'__2554)
 -- Interface.HasOrder.Instance.ℚ-hasPartialOrder
-d_ℚ'45'hasPartialOrder_40 ::
+d_ℚ'45'hasPartialOrder_36 ::
   MAlonzo.Code.Interface.HasOrder.T_HasPartialOrder_166
-d_ℚ'45'hasPartialOrder_40
+d_ℚ'45'hasPartialOrder_36
   = coe
       MAlonzo.Code.Interface.HasOrder.C_HasPartialOrder'46'constructor_9473
       (coe
@@ -275,12 +256,12 @@ d_ℚ'45'hasPartialOrder_40
          (coe MAlonzo.Code.Data.Rational.Properties.d__'8799'__2554))
       erased
 -- Interface.HasOrder.Instance.ℚ-hasDecPartialOrder
-d_ℚ'45'hasDecPartialOrder_42 ::
+d_ℚ'45'hasDecPartialOrder_38 ::
   MAlonzo.Code.Interface.HasOrder.T_HasDecPartialOrder_220
-d_ℚ'45'hasDecPartialOrder_42
+d_ℚ'45'hasDecPartialOrder_38
   = coe
       MAlonzo.Code.Interface.HasOrder.C_HasDecPartialOrder'46'constructor_19617
-      (coe d_ℚ'45'hasPartialOrder_40)
+      (coe d_ℚ'45'hasPartialOrder_36)
       (coe
          (\ v0 v1 ->
             coe

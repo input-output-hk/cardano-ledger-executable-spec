@@ -25,26 +25,26 @@ import qualified MAlonzo.Code.Interface.HasEmptySet
 d_Map_154 :: MAlonzo.Code.Axiom.Set.T_Theory_82 -> () -> () -> ()
 d_Map_154 = erased
 -- Interface.HasEmptySet.Instances.HasEmptySet-Set
-d_HasEmptySet'45'Set_292 ::
+d_HasEmptySet'45'Set_294 ::
   MAlonzo.Code.Axiom.Set.T_Theory_82 ->
   () -> MAlonzo.Code.Interface.HasEmptySet.T_HasEmptySet_6
-d_HasEmptySet'45'Set_292 v0 ~v1 = du_HasEmptySet'45'Set_292 v0
-du_HasEmptySet'45'Set_292 ::
+d_HasEmptySet'45'Set_294 v0 ~v1 = du_HasEmptySet'45'Set_294 v0
+du_HasEmptySet'45'Set_294 ::
   MAlonzo.Code.Axiom.Set.T_Theory_82 ->
   MAlonzo.Code.Interface.HasEmptySet.T_HasEmptySet_6
-du_HasEmptySet'45'Set_292 v0
+du_HasEmptySet'45'Set_294 v0
   = coe
       MAlonzo.Code.Interface.HasEmptySet.C_HasEmptySet'46'constructor_3
       (coe MAlonzo.Code.Axiom.Set.du_'8709'_424 (coe v0))
 -- Interface.HasEmptySet.Instances.HasEmptySet-Map
-d_HasEmptySet'45'Map_298 ::
+d_HasEmptySet'45'Map_300 ::
   MAlonzo.Code.Axiom.Set.T_Theory_82 ->
   () -> () -> MAlonzo.Code.Interface.HasEmptySet.T_HasEmptySet_6
-d_HasEmptySet'45'Map_298 v0 ~v1 ~v2 = du_HasEmptySet'45'Map_298 v0
-du_HasEmptySet'45'Map_298 ::
+d_HasEmptySet'45'Map_300 v0 ~v1 ~v2 = du_HasEmptySet'45'Map_300 v0
+du_HasEmptySet'45'Map_300 ::
   MAlonzo.Code.Axiom.Set.T_Theory_82 ->
   MAlonzo.Code.Interface.HasEmptySet.T_HasEmptySet_6
-du_HasEmptySet'45'Map_298 v0
+du_HasEmptySet'45'Map_300 v0
   = coe
       MAlonzo.Code.Interface.HasEmptySet.C_HasEmptySet'46'constructor_3
       (coe MAlonzo.Code.Axiom.Set.Map.du_'8709''7504'_562 (coe v0))

@@ -29,6 +29,8 @@ import qualified MAlonzo.Code.Data.List.Relation.Unary.Any
 import qualified MAlonzo.Code.Data.Maybe.Relation.Unary.All
 import qualified MAlonzo.Code.Data.Maybe.Relation.Unary.Any
 import qualified MAlonzo.Code.Data.Nat.Properties
+import qualified MAlonzo.Code.Data.Rational.Base
+import qualified MAlonzo.Code.Data.Rational.Properties
 import qualified MAlonzo.Code.Data.Sum.Base
 import qualified MAlonzo.Code.Data.Sum.Relation.Unary.All
 import qualified MAlonzo.Code.Data.Vec.Base
@@ -413,3 +415,21 @@ d_ℤ'45'Dec'45''60'_80
   = coe
       MAlonzo.Code.Class.Decidable.Core.du_'8263''178'__138
       (coe MAlonzo.Code.Data.Integer.Properties.d__'60''63'__2952)
+-- Class.Decidable.Instances.ℚ-Dec-≤
+d_ℚ'45'Dec'45''8804'_82 ::
+  MAlonzo.Code.Data.Rational.Base.T_ℚ_6 ->
+  MAlonzo.Code.Data.Rational.Base.T_ℚ_6 ->
+  MAlonzo.Code.Class.Decidable.Core.T__'8263'_10
+d_ℚ'45'Dec'45''8804'_82
+  = coe
+      MAlonzo.Code.Class.Decidable.Core.du_'8263''178'__138
+      (coe MAlonzo.Code.Data.Rational.Properties.d__'8804''63'__3402)
+-- Class.Decidable.Instances.ℚ-Dec-<
+d_ℚ'45'Dec'45''60'_84 ::
+  MAlonzo.Code.Data.Rational.Base.T_ℚ_6 ->
+  MAlonzo.Code.Data.Rational.Base.T_ℚ_6 ->
+  MAlonzo.Code.Class.Decidable.Core.T__'8263'_10
+d_ℚ'45'Dec'45''60'_84
+  = coe
+      MAlonzo.Code.Class.Decidable.Core.du_'8263''178'__138
+      (coe MAlonzo.Code.Data.Rational.Properties.d__'60''63'__3584)
