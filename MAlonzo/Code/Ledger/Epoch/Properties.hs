@@ -1612,7 +1612,7 @@ du_EPOCH'45'total_1944 v0 v1 v2
                MAlonzo.Code.Ledger.Ratify.Properties.d_RATIFY'45'total''_2088
                (coe v0)
                (coe
-                  MAlonzo.Code.Ledger.Ratify.C_RatifyEnv'46'constructor_10585
+                  MAlonzo.Code.Ledger.Ratify.C_RatifyEnv'46'constructor_11095
                   (coe
                      MAlonzo.Code.Ledger.Epoch.du_mkStakeDistrs_2286 (coe v0)
                      (coe
@@ -2239,7 +2239,7 @@ du_EPOCH'45'total_1944 v0 v1 v2
                MAlonzo.Code.Ledger.Ratify.Properties.d_RATIFY'45'total''_2088
                (coe v0)
                (coe
-                  MAlonzo.Code.Ledger.Ratify.C_RatifyEnv'46'constructor_10585
+                  MAlonzo.Code.Ledger.Ratify.C_RatifyEnv'46'constructor_11095
                   (coe
                      MAlonzo.Code.Ledger.Epoch.du_mkStakeDistrs_2286 (coe v0)
                      (coe
@@ -2416,7 +2416,7 @@ du_EPOCH'45'total_1944 v0 v1 v2
                                    MAlonzo.Code.Ledger.Ratify.Properties.d_RATIFY'45'total''_2088
                                    (coe v0)
                                    (coe
-                                      MAlonzo.Code.Ledger.Ratify.C_RatifyEnv'46'constructor_10585
+                                      MAlonzo.Code.Ledger.Ratify.C_RatifyEnv'46'constructor_11095
                                       (coe
                                          MAlonzo.Code.Ledger.Epoch.du_mkStakeDistrs_2286 (coe v0)
                                          (coe
@@ -3125,7 +3125,7 @@ du_EPOCH'45'total_1944 v0 v1 v2
                                    MAlonzo.Code.Ledger.Ratify.Properties.d_RATIFY'45'total''_2088
                                    (coe v0)
                                    (coe
-                                      MAlonzo.Code.Ledger.Ratify.C_RatifyEnv'46'constructor_10585
+                                      MAlonzo.Code.Ledger.Ratify.C_RatifyEnv'46'constructor_11095
                                       (coe
                                          MAlonzo.Code.Ledger.Epoch.du_mkStakeDistrs_2286 (coe v0)
                                          (coe

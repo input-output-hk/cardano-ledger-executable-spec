@@ -950,7 +950,7 @@ du_mkStakeDistrs_2286 ::
   MAlonzo.Code.Ledger.Ratify.T_StakeDistrs_1798
 du_mkStakeDistrs_2286 v0 v1 v2 v3 v4
   = coe
-      MAlonzo.Code.Ledger.Ratify.C_StakeDistrs'46'constructor_10499
+      MAlonzo.Code.Ledger.Ratify.C_StakeDistrs'46'constructor_11009
       (case coe v1 of
          C_'10214'_'44'_'10215''738'_2074 v5 v6
            -> coe

@@ -230,7 +230,7 @@ d_RATIFY'''45'total_1922 v0 v1 v2 v3
                                                                    MAlonzo.Code.Ledger.Ratify.du_delayingAction_2230
                                                                    (let v14
                                                                           = coe
-                                                                              MAlonzo.Code.Ledger.Ratify.C_mkGeneralizeTel_95961
+                                                                              MAlonzo.Code.Ledger.Ratify.C_mkGeneralizeTel_96471
                                                                               (coe v1) (coe v3)
                                                                               (coe
                                                                                  MAlonzo.Code.Ledger.Ratify.d_es_1834
@@ -248,7 +248,7 @@ d_RATIFY'''45'total_1922 v0 v1 v2 v3
                                                                          (coe
                                                                             MAlonzo.Code.Agda.Builtin.Sigma.d_snd_30
                                                                             (coe
-                                                                               MAlonzo.Code.Ledger.Ratify.d_'46'generalizedField'45'a_95949
+                                                                               MAlonzo.Code.Ledger.Ratify.d_'46'generalizedField'45'a_96459
                                                                                v14))))))
                                                              (coe
                                                                 MAlonzo.Code.Ledger.Ratify.C_RATIFY'45'Accept_2402
@@ -269,7 +269,7 @@ d_RATIFY'''45'total_1922 v0 v1 v2 v3
                                                                             (coe v3))
                                                                          (let v14
                                                                                 = coe
-                                                                                    MAlonzo.Code.Ledger.Ratify.C_mkGeneralizeTel_95961
+                                                                                    MAlonzo.Code.Ledger.Ratify.C_mkGeneralizeTel_96471
                                                                                     (coe v1)
                                                                                     (coe v3)
                                                                                     (coe
@@ -286,11 +286,11 @@ d_RATIFY'''45'total_1922 v0 v1 v2 v3
                                                                             (coe
                                                                                MAlonzo.Code.Ledger.Ratify.d_treasury_1824
                                                                                (coe
-                                                                                  MAlonzo.Code.Ledger.Ratify.d_'46'generalizedField'45'Γ_95947
+                                                                                  MAlonzo.Code.Ledger.Ratify.d_'46'generalizedField'45'Γ_96457
                                                                                   v14)))
                                                                          (let v14
                                                                                 = coe
-                                                                                    MAlonzo.Code.Ledger.Ratify.C_mkGeneralizeTel_95961
+                                                                                    MAlonzo.Code.Ledger.Ratify.C_mkGeneralizeTel_96471
                                                                                     (coe v1)
                                                                                     (coe v3)
                                                                                     (coe
@@ -307,14 +307,14 @@ d_RATIFY'''45'total_1922 v0 v1 v2 v3
                                                                             (coe
                                                                                MAlonzo.Code.Ledger.Ratify.d_currentEpoch_1818
                                                                                (coe
-                                                                                  MAlonzo.Code.Ledger.Ratify.d_'46'generalizedField'45'Γ_95947
+                                                                                  MAlonzo.Code.Ledger.Ratify.d_'46'generalizedField'45'Γ_96457
                                                                                   v14))))
                                                                       (coe
                                                                          MAlonzo.Code.Ledger.Ratify.d_es_1834
                                                                          (coe v2))
                                                                       (let v14
                                                                              = coe
-                                                                                 MAlonzo.Code.Ledger.Ratify.C_mkGeneralizeTel_95961
+                                                                                 MAlonzo.Code.Ledger.Ratify.C_mkGeneralizeTel_96471
                                                                                  (coe v1) (coe v3)
                                                                                  (coe
                                                                                     MAlonzo.Code.Ledger.Ratify.d_es_1834
@@ -332,7 +332,7 @@ d_RATIFY'''45'total_1922 v0 v1 v2 v3
                                                                             (coe
                                                                                MAlonzo.Code.Agda.Builtin.Sigma.d_snd_30
                                                                                (coe
-                                                                                  MAlonzo.Code.Ledger.Ratify.d_'46'generalizedField'45'a_95949
+                                                                                  MAlonzo.Code.Ledger.Ratify.d_'46'generalizedField'45'a_96459
                                                                                   v14))))
                                                                       (coe v12))
                                                                    v13))))
