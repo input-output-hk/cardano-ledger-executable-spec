@@ -593,7 +593,7 @@ d_drepActivity_1174 ~v0 v1 = du_drepActivity_1174 v1
 du_drepActivity_1174 :: T_GeneralizeTel_32865 -> AgdaAny
 du_drepActivity_1174 v0
   = coe
-      MAlonzo.Code.Ledger.PParams.d_drepActivity_344
+      MAlonzo.Code.Ledger.PParams.d_drepActivity_340
       (coe d_'46'generalizedField'45'pp_32843 v0)
 -- Ledger.Certs..generalizedField-pp
 d_'46'generalizedField'45'pp_18633 ::

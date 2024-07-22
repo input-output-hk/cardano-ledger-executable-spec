@@ -976,7 +976,7 @@ d_Computational'45'GOVCERT_1094 v0
                                                                  MAlonzo.Code.Data.Nat.Properties.d__'8799'__2558)
                                                               (coe v13)
                                                               (coe
-                                                                 MAlonzo.Code.Ledger.PParams.d_drepDeposit_342
+                                                                 MAlonzo.Code.Ledger.PParams.d_drepDeposit_338
                                                                  (coe v3)))
                                                            (coe
                                                               MAlonzo.Code.Class.Decidable.Instances.du_Dec'45''8594'_22
@@ -1114,7 +1114,7 @@ d_Computational'45'GOVCERT_1094 v0
                                                                                                 (coe
                                                                                                    v0)))
                                                                                           v2
-                                                                                          (MAlonzo.Code.Ledger.PParams.d_drepActivity_344
+                                                                                          (MAlonzo.Code.Ledger.PParams.d_drepActivity_340
                                                                                              (coe
                                                                                                 v3)))))
                                                                                  (coe v8)))
@@ -2754,7 +2754,7 @@ d_Computational'45'CERTBASE_1692 v0
                                                                                           (coe
                                                                                              v7))) in
                                                                           coe
-                                                                            (MAlonzo.Code.Ledger.PParams.d_drepActivity_344
+                                                                            (MAlonzo.Code.Ledger.PParams.d_drepActivity_340
                                                                                (coe
                                                                                   MAlonzo.Code.Ledger.Certs.d_'46'generalizedField'45'pp_32843
                                                                                   v14))) in
