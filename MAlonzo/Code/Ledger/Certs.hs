@@ -555,20 +555,20 @@ data T__'8866'_'8640''10631'_'44'POOL'10632'__998
 d__'8866'_'8640''10631'_'44'GOVCERT'10632'__1000 a0 a1 a2 a3 a4
   = ()
 data T__'8866'_'8640''10631'_'44'GOVCERT'10632'__1000
-  = C_GOVCERT'45'regdrep_1140 MAlonzo.Code.Data.Sum.Base.T__'8846'__30 |
-    C_GOVCERT'45'deregdrep_1142 MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 |
-    C_GOVCERT'45'ccreghot_1144
+  = C_GOVCERT'45'regdrep_1142 MAlonzo.Code.Data.Sum.Base.T__'8846'__30 |
+    C_GOVCERT'45'deregdrep_1144 MAlonzo.Code.Data.List.Relation.Unary.Any.T_Any_34 |
+    C_GOVCERT'45'ccreghot_1146
 -- Ledger.Certs._⊢_⇀⦇_,CERT⦈_
 d__'8866'_'8640''10631'_'44'CERT'10632'__1002 a0 a1 a2 a3 a4 = ()
 data T__'8866'_'8640''10631'_'44'CERT'10632'__1002
-  = C_CERT'45'deleg_1146 T__'8866'_'8640''10631'_'44'DELEG'10632'__996 |
-    C_CERT'45'pool_1148 T__'8866'_'8640''10631'_'44'POOL'10632'__998 |
-    C_CERT'45'vdel_1150 T__'8866'_'8640''10631'_'44'GOVCERT'10632'__1000
+  = C_CERT'45'deleg_1148 T__'8866'_'8640''10631'_'44'DELEG'10632'__996 |
+    C_CERT'45'pool_1150 T__'8866'_'8640''10631'_'44'POOL'10632'__998 |
+    C_CERT'45'vdel_1152 T__'8866'_'8640''10631'_'44'GOVCERT'10632'__1000
 -- Ledger.Certs._⊢_⇀⦇_,CERTBASE⦈_
 d__'8866'_'8640''10631'_'44'CERTBASE'10632'__1004 a0 a1 a2 a3 a4
   = ()
 newtype T__'8866'_'8640''10631'_'44'CERTBASE'10632'__1004
-  = C_CERT'45'base_1218 MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
+  = C_CERT'45'base_1220 MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
 -- Ledger.Certs._._⊢_⇀⦇_,CERTS⦈_
 d__'8866'_'8640''10631'_'44'CERTS'10632'__1010 ::
   MAlonzo.Code.Ledger.Types.GovStructure.T_GovStructure_6 ->
@@ -586,35 +586,15 @@ du_keyDeposit_1042 v0
       MAlonzo.Code.Ledger.PParams.d_keyDeposit_308
       (coe d_'46'generalizedField'45'pp_18633 v0)
 -- Ledger.Certs._.drepActivity
-d_drepActivity_1100 ::
+d_drepActivity_1174 ::
   MAlonzo.Code.Ledger.Types.GovStructure.T_GovStructure_6 ->
-  T_GeneralizeTel_26781 -> AgdaAny
-d_drepActivity_1100 ~v0 v1 = du_drepActivity_1100 v1
-du_drepActivity_1100 :: T_GeneralizeTel_26781 -> AgdaAny
-du_drepActivity_1100 v0
+  T_GeneralizeTel_32865 -> AgdaAny
+d_drepActivity_1174 ~v0 v1 = du_drepActivity_1174 v1
+du_drepActivity_1174 :: T_GeneralizeTel_32865 -> AgdaAny
+du_drepActivity_1174 v0
   = coe
-      MAlonzo.Code.Ledger.PParams.d_drepActivity_340
-      (coe d_'46'generalizedField'45'pp_26761 v0)
--- Ledger.Certs._.drepDeposit
-d_drepDeposit_1102 ::
-  MAlonzo.Code.Ledger.Types.GovStructure.T_GovStructure_6 ->
-  T_GeneralizeTel_26781 -> Integer
-d_drepDeposit_1102 ~v0 v1 = du_drepDeposit_1102 v1
-du_drepDeposit_1102 :: T_GeneralizeTel_26781 -> Integer
-du_drepDeposit_1102 v0
-  = coe
-      MAlonzo.Code.Ledger.PParams.d_drepDeposit_338
-      (coe d_'46'generalizedField'45'pp_26761 v0)
--- Ledger.Certs._.drepActivity
-d_drepActivity_1172 ::
-  MAlonzo.Code.Ledger.Types.GovStructure.T_GovStructure_6 ->
-  T_GeneralizeTel_32437 -> AgdaAny
-d_drepActivity_1172 ~v0 v1 = du_drepActivity_1172 v1
-du_drepActivity_1172 :: T_GeneralizeTel_32437 -> AgdaAny
-du_drepActivity_1172 v0
-  = coe
-      MAlonzo.Code.Ledger.PParams.d_drepActivity_340
-      (coe d_'46'generalizedField'45'pp_32415 v0)
+      MAlonzo.Code.Ledger.PParams.d_drepActivity_344
+      (coe d_'46'generalizedField'45'pp_32843 v0)
 -- Ledger.Certs..generalizedField-pp
 d_'46'generalizedField'45'pp_18633 ::
   T_GeneralizeTel_18653 -> MAlonzo.Code.Ledger.PParams.T_PParams_228
@@ -677,125 +657,64 @@ data T_GeneralizeTel_18653
                             MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
                             (Maybe MAlonzo.Code.Ledger.GovernanceActions.T_VDeleg_630)
 -- Ledger.Certs..generalizedField-pp
-d_'46'generalizedField'45'pp_26761 ::
-  T_GeneralizeTel_26781 -> MAlonzo.Code.Ledger.PParams.T_PParams_228
-d_'46'generalizedField'45'pp_26761
-  = MAlonzo.RTE.mazUnreachableError
--- Ledger.Certs..generalizedField-d
-d_'46'generalizedField'45'd_26763 ::
-  T_GeneralizeTel_26781 -> Integer
-d_'46'generalizedField'45'd_26763 = MAlonzo.RTE.mazUnreachableError
--- Ledger.Certs..generalizedField-c
-d_'46'generalizedField'45'c_26765 ::
-  T_GeneralizeTel_26781 ->
-  MAlonzo.Code.Ledger.Address.T_Credential_16
-d_'46'generalizedField'45'c_26765 = MAlonzo.RTE.mazUnreachableError
--- Ledger.Certs..generalizedField-dReps
-d_'46'generalizedField'45'dReps_26767 ::
-  T_GeneralizeTel_26781 -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'46'generalizedField'45'dReps_26767
-  = MAlonzo.RTE.mazUnreachableError
--- Ledger.Certs..generalizedField-e
-d_'46'generalizedField'45'e_26769 ::
-  T_GeneralizeTel_26781 -> AgdaAny
-d_'46'generalizedField'45'e_26769 = MAlonzo.RTE.mazUnreachableError
--- Ledger.Certs..generalizedField-vs
-d_'46'generalizedField'45'vs_26771 ::
-  T_GeneralizeTel_26781 ->
-  [MAlonzo.Code.Ledger.GovernanceActions.T_GovVote_690]
-d_'46'generalizedField'45'vs_26771
-  = MAlonzo.RTE.mazUnreachableError
--- Ledger.Certs..generalizedField-wdrls
-d_'46'generalizedField'45'wdrls_26773 ::
-  T_GeneralizeTel_26781 -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'46'generalizedField'45'wdrls_26773
-  = MAlonzo.RTE.mazUnreachableError
--- Ledger.Certs..generalizedField-deps
-d_'46'generalizedField'45'deps_26775 ::
-  T_GeneralizeTel_26781 -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'46'generalizedField'45'deps_26775
-  = MAlonzo.RTE.mazUnreachableError
--- Ledger.Certs..generalizedField-ccKeys
-d_'46'generalizedField'45'ccKeys_26777 ::
-  T_GeneralizeTel_26781 -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'46'generalizedField'45'ccKeys_26777
-  = MAlonzo.RTE.mazUnreachableError
--- Ledger.Certs..generalizedField-an
-d_'46'generalizedField'45'an_26779 ::
-  T_GeneralizeTel_26781 ->
-  MAlonzo.Code.Ledger.GovernanceActions.T_Anchor_638
-d_'46'generalizedField'45'an_26779
-  = MAlonzo.RTE.mazUnreachableError
--- Ledger.Certs.GeneralizeTel
-d_GeneralizeTel_26781 a0 = ()
-data T_GeneralizeTel_26781
-  = C_mkGeneralizeTel_26783 MAlonzo.Code.Ledger.PParams.T_PParams_228
-                            Integer MAlonzo.Code.Ledger.Address.T_Credential_16
-                            MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14 AgdaAny
-                            [MAlonzo.Code.Ledger.GovernanceActions.T_GovVote_690]
-                            MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-                            MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-                            MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-                            MAlonzo.Code.Ledger.GovernanceActions.T_Anchor_638
--- Ledger.Certs..generalizedField-pp
-d_'46'generalizedField'45'pp_32415 ::
-  T_GeneralizeTel_32437 -> MAlonzo.Code.Ledger.PParams.T_PParams_228
-d_'46'generalizedField'45'pp_32415
+d_'46'generalizedField'45'pp_32843 ::
+  T_GeneralizeTel_32865 -> MAlonzo.Code.Ledger.PParams.T_PParams_228
+d_'46'generalizedField'45'pp_32843
   = MAlonzo.RTE.mazUnreachableError
 -- Ledger.Certs..generalizedField-vs
-d_'46'generalizedField'45'vs_32417 ::
-  T_GeneralizeTel_32437 ->
+d_'46'generalizedField'45'vs_32845 ::
+  T_GeneralizeTel_32865 ->
   [MAlonzo.Code.Ledger.GovernanceActions.T_GovVote_690]
-d_'46'generalizedField'45'vs_32417
+d_'46'generalizedField'45'vs_32845
   = MAlonzo.RTE.mazUnreachableError
 -- Ledger.Certs..generalizedField-e
-d_'46'generalizedField'45'e_32419 ::
-  T_GeneralizeTel_32437 -> AgdaAny
-d_'46'generalizedField'45'e_32419 = MAlonzo.RTE.mazUnreachableError
+d_'46'generalizedField'45'e_32847 ::
+  T_GeneralizeTel_32865 -> AgdaAny
+d_'46'generalizedField'45'e_32847 = MAlonzo.RTE.mazUnreachableError
 -- Ledger.Certs..generalizedField-dreps
-d_'46'generalizedField'45'dreps_32421 ::
-  T_GeneralizeTel_32437 -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'46'generalizedField'45'dreps_32421
+d_'46'generalizedField'45'dreps_32849 ::
+  T_GeneralizeTel_32865 -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
+d_'46'generalizedField'45'dreps_32849
   = MAlonzo.RTE.mazUnreachableError
 -- Ledger.Certs..generalizedField-wdrls
-d_'46'generalizedField'45'wdrls_32423 ::
-  T_GeneralizeTel_32437 -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'46'generalizedField'45'wdrls_32423
+d_'46'generalizedField'45'wdrls_32851 ::
+  T_GeneralizeTel_32865 -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
+d_'46'generalizedField'45'wdrls_32851
   = MAlonzo.RTE.mazUnreachableError
 -- Ledger.Certs..generalizedField-voteDelegs
-d_'46'generalizedField'45'voteDelegs_32425 ::
-  T_GeneralizeTel_32437 -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'46'generalizedField'45'voteDelegs_32425
+d_'46'generalizedField'45'voteDelegs_32853 ::
+  T_GeneralizeTel_32865 -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
+d_'46'generalizedField'45'voteDelegs_32853
   = MAlonzo.RTE.mazUnreachableError
 -- Ledger.Certs..generalizedField-rewards
-d_'46'generalizedField'45'rewards_32427 ::
-  T_GeneralizeTel_32437 -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'46'generalizedField'45'rewards_32427
+d_'46'generalizedField'45'rewards_32855 ::
+  T_GeneralizeTel_32865 -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
+d_'46'generalizedField'45'rewards_32855
   = MAlonzo.RTE.mazUnreachableError
 -- Ledger.Certs..generalizedField-deps
-d_'46'generalizedField'45'deps_32429 ::
-  T_GeneralizeTel_32437 -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'46'generalizedField'45'deps_32429
+d_'46'generalizedField'45'deps_32857 ::
+  T_GeneralizeTel_32865 -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
+d_'46'generalizedField'45'deps_32857
   = MAlonzo.RTE.mazUnreachableError
 -- Ledger.Certs..generalizedField-stakeDelegs
-d_'46'generalizedField'45'stakeDelegs_32431 ::
-  T_GeneralizeTel_32437 -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'46'generalizedField'45'stakeDelegs_32431
+d_'46'generalizedField'45'stakeDelegs_32859 ::
+  T_GeneralizeTel_32865 -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
+d_'46'generalizedField'45'stakeDelegs_32859
   = MAlonzo.RTE.mazUnreachableError
 -- Ledger.Certs..generalizedField-stᵖ
-d_'46'generalizedField'45'st'7510'_32433 ::
-  T_GeneralizeTel_32437 -> T_PState_860
-d_'46'generalizedField'45'st'7510'_32433
+d_'46'generalizedField'45'st'7510'_32861 ::
+  T_GeneralizeTel_32865 -> T_PState_860
+d_'46'generalizedField'45'st'7510'_32861
   = MAlonzo.RTE.mazUnreachableError
 -- Ledger.Certs..generalizedField-ccHotKeys
-d_'46'generalizedField'45'ccHotKeys_32435 ::
-  T_GeneralizeTel_32437 -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
-d_'46'generalizedField'45'ccHotKeys_32435
+d_'46'generalizedField'45'ccHotKeys_32863 ::
+  T_GeneralizeTel_32865 -> MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
+d_'46'generalizedField'45'ccHotKeys_32863
   = MAlonzo.RTE.mazUnreachableError
 -- Ledger.Certs.GeneralizeTel
-d_GeneralizeTel_32437 a0 = ()
-data T_GeneralizeTel_32437
-  = C_mkGeneralizeTel_32439 MAlonzo.Code.Ledger.PParams.T_PParams_228
+d_GeneralizeTel_32865 a0 = ()
+data T_GeneralizeTel_32865
+  = C_mkGeneralizeTel_32867 MAlonzo.Code.Ledger.PParams.T_PParams_228
                             [MAlonzo.Code.Ledger.GovernanceActions.T_GovVote_690] AgdaAny
                             MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14
                             MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14

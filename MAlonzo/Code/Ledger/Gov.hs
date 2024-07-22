@@ -901,7 +901,7 @@ d_govActionDeposit_1524 ~v0 v1 ~v2 = du_govActionDeposit_1524 v1
 du_govActionDeposit_1524 :: T_GeneralizeTel_36519 -> Integer
 du_govActionDeposit_1524 v0
   = coe
-      MAlonzo.Code.Ledger.PParams.d_govActionDeposit_336
+      MAlonzo.Code.Ledger.PParams.d_govActionDeposit_340
       (coe d_pparams_974 (coe d_'46'generalizedField'45'Γ_36503 v0))
 -- Ledger.Gov._.govActionLifetime
 d_govActionLifetime_1526 ::
@@ -912,7 +912,7 @@ d_govActionLifetime_1526 ~v0 v1 ~v2 = du_govActionLifetime_1526 v1
 du_govActionLifetime_1526 :: T_GeneralizeTel_36519 -> Integer
 du_govActionLifetime_1526 v0
   = coe
-      MAlonzo.Code.Ledger.PParams.d_govActionLifetime_334
+      MAlonzo.Code.Ledger.PParams.d_govActionLifetime_338
       (coe d_pparams_974 (coe d_'46'generalizedField'45'Γ_36503 v0))
 -- Ledger.Gov..generalizedField-Γ
 d_'46'generalizedField'45'Γ_34123 ::

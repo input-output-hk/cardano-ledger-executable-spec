@@ -184,30 +184,13 @@ d_RATIFY'''45'total_1904 v0 v1 v2 v3
                                                                   (coe v2))))
                                                          (coe
                                                             MAlonzo.Code.Ledger.Ratify.du_delayingAction_2230
-                                                            (let v15
-                                                                   = coe
-                                                                       MAlonzo.Code.Ledger.Ratify.C_mkGeneralizeTel_97263
-                                                                       (coe v1) (coe v3)
-                                                                       (coe
-                                                                          MAlonzo.Code.Ledger.Ratify.d_es_1834
-                                                                          (coe v2))
-                                                                       (coe
-                                                                          MAlonzo.Code.Ledger.Ratify.d_removed_1836
-                                                                          (coe v2))
-                                                                       (coe
-                                                                          MAlonzo.Code.Ledger.Ratify.d_delay_1838
-                                                                          (coe v2))
-                                                                       (coe v13) in
-                                                             coe
+                                                            (coe
+                                                               MAlonzo.Code.Ledger.GovernanceActions.d_action_752
                                                                (coe
-                                                                  MAlonzo.Code.Ledger.GovernanceActions.d_action_752
-                                                                  (coe
-                                                                     MAlonzo.Code.Agda.Builtin.Sigma.d_snd_30
-                                                                     (coe
-                                                                        MAlonzo.Code.Ledger.Ratify.d_'46'generalizedField'45'a_97251
-                                                                        v15))))))
+                                                                  MAlonzo.Code.Agda.Builtin.Sigma.d_snd_30
+                                                                  (coe v3)))))
                                                       (coe
-                                                         MAlonzo.Code.Ledger.Ratify.C_RATIFY'45'Accept_2442
+                                                         MAlonzo.Code.Ledger.Ratify.C_RATIFY'45'Accept_2452
                                                          (coe
                                                             MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32
                                                             (coe v8) (coe v14)))
@@ -253,7 +236,7 @@ d_RATIFY'''45'total_1904 v0 v1 v2 v3
                                                         MAlonzo.Code.Ledger.Ratify.d_delay_1838
                                                         (coe v2)))
                                                   (coe
-                                                     MAlonzo.Code.Ledger.Ratify.C_RATIFY'45'Reject_2458
+                                                     MAlonzo.Code.Ledger.Ratify.C_RATIFY'45'Reject_2476
                                                      (coe
                                                         MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32
                                                         erased (coe v10)))
@@ -264,7 +247,7 @@ d_RATIFY'''45'total_1904 v0 v1 v2 v3
                                               MAlonzo.Code.Data.Product.Base.du_'45''44'__92
                                               (coe v2)
                                               (coe
-                                                 MAlonzo.Code.Ledger.Ratify.C_RATIFY'45'Continue_2486
+                                                 MAlonzo.Code.Ledger.Ratify.C_RATIFY'45'Continue_2512
                                                  (coe
                                                     MAlonzo.Code.Agda.Builtin.Sigma.C__'44'__32
                                                     erased erased)))

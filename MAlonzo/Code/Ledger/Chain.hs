@@ -377,7 +377,7 @@ du_calculateStakeDistrs_2224 ::
   MAlonzo.Code.Ledger.Ratify.T_StakeDistrs_1798
 du_calculateStakeDistrs_2224 v0 v1
   = coe
-      MAlonzo.Code.Ledger.Ratify.C_StakeDistrs'46'constructor_10499
+      MAlonzo.Code.Ledger.Ratify.C_StakeDistrs'46'constructor_11009
       (coe du_govActionDeposits_2170 (coe v0) (coe v1))
 -- Ledger.Chain._⊢_⇀⦇_,CHAIN⦈_
 d__'8866'_'8640''10631'_'44'CHAIN'10632'__2272 a0 a1 a2 a3 a4 a5
