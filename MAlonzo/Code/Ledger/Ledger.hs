@@ -83,7 +83,7 @@ d_EnactState_1572 a0 a1 = ()
 d__'8866'_'8640''10631'_'44'GOV'10632'__1624 ::
   MAlonzo.Code.Ledger.Transaction.T_TransactionStructure_20 ->
   MAlonzo.Code.Ledger.Abstract.T_AbstractFunctions_1564 ->
-  MAlonzo.Code.Ledger.Gov.T_GovEnv_956 ->
+  MAlonzo.Code.Ledger.Gov.T_GovEnv_958 ->
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] ->
   [MAlonzo.Code.Data.Sum.Base.T__'8846'__30] ->
   [MAlonzo.Code.Agda.Builtin.Sigma.T_Σ_14] -> ()
