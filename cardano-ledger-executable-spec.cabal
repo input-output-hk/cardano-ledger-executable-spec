@@ -310,6 +310,7 @@ library
         MAlonzo.Code.Data.Rational.Unnormalised.Properties
         MAlonzo.Code.Data.Rational.Unnormalised.Base
         MAlonzo.Code.Data.Rational.Base
+        MAlonzo.Code.Data.Rational.Show
         MAlonzo.Code.Data.Sign.Properties
         MAlonzo.Code.Data.Sign.Base
         MAlonzo.Code.Data.Float.Properties
