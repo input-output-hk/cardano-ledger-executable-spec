@@ -1467,7 +1467,7 @@ d_H_1456 v0 v1 v2 v3
                   (coe MAlonzo.Code.Data.Nat.Properties.d__'8799'__2558)
                   (coe MAlonzo.Code.Ledger.GovernanceActions.d_deposit_728 (coe v3))
                   (coe
-                     MAlonzo.Code.Ledger.PParams.d_govActionDeposit_336
+                     MAlonzo.Code.Ledger.PParams.d_govActionDeposit_340
                      (coe
                         MAlonzo.Code.Ledger.Gov.d_pparams_974
                         (coe MAlonzo.Code.Agda.Builtin.Sigma.d_fst_28 (coe v1)))))
@@ -1881,7 +1881,7 @@ d_computeProof_1462 v0 v1 v2 v3
                                                                                                                                                                       (coe
                                                                                                                                                                          v0))
                                                                                                                                                                    (coe
-                                                                                                                                                                      MAlonzo.Code.Ledger.PParams.d_govActionLifetime_334
+                                                                                                                                                                      MAlonzo.Code.Ledger.PParams.d_govActionLifetime_338
                                                                                                                                                                       (coe
                                                                                                                                                                          MAlonzo.Code.Ledger.Gov.d_pparams_974
                                                                                                                                                                          (coe
@@ -2012,7 +2012,7 @@ d_computeProof_1462 v0 v1 v2 v3
                                                                                                                      (coe
                                                                                                                         v0))
                                                                                                                   (coe
-                                                                                                                     MAlonzo.Code.Ledger.PParams.d_govActionLifetime_334
+                                                                                                                     MAlonzo.Code.Ledger.PParams.d_govActionLifetime_338
                                                                                                                      (coe
                                                                                                                         MAlonzo.Code.Ledger.Gov.d_pparams_974
                                                                                                                         (coe
@@ -2104,7 +2104,7 @@ d_computeProof_1462 v0 v1 v2 v3
                                                             MAlonzo.Code.Ledger.GovernanceActions.d_deposit_728
                                                             (coe v3))
                                                          (coe
-                                                            MAlonzo.Code.Ledger.PParams.d_govActionDeposit_336
+                                                            MAlonzo.Code.Ledger.PParams.d_govActionDeposit_340
                                                             (coe
                                                                MAlonzo.Code.Ledger.Gov.d_pparams_974
                                                                (coe
